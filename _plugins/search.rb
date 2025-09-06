@@ -1,3 +1,6 @@
+# DeltaSearch Engine
+# Copyright 2025 Axeon Network
+
 require 'json'
 require 'jekyll'
 

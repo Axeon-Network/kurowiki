@@ -1,0 +1,19 @@
+{% comment %}
+  This include reads the build tag from the .buildtag file.
+  If the file doesn't exist, it displays a fallback message.
+{% endcomment %}
+{%- assign build_tag_path = site.source | append: '/.buildtag' -%}
+
+{% if site.data.is_build_tag_present %}
+  <span>{{ site.data.build_tag_content }}</span>
+{% else %}
+  {% capture build_tag_content %}
+    {% if site.static_files | where: 'path', build_tag_path | first %}
+      {%- assign file_content = site.static_files | where: 'path', build_tag_path | first -%}
+      <span>{{ file_content.content | strip }}</span>
+    {% else %}
+      <span style="color: grey;">(Build tag not found)</span>
+    {% endif %}
+  {% endcapture %}
+  {{ build_tag_content | strip }}
+{% endif %}
