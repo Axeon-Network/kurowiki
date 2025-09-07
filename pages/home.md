@@ -12,7 +12,7 @@ hatnote: adding a hatnote cuz we have ALOT of work-
         display: none !important;
     }
 </style>
-<h4 style="color:rgb(97, 97, 97)">Welcome to KuroWiki!</h4>
+<h4 style="color:white">Welcome to KuroWiki!</h4>
 
 <p>Some temporary string here....<br>TODO: add a proper description</p>
 

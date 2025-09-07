@@ -17,8 +17,10 @@
     <style>
         html {
             background-image: url('img/bg.jpg') !important;
-            background-position-y: -350px;
-            background-attachment: fixed;
+            /* background-position-y: -350px;
+            background-attachment: fixed; */
+            background-attachment: cover;
+            background-size: cover;
             
             /* background-image: linear-gradient(to bottom right, rgb(15, 17, 90), rgb(34, 12, 70)) */
         }
@@ -97,7 +99,7 @@ a {
 }
 
 .hatnote {
-  background-color: rgb(240, 236, 236);
+  background-color: rgba(0, 0, 0, 0.2);
   margin-top: 20px;
   margin-right: 15px;
   padding-left: 10px;
@@ -165,12 +167,12 @@ img {
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="box mdl-shadow--8dp" style="background-color: rgba(255,255,255,0.75); backdrop-filter: blur(15px); width:96%; justify-content: center; display: block; margin: 0 auto; padding: 8px;">
+    <div class="box mdl-shadow--8dp" style="color:white;background-color: rgba(4,4,4,0.45); backdrop-filter: blur(15px); width:96%; justify-content: center; display: block; margin: 0 auto; padding: 8px;">
         <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
             <div class="hatnote">
             {{ page.hatnote }}
         </div>
-      <h4 id="pagetitle" style="color:rgb(97, 97, 97)" >{{ page.title }}</h4><hr style="color: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0))!important;">
+      <h4 id="pagetitle" style="color:white" >{{ page.title }}</h4><hr style="color: linear-gradient(to left, rgba(0,0,0,1), rgba(0,0,0,0))!important;">
       <noscript><b><span style="color:rgb(197, 195, 49);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i></noscript>
             {{content}}
         </div>
