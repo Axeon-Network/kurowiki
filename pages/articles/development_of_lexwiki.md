@@ -1,40 +1,36 @@
 ---
 layout: main
-title: Development of LexWiki
-permalink: Development_of_LexWiki
-hatnote: This article details about the development of LexWiki, for the main LexWiki article, see <a href="LexWiki">LexWiki</a>
+title: Development of KuroWiki
+permalink: Development_of_KuroWiki
+hatnote: This article details about the development of KuroWiki, for the main KuroWiki article, see <a href="KuroWiki">KuroWiki</a>
 ---
 
-The **LexWiki Engine**, the custom-built core of the LexWiki encyclopedia, has undergone a rapid development process, evolving from an initial concept in early April 2025 to its current **Beta 3 status**.
-
-
-#### Behind-the-scenes
---- 
+The **KuroWiki Engine**, the custom-built core of the KuroWiki encyclopedia, has undergone a rapid development process, evolving from an initial concept in early April 2025 to its current **Beta 3 status**.
 
 ##### Early April 2025: Planning Stages
 ---
 
-In **early April 2025**, Lexibyte began thinking about making a Lexibyte-themed Wikipedia. The goal was to create a resource to easily get information about their projects and related content. They considered a self-hosted MediaWiki server, but Lexibyte was unsure how to make it work. This thought process continued through the entire month of April.
+In **early April 2025**, Nekori began thinking about making a Nekori-themed Wikipedia. The goal was to create a resource to easily get information about their projects and related content. They considered a self-hosted MediaWiki server, but Nekori was unsure how to make it work. This thought process continued through the entire month of April.
 
 ##### Early May 2025: Development Start
 ---
 
-Between **May 1 and May 3**, a Miraheze-hosted wiki was in the plans. However, after it wasn't parsed correctly due to the bot not cooperating, the LexWiki Engine started development.
+Between **May 1 and May 3**, a Miraheze-hosted wiki was in the plans. However, after it wasn't parsed correctly due to the bot not cooperating, the KuroWiki Engine started development.
 
 Development began with forking [HoriWebsite](HoriWebsite) version **2.4.3565**, as creating new pages with Jekyll within the existing framework would cause issues.
 
 Here are the earliest available screenshots of that fork:
 
 ![a screenshot of the earliest developer alpha of horiwiki, changing the branch from main to main-wik and changing the website title to horiwiki](img/articles/horiwiki/earliest_developer_pre-alpha.png){: style="width:60%;" title="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'horiwiki'."}
-![LexWiki Pre-alpha engine debug buil string](img/articles/horiwiki/devalpha-info.png){: style="width:50%;" title="Debug build string from the LexWiki Pre-alpha engine."}
+![KuroWiki Pre-alpha engine debug buil string](img/articles/horiwiki/devalpha-info.png){: style="width:50%;" title="Debug build string from the KuroWiki Pre-alpha engine."}
 
 
 #### Milestone 1, 2 and 3 (Pre-Alpha) and Alpha
 ---
 
-Real development quickly took place after forking the website; what is now known as the LexWiki Engine was developed in just two days.
+Real development quickly took place after forking the website; what is now known as the KuroWiki Engine was developed in just two days.
 
-This section provides screenshots from developer builds of LexWiki, though image quality may vary as they were taken from Discord messages sent by Lexibyte or others.
+This section provides screenshots from developer builds of KuroWiki, though image quality may vary as they were taken from Discord messages sent by Nekori or others.
 
 ##### Builds Compiled on May 4, 2025:
 ---
@@ -62,7 +58,7 @@ Navigation bars were partially implemented in this build, using multi-colored se
 ---
 
 ![pre-alpha 0.4](img/articles/horiwiki/pa0.4.png){: style="width:50%;"}
-Pre-alpha 0.4 is where LexWiki began to take on its distinct form, with several key elements nearing completion.
+Pre-alpha 0.4 is where KuroWiki began to take on its distinct form, with several key elements nearing completion.
 
 ###### Pre-alpha 0.5.x
 ---
@@ -117,10 +113,10 @@ Building on Beta 2.0, this version introduced core user-facing features, includi
 
 ##### Beta 3.0
 ---
-LexWiki has recently reached **Beta 3 status** in its development version. This phase primarily focuses on enhancing various aspects of the wiki:
+KuroWiki has recently reached **Beta 3 status** in its development version. This phase primarily focuses on enhancing various aspects of the wiki:
 
 * **MDL Component Enhancements:** Material Design Lite components have received significant updates, now featuring **blurred transparency**, giving them a **Mica-like appearance**.
 * **Article Wording Improvements:** Efforts have been made to enhance the wording of various articles for better clarity and consistency.
-* **Horibyte to Lexibyte Transition:** This build includes updates related to the ongoing brand transition from Horibyte to Lexibyte within the wiki's content and styling.
+* **Horibyte to Nekori Transition:** This build includes updates related to the ongoing brand transition from Horibyte to Nekori within the wiki's content and styling.
 
-The LexWiki continues its development period, as there are more things to add to make it a fully complete MediaWiki-like port to Jekyll. The wiki is still in development.
+The KuroWiki continues its development period, as there are more things to add to make it a fully complete MediaWiki-like port to Jekyll. The wiki is still in development.

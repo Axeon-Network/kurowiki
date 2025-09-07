@@ -45,6 +45,10 @@ StuffyXP Website Update 2.1, referencing that the update was delayed multiple ti
 
 Suggested name for the user interface component in Nekori Arctic, also referencing Nekori's dog plushie, [Dogui](Dogui).
 
+<h5 id="Deltari">Deltari</h5>
+
+The internal codename of the KuroWiki Engine.
+
 <h4 id="H">H</h4>
 <hr>
 
