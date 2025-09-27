@@ -1,17 +1,15 @@
 ---
-title: Contributing to the LexWiki
+title: Contributing to KuroWiki
 layout: main
-permalink: Contributing_to_the_LexWiki
-redirect_from:
-    - Contributing_to_LexWiki
+permalink: Contributing_to_KuroWiki
 hatnote: oh my god..
 ---
 
-Welcome to LexWiki! This page contains information & documentation on adding, creating and/or modifying LexWiki articles.
+Welcome to KuroWiki! This page contains information & documentation on adding, creating and/or modifying KuroWiki articles.
 
 #### Pre-requisites
 
-To contribute a LexWiki article, you need a GitHub account to suggest an article (dynamic publishing will not be available due to GitHub Pages and HTML+CSS+JS limitations).
+To contribute a KuroWiki article, you need a GitHub account to suggest an article (dynamic publishing will not be available due to GitHub Pages and HTML+CSS+JS limitations).
 
 If you want your articles to be published faster, build up a wiki reputation so you can be added as a collaborator to the repository, in order to build one, you might just suggest over time, following the rules/code of conduct, which in that case...
 
@@ -27,7 +25,7 @@ You may not:
 - vandalize any of the articles.
 - add false information to articles, nor make fake articles.
 - cross personal boundaries, if some info gets too personal, please remove said content as of the person's request. (this also applies to admins)
-- add anything that is not related to Lexibyte.
+- add anything that is not related to the Axeon Network, KayAurora or Nekori. 
 
 If you break any of these, your ability to add new articles will be removed.
 
@@ -35,7 +33,7 @@ If you break any of these, your ability to add new articles will be removed.
 
 ##### Regular
 
-To suggest an article, you can make a pull request of the wiki's main repo ([github.com/thelexibyte/wiki](https://github.com/thelexibyte/wiki)), then add your suggested article to the `pages` directory on the root of the directory tree.<br>Your file should have this structure:
+To suggest an article, you can make a pull request of the wiki's main repo ([github.com/axeon-network/kurowiki](https://github.com/axeon-network/kurowiki)), then add your suggested article to the `pages` directory on the root of the directory tree.<br>Your file should have this structure:
 
 `---`
 `title: *Your title here*`
@@ -76,11 +74,11 @@ List of compatible syntaxes:
 
 1. Number item (`1. text`)
 - Image (`![alt text]([pathtoimage]){: *html code here*}`)
-![horicraft A](img/articles/a_emoji/a_horicraft.png){: style="width:25% !important;"}
+![horicraft A](resources/img/articles/a_emoji/a_horicraft.png){: style="width:25% !important;"}
 (^ example of image)
 
 When linking to paths, do not use `/` at the start of the path:
-❌: `/img/lexibyte_moment/a_win1.png`
-✅: `img/lexibyte_moment/a_win1.png`
+❌: `/resources/img/lexibyte_moment/a_win1.png`
+✅: `resources/img/lexibyte_moment/a_win1.png`
 
 The reason this is needed is due to how links work since this is a separate hosted repo being in a same domain.
