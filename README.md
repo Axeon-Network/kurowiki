@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 <img alt="Beta 5" src="https://img.shields.io/badge/status-beta_5-red">
-<img alt="CC-BY-SA 4.0 License" src="https://img.shields.io/github/license/axeon-network/kurowiki">
+<img alt="CC-BY-SA 4.0 License" src="https://img.shields.io/github/license/Axeon-Network/kurowiki">
 <a href="https://discord.gg/wDxDKJU2sj"><img alt="Join the Discord Server" src="https://img.shields.io/discord/392336925853483019">
 </div>
 
@@ -19,4 +19,5 @@ You are always welcome to contribute with new KuroWiki articles, as long as you 
 ## License
 Copyright © 2025 Axeon Network\
 Licensed under [Creative Commons Attribution-ShareAlike 4.0](./LICENSE)
+
 
