@@ -8,9 +8,9 @@ hatnote: This article is about the original HoriServer. For its spiritual succes
 
 A private server, its main purpose is to serve as a fallback limited space with Nekori and their friends. Nekori has stated that they joined Revolt (and thus create the server) to not "be alone for the 3rd time in my [Nekori's] life". A wave of several few people have joined Revolt for HoriServer in the immediate aftermath of Nekori departing Discord.
 
-As of June 2025, the server still exists and remains fully open, but has remained mostly inactive after Nekori's comeback to Discord. At the moment it is unlikely the server will ever be used again due to Nekori's changing opinion on the Revolt platform itself.
+At its peak in February, the Revolt server ran alongside the [StuffyXP Hangout](StuffyXP_Hangout) Discord server, which continued to be ran separately by KayAurora, next in the server's management after Nekori. Following the [sunsetting of the StuffyXP channels](StuffyXP#Closure), a successor Discord server was created, bearing the name [HoriServer (2)](HoriServer_(2)), considered to be the spiritual successor to "HoriServer" on Revolt.
 
-At its peak in February, the Revolt server ran alongside the [StuffyXP Hangout](StuffyXP_Hangout) Discord server, which continued to be ran separately by Clyron, next in the server's management after Nekori. Following the [sunsetting of the StuffyXP channels](StuffyXP#Closure), a successor Discord server was created, bearing the name [HoriServer (2)](HoriServer_(2)), considered to be the spiritual successor to "HoriServer" on Revolt.
+As of September 2025, the server still exists and remains fully open, but has remained mostly inactive after Nekori's comeback to Discord in March 2025. A new Revolt server known as [NovaServer](NovaServer) has been created in July 2025 (due to Nekori taking another break) and has succeeded this one.
 
 The public server structure consists of:
 - The **Important** category
