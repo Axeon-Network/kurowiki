@@ -2,10 +2,10 @@
 layout: main
 title: StuffyXP
 permalink: StuffyXP
-hatnote: TODO: cover other stuffyxp history, like the gd on vista strike, and make a disambiguation page of nekori and stuffyxp.<br>This article is about the now-deleted YouTube channel. For the individual who used to be known as StuffyXP, see <a href="Nekori">Nekori</a>.<br>This article is still under construction.
+hatnote: TODO, cover other stuffyxp history, like the gd on vista strike, and make a disambiguation page of nekori and stuffyxp.<br>This article is about the now-deleted YouTube channel. For the individual who used to be known as StuffyXP, see <a href="Nekori">Nekori</a>.<br>This article is still under construction.
 ---
 
-**StuffyXP** (previously known as **Yoshi Land0842**, **Stuff Life** and **Stuffy**) was a tech-focused (and previously plushie-oriented) YouTube channel owned and operated by [Nekori](Nekori) and launched in 13 March 2020. It was deleted 14 March 2025 due to Nekori putting an end to their <span id="tt2">wintuber</span> career.
+**StuffyXP** (previously known as **Yoshi Land0842**, **Stuff Life** and **Stuffy**) was a tech-focused (and previously plushie-oriented) YouTube channel owned and operated by [Nekori](Nekori) and launched in 13 March 2020. It was deleted 14 March 2025, coinciding with Nekori putting an end to their <span id="tt2">wintuber</span> career.
 
 <div class="mdl-tooltip mdl-tooltip--large" for="tt2">
 Windows Youtuber
@@ -33,23 +33,19 @@ Original title (Spanish): Proximamente en 2022...
 
 2023 also was the year that Nekori started doing tech videos, most of these being using Virtualbox and installing operating systems like Windows XP, these were filmed with Nekori's phone due to them not knowing about screencast software.
 
-There was also a video of them re-installing Windows 7 on their host, which would make the first public appearance of Nekori's eMachines ET1810 (nicknamed `TheCeleryPC`) that would become their daily driver for almost 2 years before dying due to a broken PSU in Late 2024.
+There was also a video of them re-installing Windows 7 on their host, which would make the first public appearance of Nekori's [eMachines ET1810](/TheCeleryPC) (nicknamed `TheCeleryPC`) that would become their daily driver for almost 2 years before dying due to a broken PSU in Late 2024.
 
 The channel re-branded to **Stuffy** in 3 October 2023, with `@StuffyYT20` as the handle, before deciding on `@StuffyXP` a few weeks later.
 
-
 The origin of the StuffyXP name actually comes back from [Nekori's old Reddit account](https://reddit.com/u/StuffyXP), as when creating a new account, Nekori thought of appending a Windows version to the name as "Stuffy" wasn't available, they originally thought of `Stuffy7`, but then changed it at the last minute to `StuffyXP` after realizing that Reddit Mods won't be happy of that (citation needed).
 
-The name essentially took over the channel in July 2024.
+In July 2024, the channel received a Windows Whistler-themed rebrand. The channel name "Stuffy" had also been changed to StuffyXP as part of the rebrand.
 
-Other StuffyXP stuffs were creating within 2024, examples are:
+Other projects have also been made throughout 2024 under the StuffyXP umbrella, officially referred to collectively as the "*StuffyXP Network*":
 
-- StuffyXP Website
-- StuffyXP Hangout
-- StuffyXP Extras (& Co.)
-- StuffyXP Network
-
-Most of these evolved into Nekori's current projects or became history.
+- **StuffyXP Website**: Nekori's personal website while they were known as StuffyXP, the precursor to HoriWebsite and other iterations leading up to today's [LexSite](/LexSite). Initial development in late February 2024, discontinued early January 2025 in favor of HoriWebsite.
+- **StuffyXP Hangout**: a Discord Server primarily meant for fans of the StuffyXP channel and the wider Network to hangout in. Succeeded [Stuffy's Place](/Stuffys_Place) in early October 2024, shut down March 2025 with the StuffyXP Closure.
+- **StuffyXP Extras (& Co.)**: with the Whistler-themed rebrand of StuffyXP, other StuffyXP channels have received StuffyXP naming as well, with the exception of Stuffy 64. In November 2024, Stuffy+ had been renamed to StuffyXP Extras, and Stuffy Vlogs as StuffyXP Vlogs.
 
 #### YouTube Channels
 
@@ -80,7 +76,7 @@ The channel's subscriber count ended with **238** and **44 videos** (including l
 
 The channel's subscriber count was low, and mainly featured videos like Nekori's voice reveal, test footage, raw footage and more.
 
-It was originally Nekori's vlogs channel (as seen in the brand account's name, *Sttuf Blogs*, the typo is actually there, as Nekori didn't know how to spell the word *stuff* yet) but  became an extras channel around the time when the StuffyXP channel was called *Stuffy* and had [Dogui](Dogui) as its primary branding.
+It was originally Nekori's vlogs channel (as seen in the brand account's name, *Sttuf Blogs*, the typo is actually there, as Nekori didn't know how to spell the word *stuff* yet) but became an extras channel around the time when the StuffyXP channel was called *Stuffy* and had [Dogui](Dogui) as its primary branding.
 
 Addionally, Nekori has used the channel for backup purposes, mainly for when the StuffyXP channel was false-striked due to **Geometry Dash...on Windows Vista!?**.
 

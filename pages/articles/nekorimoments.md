@@ -5,36 +5,27 @@ permalink: Nekori_Moments
 hatnote: "TODO: im not gonna be bothered with this one<br>Not to be confused with <a href='Nekori_Power'>Nekori Power</a>."
 ---
 
-**Nekori Moments** (*formerly known as **Horibyte Moments** and **Stuffy Moments***) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way. They were introduced in January 2024.
+**Nekori Moments** (*formerly known as **Horibyte Moments** and **Stuffy Moments***) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.
+
+The original term of "average stuffy moment" was first used by a member of the [Stuffy's Place](Stuffys_Place) Discord server, which started the idea of the Nekori moment back in January 2024.
 
 #### Types of Nekori moments
 Nekori moments can vary from a range of 'moment levels', with that being the following:
-- **Errors**: Said moments can be various errors, being just normal ones, or something extremely rare. 
-<figure>
-    <img src="resources/img/articles/horibyte_moments/error.png" 
-         alt="Dolphin warning: Invalid state, with an OK button and a Ignore for this session button but the text is cropped due to the button's size" 
-         style="width:70%;">
-    <figcaption>
-        A Dolphin warning with a button whose text is cropped.
-    </figcaption>
-</figure>
+ * **Errors**: Said moments can be various errors, being just normal ones, or something extremely rare.<br>
+ ![Dolphin warning: Invalid state, with an OK button and a Ignore for this session button but the text is cropped due to the button's size](resources/img/articles/horibyte_moments/error.png){: style="width:20%" title="Dolphin warning: Invalid state, with an OK button and a Ignore for this session button but the text is cropped due to the button's size"}
+    <p id="caption">A Dolphin warning with a button whose text is cropped.</p>
+* **Software Gore**: These moments are when software breaks in a funny and weird way, these are the most common Nekori Moments.<br>
 
-- **Software Gore**: These moments are when software breaks in a funny and weird way, these are the most common Nekori Moments.
-<figure>
-    <img src="resources/img/articles/horibyte_moments/softwaregore.jpg" 
-         alt="A photo of a KDE Plasma error window but the text is just boxes, excluding the title text, in the background, a Discord channel can be seen." 
-         style="width:70% !important;">
-    <figcaption>
-        A KDE Plasma error window but the text is just boxes
-    </figcaption>
-</figure>
+![A photo of a KDE Plasma error window but the text is just boxes, excluding the title text, in the background, a Discord channel can be seen.](resources/img/articles/horibyte_moments/softwaregore.jpg){: style="width:50% !important;" title="A photo of a KDE Plasma error window but the text is just boxes, excluding the title text, in the background, a Discord channel can be seen."}
+<p id="caption">A KDE Plasma error window but the text is just boxes</p>
 
 <!-- Congrats! You found the lil' easter egg! -->
 <!-- Now, on the following commented-out lines, are the actual pieces of code for this type of moment. -->
 <!-- But there are more easter eggs on this wiki, Happy finding! - Nekori -->
-<!-- * **Software Mistakes**: These can be mistakes that Nekori themselves made, but break software in a way that is still considered a Nekori Moment. -->
 
-* **Software Mistakes**: Some temporary string here.
+* **Software Mistakes**: Accidental actions that broke software, in a way that is still considered a Nekori Moment.<br>
+![Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion.)](resources/img/articles/horibyte_moments/brokendolphinfilemanager.png){: style="width:70% !important;" title="Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion"}
+<p id="caption">Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion with "rm -rf ~"</p>
 
 #### Gallery of Nekori Moments
 
