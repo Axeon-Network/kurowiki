@@ -1,11 +1,14 @@
 name: Axeon KuroWiki
-devphase: Beta 4
+devphase: Beta 5
 title: KuroWiki
+author: Axeon Network
+copyyear: 2025
 email: thenekori64@gmail.com
-description: "KuroWiki Beta 4"
+description: "Axeon KuroWiki Beta 5"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nekori.is-a.dev/wiki" # the base hostname & protocol for your site, e.g. http://example.comtwitter_username: Horibyte
-github_username:  lexthenova
+url: "https://axeon-network.github.io/kurowiki"
+sourceurl: "https://github.com/Axeon-Network/kurowiki"
+# more variables to be set in the future!
 
 # Build settings
 # theme: minima
@@ -18,9 +21,9 @@ kramdown:
   input: GFM
   hard_wrap: true
 include:
-  - search.json
+  - resources/json/search.json
 
 # Exclude from processing.
 exclude:
-  - .version
-  - .buildtag
+  - resources/ruby/version
+  - resources/ruby/buildtag

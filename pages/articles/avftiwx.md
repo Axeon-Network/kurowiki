@@ -2,40 +2,51 @@
 layout: main
 title: A VMware First-Timer installs Windows XP!
 permalink: A_VMware_First-Timer_installs_Windows_XP!
-hatnote: TODO: add photos of the videos, properly show the thumbnail, move the og thumbnail from my [nekori's] phone and explain what happened in the video
+hatnote: TODO, add photos of the videos, properly show the thumbnail, move the og thumbnail from my [nekori's] phone and explain what happened in the video
 ---
 
-**A VMware First-Timer installs Windows XP!** is the first public [StuffyXP](StuffyXP) video by [Lexibyte](Lexibyte). It was uploaded to YouTube on **13 February 2024** and had a total view count of **548 views** before the StuffyXP channel was deleted on 14 March 2025.
+**A VMware First-Timer installs Windows XP!** (also reffered to as **VMware First Time** by Nekori) is the first public [StuffyXP](StuffyXP) video by [Nekori](Nekori). It was uploaded to YouTube on **13 February 2024** and had a total view count of **548 views** before the StuffyXP channel was deleted on 14 March 2025.
 
-The video consisted of Lexibyte installing Microsoft Windows XP Professional Service Pack 3 on VMware Workstation Pro 12 in their Windows 8.1 host. It is also the first StuffyXP video to be made on TheCeleryPC, as well as the first StuffyXP video of 2024.
+The video consisted of Nekori installing Windows XP Professional SP3 on a VMware 12 virtual machine on Windows 8.1. It is the first StuffyXP video of 2024, as well as the first video to be made on [TheCeleryPC](TheCeleryPC)
 
-Addionally, 2 YouTube Shorts were uploaded to the StuffyXP channel showing a sneak peak of the video, with an audio bug from the video editor, another one is the analytics of the video as of 2 days later (citation needed).
+Addionally, 2 YouTube Shorts were uploaded to the StuffyXP channel showing a sneak peak of the video, with an audio bug from the video editor, and another one showing the analytics of the video as of 2 days later.
 
 #### Development
 
-Shortly after 2024 started (and Lexibyte finding their friend group), Lexibyte was inspired by them [the friend group] to also make their own tech videos on YouTube, shortly after that, they started to find a video editor that is compatible with their daily driver at the time, [TheCeleryPC](TheCeleryPC).
+Shortly after 2024 started (and Nekori finding their friend group), Nekori was inspired by them [the friend group] to also make their own tech videos on YouTube, they started to find a video editor that was compatible with their daily driver at the time, [TheCeleryPC](TheCeleryPC).
 
-Lexibyte chose *Camtasia Studio 8* after recalling that FlyTech Videos used it in some of their videos as well, Lexibyte continued to use the program until *The forgotten Windows Competitor...* came out, as *Geometry Dash... on Windows Vista!?* was edited with DaVinci Resolve on [Thei5Lappy](Thei5Lappy) up until the last StuffyXP video.
+After finding the program, video production began.<br>Unfortunely, the original project file ended up being somewhat corrupted, as Camtasia wrongfully thought that the video file was from an older version of Camtasia and had to be upgraded, after the so-called upgrade, the file was left blank.<br>This delayed the video from its original 8 January upload date to **14 January**. It happened again on **16 January**, delaying the video even further to **26 January**.
 
-After finding the program, they started the recording and edited the video, unfortunely the video file ended up being corrupted per-se, as Camtasia wrongfully thought that the video file was from an older version of Camtasia and had to be upgraded, after the ""upgrade"", the file was blank. This made the video be delayed from 8 January to 14 January. It then happened again on 16 January, delaying the video even further to 26 January.
+The video was delayed again in **28 January** due to Nekori bricking their Windows 8.1 installation, causing them to enhance and re-add several parts of the video in their Windows Vista installation, after that, the power outlet that powered TheCeleryPC died and had to be replaced, causing the video to be delayed for almost a week. Nekori upgraded to Windows 7 one day before the video was uploaded.
 
-The video was delayed again in 28 January due to Lexibyte bricking their Windows 8.1 installation, causing them to enhance and re-add several parts of the video in their Windows Vista installation, after that, the power outlet that powered TheCeleryPC died and had to be replaced, causing the video to be delayed for almost a week. Lexibyte upgraded to Windows 7 1 day before the video was uploaded.
+The video had to be delayed again, this time for almost a week due to the death of the power outlet that used to power TheCeleryPC.
 
-The video was made within 3 Windows versions:
+#### After the collab
 
-* **Windows 8.1**: Recording & editing most of the video
-* **Windows Vista**: Editing & enhancing the final parts of the video, thumbnail
-* **Windows 7**: Uploading the video.
+Coinciding with the upload of the [KayAurora-Nekori Video Collab](KayAurora_and_Nekori_Collab), the featured videos had their thumbnails changed to march the newer versions made on the collab, this was one of the featured videos.
 
-##### Collab effects
+Additionally, Nekori also updated the video's description to fit with the description style of their newer videos, with a notice telling the viewer that its an old video and that they should watch their newer ones.
 
-Shortly before the Lexibyte-Clyron collab was uploaded, several StuffyXP and Lynxmic videos' thumbnails were updated in order to fit with the new thumbnails designed in the video, **A VMware First-Timer installs Windows XP!** was one of those videos.
+<div class="wiki-gallery">
+    
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/avftiwx/thumbog.jpg" 
+                 alt="The original thumbnail from Early 2024">
+        </div>
+        <figcaption class="gallery-caption">
+            The original thumbnail from early 2024.
+        </figcaption>
+    </figure>
 
-Alongside the thumbnail, the video's description was updated to fit with the recent video's description style, a notice telling the viewer that the video is an old video of them and that other better videos are on the platform was also added.
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/avftiwx/thumbremake.png" 
+                 alt="The remade thumbnail made in the collab">
+        </div>
+        <figcaption class="gallery-caption">
+            The remade thumbnail designed in the Nekori-KayAurora collab
+        </figcaption>
+    </figure>
 
-> (please watch my newer videos as they're 1000x better than this one, hey i had to start somewhere...)
-
-*\- The notice*
-
-![The remade thumbnail made in the collab](img/articles/avftiwx/thumbremake.png){: width="50%"}
-<p id="caption">The remade thumbnail designed in the Lexibyte-Clyron collab</p>
+</div>
