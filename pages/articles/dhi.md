@@ -18,16 +18,30 @@ In July 2024, the company was renamed Dogui Heavy Industries Limited, having its
 > *When the tables suddenly turn at the Dogui Heavy Industries Headquarters, it's when you know there's a certified Stuffy Moment*
 
 As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Nekori Moments](Nekori_Moments).
-<br>![Headquarters of DHI Inc. in Fucking, NovaLand](img/articles/dhi/hq.png){: title="Headquarters of DHI Inc. in Fucking, NovaLand" width="50%"}
-<p id="caption">Headquarters of DHI Inc. in Fucking, NovaLand</p>
+
+
+<figure>
+    <img src="resources/img/articles/dhi/hq.png" 
+         alt="Headquarters of DHI Inc. in Fucking, NovaLand" 
+         style="width:50%;">
+    <figcaption>
+        Headquarters of DHI Inc. in Fucking, NovaLand
+    </figcaption>
+</figure>
 
 ### Subsidiaries
 ---
 #### DHI Turtles
 ---
 **DHI Turtles LLC** (fully known as *Dogui Heavy Industries Turtle Research & Observatory Center LLC*) is a subsidiary of Dogui Heavy Industries Incorporated, its main goal is to rescue, preserve and study NovaLandese turtles.
-<br>![Headquarters of DHI Turtles on the coast of Fucking, NovaLand](img/articles/dhi/hqturtles.png){: title="Headquarters of DHI Turtles on the coast of Fucking, NovaLand" width="50%"}
-<p id="caption">Headquarters of DHI Turtles in Fucking, NovaLand</p>
+<figure>
+    <img src="resources/img/articles/dhi/hqturtles.png" 
+         alt="Headquarters of DHI Turtles on the coast of Fucking, NovaLand" 
+         style="width:50%;">
+    <figcaption>
+        Headquarters of DHI Turtles on the coast of Fucking, NovaLand
+    </figcaption>
+</figure>
 
 #### DHI Movies
 ---

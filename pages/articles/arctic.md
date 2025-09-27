@@ -20,9 +20,14 @@ As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to 
 
 The latest stable release is version 0.1.5.
 
-![Nekori Arctic 0.1.5 Demo on QEMU](img/articles/arctic/0.1.5demo.png){: style="box-shadow:none!important;"}
-<p id="caption">QEMU running Arctic v0.1.5a</p>
-
+<figure>
+    <img src="resources/img/articles/arctic/0.1.5demo.png" 
+         alt="Nekori Arctic 0.1.5 Demo on QEMU" 
+         style="box-shadow:none!important;">
+    <figcaption>
+        QEMU running Arctic v0.1.5a
+    </figcaption>
+</figure>
 
 #### Overview
 
@@ -57,20 +62,59 @@ Arctic's kernel, codenamed *ReKanto* (a nod to the Kanto region from *Pokemon Re
 
 Before development began, Nekori designed several Arctic mockups using GIMP. These images are conceptual representations and are **not** actual screenshots of functional builds—*yet!*
 
-![](img/articles/arctic/7078personal.png)
-<p id="caption">Horibyte Arctic Personal Beta 2 Build 7078</p>
+<div class="wiki-gallery">
 
-![](img/articles/arctic/7089professional.png)
-<p id="caption">Horibyte Arctic Professional Beta 2 Build 7089</p>
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/arctic/7078personal.png" 
+                 alt="Horibyte Arctic Personal Beta 2 Build 7078">
+        </div>
+        <figcaption class="gallery-caption">
+            Horibyte Arctic Personal Beta 2 Build 7078
+        </figcaption>
+    </figure>
 
-![](img/articles/arctic/7089personal.png)
-<p id="caption">Horibyte Arctic Personal Beta 2 Build 7089</p>
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/arctic/7089professional.png" 
+                 alt="Horibyte Arctic Professional Beta 2 Build 7089">
+        </div>
+        <figcaption class="gallery-caption">
+            Horibyte Arctic Professional Beta 2 Build 7089
+        </figcaption>
+    </figure>
 
-![](img/articles/arctic/7089server.png)
-<p id="caption">Horibyte Arctic Server Family Beta 2 Build 7089</p>
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/arctic/7089personal.png" 
+                 alt="Horibyte Arctic Personal Beta 2 Build 7089">
+        </div>
+        <figcaption class="gallery-caption">
+            Horibyte Arctic Personal Beta 2 Build 7089
+        </figcaption>
+    </figure>
 
-![](img/articles/arctic/7089bs.png)
-<p id="caption">Horibyte Arctic Professional Beta 2 Build 7089 Boot Screen</p>
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/arctic/7089server.png" 
+                 alt="Horibyte Arctic Server Family Beta 2 Build 7089">
+        </div>
+        <figcaption class="gallery-caption">
+            Horibyte Arctic Server Family Beta 2 Build 7089
+        </figcaption>
+    </figure>
+
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/arctic/7089bs.png" 
+                 alt="Horibyte Arctic Professional Beta 2 Build 7089 Boot Screen">
+        </div>
+        <figcaption class="gallery-caption">
+            Horibyte Arctic Professional Beta 2 Build 7089 Boot Screen
+        </figcaption>
+    </figure>
+
+</div>
 
 <p id="notec1"><a href="#note1">&sup1;<span></span>&uparrow;</a> Formerly <b>StuffyXP LeafyOS</b></p>
 <p id="notec2"><a href="#note2">&sup2;<span></span>&uparrow;</a> <a href="https://wetdry.world/@horibyte/114586135328279262">https://wetdry.world/@horibyte/114586135328279262</a></p>

@@ -19,7 +19,8 @@ This section contains a list of Horicraft (2) trivia
 - Nekori and [KayAurora](KayAurora) were the first members of Horicraft (2), both joined shortly after the server was online for its first time. Nekori's YouTube channel has a [video](https://www.youtube.com/watch?v=A3bE3yBXduY&t=25s) of both playing in the server in its early days.
 - The seed for the Horicraft (2) world is `theoneandonlycomet`, referencing Nekori's OC (**O**riginal **C**haracter), [Comet](Comet).
 - Nekori's house on the server is a direct remake of their Horicraft 1 house.
-- Horicraft (2)'s motd is "Horicraft (2): the return of [Dogui Heavy Industries](Dogui_Heavy_Industries_Incorporated) and [Cairo Company](Cairo_Company_Incorporated)" and Nekori's title tag for the run-server-batch-script is "Run Horicraft (2): the return of Yoshito Hori".
+- Horicraft (2)'s motd is "Horicraft (2): the return of [Dogui Heavy Industries](Dogui_Heavy_Industries_Incorporated) and [Cairo Company](Cairo_Company_Incorporated)"
+- Nekori's title tag for the run-server-batch-script is "Run Horicraft (2): the return of Yoshito Hori".
 - So far, Cairo Company HQ has been built, DHI HQ is yet to be build on the world.
 - In the [NovaLand](NovaLand) lore, the world where Horicraft (2) takes place is the [Starlight](Fucking,_NovaLand#Starlight) district of [Fucking](Fucking,_NovaLand).
 
@@ -27,10 +28,28 @@ Horicraft (2) is planned to close on May 18 or May 24 2025 to merge with the ori
 
 ### Gallery
 
-![a horicraft 2 hill, shader enabled](img/articles/horicraft2/hill.png){: style="width:50%;"}
-<p style="text-align:center;"><i>A Horicraft (2) hill</i></p>
+<div class="wiki-gallery">
+    
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/horicraft2/hill.png" 
+                 alt="a horicraft 2 hill, shader enabled">
+        </div>
+        <figcaption class="gallery-caption" style="text-align:center;">
+            <i style="font-size: 100%;">A Horicraft (2) hill</i>
+        </figcaption>
+    </figure>
 
-![a horicraft 2 bridge, going from KayAurora's house to horibyte's house, shader enabled](img/articles/horicraft2/bridge.png){: style="width:50%;"}
-<p style="text-align:center;"><i>A Horicraft (2) bridge going from KayAurora's house to Nekori's house</i></p>
+    <figure class="gallery-item">
+        <div class="thumb-frame">
+            <img src="resources/img/articles/horicraft2/bridge.png" 
+                 alt="a horicraft 2 bridge, going from KayAurora's house to horibyte's house, shader enabled">
+        </div>
+        <figcaption class="gallery-caption" style="text-align:center;">
+            <i style="font-size: 100%;">A Horicraft (2) bridge going from KayAurora's house to Nekori's house</i>
+        </figcaption>
+    </figure>
+
+</div>
 
 *Pictures taken by KayAurora.*

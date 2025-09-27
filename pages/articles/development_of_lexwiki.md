@@ -21,8 +21,8 @@ Development began with forking [HoriWebsite](HoriWebsite) version **2.4.3565**, 
 
 Here are the earliest available screenshots of that fork:
 
-![a screenshot of the earliest developer alpha of horiwiki, changing the branch from main to main-wik and changing the website title to horiwiki](img/articles/horiwiki/earliest_developer_pre-alpha.png){: style="width:60%;" title="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'horiwiki'."}
-![KuroWiki Pre-alpha engine debug buil string](img/articles/horiwiki/devalpha-info.png){: style="width:50%;" title="Debug build string from the KuroWiki Pre-alpha engine."}
+![a screenshot of the earliest developer alpha of horiwiki, changing the branch from main to main-wik and changing the website title to horiwiki](resources/img/articles/horiwiki/earliest_developer_pre-alpha.png){: style="width:60%;" title="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'horiwiki'."}
+![KuroWiki Pre-alpha engine debug buil string](resources/img/articles/horiwiki/devalpha-info.png){: style="width:50%;" title="Debug build string from the KuroWiki Pre-alpha engine."}
 
 
 #### Milestone 1, 2 and 3 (Pre-Alpha) and Alpha
@@ -38,34 +38,34 @@ This section provides screenshots from developer builds of KuroWiki, though imag
 ###### Pre-alpha 0.1
 ---
 
-![pre-alpha 0.1](img/articles/horiwiki/pa0.1.png){: style="width:50%;"}
-![pre-alpha 0.1](img/articles/horiwiki/pa0.1-1.png){: style="width:50%;"}
+![pre-alpha 0.1](resources/img/articles/horiwiki/pa0.1.png){: style="width:50%;"}
+![pre-alpha 0.1](resources/img/articles/horiwiki/pa0.1-1.png){: style="width:50%;"}
 This build essentially removed most of the HoriWebsite's front-end elements, though some underlying HoriWebsite code still remained.
 
 ###### Pre-alpha 0.2
 ---
 
-![pre-alpha 0.2](img/articles/horiwiki/pa0.2.png){: style="width:50%;"}
+![pre-alpha 0.2](resources/img/articles/horiwiki/pa0.2.png){: style="width:50%;"}
 This version shows early attempts to implement MediaWiki-style navigation bars.
 
 ###### Pre-alpha 0.3
 ---
 
-![pre-alpha 0.3](img/articles/horiwiki/pa0.3.png){: style="width:50%;"}
+![pre-alpha 0.3](resources/img/articles/horiwiki/pa0.3.png){: style="width:50%;"}
 Navigation bars were partially implemented in this build, using multi-colored segments to aid in debugging.
 
 ###### Pre-alpha 0.4
 ---
 
-![pre-alpha 0.4](img/articles/horiwiki/pa0.4.png){: style="width:50%;"}
+![pre-alpha 0.4](resources/img/articles/horiwiki/pa0.4.png){: style="width:50%;"}
 Pre-alpha 0.4 is where KuroWiki began to take on its distinct form, with several key elements nearing completion.
 
 ###### Pre-alpha 0.5.x
 ---
 
-![pre-alpha 0.5](img/articles/horiwiki/pa0.5.png){: style="width:50%;"}
-![pre-alpha 0.5.2](img/articles/horiwiki/pa0.5.2.png){: style="width:50%;"}
-![pre-alpha 0.5.2 1](img/articles/horiwiki/pa0.5.2-1.png){: style="width:50%;"}
+![pre-alpha 0.5](resources/img/articles/horiwiki/pa0.5.png){: style="width:50%;"}
+![pre-alpha 0.5.2](resources/img/articles/horiwiki/pa0.5.2.png){: style="width:50%;"}
+![pre-alpha 0.5.2 1](resources/img/articles/horiwiki/pa0.5.2-1.png){: style="width:50%;"}
 Builds 0.5.x were the most complete builds of that day, with nearly all essential components implemented correctly.
 
 ##### Builds Compiled on May 5, 2025:
@@ -74,7 +74,7 @@ Builds 0.5.x were the most complete builds of that day, with nearly all essentia
 ###### Pre-alpha 0.5.3
 ---
 
-![pre-alpha 0.5.3](img/articles/horiwiki/pa0.5.3-anaheim.png){: style="width:50%;"}
+![pre-alpha 0.5.3](resources/img/articles/horiwiki/pa0.5.3-anaheim.png){: style="width:50%;"}
 Build 0.5.3 was the most feature-complete pre-alpha build, with most important elements already in place.
 
 ##### Builds Compiled on May 6-7, 2025:
@@ -83,15 +83,15 @@ Build 0.5.3 was the most feature-complete pre-alpha build, with most important e
 ###### Alpha 1.1
 ---
 
-![alpha 1.1](img/articles/horiwiki/a1.1.png){: style="width:50%;"}
+![alpha 1.1](resources/img/articles/horiwiki/a1.1.png){: style="width:50%;"}
 Alpha 1.1 was a major milestone, introducing significant updates to the engine, including **Markdown support**. Most fixes were contributed by **Clyron**.
 
 ###### Alpha 1.2
 ---
 
-![alpha 1.2](img/articles/horiwiki/a1.2-home.png){: style="width:50%;"}
-![alpha 1.2 sitemap](img/articles/horiwiki/a1.2-dirlist.png){: style="width:50%;"}
-![alpha 1.2 docs file](img/articles/horiwiki/a1.2-cthrwd.png){: style="width:50%;"}
+![alpha 1.2](resources/img/articles/horiwiki/a1.2-home.png){: style="width:50%;"}
+![alpha 1.2 sitemap](resources/img/articles/horiwiki/a1.2-dirlist.png){: style="width:50%;"}
+![alpha 1.2 docs file](resources/img/articles/horiwiki/a1.2-cthrwd.png){: style="width:50%;"}
 As of May 7, 2025, Alpha 1.2 was the current version. This update focused primarily on bug fixes rather than new features, but was still a notable refinement of the engine.
 
 #### Beta
@@ -100,7 +100,7 @@ Development after the initial Alpha phases rapidly progressed into Beta stages, 
 
 ##### Beta 1.0
 ---
-![beta 1.0 mobile screenshot](img/articles/horiwiki/b1.0-m.png){: style="width:50%;"}
+![beta 1.0 mobile screenshot](resources/img/articles/horiwiki/b1.0-m.png){: style="width:50%;"}
 Released on **May 7, 2025**, Beta 1.0 included crucial fixes for **mobile compatibility**.
 
 ##### Beta 2.0
