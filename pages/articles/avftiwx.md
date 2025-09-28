@@ -28,25 +28,13 @@ Coinciding with the upload of the [KayAurora-Nekori Video Collab](KayAurora_and_
 Additionally, Nekori also updated the video's description to fit with the description style of their newer videos, with a notice telling the viewer that its an old video and that they should watch their newer ones.
 
 <div class="wiki-gallery">
-    
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/avftiwx/thumbog.jpg" 
-                 alt="The original thumbnail from Early 2024">
-        </div>
-        <figcaption class="gallery-caption">
-            The original thumbnail from early 2024.
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/avftiwx/thumbog.jpg" 
+        alt_text="The original thumbnail from Early 2024" 
+        caption="The original thumbnail from early 2024." %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/avftiwx/thumbremake.png" 
-                 alt="The remade thumbnail made in the collab">
-        </div>
-        <figcaption class="gallery-caption">
-            The remade thumbnail designed in the Nekori-KayAurora collab
-        </figcaption>
-    </figure>
-
+    {% include gallery_item.html 
+        image_src="resources/img/articles/avftiwx/thumbremake.png" 
+        alt_text="The remade thumbnail made in the collab" 
+        caption="The remade thumbnail designed in the Nekori-KayAurora collab" %}
 </div>

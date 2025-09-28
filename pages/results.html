@@ -10,14 +10,14 @@ search_exclude: true
 <div id="results-container">
   </div>
 
-<script src="resources/js/search.js"></script>
+<script src="./resources/js/search.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const query = urlParams.get('q');
   const searchInput = document.getElementById('search-input');
   const resultsContainer = document.getElementById('results-container');
-  const searchDataURL = '/resources/json/search.json';
+  const searchDataURL = './resources/json/search.json';
   let searchIndex = [];
 
   if (searchInput) {

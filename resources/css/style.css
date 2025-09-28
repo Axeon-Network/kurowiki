@@ -3,12 +3,17 @@
 
 /* should we include this in the self-host version??? */
 
+/* the fucking font:tm: */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* mdl-layout stuff */
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+ /* This background is dark, so we set text to white. Use 87% black instead if
+    your background is light. */
+ color: white;
 }
 
 /* so the links dont have that ugly underline */
@@ -24,46 +29,42 @@ a {
 
 /* custom mdl stuff: the drawer */
 .mdl-layout__drawer {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(20px);
-  color:white !important;
-  border-color: none;
-  border-right: 0px;
+ background-color: rgba(0, 0, 0, 0.5);
+ backdrop-filter: blur(20px);
+ color:white !important;
+ border-color: none;
+ border-right: 0px;
 }
 
 /* i guess this is for the drawer idk */
 .mdl-navigation__link {
-  color:white !important;
-  
+ color:white !important;
+ 
 }
+.mdl-hidden {
+    display: none !important;
+}
+
 
 /* this too */
 .mdl-navigation__link:hover {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+ background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* its hatnote time */
 .hatnote {
-  background-color: rgb(240, 236, 236);
-  margin-top: 20px;
-  margin-right: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-style: italic;
+ background-color: rgb(240, 236, 236);
+ margin-top: 20px;
+ margin-right: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+ font-style: italic;
 }
 
 /* image boxshadow */
 img {
     box-shadow:0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
 }
-
-/* image caption idk if i need this
-
-#caption {
-    color:gray;
-    font-style: italic;
-    text-align: center;
-} */
 
 /* what was this for??????? */
 .mdl-layout__header {
@@ -90,71 +91,27 @@ html {
     font-size: 14px;
     color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.8);
-    z-index: 1000000000;
+    z-index: 1000000006;
 }
+
+/* springviewer watermark */
+#viewer-watermark {
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    left: auto;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 1px;
+    margin-bottom: -1px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000000006; 
+}
+
 
 /* mediaviewer moment */
-
-/* Container for the whole gallery */
-.wiki-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px; 
-    margin: 1em 0;
-    justify-content: left;
-    text-align: center; /* Center the whole figure */
-}
-
-/* Individual gallery item (The Figure) */
-.wiki-gallery .gallery-item {
-    /* Set the width of the entire column */
-    width: 220px; 
-    
-    /* Remove default figure margin */
-    margin: 0;
-    padding: 0;
-    
-    /* Ensure the caption text is not part of the border/background area */
-    display: block;
-}
-
-/* The Frame (Image Container) */
-.wiki-gallery .thumb-frame {
-    /* NEW: This box gets the border and fixed height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 180px; /* Fixed height for the image area */
-    width: 100%; /* Use the full 220px width of the figure */
-    
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
-    padding: 6px;
-    margin-bottom: 4px; /* Space between frame and caption */
-}
-
-/* The Image */
-.wiki-gallery .thumb-frame img {
-    max-height: 100%; /* Constrain to the 180px height */
-    max-width: 100%;
-    object-fit: contain;
-    box-shadow: none;
-    display: block;
-}
-
-/* The Caption (Outside the Frame) */
-.gallery-caption {
-    padding: 0 4px; /* Small horizontal padding */
-    margin-top: 4px; /* Space from the frame */
-    font-size: 1em;
-    line-height: 1.4;
-    color: #333;
-    text-align: left; /* MediaWiki captions are left-aligned */
-}
-
-/* me when i forget that the viewer needs css too */
-
-
 #media-viewer {
     position: fixed;
     top: 0;
@@ -162,7 +119,7 @@ html {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
-    z-index: 1000000001;
+    z-index: 1000000005;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,6 +171,7 @@ html {
     cursor: pointer;
     line-height: 1;
     transition: color 0.2s;
+    z-index: 1000000007;
 }
 
 .close-btn:hover {
@@ -241,31 +199,50 @@ html {
     opacity: 1;
 }
 
-.nav-btn .material-icons {
-    font-size: 50px; 
-    line-height: 1;  
-    color: inherit;  
+
+/* Gallery Styling */
+.wiki-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    margin: 1em 0;
+    justify-content: left;
+    text-align: center; 
+}
+.wiki-gallery .gallery-item {
+    width: 220px; 
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.wiki-gallery .thumb-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px; 
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    padding: 6px;
+    margin-bottom: 4px;
+}
+.wiki-gallery .thumb-frame img {
+    max-height: 100%; 
+    max-width: 100%;
+    object-fit: contain;
+    box-shadow: none;
+    display: block;
+}
+.gallery-caption {
+    padding: 0 4px;
+    margin-top: 4px;
+    font-size: 0.9em !important; /* using the generic figcaption font-size */
+    line-height: 1.4;
+    color: #333;
+    text-align: left;
 }
 
-.close-btn {
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    color: #fff;
-    font-size: 40px; 
-    font-weight: bold;
-    cursor: pointer;
-    line-height: 1;
-    transition: color 0.2s;
-}
-
-.close-btn .material-icons {
-    font-size: 40px; 
-    line-height: 1;
-    color: inherit; 
-}
-
-
+/* Standalone Figure Styling */
 figure:not(.gallery-item) {
     max-width: 80%; 
     margin: 1em auto;
@@ -275,7 +252,6 @@ figure:not(.gallery-item) {
     display: block;
     text-align: center; 
 }
-
 figure:not(.gallery-item) img {
     border: 1px solid #ccc;
     background-color: #f8f8f8;
@@ -284,10 +260,7 @@ figure:not(.gallery-item) img {
     margin: 0 auto 5px auto;
     box-shadow: none;
     height: auto;
-    
 }
-
-
 figure:not(.gallery-item) figcaption {
     display: block;
     padding: 5px 0 0 0;
@@ -296,9 +269,9 @@ figure:not(.gallery-item) figcaption {
     font-size: 1em;
     line-height: 1.4;
     color: #333;
-    text-align: left;
+    text-align: center;
 }
-
+/* Generic Figcaption */
 figcaption {
-    font-size: 0.9em !important;
+    font-size: 0.9em !important; 
 }

@@ -1,9 +1,10 @@
-// Media Viewer for KuroWiki (resources/js/mediaviewer.js)
+// SpringViewer for KuroWiki (resources/js/mediaviewer.js)
 // Copyright Axeon Network/Nekori, 2025
 document.addEventListener('DOMContentLoaded', () => {
-    // hader elements for hiding
     const header = document.querySelector('.mdl-layout__header');
     const drawerBtn = document.querySelector('.mdl-layout__drawer-button');
+    const drawer = document.querySelector('.mdl-layout__drawer'); 
+    const mainBody = document.body; 
 
     const viewer = document.getElementById('media-viewer');
     const viewerMedia = document.getElementById('viewer-media');
@@ -31,27 +32,39 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // func to open viewer and hide MDL elements
+    // func to open viewer and hide MDL elements + scrollbar
     const openViewer = (index) => {
         updateViewer(index);
         viewer.classList.remove('viewer-hidden');
         
-        // Hide the Navbar/Header elements
+        // hide navbar, button and drawer
         if (header) header.classList.add('mdl-hidden');
         if (drawerBtn) drawerBtn.classList.add('mdl-hidden');
+        // the drawer needs to be hidden explicitly cuz mdl opens it via classes
+        if (drawer) drawer.classList.add('mdl-hidden'); 
+        
+        // hide scrollbar so it doesnt look weird
+        mainBody.classList.add('hide-scrollbar');
     };
 
-    // func to hide viewer and show MDL elements
+    // func to hide viewer and show MDL elements + scrollbar
     const hideViewer = () => {
         viewer.classList.add('viewer-hidden');
         currentIndex = -1; // reset index when closed
 
-        // Show the Navbar/Header elements
+        // reshow header ux
         if (header) header.classList.remove('mdl-hidden');
         if (drawerBtn) drawerBtn.classList.remove('mdl-hidden');
+        if (drawer) drawer.classList.remove('mdl-hidden');
+        
+        // reshow scrollbar so we can go up and down
+        mainBody.classList.remove('hide-scrollbar');
     };
+    
+    // collect all, i mean ALL..img tags that are children of a figure tag for gods sake
     galleryImages = document.querySelectorAll('figure img'); 
-    // cttach click listeners to all gallery images
+    
+    // attach click listeners to all gallery images
     galleryImages.forEach((image, index) => {
         // make sure all gallery images are clickable
         image.style.cursor = 'pointer'; 
@@ -64,13 +77,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // navigation controls
     nextBtn.addEventListener('click', () => {
-        // go to next image, wrapping around to start if needed
         const nextIndex = (currentIndex + 1) % galleryImages.length;
         updateViewer(nextIndex);
     });
 
     prevBtn.addEventListener('click', () => {
-        // go to previous image, wrapping around to end if needed
         const prevIndex = (currentIndex - 1 + galleryImages.length) % galleryImages.length;
         updateViewer(prevIndex);
     });

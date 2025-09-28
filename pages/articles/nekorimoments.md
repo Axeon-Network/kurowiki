@@ -30,75 +30,38 @@ Nekori moments can vary from a range of 'moment levels', with that being the fol
 #### Gallery of Nekori Moments
 
 <div class="wiki-gallery" id="nekori-moments-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/mc1.0bug.png" 
+        alt_text="A Minecraft 1.0 bug where Steve's body and head are gone, same with the Achievement panel background and the items on the hotbar" 
+        caption="A Minecraft 1.0 window where the Steve model, hotbar and achievement get panel are all broken." %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/mc1.0bug.png" 
-                 alt="A Minecraft 1.0 bug where Steve's body and head are gone, same with the Achievement panel background and the items on the hotbar">
-        </div>
-        <figcaption class="gallery-caption">
-            A Minecraft 1.0 window where the Steve model, hotbar and achievement get panel are all broken.
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/winrearrowbug.jpg" 
+        alt_text="A context menu on the Windows 11 Recovery Environment where the arrows for the context menu sub-menus are Unicode boxes." 
+        caption="A content menu on <a href=\"https://betawiki.net/wiki/Windows_Recovery_Environment\">WinRE</a> where the arrows on the menu are Unicode boxes." %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/winrearrowbug.jpg" 
-                 alt="A context menu on the Windows 11 Recovery Environment where the arrows for the context menu sub-menus are Unicode boxes.">
-        </div>
-        <figcaption class="gallery-caption">
-            A content menu on <a href="https://betawiki.net/wiki/Windows_Recovery_Environment">WinRE</a> where the arrows on the menu are Unicode boxes.
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/helpicantgetoutahhmoment.jpg" 
+        alt_text="A Discord Mobile screenshot where the member list is shown, the back button is missing due to the app's margins." 
+        caption="HELP I CAN'T GET OUT - Nekori, 2024" %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/helpicantgetoutahhmoment.jpg" 
-                 alt="A Discord Mobile screenshot where the member list is shown, the back button is missing due to the app's margins.">
-        </div>
-        <figcaption class="gallery-caption">
-            HELP I CAN'T GET OUT - Nekori, 2024
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/mood.jpg" 
+        alt_text="A lot of Windows location-related errors, showing that the VMware install MSI failed to start, and showing its path in the log file, but when trying to access it, the path is unavailable." 
+        caption="m o o d" %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/mood.jpg" 
-                 alt="A lot of Windows location-related errors, showing that the VMware install MSI failed to start, and showing its path in the log file, but when trying to access it, the path is unavailable.">
-        </div>
-        <figcaption class="gallery-caption">
-            m o o d
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/wmbmoment.jpg" 
+        alt_text="A photo of a Windows Boot Manager screen where the main content is resized to its horizontal half, a reversed color pallete is also shown, with the entries' icons (Win11 and Win10) being missing as well." 
+        caption="Windows Boot Manager moment" %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/wmbmoment.jpg" 
-                 alt="A photo of a Windows Boot Manager screen where the main content is resized to its horizontal half, a reversed color pallete is also shown, with the entries' icons (Win11 and Win10) being missing as well.">
-        </div>
-        <figcaption class="gallery-caption">
-            Windows Boot Manager moment
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/holyshit.jpg" 
+        alt_text="A photo of a Windows Boot Manager screen where the main content is resized to its horizontal half, a reversed color pallete is also shown, with the entries' icons (Win11 and Win10) being missing as well." 
+        caption="This is what I get for trying to install Windows Vista manually on a Kaby Lake PC.. - Nekori" %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/holyshit.jpg" 
-                 alt="A photo of a Windows Boot Manager screen where the main content is resized to its horizontal half, a reversed color pallete is also shown, with the entries' icons (Win11 and Win10) being missing as well.">
-        </div>
-        <figcaption class="gallery-caption">
-            This is what I get for trying to install Windows Vista manually on a Kaby Lake PC.. - Nekori
-        </figcaption>
-    </figure>
-
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horibyte_moments/criticalerror.png" 
-                 alt="A command prompt window on the second phase of Windows XP setup, when trying to run 'systeminfo', an 'ERROR: Critical Error.' message appears.">
-        </div>
-        <figcaption class="gallery-caption">
-            aw shucks - Nekori
-        </figcaption>
-    </figure>
-
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/criticalerror.png" 
+        alt_text="A command prompt window on the second phase of Windows XP setup, when trying to run 'systeminfo', an 'ERROR: Critical Error.' message appears." 
+        caption="aw shucks - Nekori" %}
 </div>

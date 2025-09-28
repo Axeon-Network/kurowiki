@@ -1,13 +1,35 @@
+# project name
 name: Axeon KuroWiki
+
+# developer phase
 devphase: Beta 5
+
+# project and site title
 title: KuroWiki
+
+# author of work, used in copyright notice
 author: Axeon Network
+
+# copyright year
 copyyear: 2025
+
+# your email
 email: thenekori64@gmail.com
+
+# description of site, used in embeds
 description: "Axeon KuroWiki Beta 5"
-baseurl: "" # the subpath of your site, e.g. /blog
+
+# the url of your site
 url: "https://axeon-network.github.io/kurowiki"
+
+# source code url
 sourceurl: "https://github.com/Axeon-Network/kurowiki"
+
+# sets if the debug watermark is visible or not
+# block = true
+# none = false
+watermarkdisplay: block
+
 # more variables to be set in the future!
 
 # Build settings

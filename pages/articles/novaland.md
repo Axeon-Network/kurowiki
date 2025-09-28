@@ -20,11 +20,8 @@ Citizens of NovaLand are called the NovaLandese. A populous country, NovaLand se
 NovaLand is a democratic semi-presidential republic. As of May 2025, the current head of state (*president of the Republic of NovaLand*) is [Nekori](Nekori).
 
 
-<figure>
-    <img src="resources/img/articles/novaland/flag.png" 
-         alt="Flag of NovaLand" 
-         style="width:15%;">
-    <figcaption>
-        The flag of NovaLand. Representing an <a href="A_Emoji">A</a>.
-    </figcaption>
-</figure>
+{% include figure_item.html 
+    image_src="resources/img/articles/novaland/flag.png" 
+    alt_text="Flag of NovaLand" 
+    caption="The flag of NovaLand. Representing an <a href=\"A_Emoji\">A</a>."
+    style="width:15%;" %}

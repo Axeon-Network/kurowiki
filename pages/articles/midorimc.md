@@ -12,9 +12,12 @@ Initial talks to launch a community Minecraft Server date back to mid-2019, with
 Additionally, a Minecraft world containing a main "lobby" for the then-known as the "*Lynx-Axeon Minecraft Server*" has also been found dating back to January 2021; this world still exists to this day.
 
    <div class="container">
-        <img src="resources/img/articles/midorimc/2021.png" style="width:30%; height:auto">
-        <p id="caption">World spawn of the "Lynx-Axeon Minecraft Server" from 2021</p>
-   </div>
+    {% include figure_item.html 
+        image_src="resources/img/articles/midorimc/2021.png" 
+        alt_text="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021" 
+        caption="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021"
+        style="width:30%; height:auto" %}
+</div>
 
 The idea of an "AxeonMC" had been dusted off once more in March 2025, following the closure of [the original Horicraft](Horicraft) caused by a disagreement between the server hoster and [Nekori](Nekori), the owner of Horicraft. However this never happened as the [Horicraft (2)](Horicraft_(2)) server came to life just a few days later.
 
@@ -23,9 +26,12 @@ An experimental AxeonMC Minecraft server was set up as a Survival 1.21.4 Fabric 
 Both AxeonMC (hosted by [KayAurora](KayAurora)) and Horicraft (2) (hosted by Nekori) would co-exist for a while, both being two separate Survival servers, leading up to the latter's closure.
 
    <div class="container">
-        <img src="resources/img/articles/midorimc/axeonmc.png" style="width:30%; height:auto">
-        <p id="caption">World spawn of AxeonMC</p>
-   </div>
+    {% include figure_item.html 
+        image_src="resources/img/articles/midorimc/axeonmc.png" 
+        alt_text="World spawn of AxeonMC" 
+        caption="World spawn of AxeonMC"
+        style="width:30%; height:auto" %}
+</div>
 
 ###### Merger of Horicraft and AxeonMC
 On 18 May 2025, after an agreement between Nekori (the owner of Horicraft) and KayAurora (the owner of AxeonMC), AxeonMC changed to a Creative server using the world of the original Horicraft, this change also gave a new name to the project: MidoriMC. This provided a semi-official, Nekori-endorsed continuation of the original Horicraft.
@@ -37,9 +43,12 @@ New ideas to enhance the MidoriMC in-game experience have came up around July 20
 Another idea was to unify the MidoriMC in-game chat and the Axeon Network Discord and Revolt servers together under a *#global* text channel, forming an "actual network". That said, none of these ideas came to life, due to KayAurora's dwindling interest to continue operating MidoriMC at all.
 
    <div class="container">
-        <img src="resources/resources/img/articles/midorimc/midorimclogo.png" style="width:10%; height:auto">
-        <p id="caption">Logo of MidoriMC, in use from June 2025 until its closure.</p>
-   </div>
+    {% include figure_item.html 
+        image_src="resources/resources/img/articles/midorimc/midorimclogo.png" 
+        alt_text="Logo of MidoriMC, in use from June 2025 until its closure." 
+        caption="Logo of MidoriMC, in use from June 2025 until its closure."
+        style="width:10%; height:auto" %}
+</div>
 
 ###### Server closure
 On 1 August 2025, KayAurora announced that MidoriMC would officially go offline for good, as by that point there was low player activity on the server for most of the time, and as such continuing to operate it would have been essentially pointless.

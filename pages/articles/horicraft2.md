@@ -11,7 +11,7 @@ redirect_from:
 
 The server closed due to lack of interest in maintaining the server on Nekori's side.
 
-### Trivia
+#### Trivia
 
 This section contains a list of Horicraft (2) trivia
 
@@ -26,30 +26,18 @@ This section contains a list of Horicraft (2) trivia
 
 Horicraft (2) is planned to close on May 18 or May 24 2025 to merge with the original [Horicraft](Horicraft) to a new Minecraft server operated by Nekori. This decision was made in order to revive both Horicraft projects after Nekori's demotivation on keeping both alive.
 
-### Gallery
+#### Gallery
 
 <div class="wiki-gallery">
-    
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horicraft2/hill.png" 
-                 alt="a horicraft 2 hill, shader enabled">
-        </div>
-        <figcaption class="gallery-caption" style="text-align:center;">
-            <i style="font-size: 100%;">A Horicraft (2) hill</i>
-        </figcaption>
-    </figure>
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horicraft2/hill.png" 
+        alt_text="A Horicraft (2) hill" 
+        caption="A Horicraft (2) hill" %}
 
-    <figure class="gallery-item">
-        <div class="thumb-frame">
-            <img src="resources/img/articles/horicraft2/bridge.png" 
-                 alt="a horicraft 2 bridge, going from KayAurora's house to horibyte's house, shader enabled">
-        </div>
-        <figcaption class="gallery-caption" style="text-align:center;">
-            <i style="font-size: 100%;">A Horicraft (2) bridge going from KayAurora's house to Nekori's house</i>
-        </figcaption>
-    </figure>
-
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horicraft2/bridge.png" 
+        alt_text="A Horicraft (2) bridge going from KayAurora's house to Nekori's house" 
+        caption="A Horicraft (2) bridge going from KayAurora's house to Nekori's house" %}
 </div>
 
 *Pictures taken by KayAurora.*

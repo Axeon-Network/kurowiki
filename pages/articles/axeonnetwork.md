@@ -28,10 +28,13 @@ Axeon Network has since de facto became a replacement for HoriServer (2), before
 
 On 8 September 2025, the Axeon Network Discord Server re-reached 100 members.
 
-   <div class="container">
-        <img src="resources/img/articles/axeonnetwork/axeonlogos.png" style="width:50%; height:auto">
-        <p id="caption">From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (current logo, used since June 2025)</p>
-   </div>
+<div class="container">
+    {% include figure_item.html 
+        image_src="resources/img/articles/axeonnetwork/axeonlogos.png" 
+        alt_text="From left to right: Aqua Community, Axeon Community, Lynxmic's Square, Axeon Network logos." 
+        caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (current logo, used since June 2025)"
+        style="width:50%; height:auto" %}
+</div>
 
 ###### Custom server-specific Discord Bots
 Initially, there were several bots hosted specifically for the Axeon Network server, all which started operating in late 2017-early 2018:
@@ -46,7 +49,7 @@ Initially, there were several bots hosted specifically for the Axeon Network ser
 **KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *Deltari* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
 Initially started with a main purpose of documenting meanings of inside jokes and other random Nekori-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and KayAurora-related things, since becoming a project part of the Axeon Network in September 2025.
 
-As of September 2025, KuroWiki has reached Beta 4.
+As of September 2025, KuroWiki has reached Beta 5.
 
 ##### MidoriMC
 *Main article: [MidoriMC](MidoriMC)*
@@ -64,9 +67,12 @@ The idea was cancelled due to its complex nature, and due to the `axeoncommunity
 No plans exist to pick up this project back, with KayAurora now [generally against](https://archive.ph/OWZN2) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
 
    <div class="container">
-        <img src="resources/img/articles/axeonnetwork/i.axeon.png" style="width:10%; height:auto">
-        <p id="caption">Proposed logo of the i.axeon service (early 2018).</p>
-   </div>
+    {% include figure_item.html 
+        image_src="resources/img/articles/axeonnetwork/i.axeon.png" 
+        alt_text="Proposed logo of the i.axeon service (early 2018)." 
+        caption="Proposed logo of the i.axeon service (early 2018)."
+        style="width:10%; height:auto" %}
+</div>
 
 ##### AxeonWebsite
 **AxeonWebsite** (previously known as **AquaWebsite**) was the official website of the Axeon Network since January 2018 until July 2019, when KayAurora announced they were quitting coding at the time.
@@ -79,8 +85,11 @@ Initially on the `aquacommunity.ml` domain, it has moved to `axeoncommunity.ml` 
 The website has been hosted on GitHub Pages since May 2018, and initially on a different free web hosting service, from which it migrated due to persisting issues loading media under said provider.
 
    <div class="container">
-        <img src="resources/img/articles/axeonnetwork/axeonwebsite.png" style="width:40%; height:auto">
-        <p id="caption">AxeonWebsite in May 2019</p>
-   </div>
+    {% include figure_item.html 
+        image_src="resources/img/articles/axeonnetwork/axeonwebsite.png" 
+        alt_text="AxeonWebsite in May 2019" 
+        caption="AxeonWebsite in May 2019"
+        style="width:40%; height:auto" %}
+</div>
 
 A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](KayWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.

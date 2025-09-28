@@ -15,8 +15,19 @@ As such, the final decision was to start a custom-built wiki core from the groun
 
 Development of Deltari began with forking [HoriWebsite](LexSite) version **2.4.3565**, as creating new pages with Jekyll within the existing framework would cause issues. Here are the earliest available screenshots of that fork:
 
-![a screenshot of the earliest developer alpha of horiwiki, changing the branch from main to main-wik and changing the website title to horiwiki](resources/img/articles/horiwiki/earliest_developer_pre-alpha.png){: style="width:60%;" title="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'horiwiki'."}
-![KuroWiki Pre-alpha engine debug buil string](resources/img/articles/horiwiki/devalpha-info.png){: style="width:50%;" title="Debug build string from the KuroWiki Pre-alpha engine."}
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/earliest_developer_pre-alpha.png" 
+        alt_text="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'." 
+        caption="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'."
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/devalpha-info.png" 
+        alt_text="Debug build string from the KuroWiki Pre-alpha engine." 
+        caption="Debug build string from the KuroWiki Pre-alpha engine."
+        style="width:50%;" %}
+</div>
 
 #### Milestone 1, 2 and 3 (Pre-Alpha) and Alpha
 ---
@@ -24,73 +35,140 @@ Development of Deltari began with forking [HoriWebsite](LexSite) version **2.4.3
 With the existing HoriWebsite frontend code stripped off, the basic code for the Deltari engine was thrown up together in just two days, reaching Pre-Alpha status by May 4 2025.
 *Image quality in the following screenshots may vary as they were taken from Discord messages sent by Nekori or others.*
 
-##### Builds Compiled on May 4, 2025:
+##### May 4, 2025:
 ---
 
-###### Pre-alpha 0.1
+##### Pre-alpha 0.1
 ---
 
-![pre-alpha 0.1](resources/img/articles/horiwiki/pa0.1.png){: style="width:50%;"}
-![pre-alpha 0.1](resources/img/articles/horiwiki/pa0.1-1.png){: style="width:50%;"}
 This build essentially removed most of the HoriWebsite's front-end elements, though some underlying HoriWebsite code still remained.
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/pa0.1.png" 
+        alt_text="Pre-alpha 0.1" 
+        caption="Pre-alpha 0.1"
+        style="width:50%;" %}
 
-###### Pre-alpha 0.2
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/pa0.1-1.png" 
+        alt_text="Pre-alpha 0.1" 
+        caption="Pre-alpha 0.1"
+        style="width:50%;" %}
+</div>
+
+##### Pre-alpha 0.2
 ---
 
-![pre-alpha 0.2](resources/img/articles/horiwiki/pa0.2.png){: style="width:50%;"}
 This version shows early attempts to implement MediaWiki-style navigation bars.
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/pa0.2.png" 
+    alt_text="Pre-alpha 0.2" 
+    caption="Pre-alpha 0.2"
+    style="width:50%;" %}
 
-###### Pre-alpha 0.3
+##### Pre-alpha 0.3
 ---
 
-![pre-alpha 0.3](resources/img/articles/horiwiki/pa0.3.png){: style="width:50%;"}
 Navigation bars were partially implemented in this build, using multi-colored segments to aid in debugging.
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/pa0.3.png" 
+    alt_text="Pre-alpha 0.3" 
+    caption="Pre-alpha 0.3"
+    style="width:50%;" %}
 
-###### Pre-alpha 0.4
+##### Pre-alpha 0.4
 ---
 
-![pre-alpha 0.4](resources/img/articles/horiwiki/pa0.4.png){: style="width:50%;"}
 Pre-alpha 0.4 is where KuroWiki began to take on its distinct form, with several key elements nearing completion.
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/pa0.4.png" 
+    alt_text="Pre-alpha 0.4" 
+    caption="Pre-alpha 0.4"
+    style="width:50%;" %}
 
-###### Pre-alpha 0.5.x
+##### Pre-alpha 0.5.x
 ---
 
-![pre-alpha 0.5](resources/img/articles/horiwiki/pa0.5.png){: style="width:50%;"}
-![pre-alpha 0.5.2](resources/img/articles/horiwiki/pa0.5.2.png){: style="width:50%;"}
-![pre-alpha 0.5.2 1](resources/img/articles/horiwiki/pa0.5.2-1.png){: style="width:50%;"}
 Builds 0.5.x were the most complete builds of that day, with nearly all essential components implemented correctly.
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/pa0.5.png" 
+        alt_text="Pre-alpha 0.5" 
+        caption="Pre-alpha 0.5"
+        style="width:50%;" %}
 
-##### Builds Compiled on May 5, 2025:
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/pa0.5.2.png" 
+        alt_text="Pre-alpha 0.5.2" 
+        caption="Pre-alpha 0.5.2"
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/pa0.5.2-1.png" 
+        alt_text="Pre-alpha 0.5.2 1" 
+        caption="Pre-alpha 0.5.2 1"
+        style="width:50%;" %}
+</div>
+
+##### May 5, 2025:
 ---
 
-###### Pre-alpha 0.5.3
+##### Pre-alpha 0.5.3
 ---
 
-![pre-alpha 0.5.3](resources/img/articles/horiwiki/pa0.5.3-anaheim.png){: style="width:50%;"}
 Build 0.5.3 was the most feature-complete pre-alpha build, with most important elements already in place.
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/pa0.5.3-anaheim.png" 
+    alt_text="Pre-alpha 0.5.3" 
+    caption="Pre-alpha 0.5.3"
+    style="width:50%;" %}
 
-##### Builds Compiled on May 6-7, 2025:
+##### May 6-7, 2025:
 ---
 
-###### Alpha 1.1
+##### Alpha 1.1
 ---
 
-![alpha 1.1](resources/img/articles/horiwiki/a1.1.png){: style="width:50%;"}
 This was the first Alpha version of KuroWiki, introducing significant updates to the Deltari engine. Backend engine code was extensively cleaned up and polished, with **Markdown** now supported for convenience. Most fixes were contributed by **KayAurora**.
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/a1.1.png" 
+    alt_text="Alpha 1.1" 
+    caption="Alpha 1.1"
+    style="width:50%;" %}
 
-###### Alpha 1.2
+##### Alpha 1.2
 ---
 
-![alpha 1.2](resources/img/articles/horiwiki/a1.2-home.png){: style="width:50%;"}
-![alpha 1.2 sitemap](resources/img/articles/horiwiki/a1.2-dirlist.png){: style="width:50%;"}
-![alpha 1.2 docs file](resources/img/articles/horiwiki/a1.2-cthrwd.png){: style="width:50%;"}
 As with the previous version, this update focused on further bug fixes and refinements of the engine.
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/a1.2-home.png" 
+        alt_text="Alpha 1.2" 
+        caption="Alpha 1.2"
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/a1.2-dirlist.png" 
+        alt_text="The Sitemap in Alpha 1.2" 
+        caption="The Sitemap in Alpha 1.2"
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/a1.2-cthrwd.png" 
+        alt_text="Contributing to HoriWiki in Alpha 1.2" 
+        caption="Contributing to HoriWiki in Alpha 1.2"
+        style="width:50%;" %}
+</div>
 
 #### Beta
 ---
-Development after the initial Alpha phases rapidly progressed into Beta stages. The initial **Beta 1.0** release from **7 May 2025** introduced changes to the frontend, adding proper support for mobile sizes.
+Development after the initial Alpha phases rapidly progressed into Beta stages. The initial **Beta 1.0** release from **7 May 2025** introduced changes to the frontend, and proper support for mobile sizes.
 
-![beta 1.0 mobile screenshot](resources/img/articles/horiwiki/b1.0-m.png){: style="width:50%;"}
+{% include figure_item.html 
+    image_src="resources/img/articles/horiwiki/b1.0-m.png" 
+    alt_text="Beta 1.0's mobile UI" 
+    caption="Beta 1.0's mobile UI"
+    style="width:50%;" %}
 
 **Beta 2.0** did away with the Alpha frontend layout, introducing a more 2014 Material Design-style UI using the **Material Design Lite** (MDL) CSS framework, significantly enhancing the wiki's visual appearance and user interface.
 June 2025 saw the release of **Beta 2.1**, introducing new features such as **functional search capabilities** and a **Wikipedia-styled "Did You Know" section**, further completing the KuroWiki homepage. This was also the final version under the wiki's initial **HoriWiki** naming.

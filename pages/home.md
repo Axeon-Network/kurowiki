@@ -5,7 +5,7 @@ search_exclude: true
 hatnote: adding a hatnote cuz we have ALOT of work-
 ---
 
-<script src="resources/js/dyk.js"></script>
+<script src="./resources/js/dyk.js"></script>
 
 <style>
     hr {
