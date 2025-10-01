@@ -47,7 +47,7 @@ As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a
 ---
 **DHI Movies Corp.** (fully known as *Dogui Heavy Industries Movie Studio Corporation*) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand.
 
-DHI Movies Corp. has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately.
+DHI Movies Corp. has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately, and "*Finding Fucking*" as well.
 
 <!-- #### [Loreside](KuroWiki%3ALoreside)
 ---

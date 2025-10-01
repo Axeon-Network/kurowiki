@@ -3,6 +3,11 @@ layout: main
 title: Axeon Network
 permalink: Axeon_Network
 hatnote:
+redirect_from:
+    - LynxPlaza
+    - Axeon
+    - Axeon_Community
+    - Aqua_Community
 ---
 **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by KayAurora), which had always been the 'heart' of the network from the start, other stuff include a Revolt server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
 

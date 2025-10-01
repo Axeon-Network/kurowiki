@@ -2,6 +2,8 @@
 layout: main
 permalink: Thei5Lappy
 title: Thei5Lappy
+redirect_from:
+    - Dell_Latitude_3380
 ---
 
 **Thei5Lappy** (temporarily known as **SuperNova** in July-August 2025; model *Dell Latitude 3380*), is a laptop manufactered by Dell Inc. in 2017. It is [Nekori](Nekori)'s main PC since November 2024.

@@ -3,6 +3,9 @@ layout: main
 title: Nekori Moments
 permalink: Nekori_Moments
 hatnote: "TODO: im not gonna be bothered with this one<br>Not to be confused with <a href='Nekori_Power'>Nekori Power</a>."
+redirect_from:
+    - Horibyte_Moments
+    - Stuffy_Moments
 ---
 
 **Nekori Moments** (*formerly known as **Horibyte Moments** and **Stuffy Moments***) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.

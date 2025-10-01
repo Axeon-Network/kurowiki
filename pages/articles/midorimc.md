@@ -2,6 +2,8 @@
 layout: main
 title: MidoriMC
 permalink: MidoriMC
+redirect_from:
+    - AxeonMC
 hatnote:
 ---
 **MidoriMC** (previously known as **AxeonMC**) was a Minecraft Java Edition server for the community of the [Axeon Network](Axeon_Network), initially launched in May 2025 as a Survival 1.21.4 Fabric server. At the time of its closure (August 2025), it was a Creative Fabric server supporting both the 1.21.8 and 1.21.7 clients.
@@ -44,7 +46,7 @@ Another idea was to unify the MidoriMC in-game chat and the Axeon Network Discor
 
    <div class="container">
     {% include figure_item.html 
-        image_src="resources/resources/img/articles/midorimc/midorimclogo.png" 
+        image_src="resources/img/articles/midorimc/midorimclogo.png" 
         alt_text="Logo of MidoriMC, in use from June 2025 until its closure." 
         caption="Logo of MidoriMC, in use from June 2025 until its closure."
         style="width:10%; height:auto" %}
