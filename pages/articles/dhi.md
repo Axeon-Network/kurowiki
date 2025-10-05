@@ -43,11 +43,13 @@ As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a
     </figcaption>
 </figure>
 
-#### DHI Movies
+#### DHI Pictures
 ---
-**DHI Movies Corp.** (fully known as *Dogui Heavy Industries Movie Studio Corporation*) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand.
+**Dogui Heavy Industries Home Pictures Co., Ltd** (abbreviated as **DHI Pictures**; formerly known as **Dogui Heavy Industries Movie Studio Corporation**; abbreviated as **DHI Movies Corp**) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand. The company changed from DHI Movies to DHI Pictures in October 2025 following the release of [Finding Fucking](Finding_Fucking)
 
-DHI Movies Corp. has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately.
+DHI Pictures has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately.
+
+An actual (short) movie was released in 2 October 2025 titled *Finding Fucking*, which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4)
 
 <!-- #### [Loreside](KuroWiki%3ALoreside)
 ---
