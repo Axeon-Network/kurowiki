@@ -58,6 +58,9 @@ After the agreement, KuroWiki expanded its content to not only cover Nekori stuf
 4.2.2001.kuro_escro.250725-1527
 4.2.2002.kuro_escro.250725-1533
 4.3.2003.kayaurora.250906-2219
+4.3.2004.kayaurora.250906-1228
+4.3.2035.nekori64.250906-1830
+4.3.2067.nekori64.250907-1525
 4.3.2089.nekori64.250908-1450
 4.3.2102.nekori64.250910-1905
 4.3.2489.kayaurora.250907-0334
