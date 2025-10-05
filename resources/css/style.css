@@ -73,7 +73,8 @@ img {
 
 /* background */
 html {
-    background-image: url('../../resources/img/bg.jpg') !important;
+    /* background-image: url('../../resources/img/bg.jpg') !important; */
+    background-image: url('https://picsum.photos/1920/1080/?random&blur=2') !important;
     background-position-y: -350px;
     background-attachment: fixed;
     /* background-image: linear-gradient(to bottom right, rgb(15, 17, 90), rgb(34, 12, 70)) */

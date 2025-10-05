@@ -8,7 +8,14 @@ redirect_from:
 
 This article shows a list of codenames used by [KayAurora](KayAurora) in their projects.
 
-[C](#C) · [L](#L) · [O](#O) · [P](#P) · [R](#R) · [U](#U) · [V](#V)
+[A](#A) · [C](#C) · [L](#L) · [O](#O) · [P](#P) · [R](#R) · [S](#S) · [U](#U) · [V](#V)
+
+<h4 id="A">A</h4>
+<hr>
+
+<h5 id="Aqua">Aqua</h5>
+
+The original naming for the [Axeon Network](Axeon_Network) Discord Server, used in 2017-18 with the "*Community*" prefix at the end.
 
 <h4 id="C">C</h4>
 <hr>
@@ -31,9 +38,9 @@ Codename for the Discord server that would have resulted from the merge between 
 
 Codename used for various later-cancelled projects for the [Axeon Network](Axeon_Network) in multiple instances since 2023:
 - **The *Orchid* Discord Bot** (May 2023): spiritual successor (but unrelated) to 2018's *AxeonBot*, used as a complementary extension to existing 3rd-party bots already in use in Axeon Network (at the time known as Lynxmic's Square). The original bot account for it would later change to report the online status of [MidoriMC](MidoriMC) on Discord.
-- **The *Orchid* Revolt Bot** (February 2025): a multi-purpose bot with many features that anyone could add to their very own Revolt servers (similar to [Venus](Venus) feature-wise). The original bot account would later be deleted in March 2025.
-- ***Project Orchid*** (July 2025): linking together all chats of the Axeon Network (the Discord Server, the Revolt Server, and the MidoriMC in-game chat).
-     - An example on how the idea would go: someone from Discord sends a message to the `#global` text channel on Discord and it would show up on the `#global` text channel on Revolt or vice-versa. Messages from both channels from Discord and Revolt would show up in the MidoriMC in-game chat as well, and people online on MidoriMC can choose to have their messages go on both channels on Discord and Revolt as well.
+- **The *Orchid* Stoat Bot** (February 2025): a multi-purpose bot with many features that anyone could add to their very own Stoat (Formerly revolt.chat) servers (similar to [Venus](Venus) feature-wise). The original bot account would later be deleted in March 2025.
+- ***Project Orchid*** (July 2025): linking together all chats of the Axeon Network (the Discord Server, the Stoat Server, and the MidoriMC in-game chat).
+     - An example on how the idea would go: someone from Discord sends a message to the `#global` text channel on Discord and it would show up on the `#global` text channel on Stoat or vice-versa. Messages from both channels from Discord and Stoat would show up in the MidoriMC in-game chat as well, and people online on MidoriMC can choose to have their messages go on both channels on Discord and Stoat as well.
 
    <div class="container">
         <img src="resources/img/articles/listofkayauroracodenames/orchid.png" style="width:20%; height:auto">
@@ -55,10 +62,21 @@ The name can be understood as sort of a combination between the words "prevent" 
 <h4 id="R">R</h4>
 <hr>
 
+<h5 id="Rano">Rano</h5>
+
+Name used by 2017 Computerseasons to refer to a "Computerseasons-made operating system".
+
 <h5 id="Ruby">Ruby</h5>
 
 Name used for a project for a separate fun-oriented bot for Discord from 2018-19, also later cancelled.
 Ruby's bot account still exists to this day and it is planned it may be reused at some point for a future project for the Axeon Network.
+
+<h4 id="S">S</h4>
+<hr>
+
+<h5 id="Softdron">Softdron</h5>
+
+Name of a fictional company thought to have been the maker of the hypotethical [Rano](#Rano) operating system.
 
 <h4 id="U">U</h4>
 <hr>
