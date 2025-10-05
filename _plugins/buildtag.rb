@@ -8,7 +8,8 @@ module Jekyll
   class ExtBuildInfoGenerator < Generator
     safe true
     priority :highest
-    Jekyll.logger.info "TagGen:", "Copyright Axeon Network/Nekori, 2025"
+    Jekyll.logger.info "TagGen:", "Build Number Tag Generation"
+    Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025"
 
 
     def generate(site)
@@ -61,7 +62,7 @@ module Jekyll
       timestamp = Time.now.strftime("%y%m%d-%H%M")
 
       # create full build tag string
-      full_build_tag = "5.1.#{current_incremental_number}.#{git_branch}.#{timestamp}"
+      full_build_tag = "5.2.#{current_incremental_number}.#{git_branch}.#{timestamp}"
 
       # persist full build tag to file
       begin
@@ -74,7 +75,7 @@ module Jekyll
       # add all build info to site.config variable
       site.config['version'] = {
         'major' => 5,
-        'minor' => 1,
+        'minor' => 2,
         'patch' => current_incremental_number,
         'branch' => git_branch,
         'timestamp' => timestamp,
