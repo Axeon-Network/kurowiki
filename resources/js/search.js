@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // when the title is also a link be like
             const titleLink = document.createElement('a');
-            titleLink.href = '/' + item.url; 
+            titleLink.href = './' + item.url; 
             titleLink.textContent = item.title;
             titleLink.style.fontSize = '1.2em';
             titleLink.style.fontWeight = 'bold';
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // its the url
             const urlP = document.createElement('p');
-            urlP.textContent = baseURL + '/' + item.url;
+            urlP.textContent = baseURL + './' + item.url;
             urlP.style.fontSize = '0.9em';
             urlP.style.color = '#006400'; 
             urlP.style.marginBottom = '5px';
