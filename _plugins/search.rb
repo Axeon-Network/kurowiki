@@ -4,7 +4,8 @@
 require 'json'
 require 'jekyll'
 require 'fileutils' # Need FileUtils for mkdir_p
-Jekyll.logger.info "DeltaSearch:", "Copyright Axeon Network/Nekori, 2025"
+Jekyll.logger.info "DeltaSearch:", "Search engine for KuroWiki"
+Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025"
 
 Jekyll::Hooks.register :site, :post_write do |site|
   # 1. Define the target output directory and file path

@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!targetContainer) return; // Safety check
 
         if (factsToRender.length === 0) {
-            targetContainer.textContent = "No facts available.";
+            targetContainer.textContent = "...that no facts™ are available?";
             return;
         }
 
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.warn("Facts data is empty or not an array:", data);
                 // Display 'No facts available' message in all containers
                 allFactContainers.forEach(container => {
-                    container.textContent = "No facts available.";
+                    container.textContent = "that your daily facts™ are unavailable?";
                 });
             }
         })

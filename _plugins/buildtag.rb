@@ -8,7 +8,8 @@ module Jekyll
   class ExtBuildInfoGenerator < Generator
     safe true
     priority :highest
-    Jekyll.logger.info "TagGen:", "Copyright Axeon Network/Nekori, 2025"
+    Jekyll.logger.info "TagGen:", "Build Number Tag Generation"
+    Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025"
 
 
     def generate(site)
@@ -74,7 +75,7 @@ module Jekyll
       # add all build info to site.config variable
       site.config['version'] = {
         'major' => 5,
-        'minor' => 1,
+        'minor' => 2,
         'patch' => current_incremental_number,
         'branch' => git_branch,
         'timestamp' => timestamp,

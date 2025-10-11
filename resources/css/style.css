@@ -5,7 +5,8 @@
 
 /* the fucking font:tm: */
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', /* if this fails to load i will explode */
+    sans-serif;
 }
 
 /* mdl-layout stuff */
@@ -37,14 +38,16 @@ a {
 }
 
 /* i guess this is for the drawer idk */
+/* wait is this a leftover from lexsite???? */
 .mdl-navigation__link {
  color:white !important;
  
 }
+
+/* this too */
 .mdl-hidden {
     display: none !important;
 }
-
 
 /* this too */
 .mdl-navigation__link:hover {
@@ -71,7 +74,7 @@ img {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
-/* background */
+/* waf cool bg :3 */
 html {
     background-image: url('../../resources/img/bg.jpg') !important;
     background-position-y: -600px;
@@ -118,8 +121,8 @@ html::before {
 }
 
 
-/* mediaviewer moment */
-#media-viewer {
+/* springviewer moment */
+#springviewer {
     position: fixed;
     top: 0;
     left: 0;
@@ -137,7 +140,13 @@ html::before {
     display: none !important;
 }
 
-.viewer-hidden {
+/* so now i go here, i remove one letter and it should all work */
+/* ....right? */
+/* RIGHT? */
+/* YOU PIECE OF COMPUTER SOFTWARE JUST FUCKING WORK MAN */
+/* ok it was cache,, */
+/* wait this viewer thing still deosnt work ALL I DID WAS RENAME IT- */
+.viewer-hidde {
     display: none !important;
     opacity: 0;
 }
@@ -207,7 +216,7 @@ html::before {
 }
 
 
-/* Gallery Styling */
+/* remember when we said its gallery time and it gallered all over the pla- */
 .wiki-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +258,7 @@ html::before {
     text-align: left;
 }
 
-/* Standalone Figure Styling */
+/* gallery item but its not on the gallery ahh moment */
 figure:not(.gallery-item) {
     max-width: 80%; 
     margin: 1em auto;
@@ -278,10 +287,14 @@ figure:not(.gallery-item) figcaption {
     color: #333;
     text-align: center;
 }
-/* Generic Figcaption */
+/* figcaption normal edition */
 figcaption {
     font-size: 0.9em !important; 
 }
+
+/* can the code fucking code now thanks mr code */
+code {
+    font-family: 'Consolas', 'Hack' !important;
 .demo-card-wide.mdl-card {
   width: 512px;
 }
