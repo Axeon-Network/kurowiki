@@ -49,7 +49,7 @@ As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a
 
 DHI Pictures has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately.
 
-An actual (short) movie was released in 2 October 2025 titled *Finding Fucking*, which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4)
+An actual (short) movie was released in 2 October 2025 titled [Finding Fucking](Finding_Fucking), which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4)
 
 <!-- #### [Loreside](KuroWiki%3ALoreside)
 ---

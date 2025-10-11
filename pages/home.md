@@ -60,17 +60,12 @@ hatnote: adding a hatnote cuz we have ALOT of work-
   </div>
   <div class="mdl-card__supporting-text">
     <div id="facts-container-m" style="color:black;padding:-1;">
-    <noscript>...that JavaScript is currently unavailable and several LexiWiki features are disabled?</noscript>
+    <noscript>...that JavaScript is currently disabled and several <s>LexiWiki</s>..i mean KuroWiki features do not work?</noscript>
       </div>
   </div>
 </div>
 
 
-
-<!-- tooltip for a fact -->
-<div class='mdl-tooltip mdl-tooltip--top' data-mdl-for='rli'>
-  Specifically, it was due to Lex's power outlet being damaged, the original project file being corrupted, and operating system re-installs.
-</div>
 
 <!-- #### Recent news:
 

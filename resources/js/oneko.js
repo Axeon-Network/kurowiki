@@ -1,4 +1,5 @@
 // oneko.js: https://github.com/adryd325/oneko.js
+// dw babe we gonna use u soon enough :3
 
 (function oneko() {
   const isReducedMotion =

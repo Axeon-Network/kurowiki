@@ -3,10 +3,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('.mdl-layout__header');
     const drawerBtn = document.querySelector('.mdl-layout__drawer-button');
-    const drawer = document.querySelector('.mdl-layout__drawer'); 
+    const drawer = document.querySelector('.mdl-layout__drawer', '.mdl-layout__drawer-button'); 
     const mainBody = document.body; 
 
-    const viewer = document.getElementById('media-viewer');
+    const viewer = document.getElementById('springviewer'); // this mf made me explode
     const viewerMedia = document.getElementById('viewer-media');
     const viewerCaption = document.getElementById('viewer-caption');
     const closeBtn = document.querySelector('.close-btn');
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // func to open viewer and hide MDL elements + scrollbar
     const openViewer = (index) => {
         updateViewer(index);
-        viewer.classList.remove('viewer-hidden');
+        viewer.classList.remove('viewer-hidde');
         
         // hide navbar, button and drawer
         if (header) header.classList.add('mdl-hidden');
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // func to hide viewer and show MDL elements + scrollbar
     const hideViewer = () => {
-        viewer.classList.add('viewer-hidden');
+        viewer.classList.add('viewer-hidde'); // THIS STUPID MOTHERFUC-
         currentIndex = -1; // reset index when closed
 
         // reshow header ux
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // keyboard controls
     document.addEventListener('keydown', (event) => {
-        if (!viewer.classList.contains('viewer-hidden')) {
+        if (!viewer.classList.contains('viewer-hidde')) { // YOU.
             if (event.key === 'Escape') {
                 hideViewer();
             } else if (event.key === 'ArrowRight') {
