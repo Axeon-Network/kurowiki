@@ -2,7 +2,7 @@
 name: Axeon KuroWiki
 
 # developer phase
-devphase: Interim Developer Release
+devphase: Interim Developer Release 2
 
 # project and site title
 title: KuroWiki
@@ -17,7 +17,7 @@ copyyear: 2025
 email: thenekori64@gmail.com
 
 # description of site, used in embeds
-description: "Axeon KuroWiki Beta 5"
+description: "Axeon KuroWiki Beta 5.2 Interim Developer Release 2"
 
 # the url of your site
 url: "https://axeon-network.github.io/kurowiki"
@@ -42,8 +42,7 @@ plugins:
 kramdown:
   input: GFM
   hard_wrap: true
-include:
-  - resources/json/search.json
+
 
 # Exclude from processing.
 exclude:

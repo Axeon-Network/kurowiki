@@ -8,7 +8,8 @@ module Jekyll
   class ExtBuildInfoGenerator < Generator
     safe true
     priority :highest
-    Jekyll.logger.info "TagGen:", "Build Number Tag Generation"
+    Jekyll.logger.info "KuroWiki", "TagGen, Version 1.0!"
+    Jekyll.logger.info "", "Who tagging they builds."
     Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025"
 
 

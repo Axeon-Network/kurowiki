@@ -9,6 +9,10 @@ redirect_from:
 - StuffyWebsiteWOU
 - WOU
 - Week_One_Update
+aliases:
+    - stuffys website
+    - stuffy website
+    - stuffywebsite
 ---
 
 **Stuffy's Website** (commongly abbreviated as **StuffyWebsite**, **Stuffy Website WOU**, or just **WOU**) was [Nekori](Nekori64)'s personal website from June 2024 to August 2024. It was succeded by the [StuffyXP Website](StuffyXP_Website) in September 2024.

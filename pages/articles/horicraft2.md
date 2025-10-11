@@ -5,6 +5,8 @@ permalink: Horicraft_(2)
 hatnote: This article is about the spiritual successor to the original Horicraft server, for its predecessor, see <a href="Horicraft">Horicraft</a>.
 redirect_from: 
     - Horicraft_2
+aliases:
+    - horicraft 2
 ---
 
 **Horicraft (2)** was a survival Minecraft server owned & operated by [Nekori](Nekori) founded on 14 March 2025 and closed on 18 May 2025. It is the spiritual successor to the [original Horicraft server](Horicraft) after being closed due to a disagreement between the server hoster and Nekori.

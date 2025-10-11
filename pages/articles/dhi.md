@@ -7,7 +7,11 @@ redirect_from:
   - DHI
   - Dogui_Heavy_Industries
   - Dogui_Heavy_Industries_Inc
-hatnote: work on loreside
+aliases:
+  - dhi
+  - dhi pictures
+  - dhi movies
+  - dhi turtles
 ---
 
 **Dogui Heavy Industries Incorporated**[&sup1;](#notec1) (DHI Inc.) is a fictional NovaLandese company. Its main headquarters are located in [Fucking](Fucking), the capital city of [NovaLand](NovaLand).
