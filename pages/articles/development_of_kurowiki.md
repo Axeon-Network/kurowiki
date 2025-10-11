@@ -171,9 +171,41 @@ Development after the initial Alpha phases rapidly progressed into Beta stages. 
     style="width:50%;" %}
 
 **Beta 2.0** did away with the Alpha frontend layout, introducing a more 2014 Material Design-style UI using the **Material Design Lite** (MDL) CSS framework, significantly enhancing the wiki's visual appearance and user interface.
-June 2025 saw the release of **Beta 2.1**, introducing new features such as **functional search capabilities** and a **Wikipedia-styled "Did You Know" section**, further completing the KuroWiki homepage. This was also the final version under the wiki's initial **HoriWiki** naming.
+June 2025 then saw the release of **Beta 2.1**, introducing new features such as **functional search capabilities** and a **Wikipedia-styled "Did You Know" section**, further completing the KuroWiki homepage. This was also the final version under the wiki's initial **HoriWiki** naming.
 
-July 2025 saw the release of **Beta 3.0**, introducing further enhancements to the MDL frontend and article wording. This version also reflects on the then-recent rebranding from Horibyte to Lexibyte, with the wiki now known as *LexWiki* around this time.
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/b1.0.1-material.png" 
+        alt_text="Beta 1.0.1 Material" 
+        caption="Beta 1.0.1 Material"
+        style="width:50%;" %}
 
-September 2025 saw the LexWiki project become part of the [Axeon Network](/Axeon_Network). As part of this change, LexWiki rebranded once more to its current name of **KuroWiki** and the engine saw its name renamed as well to **Deltari**. Nekori would remain involved in the project, but the wiki's scope would expand beyond Nekori-related stuff and side projects to a more wide variety of topics. Existing references to Lexibyte would change to Nekori.
+    {% include gallery_item.html 
+        image_src="resources/img/articles/horiwiki/b1.0.1-search.png" 
+        alt_text="Search in Beta 2.0" 
+        caption="Search in Beta 2.0"
+        style="width:50%;" %}
+</div>
+
+July 2025 saw work undergone on **Beta 3.0**, introducing further enhancements to the MDL frontend and article wording. This version also reflects on the then-recent rebranding from Horibyte to Lexibyte, with the wiki now known as *LexWiki* around this time.
+
+September 2025 saw the LexWiki project become part of the [Axeon Network](/Axeon_Network). As part of this change, LexWiki rebranded once more to its current name of **KuroWiki** and the engine saw its name renamed as well to **Deltari**. Nekori would remain involved in the project, but the wiki's scope would expand beyond Nekori-related stuff and side projects to a more wide variety of topics. Existing references to Lexibyte have changed to Nekori.
 The first version of KuroWiki under Axeon was **Beta 4.0**, bringing significant changes and even rewrites to existing pages of the wiki, while adding other new pages and enhancements.
+
+In late September 2025, the Axeon Network publicly released its first public KuroWiki version, 5.1.2600.main.250928-0955 (also jokingly named **KuroWikiXP** due to the version string). The first build of the **Beta 5.x** series, this is the first public KuroWiki release since early June 2025.
+
+As of October 2025, work has shifted to Beta 5.2, introducing even more new articles and changes. Build 3505 finally did away of the LexTheNova-esque background and replaced it with a changing background. [Build 3567](KuroWiki_build_3567_(kayaurora)) introduced the *Featured Articles* box in the homepage.
+
+<div class="wiki-gallery">
+       {% include gallery_item.html 
+         image_src="resources/img/articles/horiwiki/b5.2-kayaurora.png" 
+         alt_text="Homepage of beta 5.2, build 3505" 
+         caption="Homepage of beta 5.2, build 3505"
+         style="width:50%;" %}
+
+       {% include gallery_item.html 
+         image_src="resources/img/articles/kurowikibuild3567-ka/home.png" 
+         alt_text="Homepage of beta 5.2, build 3567" 
+         caption="Homepage of beta 5.2, build 3567"
+         style="width:50%;" %}
+</div>

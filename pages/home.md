@@ -1,83 +1,39 @@
 ---
 layout: main
+title: Welcome to KuroWiki!
 permalink: /Main_Page
 search_exclude: true
-hatnote: adding a hatnote cuz we have ALOT of work-
+hatnote: This is beta software! Please report any issues you may find through <a href="https://github.com/Axeon-Network/kurowiki/issues">GitHub Issues</a> or on our <a href="/discord">Discord Server</a>
 ---
 
 <script src="./resources/js/dyk.js"></script>
+<!-- todo: literally move this to a separate JS file thanku -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById("feat-article-container");
+     {% assign featured = site.pages | where: "path", "pages/articles/absolute_cinema.md" | first %}
+  const pick = {
+        url: "{{ featured.url | relative_url }}",
+        title: {{ featured.title | jsonify }},
+        excerpt: {{ featured.content | markdownify | split:'<h' | first | split:'<img' | first | truncatewords: 90 | jsonify }}
+      };
+    if (container) {
+      container.innerHTML = `
+        <a id="pagetitle" style="color:rgb(79, 85, 102); padding-bottom:10px;" class="mdl-layout-title" href="${pick.url}">${pick.title}</a>
+        ${pick.excerpt}
+      `;
+    }
+  })
+</script>
 
 <style>
     hr {
         display: none !important;
     }
 </style>
-<h4 style="color:rgb(97, 97, 97)">Welcome to KuroWiki!</h4>
 
+<!-- actual homepage description -->
 <p>Some temporary string here....<br>TODO: add a proper description</p>
 
-<!-- Wide card with share menu button -->
-<style>
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-
-/* why the fuck cant i just merge these two fucking hell */
-.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height:  60px;
-  background-image: linear-gradient(rgb(100, 18, 122), rgb(117, 22, 155)) !important;
-}
-.demo-card-wide-m > .mdl-card__title {
-  color: #fff;
-  height:  60px;
-  background-image: linear-gradient(rgb(100, 18, 122), rgb(117, 22, 155)) !important;
-
-
-.demo-card-wide-m.mdl-card {
-  width: 100%;
-}
-}
-</style>
-
-<!-- Large Screen -->
-<div class="demo-card-wide mdl-card mdl-shadow--2dp mdl-layout--large-screen-only">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Did you know...</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <div id="facts-container" style="color:black;padding:-1;">
-    <noscript>...that JavaScript is currently unavailable and several LexiWiki features are disabled?</noscript>
-      </div>
-  </div>
-</div>
-
-
-<!-- Small Screen -->
-<div class="demo-card-wide-m mdl-card mdl-shadow--2dp mdl-layout--small-screen-only">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Did you know...</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <div id="facts-container-m" style="color:black;padding:-1;">
-    <noscript>...that JavaScript is currently disabled and several <s>LexiWiki</s>..i mean KuroWiki features do not work?</noscript>
-      </div>
-  </div>
-</div>
-
-
-
-<!-- #### Recent news:
-
-#### New layout!
-
-This is a new layout made with the Material Design Lite CSS framework to make it look like Google's MD2014 Design, I hope y'all like it! ^^
-
-*- Horibyte*
-
-##### WE ARE FINALLY BETA!<br>
-Recently today, May 7 2025 at 8:40pm, the HoriWiki Engine has finally reached the beta development cycle, we are proud to present this!!
-
-Hope y'all enjoy :P
-
-*- Horibyte* -->
+<!-- cards to make the homepage complete™ -->
+{% include homepage_cards.html %}

@@ -4,7 +4,7 @@ title: NekoCafe
 permalink: NekoCafe
 ---
 
-**NekoCafe**[&sup1;](#notec1){: id="note1"} is a Discord server created by [Nekori](Nekori) on 30 August 2025 and opened publicly on 31 August 2025. It is the spiritual successor to [StuffyXP Hangout](StuffyXP_Hangout), [HoriServer (2)](HoriServer_(2)) and the [NovaServer](NovaServer) [Revolt](https://revolt.chat) server.
+**NekoCafe**[&sup1;](#notec1){: id="note1"} is a Discord server created by [Nekori](Nekori) on 30 August 2025 and opened publicly on 31 August 2025. It is the spiritual successor to [StuffyXP Hangout](StuffyXP_Hangout), [HoriServer (2)](HoriServer_(2)) and the [NovaServer](NovaServer) [Stoat](https://stoat.chat) server.
 
 #### Background
 

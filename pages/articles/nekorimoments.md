@@ -3,6 +3,9 @@ layout: main
 title: Nekori Moments
 permalink: Nekori_Moments
 hatnote: "TODO: im not gonna be bothered with this one<br>Not to be confused with <a href='Nekori_Power'>Nekori Power</a>."
+redirect_from:
+    - Horibyte_Moments
+    - Stuffy_Moments
 ---
 
 **Nekori Moments** (*formerly known as **Horibyte Moments** and **Stuffy Moments***) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.
@@ -64,4 +67,9 @@ Nekori moments can vary from a range of 'moment levels', with that being the fol
         image_src="resources/img/articles/horibyte_moments/criticalerror.png" 
         alt_text="A command prompt window on the second phase of Windows XP setup, when trying to run 'systeminfo', an 'ERROR: Critical Error.' message appears." 
         caption="aw shucks - Nekori" %}
+
+     {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/taskmgr.png" 
+        alt_text="A broken Windows 10 Task Manager window on the Performance tab." 
+        caption="A broken Windows 10 Task Manager window" %}
 </div>

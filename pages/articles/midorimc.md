@@ -2,6 +2,8 @@
 layout: main
 title: MidoriMC
 permalink: MidoriMC
+redirect_from:
+    - AxeonMC
 hatnote:
 ---
 **MidoriMC** (previously known as **AxeonMC**) was a Minecraft Java Edition server for the community of the [Axeon Network](Axeon_Network), initially launched in May 2025 as a Survival 1.21.4 Fabric server. At the time of its closure (August 2025), it was a Creative Fabric server supporting both the 1.21.8 and 1.21.7 clients.
@@ -10,6 +12,8 @@ hatnote:
 ###### Early plans
 Initial talks to launch a community Minecraft Server date back to mid-2019, with both either vanilla or modded Minecraft Java being taken into consideration. The first mentions of the name *AxeonMC* date back to July 2020.
 Additionally, a Minecraft world containing a main "lobby" for the then-known as the "*Lynx-Axeon Minecraft Server*" has also been found dating back to January 2021; this world still exists to this day.
+
+Tentatives at hosting a Minecraft Server date back to summer 2018, when the then-known-as Axeon Community was planning a joined game night with one of its partnered Discord Servers. However, this never happened.
 
    <div class="container">
     {% include figure_item.html 
@@ -40,11 +44,11 @@ By late May, MidoriMC saw a peak of around 5 concurrent online players, with mos
 Another Nekori-KayAurora agreement around mid-June 2025 saw MidoriMC go through a "world reset". The world would keep using the Horicraft world seed but everything would essentially start over from scratch.
 
 New ideas to enhance the MidoriMC in-game experience have came up around July 2025. One of the proposals included adding more server-side mods in game to further distinguish the MidoriMC experience from the normal Vanilla experience. Additionally, moving MidoriMC hosting inside a container (the software of choice being Podman at this time) has also been considered to help improve stability (i.e. better crash handling) and overall uptime.
-Another idea was to unify the MidoriMC in-game chat and the Axeon Network Discord and Revolt servers together under a *#global* text channel, forming an "actual network". That said, none of these ideas came to life, due to KayAurora's dwindling interest to continue operating MidoriMC at all.
+Another idea was to unify the MidoriMC in-game chat and the Axeon Network Discord and Stoat servers together under a *#global* text channel, forming an "actual network". That said, none of these ideas came to life, due to KayAurora's dwindling interest to continue operating MidoriMC at all.
 
    <div class="container">
     {% include figure_item.html 
-        image_src="resources/resources/img/articles/midorimc/midorimclogo.png" 
+        image_src="resources/img/articles/midorimc/midorimclogo.png" 
         alt_text="Logo of MidoriMC, in use from June 2025 until its closure." 
         caption="Logo of MidoriMC, in use from June 2025 until its closure."
         style="width:10%; height:auto" %}
