@@ -4,12 +4,12 @@ title: List of all KuroWiki builds
 permalink: List_of_all_KuroWiki_builds
 ---
 
-This article is a list of all known KuroWiki builds.b
+This article is a list of all known KuroWiki builds.
 
 
 ##### Interim Developer Release
 
-2.4.3567.main-wik.250504-1045
+[2.4.3567.main-wik.250504-1045](KuroWiki_build_3567_(main_wik))
 2.4.3567.horiwiki-pa1.250504-1052
 
 ##### Pre-Alpha
@@ -71,6 +71,10 @@ This article is a list of all known KuroWiki builds.b
 
 ###### Beta 5.2
 
+**Main branch compiles**
+
+[5.2.3615.main.251011-0412](KuroWiki_build_3615)
+
 **Nekori64 compiles**
 
 5.2.2680.nekori64.251005-1326
@@ -84,6 +88,10 @@ This article is a list of all known KuroWiki builds.b
 5.2.2700.nekori64.251005-1711
 5.2.2701.nekori64.251005-1712
 5.2.2702.nekori64.251005-1713
+5.2.2740.nekori64.251010-1513
+5.2.2759.nekori64.251010-1745
+5.2.3669.nekori64.251011-1345
+5.2.3670.nekori64.251011-1346
 
 **KayAurora compiles**
 
@@ -92,3 +100,17 @@ This article is a list of all known KuroWiki builds.b
 5.2.3505.kayaurora.251005-2154
 5.2.3505.kayaurora.251005-2217
 5.2.3510.kayaurora.251006-0048
+5.2.3567.kayaurora.251009-0049
+5.2.3578.kayaurora.251010-2329
+5.2.3587.kayaurora.251011-0023
+5.2.3595.kayaurora.251011-0044
+5.2.3599.kayaurora.251011-0124
+5.2.3601.kayaurora.251011-0208
+5.2.3606.kayaurora.251011-0240
+5.2.3608.kayaurora.251011-0257
+5.2.3614.kayaurora.251011-0318
+5.2.3619.kayaurora.251011-1913
+5.2.3631.kayaurora.251011-2020
+5.2.3632.kayaurora.251011-2140
+5.2.3670.kayaurora.251011-2254
+5.2.3677.kayaurora.251012-0025

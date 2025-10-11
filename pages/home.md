@@ -33,7 +33,7 @@ hatnote: This is beta software! Please report any issues you may find through <a
 </style>
 
 <!-- actual homepage description -->
-<p>Some temporary string here....<br>TODO: add a proper description</p>
+<p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p>
 
 <!-- cards to make the homepage complete™ -->
 {% include homepage_cards.html %}
