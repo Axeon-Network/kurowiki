@@ -61,7 +61,7 @@ module Jekyll
       timestamp = Time.now.strftime("%y%m%d-%H%M")
 
       # create full build tag string
-      full_build_tag = "5.1.#{current_incremental_number}.#{git_branch}.#{timestamp}"
+      full_build_tag = "5.2.#{current_incremental_number}.#{git_branch}.#{timestamp}"
 
       # persist full build tag to file
       begin

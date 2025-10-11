@@ -3,11 +3,13 @@ layout: main
 title: A Emoji
 permalink: A_Emoji
 hatnote:
+redirect_from:
+    - 🅰️
 ---
 
-🅰️, officially named *A Button (Blood Type)*, is one of the many emojis on the Internet. Its primary design consists of the A letter on a red background. A Button (Blood Type) was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015.
+🅰️, officially named *A Button (Blood Type)*, is one of the many emojis on the Internet. Its primary design consists of the A letter on a red background. A Button (Blood Type) was approved as part of Unicode 6.0 with code point "U+1F170" in 2010 and added to Emoji 1.0 in 2015.
 
-It is one of the earliest Nekori memes, introduced in December 2023[&sup1;](#notec1), along with [Nekori Moments](Nekori_Moments). Initially regarded by Nekori as a "shouting emoji", the A Button emoji has since became popular among Nekori Fans, and over time variations of it have been made by Nekori and others.
+In the context of NekoCulture, it is one of the earliest Nekori memes, introduced in December 2023[&sup1;](#notec1), along with [Nekori Moments](Nekori_Moments). Initially regarded by Nekori as a "shouting emoji", the A Button emoji has since became popular among Nekori Fans, and over time variations of it have been made by Nekori and others.
 
 {% include figure_item.html 
     image_src="resources/img/articles/a_emoji/1.jpg" 

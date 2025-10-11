@@ -3,11 +3,16 @@ layout: main
 title: Axeon Network
 permalink: Axeon_Network
 hatnote:
+redirect_from:
+    - LynxPlaza
+    - Axeon
+    - Axeon_Community
+    - Aqua_Community
 ---
-**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by KayAurora), which had always been the 'heart' of the network from the start, other stuff include a Revolt server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
+**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by KayAurora), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
 
 Throughout the lifetime of Axeon, specifically in 2018-19, a couple of other community hangout spaces also existed in the form of a Twitch Desktop server, as well as a Steam Chat group. Other projects planned in 2018 but never actually made include *AxeonAuth* (a so-called "moderation bot" which is in fact actually a custom solution for member verification on Discord), *i.axeon* (a custom ShareX Image Uploader service), or *Meme FM* (a radio bot for Discord that would play “new and old” meme songs).
-A more notable recent project idea from July 2025 would've been a bot unifying both the Discord server, the Revolt server and the MidoriMC in-game chat under a *#global* text channel, however this was also shelved due to MidoriMC's closure.
+A more notable recent project idea from July 2025 would've been a bot unifying both the Discord server, the Stoat server and the MidoriMC in-game chat under a *#global* text channel, however this was also shelved due to MidoriMC's closure.
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 

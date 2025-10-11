@@ -74,9 +74,16 @@ img {
 /* background */
 html {
     background-image: url('../../resources/img/bg.jpg') !important;
-    background-position-y: -350px;
+    background-position-y: -600px;
     background-attachment: fixed;
     /* background-image: linear-gradient(to bottom right, rgb(15, 17, 90), rgb(34, 12, 70)) */
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* debug watermark style */
@@ -274,4 +281,76 @@ figure:not(.gallery-item) figcaption {
 /* Generic Figcaption */
 figcaption {
     font-size: 0.9em !important; 
+}
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+
+.homepage-cards {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 20px;
+}
+
+.homepage-cards .demo-card-wide,
+.homepage-cards .demo-card-wide-m {
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+}
+
+/* why the fuck cant i just merge these ~~two~~ OOPS SIX NOW fucking hell */
+.featured-article.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(90, 97, 136)) !important;
+}
+.featured-article.demo-card-wide-m > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(90, 97, 136)) !important;
+
+  .demo-card-wide-m.mdl-card {
+  width: 100%;
+}
+}
+.did-you-know.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(158, 111, 117)) !important;
+}
+.did-you-know.demo-card-wide-m > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(158, 111, 117)) !important;
+
+  .demo-card-wide-m.mdl-card {
+  width: 100%;
+}
+}
+.recent-news.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(136, 107, 148)) !important;
+}
+.recent-news.demo-card-wide-m > .mdl-card__title {
+  color: #fff;
+  height: 60px;
+  background-image: linear-gradient(rgb(120, 120, 120), rgb(136, 107, 148)) !important;
+
+  .demo-card-wide-m.mdl-card {
+  width: 100%;
+}
+}
+
+/* CSS FOR RECENT NEWS */
+summary {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 25px;
+    color: rgb(79, 85, 102)
+}
+
+summary:hover {
+    cursor: pointer;
 }
