@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error("Error fetching facts:", error);
             // Display error message in all containers
             allFactContainers.forEach(container => {
-                container.textContent = "...that the facts are currently unavailable due to a source code error.";
+                container.textContent = "...that your daily facts™ are currently unavailable due to a source code error?";
             });
         });
 });

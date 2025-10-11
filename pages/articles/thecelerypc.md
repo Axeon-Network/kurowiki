@@ -23,4 +23,19 @@ Once electricity was reinstated in Honduras following an outage on 3 November 20
 
 In the [*StuffyXP Wrapped: 2024 Edition*](https://horibyte.is-a.dev/blog/2024/12/31/stuffyxp-wrapped-2024-edition.html) blog post, Nekori stated that after an investigation with his dad, they eventually figured out that when power came back, it "overloaded the thing that gives DC making it no longer give DC, making some components unable to power on". Parts relying on AC (such as the fans) continued to work.
 
-StuffyXP and other of Nekori's projects at the time have went on a hiatus for the following few weeks until being replaced by [Thei5Lappy](Thei5Lappy) as Nekori's Main PC.
+StuffyXP and other of Nekori's projects at the time have went on a hiatus for the following few weeks until being replaced by [Thei5Lappy](Thei5Lappy) as Nekori's Main PC in late November 2024.
+
+##### Gallery
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/thecelerypc/thei5lappy.jpg" 
+        alt_text="Nekori booting from TheCeleryPC's hard drive on Thei5Lappy" 
+        caption="Nekori booting from TheCeleryPC (right)'s hard drive on Thei5Lappy (left), February 2025"
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/thecelerypc/windows10ltsc_i5.png" 
+        alt_text="About box and System Properties of the Windows 10 IoT Enterprise LTSC 2021 installation found on TheCeleryPC's HDD, running on Thei5Lappy. A Supermium window is visible being open on Mastodon, with a Revolt (Stoat) tab next to it" 
+        caption="About box and System Properties of the Windows 10 LTSC install found on TheCeleryPC's HDD, running on Thei5Lappy"
+        style="width:50%;" %}
+</div>

@@ -67,4 +67,9 @@ Nekori moments can vary from a range of 'moment levels', with that being the fol
         image_src="resources/img/articles/horibyte_moments/criticalerror.png" 
         alt_text="A command prompt window on the second phase of Windows XP setup, when trying to run 'systeminfo', an 'ERROR: Critical Error.' message appears." 
         caption="aw shucks - Nekori" %}
+
+     {% include gallery_item.html 
+        image_src="resources/img/articles/horibyte_moments/taskmgr.png" 
+        alt_text="A broken Windows 10 Task Manager window on the Performance tab." 
+        caption="A broken Windows 10 Task Manager window" %}
 </div>
