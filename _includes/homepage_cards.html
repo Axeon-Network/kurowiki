@@ -1,6 +1,5 @@
 <div class="homepage-cards">
-<!-- Large Screen -->
-<div class="featured-article demo-card-wide mdl-card mdl-shadow--2dp mdl-layout--large-screen-only">
+<div class="featured-article demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">import_contacts</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
   </div>
@@ -11,7 +10,7 @@
   </div>
 </div>
 
-<div class="did-you-know demo-card-wide mdl-card mdl-shadow--2dp mdl-layout--large-screen-only">
+<div class="did-you-know demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">question_mark</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Did you know...</h2>
   </div>
@@ -22,7 +21,7 @@
   </div>
 </div>
 
-<div class="recent-news demo-card-wide mdl-card mdl-shadow--2dp mdl-layout--large-screen-only">
+<div class="recent-news demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>
   </div>
@@ -37,41 +36,7 @@
 </div>
 
 <!-- Small Screen -->
-<div class="featured-article demo-card-wide-m mdl-card mdl-shadow--2dp mdl-layout--small-screen-only">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Featured article</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <div id="feat-article-container-m" style="color:black;padding:-1;">
-       Could not load featured article.
-      </div>
-  </div>
-</div>
 
-<div class="did-you-know demo-card-wide-m mdl-card mdl-shadow--2dp mdl-layout--small-screen-only">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Did you know...</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <div id="facts-container-m" style="color:black;padding:-1;">
-    <noscript>...that JavaScript is currently disabled and several <s>LexiWiki</s>..i mean KuroWiki features are disabled?</noscript> 
-      </div>
-  </div>
-</div>
-
-<div class="recent-news demo-card-wide-m mdl-card mdl-shadow--2dp mdl-layout--small-screen-only">
-  <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Recent news</h2>
-  </div>
-  <div class="mdl-card__supporting-text">
-    <div style="color:black;padding:-1;">
-     {% capture recent_news %}
-     {% include recent_news.md %}
-       {% endcapture %}
-     {{ recent_news | markdownify }}
-      </div>
-  </div>
-</div>
 </div>
 
 
