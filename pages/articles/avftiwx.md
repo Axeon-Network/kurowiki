@@ -3,6 +3,9 @@ layout: main
 title: A VMware First-Timer installs Windows XP!
 permalink: A_VMware_First-Timer_installs_Windows_XP!
 hatnote: TODO, add photos of the videos, properly show the thumbnail, move the og thumbnail from my [nekori's] phone and explain what happened in the video
+aliases:
+    - vmware first time
+    - vmwarefirsttime
 ---
 
 **A VMware First-Timer installs Windows XP!** (also reffered to as **VMware First Time** by Nekori) is the first public [StuffyXP](StuffyXP) video by [Nekori](Nekori). It was uploaded to YouTube on **13 February 2024** and had a total view count of **548 views** before the StuffyXP channel was deleted on 14 March 2025.

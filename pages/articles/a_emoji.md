@@ -5,6 +5,9 @@ permalink: A_Emoji
 hatnote:
 redirect_from:
     - 🅰️
+aliases: 
+    - a emoji
+    - a
 ---
 
 🅰️, officially named *A Button (Blood Type)*, is one of the many emojis on the Internet. Its primary design consists of the A letter on a red background. A Button (Blood Type) was approved as part of Unicode 6.0 with code point "U+1F170" in 2010 and added to Emoji 1.0 in 2015.

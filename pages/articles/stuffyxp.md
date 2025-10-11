@@ -3,6 +3,8 @@ layout: main
 title: StuffyXP
 permalink: StuffyXP
 hatnote: TODO, cover other stuffyxp history, like the gd on vista strike, and make a disambiguation page of nekori and stuffyxp.<br>This article is about the now-deleted YouTube channel. For the individual who used to be known as StuffyXP, see <a href="Nekori">Nekori</a>.<br>This article is still under construction.
+aliases:
+    - stxp
 ---
 
 **StuffyXP** (previously known as **Yoshi Land0842**, **Stuff Life** and **Stuffy**) was a tech-focused (and previously plushie-oriented) YouTube channel owned and operated by [Nekori](Nekori) and launched in 13 March 2020. It was deleted 14 March 2025, coinciding with Nekori putting an end to their <span id="tt2">wintuber</span> career.

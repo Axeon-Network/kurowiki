@@ -12,6 +12,11 @@ redirect_from:
   - Arctic
   - Horibyte_Arctic
   - Lexibyte_Arctic
+aliases:
+    - horibyte arctic
+    - stuffyxp arctic
+    - horibyte leafyos
+    - stuffyxp leafyos
 ---
 
 **Nekori Arctic**[&sup1;](#notec1){: id="note1"} is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
