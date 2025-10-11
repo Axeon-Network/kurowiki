@@ -1,458 +1,188 @@
 [
   {
     "title": "A Emoji",
-    "url": "A_Emoji",
+    "url": "./A_Emoji",
     "aliases": "a emoji a",
     "snippet": "🅰️, officially named A Button (Blood Type), is one of the many emojis on the Internet."
   },
   {
     "title": "Absolute Cinema",
-    "url": "Absolute Cinema",
+    "url": "./Absolute_Cinema",
     "aliases": "",
     "snippet": "Absolute Cinema is an Internet meme used several times by Nekori on the Internet."
   },
   {
     "title": "Nekori Arctic",
-    "url": "Nekori_Arctic",
+    "url": "./Nekori_Arctic",
     "aliases": "horibyte arctic stuffyxp arctic horibyte leafyos stuffyxp leafyos",
     "snippet": "Nekori Arctic¹ is a free and open source operating system developed by Nekori first released on 26 May 2025."
   },
   {
-    "title": "",
-    "url": "articles.json",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
     "title": "A VMware First-Timer installs Windows XP!",
-    "url": "A_VMware_First-Timer_installs_Windows_XP!",
+    "url": "./A_VMware_First-Timer_installs_Windows_XP!",
     "aliases": "vmware first time vmwarefirsttime",
     "snippet": "A VMware First-Timer installs Windows XP!"
   },
   {
     "title": "Axeon Network",
-    "url": "Axeon_Network",
+    "url": "./Axeon_Network",
     "aliases": "",
     "snippet": "Axeon Network (more commonly known as just Axeon) is a network consisting of community-oriented projects."
   },
   {
     "title": "Contributing to KuroWiki",
-    "url": "Contributing_to_KuroWiki",
+    "url": "./Contributing_to_KuroWiki",
     "aliases": "",
     "snippet": "Welcome to KuroWiki!"
   },
   {
     "title": "Development of KuroWiki",
-    "url": "Development_of_KuroWiki",
+    "url": "./Development_of_KuroWiki",
     "aliases": "",
     "snippet": "Initial concepts for KuroWiki existed as early as April 2025 with the goal of creating a resource to easily get information about Nekori’s projects and related content."
   },
   {
     "title": "Dogui Heavy Industries Incorporated",
-    "url": "Dogui_Heavy_Industries_Incorporated",
+    "url": "./Dogui_Heavy_Industries_Incorporated",
     "aliases": "dhi dhi pictures dhi movies dhi turtles",
     "snippet": "Dogui Heavy Industries Incorporated¹ (DHI Inc.) is a fictional NovaLandese company."
   },
   {
     "title": "Dogui",
-    "url": "Dogui",
+    "url": "./Dogui",
     "aliases": "",
     "snippet": "Dogui is a dog plushie owned by Nekori."
   },
   {
     "title": "Finding Fucking",
-    "url": "Finding_Fucking",
+    "url": "./Finding_Fucking",
     "aliases": "",
     "snippet": "Finding Fucking is a 2025 short documentary film produced by the Axeon Network and created by DHI Pictures (in reality, created by Nekori and KayAurora)."
   },
   {
     "title": "Horicraft",
-    "url": "Horicraft",
+    "url": "./Horicraft",
     "aliases": "horicraft 1",
     "snippet": "Horicraft¹ (formerly known as StuffyCraft) was a creative Minecraft server owned and operated by Nekori."
   },
   {
     "title": "Horicraft (2)",
-    "url": "Horicraft_(2)",
+    "url": "./Horicraft_(2)",
     "aliases": "horicraft 2",
     "snippet": "Horicraft (2) was a survival Minecraft server owned &amp; operated by Nekori founded on 14 March 2025 and closed on 18 May 2025."
   },
   {
     "title": "HoriServer",
-    "url": "HoriServer",
+    "url": "./HoriServer",
     "aliases": "",
     "snippet": "HoriServer¹ is a server on the Discord alternative Stoat (formerly revolt.chat)."
   },
   {
     "title": "KayAurora and Nekori Collab",
-    "url": "KayAurora_and_Nekori_Collab",
+    "url": "./KayAurora_and_Nekori_Collab",
     "aliases": "kayaurora and nekori video collab",
     "snippet": "The KayAurora and Nekori collab, commongly reffered to as the collab or thumbnail collab by Nekori and KayAurora, is a video posted on KayAurora’s channel in February 2025 about remaking thumbnails for Nekori’s StuffyXP channel and KayAurora’s Lynxmic channel (plus one KayAurora video)."
   },
   {
     "title": "KayWebsite",
-    "url": "KayWebsite",
+    "url": "./KayWebsite",
     "aliases": "",
     "snippet": "KayWebsite (also known after its URL name, kay.is-a.dev) is KayAurora’s personal website."
   },
   {
     "title": "KuroWiki",
-    "url": "KuroWiki",
+    "url": "./KuroWiki",
     "aliases": "",
     "snippet": "KuroWiki is an open-source online encyclopedia launched by the Axeon Network on XXXX XX, 2025.[a]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network."
   },
   {
     "title": "KuroWiki build 2600",
-    "url": "KuroWiki_build_2600",
+    "url": "./KuroWiki_build_2600",
     "aliases": "",
     "snippet": "KuroWiki build 2600 is the first and official Beta 5 build of KuroWiki."
   },
   {
     "title": "KuroWiki build 3615",
-    "url": "KuroWiki_build_3615",
+    "url": "./KuroWiki_build_3615",
     "aliases": "",
     "snippet": "KuroWiki build 3615 (full tag: 5.2.3615.main.251011-0412) is the official Interim Developer Release of KuroWiki Beta 5.2."
   },
   {
     "title": "KuroWiki build 3567 (kayaurora)",
-    "url": "KuroWiki_build_3567_(kayaurora)",
+    "url": "./KuroWiki_build_3567_(kayaurora)",
     "aliases": "",
     "snippet": "KuroWiki build 3567 (full tag: 5.2.3567.kayaurora.251009-0049) is a build of KuroWiki Beta 5.2, compiled on 9 October 2025 at 00:49 UTC+3 (15:49 UTC-6 the day before) from the kayaurora development branch."
   },
   {
     "title": "KuroWiki build 3567 (main_wik)",
-    "url": "KuroWiki_build_3567_(main_wik)",
+    "url": "./KuroWiki_build_3567_(main_wik)",
     "aliases": "",
     "snippet": "KuroWiki build 3567 (full tag: 2.4.3567.main-wik.250504-1045) is the very first build of KuroWiki (then-known as HoriWiki), compiled on 4 May 2025 at 10:45 UTC-6."
   },
   {
     "title": "List of all KuroWiki builds",
-    "url": "List_of_all_KuroWiki_builds",
+    "url": "./List_of_all_KuroWiki_builds",
     "aliases": "",
-    "snippet": "This article is a list of all known KuroWiki builds.b..."
+    "snippet": "This article is a list of all known KuroWiki builds."
   },
   {
     "title": "List of KayAurora Codenames",
-    "url": "List_of_KayAurora_Codenames",
+    "url": "./List_of_KayAurora_Codenames",
     "aliases": "",
     "snippet": "This article shows a list of codenames used by KayAurora in their projects."
   },
   {
     "title": "List of Nekori Codenames",
-    "url": "List_of_Nekori_Codenames",
+    "url": "./List_of_Nekori_Codenames",
     "aliases": "",
     "snippet": "This article shows a list of codenames used by Nekori in their projects."
   },
   {
-    "title": "Loreside",
-    "url": "LexWiki%3ALoreside",
-    "aliases": "",
-    "snippet": "In LexWiki, Loreside (or LoreSide) is what we call to differentiate written fiction and real-world events."
-  },
-  {
     "title": "MidoriMC",
-    "url": "MidoriMC",
+    "url": "./MidoriMC",
     "aliases": "",
     "snippet": "MidoriMC (previously known as AxeonMC) was a Minecraft Java Edition server for the community of the Axeon Network, initially launched in May 2025 as a Survival 1.21.4 Fabric server."
   },
   {
     "title": "NekoCafe",
-    "url": "NekoCafe",
+    "url": "./NekoCafe",
     "aliases": "",
     "snippet": "NekoCafe¹ is a Discord server created by Nekori on 30 August 2025 and opened publicly on 31 August 2025."
   },
   {
     "title": "Nekori Moments",
-    "url": "Nekori_Moments",
+    "url": "./Nekori_Moments",
     "aliases": "",
     "snippet": "Nekori Moments (formerly known as Horibyte Moments and Stuffy Moments) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way."
   },
   {
     "title": "NovaLand",
-    "url": "NovaLand",
+    "url": "./NovaLand",
     "aliases": "",
     "snippet": "NovaLand, officially known as the Republic of NovaLand, and formerly known as Horiland (Republic of Horiland) is a fictional country."
   },
   {
-    "title": "Sitemap",
-    "url": "pages/special/sitemap.html",
-    "aliases": "",
-    "snippet": "This page contains a directory listing of all articles in this wiki."
-  },
-  {
     "title": "Stuffy's Website",
-    "url": "Stuffy's_Website",
+    "url": "./Stuffy's_Website",
     "aliases": "stuffys website stuffy website stuffywebsite",
     "snippet": "Stuffy’s Website (commongly abbreviated as StuffyWebsite, Stuffy Website WOU, or just WOU) was Nekori’s personal website from June 2024 to August 2024."
   },
   {
     "title": "StuffyXP",
-    "url": "StuffyXP",
+    "url": "./StuffyXP",
     "aliases": "stxp",
     "snippet": "StuffyXP (previously known as Yoshi Land0842, Stuff Life and Stuffy) was a tech-focused (and previously plushie-oriented) YouTube channel owned and operated by Nekori and launched in 13 March 2020."
   },
   {
     "title": "TheCeleryPC",
-    "url": "TheCeleryPC",
+    "url": "./TheCeleryPC",
     "aliases": "",
     "snippet": "TheCeleryPC (model: eMachines ET1810 Revision 3) is a desktop computer from 2009 manufactured by eMachines."
   },
   {
     "title": "Thei5Lappy",
-    "url": "Thei5Lappy",
+    "url": "./Thei5Lappy",
     "aliases": "",
     "snippet": "Thei5Lappy (temporarily known as SuperNova in July-August 2025; model Dell Latitude 3380), is a laptop manufactered by Dell Inc."
-  },
-  {
-    "title": "",
-    "url": "🅰️",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horibyte_LeafyOS",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "StuffyXP_LeafyOS",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "LeafyOS",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Project_Arctic",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "LexNova_Arctic",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Arctic",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horibyte_Arctic",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Lexibyte_Arctic",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "LynxPlaza",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Axeon",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Axeon_Community",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Aqua_Community",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "DHI_Inc.",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "DHI",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Dogui_Heavy_Industries",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Dogui_Heavy_Industries_Inc",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horicraft_(1)",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horicraft_1",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "StuffyCraft",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horicraft_2",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "ClyronWebsite",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "LexWiki",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "HoriWiki",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "List_of_Lexibyte_Codenames",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "List_of_Horibyte_Codenames",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "AxeonMC",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horibyte_Moments",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Stuffy_Moments",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "LexLand",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Horiland",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "StuffyWebsite",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Stuffys_Website",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "StuffyWebsiteWOU",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "WOU",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Week_One_Update",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "eMachines_ET1810",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "eMachines_ET1810_Revision_3",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "TheCeleryPC_(Nekori)",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "Dell_Latitude_3380",
-    "aliases": "",
-    "snippet": "..."
-  },
-  {
-    "title": "",
-    "url": "redirects.json",
-    "aliases": "",
-    "snippet": "{\"/🅰️\":\"http://localhost:4000/A_Emoji\",\"/Horibyte_LeafyOS\":\"http://localhost:4000/Nekori_Arctic\",\"/StuffyXP_LeafyOS\":\"http://localhost:4000/Nekori_Arctic\",\"/LeafyOS\":\"http://localhost:4000/Nekori_Arctic\",\"/Project_Arctic\":\"http://localhost:4000/Nekori_Arctic\",\"/LexNova_Arctic\":\"http://localhost:4000/Nekori_Arctic\",\"/Arctic\":\"http://localhost:4000/Nekori_Arctic\",\"/Horibyte_Arctic\":\"http://localhost:4000/Nekori_Arctic\",\"/Lexibyte_Arctic\":\"http://localhost:4000/Nekori_Arctic\",\"/LynxPlaza\":\"http://localhost:4000/Axeon_Network\",\"/Axeon\":\"http://localhost:4000/Axeon_Network\",\"/Axeon_Community\":\"http://localhost:4000/Axeon_Network\",\"/Aqua_Community\":\"http://localhost:4000/Axeon_Network\",\"/DHI_Inc.\":\"http://localhost:4000/Dogui_Heavy_Industries_Incorporated\",\"/DHI\":\"http://localhost:4000/Dogui_Heavy_Industries_Incorporated\",\"/Dogui_Heavy_Industries\":\"http://localhost:4000/Dogui_Heavy_Industries_Incorporated\",\"/Dogui_Heavy_Industries_Inc\":\"http://localhost:4000/Dogui_Heavy_Industries_Incorporated\",\"/Horicraft_(1)\":\"http://localhost:4000/Horicraft\",\"/Horicraft_1\":\"http://localhost:4000/Horicraft\",\"/StuffyCraft\":\"http://localhost:4000/Horicraft\",\"/Horicraft_2\":\"http://localhost:4000/Horicraft_(2)\",\"/ClyronWebsite\":\"http://localhost:4000/KayWebsite\",\"/LexWiki\":\"http://localhost:4000/KuroWiki\",\"/HoriWiki\":\"http://localhost:4000/KuroWiki\",\"/List_of_Lexibyte_Codenames\":\"http://localhost:4000/List_of_Nekori_Codenames\",\"/List_of_Horibyte_Codenames\":\"http://localhost:4000/List_of_Nekori_Codenames\",\"/AxeonMC\":\"http://localhost:4000/MidoriMC\",\"/Horibyte_Moments\":\"http://localhost:4000/Nekori_Moments\",\"/Stuffy_Moments\":\"http://localhost:4000/Nekori_Moments\",\"/LexLand\":\"http://localhost:4000/NovaLand\",\"/Horiland\":\"http://localhost:4000/NovaLand\",\"/StuffyWebsite\":\"http://localhost:4000/Stuffy's_Website\",\"/Stuffys_Website\":\"http://localhost:4000/Stuffy's_Website\",\"/StuffyWebsiteWOU\":\"http://localhost:4000/Stuffy's_Website\",\"/WOU\":\"http://localhost:4000/Stuffy's_Website\",\"/Week_One_Update\":\"http://localhost:4000/Stuffy's_Website\",\"/eMachines_ET1810\":\"http://localhost:4000/TheCeleryPC\",\"/eMachines_ET1810_Revision_3\":\"http://localhost:4000/TheCeleryPC\",\"/TheCeleryPC_(Nekori)\":\"http://localhost:4000/TheCeleryPC\",\"/Dell_Latitude_3380\":\"http://localhost:4000/Thei5Lappy\"}..."
-  },
-  {
-    "title": "",
-    "url": "feed.xml",
-    "aliases": "",
-    "snippet": "Jekyll2025-10-11T15:53:38-06:00http://localhost:4000/feed.xmlKuroWikiAxeon KuroWiki Beta 5.2 Interim Developer Release 2Axeon Network..."
   }
 ]
