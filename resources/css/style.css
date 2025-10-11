@@ -298,9 +298,11 @@ code {
 .demo-card-wide.mdl-card {
   width: 512px;
 }
+}
 
 .homepage-cards {
     display: table;
+    width: 100%;
     table-layout: fixed;
     border-spacing: 20px;
 }
