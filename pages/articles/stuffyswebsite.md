@@ -29,11 +29,12 @@ Development of Stuffy's Website was finished on 24 June 2024.
 
 ##### Stuffy's Website! Public Beta
 
-A public beta release of the website was released on 22 June 2024 as a way to test the website in a production environment. It included an exclusive Issues page where it listed the known issues of the website at that point.
+A public beta release of the website was released on 22 June 2024 as a way to test the website in a production environment. It included an exclusive *Known Issues* page where it listed the known issues of the website at that point.
 
-These issues were stuff like the favicon not loading in Firefox-based browsers, or the font being italic on Chromium-based browsers, along other things.
+These issues consisted of the website's font being italic in Chromium-based browsers, the favicon not loading in Firefox-based browsers, the 404 page not using the main page layout, a proper mobile experience being unavailable, Markdown being broken and the buttons not having a transparent background.
 
-The finished version was released 2 days later, on 24 June 2024.
+The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/)
+
 
 ##### Week One Update
 

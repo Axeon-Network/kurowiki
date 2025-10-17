@@ -1,7 +1,8 @@
 ---
 layout: main
 title: Welcome to KuroWiki!
-permalink: /Main_Page
+permalink: ./ # i interrupted my housepets reading time just for this
+              # i'm at the november 17 2008 issue
 search_exclude: true
 hatnote: This is beta software! Please report any issues you may find through <a href="https://github.com/Axeon-Network/kurowiki/issues">GitHub Issues</a> or on our <a href="/discord">Discord Server</a>
 ---
@@ -11,7 +12,8 @@ hatnote: This is beta software! Please report any issues you may find through <a
 <script>
     document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById("feat-article-container");
-     {% assign featured = site.pages | where: "path", "pages/articles/absolute_cinema.md" | first %}
+     {% assign featured = site.pages | where: "path", "pages/articles/dhi.md" | first %}
+    // i changed it to dhi to test
   const pick = {
         url: "{{ featured.url | relative_url }}",
         title: {{ featured.title | jsonify }},
@@ -19,8 +21,8 @@ hatnote: This is beta software! Please report any issues you may find through <a
       };
     if (container) {
       container.innerHTML = `
-        <a id="pagetitle" style="color:rgb(79, 85, 102); padding-bottom:10px;" class="mdl-layout-title" href="${pick.url}">${pick.title}</a>
-        ${pick.excerpt}
+        <a id="pagetitle" style="color:var(--kurowiki-accent); padding-bottom:10px;" class="mdl-layout-title" href="${pick.url}">${pick.title}</a>
+        ${pick.excerpt}<a href="${pick.url}">Full article</a>.
       `;
     }
   })
@@ -33,7 +35,8 @@ hatnote: This is beta software! Please report any issues you may find through <a
 </style>
 
 <!-- actual homepage description -->
-<p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p>
+<!-- <p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p> -->
+<p class="homepage-description">This is the home page for KuroWiki. An encyclopedia for the Axeon Networ- what am i even saying WELCOME TO BETA SIX WOOOOOO</p>
 
 <!-- cards to make the homepage complete™ -->
 {% include homepage_cards.html %}

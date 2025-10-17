@@ -19,7 +19,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Nekori Arctic**[&sup1;](#notec1){: id="note1"} is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
+**Nekori Arctic**[^1] is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 
@@ -45,7 +45,7 @@ Arctic's development began around 22 May 2025 (or even earlier) featuring a simp
 
 Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) virtual machine have been seen in Nekori's VMware VM library. Additionally, screenshots of several `kernel.bin` files and directory structures going as far back as **December 2024** have been sent by Nekori on several Discord servers. All of these files are **lost media** due to improper backups.
 
-A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[&sup2;](#notec2){: id="note2"}.
+A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2]
 
 #### Kernel Overview
 
@@ -86,5 +86,7 @@ Before development began, Nekori designed several Arctic mockups using GIMP. The
         caption="Horibyte Arctic Server Family Beta 2 Build 7089" %}
 </div>
 
-<p id="notec1"><a href="#note1">&sup1;<span></span>&uparrow;</a> Formerly <b>StuffyXP LeafyOS</b></p>
-<p id="notec2"><a href="#note2">&sup2;<span></span>&uparrow;</a> <a href="https://wetdry.world/@horibyte/114586135328279262">https://wetdry.world/@horibyte/114586135328279262</a></p>
+#### References
+
+[^1]: Formerly **StuffyXP LeafyOS**
+[^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262)
