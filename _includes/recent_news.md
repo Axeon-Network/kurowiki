@@ -1,6 +1,19 @@
 
 <!-- why does markdown not markdown without first line empty AAA-->
 <details markdown="1" open>
+<summary>KuroWiki Beta 6 in development</summary>
+KuroWiki beta 6 is now officially under development. This will expand further the capabilities of the Deltari engine (as we plan it to have a self-host version for anyone to use), add new articles to make the wiki more complete, make the website more stable, amongst other things.
+
+We look forward for a public release in November.
+
+Remember, any comments? We're all ears! Feel free to sumbit any feedback in GitHub Issues or our Discord Server
+
+Sincerely,<br>The KuroWiki Developer Team.
+
+<small>12 October 2025, 4:15 PM UTC-6</small>
+</details>
+
+<details markdown="1" closed>
 <summary>KuroWiki Interim Developer Release now available</summary>
 The public KuroWiki release has been updated to a developer release. This version is mainly public for production testing, bug fixing, and developer branch updates.
 
@@ -8,8 +21,7 @@ Specifically, this release was made to merge Nekori's and KayAurora's branches t
 
 Any comments? We're all ears! Just report any issue or comment to our Discord server or open an issue in the GitHub repository.
 
-Sincerely,
-The KuroWiki Development Team.
+Sincerely,<br>The KuroWiki Development Team.
 
 <small>10 October 2025, 5:52pm UTC-6</small>
 </details>

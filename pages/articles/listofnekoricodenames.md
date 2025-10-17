@@ -10,7 +10,7 @@ redirect_from:
 
 This article shows a list of codenames used by [Nekori](Nekori) in their projects.
 
-[A](#A) · [B](#B) · [D](#D) · [H](#H)· [K](#K) · [L](#L) · [M](#M) · [N](#N) · [O](#O) · [Q](#Q) · [R](#R) · [S](#S) · [W](#W) · [Z](#Z)
+[A](#A) · [B](#B) · [D](#D) · [E](#E) · [H](#H)· [K](#K) · [L](#L) · [M](#M) · [N](#N) · [O](#O) · [Q](#Q) · [R](#R) · [S](#S) · [W](#W) · [Z](#Z)
 
 <h4 id="A">A</h4>
 <hr>
@@ -36,7 +36,7 @@ Preliminary name for the final product of the merge between [Horicraft (1)](Hori
 
 <h5 id="BetterLateThanNever">Better Late than Never</h5>
 
-StuffyXP Website Update 2.1, referencing that the update was delayed multiple times due to Nekori not having a PC to work on the update.
+StuffyXP Website Update 2.1. It is a reference that the update was delayed multiple times due to Nekori not having a PC to work on the update.
 
 <h4 id="D">D</h4>
 <hr>
@@ -49,12 +49,19 @@ Suggested name for the user interface component in Nekori Arctic, also referenci
 
 The internal codename of the KuroWiki Engine.
 
+<h4 id="E">E</h4>
+<hr>
+
+<h5 id="EverybodyFeaturesUpdate">Everybody Features! Update</h5>
+
+An update to Stuffy's Website that had the version number of 1.2. It was later cancelled due to Nekori forgetting the update.
+
 <h4 id="H">H</h4>
 <hr>
 
 <h5 id="HappyNewYear!">Happy New Year!</h5>
 
-StuffyXP Website Update 2.1.1, referencing that the update was released on New Years Eve, but was actually released on Christmas Eve (Dec 24).
+StuffyXP Website Update 2.1.1.
 
 <h4 id="K">K</h4>
 <hr>
@@ -79,13 +86,15 @@ Original name of Nekori Arctic.
 
 <h5 id="Midori">Midori</h5>
 
-Internal name for the Arctic bootloader and the name of the <span id="tt2" style="cursor:help;">successor to both Horicraft and Horicraft (2)</span>.
+Internal name for the Arctic bootloader.
 
+<h5 id="Midori2">Midori2</h5>
 
-<div class="mdl-tooltip mdl-tooltip--large mdl-tooltip--top" for="tt2">
-MidoriMC
-</div>
+Internal name of the Arctic32 bootloader
 
+<h5 id="Mochi">Mochi</h5>
+
+Internal name of the bootloader in the October 2025 Arctic32 rewrite.
 
 <h4 id="N">N</h4>
 <hr>
@@ -93,6 +102,10 @@ MidoriMC
 <h5 id="NewCoatOfPaint">New Coat of Paint</h5>
 
 StuffyXP Website Update 2.0.[&sup1;](#notec1){: id="note1"}
+
+<h5 id="NishiBlade">Nishi Blade</h5>
+
+A cancelled website planned to be the HoriWebsite successor. The name comes from Nishi, Nekori's upcoming fursona, and Blade, which was the codename of the Web Server SKU of Windows Server 2003.
 
 <h4 id="O">O</h4>
 <hr>
@@ -115,14 +128,20 @@ StuffyXP Website Update 2.1.2, the last update to StuffyXP Website after being r
 
 The codename for the assembly rewrite of the [Nekori Arctic](Nekori_Arctic) kernel.
 
+<h5 id="ReKanto">Raybolt</h5>
+
+A website that was planned to be a successor to HoriWebsite. It was later scrapped due to [being too ambitious](Raybolt#scrapped).
+
 <h4 id="S">S</h4>
 <hr>
 
 <h5 id="StuffyXP2">StuffyXP 2</h5>
 
-Horibyte Website Alpha. 
+Preliminary versions of [HoriWebsite](HoriWebsite).<br>[AstroNT](AstroNT).
 
-*Not related to a spiritual sucessor to the StuffyXP Channel, which does not exist nor a public website codename*.
+<h5 id="SpringViewer">SpringViewer</h5>
+
+Internal name of the KuroWiki media viewer.
 
 <h4 id="W">W</h4>
 <hr>
@@ -131,14 +150,12 @@ Horibyte Website Alpha.
 
 Stuffy's Website Update 1.1.
 
-**Note**: *Codenames for StuffyXPWebsite were introduced in this version before being scrapped in HoriWebsite, thus HoriWebsite & Stuffy Website 1.0 don't have a codename*.
-
 <h4 id="Z">Z</h4>
 <hr>
 
 <h5 id="Zetta">Zetta</h5>
 
-Cancelled engine by Nekori that would later on merge to the HoriWiki engine.
+Cancelled engine by Nekori that would later on merge to the HoriWiki Engine.
 
 
 

@@ -5,7 +5,7 @@ permalink: Development_of_KuroWiki
 hatnote: This article details about the development of KuroWiki, for the main KuroWiki article, see <a href="KuroWiki">KuroWiki</a>
 ---
 
-Initial concepts for [KuroWiki](/KuroWiki) existed as early as April 2025 with the goal of creating a resource to easily get information about Nekori's projects and related content.
+Initial concepts for [KuroWiki](KuroWiki) existed as early as April 2025 with the goal of creating a resource to easily get information about Nekori's projects and related content.
 
 Several options were being considered by [Nekori](/Nekori) such as a self-hosted MediaWiki server, but Nekori was unsure how to make it work. A Miraheze-hosted wiki was also taken in consideration between **May 1-3 2025**, however this option was also taken off the table due to the Miraheze bot not cooperating.
 As such, the final decision was to start a custom-built wiki core from the ground up, dubbed "**Deltari**" (initially known as *HoriWiki Engine*, and then as *LexWiki Engine* and *KuroWiki Engine* respectively)
