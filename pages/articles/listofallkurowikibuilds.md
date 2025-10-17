@@ -7,12 +7,12 @@ permalink: List_of_all_KuroWiki_builds
 This article is a list of all known KuroWiki builds.
 
 
-##### Interim Developer Release
+## Internal Pre-Alpha Releases
 
 [2.4.3567.main-wik.250504-1045](KuroWiki_build_3567_(main_wik))
 2.4.3567.horiwiki-pa1.250504-1052
 
-##### Pre-Alpha
+## Pre-Alpha
 
 0.1.???.main.250504-????
 0.2.???.main.250504-????
@@ -22,26 +22,26 @@ This article is a list of all known KuroWiki builds.
 0.5.2.???.main.250504-????
 0.5.3.???.main.250505-????
 
-##### Alpha
+## Alpha
 
 1.1.???.250506-????
 1.2.???.250506-????
 
-##### Beta 1
+## Beta 1
 
 1.0.???.main.250507-????
 1.0.1.367.main.250515-1422
 
-##### Beta 2
+## Beta 2
 
 2.0.566.material.250516-1933
 2.1.602.material.250602-1710
 
-##### Beta 3
+## Beta 3
 
 [3.0.1032.material.250625-1706](KuroWiki_build_1032)
 
-##### Beta 4
+## Beta 4
 
 4.2.2000.kuro_escro.250725-1423
 4.2.2001.kuro_escro.250725-1527
@@ -61,7 +61,7 @@ This article is a list of all known KuroWiki builds.
 4.3.2521.kayaurora.250913-0457
 4.3.2537.kayaurora.25????-????
 
-##### Beta 5
+## Beta 5
 
 5.1.2600.nekori64.250927-1322
 [5.1.2600.main.250928-0955](KuroWiki_build_2600)
@@ -69,11 +69,12 @@ This article is a list of all known KuroWiki builds.
 5.1.2639.kayaurora.251001-2349
 5.1.2678.nekori64.251004-1836
 
-###### Beta 5.2
+### Beta 5.2
 
 **Main branch compiles**
 
 [5.2.3615.main.251011-0412](KuroWiki_build_3615)
+[5.2.3680.main.251012-0101](KuroWiki_build_3680)
 
 **Nekori64 compiles**
 
@@ -114,3 +115,36 @@ This article is a list of all known KuroWiki builds.
 5.2.3632.kayaurora.251011-2140
 5.2.3670.kayaurora.251011-2254
 5.2.3677.kayaurora.251012-0025
+
+## Beta 6
+
+### Prior to Interim Developer Release 3
+
+[6.0.2600.nekori64.251012-1610](KuroWiki_build_2600_(Beta_6))
+[6.0.3686.nekori64.251012-1717](KuroWiki_build_3686)
+6.0.3688.nekori64.251012-1733
+[6.0.3689.kayaurora.251013-0239](KuroWiki_build_3689)
+6.0.3697.nekori64.251012-1824
+6.0.3697.kayaurora.251013-0327
+6.0.3699.nekori64.251012-1826
+[6.0.3705.nekori64.251012-1832](KuroWiki_build_3705)
+[6.0.3761.nekori64.251012-2001](KuroWiki_build_3761)
+[6.0.3762.nekori64.251012-2007](KuroWiki_build_3762)
+6.0.3764.nekori64.251012-2021
+6.0.3764.kayaurora.251013-0526
+6.0.3766.nekori64.251012-2028
+6.0.3766.kayaurora.251013-0535
+6.0.3766.nekori64.251014-1157
+6.0.3767.kayaurora.251014-0908
+6.0.3770.nekori64.251015-1224
+6.0.3770.kayaurora.251015-2138
+6.0.3773.kayaurora.251015-2316
+6.0.3777.nekori64.251015-1350
+6.0.3781.nekori64.251017-1414
+6.0.3784.nekori64.251017-1420
+6.0.3785.kayaurora.251018-0044
+6.0.3790.kayaurora.251018-0210
+6.0.3796.kayaurora.251018-0242
+6.0.3800.nekori64.251017-1542
+6.0.3808.nekori64.251017-1607
+6.0.3810.nekori64.251017-1735

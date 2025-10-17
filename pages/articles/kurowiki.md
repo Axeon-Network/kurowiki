@@ -16,9 +16,9 @@ Before an agreement between Nekori and KayAurora (members of the Axeon Network),
 
 After the agreement, KuroWiki expanded its content to not only cover Nekori stuff, but to also cover Axeon Network as a whole.
 
-#### Notable KuroWiki builds
+# Notable KuroWiki builds
 
-##### KuroWiki build 3567
+## KuroWiki build 3567
 
 **KuroWiki build 3567** (full tag: *2.4.3567.main-wik.250504-1045*) is the first build of KuroWiki to ever exist. This build is a fork of [HoriWebsite](HoriWebsite) v2.4 build 3567.<br>This fork came to existance due to a issue with Jekyll's page generation system not working when [Nekori](Nekori) used the `jekyll new` command. 
 

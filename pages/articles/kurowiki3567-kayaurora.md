@@ -2,7 +2,7 @@
 layout: main
 title: KuroWiki build 3567 (kayaurora)
 permalink: KuroWiki_build_3567_(kayaurora)
-hatnote: Not to be confused <a href='KuroWiki_build_3567_(main_wik)'>KuroWiki build 3567 (main_wik)</a>.
+hatnote: Not to be confused with <a href='KuroWiki_build_3567_(main_wik)'>KuroWiki build 3567 (main_wik)</a>.
 ---
 **KuroWiki build 3567** (full tag: *5.2.3567.kayaurora.251009-0049*) is a build of [KuroWiki](KuroWiki) Beta 5.2, compiled on 9 October 2025 at 00:49 UTC+3 (15:49 UTC-6 the day before) from the `kayaurora` development branch.
 

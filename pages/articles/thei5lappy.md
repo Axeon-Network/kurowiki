@@ -10,13 +10,13 @@ redirect_from:
 
 The nickname `Thei5Lappy` is a reference to [TheCeleryPC](TheCeleryPC)'s nickname, as it follows the same scheme: `The`...is self-explanatory, `i5` for the computer's processor (an Intel Core i5-7200U), and `Lappy` for laptop.
 
-##### History and Overview
+# History and Overview
 
 Following the death of TheCeleryPC and haitus of several projects in 3 November 2024, Nekori was gifted a new computer by their dad on 29 November 2025.
 
 The computer originally ran Windows 10 Pro Education x64 when it was given to Nekori, due to Nekori's location, the OS was in Spanish, until Nekori changed it to English a few days later.
 
-###### Computer Specs
+## Computer Specs
 
 The computer's hardware is the following:
 
@@ -25,7 +25,7 @@ The computer's hardware is the following:
 - 8GB DDR4 RAM
 - 238GB Samsung SATA SSD - Later replaced to a **465 GiB Toshiba MQ01ABF050 HDD**
 
-##### Charger Issues
+# Charger Issues
 
 Around 29 May 2025, the computer's charger's state had become increasingly worse compared to when Nekori first got it, so bad that at that point **it would only charge in a certain position**.<br>The charger's state has further worsened from here on to the point where a day later, it would simply **no longer charge** anymore, leaving Nekori with no choice but to use Windows in a minimal manner:
 

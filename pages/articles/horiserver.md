@@ -4,7 +4,7 @@ title: HoriServer
 permalink: HoriServer
 hatnote: This article is about the original HoriServer. For its spiritual successor, see <a href="HoriServer_(2)">HoriServer (2)</a>.<br><br>dude ACTUALLY MAKE HORISERVER 2'S ARTICLE ITS BEEN A MONTH- -nekori to nekori
 ---
-**HoriServer**[&sup1;](#notec1) is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). It was created on 3 February 2025 as a result of and was primarily active during [Nekori](Nekori)'s prolonged Discord break throughout February 2025.
+**HoriServer**[^1] is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). It was created on 3 February 2025 as a result of and was primarily active during [Nekori](Nekori)'s prolonged Discord break throughout February 2025.
 
 A private server, its main purpose is to serve as a fallback limited space with Nekori and their friends. Nekori has stated that they joined Stoat (and thus create the server) to not "be alone for the 3rd time in my [Nekori's] life". A wave of several few people have joined Stoat for HoriServer in the immediate aftermath of Nekori departing Discord.
 
@@ -20,4 +20,5 @@ The public server structure consists of:
 - The **Silly** category
    - Contains various meme, [NekoCulture](List_of_Nekori_memes_culture) or chain channels
 
-<p id="note"><a href="#notec1" id="notec1">&sup1;<span></span>&uparrow;</a> Actual server name is <b>HoriServer 🅰️ :3</b>.</p>
+# References
+[^1]: Actual server name is **HoriServer 🅰️ :3**.

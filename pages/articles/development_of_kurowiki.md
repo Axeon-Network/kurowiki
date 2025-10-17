@@ -196,7 +196,7 @@ The first version of KuroWiki under Axeon was **Beta 4.0**, bringing significant
 
 In late September 2025, the Axeon Network publicly released its first public KuroWiki version, 5.1.2600.main.250928-0955 (also jokingly named **KuroWikiXP** due to the version string). The first build of the **Beta 5.x** series, this is the first public KuroWiki release since early June 2025.
 
-As of October 2025, work has shifted to Beta 5.2, introducing even more new articles and changes. Build 3505 finally did away of the LexTheNova-esque background and replaced it with a changing background. [Build 3567](KuroWiki_build_3567_(kayaurora)) introduced the *Featured Articles* box in the homepage. Two Interim Developer Releases came out during this time: [Build 3615](KuroWiki_build_3615) and [Build 3680](KuroWiki_build_3680), which replaced the changing background with a permanent background, redesigned the homepage and introduced DeltaSearch 2.0, which by itself brought over improvements to KuroWiki search.
+In early October 2025, work has shifted to Beta 5.2, introducing even more new articles and changes. Build 3505 finally did away of the LexTheNova-esque background and replaced it with a changing background. [Build 3567](KuroWiki_build_3567_(kayaurora)) introduced the *Featured Articles* box in the homepage. Two Interim Developer Releases came out during this time: [Build 3615](KuroWiki_build_3615) and [Build 3680](KuroWiki_build_3680), which replaced the changing background with a permanent background, redesigned the homepage and introduced DeltaSearch 2.0, which by itself brought over improvements to KuroWiki search.
 
 <div class="wiki-gallery">
        {% include gallery_item.html 
@@ -217,3 +217,5 @@ As of October 2025, work has shifted to Beta 5.2, introducing even more new arti
          caption="Homepage of beta 5.2, build 3615, the Interim Developer Release 1"
          style="width:50%;" %}
 </div>
+
+As of 12 October 2025, work has shifted to Beta 6, with the version number bumped to 6.0. The first build was erroneously compiled as "[Build 2600](KuroWiki_build_2600_(Beta_6))" due to a bug within the build generation system found on KuroWiki (codenamed TagGen).

@@ -8,15 +8,15 @@ permalink: Finding_Fucking
 
 It was released on 2 October 2025 as a premiere in the Axeon Network Voice Chat. After that, it was released on the Axeon Network website as a free-to-watch video file. It is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4).
 
-#### Plot
+# Plot
 
 After powering on the NekoCraft server for the first time, Nekori and KayAurora start a journey to find a good location to make the city of Fucking. They go from underwater to a snow land, some villages and thousands of blocks in the air via Elytra.
 
-#### Gallery
+# Gallery
 
 This section includes logos and promotional posters of the movie.
 
-#### Logos
+# Logos
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
@@ -50,9 +50,9 @@ This section includes logos and promotional posters of the movie.
         style=" background-color:none!important; border:none!important;" %}
 </div>
 
-#### Posters
+# Posters
 
-##### Original release
+## Original release
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
@@ -107,7 +107,7 @@ This section includes logos and promotional posters of the movie.
         style="" %}
 </div>
 
-##### Threatical release
+## Threatical release
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

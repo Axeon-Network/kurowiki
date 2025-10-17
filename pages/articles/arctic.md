@@ -19,7 +19,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Nekori Arctic**[&sup1;](#notec1){: id="note1"} is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
+**Nekori Arctic**[^1] is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 
@@ -31,7 +31,7 @@ The latest stable release is version 0.1.5.
     caption="QEMU running Arctic v0.1.5a"
 %}
 
-#### Overview
+# Overview
 
 Nekori Arctic is a **16-bit real mode** OS, making it compatible with processors going as far back as the 1980 or even earlier.
 
@@ -39,15 +39,15 @@ The OS has a built-in command line interface, which supports basic commands like
 
 Arctic is available in both **Standard** and **Server** SKUs, but the Server SKU is exclusive to the Lab02 virtual development lab, also known as [Arctic32](Arctic32).
 
-#### Development
+# Development
 
 Arctic's development began around 22 May 2025 (or even earlier) featuring a simple boot screen written in Assembly that eventually evolved into the OS's command line interface.
 
 Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) virtual machine have been seen in Nekori's VMware VM library. Additionally, screenshots of several `kernel.bin` files and directory structures going as far back as **December 2024** have been sent by Nekori on several Discord servers. All of these files are **lost media** due to improper backups.
 
-A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[&sup2;](#notec2){: id="note2"}.
+A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2].
 
-#### Kernel Overview
+# Kernel Overview
 
 The Arctic loading process involves three key files:
 
@@ -58,7 +58,7 @@ The Arctic loading process involves three key files:
 Arctic's kernel, codenamed *ReKanto* (a nod to the Kanto region from *Pokemon Red & Blue*) is a 16-bit monolithic kernel, due to its simplicity. The kernel had to be re-written due to various issues during the transition from 16-bit real mode to 32-bit protected mode. Interestingly enough, another attempt is being made with Arctic32.
 
 
-#### The Mockup Era™ Gallery
+# The Mockup Era™ Gallery
 
 *This gallery showcases the finished Arctic mockups created by Nekori.*
 
@@ -86,5 +86,6 @@ Before development began, Nekori designed several Arctic mockups using GIMP. The
         caption="Horibyte Arctic Server Family Beta 2 Build 7089" %}
 </div>
 
-<p id="notec1"><a href="#note1">&sup1;<span></span>&uparrow;</a> Formerly <b>StuffyXP LeafyOS</b></p>
-<p id="notec2"><a href="#note2">&sup2;<span></span>&uparrow;</a> <a href="https://wetdry.world/@horibyte/114586135328279262">https://wetdry.world/@horibyte/114586135328279262</a></p>
+# References
+[^1]: Formerly **StuffyXP LeafyOS**
+[^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262)

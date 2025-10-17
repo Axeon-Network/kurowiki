@@ -12,7 +12,7 @@ redirect_from:
 
 The original term of "average stuffy moment" was first used by a member of the [Stuffy's Place](Stuffys_Place) Discord server, which started the idea of the Nekori moment back in January 2024.
 
-#### Types of Nekori moments
+# Types of Nekori moments
 Nekori moments can vary from a range of 'moment levels', with that being the following:
  * **Errors**: Said moments can be various errors, being just normal ones, or something extremely rare.<br>
  ![Dolphin warning: Invalid state, with an OK button and a Ignore for this session button but the text is cropped due to the button's size](resources/img/articles/horibyte_moments/error.png){: style="width:20%" title="Dolphin warning: Invalid state, with an OK button and a Ignore for this session button but the text is cropped due to the button's size"}
@@ -30,7 +30,7 @@ Nekori moments can vary from a range of 'moment levels', with that being the fol
 ![Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion.)](resources/img/articles/horibyte_moments/brokendolphinfilemanager.png){: style="width:70% !important;" title="Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion"}
 <p id="caption">Broken Dolphin (KDE file manager) window as a result of accidental /home folder deletion with "rm -rf ~"</p>
 
-#### Gallery of Nekori Moments
+# Gallery of Nekori Moments
 
 <div class="wiki-gallery" id="nekori-moments-gallery">
     {% include gallery_item.html 

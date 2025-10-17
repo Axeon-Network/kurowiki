@@ -41,12 +41,12 @@ module Jekyll
         if File.exist?(build_number_file_path)
           current_incremental_number = File.read(build_number_file_path).to_i
         else
-          # if the file doesnt exist then start at 2003
-          current_incremental_number = 2599
+          # if the file doesnt exist then start at 3700
+          current_incremental_number = 3699
         end
       rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to read /resources/ruby/version: #{e.message}. Starting from 2600."
-        current_incremental_number = 2599
+        Jekyll.logger.error "TagGen Error:", "Failed to read /resources/ruby/version: #{e.message}. Starting from 3700."
+        current_incremental_number = 3699
       end
 
       current_incremental_number += 1
@@ -63,7 +63,7 @@ module Jekyll
       timestamp = Time.now.strftime("%y%m%d-%H%M")
 
       # create full build tag string
-      full_build_tag = "5.2.#{current_incremental_number}.#{git_branch}.#{timestamp}"
+      full_build_tag = "6.0.#{current_incremental_number}.#{git_branch}.#{timestamp}"
 
       # persist full build tag to file
       begin
@@ -75,8 +75,8 @@ module Jekyll
 
       # add all build info to site.config variable
       site.config['version'] = {
-        'major' => 5,
-        'minor' => 2,
+        'major' => 6,
+        'minor' => 0,
         'patch' => current_incremental_number,
         'branch' => git_branch,
         'timestamp' => timestamp,

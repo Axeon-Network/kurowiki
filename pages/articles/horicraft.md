@@ -11,7 +11,7 @@ aliases:
     - horicraft 1
 ---
 
-**Horicraft**[&sup1;](#notec1) (*formerly known as **StuffyCraft***) was a creative Minecraft server owned and operated by [Nekori](Nekori). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
+**Horicraft**[^1] (*formerly known as **StuffyCraft***) was a creative Minecraft server owned and operated by [Nekori](Nekori). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
 
 Main cities built in Horicraft include [Horilandese](Horiland) cities like the capital [Fucking](Fucking) or [Jell](Jell). As the world spawn, Fucking is home to most of Horicraft's players as well as facitilies like [Dogui Heavy Industries Incorporated](Dogui_Heavy_Industries_Incorporated). Jell is mainly known for its tourist attraction, the *B Parkour*, shaped as a 🅱️ cube.
 
@@ -21,7 +21,7 @@ Horicraft officially shut down on 11 March 2025 after a disagreement between the
 
 As of May 18 2025, Horicraft is planned to merge with Horicraft (2) in order to make a """"new"""" server as an attempt to keep both alive.
 
-#### Gallery
+# Gallery
 
 {% include figure_item.html 
     image_src="resources/img/articles/horicraft/spawn.png" 
@@ -29,4 +29,5 @@ As of May 18 2025, Horicraft is planned to merge with Horicraft (2) in order to 
     caption="The city of Fucking, Horiland, as it was built in Horicraft. This is the spawn area"
     style="width:50%!important;height:50%!important;" %}
 
-<p id="note"><a href="#notec1" id="notec1">&sup1;<span></span>&uparrow;</a> Retroactively known as <b>Horicraft (1)</b> or <b>the original Horicraft</b>, following the creation of Horicraft (2).</p>
+# References
+[^1]: Retroactively known as **Horicraft (1)** or **the original Horicraft**, following the creation of Horicraft (2).

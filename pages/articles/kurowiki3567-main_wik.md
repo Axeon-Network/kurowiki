@@ -2,7 +2,7 @@
 layout: main
 title: KuroWiki build 3567 (main_wik)
 permalink: KuroWiki_build_3567_(main_wik)
-hatnote: Not to be confused <a href='KuroWiki_build_3567_(kayaurora)'>KuroWiki build 3567 (kayaurora)</a>.
+hatnote: Not to be confused with <a href='KuroWiki_build_3567_(kayaurora)'>KuroWiki build 3567 (kayaurora)</a>.
 ---
 **KuroWiki build 3567** (full tag: *2.4.3567.main-wik.250504-1045*) is the very first build of [KuroWiki](KuroWiki) (then-known as HoriWiki), compiled on 4 May 2025 at 10:45 UTC-6. This build is a fork of [HoriWebsite](HoriWebsite) v2.4 build 3567.
 
@@ -10,7 +10,7 @@ There are virtually no differences between the actual HoriWebsite v2.4 and this 
 
 Two compiles of this build exist, being 7 minutes apart. The second compile has the full build tag of *2.4.3567.horiwiki-pa1.250504-1052*, where "pa1" means Pre-Alpha 1.
 
-   <div class="container">
+<div class="container">
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/earliest_developer_pre-alpha.png" 
