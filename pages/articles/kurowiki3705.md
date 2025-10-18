@@ -5,7 +5,7 @@ permalink: KuroWiki_build_3705
 hatnote:
 ---
 
-**KuroWiki build 3705** (full tag: *6.0.3705.nekori64.251012-1832*) is a Beta 6 build of KuroWiki, compiled on 12 October 2025 18:32 (6:32pm) UTC-6.
+**KuroWiki build 3705** (full tag: `6.0.3705.nekori64.251012-1832`) is a Beta 6 build of KuroWiki, compiled on 12 October 2025 18:32 (6:32pm) UTC-6.
 
 It adds a Light Mode toggle in the bottom of the homepage, which when activated, applies a light theme in place of the now-default dark theme, albeit broken in this build.
 
