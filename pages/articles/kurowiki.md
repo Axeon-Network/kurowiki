@@ -5,10 +5,10 @@ permalink: KuroWiki
 redirect_from:
   - LexWiki
   - HoriWiki
-hatnote: For a detailed history of KuroWiki's development, see <a href="Development_of_KuroWiki">Development of KuroWiki</a>,
+hatnote: This article is about the wiki itself. For the development of KuroWiki, see <a href='Development_of_KuroWiki'>Development of KuroWiki</a>. For the list of all known KuroWiki builds, see <a href='List_of_all_KuroWiki_builds'>List of all KuroWiki builds</a>
 ---
 
-**KuroWiki** is an **open-source online encyclopedia** launched by the [Axeon Network](Axeon_Network) on **XXXX XX, 2025**.[<sup>a</sup>]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [Nekori](Nekori), with other tweaks and adjustments having been done by [KayAurora](KayAurora).
+**KuroWiki** is an open-source online encyclopedia launched by the [Axeon Network](Axeon_Network) on **XXXX XX, 2025**.[ᵃ]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [Nekori](Nekori), with other tweaks and adjustments having been done by [KayAurora](KayAurora).
 
 KuroWiki was planned to be powered by MediaWiki with a custom user interface. However, it was decided instead to build a separate wiki engine, codenamed *Deltari*," using [Jekyll](https://jekyllrb.com).
 
@@ -19,6 +19,8 @@ After the agreement, KuroWiki expanded its content to not only cover Nekori stuf
 # Notable KuroWiki builds
 
 ## KuroWiki build 3567
+
+*Main article: [KuroWiki build 3567 (main_wik)](KuroWiki_build_3567_(main_wik))*
 
 **KuroWiki build 3567** (full tag: *2.4.3567.main-wik.250504-1045*) is the first build of KuroWiki to ever exist. This build is a fork of [HoriWebsite](HoriWebsite) v2.4 build 3567.<br>This fork came to existance due to a issue with Jekyll's page generation system not working when [Nekori](Nekori) used the `jekyll new` command. 
 

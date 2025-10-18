@@ -31,6 +31,27 @@
 
     <!-- the thing that makes most of mdl work -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
   </head>
   <!-- springviewer src -->
   <script src="./resources/js/springviewer.js"></script>
@@ -41,7 +62,8 @@
     <header class="mdl-layout__header mdl-layout__header--transparent">
       <div class="mdl-layout__header-row" style="z-index:999;">
         <div class="container is-hidden-mobile">
-          <span id="title" class="mdl-layout-title">{{ site.title }}</span>
+          <!-- its finally a link it has been bothering me alot recently idk why -->
+          <a href="./" style="color:white;" title="i'm now a link!"><span id="title" class="mdl-layout-title">{{ site.title }}</span></a>
         </div>
 
         <div class="mdl-layout-spacer"></div>
@@ -55,7 +77,7 @@
                   <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
                   <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
                 </div>
-              </form>
+              </form> <!-- damn you stupid closing form tag!!!-->
             </div>
           </div>
         </div>
@@ -65,29 +87,34 @@
     <div class="mdl-layout__drawer">
       <span class="mdl-layout-title">{{ site.title }}</span>
       <nav class="mdl-navigation" style="margin-top: -5% !important;">
-        <a class="mdl-navigation__link" href="Main_Page">Main Page</a>
+
+        <a class="mdl-navigation__link" href="./">Home</a>
+
         <!--<a class="mdl-navigation__link" href="Special%3ASitemap">Sitemap</a>-->
+
         <a class="mdl-navigation__link" href="Contributing_to_KuroWiki">Contribute!</a>
-        <span style="padding-left:5.5%; color:white"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a><br><br>KuroWiki <span style="color:orange;">XP</span> 2002 Server .NET Advanced Web Datacenter Blade Server Limited Edition 2003<br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">{{ site.version.full_tag }}</span></span>
+
+        <a class="mdl-navigation__link" href="Settings">Settings</a>
+
+        <span style="padding-left:5.5%; color:white"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a><br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">Version {{ site.version.full_tag }}</span></span>
       </nav>
     </div>
 
     <!-- and God said, let there be content, and there was content -->
     <main class="mdl-layout__content">
-      <div class="box mdl-shadow--8dp" style="background-color: rgba(255,255,255,0.75); backdrop-filter: blur(15px); width:96%; justify-content: center; display: block; margin: 0 auto; padding: 8px;">
+      <div class="box mdl-shadow--8dp" style="background-color: var(--contentbox-background-color); backdrop-filter: blur(15px); width:96%; justify-content: center; display: block; margin: 0 auto; padding: 8px;">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
               <div class="hatnote">
               {{ page.hatnote }}
           </div>
     
-          <h1 id="pagetitle" style="color:rgb(79, 85, 102)" >{{ page.title }}</h1>
+          <h1 id="pagetitle" style="color:var(--kurowiki-accent)" >{{ page.title }}</h1>
           
           <hr>
           
           <noscript>
-            <b><span style="color:rgb(197, 195, 49);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
           </noscript>
-
                 {{content}}
           </div>
         </div>
@@ -116,7 +143,7 @@
         <div id="viewer-caption"></div>
       
           <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
-            &nbsp;SpringViewer Version 1.0&nbsp;
+            &nbsp;SpringViewer Version 1.1&nbsp;
           </p>
         </div>
 	<!-- there was a closing comment on that div what the hell -->

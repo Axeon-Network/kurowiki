@@ -45,7 +45,7 @@ Arctic's development began around 22 May 2025 (or even earlier) featuring a simp
 
 Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) virtual machine have been seen in Nekori's VMware VM library. Additionally, screenshots of several `kernel.bin` files and directory structures going as far back as **December 2024** have been sent by Nekori on several Discord servers. All of these files are **lost media** due to improper backups.
 
-A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2].
+A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2]
 
 # Kernel Overview
 
@@ -86,6 +86,7 @@ Before development began, Nekori designed several Arctic mockups using GIMP. The
         caption="Horibyte Arctic Server Family Beta 2 Build 7089" %}
 </div>
 
-# References
+#### References
+
 [^1]: Formerly **StuffyXP LeafyOS**
 [^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262)

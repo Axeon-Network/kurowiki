@@ -3,6 +3,65 @@
 
 /* should we include this in the self-host version??? */
 
+/* VARIABLE LAND */
+/* first things first */
+/* this should work as this file gets loaded everywhere */
+html {
+    /* dark mode */
+    --kurowiki-accent-dark: rgb(137, 182, 240);
+    --accent-dark: rgb(137, 182, 240); /* these two are practically the same thing*/
+    --contentbox-background-color-dark: rgba(5,5,5,0.3);
+    --search-background-color-dark: rgba(50,50,50,1);
+    --mdlcard-background-color-dark: rgba(15,15,15,0.4);
+    --gallery-bg-dark: rgba(50,50,50,1);
+    --gallery-border-dark: rgba(30,30,30,1);
+    --hatnote-color-dark: rgba(8,8,8,0.3);
+    --text-color-white: white;
+    /* light mode */
+    --kurowiki-accent-light: rgb(32, 46, 64);
+    --accent-light: rgb(32, 46, 64);
+    --contentbox-background-color-light: rgba(255,255,255,0.75);
+    --search-background-color-light: white;
+    --gallery-bg-light: #f8f8f8;
+    --gallery-border-light: #ccc;
+    --hatnote-color-light: rgba(255,255,255,0.75);
+    --mdlcard-background-color-light: white;
+    --text-color-black: black;    
+
+
+    --kurowiki-accent: var(--kurowiki-accent-dark);
+    --accent: var(--accent-dark);
+    --contentbox-background-color: var(--contentbox-background-color-dark);
+    --search-background-color: var(--search-background-color-dark);
+    --mdlcard-background-color: var(--mdlcard-background-color-dark);
+    --gallery-bg: var(--gallery-bg-dark);
+    --gallery-border: var(--gallery-border-dark);
+    --hatnote-color: var(--hatnote-color-dark);
+    --text-color: var(--text-color-white); 
+
+    /* Light Mode adjustments */
+        &.light-mode {
+            --kurowiki-accent: var(--kurowiki-accent-light);
+            --accent: var(--accent-light);
+            --contentbox-background-color: var(--contentbox-background-color-light);
+            --search-background-color: var(--search-background-color-light);
+            --mdlcard-background-color: var(--mdlcard-background-color-light);
+            --gallery-bg: var(--gallery-bg-light);
+            --gallery-border: var(--gallery-border-light);
+            --hatnote-color: var(--hatnote-color-light);
+            --text-color: var(--text-color-black); 
+            }
+}
+
+/* for firefox */
+html {
+    color: var(--text-color-white);
+    &.light-mode {
+    color: var(--text-color-black) !important;
+}
+}
+
+
 /* the fucking font:tm: */
 * {
     font-family: 'Roboto', /* if this fails to load i will explode */
@@ -56,7 +115,7 @@ a {
 
 /* its hatnote time */
 .hatnote {
- background-color: rgb(240, 236, 236);
+ background-color: var(--hatnote-color);
  margin-top: 20px;
  margin-right: 15px;
  padding-left: 10px;
@@ -80,6 +139,10 @@ html {
     background-position-y: -600px;
     background-attachment: fixed;
     /* background-image: linear-gradient(to bottom right, rgb(15, 17, 90), rgb(34, 12, 70)) */
+}
+
+.mdl-card {
+    background-color: var(--mdlcard-background-color);
 }
 
 html::before {
@@ -237,8 +300,8 @@ html::before {
     align-items: center;
     height: 180px; 
     width: 100%;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
+    border: 1px solid var(--gallery-border);
+    background-color: var(--gallery-bg);
     padding: 6px;
     margin-bottom: 4px;
 }
@@ -254,7 +317,7 @@ html::before {
     margin-top: 4px;
     font-size: 0.9em !important; /* using the generic figcaption font-size */
     line-height: 1.4;
-    color: #333;
+    color:var(--text-color);
     text-align: left;
 }
 
@@ -269,8 +332,8 @@ figure:not(.gallery-item) {
     text-align: center; 
 }
 figure:not(.gallery-item) img {
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
+    border: 1px solid var(--gallery-border);
+    background-color: var(--gallery-bg);
     padding: 6px;
     display: inline-block;
     margin: 0 auto 5px auto;
@@ -284,7 +347,7 @@ figure:not(.gallery-item) figcaption {
     max-width: 70%;
     font-size: 1em;
     line-height: 1.4;
-    color: #333;
+    color:var(--text-color);
     text-align: center;
 }
 /* figcaption normal edition */
@@ -348,7 +411,7 @@ summary {
     font-size: 20px;
     padding: 5px;
     line-height: 25px;
-    color: rgb(79, 85, 102)
+    color: var(--kurowiki-accent);
 }
 
 summary:hover {

@@ -71,6 +71,5 @@ The company was barely keeping itself alive in 2019 until COVID-19 struck Stuffy
 
 The company successfully recovered from the crash (in fact, was only one of the two to do so) and gained around LXL 1B due to the massive success of DHI Movies, and several donations for DHI Turtles. The company became the most profitable business in the country again in August 2021 due to a new CEO, [Nekori](Nekori). -->
 
-
 # References
 [^1]: Formerly known as **Dogui Heavy Industries Limited** (DHI Ltd.) and **Dogui Heavy Coding Industries** (DHCI).

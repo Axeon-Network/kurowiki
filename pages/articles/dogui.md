@@ -5,7 +5,7 @@ title: Dogui
 hatnote: This article is about the original 2015 plushie owned by Nekori. For the fictional character based on Dogui's design, see <a href='Comet'>Comet</a>.
 ---
 
-**Dogui** is a dog plushie owned by [Nekori](Nekori). Dogui has made appeared in Nekori's online life since 2021.
+**Dogui** is the dog plushie owned by [Nekori](Nekori). Dogui has made appeared in Nekori's online life since 2021.
 
 # History
 

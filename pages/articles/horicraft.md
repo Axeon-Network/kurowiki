@@ -19,7 +19,7 @@ Players of Horicraft can travel between Jell, Fucking, or other places across th
 
 Horicraft officially shut down on 11 March 2025 after a disagreement between the server hoster and Nekori, after just over 3 months. Any instance of the original Horicraft that would remain open would no longer be official/endorsed by Nekori. It was later succeeded by [Horicraft (2)](Horicraft_(2)), a survival Minecraft server.
 
-As of May 18 2025, Horicraft is planned to merge with Horicraft (2) in order to make a """"new"""" server as an attempt to keep both alive.
+In 18 May 2025, Horicraft was planned to merge with Horicraft (2) in order to make a """"new"""" server as an attempt to keep both alive. This was later scrapped in favor of [MidoriMC](MidoriMC) using Horicraft's world.
 
 # Gallery
 
