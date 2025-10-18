@@ -20,19 +20,19 @@ Just like with Build 3615 (and other 5.2 builds for the matter), it is jokingly 
         style="width:50%;" %}
 
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowikibuild3680/drawer.png" 
+        image_src="resources/img/articles/kurowiki3680/drawer.png" 
         alt_text="Ditto, drawer open" 
         caption="Ditto, drawer open"
         style="width:50%;" %}
 
             {% include gallery_item.html 
-        image_src="resources/img/articles/kurowikibuild3680/search.png" 
+        image_src="resources/img/articles/kurowiki3680/search.png" 
         alt_text="Search Results page" 
         caption="Search Results page"
         style="width:50%;" %}
 
             {% include gallery_item.html 
-        image_src="resources/img/articles/kurowikibuild3680/mobile.png" 
+        image_src="resources/img/articles/kurowiki3680/mobile.png" 
         alt_text="KuroWiki on mobile" 
         caption="KuroWiki on mobile"
         style="width:50%;" %}
