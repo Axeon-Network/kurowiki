@@ -18,7 +18,7 @@ It adds a new Settings page accessible at [KuroWiki:Settings](./KuroWiki:Setting
         style="width:50%;" %}
 
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki3761/settings.png" 
+        image_src="resources/img/articles/kurowiki3761/settingslightmode.png" 
         alt_text="Ditto, light mode enabled" 
         caption="Ditto, light mode enabled"
         style="width:50%;" %}
