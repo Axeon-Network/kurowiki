@@ -14,7 +14,7 @@ Just like with Build 3615 (and other 5.2 builds for the matter), it is jokingly 
 <div class="container">
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowikibuild3680/home.png" 
+        image_src="resources/img/articles/kurowiki3680/home.png" 
         alt_text="Homepage of KuroWiki build 3680" 
         caption="Homepage of KuroWiki build 3680"
         style="width:50%;" %}
