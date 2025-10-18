@@ -21,7 +21,7 @@ Horicraft officially shut down on 11 March 2025 after a disagreement between the
 
 In 18 May 2025, Horicraft was planned to merge with Horicraft (2) in order to make a """"new"""" server as an attempt to keep both alive. This was later scrapped in favor of [MidoriMC](MidoriMC) using Horicraft's world.
 
-#### Gallery
+# Gallery
 
 {% include figure_item.html 
     image_src="resources/img/articles/horicraft/spawn.png" 
@@ -29,6 +29,5 @@ In 18 May 2025, Horicraft was planned to merge with Horicraft (2) in order to ma
     caption="The city of Fucking, Horiland, as it was built in Horicraft. This is the spawn area"
     style="width:50%!important;height:50%!important;" %}
 
-#### References
-
+# References
 [^1]: Retroactively known as **Horicraft (1)** or **the original Horicraft**, following the creation of Horicraft (2).

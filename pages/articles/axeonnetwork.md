@@ -8,6 +8,11 @@ redirect_from:
     - Axeon
     - Axeon_Community
     - Aqua_Community
+aliases:
+    - axeon
+    - aqua
+    - lynxplaza
+    - axeon community
 ---
 **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by KayAurora), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
 
@@ -16,7 +21,7 @@ A more notable recent project idea from July 2025 would've been a bot unifying b
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 
-##### Discord Server
+# Discord Server
 By far, the Discord Server of the same name is the flagship of the Axeon Network.
 Initially known as Aqua Community, the server was created on 18 December 2017, but wouldn't open until 10 days later, allowing KayAurora to come up with ideas and an overall strategy for the server.
 
@@ -41,14 +46,14 @@ On 8 September 2025, the Axeon Network Discord Server re-reached 100 members.
         style="width:50%; height:auto" %}
 </div>
 
-###### Custom server-specific Discord Bots
+## Custom server-specific Discord Bots
 Initially, there were several bots hosted specifically for the Axeon Network server, all which started operating in late 2017-early 2018:
 
 - **AxeonBot**: initially known as AquaBot, it was in fact a selfhosted instance of GAwesomeBot. In May 2018, AxeonBot switched to running a separate instance of [Venus](Venus). The bot was discontinued in August 2018 in favor of other 3rd-party bots.
 - **AxeonMusic**: initially known as AquaMusic, it was a selfhosted instance of JMusicBot, which the community could use to play music of their choice in VC. The bot was discontinued in July 2019 in favor of other 3rd-party bots.
 - **AxeonRadio**: initially known as AquaRadio, it was also a selfhosted instance of JMusicBot, with the difference being that it was a playlist of music curated by Axeon managers and community. The bot was discontinued in April 2018 in favor of AxeonMusic bearing the radio stuff. The bot account for AxeonRadio was later renamed to **AxeonAuth** (planned as an all-in "moderation bot") but then later abandoned entirely.
 
-##### KuroWiki
+# KuroWiki
 *Main article: [KuroWiki](KuroWiki)*
 
 **KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *Deltari* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
@@ -56,7 +61,7 @@ Initially started with a main purpose of documenting meanings of inside jokes an
 
 As of September 2025, KuroWiki has reached Beta 5.
 
-##### MidoriMC
+# MidoriMC
 *Main article: [MidoriMC](MidoriMC)*
 
 **MidoriMC** (previously known as **AxeonMC**) was a Minecraft Java Edition server for the community of Axeon. The server was officially announced on 11 May 2025 as a Survival 1.21.4 Fabric server with its own world.
@@ -65,7 +70,7 @@ Roughly a week later, on 18 May 2025, AxeonMC was renamed MidoriMC and changed f
 
 Over time, the server had been updated to 1.21.5, then to 1.21.6 and to 1.21.7. On 1 August 2025, it was announced that MidoriMC would go offline for good, due to lack of players most of the time and thus lack of interest to keep it online. At its peak, MidoriMC had around 5 concurrent online players, this being in late May 2025.
 
-##### i.axeon
+# i.axeon
 **i.axeon** (also known as the **Axeon Image Uploader**) was a planned online image uploading service during early 2018 primarily meant to be used with ShareX. Images uploaded to the service would be under the `i.axeoncommunity.ml` subdomain ready to link on Discord or generally other places of the Internet where attaching images is otherwise not a feature.
 
 The idea was cancelled due to its complex nature, and due to the `axeoncommunity.ml` website's switch to GitHub Pages from the free web hosting service it was previously using due to issues with images not properly displaying on the website.
@@ -79,7 +84,7 @@ No plans exist to pick up this project back, with KayAurora now [generally again
         style="width:10%; height:auto" %}
 </div>
 
-##### AxeonWebsite
+# AxeonWebsite
 **AxeonWebsite** (previously known as **AquaWebsite**) was the official website of the Axeon Network since January 2018 until July 2019, when KayAurora announced they were quitting coding at the time.
 
 Initially built by a former member of the Axeon Network Discord Server using the Materialize CSS framework, it was later rebuilt by KayAurora using MDBootstrap just a few weeks later (due to Materialize not being aesthetically pleasing), iteration which would remain for the rest of the website's lifetime.

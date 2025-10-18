@@ -19,7 +19,7 @@ aliases:
 
 The website is currently available at [nekori64.github.io/stuffyxp-website/stuffywebsitewou](https://nekori64.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite]'s domain, and `stuffyxp.github.io`.
 
-#### Development
+# Development
 
 Shortly after [the original Stuffy Website](Stuffy's_Website_(May_2024)) source code was lost, Nekori restarted the development of the new website, this time with the same name, as it was a ""rewrite"".
 
@@ -27,7 +27,7 @@ Nekori used the same tools that they used in the previous iteration of the websi
 
 Development of Stuffy's Website was finished on 24 June 2024.
 
-##### Stuffy's Website! Public Beta
+## Stuffy's Website! Public Beta
 
 A public beta release of the website was released on 22 June 2024 as a way to test the website in a production environment. It included an exclusive *Known Issues* page where it listed the known issues of the website at that point.
 
@@ -36,13 +36,13 @@ These issues consisted of the website's font being italic in Chromium-based brow
 The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/)
 
 
-##### Week One Update
+## Week One Update
 
 **Stuffy's Website: Week One Update** (commongly abbreviated as **Week One Update** or **WOU**) is the first and only update to Stuffy's Website. It was released on 27 June 2024.
 
 It mainly consisted of bugfixes, favicon linking fixes and a proper mobile UI.
 
-##### Version 1.2
+## Version 1.2
 
 **Stuffy's Website: Everybody Features! Update**, commongly reffered to as Version 1.2, was an upcoming version of Stuffy's Website. This version was announced to be on development on 20 July 2024. It was eventually forgotten by Nekori, which lead to its cancellation.
 

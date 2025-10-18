@@ -31,7 +31,7 @@ The latest stable release is version 0.1.5.
     caption="QEMU running Arctic v0.1.5a"
 %}
 
-#### Overview
+# Overview
 
 Nekori Arctic is a **16-bit real mode** OS, making it compatible with processors going as far back as the 1980 or even earlier.
 
@@ -39,7 +39,7 @@ The OS has a built-in command line interface, which supports basic commands like
 
 Arctic is available in both **Standard** and **Server** SKUs, but the Server SKU is exclusive to the Lab02 virtual development lab, also known as [Arctic32](Arctic32).
 
-#### Development
+# Development
 
 Arctic's development began around 22 May 2025 (or even earlier) featuring a simple boot screen written in Assembly that eventually evolved into the OS's command line interface.
 
@@ -47,7 +47,7 @@ Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) 
 
 A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2]
 
-#### Kernel Overview
+# Kernel Overview
 
 The Arctic loading process involves three key files:
 
@@ -58,7 +58,7 @@ The Arctic loading process involves three key files:
 Arctic's kernel, codenamed *ReKanto* (a nod to the Kanto region from *Pokemon Red & Blue*) is a 16-bit monolithic kernel, due to its simplicity. The kernel had to be re-written due to various issues during the transition from 16-bit real mode to 32-bit protected mode. Interestingly enough, another attempt is being made with Arctic32.
 
 
-#### The Mockup Era™ Gallery
+# The Mockup Era™ Gallery
 
 *This gallery showcases the finished Arctic mockups created by Nekori.*
 

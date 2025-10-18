@@ -10,31 +10,31 @@ This article shows a list of codenames used by [KayAurora](KayAurora) in their p
 
 [A](#A) · [C](#C) · [L](#L) · [O](#O) · [P](#P) · [R](#R) · [S](#S) · [U](#U) · [V](#V)
 
-<h4 id="A">A</h4>
+<h1 id="A">A</h1>
 <hr>
 
-<h5 id="Aqua">Aqua</h5>
+<h2 id="Aqua">Aqua</h2>
 
 The original naming for the [Axeon Network](Axeon_Network) Discord Server, used in 2017-18 with the "*Community*" prefix at the end.
 
-<h4 id="C">C</h4>
+<h1 id="C">C</h1>
 <hr>
 
-<h5 id="Cosmos">Cosmos</h5>
+<h2 id="Cosmos">Cosmos</h2>
 
 Codename for a revamp of the [Axeon Network](Axeon_Network) Discord Server in July 2018.
 
-<h4 id="L">L</h4>
+<h1 id="L">L</h1>
 <hr>
 
-<h5 id="Lyra">Lyra</h5>
+<h2 id="Lyra">Lyra</h2>
 
 Codename for the Discord server that would have resulted from the merge between [LynxPlaza](Axeon_Network) and [HoriServer (2)](HoriServer_(2)) following the general sunsetting of the [Lynxmic](Lynxmic) project in April 2025. Later cancelled as a result of the [HoriServer (2) incident](April_2025_HoriServer_(2)_Incident).
 
-<h4 id="O">O</h4>
+<h1 id="O">O</h1>
 <hr>
 
-<h5 id="Orchid">Orchid</h5>
+<h2 id="Orchid">Orchid</h2>
 
 Codename used for various later-cancelled projects for the [Axeon Network](Axeon_Network) in multiple instances since 2023:
 - **The *Orchid* Discord Bot** (May 2023): spiritual successor (but unrelated) to 2018's *AxeonBot*, used as a complementary extension to existing 3rd-party bots already in use in Axeon Network (at the time known as Lynxmic's Square). The original bot account for it would later change to report the online status of [MidoriMC](MidoriMC) on Discord.
@@ -47,47 +47,47 @@ Codename used for various later-cancelled projects for the [Axeon Network](Axeon
         <p id="caption">Initial Orchid logos, from left to right: 2023 (for the Discord bot), 2025 (other planned projects)</p>
    </div>
 
-<h4 id="P">P</h4>
+<h1 id="P">P</h1>
 <hr>
 
-<h5 id="Photon">Photon</h5>
+<h2 id="Photon">Photon</h2>
 
 Name used for a planned new tech-oriented YouTube channel throughout February 2025.
 
-<h5 id="Preventemod">Preventemod</h5>
+<h2 id="Preventemod">Preventemod</h2>
 
 Name used for a project for a separate moderation bot for Discord that has been worked on in 2018, later cancelled.
 The name can be understood as sort of a combination between the words "prevent" ("*to prevent [bad event]*") and "mod" ("*to moderate - take action to stop/prevent [bad event]*"), with the letter "*e*" added between them in an attempt to create a more unique, fluent name.
 
-<h4 id="R">R</h4>
+<h1 id="R">R</h1>
 <hr>
 
-<h5 id="Rano">Rano</h5>
+<h2 id="Rano">Rano</h2>
 
 Name used by 2017 Computerseasons to refer to a "Computerseasons-made operating system".
 
-<h5 id="Ruby">Ruby</h5>
+<h2 id="Ruby">Ruby</h2>
 
 Name used for a project for a separate fun-oriented bot for Discord from 2018-19, also later cancelled.
 Ruby's bot account still exists to this day and it is planned it may be reused at some point for a future project for the Axeon Network.
 
-<h4 id="S">S</h4>
+<h1 id="S">S</h1>
 <hr>
 
-<h5 id="Softdron">Softdron</h5>
+<h2 id="Softdron">Softdron</h2>
 
 Name of a fictional company thought to have been the maker of the hypotethical [Rano](#Rano) operating system.
 
-<h4 id="U">U</h4>
+<h1 id="U">U</h1>
 <hr>
 
-<h5 id="Uranus">Uranus</h5>
+<h2 id="Uranus">Uranus</h2>
 
 A replacement name for [Sapphire](Sapphire).
 
-<h4 id="W">W</h4>
+<h1 id="W">W</h1>
 <hr>
 
-<h5 id="Whirlpool">Whirlpool</h5>
+<h2 id="Whirlpool">Whirlpool</h2>
 
 Name used for the *Whirlpool Bot Plaza* Discord Server in November 2018, which was gonna be an unified place for support for both [Venus](Venus) and [Uranus](Sapphire) before the latter project was cancelled.

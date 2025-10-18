@@ -14,7 +14,7 @@ The video consisted of Nekori installing Windows XP Professional SP3 on a VMware
 
 Addionally, 2 YouTube Shorts were uploaded to the StuffyXP channel showing a sneak peak of the video, with an audio bug from the video editor, and another one showing the analytics of the video as of 2 days later.
 
-#### Development
+# Development
 
 Shortly after 2024 started (and Nekori finding their friend group), Nekori was inspired by them [the friend group] to also make their own tech videos on YouTube, they started to find a video editor that was compatible with their daily driver at the time, [TheCeleryPC](TheCeleryPC).
 
@@ -24,7 +24,7 @@ The video was delayed again in **28 January** due to Nekori bricking their Windo
 
 The video had to be delayed again, this time for almost a week due to the death of the power outlet that used to power TheCeleryPC.
 
-#### After the collab
+# After the collab
 
 Coinciding with the upload of the [KayAurora-Nekori Video Collab](KayAurora_and_Nekori_Collab), the featured videos had their thumbnails changed to march the newer versions made on the collab, this was one of the featured videos.
 

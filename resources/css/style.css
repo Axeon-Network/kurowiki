@@ -364,7 +364,7 @@ code {
 }
 
 /* Resistance is futile. Work. Now. Please. */
-@media (max-width: 1024px) {
+@media (max-width: 1160px) {
     .featured-article,
     .did-you-know,
     .recent-news {
@@ -374,7 +374,7 @@ code {
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1160px) {
 .homepage-cards {
     display: table;
     width: 100%;
@@ -416,4 +416,30 @@ summary {
 
 summary:hover {
     cursor: pointer;
+}
+
+/* mdl's h1-h3 are way tooooo gigantic so we make them use mdl's h4-h6 styling */
+h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 24px 0 16px;
+    letter-spacing: 0em;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    margin: 24px 0 16px;
+    letter-spacing: 0em;
+}
+
+h3, h4, h5, h6 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 24px 0 16px;
+    letter-spacing: .04em;
 }

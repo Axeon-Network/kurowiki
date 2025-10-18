@@ -13,7 +13,7 @@ aliases:
 
 The server closed due to lack of interest in maintaining the server on Nekori's side.
 
-#### Trivia
+# Trivia
 
 This section contains a list of Horicraft (2) trivia
 
@@ -28,7 +28,7 @@ This section contains a list of Horicraft (2) trivia
 
 Horicraft (2) is planned to close on May 18 or May 24 2025 to merge with the original [Horicraft](Horicraft) to a new Minecraft server operated by Nekori. This decision was made in order to revive both Horicraft projects after Nekori's demotivation on keeping both alive.
 
-#### Gallery
+# Gallery
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

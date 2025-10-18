@@ -32,7 +32,7 @@
   {
     "title": "Axeon Network",
     "url": "Axeon_Network",
-    "aliases": "",
+    "aliases": "axeon aqua lynxplaza axeon community",
     "snippet": "Axeon Network (more commonly known as just Axeon) is a network consisting of community-oriented projects."
   },
   {
@@ -110,7 +110,7 @@
   {
     "title": "KayWebsite",
     "url": "KayWebsite",
-    "aliases": "",
+    "aliases": "kayaurora website",
     "snippet": "KayWebsite (also known after its URL name, kay.is-a.dev) is KayAurora’s personal website."
   },
   {
@@ -120,7 +120,13 @@
     "snippet": "KuroWiki is an open-source online encyclopedia launched by the Axeon Network on XXXX XX, 2025.[ᵃ]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network."
   },
   {
-    "title": "KuroWiki build 2600",
+    "title": "KuroWiki build 2600 (Beta 6)",
+    "url": "KuroWiki_build_2600_(Beta_6)",
+    "aliases": "",
+    "snippet": "KuroWiki build 2600 (full tag: 6.0.2600.nekori64.251012-1610) is a Beta 6 build of KuroWiki."
+  },
+  {
+    "title": "KuroWiki build 2600 (main)",
     "url": "KuroWiki_build_2600",
     "aliases": "",
     "snippet": "KuroWiki build 2600 is the first and official Beta 5 build of KuroWiki."
@@ -142,6 +148,42 @@
     "url": "KuroWiki_build_3615",
     "aliases": "",
     "snippet": "KuroWiki build 3615 (full tag: 5.2.3615.main.251011-0412) is the official Interim Developer Release of KuroWiki Beta 5.2."
+  },
+  {
+    "title": "KuroWiki build 3680",
+    "url": "KuroWiki_build_3680",
+    "aliases": "",
+    "snippet": "KuroWiki build 3680 (full tag: 5.2.3680.main.251012-0101) is the official second Interim Developer Release (IDR) of KuroWiki Beta 5.2, and the final Beta 5 build known to exist."
+  },
+  {
+    "title": "KuroWiki build 3686",
+    "url": "KuroWiki_build_3686",
+    "aliases": "",
+    "snippet": "KuroWiki build 3686 (full tag: 6.0.3686.nekori64.251012-1717) is the second overall Beta 6 build of KuroWiki, compiled from the nekori64 branch on 12 October 2025 at 17:17 (5:17pm) UTC-6."
+  },
+  {
+    "title": "KuroWiki build 3689",
+    "url": "KuroWiki_build_3689",
+    "aliases": "",
+    "snippet": "KuroWiki build 3689 (full tag: 6.0.3689.kayaurora.251013-0239) is the first Beta 6 build of KuroWiki to be compiled from the kayaurora branch, on 13 October 2025 02:39 UTC+3 (17:39 UTC-6 the day prior)."
+  },
+  {
+    "title": "KuroWiki build 3705",
+    "url": "KuroWiki_build_3705",
+    "aliases": "",
+    "snippet": "KuroWiki build 3705 (full tag: 6.0.3705.nekori64.251012-1832) is a Beta 6 build of KuroWiki, compiled on 12 October 2025 18:32 (6:32pm) UTC-6."
+  },
+  {
+    "title": "KuroWiki build 3761",
+    "url": "KuroWiki_build_3761",
+    "aliases": "",
+    "snippet": "KuroWiki build 3761 (full tag: 6.0.3761.nekori64.251012-2001) is a Beta 6 build of KuroWiki, compiled on 12 October 2025 20:01 (8:01pm) UTC-6 from the nekori64 branch."
+  },
+  {
+    "title": "KuroWiki build 3762",
+    "url": "KuroWiki_build_3762",
+    "aliases": "",
+    "snippet": "KuroWiki build 3762 (full tag: 6.0.3762.nekori64.251012-2007) is a Beta 6 build of KuroWiki, compiled on 12 October 2025 20:07 (8:07pm) UTC-6."
   },
   {
     "title": "List of all KuroWiki builds",
@@ -166,6 +208,18 @@
     "url": "LexWiki%3ALoreside",
     "aliases": "",
     "snippet": "In LexWiki, Loreside (or LoreSide) is what we call to differentiate written fiction and real-world events."
+  },
+  {
+    "title": "Lynxmic Blog",
+    "url": "Lynxmic_Blog",
+    "aliases": "lynxblog",
+    "snippet": "Lynxmic Blog, sometimes known as LynxBlog or previously after its URL address (lynxmic.github.io, prior to LynxWebsite’s launch) was KayAurora’s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll."
+  },
+  {
+    "title": "LynxWebsite",
+    "url": "LynxWebsite",
+    "aliases": "lynxmic website",
+    "snippet": "LynxWebsite (also known as Lynxmic Website or after its URL name of lynxmic.github.io) was KayAurora’s personal website from August 2023 to July 2024, when it merged with the Lynxmic Blog project to form KayWebsite."
   },
   {
     "title": "MidoriMC",

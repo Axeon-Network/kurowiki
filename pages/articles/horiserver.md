@@ -20,6 +20,5 @@ The public server structure consists of:
 - The **Silly** category
    - Contains various meme, [NekoCulture](List_of_Nekori_memes_culture) or chain channels
 
-#### References
-
+# References
 [^1]: Actual server name is **HoriServer 🅰️ :3**.

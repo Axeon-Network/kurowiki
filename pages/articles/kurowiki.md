@@ -16,9 +16,9 @@ Before an agreement between Nekori and KayAurora (members of the Axeon Network),
 
 After the agreement, KuroWiki expanded its content to not only cover Nekori stuff, but to also cover Axeon Network as a whole.
 
-#### Notable KuroWiki builds
+# Notable KuroWiki builds
 
-##### KuroWiki build 3567
+## KuroWiki build 3567
 
 *Main article: [KuroWiki build 3567 (main_wik)](KuroWiki_build_3567_(main_wik))*
 

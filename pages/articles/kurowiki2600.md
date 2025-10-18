@@ -1,7 +1,8 @@
 ---
 layout: main
-title: KuroWiki build 2600
+title: KuroWiki build 2600 (main)
 permalink: KuroWiki_build_2600
+hatnote: Not to be confused with <a href='KuroWiki_build_2600_(nekori64)'>KuroWiki build 2600 (nekori64)</a>.
 ---
 
 **KuroWiki build 2600** is the first and official Beta 5 build of KuroWiki. It was publicly released on 28 September 2025 by the [Axeon Network](Axeon_Network).
@@ -10,12 +11,12 @@ permalink: KuroWiki_build_2600
 
 This build is also notable for being the first public build under the Axeon Network umbrella, as the last production build was branded HoriWiki (which is Beta 2.1 from June 2025).
 
-#### Bugs
+# Bugs
 
 - Search uses an older version of the search index (`search.json`), meaning that modern pages do not show up in the search results.
 - The SpringViewer version watermark is left enabled.
 
-#### Gallery
+# Gallery
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

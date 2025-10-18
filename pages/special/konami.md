@@ -11,7 +11,7 @@ some todos:
 
 - settings page
     - re-add oneko
-    - dark mode
+    - dark mode (DONE)
     - idk debug shit
 
 - add more axeon and kay stuff to `dykdat.json`

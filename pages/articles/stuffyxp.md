@@ -13,7 +13,7 @@ aliases:
 Windows Youtuber
 </div>
 
-#### History
+# History
 
 The channel was created by Nekori on 13 March 2020 as "Yoshi Land0842". As claimed by Nekori, the name originated from their Mario Kart DS online play username, it was also noted by Nekori that the name was originally *Yoshi Island0842*, but due to the input's 14 character limit, it stuck as **Yoshi Land0842**.
 
@@ -49,9 +49,9 @@ Other projects have also been made throughout 2024 under the StuffyXP umbrella, 
 - **StuffyXP Hangout**: a Discord Server primarily meant for fans of the StuffyXP channel and the wider Network to hangout in. Succeeded [Stuffy's Place](/Stuffys_Place) in early October 2024, shut down March 2025 with the StuffyXP Closure.
 - **StuffyXP Extras (& Co.)**: with the Whistler-themed rebrand of StuffyXP, other StuffyXP channels have received StuffyXP naming as well, with the exception of Stuffy 64. In November 2024, Stuffy+ had been renamed to StuffyXP Extras, and Stuffy Vlogs as StuffyXP Vlogs.
 
-#### YouTube Channels
+# YouTube Channels
 
-##### StuffyXP
+## StuffyXP
 
 *The channel history was already described within this article.*
 
@@ -72,7 +72,7 @@ The channel's subscriber count ended with **238** and **44 videos** (including l
 
 *Data fetched before the closure of the channel in 14 March 2025.*
 
-##### StuffyXP Extras
+## StuffyXP Extras
 
 **StuffyXP Extras** (formerly known as **StuffyXP Plus** and **Stuffy +** (`@StuffyPlus`)) was a YouTube channel owned and operated by Nekori created on 26 June 2021. Its primary focus was being a place for "random shitposts, behind-the-scenes footage", etc.
 
@@ -82,7 +82,7 @@ It was originally Nekori's vlogs channel (as seen in the brand account's name, *
 
 Addionally, Nekori has used the channel for backup purposes, mainly for when the StuffyXP channel was false-striked due to **Geometry Dash...on Windows Vista!?**.
 
-##### StuffyXP Vlogs
+## StuffyXP Vlogs
 
 **StuffyXP Vlogs** (formerly known as **Stuffy Vlogs**) was a YouTube channel owned and operated by Nekori created on 14 July 2021. Its suggested focus was being Nekori's vlog channel, but that never came to life due to "no interesting events happening in Nekori's life", while in reality was the lack of interest and equipment for creating vlog-style videos.
 
@@ -97,7 +97,7 @@ Honduran Lempira, Honduras' currency.
 
 The channel was originally known as **MisAnimacionesPencil2D** (english: MyAnimsPencil2D) which was going to be used as a place for Nekori to upload his animations made in Pencil2D, a freeware animation program. The channel was eventually converted to Stuffy Vlogs sometime around in mid 2023.
 
-##### Stuffy 64
+## Stuffy 64
 
 **Stuffy 64** (formerly known as **Stuff Life 64**) was a YouTube channel owned and operated by Nekori created in 4 August 2023. The channel's main focus was for uploaded gaming-related content from Nekori, and is the only one channel who retroactively co-existed with StuffyXP regarding video uploads.
 
@@ -113,11 +113,11 @@ The Mario & Luigi content featured videos like the debug room, the gauntlet and 
 
 Shortly after Nekori got their new PC ([Thei5Lappy](Thei5Lappy)), Geometry Dash videos were also uploaded, these include level showcases, bugs, and sometimes achievements (like completing Hexagon Force until 92%).
 
-##### StuffyXP VODS
+## StuffyXP VODS
 
 **StuffyXP VODS** was a YouTube channel owned and operated by Nekori created in 22 December 2024. Its main purpose was to archive streams from Nekori, but it never eventually uploaded anything, and the latter was deleted when the StuffyXP channels were moved to their respective separate emails.
 
-#### Closure
+# Closure
 
 On 16 March 2025, the StuffyXP YouTube channels were officially shut down, Nekori chose to use YouTube's "Hide your channel" feature, a technicality that allows for future reclamation, though no such decision has been made.
 
