@@ -2,9 +2,9 @@
 <h1>KuroWiki</h1>
 </div>
 <div align="center">
-<img alt="Beta 5" src="https://img.shields.io/badge/status-beta_5-red">
-<img alt="CC-BY-SA 4.0 License" src="https://img.shields.io/github/license/Axeon-Network/kurowiki">
-<a href="https://discord.gg/wDxDKJU2sj"><img alt="Join the Discord Server" src="https://img.shields.io/discord/392336925853483019">
+<img alt="Beta 6" src="https://img.shields.io/badge/status-beta_6-gray?labelColor=red">
+<img alt="CC-BY-SA 4.0 License" src="https://img.shields.io/github/license/Axeon-Network/kurowiki?labelColor=orange&color=gray">
+<a href="https://axeon-network.github.io/discord"><img alt="Join the Discord Server" src="https://img.shields.io/discord/392336925853483019?labelColor=green&color=gray">
 </div>
 
 **This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it the *Deltari* engine!)\
