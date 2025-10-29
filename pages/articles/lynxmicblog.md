@@ -6,6 +6,24 @@ aliases:
     - lynxblog
 hatnote:
 ---
+{% include infoboxes/site.html
+name="Lynxmic Blog"
+formername=''
+developer='<a href="KayAurora">KayAurora</a>'
+writtenin='HTML/CSS/JS, Ruby+Jekyll'
+type='Personal Blog'
+initialVersion='November 2021 Release'
+initialVersionReleaseDate='2021-11-21'
+currentVersion='April 2024 Release'
+currentVersionReleaseDate='2024-04-25'
+sourceModel='Open source'
+repoLink='https://github.com/thekayaurora/lynxblog'
+repoHost='GitHub'
+status='Source code archived; website unavailable'
+link='https://lynxmic.github.io/blog'
+image='resources/img/articles/lynxmicblog/02-06-2024.png'
+%}
+
 **Lynxmic Blog**, sometimes known as **LynxBlog** or previously after its URL address (**lynxmic.github.io**, prior to [LynxWebsite](LynxWebsite)'s launch) was [KayAurora](KayAurora)'s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll.
 
 It initially used the MDBootstrap CSS framework for its first iteration used since the launch in 21 November 2021.
@@ -15,7 +33,6 @@ The Lynxmic Blog was officially discontinued on 23 July 2024, with its spiritual
 
 Overall, the GitHub repo for the Lynxmic Blog saw over 500 commits up over time, the largest number compared to other repositories on KayAurora's personal account. This is attributed to KayAurora using GitHub's web interface for everything instead of using Git or GUI wrappers like GitHub Pages.
 
-<div class="container">
 <div class="wiki-gallery">
        {% include gallery_item.html 
         image_src="resources/img/articles/lynxmicblog/logo1.png" 
@@ -27,7 +44,6 @@ Overall, the GitHub repo for the Lynxmic Blog saw over 500 commits up over time,
         alt_text="Lynxmic Blog logo used from May to December 2023" 
         caption="Lynxmic Blog logo used from May to December 2023"
         style="width:50%;" %}
-</div>
 </div>
 
 # First iteration (2021-22)
@@ -48,7 +64,6 @@ A month later, in December 2021, a set of updates was rolled out, including a Sh
 
 The blog would continue to receive occasional updates in 2022 to adapt to changes to branding and what social media platforms are being linked to, but would remain mostly inactive new post-wise aside from Lynxmic project updates and related.
 
-<div class="container">
 <div class="wiki-gallery">
        {% include gallery_item.html 
         image_src="resources/img/articles/lynxmicblog/placeholdersite.png" 
@@ -86,7 +101,6 @@ The blog would continue to receive occasional updates in 2022 to adapt to change
         caption="Footer of the Lynxmic Blog on 23 November 2022. Pagination was removed, and Mastodon was added in place of Reddit"
         style="width:50%;" %}
 </div>
-</div>
 
 # Second iteration (2023-April 2024)
 In December 2022, KayAurora began to share over Mastodon/Fediverse sneak peeks of a new "Bulma revamp" of the Lynxmic Blog, a major design overhaul which aimed at giving it a fresh, better look. It was also officially revealed that Lynxmic Blog was also available over RSS, which was only starting to get relevant again (at least in Kay's POV) - the RSS feed was always there the whole time but was left unused and undocumented.
@@ -95,7 +109,6 @@ This design saw major changes later on in February, May and July 2023, and then 
 
 In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsite) took over the root of `lynxmic.github.io`.
 
-<div class="container">
 <div class="wiki-gallery">
        {% include gallery_item.html 
         image_src="resources/img/articles/lynxmicblog/09-01-2023.png" 
@@ -121,7 +134,6 @@ In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsit
         caption="The Lynxmic Blog on 19 April 2024"
         style="width:50%;" %}
 </div>
-</div>
 
 # Third iteration (April-July 2024)
 A complete overhaul of the Lynxmic Blog was made in April 2024 using the then-newly-released v1 of the Bulma CSS framework, bringing the blog's layout in consistency with LynxWebsite, which was also updated at the same time from a scroll layout to a tabbed layout.
@@ -130,12 +142,10 @@ Despite that the Lynxmic Blog and LynxWebsite continued to have separate codebas
 
 That said, this Lynxmic Blog iteration was rather short-lived as in July 2024, the blog was merged with the rest of the website as part of the [KayWebsite](KayWebsite) project. The Lynxmic Blog continued to be accessible for historical purposes under KayAurora's new website domain.
 
-<div class="container">
 <div class="wiki-gallery">
        {% include gallery_item.html 
         image_src="resources/img/articles/lynxmicblog/02-06-2024.png" 
         alt_text="The Lynxmic Blog on 2 June 2024" 
         caption="The Lynxmic Blog on 2 June 2024"
         style="width:50%;" %}
-</div>
 </div>

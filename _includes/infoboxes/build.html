@@ -1,0 +1,39 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.buildtag | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">Build of <a href="{{ include.familyurl }}">{{ include.family }}</a></div>
+            <img src="{{ include.image }}" alt="Screenshot of {{ include.family }} {{ include.version }} build {{ 
+
+include.build }}" class="infobox-img">
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Family</th>
+                <td><a href="{{ include.familyurl }}">{{ include.family }}</a></td>
+            </tr>
+            <tr>
+                <th>Version number</th>
+                <td>{{ include.version }}</td>
+            </tr>
+            <tr>
+                <th>Build number</th>
+                <td>{{ include.build }}</td>
+            </tr>
+            <tr>
+                <th>Build lab</th>
+                <td>{{ include.lab }}</td>
+            </tr>
+            <tr>
+                <th>Compiled on</th>
+                <td>{{ include.compiled }}</td>
+            </tr>
+            </tbody>
+    </table>
+</div>

@@ -14,10 +14,27 @@ aliases:
     - stuffy website
     - stuffywebsite
 ---
+{% include infoboxes/site.html
+name="Stuffy's Website"
+formername=''
+developer='<a href="Nekori64">Nekori</a>'
+writtenin='HTML/CSS/JS, Ruby+Jekyll'
+type='Personal Website'
+initialVersion='1.0 Public Beta'
+initialVersionReleaseDate='2024-06-22'
+currentVersion='1.1'
+currentVersionReleaseDate='2024-06-27'
+sourceModel='Open source'
+repoLink='https://github.com/nekori64/stuffyxp-website'
+repoHost='GitHub'
+status='Source code archived; website accessible'
+link='https://nekori64.github.io/stuffyxp-website/stuffywebsitewou'
+image='resources/img/articles/stuffyswebsite/home.png'
+%}
 
 **Stuffy's Website** (commongly abbreviated as **StuffyWebsite**, **Stuffy Website WOU**, or just **WOU**) was [Nekori](Nekori64)'s personal website from June 2024 to August 2024. It was succeded by the [StuffyXP Website](StuffyXP_Website) in September 2024.
 
-The website is currently available at [nekori64.github.io/stuffyxp-website/stuffywebsitewou](https://nekori64.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite]'s domain, and `stuffyxp.github.io`.
+The website is currently available at [nekori64.github.io/stuffyxp-website/stuffywebsitewou](https://nekori64.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite](HoriWebsite)'s domain, and `stuffyxp.github.io`.
 
 # Development
 
@@ -35,6 +52,13 @@ These issues consisted of the website's font being italic in Chromium-based brow
 
 The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/)
 
+<div>
+    {% include figure_item.html 
+        image_src="resources/img/articles/stuffyswebsite/homepublicbeta.png" 
+        alt_text="" 
+        caption="Stuffy's Website! Public Beta homepage"
+        style="width:50%; height:auto" %}
+        </div>
 
 ## Week One Update
 

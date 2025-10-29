@@ -22,5 +22,5 @@ NovaLand is a democratic semi-presidential republic. As of May 2025, the current
 {% include figure_item.html 
     image_src="resources/img/articles/novaland/flag.png" 
     alt_text="Flag of NovaLand" 
-    caption="The flag of NovaLand. Representing an <a href=\"A_Emoji\">A</a>."
+    caption="The flag of NovaLand. Representing an <a href='A_Emoji'>A</a>."
     style="width:15%;" %}

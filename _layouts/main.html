@@ -71,13 +71,26 @@
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
           <!-- search box -->
           <div class="mdl-textfield__holder">
-            <div class="container" style="padding: 5%; margin:-10px !important;">
+            <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
               <form action="results" method="get">
                 <div class="mdl-textfield mdl-js-textfield">
                   <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
                   <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
                 </div>
               </form> <!-- damn you stupid closing form tag!!!-->
+            </div>
+             <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+              <form action="results" method="get">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                  <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                    <i class="material-icons">search</i>
+                  </label>
+                  <div class="mdl-textfield__expandable-holder">
+                    <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
@@ -89,14 +102,12 @@
       <nav class="mdl-navigation" style="margin-top: -5% !important;">
 
         <a class="mdl-navigation__link" href="./">Home</a>
-
-        <!--<a class="mdl-navigation__link" href="Special%3ASitemap">Sitemap</a>-->
-
+        <!--<a class="mdl-navigation__link" id="random-article">Random Article</a>--> <!-- will be implemented after Beta 6 -->
         <a class="mdl-navigation__link" href="Contributing_to_KuroWiki">Contribute!</a>
-
         <a class="mdl-navigation__link" href="Settings">Settings</a>
 
-        <span style="padding-left:5.5%; color:white"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a><br><br>Axeon KuroWiki Beta 6<br>Interim Developer Release 3<br><span style="font-size: smaller; color:darkgray !important;">Version 6.0.3810.main.251017-1808<!--{{ site.version.full_tag }}--></span></span>
+        {% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" %}
+        <span style="padding-left:5.5%; color:white"><br>There are <b>{{ article_pages | size }}</b> articles on this wiki.<br><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a><br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">Version {{ site.version.full_tag }}</span></span>
       </nav>
     </div>
 
@@ -142,15 +153,15 @@
 
         <div id="viewer-caption"></div>
       
-          <!--<p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
+          <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
             &nbsp;SpringViewer Version 1.1&nbsp;
-          </p>-->
+          </p>
         </div>
 	<!-- there was a closing comment on that div what the hell -->
 
-        <!--<p id=watermark class="mdl-shadow--4dp">
+        <p id=watermark class="mdl-shadow--4dp">
           &nbsp;Debug {{ site.name }} {{ site.devphase }} Version {{ site.version.full_tag }}&nbsp;
-        </p>-->
+        </p>
       </main>
     </div>
   </body>

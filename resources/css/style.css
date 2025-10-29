@@ -372,6 +372,12 @@ code {
      margin-top: 5%;
      margin-bottom: 5%;
     }
+    #desktop-search {
+     display: none;
+}
+    #mobile-search {
+     display: block;
+}
 }
 
 @media (min-width: 1160px) {
@@ -381,11 +387,16 @@ code {
     table-layout: fixed;
     border-spacing: 20px;
 }
-
 .homepage-cards .demo-card-wide {
     display: table-cell;
     vertical-align: top;
     text-align: left;
+}
+#desktop-search {
+    display: block;
+}
+#mobile-search {
+    display: none;
 }
 }
 

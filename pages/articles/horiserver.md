@@ -2,7 +2,7 @@
 layout: main
 title: HoriServer
 permalink: HoriServer
-hatnote: This article is about the original HoriServer. For its spiritual successor, see <a href="HoriServer_(2)">HoriServer (2)</a>.<br><br>dude ACTUALLY MAKE HORISERVER 2'S ARTICLE ITS BEEN A MONTH- -nekori to nekori
+hatnote: This article is about the original HoriServer. For its spiritual successor, see <a href="HoriServer_(2)">HoriServer (2)</a>.
 ---
 **HoriServer**[^1] is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). It was created on 3 February 2025 as a result of and was primarily active during [Nekori](Nekori)'s prolonged Discord break throughout February 2025.
 

@@ -26,7 +26,7 @@ This section contains a list of Horicraft (2) trivia
 - So far, Cairo Company HQ has been built, DHI HQ is yet to be build on the world.
 - In the [NovaLand](NovaLand) lore, the world where Horicraft (2) takes place is the [Starlight](Fucking,_NovaLand#Starlight) district of [Fucking](Fucking,_NovaLand).
 
-Horicraft (2) is planned to close on May 18 or May 24 2025 to merge with the original [Horicraft](Horicraft) to a new Minecraft server operated by Nekori. This decision was made in order to revive both Horicraft projects after Nekori's demotivation on keeping both alive.
+Horicraft (2) closed on 18 May 2025 to merge with the original [Horicraft](Horicraft) and AxeonMC, forming the [MidoriMC](MidoriMC) Minecraft server which would reuse the world of the original Horicraft. This decision was made in order to revive both Horicraft projects after Nekori's demotivation on keeping both alive.
 
 # Gallery
 

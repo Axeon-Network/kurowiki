@@ -1,0 +1,53 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+            <img src="{{ include.image }}" alt="Screenshot of the {{ include.name }} Homepage" class="infobox-img">
+         <div class="infobox-img-caption">{{ include.name}} homepage</div>
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Formerly known as</th>
+                <td>{{ include.formername }}</td>
+            </tr>
+            <tr>
+                <th>Developer</th>
+                <td>{{ include.developer }}</td>
+            </tr>
+            <tr>
+                <th>Written in</th>
+                <td>{{ include.writtenin }}</td>
+            </tr>
+            <tr>
+                <th>Type</th>
+                <td>{{ include.type | default: "Website" }}</td>
+            </tr>
+            <tr>
+                <th>Initial release</th>
+                <td>{{ include.initialVersion }} / {{ include.initialVersionReleaseDate }}</td>
+            </tr>
+            <tr>
+                <th>Current release</th>
+                <td>{{ include.currentVersion }} / {{ include.currentVersionReleaseDate }}</td>
+            </tr>
+            <tr>
+                <th>Repository</th>
+                <td><a href="{{ include.repoLink }}">Source code on {{ include.repoHost }}</a></td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>{{ include.status }}</td>
+            </tr>
+            <tr>
+                <th>Link</th>
+                <td><a href="{{ include.link }}">{{ include.link }}</a></td>
+            </tr>
+            </tbody>
+    </table>
+</div>

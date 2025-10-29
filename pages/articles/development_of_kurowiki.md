@@ -219,3 +219,25 @@ In early October 2025, work has shifted to Beta 5.2, introducing even more new a
 </div>
 
 As of 12 October 2025, work has shifted to Beta 6, with the version number bumped to 6.0. The first build was erroneously compiled as "[Build 2600](KuroWiki_build_2600_(Beta_6))" due to a bug within the build generation system found on KuroWiki (codenamed TagGen).
+
+On 17 October 2025, [Interim Developer Release 3](KuroWiki_build_3810) (Build 3810) released publicly, notably adding a Dark Mode and settings page. Development started on the infobox item with [Build 3889](KuroWiki_build_3889), reaching a near-complete form with [Build 3933](KuroWiki_build_3933) compiled on 28 October 2025.
+
+<div class="wiki-gallery">
+       {% include gallery_item.html 
+         image_src="resources/img/articles/horiwiki/b6.0.3810.png" 
+         alt_text="" 
+         caption="Homepage of beta 6.0, build 3810, the Interim Developer Release 3"
+         style="width:50%;" %}
+
+       {% include gallery_item.html 
+         image_src="resources/img/articles/kurowiki3842/homedark.png" 
+         alt_text="" 
+         caption="Homepage of beta 6.0, build 3842"
+         style="width:50%;" %}
+
+       {% include gallery_item.html 
+         image_src="resources/img/articles/kurowiki3842/homelight.png" 
+         alt_text="" 
+         caption="Homepage of beta 6.0, build 3842, with Light Mode"
+         style="width:50%;" %}
+</div>
