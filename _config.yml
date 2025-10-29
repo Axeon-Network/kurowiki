@@ -1,8 +1,6 @@
+# BASIC INFORMATION
 # project name
 name: Axeon KuroWiki
-
-# developer phase
-devphase: Beta 6
 
 # project and site title
 title: KuroWiki
@@ -30,6 +28,19 @@ license: Creative Commons Attribution-ShareAlike 4.0
 # license url
 licenseurl: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
+# HOMEPAGE
+# quick description of your wiki and what is it about, visible on the homepage
+home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Nekori and KayAurora)."
+
+# featured article. specify the file name of the article
+featuredarticle: astront
+
+# DEVELOPER/DEBUG
+# developer phase
+devphase: Beta 6
+
+# more variables to be set in the future!
+
 # liquid you son of a bitch
 encoding: "utf-8"
 
@@ -42,7 +53,6 @@ plugins:
 kramdown:
   input: GFM
   hard_wrap: true
-
 
 exclude:
   - resources/ruby/version # just so it doesnt get caught in a loop

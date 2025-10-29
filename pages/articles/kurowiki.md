@@ -7,6 +7,24 @@ redirect_from:
   - HoriWiki
 hatnote: This article is about the wiki itself. For the development of KuroWiki, see <a href='Development_of_KuroWiki'>Development of KuroWiki</a>. For the list of all known KuroWiki builds, see <a href='List_of_all_KuroWiki_builds'>List of all KuroWiki builds</a>
 ---
+---
+{% include infoboxes/site.html
+name='KuroWiki'
+formername='HoriWiki (May-June 2025)<br>LexWiki (July 2025)'
+developer='<a href="Nekori64">Nekori</a> and the KuroWiki Contributors (before September 2025)<br><a href="Axeon_Network">Axeon Network</a> (since September 2025)'
+writtenin='HTML/CSS/JS, Ruby+Jekyll'
+type='Online Encyclopedia'
+initialVersion='<a href="KuroWiki_build_3567_(main_wik)">2.4.3567.main_wik.250504-1045</a>'
+initialVersionReleaseDate='2025-05-04'
+currentVersion='<a href="KuroWiki_build_3810">6.0.3810.main.251017-1808</a>'
+currentVersionReleaseDate='2025-10-17'
+sourceModel='Open source'
+repoLink='https://github.com/Axeon-Network/kurowiki'
+repoHost='GitHub'
+status='Available'
+link='https://axeon-network.github.io/kurowiki'
+image='resources/img/articles/kurowiki3810/home.png'
+%}
 
 **KuroWiki** is an open-source online encyclopedia launched by the [Axeon Network](Axeon_Network) on **XXXX XX, 2025**.[ᵃ]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [Nekori](Nekori), with other tweaks and adjustments having been done by [KayAurora](KayAurora).
 

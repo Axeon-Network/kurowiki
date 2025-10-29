@@ -20,7 +20,7 @@ some todos:
     - ditto, but kayaurora's folder
         - make a `Gallery:Horicraft` and put all pages there; separate the nekori and kayaurora ones
 
-- update horicraft 2 closure text
+- update horicraft 2 closure text (DONE `kayaurora`)
 
 - update stuffyxp beggining article
 

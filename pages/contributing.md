@@ -101,9 +101,11 @@ caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
 
 ...which would end up being this!
 
+<div>
 {% include figure_item.html 
     image_src="resources/img/articles/contributing/gallery.png" 
     style="width:50%;" %}
+    </div>
 
 You can change these variables to your liking!
 
@@ -114,6 +116,34 @@ To import the single-item frame, you'd need to use this:
 image_src="resources/img/articles/helloworld/untitled.png"<br>
 caption="Lorem ipsum dolor sit amet..." &percnt;}<br>
 </code>
+
+### Infoboxes
+The infobox item is usually located on the right side of the page, and includes a quick summary of what's presented in a specific article, similarily to other wikis.
+
+Currently upstream Deltari/KuroWiki supports the `build` type of infobox, which is usually used on versions of projects that use a versioning scheme similar to KuroWiki's. An example is shown here:
+
+<code>
+{&percnt; include infoboxes/build.html<br>
+family='KuroWiki'<br>
+familyurl='KuroWiki'<br>
+buildtag='6.0.3933.nekori64.251027-1830'<br>
+version='6.0'<br>
+build='3933'<br>
+lab='nekori64'<br>
+compiled='2025-10-27 18:30 UTC-6'<br>
+image='resources/img/articles/horiwiki/article.png'<br>
+&percnt;}
+</code>
+
+The end result of the above example is this:
+
+<div>
+{% include figure_item.html 
+    image_src="resources/img/articles/contributing/infobox.png" 
+    style="width:30%;" %}
+  </div>
+
+Just like with the gallery, you can change these variables to your liking! Just make sure the infobox item is located just after the frontmatter but before the actual page content!
 
 ### Hatnotes
 

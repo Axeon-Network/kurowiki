@@ -29,15 +29,17 @@ The computer's hardware is the following:
 
 Around 29 May 2025, the computer's charger's state had become increasingly worse compared to when Nekori first got it, so bad that at that point **it would only charge in a certain position**.<br>The charger's state has further worsened from here on to the point where a day later, it would simply **no longer charge** anymore, leaving Nekori with no choice but to use Windows in a minimal manner:
 
+<div>
 {% include figure_item.html 
     image_src="resources/img/articles/thei5lappy/chargerissuesgoneevenworse.png" 
     alt_text="A Discord screenshot of a message by Nekori's old Discord account where they show the state of the computer in that time" 
     caption="A Discord screenshot of a message by Nekori's old Discord account where they show the state of the computer in that time"
     style="width:50%;" %}
+    </div>
 
 
 On 31 May 2025, Nekori's dad arrived at Nekori's house at 5pm CST to try to fix the charger via soldering and duck tape, the charger worked since Nekori's dad fixed the charger at a working position.
-
+</div>
 Due to the nature of the fix, the charger wasn't 100% perfect. It continued to malfunction every now and then, with Nekori starting to make fun about this problem via the **Dad Fixes Incorporated** joke. After 2 July 2025, the issues started to relapse, and on 8 July 2025, Nekori's dad came to Nekori's house again to repair the charger once more.
 
 Interestingly enough, Nekori tried their sister's charger prior to the second fix, which has been tested to work since both computers are similar, with model numbers apart (*Latitude E6420* and *Latitude 3380* respectively). Nonetheless, Nekori kept using their original laptop charger to avoid getting into any problems. On 10 July 2025, the original charger sparked, burning Nekori's hand.
