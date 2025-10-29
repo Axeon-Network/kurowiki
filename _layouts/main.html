@@ -22,7 +22,7 @@
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
     
     <!-- do i need to explain this??? -->
-    <title>{{ page.title | default: "Main Page" }} ~ {{ site.title }}</title>
+    <title>{{ page.title | default: "Untitled" }} ~ {{ site.title }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -60,7 +60,7 @@
   <body>
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row" style="z-index:999;">
+      <div class="mdl-layout__header-row">
         <div class="container is-hidden-mobile">
           <!-- its finally a link it has been bothering me alot recently idk why -->
           <a href="./" style="color:white;" title="i'm now a link!"><span id="title" class="mdl-layout-title">{{ site.title }}</span></a>
@@ -96,15 +96,16 @@
 
         <a class="mdl-navigation__link" href="Settings">Settings</a>
 
-        <span style="padding-left:5.5%; color:white"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a><br><br>Axeon KuroWiki Beta 6<br>Interim Developer Release 3<br><span style="font-size: smaller; color:darkgray !important;">Version 6.0.3810.main.251017-1808<!--{{ site.version.full_tag }}--></span></span>
+        <span style="padding-left:5.5%; color:var(--text-color)"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a>,<br>unless otherwise specified.<br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">Version {{ site.version.full_tag }}</span></span>
       </nav>
     </div>
 
     <!-- and God said, let there be content, and there was content -->
     <main class="mdl-layout__content">
-      <div class="box mdl-shadow--8dp" style="background-color: var(--contentbox-background-color); backdrop-filter: blur(15px); width:96%; justify-content: center; display: block; margin: 0 auto; padding: 8px;">
+      <div class="box mdl-shadow--8dp" id="mainbox">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
-              <div class="hatnote">
+              <div class="hatnote" markdown="1">
+		
               {{ page.hatnote }}
           </div>
     
@@ -115,7 +116,9 @@
           <noscript>
             <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
           </noscript>
-                {{content}}
+		<div id="pagecontent">
+	                {{content}}
+		</div>
           </div>
         </div>
         <p>
@@ -124,17 +127,24 @@
 
         <!-- and so God said, let there be a proper viewer, and there was a proper viewer -->
         <div id="springviewer" class="viewer-hidde">
-
+          
+        <span class="viewer-counter"></span>
         <!-- the typo is intentional this stupid thing broke -->
         <span class="close-btn" title="Close (Escape)">
           <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+          <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)">
+          <i class="material-icons">file_download</i>
         </span>
 	<!-- why do these yeet you to search? i have no idea either -->
         <div class="viewer-content">
           <button class="nav-btn prev-btn" title="Previous (Left)">
             <i class="material-icons">chevron_left</i>
           </button>
-          <img id="viewer-media" src="" alt="Full-size image">
+          <div id="viewer-media-container"></div>
           <button class="nav-btn next-btn" title="Next (Right)">
             <i class="material-icons">chevron_right</i>
           </button>
@@ -142,15 +152,15 @@
 
         <div id="viewer-caption"></div>
       
-          <!--<p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
-            &nbsp;SpringViewer Version 1.1&nbsp;
-          </p>-->
+          <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
+            &nbsp;SpringViewer Version 2.0&nbsp;
+          </p>
         </div>
 	<!-- there was a closing comment on that div what the hell -->
 
-        <!--<p id=watermark class="mdl-shadow--4dp">
+        <p id=watermark class="mdl-shadow--4dp">
           &nbsp;Debug {{ site.name }} {{ site.devphase }} Version {{ site.version.full_tag }}&nbsp;
-        </p>-->
+        </p>
       </main>
     </div>
   </body>

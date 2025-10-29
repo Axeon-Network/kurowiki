@@ -1,8 +1,8 @@
 ---
 layout: main
-permalink: LexWiki%3ALoreside
 title: Loreside
 hatnote: Some temporary string here...
+search_exclude: true
 ---
 
 <!-- there is probably going to be html code why did i do an md -->

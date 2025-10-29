@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Define all potential container IDs
     const containerIds = ['facts-container', 'facts-container-m'];
     const allFactContainers = [];
 
-    // Get references to all existing container elements
     containerIds.forEach(id => {
         const container = document.getElementById(id);
         if (container) {
@@ -17,14 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
         return; // Exit script if no target elements are found
     }
 
-    // IMPORTANT: Double-check this path. If dykdat.json is in your site's root,
-    // and this JS file is in /assets/js/, then '../dykdat.json' is correct.
-    // If dykdat.json is in /assets/, then the path would be '../dykdat.json' (if script is in assets/js/)
-    // If dykdat.json is in /assets/data/, then the path would be '../../assets/data/dykdat.json' etc.
-    // Consider using an absolute path if possible, e.g., '/dykdat.json' if it's at the root of your _site.
     const factsURL = 'resources/json/dykdat.json';
     let allFacts = [];
-    const numberOfFactsToDisplay = 6; // Set how many facts you want to display per container
+    const numberOfFactsToDisplay = 10;
 
     // Fisher-Yates (Knuth) Shuffle algorithm
     function shuffleArray(array) {

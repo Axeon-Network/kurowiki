@@ -30,21 +30,20 @@ license: Creative Commons Attribution-ShareAlike 4.0
 # license url
 licenseurl: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
-# more variables to be set in the future!
+# liquid you son of a bitch
+encoding: "utf-8"
 
-# Build settings
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 # theme: minima
 plugins:
   - jekyll-redirect-from
-  - jekyll-feed
 
-# Include from processing.
 kramdown:
   input: GFM
   hard_wrap: true
 
 
-# Exclude from processing.
 exclude:
-  - resources/ruby/version
-  - resources/ruby/buildtag
+  - resources/ruby/version # just so it doesnt get caught in a loop
+  - resources/ruby/buildtag # ditto
