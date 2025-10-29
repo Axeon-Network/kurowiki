@@ -30,10 +30,10 @@ licenseurl: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
 # HOMEPAGE
 # quick description of your wiki and what is it about, visible on the homepage
-home_desc: "This is the home page for KuroWiki. An encyclopedia for the Axeon Networ- what am i even saying WELCOME TO BETA SIX WOOOOOO"
+home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Nekori and KayAurora)."
 
 # featured article. specify the file name of the article
-featuredarticle: dhi
+featuredarticle: astront
 
 # DEVELOPER/DEBUG
 # developer phase
@@ -41,18 +41,19 @@ devphase: Beta 6
 
 # more variables to be set in the future!
 
-# Build settings
+# liquid you son of a bitch
+encoding: "utf-8"
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 # theme: minima
 plugins:
   - jekyll-redirect-from
-  - jekyll-feed
 
-# Include from processing.
 kramdown:
   input: GFM
   hard_wrap: true
 
-# Exclude from processing.
 exclude:
-  - resources/ruby/version
-  - resources/ruby/buildtag
+  - resources/ruby/version # just so it doesnt get caught in a loop
+  - resources/ruby/buildtag # ditto

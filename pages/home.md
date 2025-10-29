@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Welcome to KuroWiki!
+title: Home
 permalink: ./ # i interrupted my housepets reading time just for this
               # i'm at the november 17 2008 issue
 search_exclude: true
@@ -50,14 +50,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <style>
-    hr {
+    hr, #pagetitle {
         display: none !important;
     }
 </style>
 
+<h1 style="color:var(--kurowiki-accent)">Welcome to KuroWiki</h1>
+
 <!-- actual homepage description -->
 <!-- <p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p> -->
-<p class="homepage-description">{{ site.home_desc }}</p>
+<p class="homepage-description">{{ site.home_desc }}<br>You can use the drawer or the search bar to browse the contents of this wiki!</p>
 
 <!-- cards to make the homepage complete™ -->
 {% include homepage_cards.html %}

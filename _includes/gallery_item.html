@@ -1,8 +1,18 @@
-<figure class="gallery-item" onclick="openViewer(this)">
+<figure class="gallery-item">
     <div class="thumb-frame">
-        <img src="{{ include.image_src }}" alt="{{ include.caption }}" loading="lazy">
+        {% if include.audio_src %} 
+        <audio controls src="{{ include.audio_src }}" title="{{ include.caption }}" loading="lazy"></audio>
+        {% endif %}
+        
+        {% if include.video_src %} 
+        <video controls src="{{ include.video_src }}" title="{{ include.caption }}" loading="lazy"></video>
+        {% endif %}
+        
+        {% if include.image_src %} 
+        <img src="{{ include.image_src }}" alt="{{ include.caption }}" loading="lazy">
+	    {% endif %}
     </div>
-    <figcaption class="gallery-caption">
-        {{ include.caption }}
-    </figcaption>
+    <figcaption class="gallery-caption">
+        {{ include.caption }}
+    </figcaption>
 </figure>

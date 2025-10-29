@@ -33,11 +33,11 @@ module Jekyll
         if File.exist?(build_number_file_path)
           current_incremental_number = File.read(build_number_file_path).to_i
         else
-          current_incremental_number = 3765
+          current_incremental_number = 3819
         end
       rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to read /resources/ruby/version: #{e.message}. Starting from 3766."
-        current_incremental_number = 3765
+        Jekyll.logger.error "TagGen Error:", "Failed to read /resources/ruby/version: #{e.message}. Starting from 3820."
+        current_incremental_number = 3819
       end
 
       current_incremental_number += 1
@@ -46,7 +46,7 @@ module Jekyll
         File.write(build_number_file_path, current_incremental_number.to_s)
         Jekyll.logger.info "TagGen:", "Incremental build number persisted to disk: #{current_incremental_number}"
       rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to write version.txt: #{e.message}. Build number not persisted."
+        Jekyll.logger.error "TagGen Error:", "Failed to write /resources/ruby/version: #{e.message}. Build number not persisted."
       end
 
       timestamp = Time.now.strftime("%y%m%d-%H%M")
@@ -57,7 +57,7 @@ module Jekyll
         File.write(build_tag_file_path, full_build_tag)
         Jekyll.logger.info "TagGen:", "Full build tag persisted to disk: #{full_build_tag}"
       rescue => e
-        Jekyll.logger.error "TagGen:", "Failed to write build_tag.txt: #{e.message}. Build tag not persisted."
+        Jekyll.logger.error "TagGen:", "Failed to write /resources/ruby/buildtag: #{e.message}. Build tag not persisted."
       end
 
       site.config['version'] = {

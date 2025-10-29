@@ -44,9 +44,9 @@ some todos:
 
 - ditto, but novasite
 
-- list "stuffy's website public beta" in stuffywebsitewou article
+- ~~list "stuffy's website public beta" in stuffywebsitewou article~~ done
 
-- ~~waf waf :3~~ ok not.
+- ~~waf waf :3~~ ok no lmao
 
 - categories.
 
@@ -98,4 +98,4 @@ then happy ending
  -->
 
 
-**{{ site.name }} {{ site.devphase }}**<br>For testing purposes only. Version {{ site.version.full_tag }}
+**{{ site.name }} {{ site.devphase }}** (Checked)<br>For testing purposes only. Version {{ site.version.full_tag }}<br>Serving C:\Users\Nekori\Projects\KuroWiki at port 4000.
