@@ -1,0 +1,37 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.title | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption"><a href="{{ include.channelurl }}">{{ include.channel }}</a> video</div>
+        	<img src="{{ include.image }}" alt="{{ include.title }} Thumbnail" class="infobox-img">
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Channel</th>
+                <td><a href="{{ include.channelurl }}">{{ include.channel }}</a></td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>{{ include.platform }}</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>{{ include.views }}</td>
+            </tr>
+            <tr>
+                <th>Released on</th>
+                <td>{{ include.reldate }}</td>
+            </tr>
+            <tr>
+                <th>Link</th>
+                <td>{{ include.link }}</td>
+            </tr>
+            </tbody>
+    </table>
+</div>

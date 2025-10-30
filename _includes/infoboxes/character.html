@@ -1,0 +1,54 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">Fictional character</div>
+        	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Created by</th>
+                <td><a href="{{ include.creatorurl }}">{{ include.creator }}</a></td>
+            </tr>
+            <tr>
+                <th>Designed by</th>
+                <td>{{ include.designer }}</td>
+            </tr>
+            <tr>
+                <th>Introduced</th>
+                <td>{{ include.introduced }}</td>
+            </tr>
+          </tbody>
+</table>
+ <table class="infobox-data-table">
+	<div style="background-color:var(--navhoverlink)!important;color:var(--text-color);text-align:center;padding:0px;"><b>In-universe information</b></div>
+	<tbody>
+       	<tr>
+                <th>Born</th>
+                <td>{{ include.name }}<br>{{ include.bod }}</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>{{ include.nationality }}</td>
+            </tr>
+	    <tr>
+                <th>Residence</th>
+                <td>{{ include.residence }}</td>
+            </tr>
+	<tr>
+                <th>Gender</th>
+                <td>{{ include.gender }}</td>
+            </tr>
+        	<tr>
+                <th>Species/Breed</th>
+                <td>{{ include.species }}</td>
+            </tr>                
+            </tbody>
+    </table>
+</div>

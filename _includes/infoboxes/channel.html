@@ -1,0 +1,71 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.pfp %}
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">{{ include.platform }} channel</div>
+        	<img src="{{ include.pfp }}" alt="{{ include.name }} Profile Picture" style="width:50%;" class="infobox-img"><br><div class="infobox-img-caption">{{ include.name }} Profile Picture</div><br>
+            <img src="{{ include.banner }}" alt="{{ include.name }} Banner" style="width:75%;" class="infobox-img"><br><div class="infobox-img-caption">{{ include.name }} Banner</div>
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            {% if include.formerly %}
+            <tr>
+                <th>Formerly known as</th>
+                <td>{{ include.formerly }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Created by</th>
+                <td><a href="{{ include.creatorurl }}">{{ include.creator }}</a></td>
+            </tr>
+            <tr>
+                <th>Videos</th>
+                <td>{{ include.videos }}</td>
+            </tr>
+            <tr>
+                <th>Subscribers</th>
+                <td>{{ include.subs }}</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>{{ include.views }}</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>{{ include.platform }}</td>
+            </tr>
+            <tr>
+                <th>Created on</th>
+                <td>{{ include.creationdate }}</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>{{ include.state }}</td>
+            </tr>
+            
+            {% if include.link %}
+            <tr>
+                <th>Link</th>
+                <td>{{ include.link }}</td>
+            </tr>
+            {% endif %}
+            {% if include.linkname %}
+            <tr>
+                <th>Link</th>
+                <td><a href='{{ include.linkurl }}'>{{ include.linkname }}</a></td>
+            </tr>
+            {% endif %}
+		{% if include.deletiondate %} 
+		<tr>
+                <th>Deleted on</th>
+                <td>{{ include.deletiondate }}</td>
+            </tr>
+	{% endif %}
+            </tbody>
+    </table>
+</div>
