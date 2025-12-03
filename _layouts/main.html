@@ -52,9 +52,50 @@
       loadTheme();
       });
      </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = '/resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     {% if site.background-dark %}
+     <style>
+      html {
+        --background-image-dark: url('../../resources/img/{{ site.background-dark }}');
+      }
+     </style>
+     {% endif %}
+    {% if site.background-light %}
+     <style>
+      html {
+        --background-image-light: url('../../resources/img/{{ site.background-light }}');
+      }
+     </style>
+     {% endif %}
   </head>
   <!-- springviewer src -->
   <script src="./resources/js/springviewer.js"></script>
+
+  <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
 
   <!-- and so, it begins -->
   <body>
@@ -102,12 +143,12 @@
       <nav class="mdl-navigation" style="margin-top: -5% !important;">
 
         <a class="mdl-navigation__link" href="./">Home</a>
-        <!--<a class="mdl-navigation__link" id="random-article">Random Article</a>--> <!-- will be implemented in a later build -->
+        <a class="mdl-navigation__link" href="#" id="random-article">Random Article</a>
         <a class="mdl-navigation__link" href="Contributing_to_KuroWiki">Contribute!</a>
         <a class="mdl-navigation__link" href="Settings">Settings</a>
+        <a class="mdl-navigation__link" href="./Special:Sitemap">Sitemap</a>
 
-        {% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" %}
-        <span style="padding-left:5.5%; color:var(--text-color)"><br>There are <b>{{ article_pages | size }}</b> articles on this wiki.<br><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a>,<br>unless otherwise specified.<br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">Version 6.0.4100.main.251030-0038<!--{{ site.version.full_tag }}--></span></span>
+        <span style="padding-left:5.5%; color:var(--text-color)"><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a>,<br>unless otherwise specified.<br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">{{ site.version.full_tag }}</span></span>
       </nav>
     </div>
 
@@ -116,7 +157,6 @@
       <div class="box mdl-shadow--8dp" id="mainbox">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
               <div class="hatnote" markdown="1">
-		
               {{ page.hatnote }}
           </div>
     
@@ -163,17 +203,18 @@
 
         <div id="viewer-caption"></div>
       
-          <!--<p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
+          <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
             &nbsp;SpringViewer Version 2.0&nbsp;
-          </p>-->
+          </p>
         </div>
 	<!-- there was a closing comment on that div what the hell -->
 
-        <!--<p id=watermark class="mdl-shadow--4dp">
+        <p id=watermark class="mdl-shadow--4dp">
           &nbsp;Debug {{ site.name }} {{ site.devphase }} Version {{ site.version.full_tag }}&nbsp;
-        </p>-->
+        </p>
       </main>
     </div>
+    
   </body>
 </html>
 

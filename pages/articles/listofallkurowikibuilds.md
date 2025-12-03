@@ -182,3 +182,32 @@ This article is a list of all known KuroWiki builds.
 [6.0.4074.nekori64.251029-1452](KuroWiki_build_4074)
 6.0.4079.kayaurora.251029-2335
 6.0.4080.kayaurora.251030-0010
+
+**Public release**
+[6.0.4100.main.251030-0038](KuroWiki_build_4100)
+
+## Public Release Escrow
+6.0.4104.kayaurora.251030-1717
+6.0.4107.kayaurora.251031-0134
+6.0.4116.nekori64.251101-1501
+6.0.4121.nekori64.251109-1157
+6.0.4141.nekori64.251109-1541
+6.0.4155.kayaurora.251101-2342
+6.0.4156.kayaurora.251101-2343
+6.0.4161.kayaurora.251102-0101
+[6.0.4177.kayaurora.251109-0134](KuroWiki_build_4177)
+6.0.4186.kayaurora.251110-0134
+6.0.4188.kayaurora.251112-2241
+6.0.4195.nekori64.251113-1306
+6.0.4201.kayaurora.251119-2317
+[6.0.4209.b6chk.nekori64.251115-0957](KuroWiki_build_4209)
+[6.0.4219.kayaurora.251125-1613](KuroWiki_build_4219)
+[6.0.4232.kayaurora.251128-2335](KuroWiki_build_4232)
+6.0.4234.b6chk.private/springviewer(neko64).251128-1450
+6.0.4240.kayaurora.251129-0026
+6.0.4243.kayaurora.251129-2206
+6.0.4249.kayaurora.251201-1955
+6.0.4263.b6chk.private/springviewer(neko64).251130-2011
+6.0.4268.b6fre.private/springviewer(neko64).251201-1551
+6.0.4290.b6fre.private/springviewer(neko64).251202-1947
+6.0.4400.kayaurora.251203-1720

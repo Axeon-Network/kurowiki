@@ -12,7 +12,7 @@ aliases:
 - aboard
 ---
 
-The **A Board** (also known as the **🅰️ Board**) is a message board channel present in the [NekoCafe](NekoCafe), [Axeon Network](Axeon_Netwokr#discord-server) and [HoriServer (2)](HoriServer_(2)) Discord servers, and the [NovaServer](NovaServer) Stoat server. Similar to a starboard, its main functionality is sending messages reacted with an [🅰️ emoji](A_Emoji) to said channel.
+The **A Board** (also known as the **🅰️ Board**) is a message board channel present in the [Nishi's Den](Nishi's_Den), [Axeon Network](Axeon_Network#Discord_Server) and [HoriServer (2)](HoriServer_(2)) Discord servers, and the [NovaServer](NovaServer) Stoat server. Similar to a starboard, its main functionality is sending messages reacted with an [🅰️ emoji](A_Emoji) to said channel.
 
 #### History
 

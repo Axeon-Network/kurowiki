@@ -16,8 +16,7 @@ The country was founded in early 1972 by an unknown individual and received an e
 
 Citizens of NovaLand are called the NovaLandese. A populous country, NovaLand serves as the main industrial hub for companies such as [Dogui Heavy Industries Incorporated](Dogui_Heavy_Industries_Incorporated).
 
-NovaLand is a democratic semi-presidential republic. As of May 2025, the current head of state (*president of the Republic of NovaLand*) is [Nekori](Nekori).
-
+NovaLand is a democratic semi-presidential republic. As of May 2025, the current head of state (*president of the Republic of NovaLand*) is [Nekori](Nekori64).
 
 {% include figure_item.html 
     image_src="resources/img/articles/novaland/flag.png" 

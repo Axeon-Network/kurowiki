@@ -2,13 +2,12 @@
 layout: main
 title: Nekori Moments
 permalink: Nekori_Moments
-hatnote: "TODO: im not gonna be bothered with this one<br>Not to be confused with <a href='Nekori_Power'>Nekori Power</a>."
 redirect_from:
     - Horibyte_Moments
     - Stuffy_Moments
 ---
 
-**Nekori Moments** (*formerly known as **Horibyte Moments** and **Stuffy Moments***) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.
+**Nekori Moments** (formerly known as **Horibyte Moments** and **Stuffy Moments**) are moments when Nekori breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.
 
 The original term of "average stuffy moment" was first used by a member of the [Stuffy's Place](Stuffys_Place) Discord server, which started the idea of the Nekori moment back in January 2024.
 
@@ -41,7 +40,7 @@ Nekori moments can vary from a range of 'moment levels', with that being the fol
     {% include gallery_item.html 
         image_src="resources/img/articles/horibyte_moments/winrearrowbug.jpg" 
         alt_text="A context menu on the Windows 11 Recovery Environment where the arrows for the context menu sub-menus are Unicode boxes." 
-        caption="A content menu on <a href=\"https://betawiki.net/wiki/Windows_Recovery_Environment\">WinRE</a> where the arrows on the menu are Unicode boxes." %}
+        caption="A content menu on <a href='https://betawiki.net/wiki/Windows_Recovery_Environment'>WinRE</a> where the arrows on the menu are Unicode boxes." %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horibyte_moments/helpicantgetoutahhmoment.jpg" 

@@ -3,7 +3,7 @@ layout: main
 title: Dogui Heavy Industries Incorporated
 permalink: Dogui_Heavy_Industries_Incorporated
 redirect_from:
-  - DHI_Inc.
+  - DHI_Inc
   - DHI
   - Dogui_Heavy_Industries
   - Dogui_Heavy_Industries_Inc

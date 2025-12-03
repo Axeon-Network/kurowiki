@@ -18,7 +18,7 @@ html {
     --gallery-border-dark: rgba(30,30,30,1);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --text-color-white: white;
-    --background-image-dark: url('../../resources/img/bg-dark.jpg'); 
+    --background-image-dark: url('../../resources/img/defaults/bg-dark.jpg'); 
     --scrollbar-color-dark: rgb(54,55,58) rgb(9,12,19);
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
@@ -33,7 +33,7 @@ html {
     --hatnote-color-light: rgba(255,255,255,0.75);
     --mdlcard-background-color-light: white;
     --text-color-black: black;   
-    --background-image-light: url('../../resources/img/bg-light.jpg'); 
+    --background-image-light: url('../../resources/img/defaults/bg-light.jpg'); 
     --scrollbar-color-light: rgb(177,126,73) rgb(212,210,210);
     --drawer-color-light: rgba(255,255,255,0.85);
     --navhoverlink-light: rgba(255, 255, 255, 0.6);

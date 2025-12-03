@@ -6,7 +6,6 @@ hatnote:
 aliases:
     - kurowiki 3761
 ---
-
 {% include infoboxes/build.html
 family='KuroWiki'
 familyurl='KuroWiki'

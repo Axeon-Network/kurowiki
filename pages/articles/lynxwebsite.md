@@ -9,7 +9,8 @@ hatnote:
 {% include infoboxes/site.html
 name="LynxWebsite"
 formername='Lynxmic Website (2023)'
-developer='<a href="KayAurora">KayAurora</a>'
+developer='KayAurora'
+developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='1.0'

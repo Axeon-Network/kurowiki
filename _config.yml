@@ -35,6 +35,14 @@ home_desc: "This is the home page for KuroWiki. An online encyclopedia about the
 # featured article. specify the file name of the article
 featuredarticle: astront
 
+# THEMING
+# your background
+# background-dark will be the background appling on dark mode, background-light will apply on light mode
+# for this to work, you have to place your background files in resources/img
+# leave empty to use the default backgrounds
+background-dark:
+background-light:
+
 # DEVELOPER/DEBUG
 # developer phase
 devphase: Beta 6

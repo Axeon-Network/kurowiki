@@ -6,9 +6,12 @@ redirect_from:
     - Dell_Latitude_3380
 ---
 
-**Thei5Lappy** (temporarily known as **SuperNova** in July-August 2025; model *Dell Latitude 3380*), is a laptop manufactered by Dell Inc. in 2017. It is [Nekori](Nekori)'s main PC since November 2024.
+**Thei5Lappy** (model *Dell Latitude 3380*), is a laptop manufactered by Dell Inc. in 2017. It is [Nekori](Nekori64)'s main PC since November 2024.
 
+# Naming
 The nickname `Thei5Lappy` is a reference to [TheCeleryPC](TheCeleryPC)'s nickname, as it follows the same scheme: `The`...is self-explanatory, `i5` for the computer's processor (an Intel Core i5-7200U), and `Lappy` for laptop.
+
+It has also been temporarily known as **SuperNova** in July-August 2025. Since November 2025, **NishiLappy** has also been used as a OS hostname, the name referencing [Nishi](Nishi), one of Nekori's OCs.
 
 # History and Overview
 
@@ -23,7 +26,7 @@ The computer's hardware is the following:
 - Intel Core i5 7th Gen (Kaby Lake; i5-7200U)
 - Intel HD Graphics 620 - *Integrated GPU*
 - 8GB DDR4 RAM
-- 238GB Samsung SATA SSD - Later replaced to a **465 GiB Toshiba MQ01ABF050 HDD**
+- 238GB Samsung SATA SSD - Later replaced to a **465 GiB Toshiba MQ01ABF050 HDD**, which in turn was replaced with a **1TB Seagate ST1000LM024 HN-M HDD**
 
 # Charger Issues
 
@@ -45,7 +48,6 @@ Due to the nature of the fix, the charger wasn't 100% perfect. It continued to m
 Interestingly enough, Nekori tried their sister's charger prior to the second fix, which has been tested to work since both computers are similar, with model numbers apart (*Latitude E6420* and *Latitude 3380* respectively). Nonetheless, Nekori kept using their original laptop charger to avoid getting into any problems. On 10 July 2025, the original charger sparked, burning Nekori's hand.
 
 Nekori began using their sister's charger, with permision from their mother after the incident.
-
 
 
 
