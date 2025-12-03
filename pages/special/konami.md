@@ -10,21 +10,13 @@ yes its the konami code i fucking know -nekori64
 some todos:
 
 - settings page
-    - re-add oneko
+    - re-add oneko (DONE)
     - dark mode (DONE)
     - idk debug shit
-
-- add more axeon and kay stuff to `dykdat.json`
 
 - add the full list of horicraft pictures from my [nekori] folder
     - ditto, but kayaurora's folder
         - make a `Gallery:Horicraft` and put all pages there; separate the nekori and kayaurora ones
-
-- update horicraft 2 closure text (DONE `kayaurora`)
-
-- update stuffyxp beggining article
-
-- springviewer 2.0 with audio+video support
 
 - make search prettier
     - also make it so if the page title matches, redirect to that page
@@ -32,33 +24,25 @@ some todos:
 
 - remove gallerygen
 
-- update `contributing-to-kurowiki.md`
+- ~~update~~ finish updating `contributing-to-kurowiki.md`
 
 - the branding and favicon **istg**
 
 - make horiwebsite, stuffyxpwebsite, wou and lm-stuffywebsite articles and state as finished; lexsite and novasite can have their articles and list themselves as "this work was not finished".
 
-- list all kurowiki builds in ~~[KuroWiki](KuroWiki)~~ [a list of all KuroWiki builds](List_of_all_KuroWiki_builds)
-
-- ditto, but lexsite
+- create page listing all lexsite builds, like with [KuroWiki](List_of_all_KuroWiki_builds)
 
 - ditto, but novasite
-
-- ~~list "stuffy's website public beta" in stuffywebsitewou article~~ done
 
 - ~~waf waf :3~~ ok no lmao
 
 - categories.
-
-- that one wikipedia info box i forgot how it was called
 
 - STUFFY'S TECH MISADVENTURESSSSSSS
     - the pear pc video
     - vmware 12 on vista (2024)
     - vmware 12 on vista II (the activating sequel)
     - the other stm videos on the roadmap thingy
-
-- ~~finding fucking~~ done (`nekori64`)
 
 - go into more detail in stuffyxp
     - add astront mention

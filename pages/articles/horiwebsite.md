@@ -7,7 +7,8 @@ hatnote: For the project that was also codenamed "StuffyXP 2", see <a href='Astr
 {% include infoboxes/site.html
 name='HoriWebsite'
 formername='Horibyte Website'
-developer='<a href="Nekori64">Nekori</a>'
+developer='Nekori'
+developerarticle='Nekori64'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='TBD'

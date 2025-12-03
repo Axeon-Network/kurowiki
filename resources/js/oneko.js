@@ -1,5 +1,4 @@
 // oneko.js: https://github.com/adryd325/oneko.js
-// dw babe we gonna use u soon enough :3
 
 (function oneko() {
   const isReducedMotion =
@@ -97,7 +96,7 @@
     nekoEl.style.top = `${nekoPosY - 16}px`;
     nekoEl.style.zIndex = 2147483647;
 
-    let nekoFile = "/img/misc/oneko.gif"
+    let nekoFile = "/resources/img/defaults/oneko.gif"
     const curScript = document.currentScript
     if (curScript && curScript.dataset.cat) {
       nekoFile = curScript.dataset.cat
