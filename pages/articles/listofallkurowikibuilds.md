@@ -211,3 +211,6 @@ This article is a list of all known KuroWiki builds.
 6.0.4268.b6fre.private/springviewer(neko64).251201-1551
 6.0.4290.b6fre.private/springviewer(neko64).251202-1947
 6.0.4400.kayaurora.251203-1720
+
+**Public release**
+[6.0.4400.main.251204-0046](KuroWiki_build_4400)

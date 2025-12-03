@@ -18,7 +18,8 @@ In the context of NekoCulture, it is one of the earliest Nekori memes, introduce
     image_src="resources/img/articles/a_emoji/1.jpg" 
     alt_text="A meme made by Nekori about their original conception of the emoji" 
     caption="A meme made by Nekori about their original conception of the emoji"
-    style="width:30%;" %}
+    style="width:30%;"
+    author='Nekori64' %}
 
 # Gallery of Fanmade 🅰️s
 
@@ -26,24 +27,28 @@ In the context of NekoCulture, it is one of the earliest Nekori memes, introduce
     {% include gallery_item.html 
         image_src="resources/img/articles/a_emoji/a_win1.png" 
         alt_text="An A drawn by Nekori in Windows 1.0, during the Upgrade Saga II" 
-        caption="An A drawn by Nekori in Windows 1.0, during the <a href='https://www.youtube.com/watch?v=RS0vMHF5k8s'>Upgrade Saga II</a>" %}
+        caption="An A drawn by Nekori in Windows 1.0, during the <a href='https://www.youtube.com/watch?v=RS0vMHF5k8s'>Upgrade Saga II</a>" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/a_emoji/a_evil.webp" 
         alt_text="An A made by Nekori. Origin unknown. Originated from a Mastodon post." 
         caption="An A made by Nekori. <s>Origin unknown.</s> Originated from <a href='https://wetdry.world/@horibyte/114055695481022637'>a Mastodon post</a>."
-        style="width:20%;" %}
+        style="width:20%;" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/a_emoji/a_stuffy.png" 
         alt_text="An A made by Nekori to mock Meta/Facebook's own A emoji design" 
-        caption="An A made by Nekori to mock Meta/Facebook's own A emoji design" %}
+        caption="An A made by Nekori to mock Meta/Facebook's own A emoji design" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/a_emoji/a_horicraft.png" 
         alt_text="One side of the A building from the original Horicraft." 
         caption="One side of the A building from <a href='https://horibyte.is-a.dev/wiki/Horicraft/'>the original Horicraft</a>."
-        style="width:20%;" %}
+        style="width:20%;" 
+        author='Nekori64' %}
 </div><p>&nbsp;</p>
 
 # References
