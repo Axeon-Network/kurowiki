@@ -1,16 +1,16 @@
 <figure class="gallery-item">
     <div class="thumb-frame">
         {% if include.audio_src %} 
-        <audio controls src="{{ include.audio_src }}" title="{{ include.caption }}" loading="lazy"></audio>
+        <audio controls src="{{ include.audio_src }}" author="{{ include.author }}" title="{{ include.caption }}" loading="lazy"></audio>
         {% endif %}
         
         {% if include.video_src %} 
-        <video controls src="{{ include.video_src }}" title="{{ include.caption }}" loading="lazy"></video>
+        <video controls src="{{ include.video_src }}" author="{{ include.author }}"title="{{ include.caption }}" loading="lazy"></video>
         {% endif %}
         
         {% if include.image_src %} 
- <img src="{{ include.image_src }}" alt="{{ include.caption }}" loading="lazy">
-   {% endif %}
+        <img src="{{ include.image_src }}" author="{{ include.author }}" alt="{{ include.caption }}" loading="lazy">
+        {% endif %}
     </div>
  <figcaption class="gallery-caption">
  {{ include.caption }}

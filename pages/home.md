@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       | markdownify
       | split:'<h' | first
       | split:'<img' | first
-      | truncatewords: 90
+      | truncatewords: 256
       | jsonify }}
   };
   function removeInfobox(html) {
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 </style>
 
-<h1 style="color:var(--kurowiki-accent)">Welcome to KuroWiki</h1>
+<h1 style="color:var(--kurowiki-accent)">Welcome to KuroWiki!</h1>
 
 <!-- actual homepage description -->
 <!-- <p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p> -->

@@ -10,19 +10,28 @@ redirect_from:
 - LexTheNova
 ---
 
-**Nekori**[^1] (formerly known as **Stuff Life**, **Stuffy**, **StuffyXP**, **Horibyte** and **LexNova**) (born 19 June 2010) is a Honduran YouTuber, web developer, gamer and self-proclaimed *professional tech breaker*.
+{% include infoboxes/bio.html
+image='resources/img/articles/nekori64/pfp.png'
+name='Nekori64'
+formerly='LexNova/Lexibyte (July-August 2025)<br>Horibyte (January-July 2025)<br>StuffyXP (2024-2025)<br>Stuffy (2023)<br>Stuff Life (2021-2023)<br>Yoshi Land0842 (2020)'
+bod='19 June 2010 (age 15)'
+nationality='Honduran'
+known='StuffyXP · Horicraft · AstroNT · KuroWiki'
+%}
 
-He is an administrator on the [Axeon Network](Axeon_Network), as the one of the developers of [KuroWiki](KuroWiki).
+**Nekori64**, commongly just **Nekori** (born 19 June 2010) is a Honduran YouTuber, web developer, gamer and self-proclaimed *[professional tech breaker](Nekori_Moments)*. They are an administrator on the [Axeon Network](Axeon_Network) (primarally known for developing [KuroWiki](KuroWiki) alongside [KayAurora](KayAurora)), and are part of the [furry fandom](https://en.wikipedia.org/wiki/Furry_fandom).
 
-Nekori has also made other notable projects such as [StuffyXP](StuffyXP) (and its successor [AstroNT](AstroNT)), [HoriWebsite](HoriWebsite), amongst others.
+They are also the creator of several projects such as [StuffyXP](StuffyXP) ([and its several sub-projects](StuffyXP#stuffyxp-network)), [HoriWebsite](HoriWebsite), [Horicraft](Horicraft) ([and its successor](Horicraft_(2))), [HoriServer](HoriServer) (and its [Discord counterpart](HoriServer_(2))), [Arctic](Nekori_Arctic), and the founder of [AstroNT](AstroNT) and [KuroWiki](KuroWiki).
 
 # Personal life
 
-Nekori was born on 19 June 2010 in Honduras. His native language is Spanish, but he is also fluent in English.
+Nekori was born on 19 June 2020 in Honduras, thus their native language is Spanish, although they are fluent in English.
+<!-- 
+In February 2025, Nekori had been part of the Aroace community, and had also expanded to agenderflux. (idk how to word this) -->
 
-In February 2025, Nekori came out as *aromantic asexual* (commongly shortened to *aroace*). He later also came out as *agenderflux* in June 2025.
+Since August 2025, Nekori has been part of the furry fandom, [Comet](Comet) had been their fursona since May 2025, but was replaced by [Nishi](Nishi) in November 2025.
 
-In August 2025, it was revealed that Nekori is part of the furry fandom. [Comet](Comet) is known to be his fursona.
+Nekori goes by *any pronouns*[^1], and they use the *Central American* time zone (UTC-6).
 
 # History
 
@@ -42,14 +51,23 @@ Some temporary string here...
 
 Some temporary string here...
 
-#### Notable works
+# Notable works
 
+*For a full list of Nekori's projects, see [List of Nekori's projects](List_of_Nekori's_projects)*
+
+- [StuffyXP](StuffyXP) (and its respective brother channels)
+- [AstroNT](AstroNT)
+- [KuroWiki](KuroWiki)
+- [StuffyXP Hangout](StuffyXP_Hangout)
+- [Horicraft](Horicraft)
+- [HoriServer (2)](HoriServer_(2))
+- [Nekori Arctic](Nekori_Arctic)
+- [HoriWebsite](HoriWebsite)
 
 #### Trivia
 
 #### Gallery
 
-#### References
-[^1]: Formally known as Nekori64 in username side.
+# Notes
 
-#### Notes
+[^1]: For consistency, *they/them* pronouns will be used.

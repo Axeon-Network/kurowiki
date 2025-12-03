@@ -2,6 +2,10 @@
 # project name
 name: Axeon KuroWiki
 
+# Axeon KuroWiki is used in main kurowiki builds
+# Axeon Deltari is used in deltari builds
+productname: Axeon KuroWiki
+
 # project and site title
 title: KuroWiki
 
@@ -18,7 +22,10 @@ email: thenekori64@gmail.com
 description: "Axeon KuroWiki Beta 6"
 
 # the url of your site
-url: "https://axeon-network.github.io/kurowiki"
+url: https://axeon-network.github.io
+
+# baseurl, only use if used on a subdirectory and not website root. prod-kuro *has* to use this
+baseurl: /kurowiki
 
 # source code url
 sourceurl: "https://github.com/Axeon-Network/kurowiki"
@@ -27,17 +34,52 @@ sourceurl: "https://github.com/Axeon-Network/kurowiki"
 license: Creative Commons Attribution-ShareAlike 4.0
 # license url
 licenseurl: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+# short license name
+license-s: CC-BY-SA-4.0
+
+# image license name
+img_license: Creative Commons Attribution International 4.0
+# image license url
+img_licenseurl: https://creativecommons.org/licenses/by/4.0/deed.en
+# short image license name
+img_license-s: CC-BY-4.0
 
 # HOMEPAGE
 # quick description of your wiki and what is it about, visible on the homepage
 home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Nekori and KayAurora)."
 
 # featured article. specify the file name of the article
-featuredarticle: astront
+featuredarticle: axeonnetwork
+
+# retail tag. specifies the version number used in the drawer, and is to be replaced by
+# an incrementing one IF the debug mode is enabled.
+retailtag: 6.0.4100.main.251030-0038
 
 # DEVELOPER/DEBUG
 # developer phase
 devphase: Beta 6
+
+# debug mode
+# setting this to true enables the debug kurowiki and springviewer watermarks, 
+# and enables the incrementing build number in the drawer alongside a (Debug) suffix to the string above Axeon KuroWiki
+debug: true
+
+# retail mode
+# enable this for non-developer builds, like public releases or IDRs
+# The Two KuroWiki Developers Shall Not Forget This Setting
+retail: false
+
+# stupid
+myvariable: "{{ site.myvariable }}"
+
+# only ONE of these can be enabled
+# ...i mean you can use both, but that wouldnt be practical, would it?
+# if you enable neither, you need help
+
+# specifies if text should be used in the drawer
+drawertitle: false
+# specifies if a banner should be used in the drawer
+drawerbanner: true
 
 # more variables to be set in the future!
 

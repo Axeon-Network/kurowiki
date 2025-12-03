@@ -1,17 +1,16 @@
 require 'json'
 require 'jekyll'
 require 'fileutils'
-Jekyll.logger.info "KuroWiki", "DeltaSearch, Version 2.3!"
+
+Jekyll.logger.info "Axeon KuroWiki", "DeltaSearch, Version 2.4!"
 Jekyll.logger.info "", "The generator for the search index in Deltari."
-Jekyll.logger.info "", "..."
-Jekyll.logger.info "", "I know im one version late but FIRE IN THE HOLE"
-Jekyll.logger.info "Copyright Axeon Network/Nekori, 2025.", ""
+Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025."
 
 Jekyll::Hooks.register :site, :post_write do |site|
-  
+  # if jekyll is serving the site, do not write the new search index
+  # to prevent an infinte loop  
   if site.config['serving']
     Jekyll.logger.info "DeltaSearch:", "Skipping write to source to prevent infinite loop during 'serve'."
-    Jekyll.logger.info "", "Nekori, I know you needed this one.."
     next 
   end
 
@@ -21,13 +20,29 @@ Jekyll::Hooks.register :site, :post_write do |site|
   FileUtils.mkdir_p(output_dir)
   Jekyll.logger.info "DeltaSearch:", "Created output directory: #{output_dir}"
 
+  # get configuration variables
+  site_url = site.config['url'].to_s.chomp('/')
+  baseurl = site.config['baseurl'].to_s.chomp('/')
+  
+  # if prod, use the configured prod url
+    url_prefix = site_url + baseurl
+    Jekyll.logger.info "DeltaSearch:", "Using production prefix: #{url_prefix}"
+    Jekyll.logger.info "", "If you want to use the compiled the search index for a debug build,"
+    Jekyll.logger.info "", "simply go into resources/json/search.json and replace all instances of"
+    Jekyll.logger.info "", "'axeon-network.github.io/kurowiki' to '127.0.0.1:4000' and you should be good to go!"
+
+  # --------------------------------------------------------------------------
+
   search_data_array = site.pages.reject do |page|
     exclude_manually = page.data['search_exclude']
-    exclude_redirect = page.data['redirect_to']
+    exclude_redirect = page.data['redirect_from']
     exclude_xml = page.url.end_with?('.xml') || page.url.end_with?('.json')
     exclude_manually || exclude_redirect || exclude_xml
   end.map do |page|
-    cleaned_url = page.url.start_with?('/') ? page.url[1..-1] : page.url
+    
+    # Construct the full, correct URL path using the combined prefix.
+    # page.url always starts with a '/' (e.g., '/about/').
+    url_path = url_prefix + page.url
 
     # Generate first-sentence snippet
     clean_content = page.content.gsub(/<[^>]*>/, '').strip
@@ -52,7 +67,8 @@ Jekyll::Hooks.register :site, :post_write do |site|
     
     {
       'title' => page.data['title'].to_s,
-      'url' => cleaned_url,
+      # Use the new, full absolute path
+      'url' => url_path, 
       'aliases' => aliases_string,
       'snippet' => snippet
     }

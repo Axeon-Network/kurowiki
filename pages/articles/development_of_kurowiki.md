@@ -2,13 +2,11 @@
 layout: main
 title: Development of KuroWiki
 permalink: Development_of_KuroWiki
-hatnote: This article details about the development of KuroWiki, for the main KuroWiki article, see <a href="KuroWiki">KuroWiki</a>
 ---
 
-Initial concepts for [KuroWiki](KuroWiki) existed as early as April 2025 with the goal of creating a resource to easily get information about Nekori's projects and related content.
+Initial ideas for what would eventually become [KuroWiki](KuroWiki) existed as early as April 2025 with the set goal of making easy to get information about [Nekori](Nekori64)'s projects. In its early days, *KuroWiki* was a Nekori-themed encyclopedia branded under the name *HoriWiki*.
 
-Several options were being considered by [Nekori](/Nekori) such as a self-hosted MediaWiki server, but Nekori was unsure how to make it work. A Miraheze-hosted wiki was also taken in consideration between **May 1-3 2025**, however this option was also taken off the table due to the Miraheze bot not cooperating.
-As such, the final decision was to start a custom-built wiki core from the ground up, dubbed "**Deltari**" (initially known as *HoriWiki Engine*, and then as *LexWiki Engine* and *KuroWiki Engine* respectively)
+Between 1 May and 3 May 2025, several options were considered by Nekori in order to make the project possible, such as a self-hosted [MediaWiki](https://mediawiki.org) server and a Miraheze-hosted wiki, after both options failing, a custom-built wiki engine codenamed *Deltari* (formerly known as the *HoriWiki Engine*, *LexWiki Engine* and *KuroWiki Engine*) started development in 4 May 2025.
 
 KuroWiki went through [development hell](https://en.wikipedia.org/wiki/Development_hell).
 
@@ -22,12 +20,14 @@ Development of Deltari began with forking [HoriWebsite](LexSite) version **2.4.3
         image_src="resources/img/articles/horiwiki/earliest_developer_pre-alpha.png" 
         alt_text="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'." 
         caption="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'."
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/devalpha-info.png" 
         alt_text="Debug build string from the KuroWiki Pre-alpha engine." 
         caption="Debug build string from the KuroWiki Pre-alpha engine."
+        author='Nekori64'
         style="width:50%;" %}
 </div>
 
@@ -49,12 +49,14 @@ This build essentially removed most of the HoriWebsite's front-end elements, tho
         image_src="resources/img/articles/horiwiki/pa0.1.png" 
         alt_text="Pre-alpha 0.1" 
         caption="Pre-alpha 0.1"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/pa0.1-1.png" 
         alt_text="Pre-alpha 0.1" 
         caption="Pre-alpha 0.1"
+        author='Nekori64'
         style="width:50%;" %}
 </div>
 
@@ -66,6 +68,7 @@ This version shows early attempts to implement MediaWiki-style navigation bars.
     image_src="resources/img/articles/horiwiki/pa0.2.png" 
     alt_text="Pre-alpha 0.2" 
     caption="Pre-alpha 0.2"
+    author='Nekori64'
     style="width:50%;" %}
 
 ##### Pre-alpha 0.3
@@ -76,6 +79,7 @@ Navigation bars were partially implemented in this build, using multi-colored se
     image_src="resources/img/articles/horiwiki/pa0.3.png" 
     alt_text="Pre-alpha 0.3" 
     caption="Pre-alpha 0.3"
+    author='Nekori64'
     style="width:50%;" %}
 
 ##### Pre-alpha 0.4
@@ -86,6 +90,7 @@ Pre-alpha 0.4 is where KuroWiki began to take on its distinct form, with several
     image_src="resources/img/articles/horiwiki/pa0.4.png" 
     alt_text="Pre-alpha 0.4" 
     caption="Pre-alpha 0.4"
+    author='Nekori64'
     style="width:50%;" %}
 
 ##### Pre-alpha 0.5.x
@@ -97,18 +102,21 @@ Builds 0.5.x were the most complete builds of that day, with nearly all essentia
         image_src="resources/img/articles/horiwiki/pa0.5.png" 
         alt_text="Pre-alpha 0.5" 
         caption="Pre-alpha 0.5"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/pa0.5.2.png" 
         alt_text="Pre-alpha 0.5.2" 
         caption="Pre-alpha 0.5.2"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/pa0.5.2-1.png" 
-        alt_text="Pre-alpha 0.5.2 1" 
-        caption="Pre-alpha 0.5.2 1"
+        alt_text="Pre-alpha 0.5.2 #1" 
+        caption="Pre-alpha 0.5.2 #1"
+        author='Nekori64'
         style="width:50%;" %}
 </div>
 
@@ -136,6 +144,7 @@ This was the first Alpha version of KuroWiki, introducing significant updates to
     image_src="resources/img/articles/horiwiki/a1.1.png" 
     alt_text="Alpha 1.1" 
     caption="Alpha 1.1"
+    author='Nekori64'
     style="width:50%;" %}
 
 ##### Alpha 1.2
@@ -147,18 +156,21 @@ As with the previous version, this update focused on further bug fixes and refin
         image_src="resources/img/articles/horiwiki/a1.2-home.png" 
         alt_text="Alpha 1.2" 
         caption="Alpha 1.2"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/a1.2-dirlist.png" 
         alt_text="The Sitemap in Alpha 1.2" 
         caption="The Sitemap in Alpha 1.2"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/a1.2-cthrwd.png" 
         alt_text="Contributing to HoriWiki in Alpha 1.2" 
         caption="Contributing to HoriWiki in Alpha 1.2"
+        author='Nekori64'
         style="width:50%;" %}
 </div>
 
@@ -170,6 +182,7 @@ Development after the initial Alpha phases rapidly progressed into Beta stages. 
     image_src="resources/img/articles/horiwiki/b1.0-m.png" 
     alt_text="Beta 1.0's mobile UI" 
     caption="Beta 1.0's mobile UI"
+    author='Nekori64'
     style="width:50%;" %}
 
 **Beta 2.0** did away with the Alpha frontend layout, introducing a more 2014 Material Design-style UI using the **Material Design Lite** (MDL) CSS framework, significantly enhancing the wiki's visual appearance and user interface. It is to be noted that the Material design has been in development since **beta 1.0.1**, which initially came with the old design.
@@ -180,12 +193,14 @@ June 2025 then saw the release of **Beta 2.1**, introducing new features such as
         image_src="resources/img/articles/horiwiki/b1.0.1-material.png" 
         alt_text="Beta 1.0.1 Material" 
         caption="Beta 1.0.1 Material"
+        author='Nekori64'
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/b1.0.1-search.png" 
         alt_text="Search in Beta 2.0" 
         caption="Search in Beta 2.0"
+        author='Nekori64'
         style="width:50%;" %}
 </div>
 

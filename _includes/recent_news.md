@@ -1,6 +1,21 @@
 
 <!-- why does markdown not markdown without first line empty AAA-->
 <details markdown="1" open>
+<summary>Axeon KuroWiki Beta 6 released</summary>
+*PRELIMINARY NEWS RELEASE*
+
+Happy Holidays everybody!<br>As a present from the team behind Axeon Network, and after one and a half months of continious development, we are pleased to announce the general availability of the 6th Beta release of KuroWiki. This is the last Beta release, and thus, we are moving to the *Release Candidate* development stage, being more closer to Stable!
+
+This release brings in a lot of new features, such as a redesigned drawer and media viewer, a sitemap and random article button, enhanced search results, and bug fixes such as the infamous drawer bug. We are excited to be finally able to share these new features with all of you!
+
+*This release is dedicated to one of Nekori's close friends, who passed away on 30 November 2025, prior to the release of Beta 6.*
+
+Got anything to say to us? We're all ears! Feel free to sumbit any feedback in GitHub Issues, or in our Discord Server.
+
+Sincerely,<br>The KuroWiki Development Team.
+</details>
+
+<details markdown="1" closed>
 <summary>Axeon KuroWiki Interim Developer Release 3 now available</summary>
 We are pleased to announce that the third Interim Developer Release of KuroWiki is now available to the world-wide public. This release builds upon the code-base of KuroWiki Beta 6, which showcases improvements and new additions previously only available to internal builds.
 

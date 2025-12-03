@@ -26,17 +26,20 @@ The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen a
     {% include gallery_item.html 
         image_src="resources/img/articles/aboard/mastodonimage.png"  
         caption="Earliest available picture of the A Board. March 2025"
-        style="" %}
+        style="" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/aboard/nekocafe.png"  
         caption="The A Board in NekoCafe. 16 October 2025"
-        style="" %}
+        style="" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/aboard/axeon.png"  
         caption="The A Board in the Axeon Network Discord server. 16 October 2025"
-        style="" %}
+        style="" 
+        author='Nekori64' %}
 </div>
 
 #### References

@@ -1,0 +1,33 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+        	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
+	        <div class="infobox-img-caption">{{ include.name }}'s Profile Picture</div>
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Formerly known as</th>
+                <td>{{ include.formerly }}</td>
+            </tr>
+            <tr>
+                <th>Born</th>
+                <td>{{ include.bod }}</td>
+            </tr>
+            <tr>
+                <th>Nationality</th>
+                <td>{{ include.nationality }}</td>
+            </tr>
+            <tr>
+                <th>Known for</th>
+                <td>{{ include.known }}</td>
+            </tr>
+          </tbody>
+	</table>
+</div>

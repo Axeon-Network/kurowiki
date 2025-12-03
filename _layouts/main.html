@@ -28,9 +28,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
     <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
 
     <!-- the light mode mechanic -->
      <script>
@@ -53,125 +56,140 @@
       });
      </script>
   </head>
-  <!-- springviewer src -->
-  <script src="./resources/js/springviewer.js"></script>
 
   <!-- and so, it begins -->
   <body>
     <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
-      <div class="mdl-layout__header-row">
-        <div class="container is-hidden-mobile">
-          <!-- its finally a link it has been bothering me alot recently idk why -->
-          <a href="./" style="color:white;" title="i'm now a link!"><span id="title" class="mdl-layout-title">{{ site.title }}</span></a>
-        </div>
-
-        <div class="mdl-layout-spacer"></div>
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">{{ site.title }}</span>
+            </a>
+          </div>
         
-        <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
-          <!-- search box -->
-          <div class="mdl-textfield__holder">
-            <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
-              <form action="results" method="get">
-                <div class="mdl-textfield mdl-js-textfield">
-                  <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
-                  <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
-                </div>
-              </form> <!-- damn you stupid closing form tag!!!-->
-            </div>
-             <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
-              <form action="results" method="get">
-                <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-                  <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
-                    <i class="material-icons">search</i>
-                  </label>
-                  <div class="mdl-textfield__expandable-holder">
-                    <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
                     <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
                   </div>
-                </div>
-              </form>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
   
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">{{ site.title }}</span>
-      <nav class="mdl-navigation" style="margin-top: -5% !important;">
+      <div class="mdl-layout__drawer">
+        {% if site.drawertitle %}
+          <span class="mdl-layout-title">{{ site.title }}</span>
+        {% endif %}
 
-        <a class="mdl-navigation__link" href="./">Home</a>
-        <!--<a class="mdl-navigation__link" id="random-article">Random Article</a>--> <!-- will be implemented in a later build -->
-        <a class="mdl-navigation__link" href="Contributing_to_KuroWiki">Contribute!</a>
-        <a class="mdl-navigation__link" href="Settings">Settings</a>
-
-        {% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" %}
-        <span style="padding-left:5.5%; color:var(--text-color)"><br>There are <b>{{ article_pages | size }}</b> articles on this wiki.<br><br>&copy;{{ site.copyyear }} {{ site.author }}.<br>All Rights Reserved.<br><br>Content & <a href="{{ site.sourceurl }}">source code</a> licensed under <a href="{{ site.licenseurl }}">{{ site.license }}</a>,<br>unless otherwise specified.<br><br>Axeon KuroWiki Beta 6<br><span style="font-size: smaller; color:darkgray !important;">Version 6.0.4100.main.251030-0038<!--{{ site.version.full_tag }}--></span></span>
-      </nav>
-    </div>
-
-    <!-- and God said, let there be content, and there was content -->
-    <main class="mdl-layout__content">
-      <div class="box mdl-shadow--8dp" id="mainbox">
-          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
-              <div class="hatnote" markdown="1">
-		
-              {{ page.hatnote }}
-          </div>
+        {% if site.drawerbanner %}
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        {% endif %}
     
-          <h1 id="pagetitle" style="color:var(--kurowiki-accent)" >{{ page.title }}</h1>
+        <nav class="mdl-navigation" style="margin-top: -5% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" id="random-article">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:5.5%; color:var(--text-color)">
+            <br>
+            &copy;{{ site.copyyear }} {{ site.author }}.
+            <br>
+            Licensed under <a href="{{ site.licenseurl }}">{{ site.license-s }}</a>
+            <br>
+            <br>
+            {{ site.productname }} {{ site.devphase }} 
+            <span>
+              {% if site.debug %}
+                (Debug)
+              {% endif %}
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              {% if site.debug %}
+                Version {{ site.version.full }}
+              {% endif %}
+            
+              {% if site.retail %}
+                Version {{ site.retailtag }}
+              {% endif %}
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+            <div class="hatnote">
+              {{ page.hatnote }}
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--kurowiki-accent)" >{{ page.title }}</h1>
+            <hr>
           
-          <hr>
-          
-          <noscript>
-            <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
-          </noscript>
-		<div id="pagecontent">
-	                {{content}}
-		</div>
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              {{content}}
+		        </div>
           </div>
         </div>
+      
         <p>
           &nbsp;<br>
         </p>
 
-        <!-- and so God said, let there be a proper viewer, and there was a proper viewer -->
-        <div id="springviewer" class="viewer-hidde">
-          
-        <span class="viewer-counter"></span>
-        <!-- the typo is intentional this stupid thing broke -->
-        <span class="close-btn" title="Close (Escape)">
-          <i class="material-icons">close</i>
-        </span>
-        <span class="flscr-btn" title="Full Screen (F)">
-          <i class="material-icons">fullscreen</i>
-        </span>
-        <span class="dl-btn" title="Download (D)">
-          <i class="material-icons">file_download</i>
-        </span>
-	<!-- why do these yeet you to search? i have no idea either -->
-        <div class="viewer-content">
-          <button class="nav-btn prev-btn" title="Previous (Left)">
-            <i class="material-icons">chevron_left</i>
-          </button>
-          <div id="viewer-media-container"></div>
-          <button class="nav-btn next-btn" title="Next (Right)">
-            <i class="material-icons">chevron_right</i>
-          </button>
-        </div>
-
-        <div id="viewer-caption"></div>
-      
-          <!--<p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;">
-            &nbsp;SpringViewer Version 2.0&nbsp;
-          </p>-->
-        </div>
-	<!-- there was a closing comment on that div what the hell -->
-
-        <!--<p id=watermark class="mdl-shadow--4dp">
-          &nbsp;Debug {{ site.name }} {{ site.devphase }} Version {{ site.version.full_tag }}&nbsp;
-        </p>-->
+        {% include springviewer.html %}      
+	
+        {% if site.debug %}
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug {{ site.productname }} {{ site.devphase }} Version {{ site.version.full }} &nbsp;
+          </p>
+        {% endif %}
       </main>
     </div>
   </body>

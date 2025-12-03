@@ -19,7 +19,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Nekori Arctic**[^1] is a free and open source operating system developed by [Nekori](Nekori64) first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
+**Nekori Arctic**[^1] is a free and open source operating system developed by [Nekori](Nekori64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 
@@ -29,11 +29,12 @@ The latest stable release is version 0.1.5.
     image_src="resources/img/articles/arctic/0.1.5demo.png" 
     alt_text="Nekori Arctic 0.1.5 Demo on QEMU" 
     caption="QEMU running Arctic v0.1.5a"
+    author='Nekori64'
 %}
 
 # Overview
 
-Nekori Arctic is a **16-bit real mode** OS, making it compatible with processors going as far back as the 1980 or even earlier.
+Nekori Arctic is a 16-bit real mode OS, making it compatible with processors going as far back as the 1980 or even earlier.
 
 The OS has a built-in command line interface, which supports basic commands like `clear` or `echo`. Due to the OS' earlierness, disk support is absent from the OS.
 
@@ -68,25 +69,29 @@ Before development began, Nekori designed several Arctic mockups using GIMP. The
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7078personal.png" 
         alt_text="Horibyte Arctic Personal Beta 2 Build 7078" 
-        caption="Horibyte Arctic Personal Beta 2 Build 7078" %}
+        caption="Horibyte Arctic Personal Beta 2 Build 7078" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089professional.png" 
         alt_text="Horibyte Arctic Professional Beta 2 Build 7089" 
-        caption="Horibyte Arctic Professional Beta 2 Build 7089" %}
+        caption="Horibyte Arctic Professional Beta 2 Build 7089" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089personal.png" 
         alt_text="Horibyte Arctic Personal Beta 2 Build 7089" 
-        caption="Horibyte Arctic Personal Beta 2 Build 7089" %}
+        caption="Horibyte Arctic Personal Beta 2 Build 7089" 
+        author='Nekori64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089server.png" 
         alt_text="Horibyte Arctic Server Family Beta 2 Build 7089" 
-        caption="Horibyte Arctic Server Family Beta 2 Build 7089" %}
+        caption="Horibyte Arctic Server Family Beta 2 Build 7089" 
+        author='Nekori64' %}
 </div>
 
 #### References
 
-[^1]: Formerly **StuffyXP LeafyOS**
+[^1]: Formerly known as **StuffyXP LeafyOS**, **Horibyte Arctic** and **LexNova Arctic**.
 [^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262)
