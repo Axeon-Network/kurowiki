@@ -9,7 +9,8 @@ hatnote:
 {% include infoboxes/site.html
 name="Lynxmic Blog"
 formername=''
-developer='<a href="KayAurora">KayAurora</a>'
+developer='KayAurora'
+developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Blog'
 initialVersion='November 2021 Release'

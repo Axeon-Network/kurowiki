@@ -55,6 +55,14 @@ featuredarticle: axeonnetwork
 # an incrementing one IF the debug mode is enabled.
 retailtag: 6.0.4100.main.251030-0038
 
+# THEMING
+# your background
+# background-dark will be the background appling on dark mode, background-light will apply on light mode
+# for this to work, you have to place your background files in resources/img
+# leave empty to use the default backgrounds
+background-dark:
+background-light:
+
 # DEVELOPER/DEBUG
 # developer phase
 devphase: Beta 6

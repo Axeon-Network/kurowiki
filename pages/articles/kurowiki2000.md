@@ -16,7 +16,7 @@ compiled='2025-07-25 14:23 UTC-6'
 image='resources/img/articles/kurowiki2000/preview.png'
 %}
 
-**KuroWiki build 2000** (full tag: `4.2.2000.kuro_escro.250725-1423`) is a Beta 4 build of KuroWiki, compiled on 25 July 2025 at 2:23PM UTC-6.
+**KuroWiki build 2000** is a Beta 4 build of KuroWiki, compiled on 25 July 2025 at 2:23PM UTC-6.
 
 It is the first known build to use the name "KuroWiki". It is one of the 3 builds compiled from the `kuro_escro` branch, alongside `4.2.2001.kuro_escro.250725-1527` and `4.2.2002.kuro_escro.250725-1533` which were compiled 1 hour later on the same day.
 

@@ -16,14 +16,13 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: "Main Page" }} ~ HoriWiki</title>
+    <title>{{ page.title | default: "Main Page" }} ~ {{ site.title }}</title>
     <link rel="shortcut icon" href="{{ page.favicon }}" type="image/x-icon">
-    <link rel="me" href="https://wetdry.world/@horibyte">
     <link rel="stylesheet" href="resources/css/classic.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
-<meta property="og:title" content="HoriWiki">
-<meta property="og:description" content="The official Horibyte Wiki; Beta 1.0">
-<meta property="og:url" content="https://horibyte.is-a.dev/wiki/">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="The official {{ site.title }}">
+<meta property="og:url" content="{{ site.url }}">
 <meta name="theme-color" content="#ffffff">
 <meta content="website" property="type">
 <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
@@ -35,7 +34,7 @@
     <div class="container" id="topbar" style="background-color: inherit; height:90px !important; color:white !important; text-align: center;">
         <div class="container">
             <!-- temporary text, only use span to avoid breaking it -->
-            <span style="font-family: sans-serif; font-size: 60px; text-align: center !important; text-shadow: 0 0 4px gray;"><span style="font-size:5px;text-align: center !important;">&nbsp;</span>HoriWiki</span>
+            <span style="font-family: sans-serif; font-size: 60px; text-align: center !important; text-shadow: 0 0 4px gray;"><span style="font-size:5px;text-align: center !important;">&nbsp;</span>KuroWiki</span>
         </div>
     </div>
 </div>
@@ -43,9 +42,9 @@
     <div class="container" id="sidebar" style="background-color: inherit; width:170px !important; height:100vh !important; color:white !important;">
         <div class="container" style="padding-left: 5% !important; padding-top: -2%; color: white !important; text-decoration: none; text-align: center; text-shadow: 0 0 5px gray;">
             <span style="font-size: larger !important;">Links</span><br><br>
-            <span><a href="Main_Page">Main Page</a></span><br>
-            <span><a href="Special%3ASitemap">Sitemap</a></span><br>
-            <span><a href="Contributing_to_HoriWiki">Contribute!</a></span>
+            <span><a href="./">Main Page</a></span><br>
+            <span><a href="./Special%3ASitemap">Sitemap</a></span><br>
+            <span><a href="Contributing_to_KuroWiki">Contribute!</a></span>
         </div>
     </div>
 </div>
@@ -57,9 +56,9 @@
                 <!-- temporary text, only use span to avoid breaking it -->
                 <span style="font-family: sans-serif; font-size: 60px; text-align: center !important; text-shadow: 0 0 4px gray;"><span style="font-size:5px;text-align: center !important;">&nbsp;</span>HoriWiki</span><br>
                 <div class="container" style="color:white;">
-                <span style="color:white!important;"><a href="Main_Page">Main Page</a>&nbsp;&nbsp;</span>
-                <span style="color:white!important;"><a href="Special%3ASitemap">Sitemap</a>&nbsp;&nbsp;</span>
-                <span style="color:white!important;"><a href="Contributing_to_HoriWiki">Contribute!</a></span>
+                <span style="color:white!important;"><a href="./">Main Page</a>&nbsp;&nbsp;</span>
+                <span style="color:white!important;"><a href="./Special%3ASitemap">Sitemap</a>&nbsp;&nbsp;</span>
+                <span style="color:white!important;"><a href="Contributing_to_KuroWiki">Contribute!</a></span>
             </div>
             </div>
         </div>

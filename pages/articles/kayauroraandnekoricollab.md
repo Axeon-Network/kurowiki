@@ -6,16 +6,18 @@ aliases:
     - kayaurora and nekori video collab
     - recreating old youtube thumbnails
 ---
+{% include infoboxes/video.html
+title='Recreating Old YouTube Thumbnails (ft. @Nekori64)'
+channel='KayAurora'
+channelurl='https://youtube.com/@thekayaurora'
+platform='YouTube'
+views='548'
+reldate='2025-02-13'
+link='https://www.youtube.com/watch?v=Oum-DvZcY_w'
+image='resources/img/articles/kayauroraandnekoricollab/thumbnail.png'
+%}
 
 **Recreating Old YouTube Thumbnails (ft. @Nekori64)**[^1] is a video posted on KayAurora's channel on 15 February 2025 about remaking thumbnails for [Nekori](Nekori64)'s [StuffyXP](StuffyXP) channel and [KayAurora](KayAurora)'s [Lynxmic](Lynxmic) channel (plus one KayAurora video).
-
-<div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/kayauroraandnekoricollab/thumbnail.png" 
-        alt_text="" 
-        caption="Video Thumbnail"
-        style="width:30%; height:auto" %}
-</div>
 
 # Collab Structure
 The collab itself consisted of 5 total rounds, where Nekori and KayAurora remade thumbnails from their respective tech channels (StuffyXP and Lynxmic). The last round has a twist where Nekori made a thumbnail for the Lynxmic channel and KayAurora made a thumbnail for the StuffyXP channel.

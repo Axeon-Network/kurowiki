@@ -1,5 +1,4 @@
 ---
-
 layout: main
 title: Comet
 permalink: Comet
@@ -23,8 +22,6 @@ gender='Male'
 species='Dog/English Cocker Spaniel<br>Fox (Vulpes vulpes)'
 image='resources/img/articles/comet/profile.jpg'
 %}
-
-
 
 **Comet** (cannonically **Comet Nishi Adsurden**[^1] [^2]) is a fictional character created by [Nekori](Nekori64). It was also Nekori's fursona from when it was introduced up until November 2025, and is the main protagonist of the up-coming [Comet Adventure](Comet_Adventure) video game series.
 

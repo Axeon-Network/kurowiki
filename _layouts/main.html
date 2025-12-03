@@ -55,7 +55,48 @@
       loadTheme();
       });
      </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = '/resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     {% if site.background-dark %}
+     <style>
+      html {
+        --background-image-dark: url('../../resources/img/{{ site.background-dark }}');
+      }
+     </style>
+     {% endif %}
+    {% if site.background-light %}
+     <style>
+      html {
+        --background-image-light: url('../../resources/img/{{ site.background-light }}');
+      }
+     </style>
+     {% endif %}
   </head>
+
+  <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
 
   <!-- and so, it begins -->
   <body>
@@ -162,7 +203,7 @@
       <main class="mdl-layout__content">
         <div class="box mdl-shadow--8dp" id="mainbox">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
-            <div class="hatnote">
+              <div class="hatnote" markdown="1">
               {{ page.hatnote }}
             </div>
 
@@ -192,6 +233,7 @@
         {% endif %}
       </main>
     </div>
+    
   </body>
 </html>
 

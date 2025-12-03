@@ -21,7 +21,9 @@ image='resources/img/articles/kurowiki4074/home.png'
 
 Screenshots of this build were publicly shared on the [NekoCafe ft. AstroNT](NekoCafe) and [Axeon Network](Axeon_Network) Discord Servers, as well as a video of it made available on [Nekori](Nekori64)'s YouTube [channel](https://youtu.be/AadFTp3So8E).
 
-The product of an internal Jekyll bug, it is also known as the **Purgatory Build**. A plethora of articles were not included with this build as they would have blocked the compilation of this build otherwise. Technically speaking, Jekyll doesn't accept files encoded as UTF-8 with BOM, and any attempt to locally run a KuroWiki build from this branch would have led to an `Liquid Exception: invalid byte sequence in UTF-8` error.
+The product of an internal Jekyll bug, it is also known as the **Purgatory Build**. A plethora of articles were not included with this build as they would have blocked the compilation of this build otherwise. Technically speaking, Jekyll doesn't accept files encoded as UTF-8 with BOM, and any attempt to locally run a KuroWiki build from this branch would have led to an `Liquid Exception: invalid byte sequence in UTF-8` error. The root cause was eventually found to be unusual characters present inside SpringViewer code.
+
+The source code was publically archived on Internet Archive/archive.org and is [downloadable here](https://archive.org/details/axeon-kurowiki-beta-6-purgatory-build).
 
 # Gallery
 

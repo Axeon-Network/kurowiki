@@ -11,19 +11,20 @@ hatnote: For a complete list of KayWebsite versions, see <a href='KayWebsite_ver
 {% include infoboxes/site.html
 name='KayWebsite'
 formername='ClyronWebsite (2024-2025)'
-developer='<a href="KayAurora">KayAurora</a>'
+developer='KayAurora'
+developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v3.3.1'
-currentVersionReleaseDate='2025-10-07'
+currentVersion='v25.11.2'
+currentVersionReleaseDate='2025-11-29'
 sourceModel='Open source'
 repoLink='https://github.com/thekayaurora/thekayaurora.github.io'
 repoHost='GitHub'
 status='Available'
 link='https://kay.is-a.dev'
-image='resources/img/articles/kaywebsite/v3.3.png'
+image='resources/img/articles/kaywebsite/v25.10.png'
 %}
 
 **KayWebsite** (also known after its URL name, [kay.is-a.dev](https://kay.is-a.dev)) is [KayAurora](KayAurora)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying [LynxWebsite](LynxWebsite) and the [Lynxmic Blog](Lynxmic_Blog) under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
@@ -73,9 +74,9 @@ Like with the HoriWebsite retro frontend, KayAurora wanted to build one using Mi
 
 Much of v3.0's development happened in July 2025, immediately after v2.5.2's release. The website has undergone a new major visual overhaul, also nicely incorporating the design of the then-fairly-new KayAurora branding.
 
-v3.0 was finished and released on 18 July 2025, with the website now known under its current naming of **KayWebsite**. The Retro Frontend came later on 24 July 2025 with v3.1, [extensively and thoroughly tested](https://kay.is-a.dev/blog/2025-07-24-how-low-can-you-go-browser-compatibility/) for compatibility with ancient browsers.
+v3.0 was finished and released on 18 July 2025, with the website now known under its current naming of **KayWebsite**. The Retro Frontend came later on 24 July 2025 with v3.1, [extensively and thoroughly tested](https://kay.is-a.dev/blog/2025-07-24-how-low-can-you-go-browser-compatibility/) for compatibility with ancient browsers. v3.2, released 11 August 2025, primarily focused on fixes and refinements.
 
-v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's new visual branding along with a bunch of fixes and improvements. The currently available version used as of October 2025 is v3.3.1.
+v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's new visual branding along with a bunch of fixes and improvements. The final v3 release is v3.3.1, released 7 October 2025.
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
@@ -92,4 +93,18 @@ v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's
         image_src="resources/img/articles/kaywebsite/v3.3-retro.png" 
         alt_text="KayWebsite v3.3 Retro Frontend" 
         caption="KayWebsite v3.3 Retro Frontend" %}
+</div>
+
+## Version 25.xx
+KayWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time KayWebsite is built in production. The changelog page was also deprecated entirely in favor of the [KayWebsite version history](KayWebsite_version_history) KuroWiki article.
+
+v25.11, released on 6 November 2025, brought various bug fixes and improvements. Similarily, v25.11.1 and v25.11.2 from 19 and 29 November 2025 respectively primarily brought small refinements and updates in pages.
+
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v25.10.png" 
+        caption="KayWebsite v25.10, October 2025" %}
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v25.11.2.png" 
+        caption="KayWebsite v25.11.2, November 2025" %}
 </div>

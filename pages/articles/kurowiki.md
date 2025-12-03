@@ -16,17 +16,17 @@ writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Online Encyclopedia'
 initialVersion='<a href="KuroWiki_build_3567_(main_wik)">2.4.3567.main_wik.250504-1045</a>'
 initialVersionReleaseDate='2025-05-04'
-currentVersion='<a href="KuroWiki_build_3810">6.0.3810.main.251017-1808</a>'
-currentVersionReleaseDate='2025-10-17'
+currentVersion='<a href="KuroWiki_build_4100">6.0.4100.main.251030-0038</a>'
+currentVersionReleaseDate='2025-10-30'
 sourceModel='Open source'
 repoLink='https://github.com/Axeon-Network/kurowiki'
 repoHost='GitHub'
 status='Available'
 link='https://axeon-network.github.io/kurowiki'
-image='resources/img/articles/kurowiki3810/home.png'
+image='resources/img/articles/kurowiki4100/home.png'
 %}
 
-**KuroWiki** is an open-source online encyclopedia launched by the [Axeon Network](Axeon_Network) on **XXXX XX, 2025**.[ᵃ]{#noteb-a}{: id=note-a} Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [Nekori](Nekori), with other tweaks and adjustments having been done by [KayAurora](KayAurora).
+**KuroWiki** is an open-source online encyclopedia planned to be launched as stable by the [Axeon Network](Axeon_Network) on **28 December 2025**. Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [Nekori](Nekori64) and [KayAurora](KayAurora).
 
 KuroWiki was planned to be powered by MediaWiki with a custom user interface. However, it was decided instead to build a separate wiki engine, codenamed *Deltari*," using [Jekyll](https://jekyllrb.com).
 

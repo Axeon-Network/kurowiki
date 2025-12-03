@@ -1,0 +1,10 @@
+---
+layout: null
+permalink: /articles.json
+---
+[
+{% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" %}
+{% for p in article_pages %}
+  {{ p.url | jsonify }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

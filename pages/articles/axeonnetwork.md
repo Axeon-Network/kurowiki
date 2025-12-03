@@ -14,10 +14,9 @@ aliases:
     - lynxplaza
     - axeon community
 ---
-**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by KayAurora), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
+**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [KayAurora](KayAurora)), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
 
 Throughout the lifetime of Axeon, specifically in 2018-19, a couple of other community hangout spaces also existed in the form of a Twitch Desktop server, as well as a Steam Chat group. Other projects planned in 2018 but never actually made include *AxeonAuth* (a so-called "moderation bot" which is in fact actually a custom solution for member verification on Discord), *i.axeon* (a custom ShareX Image Uploader service), or *Meme FM* (a radio bot for Discord that would play “new and old” meme songs).
-A more notable recent project idea from July 2025 would've been a bot unifying both the Discord server, the Stoat server and the MidoriMC in-game chat under a *#global* text channel, however this was also shelved due to MidoriMC's closure.
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 
@@ -34,9 +33,9 @@ In late 2022, an attempt to revive the server has been made, with a major revamp
 
 In early April 2025, KayAurora officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Nekori](Nekori)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
-Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [NekoCafe](NekoCafe) in September 2025.
+Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
-On 8 September 2025, the Axeon Network Discord Server re-reached 100 members.
+On 8 September 2025, the Axeon Network Discord Server re-reached 100 members, however it dropped under that milestone after a month.
 
 <div>
     {% include figure_item.html 
@@ -56,10 +55,10 @@ Initially, there were several bots hosted specifically for the Axeon Network ser
 # KuroWiki
 *Main article: [KuroWiki](KuroWiki)*
 
-**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *Deltari* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
+**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Deltari](Deltari)* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
 Initially started with a main purpose of documenting meanings of inside jokes and other random Nekori-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and KayAurora-related things, since becoming a project part of the Axeon Network in September 2025.
 
-As of October 2025, KuroWiki has reached Beta 6.
+As of October 2025, KuroWiki has reached Beta 6. The latest version as of 30 October 2025 is [Build 4100](6.0.4100.main.251030-0038).
 
 # MidoriMC
 *Main article: [MidoriMC](MidoriMC)*

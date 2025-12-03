@@ -120,7 +120,7 @@ caption="Lorem ipsum dolor sit amet..." &percnt;}<br>
 ### Infoboxes
 The infobox item is usually located on the right side of the page, and includes a quick summary of what's presented in a specific article, similarily to other wikis.
 
-Currently upstream Deltari/KuroWiki supports the `build` type of infobox, which is usually used on versions of projects that use a versioning scheme similar to KuroWiki's. An example is shown here:
+Currently upstream Deltari/KuroWiki supports the following types of infobox: `build`, `channel`, `character`, `site`, `video`. Below is an example template for the `build` type of infobox (for the other types and allowed variables, please look at their corresponding includes files):
 
 <code>
 {&percnt; include infoboxes/build.html<br>

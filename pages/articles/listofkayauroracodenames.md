@@ -56,7 +56,7 @@ Name used for a planned new tech-oriented YouTube channel throughout February 20
 
 <h2 id="Preventemod">Preventemod</h2>
 
-Name used for a project for a separate moderation bot for Discord that has been worked on in 2018, later cancelled.
+Name used for a project for a separate moderation bot for Discord that has been worked on in early 2018, later cancelled.
 The name can be understood as sort of a combination between the words "prevent" ("*to prevent [bad event]*") and "mod" ("*to moderate - take action to stop/prevent [bad event]*"), with the letter "*e*" added between them in an attempt to create a more unique, fluent name.
 
 <h1 id="R">R</h1>
