@@ -7,5 +7,5 @@ async function loadRandomArticle() {
     }
 
     const article = articles[Math.floor(Math.random() * articles.length)];
-    window.location.href = "/kurowiki/" + article;
+    window.location.href = "/kurowiki" + article;
 }
