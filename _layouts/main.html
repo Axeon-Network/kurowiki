@@ -60,7 +60,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const storageKey = 'onekoEnabled';
     const scriptId = 'onekoTag';
-    const scriptSrc = '/resources/js/oneko.js';
+    const scriptSrc = '../../resources/js/oneko.js';
 
     function loadScript() {
         if (document.getElementById(scriptId)) return;
@@ -82,21 +82,18 @@ document.addEventListener('DOMContentLoaded', () => {
      {% if site.background-dark %}
      <style>
       html {
-        --background-image-dark: url('../../resources/img/{{ site.background-dark }}');
+        --background-image-dark: url('./resources/img/{{ site.background-dark }}');
       }
      </style>
      {% endif %}
     {% if site.background-light %}
      <style>
       html {
-        --background-image-light: url('../../resources/img/{{ site.background-light }}');
+        --background-image-light: url('./resources/img/{{ site.background-light }}');
       }
      </style>
      {% endif %}
   </head>
-
-  <!-- 'I'm Feeling Lucky' deltari edition -->
-  <script src="./resources/js/randomarticle.js"></script>
 
   <!-- and so, it begins -->
   <body>
@@ -168,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
           </a>
        
-          <a class="mdl-navigation__link" id="drawerlink" href="#" id="random-article">
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
           </a>
 
@@ -233,7 +230,9 @@ document.addEventListener('DOMContentLoaded', () => {
         {% endif %}
       </main>
     </div>
-    
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
   </body>
 </html>
 

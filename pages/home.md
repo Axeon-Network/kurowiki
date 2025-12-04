@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <h1 style="color:var(--kurowiki-accent)">Welcome to KuroWiki!</h1>
 
 <!-- actual homepage description -->
-<!-- <p class="homepage-description">Some temporary string here....<br>TODO: add a proper description</p> -->
 <p class="homepage-description">{{ site.home_desc }}<br>You can use the drawer or the search bar to browse the contents of this wiki!</p>
 
 <!-- cards to make the homepage complete™ -->

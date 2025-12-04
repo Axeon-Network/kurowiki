@@ -53,7 +53,7 @@ featuredarticle: axeonnetwork
 
 # retail tag. specifies the version number used in the drawer, and is to be replaced by
 # an incrementing one IF the debug mode is enabled.
-retailtag: 6.0.4100.main.251030-0038
+retailtag: 6.0.4400.main.251204-0046
 
 # THEMING
 # your background
@@ -70,12 +70,12 @@ devphase: Beta 6
 # debug mode
 # setting this to true enables the debug kurowiki and springviewer watermarks, 
 # and enables the incrementing build number in the drawer alongside a (Debug) suffix to the string above Axeon KuroWiki
-debug: true
+debug: false
 
 # retail mode
 # enable this for non-developer builds, like public releases or IDRs
 # The Two KuroWiki Developers Shall Not Forget This Setting
-retail: false
+retail: true
 
 # stupid
 myvariable: "{{ site.myvariable }}"

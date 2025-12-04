@@ -21,11 +21,10 @@ Jekyll::Hooks.register :site, :post_write do |site|
   Jekyll.logger.info "DeltaSearch:", "Created output directory: #{output_dir}"
 
   # get configuration variables
-  site_url = site.config['url'].to_s.chomp('/')
   baseurl = site.config['baseurl'].to_s.chomp('/')
   
   # if prod, use the configured prod url
-    url_prefix = site_url + baseurl
+    url_prefix = baseurl
     Jekyll.logger.info "DeltaSearch:", "Using production prefix: #{url_prefix}"
     Jekyll.logger.info "", "If you want to use the compiled the search index for a debug build,"
     Jekyll.logger.info "", "simply go into resources/json/search.json and replace all instances of"

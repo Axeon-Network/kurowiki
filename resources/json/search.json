@@ -1,577 +1,661 @@
 [
   {
     "title": "Absolute Cinema",
-    "url": "https://axeon-network.github.io/kurowiki/Absolute Cinema",
+    "url": "Absolute Cinema",
     "aliases": "",
     "snippet": "Absolute Cinema is an Internet meme used several times by Nekori on the Internet."
   },
   {
     "title": "AstroNT",
-    "url": "https://axeon-network.github.io/kurowiki/AstroNT",
+    "url": "AstroNT",
     "aliases": "",
     "snippet": "AstroNT..."
   },
   {
     "title": "A VMware First-Timer installs Windows XP!",
-    "url": "https://axeon-network.github.io/kurowiki/A_VMware_First-Timer_installs_Windows_XP!",
+    "url": "A_VMware_First-Timer_installs_Windows_XP!",
     "aliases": "vmware first time vmwarefirsttime",
     "snippet": "A VMware First-Timer installs Windows XP!"
   },
   {
-    "title": "Contributing to KuroWiki",
-    "url": "https://axeon-network.github.io/kurowiki/pages/contributing-to-kurowiki.md.old",
+    "title": "Debug Info",
+    "url": "debug",
     "aliases": "",
-    "snippet": "Welcome to KuroWiki!"
+    "snippet": "Debug Information..."
   },
   {
     "title": "Development of KuroWiki",
-    "url": "https://axeon-network.github.io/kurowiki/Development_of_KuroWiki",
+    "url": "Development_of_KuroWiki",
     "aliases": "",
     "snippet": "Initial ideas for what would eventually become KuroWiki existed as early as April 2025 with the set goal of making easy to get information about Nekori’s projects."
   },
   {
     "title": "Dogui",
-    "url": "https://axeon-network.github.io/kurowiki/Dogui",
+    "url": "Dogui",
     "aliases": "",
     "snippet": "Dogui is the dog plushie owned by Nekori."
   },
   {
     "title": "Finding Fucking",
-    "url": "https://axeon-network.github.io/kurowiki/Finding_Fucking",
+    "url": "Finding_Fucking",
     "aliases": "",
     "snippet": "Finding Fucking is a 2025 short documentary film produced by the Axeon Network and created by DHI Pictures (in reality, created by Nekori and KayAurora)."
   },
   {
     "title": "HoriServer",
-    "url": "https://axeon-network.github.io/kurowiki/HoriServer",
+    "url": "HoriServer",
     "aliases": "",
     "snippet": "HoriServer1 is a server on the Discord alternative Stoat (formerly revolt.chat)."
   },
   {
     "title": "HoriServer (2)",
-    "url": "https://axeon-network.github.io/kurowiki/HoriServer_(2)",
+    "url": "HoriServer_(2)",
     "aliases": "",
     "snippet": "HoriServer (2) (sometimes abbreviated as HS2) was a Discord Server created by Nekori to succeed StuffyXP Hangout after the sunsetting of StuffyXP on 14 March 2025."
   },
   {
     "title": "HoriWebsite",
-    "url": "https://axeon-network.github.io/kurowiki/HoriWebsite",
+    "url": "HoriWebsite",
     "aliases": "",
     "snippet": "HoriWebsite..."
   },
   {
+    "title": "%iKBLULTGT2%",
+    "url": "iKBLULTGT2",
+    "aliases": "intel graphics driver",
+    "snippet": "%iKBLULTGT2% is the name for an Intel HD Graphics driver modded to work under Windows 7 on Thei5Lappy (Dell Latitude 3380), which uses a 7th gen Intel CPU (codenamed Kaby Lake), which officially delibrately does not support any version of Windows that’s not Windows 10."
+  },
+  {
     "title": "KayAurora and Nekori Collab",
-    "url": "https://axeon-network.github.io/kurowiki/KayAurora_and_Nekori_Collab",
+    "url": "KayAurora_and_Nekori_Collab",
     "aliases": "kayaurora and nekori video collab recreating old youtube thumbnails",
     "snippet": "Recreating Old YouTube Thumbnails (ft."
   },
   {
+    "title": "KayWebsite version history",
+    "url": "KayWebsite_version_history",
+    "aliases": "",
+    "snippet": "This is a list of all released versions of KayWebsite and their changelogs, as of 30 October 2025, from latest to earliest."
+  },
+  {
     "title": "KuroWiki build 2000",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_2000",
+    "url": "KuroWiki_build_2000",
     "aliases": "kurowiki 2000",
     "snippet": "4.2.2000.kuro_escro.250725-1423..."
   },
   {
     "title": "KuroWiki build 2600 (Beta 6)",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_2600_(Beta_6)",
+    "url": "KuroWiki_build_2600_(Beta_6)",
     "aliases": "kurowiki 2600 kurowiki 2600 beta 6",
     "snippet": "6.0.2600.nekori64.251012-1610..."
   },
   {
     "title": "KuroWiki build 2600 (main)",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_2600",
+    "url": "KuroWiki_build_2600",
     "aliases": "kurowiki 2600",
     "snippet": "5.1.2600.main.250928-0955..."
   },
   {
     "title": "KuroWiki build 3567 (kayaurora)",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3567_(kayaurora)",
+    "url": "KuroWiki_build_3567_(kayaurora)",
     "aliases": "kurowiki 3567 kurowiki 3567 kayaurora kurowiki 3567 kay",
     "snippet": "5.2.3567.kayaurora.251009-0049..."
   },
   {
     "title": "KuroWiki build 3567 (main_wik)",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3567_(main_wik)",
+    "url": "KuroWiki_build_3567_(main_wik)",
     "aliases": "kurowiki 3567 kurowiki 3567 main wik kurowiki 3567 main kurowiki first build",
     "snippet": "2.4.3567.main-wik.250504-1045..."
   },
   {
     "title": "KuroWiki build 3615",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3615",
+    "url": "KuroWiki_build_3615",
     "aliases": "kurowiki 3615",
     "snippet": "5.2.3615.main.251011-0412..."
   },
   {
     "title": "KuroWiki build 3680",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3680",
+    "url": "KuroWiki_build_3680",
     "aliases": "kurowiki 3680",
     "snippet": "5.2.3680.main.251012-0101..."
   },
   {
     "title": "KuroWiki build 3686",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3686",
+    "url": "KuroWiki_build_3686",
     "aliases": "kurowiki 3686",
     "snippet": "6.0.3686.nekori64.251013-0239..."
   },
   {
     "title": "KuroWiki build 3689",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3689",
+    "url": "KuroWiki_build_3689",
     "aliases": "kurowiki 3689",
     "snippet": "6.0.3689.kayaurora.251013-0239..."
   },
   {
     "title": "KuroWiki build 3705",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3705",
+    "url": "KuroWiki_build_3705",
     "aliases": "kurowiki 3705",
     "snippet": "6.0.3705.nekori64.251012-1832..."
   },
   {
     "title": "KuroWiki build 3761",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3761",
+    "url": "KuroWiki_build_3761",
     "aliases": "kurowiki 3761",
     "snippet": "6.0.3761.nekori64.251012-2001..."
   },
   {
     "title": "KuroWiki build 3762",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3762",
+    "url": "KuroWiki_build_3762",
     "aliases": "kurowiki 3762",
     "snippet": "6.0.3762.nekori64.251012-2007..."
   },
   {
     "title": "KuroWiki build 3810",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3810",
+    "url": "KuroWiki_build_3810",
     "aliases": "kurowiki 3810",
     "snippet": "6.0.3810.main.251017-1808..."
   },
   {
     "title": "KuroWiki build 3842",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3842",
+    "url": "KuroWiki_build_3842",
     "aliases": "kurowiki 3842",
     "snippet": "6.0.3842.nekori64.251022-2057..."
   },
   {
     "title": "KuroWiki build 3880",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3880",
+    "url": "KuroWiki_build_3880",
     "aliases": "kurowiki 3880",
     "snippet": "6.0.3880.kayaurora.251028-0131..."
   },
   {
     "title": "KuroWiki build 3889",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3889",
+    "url": "KuroWiki_build_3889",
     "aliases": "kurowiki 3889",
     "snippet": "6.0.3889.nekori64.251027-1715..."
   },
   {
     "title": "KuroWiki build 3933",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_3933",
+    "url": "KuroWiki_build_3933",
     "aliases": "kurowiki 3933",
     "snippet": "6.0.3933.nekori64.251027-1830..."
   },
   {
     "title": "KuroWiki build 4074",
-    "url": "https://axeon-network.github.io/kurowiki/KuroWiki_build_4074",
+    "url": "KuroWiki_build_4074",
     "aliases": "kurowiki 4074",
     "snippet": "6.0.4074.nekori64.251029-1452..."
   },
   {
+    "title": "KuroWiki build 4100",
+    "url": "KuroWiki_build_4100",
+    "aliases": "kurowiki 4100",
+    "snippet": "6.0.4100.main.251030-0038..."
+  },
+  {
+    "title": "KuroWiki build 4177",
+    "url": "KuroWiki_build_4177",
+    "aliases": "kurowiki 4177",
+    "snippet": "6.0.4177.kayaurora.251109-0134..."
+  },
+  {
+    "title": "KuroWiki build 4219",
+    "url": "KuroWiki_build_4219",
+    "aliases": "kurowiki 4219",
+    "snippet": "6.0.4219.kayaurora.251125-1613..."
+  },
+  {
+    "title": "KuroWiki build 4232",
+    "url": "KuroWiki_build_4232",
+    "aliases": "kurowiki 4232",
+    "snippet": "6.0.4232.kayaurora.251128-2335..."
+  },
+  {
     "title": "List of all KuroWiki builds",
-    "url": "https://axeon-network.github.io/kurowiki/List_of_all_KuroWiki_builds",
+    "url": "List_of_all_KuroWiki_builds",
     "aliases": "",
     "snippet": "This article is a list of all known KuroWiki builds."
   },
   {
     "title": "List of KayAurora Codenames",
-    "url": "https://axeon-network.github.io/kurowiki/List_of_KayAurora_Codenames",
+    "url": "List_of_KayAurora_Codenames",
     "aliases": "",
     "snippet": "This article shows a list of codenames used by KayAurora in their projects."
   },
   {
     "title": "List of Lynxmic videos",
-    "url": "https://axeon-network.github.io/kurowiki/List_of_Lynxmic_videos",
+    "url": "List_of_Lynxmic_videos",
     "aliases": "",
     "snippet": "This article is a list of all Lynxmic videos on YouTube (excluding ones set as Unlisted or Private)."
   },
   {
     "title": "Lynxmic Blog",
-    "url": "https://axeon-network.github.io/kurowiki/Lynxmic_Blog",
+    "url": "Lynxmic_Blog",
     "aliases": "lynxblog",
     "snippet": "Lynxmic Blog..."
   },
   {
     "title": "LynxWebsite",
-    "url": "https://axeon-network.github.io/kurowiki/LynxWebsite",
+    "url": "LynxWebsite",
     "aliases": "lynxmic website",
     "snippet": "LynxWebsite..."
   },
   {
     "title": "Nishi",
-    "url": "https://axeon-network.github.io/kurowiki/Nishi",
+    "url": "Nishi",
     "aliases": "",
     "snippet": "Nishi..."
   },
   {
+    "title": "NovaServer",
+    "url": "NovaServer",
+    "aliases": "",
+    "snippet": "NovaServer is a server on the Discord alternative Stoat (formerly revolt.chat)."
+  },
+  {
     "title": "NovaSite",
-    "url": "https://axeon-network.github.io/kurowiki/NovaSite",
+    "url": "NovaSite",
     "aliases": "",
     "snippet": "NovaSite (reffered to as Lex’s NovaSite in the website itself) was a website planned to succeed HoriWebsite and LexSite as Nekori’s personal website."
   },
   {
+    "title": "Stuffy's Tech Misadventures",
+    "url": "Stuffy's Tech Misadventures",
+    "aliases": "",
+    "snippet": "Stuffy’s Tech Misadventures was a video series planned for the StuffyXP channel sometime between March 2024 and May 2024."
+  },
+  {
     "title": "StuffyXP",
-    "url": "https://axeon-network.github.io/kurowiki/StuffyXP",
+    "url": "StuffyXP",
     "aliases": "stxp",
     "snippet": "/* so the infoboxes dont overlap,..."
   },
   {
+    "title": "StuffyXP 2",
+    "url": "StuffyXP_2",
+    "aliases": "",
+    "snippet": "StuffyXP 2 may refer to:..."
+  },
+  {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/🅰️",
+    "url": "🅰️",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/ABoard",
+    "url": "ABoard",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/🅰️_Board",
+    "url": "🅰️_Board",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/🅰️Board",
+    "url": "🅰️Board",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horibyte_LeafyOS",
+    "url": "Horibyte_LeafyOS",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/StuffyXP_LeafyOS",
+    "url": "StuffyXP_LeafyOS",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LeafyOS",
+    "url": "LeafyOS",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Project_Arctic",
+    "url": "Project_Arctic",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LexNova_Arctic",
+    "url": "LexNova_Arctic",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Arctic",
+    "url": "Arctic",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horibyte_Arctic",
+    "url": "Horibyte_Arctic",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Lexibyte_Arctic",
+    "url": "Lexibyte_Arctic",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LynxPlaza",
+    "url": "LynxPlaza",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Axeon",
+    "url": "Axeon",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Axeon_Community",
+    "url": "Axeon_Community",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Aqua_Community",
+    "url": "Aqua_Community",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Comet_Nishi_Adsurden",
+    "url": "CC",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Stuff_Adventure",
+    "url": "Cairo_Company",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Stuffy_Adventure",
+    "url": "Cairo_Company_Inc",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Starlight_Adventure",
+    "url": "Comet_Nishi_Adsurden",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/DHI_Inc",
+    "url": "Stuff_Adventure",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/DHI",
+    "url": "Stuffy_Adventure",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Dogui_Heavy_Industries",
+    "url": "Starlight_Adventure",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Dogui_Heavy_Industries_Inc",
+    "url": "DHI_Inc",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horicraft_(1)",
+    "url": "DHI",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horicraft_1",
+    "url": "Dogui_Heavy_Industries",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/StuffyCraft",
+    "url": "Dogui_Heavy_Industries_Inc",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horicraft_2",
+    "url": "Horicraft_(1)",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/ClyronWebsite",
+    "url": "Horicraft_1",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LexWiki",
+    "url": "StuffyCraft",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/HoriWiki",
+    "url": "Horicraft_2",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/List_of_Lexibyte_Codenames",
+    "url": "HURS",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/List_of_Horibyte_Codenames",
+    "url": "Clyron",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/solarixtech",
+    "url": "ClyronWebsite",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Solarix",
+    "url": "LexWiki",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/BW Tech",
+    "url": "HoriWiki",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/BriciWorld",
+    "url": "List_of_Lexibyte_Codenames",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Computerseasons",
+    "url": "List_of_Horibyte_Codenames",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/AxeonMC",
+    "url": "solarixtech",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Nekori",
+    "url": "Solarix",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horibyte",
+    "url": "BW Tech",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Lexibyte",
+    "url": "BriciWorld",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LexNova",
+    "url": "Computerseasons",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LexTheNova",
+    "url": "AxeonMC",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horibyte_Moments",
+    "url": "Nekori",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Stuffy_Moments",
+    "url": "Horibyte",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/NekoCafe",
+    "url": "Lexibyte",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/LexLand",
+    "url": "LexNova",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Horiland",
+    "url": "LexTheNova",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/StuffyWebsite",
+    "url": "Horibyte_Moments",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Stuffys_Website",
+    "url": "Stuffy_Moments",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/StuffyWebsiteWOU",
+    "url": "NekoCafe",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/WOU",
+    "url": "LexLand",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Week_One_Update",
+    "url": "Horiland",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/eMachines_ET1810",
+    "url": "StuffyWebsite",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/eMachines_ET1810_Revision_3",
+    "url": "Stuffys_Website",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/TheCeleryPC_(Nekori)",
+    "url": "StuffyWebsiteWOU",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/Dell_Latitude_3380",
+    "url": "WOU",
     "aliases": "",
     "snippet": "..."
   },
   {
     "title": "",
-    "url": "https://axeon-network.github.io/kurowiki/SuperNova",
+    "url": "Week_One_Update",
+    "aliases": "",
+    "snippet": "..."
+  },
+  {
+    "title": "",
+    "url": "eMachines_ET1810",
+    "aliases": "",
+    "snippet": "..."
+  },
+  {
+    "title": "",
+    "url": "eMachines_ET1810_Revision_3",
+    "aliases": "",
+    "snippet": "..."
+  },
+  {
+    "title": "",
+    "url": "TheCeleryPC_(Nekori)",
+    "aliases": "",
+    "snippet": "..."
+  },
+  {
+    "title": "",
+    "url": "Dell_Latitude_3380",
+    "aliases": "",
+    "snippet": "..."
+  },
+  {
+    "title": "",
+    "url": "SuperNova",
     "aliases": "",
     "snippet": "..."
   }

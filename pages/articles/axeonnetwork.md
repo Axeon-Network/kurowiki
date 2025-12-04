@@ -58,7 +58,7 @@ Initially, there were several bots hosted specifically for the Axeon Network ser
 **KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Deltari](Deltari)* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
 Initially started with a main purpose of documenting meanings of inside jokes and other random Nekori-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and KayAurora-related things, since becoming a project part of the Axeon Network in September 2025.
 
-As of October 2025, KuroWiki has reached Beta 6. The latest version as of 30 October 2025 is [Build 4100](6.0.4100.main.251030-0038).
+As of October 2025, KuroWiki has reached Beta 6. The latest version as of 4 December 2025 is [Build 4400](KuroWiki_build_4400).
 
 # MidoriMC
 *Main article: [MidoriMC](MidoriMC)*

@@ -259,4 +259,4 @@ On 17 October 2025, [Interim Developer Release 3](KuroWiki_build_3810) (Build 38
 
 On 30 October 2025, [Interim Developer Release 4](KuroWiki_build_4100) released as build 4100, which would end up being the latest public KuroWiki release for over a month. Just prior to IDR4, a video and screenshots of [build 4074](KuroWiki_build_4074) "Purgatory Build" were publicly shared by Nekori and later made available for download on archive.org. It had a plethora of KuroWiki articles missing and was the result of an internal Jekyll bug which was later found to be caused by formatting issues in the SpringViewer code.
 
-The main, final Beta 6 release was rolled out on 1 December 2025.
+The main, final Beta 6 release was rolled out on 4 December 2025 just after UTC+2 midnight as [6.0.4400.main.251204-0046](build 4400), finally concluding the Beta stage of KuroWiki after over 6 months.
