@@ -1,5 +1,5 @@
 async function loadRandomArticle() {
-    const res = await fetch("/articles.json");
+    const res = await fetch("./articles.json");
     const articles = await res.json();
     if (!articles?.length) {
         alert("No articles found");
