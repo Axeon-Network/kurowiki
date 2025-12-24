@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>Lynxmic ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              <p>This article is incomplete.</p>
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >Lynxmic</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p><strong>Lynxmic</strong> (previously known as <strong>solarixtech</strong>, <strong>BriciWorld</strong> and <strong>Computerseasons</strong>) is a tech-focused YouTube channel ran and owned by <a href="KayAurora">KayAurora</a> launched on 5 December 2016.</p>
+
+<p>It is the first created of KayAurora’s main channels to be completely in the English language from the start. The channel’s content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only “opinion” or “tech news” videos and previously “updates” videos, discontinued in favor of just using social media and YouTube’s Community Tab (now the <em>Posts</em> tab) upon rollout.</p>
+
+<p>In April 2025, KayAurora announced the stopping of new Lynxmic content due to dwindling interest and motivation. Occasional new videos and streams would still come out, but would be spontaneous and low-quality.</p>
+
+<p>As of November 2025, the channel has over 1,500+ subscribers and 125+ public videos - the largest of KayAurora’s channels. In total, the channel has about 330 videos including ones set as unlisted or private. A list of Lynxmic videos can be found <a href="List_of_Lynxmic_videos">here</a>.</p>
+
+<div>
+    <figure>
+    <img src="resources/img/articles/lynxmic/logo.png" alt="Current Lynxmic logo as of February 2025" author="" loading="lazy" style="width:10%; height:auto" />
+    <figcaption>
+        Current Lynxmic logo as of February 2025
+    </figcaption>
+</figure>
+        </div>
+
+<h1 id="history">History</h1>
+<h2 id="2016-2017-backstory-and-channel-beginnings">2016-2017: Backstory and channel beginnings</h2>
+<p>The backstory of the online identity that would eventually become <strong>Computerseasons</strong> dates back to early September 2016, when KayAurora discovered several small mainly tech-oriented YouTube channels in English language, some which were blowing up at this time, and started watching them. Later on 27 October 2016, KayAurora created their first Discord Account under a different online alias.</p>
+
+<p>The Lynxmic channel was initially created as Computerseasons on 5 December 2016, when KayAurora got <a href="Toshiba_Laptop">their first laptop</a>, as it was becoming increasingly clear that a separate online identity was an ideal must for the English stuff as opposed to the primarily-native-language one at the time (which was eventually retired by mid-2017). Their Discord Account and Server at the time also took the Computerseasons name.</p>
+
+<p>Later on 24 December 2016, the Computerseasons Twitter Account would be created under the handle <code class="language-plaintext highlighter-rouge">@ComputerStudio2</code> (today <code class="language-plaintext highlighter-rouge">@Lynxmic</code>), which would be primarily used to interact with English-language accounts. This account would however stay mostly inactive until around July 2017, when it began to be used until KayAurora quit Twitter in 2023 in favor of the Fediverse.</p>
+
+<p>2016 videos mostly consisted of videos made with the Adobe Flash-based YT Video Editor or RAW unedited recordings. Today, only one of the 2016 videos still exist, albeit private for privacy reasons.</p>
+<div>
+    <figure>
+    <img src="resources/img/articles/lynxmic/cs_channel_picture.png" alt="Computerseasons logo, December 2016" author="" loading="lazy" style="width:10%; height:auto" />
+    <figcaption>
+        Computerseasons logo, December 2016
+    </figcaption>
+</figure>
+        </div>
+
+<p>January 2017 saw the launch of the second/extras channel of Computerseasons, named <strong>Computerseasons2</strong> (today MoreLynxmic).</p>
+
+<p>KayAurora continued to post several random videos to the Computerseasons channel until new content inexplicably ceased in April 2017. No more videos would be posted until August 2017, when the channel was rebooted as <strong>BriciWorld Productions</strong> (BWP), this time with more proper edited videos, using Camtasia Studio 8. The intro and outro first became standard elements of a BWP video around this time. Most of the pre-BWP 2016-17 videos were deleted around this time for unknown reasons. In October 2017, the channel was renamed just <strong>BriciWorld</strong>, receiving the branding of KayAurora’s then actual online identity which had been used since late July 2017 for consistency.</p>
+
+<p>December 2017 saw the release of the video <em>How to get Visual Studio Code Rich Presence for Discord</em>, which would end up the most viewed video on the channel until being finally surpassed in 2022 at just past 4K views. The year ended with the channel having a mere 15 subs. Additionally, <a href="BW-Tech">BW-Tech</a> launched as a channel that would strictly only upload tech videos.</p>
+
+<h2 id="2018-briciworld-solarix-and-initial-growth">2018: <em>BriciWorld</em>, <em>Solarix</em> and initial growth</h2>
+<p>In 2018, the Lynxmic channel saw its first wave of significant growth. Many videos hit the 100 view milestone for the first time, with the channel ending the year at almost 60 subscribers.</p>
+
+<p>In January 2018, no video has been uploaded aside from a <em>BW Updates</em> video announcing the launch of <a href="Axeon_Network">Aqua Community</a> and the <a href="Solarix's_Blog">BriciWorld Medium blog</a>.</p>
+
+<p>February 2018 saw the launch of the <em>OS Look-Back</em> series (under the <em>OS Look-Back 2018</em> naming), where BriciWorld would casually take a look at old Windows operating systems. The 1st episode came out on 2 February featuring Windows 95, followed by an episode on Windows 2000 to celebrate its 18th anniversary since the launch (19 February). Four other episodes came out in March (on Windows 98 and NT 4.0) and April (on Windows ME and XP), the Windows XP episode being the final one with the release date of 21 April 2018.</p>
+
+<p>On 26 March 2018, a tutorial video series was started, deemed <em>Discord.js bot tutorial</em> or <em>Make a Discord Bot!</em>. Around the same time, BW-Tech was also deleted and merged back into the main BriciWorld channel due to lack of content. With that, casual tech content started being uploaded on BriciWorld, with 13 videos having been uploaded in total in April, followed by another 14 videos in May.</p>
+
+<p>On 14 May 2018, the <em><a href="Windows_98_for_Daily_Use">Windows 98 for Daily Use</a></em> video series was officially announced, with the first episode released on 1 June 2018. Also in May, the channel was renamed from <em>BriciWorld</em> to <em>BW Tech</em>.</p>
+
+<p>New videos significantly slowed down in June 2018 after KayAurora’s then-main PC died. However production resumed on 27 June with the monthly <em>BW Updates</em> video after they got <a href="TheHaswellLappy">TheHaswellLappy</a>, which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. Videos also began to be generally exported in 1080p instead of 720p around the same time.</p>
+
+<p>New videos continued to be posted on a frequent basis, even with significant periods of daily uploads lasting even 5 days. In mid August 2018, the channel was rebranded from <em>BW Tech</em> to <em>Solarix</em>, effectively retiring the <em>Brici</em> naming for good as the previous name was still a reference to BriciWorld.</p>
+
+<p>On 6 September 2018, season 2 of the <em>OS Look-Back</em> series (<em>OS Look-Back 2019</em>) was announced for 2019 with a “Reveal Trailer” releasing the same day.<br />
+The new season promised coverage of more old operating systems and a “better viewing experience”, in fact justified by improved editing skills since April 2018. However only one episode was released on Windows 3.1 on 13 April 2019, the other planned episodes (which included remakes of season 1 episodes) were later cancelled due to the series’ general pointlessness. A 3rd season (dubbed <em>OS Look-Back 20</em>) was also planned for 2020 before being scrapped entirely as well with the “channel restart” in August 2019. Season 3 was planned to begin with a special episode with the occasion of Windows 7’s EOS on 14 January 2020.</p>
+
+<p>Also in September 2018, new videos began to be exported in 60fps instead of 30fps as well. Tech news videos have been a major focus on the channel that month. October 2018 saw the final installment of <em>This Month on Solarix</em> (formerly <em>BW Updates</em>), a monthly series of videos recapping the most notable project-related news of the month, due to their pointlessness and low views in general.</p>
+
+<h2 id="2019-continued-growth-and-early-lynxmic">2019: Continued growth and early <em>Lynxmic</em></h2>
+<p>In early 2019, the Lynxmic channel then known as <strong>Solarix</strong> continued to see frequent uploads and livestreams, although the frequency rate was slowly going down by this point, with most videos this year have been uploaded in January and March 2019 (both equally having 11 videos in total).</p>
+
+<p>At the same time, KayAurora also attempted to switch editing software, from Camtasia to Vegas Pro 16, which failed as they kept using the former more than the latter. However, they began using OBS Studio as both streaming and recording software in place of Camtasia Recorder, OBS Studio having been solely used for streaming in the past. It is still being used by KayAurora to this day.</p>
+
+<p>KayAurora has been getting slowly demotivated to even do anything over time, including new videos, which even the simplest ones started taking more than a day to produce. What doesn’t help is that Fall 2018 has seen KayAurora being affected by negative experiences including criticism over at least some of the videos and at-least-slightly-traumatizing social media feuds especially at an younger age. All of these led not only to cut-offs, but also a sudden rise of standards, or at least an attempt in one.</p>
+
+<p>On 3 March 2019, the final episode of the <em>Make a Discord Bot!</em> series was uploaded. The series ended at a total of 7 episodes after almost a year due to “lack of interest in continuing”. KayAurora claimed they would continue to code, but over time more and more coding projects would be discontinued (starting with <a href="Solarix_Website">Solarix Website</a> in April), culminating in them quitting coding entirely in July 2019 with <a href="Venus">Venus</a> Bot and other remaining code projects being discontinued.</p>
+
+<p>May 2019 saw many videos going unlisted/privated from the channel, as KayAurora wanted to do it but couldn’t quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of <a href="Windows_98_for_Daily_Use">Windows 98 for Daily Use</a> being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year.</p>
+
+<p>On 1 June 2019, the first episode of <a href="Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use">Windows XP for Daily Use</a> was uploaded. However the series would only last for another episode before being cancelled entirely, with a 3rd episode only having been recorded and never edited. The RAW recordings of episode 3 of WXPFDU were later uploaded with very minimal editing to <a href="NightskyArchive">Axeon_Productions</a> in 2020.</p>
+
+<p>By early August 2019, every single video and stream have been hidden from the channel (except for the latest video at the time, <em>Upgrading from Windows 3.1 to Windows 7</em>), with KayAurora having mostly purged/hidden most-if-not-all social media posts, and also switched Discord accounts as well. Around mid-to-late August 2019, the <em>Lynxmic</em> name was introduced fully replacing Solarix/solarixtech.</p>
+
+<p>Late 2019 Lynxmic videos were more rare as opposed to early 2019 Solarix videos, but there were at least slightly bigger video standards. In fact, KayAurora has been putting rather extreme standards for themselves as to what they post about and interact with, which resulted in negative impacts for themselves that in some form are still there to this day. For example, if just a year prior they were in over 60 Discord servers, that number has went down to a total of mere 4 Discord servers and has been the same for a long time.</p>
+
+<p>In late October 2019, the Lynxmic channel hit 100 subscribers for the first time, however YT Audits have then pushed the number down to just past 90 subs, then to below 80 subs by 2020.<br />
+A <em>Lynx Explores</em> series was planned in September 2019 but cancelled. Livestreams have been under the <em>LynxLIVE</em> umbrella, with best moments being uploaded as separate <em>LynxLIVE Highlight</em> videos. At the end of every year there would be so called <em>LynxLIVE Special</em> streams.</p>
+
+<h2 id="2020-2021-the-great-decline">2020-2021: The Great Decline</h2>
+<p>Content in 2020 has been consistent year-round, with 1-3, sometimes 4 videos being uploaded every month. Videos mostly consisted of update videos, videos of KayAurora sharing their opinions on various things in the tech news space, installation and exploration videos or even Minecraft videos.</p>
+
+<p>However, despite world events, the Lynxmic project just like any of KayAurora’s online projects at the time (including the <a href="Axeon_Network">Axeon Community</a> Discord server) have been in a continued collapse during 2020 and 2021 after decisions made throughout 2019. All attempts to keep things afloat have failed in the long run.</p>
+
+<p>An official “Lynxmic Discord Server” was launched as <a href="LynxPlaza_(original)">Lynxmic Official Server</a> as a spinoff from Axeon in late 2019, later renamed <em>LynxPlaza</em>, but it was merged back into Axeon in November 2020 in an attempt to have everyone in one single server.</p>
+
+<p>2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after KayAurora got <a href="Thei3Lappy">a new main laptop</a> to replace <a href="TheHaswellLappy">TheHaswellLappy</a>, which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.</p>
+
+<p>Most videos during 2020 and 2021 have had less than 100 views, while only a few videos had 100-500 views.</p>
+
+<h2 id="2022-100-subscribers">2022: 100 subscribers</h2>
+<p><em>This section is incomplete.</em></p>
+
+<p>2022 has seen more frequent videos than in 2021, especially since August when the channel moved to a weekly schedule with videos uploaded every Saturday morning (UTC+2/+3, depending if Daylight Saving Time is in effect or not).</p>
+
+<p>The channel re-hit 100 subscribers in October.</p>
+
+<h2 id="2023-400-subscribers">2023: 400 subscribers</h2>
+<p><em>This section is incomplete.</em></p>
+
+<p>2023 saw the current most popular video being uploaded in February, <em>Upgrading from Windows 1.0 to Windows 10</em>, with over 35K views. The weekly schedule generally in place since August 2022 has been phased out in April 2023. The channel ended 2023 with over 400 subscribers, by far the largest rise in analytical numbers since 2018.</p>
+
+<h2 id="2024-1000-subscribers">2024: 1,000 subscribers</h2>
+<h3 id="lynxmic-2024"><em>Lynxmic 2024</em></h3>
+<p>The Lynxmic project entered 2024 with a new branding, which would use a pink-blue gradient, part of wider plans for the biggest and most ambitious changes in Lynxmic history that took place on the night between 2023 and 2024.</p>
+
+<p>Original concepts pointed that the pinkish color would mainly represent the YouTube channel side (which had already seen a record growth in 2023 especially under the now-previous purple branding), while the blue color would represent the Lynxmic “online identity”. <a href="LynxWebsite">LynxWebsite</a> and <a href="Axeon_Network">Lynxmic’s Lodge</a> would have used the main pink-blue gradient branding. Earliest concepts/ideas date back to early October 2023.</p>
+
+<p>In the end though, it was decided that the pink-blue profile picture be used generally everywhere, with the blue profile picture being used for MoreLynxmic and Lynxmic’s Lodge, as KayAurora wasn’t quite content with the pink profile picture.</p>
+
+<p>As part of the changes, LynxWebsite changed from a simple landing page with links to an all-round personal website. As for <a href="Axeon_Network">Lynxmic’s Lodge</a> (renamed from Lynxmic’s Square), it was thought as an ““all-new”” Discord Server albeit built on top of the same server from 2017 with all its existing members and message history.</p>
+
+<h3 id="channel-evolution-and-uploads">Channel evolution and uploads</h3>
+<p>2024 has seen the most growth on the Lynxmic and MoreLynxmic channels, with a jump from over 400+ subscribers to almost 1,400 subscribers, engagement levels never seen in previous years. Many videos have went past 1,000 views, some even being in the top of most viewed videos to this day with over 10K-20K views: <em>Swapping Windows 11’s and Windows NT 4.0’s Registries</em>, <em>Recreating my First PC in a VM</em> and <em>There’s a variant of Windows 8.1 with a Start Menu</em>, released in October, August and July 2024 respectively.</p>
+
+<p>The upload schedule would continue to generally be 1-2 videos per month, except for July-August 2024 where new videos would have been uploaded every single week on Friday. No videos have been uploaded in June.</p>
+
+<h3 id="the-online-identity-split">The “online identity split”</h3>
+<p>In July 2024, the Lynxmic “online identity” turned into Clyron (now KayAurora), with LynxWebsite and the <a href="Lynxmic_Blog">Lynxmic Blog</a> discontinued in favor of <a href="KayWebsite">KayWebsite</a> and all Lynxmic social media accounts having been rebranded. Lynxmic’s Square (which previously reverted from the Lynxmic’s Lodge name) would become LynxPlaza, a community Discord server themed around the Lynxmic project. The Lynxmic name would keep being used for the YouTube Channel.</p>
+
+<h2 id="2025-general-sunsetting">2025: General sunsetting</h2>
+<p>After the final video of 2024 (<em>Exploring Third-Party Apps &amp; Games for OS/2 Warp 4!</em>) flopped with just over 400+ views compared to the over at least 2,000+ views of consecutive previous videos of late 2024, a majority of videos that were uploaded in 2025 did not get past 1,000+ views.</p>
+
+<p>As early as November 2024, after <em>5 Years Later… - Windows 98 for Daily Use</em>, a video from November 2024 revisiting the VM previously used in the <a href="Windows_98_for_Daily_Use">Windows 98 for Daily Use</a> series, surprisingly gained over 2,000+ views (added by the success of the first PC/laptop recreation videos), KayAurora attempted shifting away to making videos more similar to those for 2025, centred around random operating systems with 3rd-party stuff. However the OS/2 video being a flop, video plans were largely adjusted back to something closer to what worked better for the channel’s growth.</p>
+
+<p>Of the initial wave of videos planned for 2025, only the Arch Linux video was produced, which went live on 7 January 2025 as <em>i used arch (btw) for the first time…</em> Later on 18 January 2025, <em>This video was made entirely on a phone (almost)</em> released as a Lynxmic video primarily made on a phone as a video creation experiment, the video having been done within 2 weeks in the times when KayAurora only had access to their phone (mainly during free-time at school).</p>
+
+<p>A day after, KayAurora announced that “they would take a break from the Lynxmic YT channels for an indefinite amount of time”.</p>
+
+<blockquote>
+  <p><em>I have lately realized that working on any videos for the channel just feels like more of a task I need to do than something I’m passionate with … I feel like I have to do anything to keep the channel back on track, make sure the growth rate won’t fall down by constantly pushing out videos and hoping the algorithm will pick them up etc.</em></p>
+</blockquote>
+
+<p>-<em>KayAurora about the break from making Lynxmic videos, in LynxPlaza, 19 January 2025</em></p>
+
+<p>New videos subsequently resumed after 1.5 months, with <em>Running Windows Installers Inside Windows Sandbox?</em> having been uploaded on 6 March 2025. A new Lynxmic branding with updated thumbnail design was also introduced, and there were at least over 30 video ideas for the channel that came up throughout the break. <em>Windows 7 on FAT16</em> was later uploaded on 13 March 2025, a week after the first one, followed by <em>Upgrading x86 Windows to x64 (in true fashion!)</em> on 24 March 2025, a remake of a previous video from late 2024.</p>
+
+<p>However after none of them surpassed 1,000 views within their first month, KayAurora began to consider sunsetting the project entirely as early as late March 2025. The future video planning was shrunk to just a few last videos. However only one of them (<em>“New Life” for a 18-Year-Old Laptop: Installing &amp; Setting Up Windows Vista</em>) went up on 6 April 2025, having been already a work-in-progress for a few weeks by then.<br />
+Two other videos were uploaded before it, the first (about forced Microsoft Accounts in the modern Windows OOBE) ending up being the most popular Lynxmic video of 2025 with over 2,500+ views, and the second being the yearly April Fools video.</p>
+
+<p>On 9 April 2025, KayAurora formally announced on the LynxPlaza that they were moving on from the Lynxmic project entirely, stating that their interest for the channel specifically (or generally speaking, being a “wintuber”) has been slowly dwindling and that they would rather use their free time for other things instead. In the following weeks, the LynxPlaza server would go through a restructuring process, with the server officially being renamed <a href="Axeon_Network">Axeon Network</a>.</p>
+
+<p>From this point on, only very occasional videos and streams would be made, including one on Windows 10’s End of Support on 14 October 2025. Weeks later, <a href="AstroNT">AstroNT</a> came as a spiritual successor to the Lynxmic project, channel jointly maintained with <a href="StuffyXP">StuffyXP</a>’s creator, <a href="Nekori64">Nekori</a>.</p>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

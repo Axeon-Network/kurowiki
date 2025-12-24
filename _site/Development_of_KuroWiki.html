@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>Development of KuroWiki ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              <p>This article will be rewritten soon enough.</p>
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >Development of KuroWiki</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p>Initial ideas for what would eventually become <a href="KuroWiki">KuroWiki</a> existed as early as April 2025 with the set goal of making easy to get information about <a href="Nekori64">Nekori</a>’s projects. In its early days, <em>KuroWiki</em> was a Nekori-themed encyclopedia branded under the name <em>HoriWiki</em>.</p>
+
+<p>Between 1 May and 3 May 2025, several options were considered by Nekori in order to make the project possible, such as a self-hosted <a href="https://mediawiki.org">MediaWiki</a> server and a Miraheze-hosted wiki, after both options failing, a custom-built wiki engine codenamed <em>Deltari</em> (formerly known as the <em>HoriWiki Engine</em>, <em>LexWiki Engine</em> and <em>KuroWiki Engine</em>) started development in 4 May 2025.</p>
+
+<p>KuroWiki went through <a href="https://en.wikipedia.org/wiki/Development_hell">development hell</a>.</p>
+
+<h5 id="may-2025-main-engine-development">May 2025: Main Engine Development</h5>
+<hr />
+
+<p>Development of Deltari began with forking <a href="LexSite">HoriWebsite</a> version <strong>2.4.3565</strong>, as creating new pages with Jekyll within the existing framework would cause issues. Here are the earliest available screenshots of that fork:</p>
+
+<div class="wiki-gallery">
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/earliest_developer_pre-alpha.png" author="Nekori64" alt="Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'." loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Screenshot of an early developer alpha of Horiwiki, showing a branch change from 'main' to 'main-wik' and the website title being changed to 'HoriWiki'.
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/devalpha-info.png" author="Nekori64" alt="Debug build string from the KuroWiki Pre-alpha engine." loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Debug build string from the KuroWiki Pre-alpha engine.
+ </figcaption>
+</figure>
+
+</div>
+
+<h4 id="milestone-1-2-and-3-pre-alpha-and-alpha">Milestone 1, 2 and 3 (Pre-Alpha) and Alpha</h4>
+<hr />
+
+<p>With the existing HoriWebsite frontend code stripped off, the basic code for the Deltari engine was thrown up together in just two days, reaching Pre-Alpha status by May 4 2025.<br />
+<em>Image quality in the following screenshots may vary as they were taken from Discord messages sent by Nekori or others.</em></p>
+
+<h5 id="may-4-2025">May 4, 2025:</h5>
+<hr />
+
+<h5 id="pre-alpha-01">Pre-alpha 0.1</h5>
+<hr />
+
+<p>This build essentially removed most of the HoriWebsite’s front-end elements, though some underlying HoriWebsite code still remained.</p>
+<div class="wiki-gallery">
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/pa0.1.png" author="Nekori64" alt="Pre-alpha 0.1" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Pre-alpha 0.1
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/pa0.1-1.png" author="Nekori64" alt="Pre-alpha 0.1" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Pre-alpha 0.1
+ </figcaption>
+</figure>
+
+</div>
+
+<h5 id="pre-alpha-02">Pre-alpha 0.2</h5>
+<hr />
+
+<p>This version shows early attempts to implement MediaWiki-style navigation bars.</p>
+<figure>
+    <img src="resources/img/articles/horiwiki/pa0.2.png" alt="Pre-alpha 0.2" author="Nekori64" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Pre-alpha 0.2
+    </figcaption>
+</figure>
+
+<h5 id="pre-alpha-03">Pre-alpha 0.3</h5>
+<hr />
+
+<p>Navigation bars were partially implemented in this build, using multi-colored segments to aid in debugging.</p>
+<figure>
+    <img src="resources/img/articles/horiwiki/pa0.3.png" alt="Pre-alpha 0.3" author="Nekori64" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Pre-alpha 0.3
+    </figcaption>
+</figure>
+
+<h5 id="pre-alpha-04">Pre-alpha 0.4</h5>
+<hr />
+
+<p>Pre-alpha 0.4 is where KuroWiki began to take on its distinct form, with several key elements nearing completion.</p>
+<figure>
+    <img src="resources/img/articles/horiwiki/pa0.4.png" alt="Pre-alpha 0.4" author="Nekori64" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Pre-alpha 0.4
+    </figcaption>
+</figure>
+
+<h5 id="pre-alpha-05x">Pre-alpha 0.5.x</h5>
+<hr />
+
+<p>Builds 0.5.x were the most complete builds of that day, with nearly all essential components implemented correctly.</p>
+<div class="wiki-gallery">
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/pa0.5.png" author="Nekori64" alt="Pre-alpha 0.5" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Pre-alpha 0.5
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/pa0.5.2.png" author="Nekori64" alt="Pre-alpha 0.5.2" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Pre-alpha 0.5.2
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/pa0.5.2-1.png" author="Nekori64" alt="Pre-alpha 0.5.2 #1" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Pre-alpha 0.5.2 #1
+ </figcaption>
+</figure>
+
+</div>
+
+<h5 id="may-5-2025">May 5, 2025:</h5>
+<hr />
+
+<h5 id="pre-alpha-053">Pre-alpha 0.5.3</h5>
+<hr />
+
+<p>Build 0.5.3 was the most feature-complete pre-alpha build, with most important elements already in place.</p>
+<figure>
+    <img src="resources/img/articles/horiwiki/pa0.5.3-anaheim.png" alt="Pre-alpha 0.5.3" author="" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Pre-alpha 0.5.3
+    </figcaption>
+</figure>
+
+<h5 id="may-6-7-2025">May 6-7, 2025:</h5>
+<hr />
+
+<h5 id="alpha-11">Alpha 1.1</h5>
+<hr />
+
+<p>This was the first Alpha version of KuroWiki, introducing significant updates to the Deltari engine. Backend engine code was extensively cleaned up and polished, with <strong>Markdown</strong> now supported for convenience. Most fixes were contributed by <strong>KayAurora</strong>.</p>
+<figure>
+    <img src="resources/img/articles/horiwiki/a1.1.png" alt="Alpha 1.1" author="Nekori64" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Alpha 1.1
+    </figcaption>
+</figure>
+
+<h5 id="alpha-12">Alpha 1.2</h5>
+<hr />
+
+<p>As with the previous version, this update focused on further bug fixes and refinements of the engine.</p>
+<div class="wiki-gallery">
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/a1.2-home.png" author="Nekori64" alt="Alpha 1.2" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Alpha 1.2
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/a1.2-dirlist.png" author="Nekori64" alt="The Sitemap in Alpha 1.2" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ The Sitemap in Alpha 1.2
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/a1.2-cthrwd.png" author="Nekori64" alt="Contributing to HoriWiki in Alpha 1.2" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Contributing to HoriWiki in Alpha 1.2
+ </figcaption>
+</figure>
+
+</div>
+
+<h4 id="beta">Beta</h4>
+<hr />
+<p>Development after the initial Alpha phases rapidly progressed into Beta stages. The initial <strong>Beta 1.0</strong> release from <strong>7 May 2025</strong> introduced changes to the frontend, and proper support for mobile sizes.</p>
+
+<figure>
+    <img src="resources/img/articles/horiwiki/b1.0-m.png" alt="Beta 1.0's mobile UI" author="Nekori64" loading="lazy" style="width:50%;" />
+    <figcaption>
+        Beta 1.0's mobile UI
+    </figcaption>
+</figure>
+
+<p><strong>Beta 2.0</strong> did away with the Alpha frontend layout, introducing a more 2014 Material Design-style UI using the <strong>Material Design Lite</strong> (MDL) CSS framework, significantly enhancing the wiki’s visual appearance and user interface. It is to be noted that the Material design has been in development since <strong>beta 1.0.1</strong>, which initially came with the old design.<br />
+June 2025 then saw the release of <strong>Beta 2.1</strong>, introducing new features such as <strong>functional search capabilities</strong> and a <strong>Wikipedia-styled “Did You Know” section</strong>, further completing the KuroWiki homepage. This was also the final version under the wiki’s initial <strong>HoriWiki</strong> naming.</p>
+
+<div class="wiki-gallery">
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/b1.0.1-material.png" author="Nekori64" alt="Beta 1.0.1 Material" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Beta 1.0.1 Material
+ </figcaption>
+</figure>
+
+
+    <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/b1.0.1-search.png" author="Nekori64" alt="Search in Beta 2.0" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Search in Beta 2.0
+ </figcaption>
+</figure>
+
+</div>
+
+<p>July 2025 saw work undergone on <strong>Beta 3.0</strong>, introducing further enhancements to the MDL frontend and article wording. This version also reflects on the then-recent rebranding from Horibyte to Lexibyte, with the wiki now known as <em>LexWiki</em> around this time.</p>
+
+<p>September 2025 saw the LexWiki project become part of the <a href="/Axeon_Network">Axeon Network</a>. As part of this change, LexWiki rebranded once more to its current name of <strong>KuroWiki</strong> and the engine saw its name renamed as well to <strong>Deltari</strong>. Nekori would remain involved in the project, but the wiki’s scope would expand beyond Nekori-related stuff and side projects to a more wide variety of topics. Existing references to Lexibyte have changed to Nekori.<br />
+The first version of KuroWiki under Axeon was <strong>Beta 4.0</strong>, bringing significant changes and even rewrites to existing pages of the wiki, while adding other new pages and enhancements.</p>
+
+<p>In late September 2025, the Axeon Network publicly released its first public KuroWiki version, 5.1.2600.main.250928-0955 (also jokingly named <strong>KuroWikiXP</strong> due to the version string). The first build of the <strong>Beta 5.x</strong> series, this is the first public KuroWiki release since early June 2025.</p>
+
+<p>In early October 2025, work has shifted to Beta 5.2, introducing even more new articles and changes. Build 3505 finally did away of the LexTheNova-esque background and replaced it with a changing background. <a href="KuroWiki_build_3567_(kayaurora)">Build 3567</a> introduced the <em>Featured Articles</em> box in the homepage. Two Interim Developer Releases came out during this time: <a href="KuroWiki_build_3615">Build 3615</a> and <a href="KuroWiki_build_3680">Build 3680</a>, which replaced the changing background with a permanent background, redesigned the homepage and introduced DeltaSearch 2.0, which by itself brought over improvements to KuroWiki search.</p>
+
+<div class="wiki-gallery">
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/b5.2-kayaurora.png" author="" alt="Homepage of beta 5.2, build 3505" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 5.2, build 3505
+ </figcaption>
+</figure>
+
+
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/kurowikibuild3567-ka/home.png" author="" alt="Homepage of beta 5.2, build 3567" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 5.2, build 3567
+ </figcaption>
+</figure>
+
+
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/b5.2.3615.png" author="" alt="Homepage of beta 5.2, build 3615, the Interim Developer Release 1" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 5.2, build 3615, the Interim Developer Release 1
+ </figcaption>
+</figure>
+
+</div>
+
+<p>As of 12 October 2025, work has shifted to Beta 6, with the version number bumped to 6.0. The first build was erroneously compiled as “<a href="KuroWiki_build_2600_(Beta_6)">Build 2600</a>” due to a bug within the build generation system found on KuroWiki (codenamed TagGen).</p>
+
+<p>On 17 October 2025, <a href="KuroWiki_build_3810">Interim Developer Release 3</a> (Build 3810) released publicly, notably adding a Dark Mode and settings page. Development started on the infobox item with <a href="KuroWiki_build_3889">Build 3889</a>, reaching a near-complete form with <a href="KuroWiki_build_3933">Build 3933</a> compiled on 28 October 2025.</p>
+
+<div class="wiki-gallery">
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/horiwiki/b6.0.3810.png" author="" alt="Homepage of beta 6.0, build 3810, the Interim Developer Release 3" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 6.0, build 3810, the Interim Developer Release 3
+ </figcaption>
+</figure>
+
+
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/kurowiki3842/homedark.png" author="" alt="Homepage of beta 6.0, build 3842" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 6.0, build 3842
+ </figcaption>
+</figure>
+
+
+       <figure class="gallery-item">
+    <div class="thumb-frame">
+        
+        
+        
+        
+         
+        <img src="resources/img/articles/kurowiki3842/homelight.png" author="" alt="Homepage of beta 6.0, build 3842, with Light Mode" loading="lazy" />
+        
+    </div>
+ <figcaption class="gallery-caption">
+ Homepage of beta 6.0, build 3842, with Light Mode
+ </figcaption>
+</figure>
+
+</div>
+
+<p>On 30 October 2025, <a href="KuroWiki_build_4100">Interim Developer Release 4</a> released as build 4100, which would end up being the latest public KuroWiki release for over a month. Just prior to IDR4, a video and screenshots of <a href="KuroWiki_build_4074">build 4074</a> “Purgatory Build” were publicly shared by Nekori and later made available for download on archive.org. It had a plethora of KuroWiki articles missing and was the result of an internal Jekyll bug which was later found to be caused by formatting issues in the SpringViewer code.</p>
+
+<p>The main, final Beta 6 release was rolled out on 4 December 2025 just after UTC+2 midnight as <a href="build 4400">6.0.4400.main.251204-0046</a>, finally concluding the Beta stage of KuroWiki after over 6 months.</p>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

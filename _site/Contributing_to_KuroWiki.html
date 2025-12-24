@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>Contributing to KuroWiki ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >Contributing to KuroWiki</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p>Welcome to KuroWiki! This article should teach you how to contribute to the wiki, by adding articles!</p>
+
+<p>KuroWiki is a community-mantained project, so we always welcome people trying to help us out. First things first, you’d need to know some things.</p>
+
+<h1 id="requisites">Requisites</h1>
+
+<p>As the wiki is freely hosted on GitHub, you need a GitHub account to commit your files.</p>
+
+<h1 id="code-of-conduct">Code of Conduct</h1>
+
+<p>To prevent any sort of unwanted articles or behavior, we have a code of conduct to help regulate these issues, these are needed guidelines to add, publish and modify articles.</p>
+
+<p>You may not:</p>
+
+<ul>
+  <li>add nor publish 18+/mature content to any of the articles.</li>
+  <li>go out of topic in your article.</li>
+  <li>modify other articles without permission.</li>
+  <li>vandalize any of the articles.</li>
+  <li>add false information to articles, nor make fake articles.</li>
+  <li>cross personal boundaries, if some info gets too personal, please remove said content as of the person’s request. (this also applies to admins)</li>
+  <li>add anything that is not related to the Axeon Network, KayAurora or Nekori.</li>
+</ul>
+
+<h1 id="creating-your-article">Creating your article</h1>
+
+<p>Now that you know the necessary stuff, you (like most people will do) will start making your article. This <em>will</em> get technical, wiking is no easy thing to do!</p>
+
+<p>To get started, clone the GitHub repository of KuroWiki. If you have Git installed, you can run <code class="language-plaintext highlighter-rouge">git clone https://github.com/Axeon-Network/kurowiki</code> in your desired console. You can also clone the repo via GitHub Desktop or the web interface.</p>
+
+<h2 id="file-setup">File setup</h2>
+
+<p>Now that you’ve cloned the source code of KuroWiki, head over to the <code class="language-plaintext highlighter-rouge">articles</code> directory inside the <code class="language-plaintext highlighter-rouge">pages</code> directory in your source folder, as you’ve might seen, all of the articles you see on KuroWiki are in the Markdown file format, with a file extension of <code class="language-plaintext highlighter-rouge">.md</code>.</p>
+
+<p>Ideally, a short file name will do, as you can set the URL of your article in the frontmatter of the file itself.</p>
+
+<p>The frontmatter is a way to setup the article, it holds most of the necessary information of the article for use with the KuroWiki engine (code named <em>Deltari</em>). A full example of the frontmatter would be this (dont worry, we will explain what each setting does later):</p>
+
+<p><code class="language-plaintext highlighter-rouge">---</code><br />
+<code class="language-plaintext highlighter-rouge">layout: main</code><br />
+<code class="language-plaintext highlighter-rouge">title: Hello, world!</code><br />
+<code class="language-plaintext highlighter-rouge">permalink: Hello,_world!</code><br />
+<code class="language-plaintext highlighter-rouge">hatnote: Lorem ipsum dolor sit amet</code><br />
+<code class="language-plaintext highlighter-rouge">aliases:</code><br />
+<code class="language-plaintext highlighter-rouge">- Alias 1</code><br />
+<code class="language-plaintext highlighter-rouge">- Alias 2</code><br />
+<code class="language-plaintext highlighter-rouge">- Lorem ipsum</code><br />
+<code class="language-plaintext highlighter-rouge">redirect_from:</code><br />
+<code class="language-plaintext highlighter-rouge">- Hello_world!</code><br />
+<code class="language-plaintext highlighter-rouge">- Hello,world!</code><br />
+<code class="language-plaintext highlighter-rouge">- Hello,_world</code><br />
+<code class="language-plaintext highlighter-rouge">- Hello,world</code><br />
+<code class="language-plaintext highlighter-rouge">---</code></p>
+
+<p>So, what do all these colons and dashes mean? These “colons and dashes” are the setup parameters of your article, if you want your article to actually..work, you need to add this to the start of your article, before the content itself.</p>
+
+<h3 id="definitions"><strong>Definitions</strong></h3>
+
+<p><code class="language-plaintext highlighter-rouge">layout</code>: This defines the layout that the page is going to use. <strong>Always</strong> set this to <code class="language-plaintext highlighter-rouge">main</code>. <strong>This setting is required</strong>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">title</code>: The title of your page, self-explanatory. <strong>This setting is required</strong>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">permalink</code>: The URL of your article. As with every other URL, it must not contain spaces. You can use underscores as a replacement instead. <strong>This setting is required</strong>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">hatnote</code>: The hatnote of the page. This setting is optional.</p>
+
+<p><code class="language-plaintext highlighter-rouge">aliases</code>: Used with the search engine (code named <em>DeltaSearch</em>), this can be used to allow the page to come up in the search results with a query that is somewhat close to the page title, for example, you can search “DHI” and <a href="Dogui_Heavy_Industries_Incorporated">Dogui Heavy Industries Incorporated</a> will show up.</p>
+
+<p><code class="language-plaintext highlighter-rouge">redirect_from</code>: Alluding to its name, you can set what pages should redirect to your article. This can be useful to replace dead links (like <code class="language-plaintext highlighter-rouge">Horibyte_Arctic</code> for <a href="Nekori_Arctic">Nekori Arctic</a>), or to automatically correct any URL typos (like <code class="language-plaintext highlighter-rouge">ABoard</code> for <a href="A_Board">A Board</a>). Redirects might be used for other cases without a specific reason, for example, going to <a href="Comet_Nishi_Adsurden">Comet_Nishi_Adsurden</a> will redirect you to <a href="Comet">Comet</a>, as “Comet Nishi Adsurden” is Comet’s in-universe name.</p>
+
+<p>The dashes above and below the settings define when the frontmatter begins and when it ends. <strong>This is required in order to make the article work</strong>.</p>
+
+<h2 id="custom-components-and-how-to-import-them">Custom components! (and how to import them)</h2>
+
+<h3 id="galleries">Galleries</h3>
+
+<p>The gallery item is a way to organize your images in a clean way. This item is compatible with SpringViewer (the KuroWiki media viewer), so whenever you click the image in a gallery frame, SpringViewer will happily open it for you! (unless you incorrectly add the gallery item or image, or you make SpringViewer mad, which is rare to happen (be careful! they are a real grumpy creature)).</p>
+
+<p>A single-frame variant of the item exists for normal image organization.</p>
+
+<p>In order to import this component, you’d need to use the following structure:</p>
+
+<p><code>
+&lt;div class="wiki-gallery"&gt;<br /><br />
+{&percnt; include gallery_item.html<br />
+image_src="resources/img/articles/helloworld/untitled.png"<br />
+caption="Lorem ipsum dolor sit amet..." &percnt;}<br />
+{&percnt; include gallery_item.html<br />
+image_src="resources/img/articles/helloworld/untitled2.webp"<br />
+caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." &percnt;}<br />
+{&percnt; include gallery_item.html<br />
+image_src="resources/img/articles/helloworld/untitled3.jpg"<br />
+caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." &percnt;}<br /><br />
+&lt;/div&gt;
+</code></p>
+
+<p>…which would end up being this!</p>
+
+<div>
+<figure>
+    <img src="resources/img/articles/contributing/gallery.png" alt="" author="" loading="lazy" style="width:50%;" />
+    <figcaption>
+        
+    </figcaption>
+</figure>
+    </div>
+
+<p>You can change these variables to your liking!</p>
+
+<p>To import the single-item frame, you’d need to use this:</p>
+
+<p><code>
+{&percnt; include figure_item.html<br />
+image_src="resources/img/articles/helloworld/untitled.png"<br />
+caption="Lorem ipsum dolor sit amet..." &percnt;}<br />
+</code></p>
+
+<h3 id="infoboxes">Infoboxes</h3>
+<p>The infobox item is usually located on the right side of the page, and includes a quick summary of what’s presented in a specific article, similarily to other wikis.</p>
+
+<p>Currently upstream Deltari/KuroWiki supports the following types of infobox: <code class="language-plaintext highlighter-rouge">build</code>, <code class="language-plaintext highlighter-rouge">channel</code>, <code class="language-plaintext highlighter-rouge">character</code>, <code class="language-plaintext highlighter-rouge">site</code>, <code class="language-plaintext highlighter-rouge">video</code>. Below is an example template for the <code class="language-plaintext highlighter-rouge">build</code> type of infobox (for the other types and allowed variables, please look at their corresponding includes files):</p>
+
+<p><code>
+{&percnt; include infoboxes/build.html<br />
+family='KuroWiki'<br />
+familyurl='KuroWiki'<br />
+buildtag='6.0.3933.nekori64.251027-1830'<br />
+version='6.0'<br />
+build='3933'<br />
+lab='nekori64'<br />
+compiled='2025-10-27 18:30 UTC-6'<br />
+image='resources/img/articles/horiwiki/article.png'<br />
+&percnt;}
+</code></p>
+
+<p>The end result of the above example is this:</p>
+
+<div>
+<figure>
+    <img src="resources/img/articles/contributing/infobox.png" alt="" author="" loading="lazy" style="width:30%;" />
+    <figcaption>
+        
+    </figcaption>
+</figure>
+  </div>
+
+<p>Just like with the gallery, you can change these variables to your liking! Just make sure the infobox item is located just after the frontmatter but before the actual page content!</p>
+
+<h3 id="hatnotes">Hatnotes</h3>
+
+<h1 id="sumbitting-your-article">Sumbitting your article</h1>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

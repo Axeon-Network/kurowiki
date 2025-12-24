@@ -1,5 +1,4 @@
 ---
-layout: main
 title: List of Nekori Codenames
 permalink: List_of_Nekori_Codenames
 hatnote: This list is subject to change in the future.

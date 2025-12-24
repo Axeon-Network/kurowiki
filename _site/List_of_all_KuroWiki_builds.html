@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>List of all KuroWiki builds ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >List of all KuroWiki builds</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p>This article is a list of all known KuroWiki builds.</p>
+
+<h2 id="internal-pre-alpha-releases">Internal Pre-Alpha Releases</h2>
+
+<p><a href="KuroWiki_build_3567_(main_wik)">2.4.3567.main-wik.250504-1045</a><br />
+2.4.3567.horiwiki-pa1.250504-1052</p>
+
+<h2 id="pre-alpha">Pre-Alpha</h2>
+
+<p>0.1.???.main.250504-????<br />
+0.2.???.main.250504-????<br />
+0.3.???.main.250504-????<br />
+0.4.???.main.250504-????<br />
+0.5.???.main.250504-????<br />
+0.5.2.???.main.250504-????<br />
+0.5.3.???.main.250505-????</p>
+
+<h2 id="alpha">Alpha</h2>
+
+<p>1.1.???.250506-????<br />
+1.2.???.250506-????</p>
+
+<h2 id="beta-1">Beta 1</h2>
+
+<p>1.0.???.main.250507-????<br />
+1.0.1.367.main.250515-1422</p>
+
+<h2 id="beta-2">Beta 2</h2>
+
+<p>2.0.566.material.250516-1933<br />
+2.1.602.material.250602-1710</p>
+
+<h2 id="beta-3">Beta 3</h2>
+
+<p><a href="KuroWiki_build_1032">3.0.1032.material.250625-1706</a></p>
+
+<h2 id="beta-4">Beta 4</h2>
+
+<p>4.2.2000.kuro_escro.250725-1423<br />
+4.2.2001.kuro_escro.250725-1527<br />
+4.2.2002.kuro_escro.250725-1533<br />
+4.2.2.2004.???.2509??-????<br />
+4.3.2003.kayaurora.250906-2219<br />
+4.3.2004.kayaurora.250906-1228<br />
+4.3.2004.kayaurora.250906-2219<br />
+4.3.2035.nekori64.250906-1830<br />
+4.3.2067.nekori64.250907-1525<br />
+4.3.2089.nekori64.250908-1450<br />
+4.3.2102.nekori64.250910-1905<br />
+4.3.2489.kayaurora.250907-0334<br />
+4.3.2495.kayaurora.250908-2346<br />
+4.3.2500.kayaurora.250909-0304<br />
+4.3.2514.kayaurora.25????-????<br />
+4.3.2519.kayaurora.250911-0329<br />
+4.3.2521.kayaurora.250913-0457<br />
+4.3.2537.kayaurora.25????-????</p>
+
+<h2 id="beta-5">Beta 5</h2>
+
+<p>5.1.2600.nekori64.250927-1322<br />
+<a href="KuroWiki_build_2600">5.1.2600.main.250928-0955</a><br />
+5.1.2635.main.250928-1523<br />
+5.1.2639.kayaurora.251001-2349<br />
+5.1.2678.nekori64.251004-1836</p>
+
+<h3 id="beta-52">Beta 5.2</h3>
+
+<p><strong>Main branch compiles</strong></p>
+
+<p><a href="KuroWiki_build_3615">5.2.3615.main.251011-0412</a><br />
+<a href="KuroWiki_build_3680">5.2.3680.main.251012-0101</a></p>
+
+<p><strong>Nekori64 compiles</strong></p>
+
+<p>5.2.2680.nekori64.251005-1326<br />
+5.2.2681.nekori64.251005-1328<br />
+5.2.2684.nekori64.251005-1331<br />
+5.2.2689.nekori64.251005-1441<br />
+5.2.2690.nekori64.251005-1445<br />
+5.2.2691.nekori64.251005-1609<br />
+5.2.2692.nekori64.251005-1619<br />
+5.2.2699.nekori64.251005-1648<br />
+5.2.2700.nekori64.251005-1711<br />
+5.2.2701.nekori64.251005-1712<br />
+5.2.2702.nekori64.251005-1713<br />
+5.2.2740.nekori64.251010-1513<br />
+5.2.2759.nekori64.251010-1745<br />
+5.2.3669.nekori64.251011-1345<br />
+5.2.3670.nekori64.251011-1346</p>
+
+<p><strong>KayAurora compiles</strong></p>
+
+<p>5.2.3505.kayaurora.251005-2147<br />
+5.2.3505.kayaurora.251005-2151<br />
+5.2.3505.kayaurora.251005-2154<br />
+5.2.3505.kayaurora.251005-2217<br />
+5.2.3510.kayaurora.251006-0048<br />
+5.2.3567.kayaurora.251009-0049<br />
+5.2.3578.kayaurora.251010-2329<br />
+5.2.3587.kayaurora.251011-0023<br />
+5.2.3595.kayaurora.251011-0044<br />
+5.2.3599.kayaurora.251011-0124<br />
+5.2.3601.kayaurora.251011-0208<br />
+5.2.3606.kayaurora.251011-0240<br />
+5.2.3608.kayaurora.251011-0257<br />
+5.2.3614.kayaurora.251011-0318<br />
+5.2.3619.kayaurora.251011-1913<br />
+5.2.3631.kayaurora.251011-2020<br />
+5.2.3632.kayaurora.251011-2140<br />
+5.2.3670.kayaurora.251011-2254<br />
+5.2.3677.kayaurora.251012-0025</p>
+
+<h2 id="beta-6">Beta 6</h2>
+
+<h3 id="interim-developer-release-3">Interim Developer Release 3</h3>
+
+<p><a href="KuroWiki_build_2600_(Beta_6)">6.0.2600.nekori64.251012-1610</a><br />
+<a href="KuroWiki_build_3686">6.0.3686.nekori64.251012-1717</a><br />
+6.0.3688.nekori64.251012-1733<br />
+<a href="KuroWiki_build_3689">6.0.3689.kayaurora.251013-0239</a><br />
+6.0.3697.nekori64.251012-1824<br />
+6.0.3697.kayaurora.251013-0327<br />
+6.0.3699.nekori64.251012-1826<br />
+<a href="KuroWiki_build_3705">6.0.3705.nekori64.251012-1832</a><br />
+<a href="KuroWiki_build_3761">6.0.3761.nekori64.251012-2001</a><br />
+<a href="KuroWiki_build_3762">6.0.3762.nekori64.251012-2007</a><br />
+6.0.3764.nekori64.251012-2021<br />
+6.0.3764.kayaurora.251013-0526<br />
+6.0.3766.nekori64.251012-2028<br />
+6.0.3766.kayaurora.251013-0535<br />
+6.0.3766.nekori64.251014-1157<br />
+6.0.3767.kayaurora.251014-0908<br />
+6.0.3770.nekori64.251015-1224<br />
+6.0.3770.kayaurora.251015-2138<br />
+6.0.3773.kayaurora.251015-2316<br />
+6.0.3777.nekori64.251015-1350<br />
+6.0.3781.nekori64.251017-1414<br />
+6.0.3784.nekori64.251017-1420<br />
+6.0.3785.kayaurora.251018-0044<br />
+6.0.3790.kayaurora.251018-0210<br />
+6.0.3796.kayaurora.251018-0242<br />
+6.0.3800.nekori64.251017-1542<br />
+6.0.3808.nekori64.251017-1607<br />
+6.0.3810.nekori64.251017-1735</p>
+
+<p><strong>Public release</strong><br />
+<a href="KuroWiki_build_3810">6.0.3810.main.251017-1808</a></p>
+
+<h2 id="interim-developer-release-4">Interim Developer Release 4</h2>
+
+<p>6.0.3816.kayaurora.251024-2208<br />
+6.0.3820.nekori64.251018-1051<br />
+6.0.3820.kayaurora.251025-0011<br />
+6.0.3824.kayaurora.251027-1955<br />
+<a href="KuroWiki_build_3835">6.0.3835.nekori64.251022-2015</a><br />
+<a href="KuroWiki_build_3842">6.0.3842.nekori64.251022-2057</a><br />
+6.0.3859.kayaurora.251028-0025<br />
+6.0.3865.kayaurora.251028-0046<br />
+<a href="KuroWiki_build_3869">6.0.3869.nekori64.251027-1136</a><br />
+<a href="KuroWiki_build_3880">6.0.3880.kayaurora.251028-0131</a><br />
+<a href="KuroWiki_build_3889">6.0.3889.nekori64.251027-1715</a><br />
+6.0.3900.nekori64.251027-1728<br />
+6.0.3901.kayaurora.251028-0236<br />
+6.0.3916.nekori64.251027-1754<br />
+6.0.3931.nekori64.251027-1825<br />
+<a href="KuroWiki_build_3933">6.0.3933.nekori64.251027-1830</a><br />
+6.0.3935.nekori64.251027-1834<br />
+6.0.3935.kayaurora.251028-0306<br />
+6.0.3939.nekori64.251027-1852<br />
+6.0.3943.kayaurora.251028-2330<br />
+6.0.3959.kayaurora.251029-0126<br />
+6.0.4000.kayaurora.251029-2052<br />
+6.0.4002.nekori64.251028-1539<br />
+6.0.4058.nekori64.251029-1522<br />
+<a href="KuroWiki_build_4074">6.0.4074.nekori64.251029-1452</a><br />
+6.0.4079.kayaurora.251029-2335<br />
+6.0.4080.kayaurora.251030-0010</p>
+
+<p><strong>Public release</strong><br />
+<a href="KuroWiki_build_4100">6.0.4100.main.251030-0038</a></p>
+
+<h2 id="public-release-escrow">Public Release Escrow</h2>
+<p>6.0.4104.kayaurora.251030-1717<br />
+6.0.4107.kayaurora.251031-0134<br />
+6.0.4116.nekori64.251101-1501<br />
+6.0.4121.nekori64.251109-1157<br />
+6.0.4141.nekori64.251109-1541<br />
+6.0.4155.kayaurora.251101-2342<br />
+6.0.4156.kayaurora.251101-2343<br />
+6.0.4161.kayaurora.251102-0101<br />
+<a href="KuroWiki_build_4177">6.0.4177.kayaurora.251109-0134</a><br />
+6.0.4186.kayaurora.251110-0134<br />
+6.0.4188.kayaurora.251112-2241<br />
+6.0.4195.nekori64.251113-1306<br />
+6.0.4201.kayaurora.251119-2317<br />
+<a href="KuroWiki_build_4209">6.0.4209.b6chk.nekori64.251115-0957</a><br />
+<a href="KuroWiki_build_4219">6.0.4219.kayaurora.251125-1613</a><br />
+<a href="KuroWiki_build_4232">6.0.4232.kayaurora.251128-2335</a><br />
+6.0.4234.b6chk.private/springviewer(neko64).251128-1450<br />
+6.0.4240.kayaurora.251129-0026<br />
+6.0.4243.kayaurora.251129-2206<br />
+6.0.4249.kayaurora.251201-1955<br />
+6.0.4263.b6chk.private/springviewer(neko64).251130-2011<br />
+6.0.4268.b6fre.private/springviewer(neko64).251201-1551<br />
+6.0.4290.b6fre.private/springviewer(neko64).251202-1947<br />
+6.0.4400.kayaurora.251203-1720</p>
+
+<p><strong>Public release</strong><br />
+<a href="KuroWiki_build_4400">6.0.4400.main.251204-0046</a></p>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

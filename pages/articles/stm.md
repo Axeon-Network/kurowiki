@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Stuffy's Tech Misadventures
 permalink: Stuffy's Tech Misadventures
 hatnote: See also&colon; <a href='List_of_cancelled_StuffyXP_videos'>List of cancelled StuffyXP videos</a><br>This article is unfinished.

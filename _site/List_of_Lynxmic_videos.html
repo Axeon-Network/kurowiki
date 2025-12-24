@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>List of Lynxmic videos ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >List of Lynxmic videos</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p>This article is a list of all <a href="Lynxmic">Lynxmic</a> videos on YouTube (excluding ones set as Unlisted or Private).</p>
+
+<p>As of October 2025, there are 127 uploaded videos that are currently public (including livestreams).</p>
+
+<h1 id="2025">2025</h1>
+<ul>
+  <li><strong>Goodbye Windows 10… (End of Support)</strong> - <em>Published 2025-10-14</em></li>
+  <li><strong>A Look at Linux from the Early 2000s! - Red Hat Linux 9 Installation &amp; Exploration</strong> - <em>Published 2025-09-23</em></li>
+  <li><strong>Weird Android Resolutions!</strong> - <em>Published 2025-09-19</em></li>
+  <li><strong>Installing Every (Major) Desktop Environment in Linux Mint</strong> - <em>Published 2025-06-13</em></li>
+  <li><strong>“New Life” for a 18-Year-Old Laptop: Installing &amp; Setting Up Windows Vista</strong> - <em>Published 2025-04-06</em></li>
+  <li><strong>New windows 7 pre beta - first look</strong> - <em>Published 2025-04-01</em></li>
+  <li><strong>How Hard Has It Became to Use a Local Account in the Windows 10/11 OOBE</strong> - <em>Published 2025-03-29</em></li>
+  <li><strong>Upgrading x86 Windows to x64 (in true fashion!)</strong> - <em>Published 2025-03-24</em></li>
+  <li><strong>Windows 7 on FAT16</strong> - <em>Published 2025-03-13</em></li>
+  <li><strong>Running Windows Installers Inside Windows Sandbox?</strong> - <em>Published 2025-03-06</em></li>
+  <li><strong>This video was made entirely on a phone (almost)</strong> - <em>Published 2025-01-17</em></li>
+  <li><strong>i used arch (btw) for the first time…</strong> - <em>Published 2025-01-07</em></li>
+</ul>
+
+<h1 id="2024">2024</h1>
+<ul>
+  <li><strong>An OS/2 Warp 4 Video… but with Third-Party Apps!</strong> - <em>Published 2024-12-25</em></li>
+  <li><strong>Over 5 Years Later… - Windows 98 for Daily Use</strong> - <em>Published 2024-11-28</em></li>
+  <li><strong>Restoring the Windows 10 Shell on Windows 11 *by editing one registry value*</strong> - <em>Published 2024-11-15</em></li>
+  <li><strong>New Settings and Context Menu &amp; More (Windows Server Build 22364)</strong> - <em>Published 2024-10-31</em></li>
+  <li><strong>Swapping Windows 11’s and Windows 10’s System Drives</strong> - <em>Published 2024-10-28</em></li>
+  <li><strong>Recreating my First Laptop in a VM</strong> - <em>Published 2024-10-18</em></li>
+  <li><strong>Swapping Windows 11’s and Windows NT 4.0’s Registries</strong> - <em>Published 2024-10-16</em></li>
+  <li><strong>Swapping Windows 11’s and Windows 10’s Registries</strong> - <em>Published 2024-10-12</em></li>
+  <li><strong>Upgrading from x86 Windows to x64 Windows (without data loss)</strong> - <em>Published 2024-09-25</em></li>
+  <li><strong>The Windows that Never Was… (Longhorn Build 4093)</strong> - <em>Published 2024-08-19</em></li>
+  <li><strong>Functional Start Screen, File Explorer Ribbons &amp; more (Windows 8 Build 7791)</strong> - <em>Published 2024-08-16</em></li>
+  <li><strong>Recreating my First PC Desktop in a VM (the Celeron 450 PC)</strong> - <em>Published 2024-08-09</em></li>
+  <li><strong>Windows 10 with 0KB Free Disk Space</strong> - <em>Published 2024-08-02</em></li>
+  <li><strong>2 Questionable Linux Bootlegs (“Windows 12 Lite” and “Quelitu”)</strong> - <em>Published 2024-07-26</em></li>
+  <li><strong>The lore of Windows 2000 development… (NT 5.0 Build 1796)</strong> - <em>Published 2024-07-19</em></li>
+  <li><strong>There’s a variant of Windows 8.1 with a Start Menu… (RT 8.1 Update 3)</strong> - <em>Published 2024-07-12</em></li>
+  <li><strong>The build that removed the Start Button in Windows 8… (Build 8220)</strong> - <em>Published 2024-07-07</em></li>
+  <li><strong>Windows Aero’s Early Days… (Longhorn Build 4015)</strong> - <em>Published 2024-07-05</em></li>
+  <li><strong>Running Modern Programs on Windows 2000 in 2024</strong> - <em>Published 2024-05-05</em></li>
+  <li><strong>How to get unregistered hypercam 2</strong> - <em>Published 2024-04-01</em></li>
+  <li><strong>Windows 2000 on the Internet in 2024</strong> - <em>Published 2024-03-23</em></li>
+  <li><strong>A Look at Mac OS X 10.2 Jaguar - emulated on PearPC</strong> - <em>Published 2024-03-09</em></li>
+  <li><strong>I tried Windows Server 2025 (Build 26063)… First Impressions</strong> - <em>Published 2024-02-27</em></li>
+  <li><strong>Running Older Windows Versions on GNOME Boxes?</strong> - <em>Published 2024-02-14</em></li>
+  <li><strong>Microsoft *finally* overhauled Windows Setup… (Windows 11 Build 26040)</strong> - <em>Published 2024-01-27</em></li>
+  <li><strong>How does it feel to play Labyrinth Plus! Edition (Race the Clock) inside a VM</strong> - <em>Published 2024-01-22</em></li>
+</ul>
+
+<h1 id="2023">2023</h1>
+<ul>
+  <li><strong>Upgrading from Windows NT 3.51 to Windows 7</strong> - <em>Published 2023-12-25</em></li>
+  <li><strong>How Windows Looked Like in 1984? - Exploring Windows 1.0 DR5</strong> - <em>Published 2023-12-01</em></li>
+  <li><strong>Finding Old Graphics in Windows 11’s System32 Folder</strong> - <em>Published 2023-11-23</em></li>
+  <li><strong>5 Interesting (and not so interesting) Facts about Windows</strong> - <em>Published 2023-11-04</em></li>
+  <li><strong>Making the Ugliest Windows 3.1 Build Possible</strong> - <em>Published 2023-10-09</em></li>
+  <li><strong>Windows ME with 500% DPI Scaling</strong> - <em>Published 2023-09-18</em></li>
+  <li><strong>The Beginnings of Windows 10 - Build 9780 Installation &amp; Exploration</strong> - <em>Published 2023-09-09</em></li>
+  <li><strong>What Happens if you Delete Windows.UI.Xaml.dll on Windows 11 (22H2)?</strong> - <em>Published 2023-08-11</em></li>
+  <li><strong>Downgrading from Windows XP to Windows 3.1</strong> - <em>Published 2023-07-30</em></li>
+  <li><strong>Installing Windows 11 (Build 21380) + Exploration</strong> - <em>Published 2023-06-11</em></li>
+  <li><strong>A Look at Ubuntu Cinnamon 23.04</strong> - <em>Published 2023-04-29</em></li>
+  <li><strong>Installing Windows Whistler (Build 2223)</strong> - <em>Published 2023-03-25</em></li>
+  <li><strong>How Usable is the Original Microsoft Edge (EdgeHTML) in 2023</strong> - <em>Published 2023-03-18</em></li>
+  <li><strong>Attempting to Upgrade Through Every LTS Version of Ubuntu - 150 Subscriber Special</strong> - <em>Published 2023-03-11</em></li>
+  <li><strong>How Not to Tweak Windows 11</strong> - <em>Published 2023-02-25</em></li>
+  <li><strong>Upgrading from Windows 1.0 to Windows 10</strong> - <em>Published 2023-02-11</em></li>
+  <li><strong>One UI 5 First Impressions and Samsung’s Update System - Opinion</strong> - <em>Published 2023-02-04</em></li>
+  <li><strong>Windows XP on the Internet in 2023</strong> - <em>Published 2023-01-28</em></li>
+  <li><strong>Running Older Versions of the Windows Calculator on Windows 11</strong> - <em>Published 2023-01-21</em></li>
+  <li><strong>Goodbye Windows 8.1… (End of Support)</strong> - <em>Published 2023-01-10</em></li>
+</ul>
+
+<h1 id="2022">2022</h1>
+<ul>
+  <li><strong>Ubuntu 22.04 LTS on 330x240 Resolution (+ Flavors)</strong> - <em>Published 2022-12-17</em></li>
+  <li><strong>Revisiting Windows 8.1 Preview (Build 9431) in 2022</strong> - <em>Published 2022-12-10</em></li>
+  <li><strong>A ReactOS Video</strong> - <em>Published 2022-12-03</em></li>
+  <li><strong>My Custom Windows XP &amp; 2000 ISOs from 2016 - A Revisit</strong> - <em>Published 2022-11-26</em></li>
+  <li><strong>Trying to Edit on Clipchamp, Windows 11’s New Video Editor</strong> - <em>Published 2022-11-19</em></li>
+  <li><strong>What Happens if you Set Year 10000 on Windows NT 4.0?</strong> - <em>Published 2022-11-12</em></li>
+  <li><strong>Do Older Versions of Windows 10’s Media Creation Tool Still Work in 2022?</strong> - <em>Published 2022-11-05</em></li>
+  <li><strong>The Return of Unity7 (kinda…) - A Look at Ubuntu Unity 22.10</strong> - <em>Published 2022-10-29</em></li>
+  <li><strong>A Microsoft Bob Video</strong> - <em>Published 2022-10-08</em></li>
+  <li><strong>How to Install VMware Tools on Windows Betas</strong> - <em>Published 2022-10-01</em></li>
+  <li><strong>Installing Windows 8 (Build 8175.5) + Exploration</strong> - <em>Published 2022-09-24</em></li>
+  <li><strong>Exploring Windows 8 Betas (Builds 7927 to 8102)</strong> - <em>Published 2022-09-17</em></li>
+  <li><strong>Upgrading Through Every Version of Windows Server</strong> - <em>Published 2022-09-10</em></li>
+  <li><strong>Revisiting Windows 8.1’s Metro Apps in 2022</strong> - <em>Published 2022-09-03</em></li>
+  <li><strong>Exploring Windows 8 Betas (Builds 7746 to 7899)</strong> - <em>Published 2022-08-27</em></li>
+  <li><strong>What Happens if you Rollback Windows 8 Build 7779 Upgrade?</strong> - <em>Published 2022-08-20</em></li>
+  <li><strong>Minecraft Gameplay Video, 2022 Edition</strong> - <em>Published 2022-07-02</em></li>
+  <li><strong>A Look Back at Internet Explorer 10</strong> - <em>Published 2022-06-15</em></li>
+  <li><strong>My Perspective (sort of) on Ubuntu 22.04 LTS (Jammy Jellyfish)</strong> - <em>Published 2022-05-15</em></li>
+  <li><strong>Upgrading Between Windows 11 Insider Builds on “Unsupported Hardware”</strong> - <em>Published 2022-03-07</em></li>
+  <li><strong>Microsoft Account Requirement on Windows 11 Pro, during OOBE - Opinion</strong> - <em>Published 2022-02-18</em></li>
+  <li><strong>Windows 11 on 336x240 Resolution</strong> - <em>Published 2022-02-17</em></li>
+  <li><strong>Virtualizing Windows 98 on the 11th Gen Intel Core i3</strong> - <em>Published 2022-01-01</em></li>
+</ul>
+
+<h1 id="2021">2021</h1>
+<ul>
+  <li><strong>Installing Windows 10 (Build 10074)</strong> - <em>Published 2021-12-19</em></li>
+  <li><strong>Windows 11 RTM running on a Lenovo G50-70</strong> - <em>Published 2021-12-05</em></li>
+  <li><strong>Edge’s Surf Game but the Surf is Replaced with Ski (new winter theme)</strong> - <em>Published 2021-12-01</em></li>
+  <li><strong>Unity 7 on Ubuntu 21.10 (Impish Indri)</strong> - <em>Published 2021-11-29</em></li>
+  <li><strong>Installing Windows Longhorn (Build 4033)</strong> - <em>Published 2021-11-07</em></li>
+  <li><strong>Multi-booting Windows Vista, 7, 8.1, 10 and 11</strong> - <em>Published 2021-10-27</em></li>
+  <li><strong>Editing a YouTube Video on Windows Movie Maker 1.0</strong> - <em>Published 2021-07-24</em></li>
+  <li><strong>Ubuntu GNOME 16.04.5 LTS Installation (timelapse)</strong> - <em>Published 2021-07-15</em></li>
+  <li><strong>Using Internet Explorer as a Daily Use Browser in 2021?</strong> - <em>Published 2021-04-22</em></li>
+  <li><strong>Microsoft’s (Potential) Discord Acquisition - Opinion</strong> - <em>Published 2021-03-22</em></li>
+</ul>
+
+<h1 id="2020">2020</h1>
+<ul>
+  <li><strong>Minecraft Gameplay Video, Nostalgic Edition</strong> - <em>Published 2020-12-24</em></li>
+  <li><strong>Installing Windows Whistler (Build 2257)</strong> - <em>Published 2020-12-23</em></li>
+  <li><strong>MC Java Edition: Transition from Mojang to Microsoft Accounts</strong> - <em>Published 2020-10-22</em></li>
+  <li><strong>Lynxmic’s First Linux Distro Used (revisited!)</strong> - <em>Published 2020-10-06</em></li>
+  <li><strong>Windows ME, One of the Worst Windows Versions Ever (20 Years Later)</strong> - <em>Published 2020-09-15</em></li>
+  <li><strong>Windows 8.1 Transformed Into Windows 7 (sorta…)</strong> - <em>Published 2020-08-10</em></li>
+  <li><strong>A Look at Windows 10 Mobile</strong> - <em>Published 2020-08-02</em></li>
+  <li><strong>My Perspective on the Recent Microsoft Edge Situation</strong> - <em>Published 2020-07-07</em></li>
+  <li><strong>Just A Minecraft Gameplay Video + Q&amp;A</strong> - <em>Published 2020-06-30</em></li>
+  <li><strong>Installing Windows Vista (Build 5384)</strong> - <em>Published 2020-05-06</em></li>
+  <li><strong>An OS/2 Warp 4 Video</strong> - <em>Published 2020-03-16</em></li>
+  <li><strong>Installing Windows Nashville</strong> - <em>Published 2020-02-23</em></li>
+  <li><strong>Rocket League Dropping Support for macOS &amp; Linux - Opinion</strong> - <em>Published 2020-01-26</em></li>
+  <li><strong>Goodbye Windows 7… (End of Support)</strong> - <em>Published 2020-01-14</em></li>
+  <li><strong>Exploring KolibriOS - World’s Smallest OS?</strong> - <em>Published 2020-01-09</em></li>
+</ul>
+
+<h1 id="2019">2019</h1>
+<ul>
+  <li><strong>An InkBall Video</strong> - <em>Published 2019-12-22</em></li>
+  <li><strong>Installing Windows Whistler (Build 2446)</strong> - <em>Published 2019-12-11</em></li>
+  <li><strong>Google and the Fitbit Acquisition - Opinion</strong> - <em>Published 2019-11-04</em></li>
+  <li><strong>Questions and Answers! (100 Subscriber Special)</strong> - <em>Published 2019-10-30</em></li>
+  <li><strong>A Look Back at Windows Movie Maker 1.0</strong> - <em>Published 2019-10-28</em></li>
+  <li><strong>Trying to Edit on Windows 10’s Video Editor</strong> - <em>Published 2019-09-22</em></li>
+  <li><strong>The Abbreviated Sub Counts on YouTube - Opinion</strong> - <em>Published 2019-09-07</em></li>
+  <li><strong>Beyond Year 10000 in Windows XP</strong> - <em>Published 2019-09-01</em></li>
+  <li><strong>A Look Back at Windows Media Player 7</strong> - <em>Published 2019-08-16</em></li>
+  <li><strong>Upgrading from Windows 3.1 to Windows 7 [old version]</strong> - <em>Published 2019-07-21</em></li>
+</ul>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

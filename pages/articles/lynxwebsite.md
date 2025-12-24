@@ -1,5 +1,4 @@
 ---
-layout: main
 title: LynxWebsite
 permalink: LynxWebsite
 aliases:

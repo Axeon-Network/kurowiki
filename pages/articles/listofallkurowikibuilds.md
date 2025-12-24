@@ -1,5 +1,4 @@
 ---
-layout: main
 title: List of all KuroWiki builds
 permalink: List_of_all_KuroWiki_builds
 ---

@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KayWebsite
 permalink: KayWebsite
 redirect_from:
@@ -69,7 +68,7 @@ v2.0 was finally finished almost a month later, on 9 February 2025, when it repl
 </div>
 
 ## Version 3.x
-Plans for a ClyronWebsite v3.0 trace back to May 2025, as KayAurora had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS, thus regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [Nekori](Nekori64)'s [HoriWebsite](HoriWebsite).
+Plans for a ClyronWebsite v3.0 trace back to May 2025, as KayAurora had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS, thus regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [Kit](Kit64)'s [HoriWebsite](HoriWebsite).
 Like with the HoriWebsite retro frontend, KayAurora wanted to build one using Microsoft FrontPage 2003, but plans later shifted to just building it on top of the existing Astro ClyronWebsite, to keep maintenence burden low.
 
 Much of v3.0's development happened in July 2025, immediately after v2.5.2's release. The website has undergone a new major visual overhaul, also nicely incorporating the design of the then-fairly-new KayAurora branding.

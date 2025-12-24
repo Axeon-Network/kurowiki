@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KayAurora
 permalink: KayAurora
 redirect_from:

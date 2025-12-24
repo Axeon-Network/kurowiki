@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Loreside
 hatnote: Some temporary string here...
 search_exclude: true

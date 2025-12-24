@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>Sitemap ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >Sitemap</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              
+<p>This page contains a directory listing of all articles in this wiki.</p>
+
+<p>There are <b>70</b> articles in total.</p>
+
+<ul>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/A_Emoji">A Emoji</a> - <em>http://localhost:4000/kurowiki/A_Emoji</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/A_Board">A Board</a> - <em>http://localhost:4000/kurowiki/A_Board</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Absolute_Cinema">Absolute Cinema</a> - <em>http://localhost:4000/kurowiki/Absolute_Cinema</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Kit_Arctic">Kit Arctic</a> - <em>http://localhost:4000/kurowiki/Kit_Arctic</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/AstroNT">AstroNT</a> - <em>http://localhost:4000/kurowiki/AstroNT</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/A_VMware_First-Timer_installs_Windows_XP!">A VMware First-Timer installs Windows XP!</a> - <em>http://localhost:4000/kurowiki/A_VMware_First-Timer_installs_Windows_XP!</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Axeon_Network">Axeon Network</a> - <em>http://localhost:4000/kurowiki/Axeon_Network</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Cairo_Company_Incorporated">Cairo Company Incorporated</a> - <em>http://localhost:4000/kurowiki/Cairo_Company_Incorporated</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Comet">Comet</a> - <em>http://localhost:4000/kurowiki/Comet</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Comet_Adventure">Comet Adventure</a> - <em>http://localhost:4000/kurowiki/Comet_Adventure</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Deltari_Test_Page">Deltari Test Page</a> - <em>http://localhost:4000/kurowiki/Deltari_Test_Page</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Development_of_KuroWiki">Development of KuroWiki</a> - <em>http://localhost:4000/kurowiki/Development_of_KuroWiki</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Dogui_Heavy_Industries_Incorporated">Dogui Heavy Industries Incorporated</a> - <em>http://localhost:4000/kurowiki/Dogui_Heavy_Industries_Incorporated</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Dogui">Dogui</a> - <em>http://localhost:4000/kurowiki/Dogui</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Finding_Fucking">Finding Fucking</a> - <em>http://localhost:4000/kurowiki/Finding_Fucking</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Horicraft">Horicraft</a> - <em>http://localhost:4000/kurowiki/Horicraft</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Horicraft_(2)">Horicraft (2)</a> - <em>http://localhost:4000/kurowiki/Horicraft_(2)</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/HoriServer">HoriServer</a> - <em>http://localhost:4000/kurowiki/HoriServer</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/HoriServer_(2)">HoriServer (2)</a> - <em>http://localhost:4000/kurowiki/HoriServer_(2)</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/HoriWebsite">HoriWebsite</a> - <em>http://localhost:4000/kurowiki/HoriWebsite</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Horicraft_Underground_Rail_System">Horicraft Underground Rail System</a> - <em>http://localhost:4000/kurowiki/Horicraft_Underground_Rail_System</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/iKBLULTGT2">%iKBLULTGT2%</a> - <em>http://localhost:4000/kurowiki/iKBLULTGT2</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KayAurora">KayAurora</a> - <em>http://localhost:4000/kurowiki/KayAurora</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KayAurora_and_Kit_Collab">KayAurora and Kit Collab</a> - <em>http://localhost:4000/kurowiki/KayAurora_and_Kit_Collab</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KayWebsite">KayWebsite</a> - <em>http://localhost:4000/kurowiki/KayWebsite</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KayWebsite_version_history">KayWebsite version history</a> - <em>http://localhost:4000/kurowiki/KayWebsite_version_history</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Kit64">Kit</a> - <em>http://localhost:4000/kurowiki/Kit64</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Kit_Moments">Kit Moments</a> - <em>http://localhost:4000/kurowiki/Kit_Moments</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki">KuroWiki</a> - <em>http://localhost:4000/kurowiki/KuroWiki</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_2000">KuroWiki build 2000</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_2000</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_2600_(Beta_6)">KuroWiki build 2600 (Beta 6)</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_2600_(Beta_6)</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_2600">KuroWiki build 2600 (main)</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_2600</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3567_(kayaurora)">KuroWiki build 3567 (kayaurora)</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3567_(kayaurora)</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3567_(main_wik)">KuroWiki build 3567 (main_wik)</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3567_(main_wik)</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3615">KuroWiki build 3615</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3615</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3680">KuroWiki build 3680</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3680</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3686">KuroWiki build 3686</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3686</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3689">KuroWiki build 3689</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3689</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3705">KuroWiki build 3705</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3705</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3761">KuroWiki build 3761</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3761</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3762">KuroWiki build 3762</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3762</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3810">KuroWiki build 3810</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3810</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3842">KuroWiki build 3842</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3842</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3880">KuroWiki build 3880</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3880</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3889">KuroWiki build 3889</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3889</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_3933">KuroWiki build 3933</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_3933</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_4074">KuroWiki build 4074</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_4074</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_4100">KuroWiki build 4100</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_4100</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_4177">KuroWiki build 4177</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_4177</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_4219">KuroWiki build 4219</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_4219</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/KuroWiki_build_4232">KuroWiki build 4232</a> - <em>http://localhost:4000/kurowiki/KuroWiki_build_4232</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/List_of_all_KuroWiki_builds">List of all KuroWiki builds</a> - <em>http://localhost:4000/kurowiki/List_of_all_KuroWiki_builds</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/List_of_KayAurora_Codenames">List of KayAurora Codenames</a> - <em>http://localhost:4000/kurowiki/List_of_KayAurora_Codenames</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/List_of_Lynxmic_videos">List of Lynxmic videos</a> - <em>http://localhost:4000/kurowiki/List_of_Lynxmic_videos</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/List_of_Nekori_Codenames">List of Nekori Codenames</a> - <em>http://localhost:4000/kurowiki/List_of_Nekori_Codenames</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Lynxmic">Lynxmic</a> - <em>http://localhost:4000/kurowiki/Lynxmic</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Lynxmic_Blog">Lynxmic Blog</a> - <em>http://localhost:4000/kurowiki/Lynxmic_Blog</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/LynxWebsite">LynxWebsite</a> - <em>http://localhost:4000/kurowiki/LynxWebsite</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/MidoriMC">MidoriMC</a> - <em>http://localhost:4000/kurowiki/MidoriMC</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Nishi">Nishi</a> - <em>http://localhost:4000/kurowiki/Nishi</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Nishi's_Den">Nishi’s Den</a> - <em>http://localhost:4000/kurowiki/Nishi’s_Den</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/NovaLand">NovaLand</a> - <em>http://localhost:4000/kurowiki/NovaLand</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/NovaServer">NovaServer</a> - <em>http://localhost:4000/kurowiki/NovaServer</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/NovaSite">NovaSite</a> - <em>http://localhost:4000/kurowiki/NovaSite</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Stuffy's Tech Misadventures">Stuffy’s Tech Misadventures</a> - <em>http://localhost:4000/kurowiki/Stuffy’s Tech Misadventures</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Stuffy's_Website">Stuffy’s Website</a> - <em>http://localhost:4000/kurowiki/Stuffy’s_Website</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/StuffyXP">StuffyXP</a> - <em>http://localhost:4000/kurowiki/StuffyXP</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/StuffyXP_2">StuffyXP 2</a> - <em>http://localhost:4000/kurowiki/StuffyXP_2</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/TheCeleryPC">TheCeleryPC</a> - <em>http://localhost:4000/kurowiki/TheCeleryPC</em></p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000/kurowiki/Thei5Lappy">Thei5Lappy</a> - <em>http://localhost:4000/kurowiki/Thei5Lappy</em></p>
+  </li>
+</ul>
+
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>StuffyXP ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              <p>TODO, cover other stuffyxp history, like the gd on vista strike, and make a disambiguation page of Kit and stuffyxp.<br />This article is about the deleted YouTube channel. For its creator who used to be known as StuffyXP, see <a href="Kit64">Kit</a>. For the archived Discord server, see <a href="StuffyXP_Hangout">StuffyXP Hangout</a>. For the website, see <a href="StuffyXP_Website">StuffyXP Website</a>. For a list of available StuffyXP videos, see <a href="List_of_StuffyXP_videos">List of StuffyXP videos</a></p>
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >StuffyXP</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <style>
+  /* so the infoboxes dont overlap,
+  this is a article-side setting that you can use in your articles, too! */
+  #stuffyxp-extras, #stuffyxp-vlogs, #stuffy-64, #stuffyxp-vods {
+    clear: right !important;
+  }
+</style>
+
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        StuffyXP
+    </div>
+    
+    
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">YouTube channel</div>
+        	<img src="resources/img/articles/stuffyxp/stuffyxp2025.png" alt="StuffyXP Profile Picture" style="width:25%;" class="infobox-img" /><br />
+            <img src="resources/img/articles/stuffyxp/stuffyxpbanner2025.png" alt="StuffyXP Banner" style="width:70%;" class="infobox-img" /><br />
+    </div>
+    
+
+    <table class="infobox-data-table">
+        <tbody>
+            
+            <tr>
+                <th>Formerly known as</th>
+                <td>Yoshi Land0842 (2020-2021)<br />Stuff Life (2021-2023)<br />Stuffy (2023-2024)</td>
+            </tr>
+            
+            <tr>
+                <th>Created by</th>
+                <td><a href="Kit64">Kit</a></td>
+            </tr>
+            <tr>
+                <th>Videos</th>
+                <td>44 (including streams)</td>
+            </tr>
+            <tr>
+                <th>Subscribers</th>
+                <td>238</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>12,052</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>YouTube</td>
+            </tr>
+            <tr>
+                <th>Created on</th>
+                <td>2020-03-13</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>Deleted</td>
+            </tr>
+            
+            
+            <tr>
+                <th>Link</th>
+                <td>N/A (formerly youtube.com/@StuffyXP)</td>
+            </tr>
+            
+            
+		 
+		<tr>
+                <th>Deleted on</th>
+                <td>2025-03-14</td>
+            </tr>
+	
+            </tbody>
+    </table>
+</div>
+
+<p><strong>StuffyXP</strong> (commongly abbreviated as <strong>STXP</strong>) was a tech-focused (formerly <em>plushie-focused</em>) YouTube channel ran and operated by <a href="Kit64">Kit</a> launched on 13 March 2020. It was closed and deleted in 14 March 2025 due to Kit’s mental health status.</p>
+
+<h1 id="history">History</h1>
+
+<h2 id="yoshi-land0842-and-stuff-life-2020-2022"><em>Yoshi Land0842</em> and <em>Stuff Life</em> (2020-2022)</h2>
+
+<p>The channel was created on 13 March 2020 under the name <em>Yoshi Land0842</em><sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> but didn’t have content until April 2021 following the rebrand from <em>Yoshi Land0842</em> to <em>Stuff Life</em>, and the release of Kit’s first video.</p>
+
+<p>The video (along with its sequel, which was uploaded the same day) consisted of a showcase of Kit’s plushies, including <a href="Dogui">Dogui</a>; which was also used as the branding of StuffyXP until July 2024. The videos were edited on a mobile media editor called InShot on a Samsung Galaxy J5, which was a gift from Kit’s dad.</p>
+
+<p>The channel’s upload schedule continued until December 2021. The last video from that year was a teaser for upcoming videos planned for 2022, although they were never made as Kit didn’t upload anything to the channel until 2023.</p>
+
+<h2 id="channel-revival-and-stuffy-2023">Channel revival and <em>Stuffy</em> (2023)</h2>
+
+<p>The channel was revived in 2023, notable uploads include a COVID-19-based video of their plushies chatting in a Zoom-like UX, with all of them ““talking”” (in reality just Kit making high-pitched sounds.) at the same time (along its sequel), and several other short films featuring Kit’s plushies.</p>
+
+<blockquote>
+  <p>Though I might think of them as cringe, it was child me that truly had some peak imagination, <a href="Absolute_Cinema">absolute cinema</a>, one might say.</p>
+</blockquote>
+
+<ul>
+  <li><em>Kit’s thoughts regarding the plushie era of StuffyXP, dated 2024</em></li>
+</ul>
+
+<p>Additionally, 2023 also marked the start of the StuffyXP tech era (which co-existed with the plush videos), as videos featuring <a href="TheCeleryPC">TheCeleryPC</a> consisting of using VirtualBox for installing operating systems like Windows XP and Windows Vista were uploaded. These videos were recorded with a camera, as Kit was unaware of screencast software at that time.<br />Other notable videos include Kit re-installing Windows 7 on TheCeleryPC (which was the first public appearance of the computer itself, as the monitor was the only component shown prior to this video).</p>
+
+<p>On 3 October 2023, the <em>Stuff Life</em> channel was rebranded to <em>Stuffy</em>, introducing a new version of the Dogui branding used in the profile picture and banner. The <code class="language-plaintext highlighter-rouge">StuffyYT20</code> handle was used for the channel for a couple of months before switching to <code class="language-plaintext highlighter-rouge">StuffyXP</code>.</p>
+
+<h2 id="stuffyxp-2024-2025">StuffyXP (2024-2025)</h2>
+
+<p>The channel recieved an update in July 2024, moving away from the Dogui branding to a new Windows Whistler-themed branding. This update also formally introduced the StuffyXP name.</p>
+
+<h1 id="username-origin">Username origin</h1>
+
+<p>The origin of the StuffyXP name actually comes back from <a href="https://reddit.com/u/StuffyXP">Kit’s old Reddit account</a>. In the account creation process, Kit thought of appending a Windows version to the name as <em>Stuffy</em> wasn’t available. They originally thought of <code class="language-plaintext highlighter-rouge">Stuffy7</code>, but then changed it at the last minute to <code class="language-plaintext highlighter-rouge">StuffyXP</code> after realizing that it might cause issues.</p>
+
+<h1 id="youtube-channels">YouTube Channels</h1>
+
+<ul>
+  <li><a href="A_VMware_First-Timer_installs_Windows_XP!"><strong>A VMware First-Timer installs Windows XP!</strong></a> - <em>548 views - Uploaded 2024-02-13</em></li>
+  <li><strong>Installing modern programs on Windows Vista!</strong> - <em>742 views - Uploaded 2024-07-23</em></li>
+  <li><strong>The Windows XP Vibes are here! – Whistler Beta 2</strong> - <em>140 views - Uploaded 2024-08-04</em></li>
+  <li><strong>A ReactOS video but everything goes kinda normal…</strong> - <em>525 views - Uploaded 2024-08-18</em></li>
+  <li><strong>Haiku – The modern implementation of BeOS!</strong> - <em>1,964 views - Uploaded 2024-08-30</em></li>
+  <li><strong>Is the Intel Pentium F00F bug possible on 86Box?</strong> - <em>1,054 views - Uploaded 2024-09-23</em></li>
+  <li><strong>The forgotten Windows Competitor…</strong> - <em>346 views - Uploaded 2024-09-28</em></li>
+  <li><strong>Geometry Dash… on Windows Vista!?</strong> - <em>687 views - Uploaded 2024-12-04</em></li>
+  <li><strong>Using Windows 11 for the first time!</strong> - <em>984 views - Uploaded 2024-12-21</em></li>
+  <li><strong>So i installed Arch Linux the other day…</strong> - <em>942 views - Uploaded 2025-01-10</em></li>
+  <li><strong>VMware’s Early Days… (v1.0-294)</strong> - <em>1,145 views - Uploaded 2025-02-25</em></li>
+  <li><strong>More early versions of virtualization software! (VirtualBox and Virtual PC)</strong> - <em>172 views - Uploaded 2025-03-05</em></li>
+</ul>
+
+<p><em>Data fetched before the closure of the channel in 14 March 2025.</em></p>
+
+<h2 id="stuffyxp-extras">StuffyXP Extras</h2>
+
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        StuffyXP Extras
+    </div>
+    
+    
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">YouTube channel</div>
+        	<img src="resources/img/articles/stuffyxp/stuffyxpextras2025.png" alt="StuffyXP Extras Profile Picture" style="width:25%;" class="infobox-img" /><br />
+            <img src="resources/img/articles/stuffyxp/stuffyxpextrasbanner.jpg" alt="StuffyXP Extras Banner" style="width:70%;" class="infobox-img" /><br />
+    </div>
+    
+
+    <table class="infobox-data-table">
+        <tbody>
+            
+            <tr>
+                <th>Formerly known as</th>
+                <td>Sttuf Blogs (2021-2023)<br />Stuffy + (2023-2024)<br />StuffyXP Plus (Mid 2024)</td>
+            </tr>
+            
+            <tr>
+                <th>Created by</th>
+                <td><a href="Kit64">Kit</a></td>
+            </tr>
+            <tr>
+                <th>Videos</th>
+                <td>11</td>
+            </tr>
+            <tr>
+                <th>Subscribers</th>
+                <td>19 [^2]</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>177 (estimated)[^2]</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>YouTube</td>
+            </tr>
+            <tr>
+                <th>Created on</th>
+                <td>2021-06-26</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>Deleted</td>
+            </tr>
+            
+            
+            <tr>
+                <th>Link</th>
+                <td>N/A (formerly youtube.com/@StuffyXPExtras)</td>
+            </tr>
+            
+            
+		 
+		<tr>
+                <th>Deleted on</th>
+                <td>2025-03-14</td>
+            </tr>
+	
+            </tbody>
+    </table>
+</div>
+
+<p><em>For a list of StuffyXP Extras videos, see <a href="List_of_StuffyXP_Videos#stuffyxp-extras">List of StuffyXP videos § StuffyXP Extras</a></em></p>
+
+<p><strong>StuffyXP Extras</strong> was a YouTube channel owned and operated by Kit created on 26 June 2021. Its primary focus was being a place for “random shitposts, behind-the-scenes footage”, etc.</p>
+
+<p>The channel’s subscriber count was low, and mainly featured videos like Kit’s voice reveal, test footage, raw footage and more.</p>
+
+<p>Judging by the brand account name “<em>Sttuf Blogs</em>”, it was originally Kit’s vlogs channel but became an extras channel around 2023, it had <a href="Dogui">Dogui</a> as its primary branding.</p>
+
+<p>Addionally, Kit has used the channel for backup purposes, such as when the StuffyXP channel was false-striked due to <strong>Geometry Dash…on Windows Vista!?</strong>.</p>
+
+<h2 id="stuffyxp-vlogs">StuffyXP Vlogs</h2>
+
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        StuffyXP Extras
+    </div>
+    
+    
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">YouTube channel</div>
+        	<img src="resources/img/articles/stuffyxp/stuffyxpvlogs2025.png" alt="StuffyXP Extras Profile Picture" style="width:25%;" class="infobox-img" /><br />
+            <img src="resources/img/articles/stuffyxp/stuffyxpvlogsbanner2025.png" alt="StuffyXP Extras Banner" style="width:70%;" class="infobox-img" /><br />
+    </div>
+    
+
+    <table class="infobox-data-table">
+        <tbody>
+            
+            <tr>
+                <th>Formerly known as</th>
+                <td>Stuffy Vlogs (2023-2024)</td>
+            </tr>
+            
+            <tr>
+                <th>Created by</th>
+                <td><a href="Kit64">Kit</a></td>
+            </tr>
+            <tr>
+                <th>Videos</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Subscribers</th>
+                <td>15</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>15</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>YouTube</td>
+            </tr>
+            <tr>
+                <th>Created on</th>
+                <td>2021-07-14</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>Deleted</td>
+            </tr>
+            
+            
+            <tr>
+                <th>Link</th>
+                <td>N/A (formerly youtube.com/@StuffyXPVlogs)</td>
+            </tr>
+            
+            
+		 
+		<tr>
+                <th>Deleted on</th>
+                <td>2025-03-14</td>
+            </tr>
+	
+            </tbody>
+    </table>
+</div>
+
+<p><em>For a list of StuffyXP Vlogs videos, see <a href="List_of_StuffyXP_Videos#stuffyxp-vlogs">List of StuffyXP videos § StuffyXP Vlogs</a></em></p>
+
+<p><strong>StuffyXP Vlogs</strong> was a YouTube channel ran and operated by Kit created on 14 July 2021. Its suggested focus was being Kit’s vlog channel, but that never came to life due to “no interesting events happening in Kit’s life”, while in reality was the lack of interest and equipment for creating vlog-style videos.</p>
+
+<p>The channel never had any sort of content but was updated every time something needed to be updated (e.g branding, links, copyright), though one <em>test</em> video was uploaded to the channel sometime around March 2024 to test the YouTube functionality of Carl-Bot.</p>
+
+<p>A video for the channel was planned sometime in late 2024, allegedly titled <strong>The $5 Wireless Keyboard &amp; Mouse Combo – Will they work?</strong>, aluding to its name, consisted of Kit testing a keyboard &amp; mouse combo whose value was $5 (~130 <span id="tt4">HNL</span>). The video was cancelled due to the combo not being able to connect to a computer due to a missing USB-to-wireless adapter, which wasn’t included in the box. Kit still owns this combo to this day.</p>
+
+<div class="mdl-tooltip mdl-tooltip--large" for="tt4">
+Honduran Lempira, Honduras' currency.
+</div>
+
+<p>The channel was originally known as <strong>MisAnimacionesPencil2D</strong> (english: MyAnimsPencil2D) which was going to be used as a place for Kit to upload his animations made in Pencil2D, a freeware animation program. The channel was eventually converted to Stuffy Vlogs sometime around in mid 2023.</p>
+
+<h2 id="stuffy-64">Stuffy 64</h2>
+
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        Stuffy 64
+    </div>
+    
+    
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">YouTube channel</div>
+        	<img src="resources/img/articles/stuffyxp/stuffy642025.png" alt="Stuffy 64 Profile Picture" style="width:25%;" class="infobox-img" /><br />
+            <img src="resources/img/articles/stuffyxp/stuffy64banner2025.png" alt="Stuffy 64 Banner" style="width:70%;" class="infobox-img" /><br />
+    </div>
+    
+
+    <table class="infobox-data-table">
+        <tbody>
+            
+            <tr>
+                <th>Formerly known as</th>
+                <td>Stuff Life 64 (2023-2024)</td>
+            </tr>
+            
+            <tr>
+                <th>Created by</th>
+                <td><a href="Kit64">Kit</a></td>
+            </tr>
+            <tr>
+                <th>Videos</th>
+                <td>51</td>
+            </tr>
+            <tr>
+                <th>Subscribers</th>
+                <td>178</td>
+            </tr>
+            <tr>
+                <th>Views</th>
+                <td>40,227</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>YouTube</td>
+            </tr>
+            <tr>
+                <th>Created on</th>
+                <td>2023-08-04</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>Deleted</td>
+            </tr>
+            
+            
+            <tr>
+                <th>Link</th>
+                <td>N/A (formerly youtube.com/@Stuffy64_)</td>
+            </tr>
+            
+            
+		 
+		<tr>
+                <th>Deleted on</th>
+                <td>2025-03-14</td>
+            </tr>
+	
+            </tbody>
+    </table>
+</div>
+
+<p><em>For a list of Stuffy 64 videos, see <a href="List_of_StuffyXP_videos#stuffy-64">List of StuffyXP videos § Stuffy 64</a></em></p>
+
+<p><strong>Stuffy 64</strong> was a gaming-focused YouTube channel ran and operated by Kit created on 4 August 2023. It was deleted in March 2025 following the StuffyXP closure.</p>
+
+<p>It was the only channel that retroactively co-exited with StuffyXP’s video uploads. It later surpassed StuffyXP in subscribers for almost a month. It has been stated by Kit that “the channel’s name is a reference to both the <a href="https://en.wikipedia.org/wiki/Nintendo_64">Nintendo 64</a> and <a href="https://en.wikipedia.org/wiki/Nintendo_64">Super Mario 64</a>”.</p>
+
+<p>The channel’s first uploads were YouTube Shorts of Kit’s Super Mario 64 save file, one of these being footage of Kit getting to the credits sequence in the game, and another one was them showcasing some Super Mario 64 bugs and glitches, like how to get to Tower of the Wing Cap without directly looking at the ceiling in Peach’s Castle, or clipping through walls via item boxes.</p>
+
+<p>The channel was revived in mid 2024, debuting the <a href="https://github.com/96flashbacks">96Flashbacks</a> video series. The series lasted 6 episodes out of the 8 episodes originally planned, Episode 7 was cancelled after Kit lost their save file after reinstalling Windows.</p>
+
+<p>Around mid-to-late 2024, the channel was revived again, now with a focus on the <a href="https://en.wikipedia.org/wiki/Mario_&amp;_Luigi">Mario &amp; Luigi</a> franchise, mainly <a href="https://en.wikipedia.org/wiki/Mario_&amp;_Luigi:_Bowser's_Inside_Story">Mario &amp; Luigi: Bowser’s Inside Story</a> for the Nintendo DS. This era was the time where both the subscriber count and video count increased significantly due to how easy it was to make these videos. Even at one point on the channel’s lifetime, the channel surpassed StuffyXP in susbcribers.</p>
+
+<p>The channel’s content at that time included videos like the Mario &amp; Luigi: Bowser’s Inside Story debug room, gauntlet and several other gameplay bits. Videos regarding <a href="https://en.wikipedia.org/wiki/Mario_&amp;_Luigi:_Partners_in_Time">Mario &amp; Luigi: Partners in Time</a> and <a href="https://en.wikipedia.org/wiki/Mario_&amp;_Luigi:_Superstar_Saga">Mario &amp; Luigi: Superstar Saga</a> were also upoaded, but were far less frequent than Bowser’s Inside Story.</p>
+
+<p>Following the introduction of <a href="Thei5Lappy">Thei5Lappy</a> after TheCeleryPC’s death, <a href="https://en.wikipedia.org/wiki/Geometry_Dash">Geometry Dash</a> videos were also uploaded, most notably level showcases, bugs, and achievements.</p>
+
+<h2 id="stuffyxp-vods">StuffyXP VODS</h2>
+
+<p><strong>StuffyXP VODS</strong> was a YouTube channel owned and operated by Kit created in 22 December 2024. Its main purpose was to archive streams from Kit, but it never eventually uploaded anything, and the latter was deleted when the StuffyXP channels were moved to their respective separate emails.</p>
+
+<h1 id="stuffyxp-network">StuffyXP Network</h1>
+
+<p>Other projects have also been made throughout 2024 under the StuffyXP umbrella, officially referred to collectively as the “<em>StuffyXP Network</em>”:</p>
+
+<ul>
+  <li><a href="StuffyXP_Website"><strong>StuffyXP Website</strong></a>: Kit’s personal website while they were known as StuffyXP, the precursor to <a href="HoriWebsite">HoriWebsite</a> and other iterations. Initial development in late February 2024, discontinued early January 2025 in favor of HoriWebsite.</li>
+  <li><a href="StuffyXP_Hangout"><strong>StuffyXP Hangout</strong></a>: A Discord Server primarily meant for fans of the StuffyXP channel and the wider Network to hangout in. It is the successor to <a href="Stuffy's_Place">Stuffy’s Place</a> in early October 2024, it was shut down on March 2025 along with the StuffyXP Closure and later successed by <a href="HoriServer_(2)">HoriServer (2)</a>.</li>
+  <li><strong>StuffyXP Extras (&amp; Co.)</strong>: With the Whistler-themed rebrand of StuffyXP, other StuffyXP channels have received StuffyXP naming as well, with the exception of Stuffy 64. In November 2024, Stuffy+ had been renamed to StuffyXP Extras, and Stuffy Vlogs as StuffyXP Vlogs.</li>
+</ul>
+
+<h1 id="closure">Closure</h1>
+
+<p>On 16 March 2025, the StuffyXP YouTube channels were officially shut down, Kit chose to use YouTube’s “Hide your channel” feature, a technicality that allows for future reclamation, though no such decision has been made.</p>
+
+<!--- The StuffyXP channels closed on 16 March 2025 via YouTube's "Hide your channel" feature, which allowed Kit to re-take the channels whenever they wanted, though that oportunity hasn't been used as a true decision. -->
+
+<p>The main reason of the closure was essentially Kit’s lack of interest in content creation and their wintuber career, as stated some time ago:</p>
+
+<blockquote>
+  <p>It is really hard to come up with a good video idea, and most of the other videos ideas are kinda lame.<br />
+One thing that i never even liked is that whenever you do an overused video idea (like idk installing some random longhorn build) get views while original experiments do not, which decreased my interest.</p>
+</blockquote>
+
+<p>– Kit, December 2024</p>
+
+<p>Addionally, Kit’s mental health status was getting worse, the only way for them to achieve peace was to get rid of some stuff, Kit didn’t want to just abandon the channels, they wanted them gone. Kit is also against the archival of the StuffyXP content.</p>
+
+<p>The StuffyXP channel was re-enabled on 1 April 2025 as an April Fools joke, but it only lasted for 1 day, as the joke.</p>
+
+<h1 id="references">References</h1>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It originated from Kit’s Mario Kart DS online play username, the name originally was intended to be <em>Yoshi Island0842</em>, but the 14 character limit shortened the username to Yoshi Land0842. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

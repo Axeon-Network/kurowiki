@@ -1,5 +1,4 @@
 ---
-layout: main
 title: StuffyXP 2
 permalink: StuffyXP_2
 hatnote:

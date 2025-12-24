@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Horicraft Underground Rail System
 permalink: Horicraft_Underground_Rail_System
 redirect_from:

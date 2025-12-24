@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- the usual stuff -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- embed stuff -->
+    <meta property="og:title" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:description" content="Axeon KuroWiki Release Candidate 1">
+    <meta property="og:url" content="http://localhost:4000">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="website" property="type">
+     
+    <!-- the font (i dont think it works) -->
+    <!-- it had the wrong fucking link bruh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- gotta get a new one this is horiwebsite's one -->
+    <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
+    
+    <!-- do i need to explain this??? -->
+    <title>KayWebsite version history ~ KuroWiki</title>
+    
+    <!-- its css time -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/css/infobox.css">
+    <link rel="stylesheet" href="./resources/css/global.css">
+    <link rel="stylesheet" href="./resources/css/gallery.css">
+    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <!-- springviewer takes alot of lines okay~ -->
+
+    <!-- the thing that makes most of mdl work -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- springviewer js file -->
+    <script src="./resources/js/springviewer.js"></script>
+
+    <!-- the light mode mechanic -->
+     <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const htmlElement = document.documentElement;
+      const storageKey = 'themePreference';
+      const lightModeClass = 'light-mode';
+
+      function loadTheme() {
+          const savedTheme = localStorage.getItem(storageKey);
+        
+          if (savedTheme === 'light') {
+              htmlElement.classList.add(lightModeClass);
+          } else {
+              htmlElement.classList.remove(lightModeClass);
+          }
+      }
+
+      loadTheme();
+      });
+     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'onekoEnabled';
+    const scriptId = 'onekoTag';
+    const scriptSrc = './resources/js/oneko.js';
+
+    function loadScript() {
+        if (document.getElementById(scriptId)) return;
+        const el = document.createElement('script');
+        el.id = scriptId;
+        el.src = scriptSrc;
+        el.defer = true;
+        document.body.appendChild(el);
+    }
+
+    const enabled = localStorage.getItem(storageKey) === '1';
+    if (enabled) {
+        loadScript();
+    }
+});
+</script>
+
+
+     
+    
+  </head>
+
+  <!-- and so, it begins -->
+  <body>
+    <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
+          <div class="container is-hidden-mobile">
+            <!-- its finally a link it has been bothering me alot recently idk why -->
+            <a href="./" style="color:white;" title="Go back to home page">
+              <span id="title" class="mdl-layout-title">KuroWiki</span>
+            </a>
+          </div>
+        
+          <div class="mdl-layout-spacer"></div>
+        
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+            <!-- search box -->
+            <div class="mdl-textfield__holder">
+              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
+                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!!-->
+              </div>
+
+              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+                <form action="results" method="get">
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                      <i class="material-icons">search</i>
+                    </label>
+                    <div class="mdl-textfield__expandable-holder">
+                      <input class="mdl-textfield__input" type="text" id="sample6" name="q">
+                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search KuroWiki...</i></label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+  
+      <div class="mdl-layout__drawer">
+        
+
+        
+          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        
+    
+        <nav class="mdl-navigation" style="margin-top: -3% !important;">
+          <a class="mdl-navigation__link" id="drawerlink" href="./">
+            <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
+          </a>
+
+          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+            <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+            <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contribute!
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+            <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
+          </a>
+       
+          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+            <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
+          </a>
+
+          <span style="padding-left:4.5%; color:var(--text-color)">
+            <br>
+            &copy;2025 Axeon Network.
+            <br>
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC-BY-SA-4.0</a>
+            <br>
+            <br>
+            Axeon KuroWiki Delta 1 
+            <span>
+              
+                (Debug)
+              
+            </span>
+            <br>
+            <span style="font-size: smaller; color:darkgray !important;">
+              
+                Version 7.0.4456.kitsixtyfour.251223-1823
+              
+            
+              
+            </span>
+          </span>
+        </nav>
+      </div>
+
+      <!-- and god said, let there be content, and there was content -->
+      <main class="mdl-layout__content">
+        <div class="box mdl-shadow--8dp" id="mainbox">
+          <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
+              <div class="hatnote" markdown="1">
+              <p>Main article: <a href="KayWebsite">KayWebsite</a></p>
+
+            </div>
+
+            <h1 id="pagetitle" style="color:var(--title-color)" >KayWebsite version history</h1>
+            <hr>
+          
+            <noscript>
+              <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
+            </noscript>
+
+		        <div id="pagecontent">
+              <p>This is a list of all released versions of KayWebsite and their changelogs, as of 30 October 2025, from latest to earliest. This list only includes v2.x and v3.x versions at the moment, and is subject to change as new KayWebsite versions come out.</p>
+
+<p>The changelogs of all versions before and including v3.3.1 are inherited from KayWebsite’s changelog page, which was deprecated as of November 2025. They’ve been all archived here for historical purposes.</p>
+
+<h1 id="version-25x">Version 25.x</h1>
+<h2 id="25112">25.11.2</h2>
+<p>Released on 29 November 2025, it mainly updated the Projects and Devices pages. Other changes include fixing issues and inconsistencies in the CSS styling, while the automated CI/CD version determination was updated to exclude unnecessary version bumps in the event of new blog posts or edits of them, unless they come “in package” with changes to the website itself.</p>
+
+<h2 id="25111">25.11.1</h2>
+<p>Released on 19 November 2025, the main change is the fact the 88x31 buttons section in the homepage is now a collapsible box, closed by default. This is to make the homepage look cleaner.</p>
+
+<h2 id="2511">25.11</h2>
+<p>Released on 6 November 2025, it brings various bug fixes and improvements. In particular, the general font size was increased in the Retro Frontend for better readability, while the font sizes of several elements of the main website were adjusted for consistency with respect to the general font size that was increased in the previous version.</p>
+
+<p>Broken links and issues with the CI/CD version determination were also fixed, while soft breaks are now properly supported in Markdown without the need to append an <code class="language-plaintext highlighter-rouge">\</code> character at the end.</p>
+
+<h2 id="2510">25.10</h2>
+<p>The first version to use the new date versioning system in the vYY.M.R format (where YY means the year of release, M means the month of release, and R the revision number for the month), it was released on 30 October 2025. Under this new version scheme, the version is automatically determined through CI/CD on GitHub every time KayWebsite is built in production.</p>
+
+<p>This KayWebsite release changed the sitewide font from Inter to Atkinson Hyperlegible and increased font size. The Devices page was also overhauled, while embeds were fixed and now display properly. On the backend side, page headings and descriptions are now declared as Astro props.</p>
+
+<p>The plaintext mode warning (i.e. when no CSS is loaded, for example on browsers lacking proper CSS support like Netscape 4) was updated to properly specify that it is not explicitly supported.</p>
+
+<h1 id="version-3x">Version 3.x</h1>
+<h2 id="331">3.3.1</h2>
+<p>This version was released on 7 October 2025. It is the final KayWebsite version to use the Semantic Versioning (SemVer) system, as the next version would jump from major version 3 to major version 25 (for the then-current year 2025) as part of the switch to a new date versioning system in the year-month-revision format (vYY.M.R). As such, this is considered the final v3 release of KayWebsite.</p>
+
+<ul>
+  <li><strong>Projects</strong>: Updated projects.</li>
+  <li><strong>Devices</strong>: Minor fix.</li>
+  <li>Deprecated <code class="language-plaintext highlighter-rouge">/discord</code> redirect first introduced in v2.5.2, in favor of the same redirect from AxeonWebsite.</li>
+</ul>
+
+<h2 id="33">3.3</h2>
+<p>This version was released on 14 September 2025.</p>
+
+<ul>
+  <li><strong>Added a Tags page</strong>, listing all tags used in blog posts. This completes the implementation of tags first added in v2.5.</li>
+  <li><strong>Home</strong>: Added a link to the <strong>Devices page</strong>, added more fun wording and reworded the natural sights sentence.</li>
+  <li><strong>Home</strong>: Added two new 88x31 buttons and removed one that became irrelevant over time.</li>
+  <li><strong>Projects</strong>: Updated projects.</li>
+  <li><strong>Devices</strong>: Added more details on specs of other PCs.</li>
+  <li>The website colors and logos have been <strong>changed to correspond with the current KayAurora branding</strong>.</li>
+  <li>Reduced general <code class="language-plaintext highlighter-rouge">font-size</code> <strong>on mobile</strong>.</li>
+  <li>The font used in headings on the website is now <strong>uniformly applied everywhere, including in the blog</strong>.</li>
+  <li><strong>Retro Frontend</strong>: The margins on the side of the page content are <strong>no longer being rendered</strong>.</li>
+  <li>Reduced the amount of stars displayed <strong>on the mobile navbar</strong>.</li>
+  <li>The change from <strong>relative to absolute URLs for images in blog posts</strong> (v3.0.1) has been reverted. A solution has been found to keep rather relative URLs while bypassing Astro’s “image optimization”.</li>
+  <li><strong>RSS Feed</strong>: Fixed small text in blog posts not being parsed correctly.</li>
+  <li>Fixed an issue where <strong>some links’ outlines may become thinner</strong> once the hover animation finishes.</li>
+  <li>Timezones sitewide <strong>are now in UTC instead of GMT</strong>.</li>
+  <li><code class="language-plaintext highlighter-rouge">tzname</code> (previously removed from homepage in v3.2.2) is no longer supported as a configurable variable in <code class="language-plaintext highlighter-rouge">config.ts</code></li>
+  <li>Bumped dependencies.</li>
+</ul>
+
+<h2 id="322">3.2.2</h2>
+<p>This minor version was released on 28 August 2025 and introduced small changes.</p>
+<ul>
+  <li><strong>Devices</strong>: Correction on main PC specs</li>
+  <li><strong>Home</strong>: Removed timezone name; only display the offset</li>
+</ul>
+
+<h2 id="321">3.2.1</h2>
+<p>This minor version was released on 15 August 2025, primarily as part of the domain migration, but also fixed and refined other aspects of the website.</p>
+<ul>
+  <li>Reflect on recent domain change from <strong>clyron.is-a.dev</strong> to <strong>kay.is-a.dev</strong>.</li>
+  <li><strong>Devices</strong>: Slight design refinements.</li>
+  <li>Fixed lack of padding in subheadings/section titles.</li>
+  <li><strong>Retro Frontend</strong>: <code class="language-plaintext highlighter-rouge">font-size</code> of the navbar no longer increases <strong>in browsers that support the CSS property</strong>.</li>
+</ul>
+
+<h2 id="32">3.2</h2>
+<p>This version was released on 11 August 2025.</p>
+
+<ul>
+  <li><strong>Added a Devices page</strong>, including a list of devices I (Kay) own as well as PC Specs.</li>
+  <li><strong>Blog</strong>: Fixed padding of the RSS button in the modern frontend.</li>
+  <li><strong>Changelog page</strong>: Fixed margins in the text of the changelogs.</li>
+  <li><strong>Home</strong>: The message for copying the HTML code of 88x31 buttons is now <strong>always loaded with JavaScript</strong>.</li>
+  <li><strong>Projects</strong>: Reflect on current status of projects to date.</li>
+  <li>Removed the <code class="language-plaintext highlighter-rouge">content.config.ts</code> file due to it not being actually used.</li>
+  <li>Slight CSS code cleanup.</li>
+</ul>
+
+<h2 id="31">3.1</h2>
+<p>This version was released on 24 July 2025 and introduced the full Retro Frontend.</p>
+
+<ul>
+  <li><strong>A new Retro Frontend has replaced the normal website layout</strong> in browsers that do not support the CSS <code class="language-plaintext highlighter-rouge">@supports</code> rule (i.e. older browsers). A further plaintext fallback has been thrown up together as well for browsers with limited to no CSS support.</li>
+  <li>Updated <strong>FontAwesome to version v7!</strong> This fixes the text alignment issue in the Socials page.</li>
+  <li><strong>Home</strong>: Slight rewording of introduction/biography. Also, added an additional 88x31 button to the Buttons section.</li>
+  <li><strong>Pronouns and timezone</strong> are now configurable variables in <code class="language-plaintext highlighter-rouge">config.ts</code>.</li>
+</ul>
+
+<h2 id="301">3.0.1</h2>
+<p>This version released on 19 July 2025.</p>
+
+<ul>
+  <li>Added <strong>additional fallbacks for ancient browsers</strong> in <code class="language-plaintext highlighter-rouge">style.css</code>, with <code class="language-plaintext highlighter-rouge">rem</code> values falling back to <code class="language-plaintext highlighter-rouge">px</code> and the inclusion of <code class="language-plaintext highlighter-rouge">background-color</code> as an alternative to the gradient.</li>
+  <li>Images in the blog now all use <strong>absolute instead of relative URLs</strong>. Astro v5 automatically ““optimizes images”” with relative URLs in markdown <strong>and converts them to WebP</strong>, only supported in modern browsers, with no way to easily prevent it :(</li>
+</ul>
+
+<h2 id="30">3.0</h2>
+<p>This major version released on 18 July 2025. This is the first version of the website to refer to itself as KayWebsite and not include Tailwind CSS.</p>
+
+<ul>
+  <li><strong>Completely ditched Tailwind CSS</strong>, thus regaining full control over the CSS looking forward <strong>to eventual ancient browser support</strong>. Support is currently guaranteed as low as IE11.</li>
+  <li><strong>The website has received a visual overhaul!</strong> This incorporates the design of the current branding while making it more aesthetically pleasing, also adding various animations.</li>
+  <li>The Cairo (<code class="language-plaintext highlighter-rouge">/cairo</code>) page has been <strong>removed</strong>, to reduce maintenance burden. The OC had no longer been used with no plans to bring it back.</li>
+  <li><strong>Home</strong>: 88x31 buttons have been moved into their own Astro Component. Also, clicking on the Kay 88x31 buttons now automatically <strong>copies their corresponding HTML codes to the clipboard!</strong></li>
+  <li><strong>Home</strong>: Introduction/biography has been rewritten to be more brief.</li>
+  <li><strong>Blog</strong>: The Lynxmic Blog button has been removed. It will however continue to be accessible at <code class="language-plaintext highlighter-rouge">/lynxblog</code></li>
+  <li><strong>Blog</strong>: Tags now have a fallback display for ancient browsers</li>
+  <li>The Cards component has been removed. The Projects and Socials pages have been <strong>rewritten in list view</strong>.</li>
+  <li>The LegacyBrowsers component has been removed. This was supposed to <strong>redirect ancient browsers to ClyronWebsite v1.x</strong>.</li>
+  <li>Added support for <strong>favicon</strong> as a separate adjustable variable from the logo in <code class="language-plaintext highlighter-rouge">config.ts</code>.</li>
+  <li><em>Layout.astro</em> and <em>BlogPostLayout.astro</em> have been renamed <em>Site.astro</em> and <em>Blog.astro</em> respectively.</li>
+  <li><strong>Moved noscript warning</strong> from the navbar to the footer.</li>
+  <li>General code cleanup &amp; bumped dependencies.</li>
+</ul>
+
+<h1 id="version-2x">Version 2.x</h1>
+
+<h2 id="252">2.5.2</h2>
+<p>This version released on 8 July 2025. It is the last version of the website under the name of ClyronWebsite, the last version of v2.x, and the last version to include Tailwind CSS.</p>
+
+<ul>
+  <li>Changed all Clyron references to <strong>KayAurora</strong>. Clyron is now being referred to as a previous alias, but the website <strong>remains at clyron.is-a.dev for now.</strong></li>
+  <li>Added new <strong>88x31 buttons</strong>. The Clyron button has been replaced with primary and alternate Kay ones.</li>
+  <li>Added a <code class="language-plaintext highlighter-rouge">/discord</code> redirect page, leading to <strong>Axeon Network</strong>.</li>
+  <li><strong>Home</strong>: Changed timezone shown in introduction.</li>
+</ul>
+
+<h2 id="251">2.5.1</h2>
+<p>This version released on 4 July 2025. It is the last version of the website to include any references to Clyron, as the next version would start referring to <a href="KayAurora">KayAurora</a> as ‘KayAurora’.</p>
+
+<ul>
+  <li><strong>Cairo page</strong>: Updated Reference Sheet to include a drawing of Cairo <strong>with glasses on</strong>.</li>
+  <li>Added support for <strong>shorter forms of names</strong> and <strong>FontAwesome versions</strong> as adjustable variables in <code class="language-plaintext highlighter-rouge">config.ts</code>.</li>
+  <li><strong>Home</strong>: Updated introduction to reflect on Lynxmic hitting 1,5K subs and mention Axeon’s member count.<br />
+Pojects</li>
+  <li><strong>Home</strong>: On par with other 88x31 buttons in use, the Clyron button now <strong>renders pixelated</strong> and uses <strong>relative instead of absolute URL</strong>.</li>
+  <li><strong>Socials</strong>: Updated YouTube name.</li>
+  <li>Bumped dependencies.</li>
+</ul>
+
+<h2 id="25">2.5</h2>
+<p>This version released on 3 July 2025 and included lots of changes.</p>
+
+<ul>
+  <li><strong>Tags have been implemented</strong> in the blog! All blog posts have been retroactively applied tags.</li>
+  <li>Added a <strong>footer</strong>, including information like copyright, licensing and a link to this page.</li>
+  <li>Content no longer live inside a box <strong>on small and medium form factors</strong>, making it better and more enjoyable to view on phone or tablet screens.</li>
+  <li><strong>Blog post headers</strong> have been redesigned and are now more consistent with those of the rest of the site.</li>
+  <li>Added more proper fade animations upon <strong>accessing the website</strong> and transitioning between pages.</li>
+  <li><strong>On Firefox/Gecko</strong>, the fade and gradient animations are disabled at least for the time being. <small>(will try to find a solution eventually to have them properly render)</small></li>
+  <li><strong>Cairo page</strong>: Added Reference Sheet and a notice that the OC is no longer being used.</li>
+  <li><strong>Home</strong>: Slightly rearranged 88x31 buttons. Plus, they now actually display properly on small form factors with bigger width size.</li>
+  <li><strong>Projects</strong>: Split into two separate sections for active and past projects. Also reflect on Lynxmic hitting 1,5K subs.</li>
+  <li><strong>Socials</strong>: Improved wording in some areas for more easier understanding.</li>
+  <li><strong>Blog index</strong>: Relocated the <em>View older blog posts</em> button on the top, next to the RSS button.</li>
+  <li><strong>Changelog page</strong>: Added all previous v2.x versions’ changelogs.</li>
+  <li>Fixed an issue where images in blog posts would <strong>not load when using an RSS reader</strong>.</li>
+  <li>Fixed an issue in blog posts where images were <strong>weirdly stretching or overflowing</strong> on bigger form factors.</li>
+  <li>Fixed the title of the changelog page still displaying as “<em>Home</em>”.</li>
+  <li>Fixed an issue where the gradient animation <strong>would reset</strong> when switching between pages.</li>
+  <li>A <code class="language-plaintext highlighter-rouge">config.ts</code> file has been created, including variables used for easier code management.</li>
+  <li>In <code class="language-plaintext highlighter-rouge">style.css</code>, all colors are now consistently defined using RGB(A) instead of Hex color code.</li>
+  <li>General file structure cleanup.</li>
+</ul>
+
+<h2 id="242">2.4.2</h2>
+<p>This version released on 5 June 2025</p>
+
+<ul>
+  <li>Changed the Clyron logo from the ring previously used to the newly-introduced glowing star logo.</li>
+  <li><strong>Home</strong>: The biography section now mentions Axeon Network.</li>
+</ul>
+
+<h2 id="241">2.4.1</h2>
+<p>This version released on 2 June 2025</p>
+
+<ul>
+  <li>Updated an outdated link in the <strong>Projects</strong> page.</li>
+  <li><strong>Cairo page</strong>: Adjusted formatting and updated the OC’s (fictional) residence.</li>
+</ul>
+
+<h2 id="24">2.4</h2>
+<p>This version released on 25 May 2025</p>
+
+<ul>
+  <li>Added the <strong>Changelog</strong> (<code class="language-plaintext highlighter-rouge">/cl</code>) page <small>(the page you’re currently looking at!)</small>, tracking version history and changes.</li>
+  <li>The navbar is now an <strong>Astro Component</strong>, allowing for easier code maintenance. The JavaScript check has been moved inside the component as well.</li>
+  <li>Removed the <strong>Retro Site</strong> button from homepage. An eventual Retro Frontend will be built on top of clyronwebsite instead of a separate one, for easier maintenance</li>
+  <li>The <strong>Visit Homepage</strong> button has been removed from the 404 page. Unnecessary, as the navbar exists</li>
+  <li>Updated introduction in homepage. Now specifing just Minecraft as my (Clyron’s) “all-time favorite game”. Also removed the Cairo line, as the OC is no longer being used. The page continues to be available though.</li>
+  <li>Navbar items and webring names are now <strong>bold</strong>.</li>
+  <li>Readjusted order in the Socials page. Geometry Dash is now last.</li>
+  <li>Fixed a typo in a CSS class for the blog posts.</li>
+</ul>
+
+<h2 id="231">2.3.1</h2>
+<p>This version released on 30 April 2025</p>
+
+<ul>
+  <li><strong>Socials</strong>: Mentions of <strong>LynxPlaza</strong> have been changed to <strong>Axeon Network</strong>, the new name of the Discord server.</li>
+  <li><strong>Home</strong>: Added a tooltip to the <strong>Retro Site</strong> button, explaining that an eventual Retro Frontend is coming soon.</li>
+  <li>Slight code cleanup by removing unused CSS classes.</li>
+</ul>
+
+<h2 id="23">2.3</h2>
+<p>This major version released on 26 April 2025</p>
+
+<ul>
+  <li><strong>Redesigned the navigation bar</strong>. Removed the <em>I am just a semi-average internet user~</em> line and moved links outside the box.</li>
+  <li>Adjusted the <strong>gradient colors</strong> to reflect the Clyron branding in use at this time.</li>
+  <li>Changed the website font from <strong>Asap</strong> <small>(the Lynxmic font!)</small> <strong>to Inter</strong>.</li>
+  <li>Transitioning between pages in the website <strong>is now smoother</strong>, thanks to <code class="language-plaintext highlighter-rouge">astro:transitions</code>.</li>
+  <li>The page width <strong>has been adjusted</strong> in consistency with the blog view.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">Greeting.astro</code> component (including seasonal greeting messages in the homepage) has been <strong>removed</strong>.</li>
+  <li>The <strong>Buttons</strong> (<code class="language-plaintext highlighter-rouge">/buttons</code>) page has been entirely <strong>removed</strong>, in favor of the homepage 88x31 button section.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">/kairo</code> redirect to <code class="language-plaintext highlighter-rouge">/cairo</code> has been <strong>removed</strong>.</li>
+  <li><strong>404 page</strong>: General overhaul.</li>
+  <li><strong>Home</strong>: The <strong>Legacy Site</strong> button has been changed to a <strong>Retro Site</strong> button, that will eventually go to <strong>a new Retro Frontend</strong>.</li>
+  <li><strong>Blog index</strong>: The RSS feed link has been <strong>changed to a button</strong>. Also, the legacy Lynxmic Blog button has been <strong>changed for consistency</strong> with the homepage’s Retro Site button.</li>
+  <li><strong>Socials</strong>: Do no longer refer to <strong>LynxPlaza as the Lynxmic Discord server</strong>. Also added DeviantArt, removed Akkoma and adjusted some wordings.</li>
+  <li><strong>Cairo page</strong>: Improved wording when explaining if the Cairo OC wears glasses.</li>
+  <li>Added <code class="language-plaintext highlighter-rouge">rel</code> as a prop in the <strong>Cards</strong> Astro component. This makes possible verifying with Mastodon etc.</li>
+  <li>Blog posts no longer use <code class="language-plaintext highlighter-rouge">prose-invert</code>, instead defining custom colors for normal <code class="language-plaintext highlighter-rouge">prose</code> <strong>via Tailwind’s config file</strong>.</li>
+</ul>
+
+<h2 id="221">2.2.1</h2>
+<p>This version released on 31 March 2025.</p>
+
+<ul>
+  <li><strong>Cairo page</strong>: Updated Cairo profile picture and optimized page for mobile.</li>
+  <li><strong>Home</strong>: Fix 88x31 buttons not displaying properly on mobile.</li>
+  <li>Use relative instead of absolute URLs for the logo, and move it inside the <code class="language-plaintext highlighter-rouge">/img</code> directory.</li>
+</ul>
+
+<h2 id="22">2.2</h2>
+<p>This version released on 30 March 2025.</p>
+
+<ul>
+  <li><strong>Cairo page</strong>: Renamed from <strong>Kairo to Cairo</strong>, updated the body drawing to remove glasses, added profile picture and other additional basic info and lore.</li>
+  <li>As a result <strong>of the above renaming</strong>, the <code class="language-plaintext highlighter-rouge">/kairo</code> page now redirects to <code class="language-plaintext highlighter-rouge">/cairo</code>. This redirect will stay until the next major website version.</li>
+  <li>On old/legacy browsers, the website now <strong>automatically redirects</strong> to clyronwebsite v1 as a fallback.</li>
+  <li><strong>Home</strong>: Added a <strong>Legacy Site button</strong>, leading to clyronwebsite v1.</li>
+  <li><strong>Home</strong>: Added additional 88x31 buttons and updated introduction.</li>
+</ul>
+
+<h2 id="21">2.1</h2>
+<p>This version released on 19 March 2025.</p>
+
+<ul>
+  <li>Added a new page for <strong>the new Clyron OC</strong>, called <strong>Kairo</strong>, and updated introduction in homepage to mention it.</li>
+  <li><strong>Home</strong>: Added 88x31 buttons and webrings (Fediring).</li>
+  <li><strong>Blog index</strong>: Removed <strong>all pre-Clyron blog posts</strong> in favor of a button leading to the legacy Lynxmic Blog.</li>
+  <li><strong>Buttons</strong>: Include the Lynxmic 88x31 button as part of a new <strong>Project buttons</strong> section.</li>
+  <li><strong>Socials</strong>: Adjusted list to be in order of activity.</li>
+  <li>Custom, non-Tailwind CSS code <strong>has been moved</strong> into a separate <code class="language-plaintext highlighter-rouge">style.css</code> file from the layout files.</li>
+</ul>
+
+<h2 id="201">2.0.1</h2>
+<p>This version released on 3 March 2025.</p>
+
+<ul>
+  <li>Updated <strong>the Clyron 88x31 button</strong> and added a Lynxmic 88x31 button in the website’s files.</li>
+  <li><strong>Socials</strong>: Removed Revolt.</li>
+</ul>
+
+<h2 id="20">2.0</h2>
+<p>This version released on 9 February 2025. It is the first stable release of v2, replacing the Win2K-style v1.</p>
+
+<ul>
+  <li>Added the <strong>RSS feed!</strong></li>
+  <li><strong>Blog index</strong>: Sort blog posts from latest to oldest, not otherwise.</li>
+  <li>The Astro Component associated with the seasonal snowflake effects <strong>has been removed</strong>.</li>
+</ul>
+
+<h2 id="20-beta080225">2.0-beta080225</h2>
+<p>This version released on 8 February 2025. It is the final beta release of v2.0.</p>
+
+<ul>
+  <li>Improvements to readability of blog posts.</li>
+  <li>Slight backend changes, mainly <strong>in preparation for the RSS feed</strong>.</li>
+</ul>
+
+<h2 id="20-beta070225">2.0-beta070225</h2>
+<p>This beta version released on 7 February 2025.</p>
+
+<ul>
+  <li><strong>Home</strong>: Added a quick introduction/biography.</li>
+  <li>The seasonal snowflake effects <strong>no longer display</strong> on the website.</li>
+  <li>Removed mentions of “Public Beta” and “Under Construction”, as well as the public beta version <strong>in preparation for the final release</strong>.</li>
+  <li>Slight cleanup in several pages.</li>
+</ul>
+
+<h2 id="20-beta030225">2.0-beta030225</h2>
+<p>This beta version released on 3 February 2025. It changed the version numbering scheme of public betas to include date in the DDMMYY format.</p>
+
+<ul>
+  <li><strong>Socials</strong>: Added Revolt. Also, replaced the link to the actual Twitter account with the archive of it.</li>
+  <li>Fixed <strong>broken links</strong> in blog posts.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">Card.astro</code> component <strong>now supports buttons</strong> through the <code class="language-plaintext highlighter-rouge">btn_href</code> and <code class="language-plaintext highlighter-rouge">btn_action</code> props, replacing <code class="language-plaintext highlighter-rouge">href</code>.</li>
+  <li>Slight cleanup in several pages.</li>
+</ul>
+
+<h2 id="20-beta4">2.0-beta4</h2>
+<p>This beta version released on 18 January 2025.</p>
+
+<ul>
+  <li>Added an <strong>initial implementation of the blog!</strong> Posts from the v1 website have been ported there.</li>
+  <li>Added a <strong>Buttons</strong> (<code class="language-plaintext highlighter-rouge">/buttons</code>) page, listing self-created 88x31 buttons.</li>
+  <li>Bumped package versions. Most notably, migrated from Astro <strong>v4 to v5</strong>.</li>
+</ul>
+
+<h2 id="20-beta3">2.0-beta3</h2>
+<p>This beta version released on 15 January 2025, just shortly after the previous version.</p>
+
+<ul>
+  <li>Proper <strong>optimization for small form factors!</strong> (e.g. phone and tablet screens)</li>
+  <li><strong>Blog index</strong>: Added a link to the website v1 blog as a fallback, for until the actual blog is ready.</li>
+  <li>Added emojis to <strong>page titles</strong> for a more fun look.</li>
+</ul>
+
+<h2 id="20-beta2">2.0-beta2</h2>
+<p>This beta version released on 15 January 2025.</p>
+
+<ul>
+  <li>The background has been changed <strong>to an animated gradient</strong>, and the font size has been adjusted to be larger.</li>
+  <li>The page width has <strong>been adjusted</strong> for more space on the sides.</li>
+  <li>The main content box is now <strong>rounded</strong>.</li>
+  <li>The cards seen in the Projects and Socials pages <strong>have been migrated</strong> to an Astro Component.</li>
+  <li><strong>Socials</strong>: Fixed a grammatical issue. Also, Twitter is now being referred to as <em>just</em> Twitter, without acknowledging “X” as its name.</li>
+  <li>The website now <strong>displays the public beta version</strong>, alongside the “Under Construction” line.</li>
+</ul>
+
+<h2 id="20-beta1">2.0-beta1</h2>
+<p>This beta version released on 11 January 2025. It is the first ever public release of website v2.x. The changelog below includes differences between this version and the final version of v1.x.</p>
+
+<ul>
+  <li>This rewritten website <strong>uses Astro and Tailwind CSS</strong>, instead of Jekyll and pure CSS.</li>
+  <li>This website replaces the retro Win2K-style found in the v1 website <strong>with a simpler design</strong>, with logo, navbar, and a simple content box, along with the <em>I am just a semi-average internet user~</em> line.</li>
+  <li>Projects and Socials <strong>have been split</strong> in their own pages, separate from the homepage.</li>
+</ul>
+
+
+		        </div>
+          </div>
+        </div>
+      
+        <p>
+          &nbsp;<br>
+        </p>
+
+        <!-- SpringViewer, HTML code -->
+<!-- Developed with love, pride, and anger by Nekori64! -->
+<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+    <span class="viewer-counter"></span>
+    
+    <div id="viewer-top-buttons">
+        <span class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </span>
+        <span class="flscr-btn" title="Full Screen (F)">
+            <i class="material-icons">fullscreen</i>
+        </span>
+        <span class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </span>
+    </div>
+
+	<!-- basically what you see in the center of the drawer -->
+    <div class="viewer-content">
+        <button class="nav-btn prev-btn" title="Previous (Left)">
+            <i class="material-icons">chevron_left</i>
+        </button>
+        
+        <div id="viewer-media-container"></div>
+          
+        <button class="nav-btn next-btn" title="Next (Right)">
+            <i class="material-icons">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- now here comes the fun part -->
+    <div id="viewer-details" class="mdl-shadow--8dp">
+        <div id="viewer-details-nested">
+            <h2 id="viewer-caption"></h2>
+        </div>
+
+        <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
+            <!-- attribution -->
+            <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
+            <span id="viewer-details-author"></span>
+            
+            <!-- license -->
+            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span id="viewer-details-license">CC-BY-4.0</span>
+        </div>
+
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
+
+    </div>
+    
+    <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
+    
+    <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
+        &nbsp;Debug SpringViewer 2.8.5606.nekori64&nbsp;
+    </p>
+    
+
+    <!-- aight, its the dialog -->
+    <!-- i will add the polyfill if there is need for one, 
+         for now, every browser *should* support the dialog tag -->
+    <dialog class="mdl-dialog">
+        <h2 class="mdl-dialog__title">More Details</h2>
+            
+        <div class="mdl-dialog__content">
+            <p>File name: <span id="dialog-filename"></span></p>
+            <p>File size: <span id="dialog-filesize"></span></p>
+            <p>Image resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by: <span id="dialog-author"></span></p>
+            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/deed.en">Creative Commons Attribution 4.0 International</a></p>
+        </div>
+
+        <!-- this idiot had me going crazy for 3 whole days -->
+        <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
+        <div class="mdl-dialog__actions mdl-card--border">
+              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+                Close
+            </button>
+        </div>
+    </dialog>
+
+    <!-- i just straight up copied it from mdl docs, seems to work! -->
+    
+    <script>
+        const dialog = document.querySelector('dialog');
+        const showModalButton = document.getElementById('viewer-details-button');
+
+        if (! dialog.showModal) {
+            dialogPolyfill.registerDialog(dialog);
+        }
+        
+        showModalButton.addEventListener('click', function() {
+            dialog.showModal();
+        });
+
+        dialog.querySelector('.close').addEventListener('click', function() {
+            dialog.close();
+        });
+    </script>
+</div>      
+	
+        
+          <p id=watermark class="mdl-shadow--4dp">
+            &nbsp;Debug Axeon KuroWiki Release Candidate 1 Version 7.0.4456.kitsixtyfour.251223-1823 &nbsp;
+          </p>
+        
+      </main>
+    </div>
+
+    <!-- 'I'm Feeling Lucky' deltari edition -->
+  <script src="./resources/js/randomarticle.js"></script>
+  </body>
+</html>
+
+

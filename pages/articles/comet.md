@@ -1,19 +1,18 @@
 ---
-layout: main
 title: Comet
 permalink: Comet
 aliases:
 - Comet Nishi Adsurden
 redirect_from:
 - Comet_Nishi_Adsurden
-hatnote: This article is about the fictional character. For the video game series, see <a href='Comet_Adventure'>Comet Adventure</a>. For the plushie with a similar design, see <a href='Dogui'>Dogui</a>. For <a href='Nekori64'>Nekori</a>'s similarly-named fursona, see <a href='Nishi'>Nishi</a>
+hatnote: This article is about the fictional character. For the video game series, see <a href='Comet_Adventure'>Comet Adventure</a>. For the plushie with a similar design, see <a href='Dogui'>Dogui</a>. For <a href='Kit64'>Kit</a>'s similarly-named fursona, see <a href='Nishi'>Nishi</a>
 ---
 
 {% include infoboxes/character.html
 name='Comet Nishi Adsurden'
-creator='Nekori'
-creatorurl='Nekori64'
-designer='Nekori'
+creator='Kit'
+creatorurl='Kit64'
+designer='Kit'
 introduced='2 May 2025'
 bod='22 May 2006 (age 19)'
 nationality='NovaLandese (formerly Canadian)'
@@ -23,7 +22,7 @@ species='Dog/English Cocker Spaniel<br>Fox (Vulpes vulpes)'
 image='resources/img/articles/comet/profile.jpg'
 %}
 
-**Comet** (cannonically **Comet Nishi Adsurden**[^1] [^2]) is a fictional character created by [Nekori](Nekori64). It was also Nekori's fursona from when it was introduced up until November 2025, and is the main protagonist of the up-coming [Comet Adventure](Comet_Adventure) video game series.
+**Comet** (cannonically **Comet Nishi Adsurden**[^1] [^2]) is a fictional character created by [Kit](Kit64). It was also Kit's fursona from when it was introduced up until November 2025, and is the main protagonist of the up-coming [Comet Adventure](Comet_Adventure) video game series.
 
 # Physical appearance
 

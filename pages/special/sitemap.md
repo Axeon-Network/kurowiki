@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Sitemap
 permalink: Sitemap
 search_exclude: true

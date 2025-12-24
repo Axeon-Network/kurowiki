@@ -20,7 +20,7 @@ module Jekyll
           Jekyll.logger.info "TagGen:", "Created output directory: #{output_dir}"
       end
 		
-      id = 'b6chk'
+      id = 'rc1chk'
 
       lab = ''
       begin
@@ -53,7 +53,7 @@ module Jekyll
 
       timestamp = Time.now.strftime("%y%m%d-%H%M")
 
-      buildtag = "6.0.#{current_incremental_number}.#{lab}.#{timestamp}"
+      buildtag = "7.0.#{current_incremental_number}.#{lab}.#{timestamp}"
 
       begin
         File.write(build_tag_file_path, buildtag)
@@ -63,7 +63,7 @@ module Jekyll
       end
 
       site.config['version'] = {
-        'major' => 6,
+        'major' => 7,
         'minor' => 0,
         'id' => id,
         'build' => current_incremental_number,

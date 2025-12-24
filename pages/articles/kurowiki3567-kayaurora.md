@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 3567 (kayaurora)
 permalink: KuroWiki_build_3567_(kayaurora)
 hatnote: Not to be confused <a href='KuroWiki_build_3567_(main_wik)'>KuroWiki build 3567 (main_wik)</a>.

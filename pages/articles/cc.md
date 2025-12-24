@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Cairo Company Incorporated
 permalink: Cairo_Company_Incorporated
 redirect_from:

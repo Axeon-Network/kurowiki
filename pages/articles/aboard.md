@@ -1,5 +1,4 @@
 ---
-layout: main
 title: A Board
 permalink: A_Board
 redirect_from:
@@ -16,9 +15,9 @@ The **A Board** (also known as the **🅰️ Board**) is a message board channel
 
 #### History
 
-The concept of an A Board came before the launch of [Nekori](Nekori64)'s HoriServer (2), on which Nekori and [KayAurora](KayAurora) eventually made one.
+The concept of an A Board came before the launch of [Kit](Kit64)'s HoriServer (2), on which Kit and [KayAurora](KayAurora) eventually made one.
 
-The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen at Nekori's old Mastodon account.
+The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen at Kit's old Mastodon account.
 
 #### Gallery
 
@@ -27,19 +26,19 @@ The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen a
         image_src="resources/img/articles/aboard/mastodonimage.png"  
         caption="Earliest available picture of the A Board. March 2025"
         style="" 
-        author='Nekori64' %}
+        author='Kit64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/aboard/nekocafe.png"  
         caption="The A Board in NekoCafe. 16 October 2025"
         style="" 
-        author='Nekori64' %}
+        author='Kit64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/aboard/axeon.png"  
         caption="The A Board in the Axeon Network Discord server. 16 October 2025"
         style="" 
-        author='Nekori64' %}
+        author='Kit64' %}
 </div>
 
 #### References

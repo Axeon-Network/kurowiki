@@ -1,5 +1,4 @@
 ---
-layout: main
 title: List of KayAurora Codenames
 permalink: List_of_KayAurora_Codenames
 hatnote: This list is subject to change in the future.

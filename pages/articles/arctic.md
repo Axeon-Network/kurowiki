@@ -1,7 +1,6 @@
 ---
-layout: main
-title: Nekori Arctic
-permalink: Nekori_Arctic
+title: Kit Arctic
+permalink: Kit_Arctic
 hatnote: As of now, this article is about the publicly available version known as Arctic16. For the 32-bit internal developer version, see <a href='Arctic32'>Arctic32</a>.
 redirect_from:
   - Horibyte_LeafyOS
@@ -19,7 +18,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Nekori Arctic**[^1] is a free and open source operating system developed by [Nekori](Nekori64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/nekori64/arctic](https://github.com/nekori64/arctic)).
+**Kit Arctic**[^1] is a free and open source operating system developed by [Kit](Kit64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/Kit64/arctic](https://github.com/Kit64/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 
@@ -27,14 +26,14 @@ The latest stable release is version 0.1.5.
 
 {% include figure_item.html 
     image_src="resources/img/articles/arctic/0.1.5demo.png" 
-    alt_text="Nekori Arctic 0.1.5 Demo on QEMU" 
+    alt_text="Kit Arctic 0.1.5 Demo on QEMU" 
     caption="QEMU running Arctic v0.1.5a"
-    author='Nekori64'
+    author='Kit64'
 %}
 
 # Overview
 
-Nekori Arctic is a 16-bit real mode OS, making it compatible with processors going as far back as the 1980 or even earlier.
+Kit Arctic is a 16-bit real mode OS, making it compatible with processors going as far back as the 1980 or even earlier.
 
 The OS has a built-in command line interface, which supports basic commands like `clear` or `echo`. Due to the OS' earlierness, disk support is absent from the OS.
 
@@ -44,7 +43,7 @@ Arctic is available in both **Standard** and **Server** SKUs, but the Server SKU
 
 Arctic's development began around 22 May 2025 (or even earlier) featuring a simple boot screen written in Assembly that eventually evolved into the OS's command line interface.
 
-Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) virtual machine have been seen in Nekori's VMware VM library. Additionally, screenshots of several `kernel.bin` files and directory structures going as far back as **December 2024** have been sent by Nekori on several Discord servers. All of these files are **lost media** due to improper backups.
+Interestingly enough, several instances of a **LeafyOS** (Arctic's former name) virtual machine have been seen in Kit's VMware VM library. Additionally, screenshots of several `kernel.bin` files and directory structures going as far back as **December 2024** have been sent by Kit on several Discord servers. All of these files are **lost media** due to improper backups.
 
 A developer 32-bit version, codenamed **Arctic32**, was developed alongside Arctic16, while Arctic32 hasn't been publicly shared, boot attempts date back as far as **28 May 2025**[^2]
 
@@ -61,34 +60,34 @@ Arctic's kernel, codenamed *ReKanto* (a nod to the Kanto region from *Pokemon Re
 
 # The Mockup Era™ Gallery
 
-*This gallery showcases the finished Arctic mockups created by Nekori.*
+*This gallery showcases the finished Arctic mockups created by Kit.*
 
-Before development began, Nekori designed several Arctic mockups using GIMP. These images are conceptual representations and are **not** actual screenshots of functional builds—*yet!*
+Before development began, Kit designed several Arctic mockups using GIMP. These images are conceptual representations and are **not** actual screenshots of functional builds—*yet!*
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7078personal.png" 
         alt_text="Horibyte Arctic Personal Beta 2 Build 7078" 
         caption="Horibyte Arctic Personal Beta 2 Build 7078" 
-        author='Nekori64' %}
+        author='Kit64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089professional.png" 
         alt_text="Horibyte Arctic Professional Beta 2 Build 7089" 
         caption="Horibyte Arctic Professional Beta 2 Build 7089" 
-        author='Nekori64' %}
+        author='Kit64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089personal.png" 
         alt_text="Horibyte Arctic Personal Beta 2 Build 7089" 
         caption="Horibyte Arctic Personal Beta 2 Build 7089" 
-        author='Nekori64' %}
+        author='Kit64' %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/arctic/7089server.png" 
         alt_text="Horibyte Arctic Server Family Beta 2 Build 7089" 
         caption="Horibyte Arctic Server Family Beta 2 Build 7089" 
-        author='Nekori64' %}
+        author='Kit64' %}
 </div>
 
 #### References
