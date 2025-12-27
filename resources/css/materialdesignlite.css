@@ -88,6 +88,10 @@ html {
  background-color: var(--navhoverlink) !important;
 }
 
+hr {
+    border-color: white;
+    opacity: 29%;
+}
 
 /* why does "two" have 3 letters but "three" have 5 letters */
 /* even then, "five" has 5 letters, "six" has 3 letters, same with "one" */
@@ -202,7 +206,7 @@ summary {
     font-size: 20px;
     padding: 5px;
     line-height: 25px;
-    color: var(--kurowiki-accent);
+    color: var(--title-color);
 }
 
 summary:hover {
@@ -239,7 +243,6 @@ h3, h4, h5, h6 {
     background-color: var(--contentbox-background-color); 
     backdrop-filter: blur(25px); 
     width:96%; 
-    text-shadow: 0 0 4px rgba(0,0,0,0.6);
     justify-content: center; 
     display: block; 
     margin: 0 auto; 

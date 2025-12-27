@@ -1,0 +1,60 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+    
+    {% if include.image %}
+    <div class="infobox-img-container">
+        <div class="infobox-img-caption">Desktop screenshot of {{ include.name }}</div>
+        	<img src="{{ include.image }}"  style="width:75%;" class="infobox-img">
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            <tr>
+                <th>Owner</th>
+                <td><a href="{{ include.ownerurl }}">{{ include.owner }}</a></td>
+            </tr>
+            <tr>
+                <th>Manufacturer</th>
+                <td>{{ include.manufacturer }}</td>
+            </tr>
+            <tr>
+                <th>Model</th>
+                <td>{{ include.model }}</td>
+            </tr>
+            {% if include.hostname %}
+            <tr>
+                <th>Hostname</th>
+                <td>{{ include.hostname }}</td>
+            </tr>
+            {% endif %}
+          </tbody>
+</table>
+ <table class="infobox-data-table">
+	<div style="background-color:var(--navhoverlink)!important;color:var(--text-color);text-align:center;padding:0px;"><b>Specifications</b></div>
+	<tbody>
+       	<tr>
+                <th>Processor</th>
+                <td>{{ include.cpu }}</td>
+            </tr>
+            <tr>
+                <th>RAM</th>
+                <td>{{ include.ram }}</td>
+            </tr>
+	    <tr>
+                <th>GPU</th>
+                <td>{{ include.gpu }}</td>
+            </tr>
+            <tr>
+                <th>Hard Drive</th>
+                <td>{{ include.disk }}</td>
+            </tr>
+	<tr>
+                <th>Screen</th>
+                <td>{{ include.screenres }} ({{ include.screensize }})</td>
+            </tr>   
+            </tbody>
+    </table>
+</div>
