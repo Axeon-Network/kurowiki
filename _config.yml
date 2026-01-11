@@ -13,13 +13,13 @@ title: KuroWiki
 author: Axeon Network
 
 # copyright year
-copyyear: 2025
+copyyear: "2025-2026"
 
 # your email
 email: thenekori64@gmail.com
 
 # description of site, used in embeds
-description: "Axeon KuroWiki Beta 6"
+description: "Axeon KuroWiki Beta 6.01"
 
 # the url of your site
 url: https://axeon-network.github.io
@@ -49,11 +49,11 @@ img_license-s: CC-BY-4.0
 home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Nekori and KayAurora)."
 
 # featured article. specify the file name of the article
-featuredarticle: axeonnetwork
+featuredarticle: lynxmicblog
 
 # retail tag. specifies the version number used in the drawer, and is to be replaced by
 # an incrementing one IF the debug mode is enabled.
-retailtag: 6.0.4400.main.251204-0046
+retailtag: 6.0.4450.main.260110-2027
 
 # THEMING
 # your background
@@ -65,7 +65,7 @@ background-light:
 
 # DEVELOPER/DEBUG
 # developer phase
-devphase: Beta 6
+devphase: Beta 6.01
 
 # debug mode
 # setting this to true enables the debug kurowiki and springviewer watermarks, 
