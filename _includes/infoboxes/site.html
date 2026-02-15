@@ -3,19 +3,27 @@
         {{ include.name | default: "Untitled InfoBox" }}
     </div>
     
+    {% if include.logo %}
+    <div class="infobox-img-container">
+            <img src="{{ include.logo }}" class="infobox-img">
+    </div>
+    {% endif %}
+
     {% if include.image %}
     <div class="infobox-img-container">
             <img src="{{ include.image }}" alt="Screenshot of the {{ include.name }} Homepage" class="infobox-img">
-         <div class="infobox-img-caption">{{ include.name}} homepage</div>
+         <div class="infobox-img-caption">{{ include.name }} homepage</div>
     </div>
     {% endif %}
 
     <table class="infobox-data-table">
         <tbody>
+            {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formername }}</td>
+                <td>{{ include.formerly }}</td>
             </tr>
+            {% endif %}
             <tr>
                 <th>Developer</th>
                 <td><a href="{{ include.developerarticle }}">{{ include.developer }}</a></td>

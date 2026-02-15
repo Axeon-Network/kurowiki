@@ -13,9 +13,21 @@ aliases:
     - lynxplaza
     - axeon community
 ---
-**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [KayAurora](KayAurora)), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki), and previously [MidoriMC](MidoriMC) prior to its closure.
+{% include infoboxes/server.html
+name='Axeon Network'
+formerly='LynxPlaza\ Lynxmic\'s Square\ Lynxmic\'s Lodge\ Lynx-Axeon\ Axeon\ Axeon Community\ Aqua Community'
+owner='Avery'
+ownerurl='OneAveryAhead'
+platform='Discord\ Stoat\ Twitch Desktop (formerly)\ Steam Chat (formerly)'
+creationDate='2017-12-18'
+openedDate='2017-12-28'
+type='Public'
+memberCount='97 (as of 2026-02-09)'
+link='https://axeon-network.github.io/discord'
+image='resources/img/articles/axeonnetwork/logo.png'
+%}
 
-Throughout the lifetime of Axeon, specifically in 2018-19, a couple of other community hangout spaces also existed in the form of a Twitch Desktop server, as well as a Steam Chat group. Other projects planned in 2018 but never actually made include *AxeonAuth* (a so-called "moderation bot" which is in fact actually a custom solution for member verification on Discord), *i.axeon* (a custom ShareX Image Uploader service), or *Meme FM* (a radio bot for Discord that would play “new and old” meme songs).
+**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [KayAurora](KayAurora)), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), and previously [MidoriMC](MidoriMC) prior to its closure, along with other proposed projects over time.
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 
@@ -92,10 +104,15 @@ AxeonWebsite was primarily designed to promote the Axeon Network Discord Server,
 Initially on the `aquacommunity.ml` domain, it has moved to `axeoncommunity.ml` following the rebrand from Aqua Community to Axeon Community in April 2018, domain which would remain for the remainder of the website's lifetime. As previously stated, a subdomain of the same domain was planned to be used for *i.axeon* as well.
 The website has been hosted on GitHub Pages since May 2018, and initially on a different free web hosting service, from which it migrated due to persisting issues loading media under said provider.
 
+<div>
     {% include figure_item.html 
         image_src="resources/img/articles/axeonnetwork/axeonwebsite.png" 
         alt_text="AxeonWebsite in May 2019" 
         caption="AxeonWebsite in May 2019"
         style="width:40%; height:auto" %}
+        </div>
 
 A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](KayWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
+
+# Other projects
+Throughout the lifetime of Axeon, specifically in 2018-19, a couple of other community hangout spaces also existed in the form of a Twitch Desktop server, as well as a Steam Chat group. Other projects planned in 2018 but never actually made include *AxeonAuth* (a so-called "moderation bot" which is in fact actually a custom solution for member verification on Discord), *i.axeon* (a custom ShareX Image Uploader service), or *Meme FM* (a radio bot for Discord that would play “new and old” meme songs).

@@ -7,7 +7,7 @@ hatnote:
 ---
 {% include infoboxes/site.html
 name="LynxWebsite"
-formername='Lynxmic Website (2023)'
+formerly='Lynxmic Website (2023)'
 developer='KayAurora'
 developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'

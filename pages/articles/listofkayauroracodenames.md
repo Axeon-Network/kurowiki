@@ -53,6 +53,10 @@ Codename used for various later-cancelled projects for the [Axeon Network](Axeon
 
 Name used for a planned new tech-oriented YouTube channel throughout February 2025.
 
+<h2 id="PreventeDev">PreventeDev</h2>
+
+Preliminary name for *Whirlpool Bot Plaza*.
+
 <h2 id="Preventemod">Preventemod</h2>
 
 Name used for a project for a separate moderation bot for Discord that has been worked on in early 2018, later cancelled.

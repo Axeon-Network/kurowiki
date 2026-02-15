@@ -7,7 +7,6 @@ aliases:
     - vmwarefirsttime
 ---
 
-
 {% include infoboxes/video.html
 title='A VMware First-Timer installs Windows XP!'
 image='resources/img/articles/avftiwx/thumbremake.png'
@@ -26,8 +25,6 @@ link='None (deleted)'
 The video consisted of Kit installing Windows XP Professional SP3 on a VMware 12 virtual machine on Windows 8.1. It is the first StuffyXP video of 2024, as well as the first video to be made on [TheCeleryPC](TheCeleryPC)
 
 Addionally, 2 YouTube Shorts were uploaded to the StuffyXP channel showing a sneak peak of the video, with an audio bug from the video editor, and another one showing the analytics of the video as of 2 days later.
-
-
 
 # Development
 Shortly after 2024 started (and Kit finding their friend group), Kit was inspired by them [the friend group] to also make their own tech videos on YouTube, they started to find a video editor that was compatible with their daily driver at the time, [TheCeleryPC](TheCeleryPC).

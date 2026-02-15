@@ -1,0 +1,61 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        {{ include.name | default: "Untitled InfoBox" }}
+    </div>
+
+    {% if include.image %}
+    <div class="infobox-img-container">
+            <img src="{{ include.image }}" alt="{{ include.name }} logo" class="infobox-img">
+         <div class="infobox-img-caption">{{ include.name }} logo</div>
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            {% if include.formerly %}
+            <tr>
+                <th>Formerly known as</th>
+                <td>{{ include.formerly }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Owner</th>
+                <td><a href="{{ include.ownerurl }}">{{ include.owner }}</a></td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>{{ include.platform }}</td>
+            </tr>
+            <tr>
+                <th>Created</th>
+                <td>{{ include.creationDate }}</td>
+            </tr>
+            {% if include.openedDate %}
+            <tr>
+                <th>Opened</th>
+                <td>{{ include.openedDate }}</td>
+            </tr>
+            {% endif %}
+            {% if include.closedDate %}
+            <tr>
+                <th>Closed</th>
+                <td>{{ include.closedDate }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Type</th>
+                <td>{{ include.type }}</td> <!-- can be Public or Private -->
+            </tr>
+            <tr>
+                <th>Members</th>
+                <td>{{ include.memberCount }}</td>
+            </tr>
+            {% if include.link %}
+            <tr>
+                <th>Link</th>
+                <td><a href="{{ include.link }}">{{ include.link }}</a></td>
+            </tr>
+            {% endif %}
+            </tbody>
+    </table>
+</div>

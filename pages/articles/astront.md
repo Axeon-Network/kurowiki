@@ -10,10 +10,10 @@ author='Kit64'
 banner='resources/img/articles/astront/banner.png'
 name='AstroNT'
 creator='Kit'
-creatorurl='Kit64'
-videos='5'
-subs='21'
-views='863'
+creatorurl='KitSixtyFour'
+videos='7'
+subs='26'
+views='1,236'
 platform='YouTube'
 state='Active'
 creationdate='2025-09-17'
@@ -33,12 +33,15 @@ Shortly after Kit's August Discord return, Kit started to gain nostalgia for the
 
 # Videos
 
-As of November 2025, there are 3 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of February 2026, there are 6 videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
 - **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
 - **Android, But It's on the x86 Architecture...** - *uploaded 2025-11-11*
 - **Discord on Windows Vista but EVERYTHING Goes Wrong** - *uploaded 2025-11-18*
+- **Running Linux in... year 10000?** - *uploaded 2026-01-19*
+- **Installing Windows Longhorn via MS-DOS! (Post-Reset)** - *uploaded 2026-01-25*
+- **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
 
 # AstroNT Advanced Server
 
@@ -68,7 +71,6 @@ Before the launch of AstroNT, the server was used to discuss the development of 
         image_src="resources/img/articles/astront/earlyteaser.png"
         caption="Early version of the teaser. The date shown is for the channel trailer." 
         author='Kit64' %}
-
 
     {% include gallery_item.html
         image_src="resources/img/articles/astront/makingoflogo.png"
