@@ -13,7 +13,7 @@ title: KuroWiki
 author: Axeon Network
 
 # copyright year
-copyyear: 2025
+copyyear: "2025-2026"
 
 # your email
 email: thenekori64@gmail.com
@@ -54,7 +54,7 @@ featuredarticle: kurowiki2000
 
 # retail tag. specifies the version number used in the drawer, and is to be replaced by
 # an incrementing one IF the debug mode is enabled.
-retailtag: 6.0.4400.main.251204-0046
+retailtag: 6.0.4450.main.260110-2027
 
 
 # DEVELOPER/DEBUG
