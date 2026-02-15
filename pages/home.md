@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 </style>
 
-<h1 style="color:var(--kurowiki-accent)">Welcome to KuroWiki!</h1>
+<h1 style="color:var(--title-color)">Welcome to {{ site.title }}!</h1>
 
 <!-- actual homepage description -->
 <p class="homepage-description">{{ site.home_desc }}<br>You can use the drawer or the search bar to browse the contents of this wiki!</p>

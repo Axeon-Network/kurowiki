@@ -15,6 +15,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.2-x64-mingw-ucrt)
     ffi (1.17.2-x86_64-linux-gnu)
+    fiddle (1.1.8)
     forwardable-extended (2.6.0)
     google-protobuf (4.30.2-x64-mingw-ucrt)
       bigdecimal
@@ -97,6 +98,7 @@ DEPENDENCIES
   base64 (~> 0.3.0)
   csv (~> 3.3)
   erb (~> 5.0)
+  fiddle (~> 1.1)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3.4)
   jekyll-feed (~> 0.12)
@@ -108,4 +110,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.6.2
+  4.0.5

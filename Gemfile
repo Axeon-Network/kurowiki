@@ -40,3 +40,5 @@ gem "base64", "~> 0.3.0"
 gem "logger", "~> 1.7"
 
 gem "erb", "~> 5.0"
+
+gem "fiddle", "~> 1.1"

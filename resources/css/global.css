@@ -28,10 +28,10 @@
 /* variables */
 html {
     /* dark mode */
-    --accent-dark: #1f3d55;
-    --title-color-dark: #5f87a0;
+    --accent-dark: rgb(215,162,122);
+    --title-color-dark: rgb(226,191,159);
     --text-color-white: white;
-    --background-image-dark: url('../../resources/img/defaults/bg-dark.png'); 
+    --background-image-dark: url('../../resources/img/defaults/bg-dark.jpg'); 
     --scrollbar-color-dark: rgb(54,55,58) rgb(9,12,19);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     
@@ -79,6 +79,7 @@ html {
 /* so the links dont have that ugly underline */
 a {
     text-decoration: none !important;
+    color: var(--accent);
 }
 
 /* its hatnote time */
