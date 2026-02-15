@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KayWebsite version history
 permalink: KayWebsite_version_history
 redirect_from:

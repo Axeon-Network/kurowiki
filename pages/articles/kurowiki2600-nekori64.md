@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 2600 (Beta 6)
 permalink: KuroWiki_build_2600_(Beta_6)
 hatnote: Not to be confused with the official KuroWiki Beta 5 release, <a href='KuroWiki_build_2600'>KuroWiki build 2600 (main)</a>.

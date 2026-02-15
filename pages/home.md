@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Home
 permalink: ./ # i interrupted my housepets reading time just for this
               # i'm at the november 17 2008 issue

@@ -20,7 +20,7 @@ module Jekyll
           Jekyll.logger.info "TagGen:", "Created output directory: #{output_dir}"
       end
 		
-      id = 'b6chk'
+      id = 'rc1chk'
 
       lab = ''
       begin

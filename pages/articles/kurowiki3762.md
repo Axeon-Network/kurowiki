@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 3762
 permalink: KuroWiki_build_3762
 hatnote:

@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Nishi's Den
 permalink: Nishi's_Den
 hatnote: This article is about the server formerly known as NekoCafe. For the character, see <a href='Nishi'>Nishi</a>.
@@ -27,7 +26,7 @@ The server was discontinued on 7 February 2026 due to lack of activity and Kit's
 # Stoat version
 **Nishi's Den SE**[^3] (SE being short for *Stoat Edition*) is a server on the Discord alternative Stoat, created by Nekori on 11 November 2025 as a port of Nishi's Den to the platform.
 
-The server was created due to concerns by Nekori about a potential privacy invasion coming from one of their sisters.
+The server was created due to concerns by Kit about a potential privacy invasion coming from one of their sisters.
 
 # References
 [^1]: Actual server name is **Nishi's Den (ニシのデン.)** (Hepburn: *Nishi no den.*).
