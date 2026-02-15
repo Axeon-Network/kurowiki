@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Download Debug
 permalink: download_debug
 hatnote:

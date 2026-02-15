@@ -1,5 +1,4 @@
 ---
-layout: main
 title: pc tec tutorial
 permalink: pc_tec_tutorial
 ---

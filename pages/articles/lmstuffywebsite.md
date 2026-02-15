@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Stuffy's Website
 permalink: Stuffy's_Website_(May_2024)
 hatnote: Not to be confused with the <a href="Stuffy's_Website">WOU Stuffy Website</a>, which has the same page title.

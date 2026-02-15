@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Deltari build 4500
 permalink: Deltari_build_4500
 aliases:

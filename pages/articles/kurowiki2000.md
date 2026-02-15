@@ -25,10 +25,10 @@ This build was compiled just 30 minutes after the name "KuroWiki" was decided to
 For the KuroWiki project, this essentially meant that it was expanding beyond Kit-related things (In particular, Axeon and KayAurora-related topics would be accepted too), and that KayAurora (who previously contributed to the KuroWiki project before) would become one of KuroWiki's main developers.
 
 # Gallery
-    <div>
-    {% include figure_item.html 
+<div>
+ {% include figure_item.html 
         image_src="resources/img/articles/kurowiki2000/preview.png" 
         alt_text="" 
         caption="Article view of KuroWiki Build 2000, with drawer open"
         style="width:60%; height:auto" %}
-        </div>
+    </div>

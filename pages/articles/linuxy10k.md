@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Running Linux... on Year 10000?
 permalink: Running_Linux_on_Year_10000
 hatnote: This article is incomplete.

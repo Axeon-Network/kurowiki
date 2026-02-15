@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Solarix Website
 permalink: Solarix_Website
 aliases:

@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 4450
 permalink: KuroWiki_build_4450
 aliases:

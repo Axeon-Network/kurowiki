@@ -1,5 +1,4 @@
 ---
-layout: main
 title: OneAveryAhead
 permalink: OneAveryAhead
 redirect_from:
