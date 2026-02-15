@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Settings
 permalink: Settings
 search_exclude: true

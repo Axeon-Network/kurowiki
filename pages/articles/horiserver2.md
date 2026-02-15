@@ -1,14 +1,13 @@
 ---
-layout: main
 title: HoriServer (2)
 permalink: HoriServer_(2)
 hatnote: This article is about the Discord Server known as HoriServer (2). For the Stoat HoriServer, see <a href="HoriServer">HoriServer</a>.
 ---
-**HoriServer (2)** (sometimes abbreviated as HS2) was a Discord Server created by [Nekori](Nekori64) to succeed [StuffyXP Hangout](StuffyXP_Hangout) after the sunsetting of [StuffyXP](StuffyXP) on 14 March 2025.
+**HoriServer (2)** (sometimes abbreviated as HS2) was a Discord Server created by [Kit](Kit64) to succeed [StuffyXP Hangout](StuffyXP_Hangout) after the sunsetting of [StuffyXP](StuffyXP) on 14 March 2025.
 
-Despite the server being theoretically Nekori's (and that they did still formally hold a position in the server's leadership), the server was actually technically owned by [KayAurora](KayAurora) for the longest time as Nekori "didn't feel like managing a Discord server" at the time.
+Despite the server being theoretically Kit's (and that they did still formally hold a position in the server's leadership), the server was actually technically owned by [KayAurora](KayAurora) for the longest time as Kit "didn't feel like managing a Discord server" at the time.
 
-The server was nuked and closed on 23 April 2025, a direct result of the [April 2025 HoriServer (2) incident](April_2025_HoriServer_(2)_incident) part of the wider April 2025 Discord drama incidents in the surrounding community, which led to both Nekori and KayAurora resigning a day prior.
+The server was nuked and closed on 23 April 2025, a direct result of the [April 2025 HoriServer (2) incident](April_2025_HoriServer_(2)_incident) part of the wider April 2025 Discord drama incidents in the surrounding community, which led to both Kit and KayAurora resigning a day prior.
 
 [A YouTube channel](https://www.youtube.com/@HoriServer2) of the same name also exists meant for highlights from various events or other things to do with the community, created on 21 April 2025. This channel still exists to this day but remains unused.
    <div>
@@ -36,4 +35,4 @@ The plans were set to take place on 21 April 2025 before they were cancelled due
 
 Many HoriServer (2) members migrated to the LynxPlaza server immediatelly following the implosion. LynxPlaza would go through a general revamp including stricter member verification measures to prevent another similar incident, being completed by 30 April 2025 with LynxPlaza being rebranded to **Axeon Network**.
 
-In September 2025, after Nekori launched the [Nishi's Den](Nishi's_Den) server, officially considered a spiritual successor to HoriServer (2), Axeon Network founder KayAurora publicly revealed that the Axeon Network server was in fact "the successor to both LynxPlaza AND HoriServer (2), except it was never [publicly] announced on the HS2/StuffyXP Hangout side". Later on, KayAurora also said that "it was all about making sure Axeon was truly drama-free and that no dramafest could break in Axeon too".
+In September 2025, after Kit launched the [Nishi's Den](Nishi's_Den) server, officially considered a spiritual successor to HoriServer (2), Axeon Network founder KayAurora publicly revealed that the Axeon Network server was in fact "the successor to both LynxPlaza AND HoriServer (2), except it was never [publicly] announced on the HS2/StuffyXP Hangout side". Later on, KayAurora also said that "it was all about making sure Axeon was truly drama-free and that no dramafest could break in Axeon too".

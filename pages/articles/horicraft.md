@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Horicraft
 permalink: Horicraft
 hatnote: This article is about the original Horicraft server. For its spiritual successor, see <a href="Horicraft_(2)">Horicraft (2)</a>.
@@ -11,13 +10,13 @@ aliases:
     - horicraft 1
 ---
 
-**Horicraft**[^1] (*formerly known as **StuffyCraft***) was a creative Minecraft server owned and operated by [Nekori](Nekori). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
+**Horicraft**[^1] (*formerly known as **StuffyCraft***) was a creative Minecraft server owned and operated by [Kit](Kit). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
 
 Main cities built in Horicraft include [Horilandese](NovaLand) (now NovaLandese) cities like the capital [Fucking](Fucking) or [Jell](Jell). As the world spawn, Fucking is home to most of Horicraft's players as well as facitilies like [Dogui Heavy Industries Incorporated](Dogui_Heavy_Industries_Incorporated). Jell is mainly known for its tourist attraction, the *B Parkour*, shaped as a 🅱️ cube.
 
 Players of Horicraft can travel between Jell, Fucking, or other places across the Horicraft world using the [*Horicraft Underground Rail System*](Horicraft_Underground_Rail_System) (HURS, using minecarts), [*Horicraft Water Transportation System*](Horicraft_Underground_Rail_System#Horicraft_Water_Transportation_System) (HWTS, using boats), or using Nether Portals or pathes in cities by foot.
 
-Horicraft officially shut down on 11 March 2025 after a disagreement between the server hoster and Nekori, after just over 3 months. Any instance of the original Horicraft that would remain open would no longer be official/endorsed by Nekori. It was later succeeded by [Horicraft (2)](Horicraft_(2)), a survival Minecraft server.
+Horicraft officially shut down on 11 March 2025 after a disagreement between the server hoster and Kit, after just over 3 months. Any instance of the original Horicraft that would remain open would no longer be official/endorsed by Kit. It was later succeeded by [Horicraft (2)](Horicraft_(2)), a survival Minecraft server.
 
 In 18 May 2025, Horicraft was planned to merge with Horicraft (2) in order to make a """"new"""" server as an attempt to keep both alive. This was later scrapped in favor of [MidoriMC](MidoriMC) using Horicraft's world.
 

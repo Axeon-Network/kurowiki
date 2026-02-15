@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Dogui Heavy Industries Incorporated
 permalink: Dogui_Heavy_Industries_Incorporated
 redirect_from:
@@ -16,12 +15,12 @@ aliases:
 
 **Dogui Heavy Industries Incorporated**[^1] (DHI Inc.) is a fictional NovaLandese company. Its main headquarters are located in [Fucking](Fucking), the capital city of [NovaLand](NovaLand).
 
-The company was founded in June 2024 as Dogui Heavy Coding Industries, with its first part of the name inheriting from [Dogui](Dogui), the name of [Nekori](Nekori)'s dog plushie which at the time was the logo of [StuffyXP](StuffyXP). Its first mention was on a message on a Discord Server in which Nekori was in, which had attached the [Stuffy Vlogs](Stuffy_Vlogs) background from the time.
+The company was founded in June 2024 as Dogui Heavy Coding Industries, with its first part of the name inheriting from [Dogui](Dogui), the name of [Kit](Kit)'s dog plushie which at the time was the logo of [StuffyXP](StuffyXP). Its first mention was on a message on a Discord Server in which Kit was in, which had attached the [Stuffy Vlogs](Stuffy_Vlogs) background from the time.
 
 In July 2024, the company was renamed Dogui Heavy Industries Limited, having its own motto:
 > *When the tables suddenly turn at the Dogui Heavy Industries Headquarters, it's when you know there's a certified Stuffy Moment*
 
-As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Nekori Moments](Nekori_Moments).
+As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Kit Moments](Kit_Moments).
 
    <div>
     {% include figure_item.html 
@@ -55,7 +54,7 @@ An actual (short) movie was released in 2 October 2025 titled [Finding Fucking](
 ---
 The company was founded in early 1993 as Dogui Heavy Coding Industries (whose purposes was split into a subsidiary called **DHISoft**), and became the most profitable business in [StuffyLand](NovaLand) December 2010.
 
-The company has a history of filing for Chapter Nine Bankruptcy two times in 2013 and 2018 respectively. Both being due to loss of profit due to bad quality of products, the most notable case being in 12 January 2005 where the company's products were affected by computer glitches ([Nekori Moments](Nekori_Moments)), the company slowly kept losing money until 2013 and gained a bad reputation.
+The company has a history of filing for Chapter Nine Bankruptcy two times in 2013 and 2018 respectively. Both being due to loss of profit due to bad quality of products, the most notable case being in 12 January 2005 where the company's products were affected by computer glitches ([Kit Moments](Kit_Moments)), the company slowly kept losing money until 2013 and gained a bad reputation.
 
 In July 2013 the company filed for Chapter Nine Bankruptcy, which allowed them to try to make a plan to gain enough money to cover up the debt (NSB. 250,000,000).
 
@@ -65,7 +64,7 @@ After the Economy Crash of 2017, DHI suffered a loss of NSB. 761,000,000 which m
 
 The company was barely keeping itself alive in 2019 until COVID-19 struck StuffyLand, DHI founded DHI Movies, a movie studio for the citizen's entertainment while at home.
 
-The company successfully recovered from the crash (in fact, was only one of the two to do so) and gained around LXL 1B due to the massive success of DHI Movies, and several donations for DHI Turtles. The company became the most profitable business in the country again in August 2021 due to a new CEO, [Nekori](Nekori). -->
+The company successfully recovered from the crash (in fact, was only one of the two to do so) and gained around LXL 1B due to the massive success of DHI Movies, and several donations for DHI Turtles. The company became the most profitable business in the country again in August 2021 due to a new CEO, [Kit](Kit). -->
 
 # References
 [^1]: Formerly known as **Dogui Heavy Industries Limited** (DHI Ltd.) and **Dogui Heavy Coding Industries** (DHCI).

@@ -1,6 +1,5 @@
 ---
 title: Contributing to KuroWiki
-layout: main
 permalink: Contributing_to_KuroWiki
 search_exclude: true
 ---

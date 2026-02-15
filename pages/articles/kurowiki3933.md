@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 3933
 permalink: KuroWiki_build_3933
 aliases:

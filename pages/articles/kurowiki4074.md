@@ -1,5 +1,4 @@
 ---
-layout: main
 title: KuroWiki build 4074
 permalink: KuroWiki_build_4074
 aliases:

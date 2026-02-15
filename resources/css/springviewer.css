@@ -1,3 +1,58 @@
+/* 
+    Kuro/ModularDelta SpringViewer Stylesheet File
+    Copyright 2025 Axeon Network. Developed by KitSixtyFour
+
+    If you are looking for the CSS code used in galleries, the component that invokes
+    SpringViewer, see gallery.css.
+
+    Licensed under the MIT License, which is included below:
+
+    Copyright 2025 Axeon Network
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy 
+    of this software and associated documentation files (the “Software”), to deal 
+    in the Software without restriction, including without limitation the rights 
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+    of the Software, and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies 
+    or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+    PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+    FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.
+
+*/
+
+/* variables */
+html {
+    /* dark mode */
+    --viewer-background-color-dark: rgb(15,15,15); 
+    --viewer-border-color-dark: #262626;
+    --viewer-button-color-dark: rgb(40,40,40);
+
+
+    /* light mode */
+    --viewer-background-color-light: white;
+    --viewer-border-color-light: #e5e5e5;
+    --viewer-button-color-light: rgb(220,220,220);
+
+    /* you thought this was over? nah. */
+    --viewer-background-color: var(--viewer-background-color-dark);
+    --viewer-border-color: var(--viewer-border-color-dark);
+    --viewer-button-color: var(--viewer-button-color-dark);
+
+    /* these are used when the light-mode class is appended to the body tag. */
+        &.light-mode {
+            --viewer-background-color: var(--viewer-background-color-light);
+            --viewer-border-color: var(--viewer-border-color-light);
+            --viewer-button-color: var(--viewer-button-color-light);
+        }
+}
 /* springviewer watermark */
 #viewer-watermark {
     position: fixed;

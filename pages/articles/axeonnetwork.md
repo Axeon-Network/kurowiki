@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Axeon Network
 permalink: Axeon_Network
 hatnote:
@@ -31,7 +30,7 @@ The server was renamed to Axeon Community in April 2018, and the Axeon logo has 
 After 2020, the server has seen a decline in activity. 2022 has seen the lowest activity in the server, with only very few occasional messages per month. The server member count had gone down to around 60 members. After a prune of inactive Discord accounts, this count has gone down to just under 30.
 In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following KayAurora’s personal alias rebrand from Lynxmic to Clyron.
 
-In early April 2025, KayAurora officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Nekori](Nekori)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
+In early April 2025, KayAurora officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Kit](Kit)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
 Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
@@ -55,8 +54,8 @@ Initially, there were several bots hosted specifically for the Axeon Network ser
 # KuroWiki
 *Main article: [KuroWiki](KuroWiki)*
 
-**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Deltari](Deltari)* wiki engine initially started and developed by [Nekori](Nekori) in May 2025.
-Initially started with a main purpose of documenting meanings of inside jokes and other random Nekori-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and KayAurora-related things, since becoming a project part of the Axeon Network in September 2025.
+**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Deltari](Deltari)* wiki engine initially started and developed by [Kit](Kit) in May 2025.
+Initially started with a main purpose of documenting meanings of inside jokes and other random Kit-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and KayAurora-related things, since becoming a project part of the Axeon Network in September 2025.
 
 As of October 2025, KuroWiki has reached Beta 6. The latest version as of 4 December 2025 is [Build 4400](KuroWiki_build_4400).
 
@@ -65,7 +64,7 @@ As of October 2025, KuroWiki has reached Beta 6. The latest version as of 4 Dece
 
 **MidoriMC** (previously known as **AxeonMC**) was a Minecraft Java Edition server for the community of Axeon. The server was officially announced on 11 May 2025 as a Survival 1.21.4 Fabric server with its own world.
 
-Roughly a week later, on 18 May 2025, AxeonMC was renamed MidoriMC and changed from a Survival world to a Creative world, using the same world found in [the original Horicraft](Horicraft) (Nekori's Minecraft server), as its semi-official continuation. Later on, the world was reset with everything started anew while continuing to use the Horicraft world seed.
+Roughly a week later, on 18 May 2025, AxeonMC was renamed MidoriMC and changed from a Survival world to a Creative world, using the same world found in [the original Horicraft](Horicraft) (Kit's Minecraft server), as its semi-official continuation. Later on, the world was reset with everything started anew while continuing to use the Horicraft world seed.
 
 Over time, the server had been updated to 1.21.5, then to 1.21.6 and to 1.21.7. On 1 August 2025, it was announced that MidoriMC would go offline for good, due to lack of players most of the time and thus lack of interest to keep it online. At its peak, MidoriMC had around 5 concurrent online players, this being in late May 2025.
 

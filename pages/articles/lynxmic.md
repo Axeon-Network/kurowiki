@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Lynxmic
 permalink: Lynxmic
 aliases:

@@ -1,5 +1,4 @@
 ---
-layout: main
 title: '%iKBLULTGT2%'
 permalink: iKBLULTGT2
 aliases:

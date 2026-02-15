@@ -1,5 +1,4 @@
 ---
-layout: main
 title: List of Lynxmic videos
 permalink: List_of_Lynxmic_videos
 ---
