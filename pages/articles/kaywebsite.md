@@ -10,21 +10,21 @@ hatnote: For a complete list of KayWebsite versions, see <a href='KayWebsite_ver
 ---
 {% include infoboxes/site.html
 name='KayWebsite'
-formername='ClyronWebsite (2024-2025)'
+formerly='ClyronWebsite (2024-2025)'
 developer='KayAurora'
 developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v25.11.2'
-currentVersionReleaseDate='2025-11-29'
+currentVersion='v26.1'
+currentVersionReleaseDate='2026-01-15'
 sourceModel='Open source'
 repoLink='https://github.com/thekayaurora/thekayaurora.github.io'
 repoHost='GitHub'
 status='Available'
 link='https://kay.is-a.dev'
-image='resources/img/articles/kaywebsite/v25.10.png'
+image='resources/img/articles/kaywebsite/v26.1.png'
 %}
 
 **KayWebsite** (also known after its URL name, [kay.is-a.dev](https://kay.is-a.dev)) is [KayAurora](KayAurora)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying [LynxWebsite](LynxWebsite) and the [Lynxmic Blog](Lynxmic_Blog) under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
@@ -52,6 +52,16 @@ The development of v2.0 took more than 3 months, mainly due to KayAurora's lack 
 v2.0 was finally finished almost a month later, on 9 February 2025, when it replaced v1.1. The final v2 release was v2.5.2 from 8 July 2025.
 
 <div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/earliercw2.0.png" 
+        alt_text="ClyronWebsite v2.0 UC, November 2024" 
+        caption="ClyronWebsite v2.0 UC, November 2024" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/earlycw2.0.png" 
+        alt_text="ClyronWebsite v2.0 public beta, January 2025" 
+        caption="ClyronWebsite v2.0 public beta, January 2025" %}
+
     {% include gallery_item.html 
         image_src="resources/img/articles/kaywebsite/v2.0.png" 
         alt_text="ClyronWebsite v2.0, February 2025" 
@@ -95,16 +105,33 @@ v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's
         caption="KayWebsite v3.3 Retro Frontend" %}
 </div>
 
-## Version 25.xx
+## Version 25.x
 KayWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time KayWebsite is built in production. The changelog page was also deprecated entirely in favor of the [KayWebsite version history](KayWebsite_version_history) KuroWiki article.
 
-v25.11, released on 6 November 2025, brought various bug fixes and improvements. Similarily, v25.11.1 and v25.11.2 from 19 and 29 November 2025 respectively primarily brought small refinements and updates in pages.
+v25.11, released on 6 November 2025, brought various bug fixes and improvements. Similarily, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2 have all focused on smaller changes and fixing other bugs that have been found. The final v25 release was v25.12.2 from 28 December 2025.
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/kaywebsite/v25.10.png" 
         caption="KayWebsite v25.10, October 2025" %}
     {% include gallery_item.html 
-        image_src="resources/img/articles/kaywebsite/v25.11.2.png" 
-        caption="KayWebsite v25.11.2, November 2025" %}
+        image_src="resources/img/articles/kaywebsite/v25.12.2.png" 
+        caption="KayWebsite v25.12.2, December 2025" %}
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v25.12.2-retro.png" 
+        caption="KayWebsite v25.12.2 Retro Frontend" %}
+</div>
+
+## Version 26.x
+The first KayWebsite version release in the v26 series was v26.1 from 15 January 2026. The major version number was bumped per the year-month-revision versioning format introduced with v25.10.
+
+v26.1 brought significant fixes and changes to the website that can be seen both in the modern and retro frontends.
+
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v26.1.png" 
+        caption="KayWebsite v26.1, January 2026" %}
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v26.1-retro.png" 
+        caption="KayWebsite v26.1 Retro Frontend" %}
 </div>

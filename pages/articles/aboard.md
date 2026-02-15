@@ -16,7 +16,7 @@ The **A Board** (also known as the **🅰️ Board**) is a message board channel
 
 #### History
 
-The concept of an A Board came before the launch of [Nekori](Nekori64)'s HoriServer (2), on which Nekori and [KayAurora](KayAurora) eventually made one.
+The concept of an A Board came before the launch of [Nekori](Nekori64)'s HoriServer (2), on which Nekori and [Avery](OneAveryAhead) eventually made one.
 
 The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen at Nekori's old Mastodon account.
 

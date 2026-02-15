@@ -8,7 +8,7 @@ hatnote:
 ---
 {% include infoboxes/site.html
 name="Lynxmic Blog"
-formername=''
+logo='resources/img/articles/lynxmicblog/logo2.png'
 developer='KayAurora'
 developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
@@ -33,19 +33,6 @@ An improved website layout using the Bulma CSS framework was rolled out on 1 Jan
 The Lynxmic Blog was officially discontinued on 23 July 2024, with its spiritual successor being the [KayWebsite](KayWebsite) blog.
 
 Overall, the GitHub repo for the Lynxmic Blog saw over 500 commits up over time, the largest number compared to other repositories on KayAurora's personal account. This is attributed to KayAurora using GitHub's web interface for everything instead of using Git or GUI wrappers like GitHub Pages.
-
-<div class="wiki-gallery">
-       {% include gallery_item.html 
-        image_src="resources/img/articles/lynxmicblog/logo1.png" 
-        alt_text="Lynxmic Blog logo used from November 2021 to May 2023" 
-        caption="Lynxmic Blog logo used from November 2021 to May 2023"
-        style="width:50%;" %}
-        {% include gallery_item.html 
-        image_src="resources/img/articles/lynxmicblog/logo2.png" 
-        alt_text="Lynxmic Blog logo used from May to December 2023" 
-        caption="Lynxmic Blog logo used from May to December 2023"
-        style="width:50%;" %}
-</div>
 
 # First iteration (2021-22)
 Plans for a new Lynxmic Blog have existed as early as May 2021, when KayAurora announced on the [Axeon Network](Axeon_Network) Discord Server that they were retiring their existing blog on Medium that has been in use since March 2018
@@ -133,6 +120,19 @@ In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsit
         image_src="resources/img/articles/lynxmicblog/19-04-2024.png" 
         alt_text="The Lynxmic Blog on 19 April 2024" 
         caption="The Lynxmic Blog on 19 April 2024"
+        style="width:50%;" %}
+</div>
+
+<div class="wiki-gallery">
+       {% include gallery_item.html 
+        image_src="resources/img/articles/lynxmicblog/logo1.png" 
+        alt_text="Lynxmic Blog logo used from November 2021 to May 2023" 
+        caption="Lynxmic Blog logo used from November 2021 to May 2023"
+        style="width:50%;" %}
+        {% include gallery_item.html 
+        image_src="resources/img/articles/lynxmicblog/logo2.png" 
+        alt_text="Lynxmic Blog logo used from May to December 2023" 
+        caption="Lynxmic Blog logo used from May to December 2023"
         style="width:50%;" %}
 </div>
 

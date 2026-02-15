@@ -410,8 +410,15 @@ h3, h4, h5, h6 {
     letter-spacing: .04em;
 }
 
-/* these are infoboxes */
+/* download box */
+.download-box-item {
+    width: 300px;
+    border: 100px solid var(--kurowiki-accent);
+    background-color: var(--mdlcard-background-color);
+    color: var(--text-color);
+}
 
+/* these are infoboxes */
 .infobox {
     width: 300px; 
     float: right; 

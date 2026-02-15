@@ -4,7 +4,7 @@ title: List of Lynxmic videos
 permalink: List_of_Lynxmic_videos
 ---
 
-This article is a list of all [Lynxmic](Lynxmic) videos on YouTube (excluding ones set as Unlisted or Private).
+This article is a list of all [Lynxmic](Lynxmic) videos on YouTube (excluding ones set as Unlisted or Private), from newest to oldest.
 
 As of October 2025, there are 127 uploaded videos that are currently public (including livestreams).
 

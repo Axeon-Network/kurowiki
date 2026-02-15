@@ -6,11 +6,30 @@ redirect_from:
 aliases:
 hatnote: Main article&#58; <a href='KayWebsite'>KayWebsite</a>
 ---
-This is a list of all released versions of KayWebsite and their changelogs, as of 30 October 2025, from latest to earliest. This list only includes v2.x and v3.x versions at the moment, and is subject to change as new KayWebsite versions come out.
+This is a list of all released versions of KayWebsite and their changelogs, as of January 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from KayWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
+# Version 26.x
+## 26.1
+Released on 15 January 2026, it brought significant changes, fixes and restructuring to the website, mostly in the backend but also changes that can be immediately noticeable by the end user in both the Modern and Retro Frontends.
+
+To further clean up the homepage, webrings are now located in their own box, similarily with the 88x31 buttons. Though in the Retro Frontend the buttons and webrings view now fallback to text and image only, just like it was prior to v25.11 (albeit webrings section is no longer centered). Also in the Retro Frontend, full support has been added for tags in blog posts.
+
+In addition, the KayAurora wordmark used in the Modern Frontend is now the correct one in respect with the website background. The wordmark previously used remains as an "alternative" logo which is revealed upon hovering on the logo in the navbar.
+
 # Version 25.x
+## 25.12.2
+Released on 28 December 2025, it is the same as 25.12.1, however it is the result of another update in the automated CI/CD version determination in preparation for the upcoming year 2026. In particular, changes to files unrelated to the website's source code itself that are located in the root of the website's GitHub Repository will no longer cause a version bump, unless they come "in package" with changes to the website itself.
+
+As the final KayWebsite version release of the year 2025, it is also the final v25.x release.
+
+## 25.12.1
+Released on 26 December 2025, it fixed an issue with the background in the 404 Not Found page and bumped the Astro version and other dependencies.
+
+## 25.12
+Released on 6 December 2025, it updated the timezone shown in the homepage and fixed an issue with the background.
+
 ## 25.11.2
 Released on 29 November 2025, it mainly updated the Projects and Devices pages. Other changes include fixing issues and inconsistencies in the CSS styling, while the automated CI/CD version determination was updated to exclude unnecessary version bumps in the event of new blog posts or edits of them, unless they come "in package" with changes to the website itself.
 

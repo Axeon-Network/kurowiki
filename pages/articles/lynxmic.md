@@ -17,6 +17,21 @@ redirect_from:
     - Computerseasons
 hatnote: This article is incomplete.
 ---
+{% include infoboxes/channel.html
+pfp='resources/img/articles/lynxmic/logo.png'
+author='OneAveryAhead'
+name='Lynxmic'
+creator='Avery'
+creatorurl='OneAveryAhead'
+videos='126'
+subs='1,543'
+views='242,798'
+platform='YouTube'
+state='Mostly Inactive; channel available'
+creationdate='2016-12-05'
+linkname='youtube.com/lynxmic'
+linkurl='https://youtube.com/lynxmic'
+%}
 
 **Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a tech-focused YouTube channel ran and owned by [KayAurora](KayAurora) launched on 5 December 2016.
 
@@ -25,14 +40,6 @@ It is the first created of KayAurora's main channels to be completely in the Eng
 In April 2025, KayAurora announced the stopping of new Lynxmic content due to dwindling interest and motivation. Occasional new videos and streams would still come out, but would be spontaneous and low-quality.
 
 As of November 2025, the channel has over 1,500+ subscribers and 125+ public videos - the largest of KayAurora's channels. In total, the channel has about 330 videos including ones set as unlisted or private. A list of Lynxmic videos can be found [here](List_of_Lynxmic_videos).
-
-   <div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/lynxmic/logo.png" 
-        alt_text="" 
-        caption="Current Lynxmic logo as of February 2025"
-        style="width:10%; height:auto" %}
-        </div>
 
 # History
 ## 2016-2017: Backstory and channel beginnings
@@ -86,9 +93,7 @@ KayAurora has been getting slowly demotivated to even do anything over time, inc
 
 On 3 March 2019, the final episode of the *Make a Discord Bot!* series was uploaded. The series ended at a total of 7 episodes after almost a year due to "lack of interest in continuing". KayAurora claimed they would continue to code, but over time more and more coding projects would be discontinued (starting with [Solarix Website](Solarix_Website) in April), culminating in them quitting coding entirely in July 2019 with [Venus](Venus) Bot and other remaining code projects being discontinued.
 
-May 2019 saw many videos going unlisted/privated from the channel, as KayAurora wanted to do it but couldn't quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use) being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year.
-
-On 1 June 2019, the first episode of [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) was uploaded. However the series would only last for another episode before being cancelled entirely, with a 3rd episode only having been recorded and never edited. The RAW recordings of episode 3 of WXPFDU were later uploaded with very minimal editing to [Axeon_Productions](NightskyArchive) in 2020.
+May 2019 saw many videos going unlisted/privated from the channel, as KayAurora wanted to do it but couldn't quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use) being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year. On 1 June 2019, the first episode of [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) was uploaded.
 
 By early August 2019, every single video and stream have been hidden from the channel (except for the latest video at the time, *Upgrading from Windows 3.1 to Windows 7*), with KayAurora having mostly purged/hidden most-if-not-all social media posts, and also switched Discord accounts as well. Around mid-to-late August 2019, the *Lynxmic* name was introduced fully replacing Solarix/solarixtech.
 
@@ -156,6 +161,47 @@ New videos subsequently resumed after 1.5 months, with *Running Windows Installe
 However after none of them surpassed 1,000 views within their first month, KayAurora began to consider sunsetting the project entirely as early as late March 2025. The future video planning was shrunk to just a few last videos. However only one of them (*"New Life" for a 18-Year-Old Laptop: Installing & Setting Up Windows Vista*) went up on 6 April 2025, having been already a work-in-progress for a few weeks by then.
 Two other videos were uploaded before it, the first (about forced Microsoft Accounts in the modern Windows OOBE) ending up being the most popular Lynxmic video of 2025 with over 2,500+ views, and the second being the yearly April Fools video.
 
-On 9 April 2025, KayAurora formally announced on the LynxPlaza that they were moving on from the Lynxmic project entirely, stating that their interest for the channel specifically (or generally speaking, being a "wintuber") has been slowly dwindling and that they would rather use their free time for other things instead. In the following weeks, the LynxPlaza server would go through a restructuring process, with the server officially being renamed [Axeon Network](Axeon_Network).
+On 9 April 2025, KayAurora formally announced on LynxPlaza that they were moving on from the Lynxmic project entirely, stating that their interest for the channel specifically (or generally speaking, being a "wintuber") has been slowly dwindling and that they would rather use their free time for other things instead. In the following weeks, the LynxPlaza server would go through a restructuring process, with the server officially being renamed [Axeon Network](Axeon_Network).
 
-From this point on, only very occasional videos and streams would be made, including one on Windows 10's End of Support on 14 October 2025. Weeks later, [AstroNT](AstroNT) came as a spiritual successor to the Lynxmic project, channel jointly maintained with [StuffyXP](StuffyXP)'s creator, [Nekori](Nekori64).
+From this point on, only very occasional videos and streams would be made, including one on Windows 10's End of Support on 14 October 2025. Weeks later, [AstroNT](AstroNT) came as a spiritual successor to the Lynxmic project, channel jointly maintained with [StuffyXP](StuffyXP)'s creator, [Kit](KitSixtyFour).
+
+# Video Series
+## Windows 98 for Daily Use
+**Windows 98 for Daily Use** was one of the main video series of the Lynxmic YouTube channel. The series came to life to serve as an recorded effort of setting up a Windows 98 VM, installing programs and adjusting settings, after Avery lost the original Windows 98 VM they made in August 2017.
+
+The series was initially announced on 14 May 2018, with the first episode going out on 1 June 2018. A total of 14 episodes have been made (including 11 normal videos and 3 streams (which counted as episodes)), the longest-running of all Lynxmic video series. The final episode came out on 11 May 2019.
+
+The average view count of episodes of this series was 20 to 100, which is also the general average view count for any Lynxmic video of 2018-19, with only one episode having hit 140 views.
+
+Even after the series ending, Lynxmic/Avery had been keeping the VM used in the series to this day, and an extra episode premiered on 28 November 2024 revisiting the VM, which got 2,6K+ views.
+
+## Windows XP for Daily Use
+**Windows XP for Daily Use** was one of the main video series of the Lynxmic YouTube channel. Direct successor to Windows 98 for Daily Use, the series involved setting up a Windows XP VM with apps and other personalization and settings.
+
+The first episode went out on 1 June 2019. However the series would only last for another episode before being cancelled entirely, with a 3rd episode only having been recorded and never edited. The RAW recordings of episode 3 of WXPFDU were later uploaded with very minimal editing to [Axeon_Productions](NightskyArchive) in 2020.
+
+## Discord.js Bot Tutorial
+**Discord.js Bot Tutorial** (also known as ***"Make a Discord Bot!***, abbreviated **MADB**) was a educational video series of the Lynxmic YouTube channel. Its main purpose was on how to code a Discord bot in Discord.js (JavaScript), from basic knowledge stuff to various bot commands of moderate difficulty, and even tips.
+
+A total of 7 episodes have been produced, with them mostly getting all-time view counts of 100-900, higher than the average Lynxmic video in 2018 with some even ending up in the chart of most popular Lynxmic videos prior to the unlisting of all videos in July-August 2019.
+
+The first episode released on 26 March 2018, and the last on 3 March 2019, after which the series was discontinued due to a "lack of interest".
+
+## OS Look-Back
+**OS Look-Back** was a video series of the Lynxmic YouTube channel, looking back at old operating systems.
+
+It was a seasonal series, with seasons generally taking place in the first half of the year, from late Winter to around mid-to-late Spring. The first season (***OS Look-Back 2018***), began on 2 February 2018 and lasted 6 episodes, with the last one coming out on 21 April 2018.
+
+A second season, ***OS Look-Back 2019*** was teased as early as September 2018, promising coverage of more old operating systems and a "better viewing experience". However only one episode actually premiered on Windows 3.1 on 13 April 2019 before the entire OS Look-Back series was cancelled entirely due to its pointlessness, shown by lower view counts.
+
+<!-- todo: maybe move entire OS Look-Back history from the history section to here -->
+
+## This Month on Solarix
+**This Month on Solarix** (initially **BW Updates** before August 2018) was a monthly video series of the Lynxmic YouTube channel, recapping major events that happened through the month, both on the Lynxmic channel and other of Avery's projects.
+
+The first video of the series came on 20 December 2017, with the final video being on 30 October 2018, after which it was discontinued due to low viewership in favor of using social media and the Axeon Network announcements channel. 
+
+## Lynx Explores
+**Lynx Explores** is a cancelled video series planned for 2019 exploring various operating systems. Trailers have went out on the Lynxmic Twitter and Instagram accounts, initially in picture-form in late August 2019, and then in video-form in early September 2019, with the first formal episode scheduled for late September 2019.
+
+Plans for this series were abandoned by mid September 2019, with the original posts having been deleted ever since, however the trailers for Lynx Explores do still exist in Avery's archives.

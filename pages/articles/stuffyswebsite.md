@@ -16,9 +16,8 @@ aliases:
 ---
 {% include infoboxes/site.html
 name="Stuffy's Website"
-formername=''
-developer='Nekori'
-developerarticle='Nekori64'
+developer='kit'
+developerarticle='Kit64'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='1.0 Public Beta'

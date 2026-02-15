@@ -28,10 +28,12 @@
                 <th>Released on</th>
                 <td>{{ include.reldate }}</td>
             </tr>
+            {% if include.link %}
             <tr>
                 <th>Link</th>
                 <td>{{ include.link }}</td>
             </tr>
+            {% endif %}
             </tbody>
     </table>
 </div>

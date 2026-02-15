@@ -178,6 +178,8 @@ This article is a list of all known KuroWiki builds.
 6.0.3959.kayaurora.251029-0126
 6.0.4000.kayaurora.251029-2052
 6.0.4002.nekori64.251028-1539
+6.0.4004.nekori64.251029-1004
+6.0.4011.nekori64.251029-1009
 6.0.4058.nekori64.251029-1522
 [6.0.4074.nekori64.251029-1452](KuroWiki_build_4074)
 6.0.4079.kayaurora.251029-2335
@@ -214,3 +216,25 @@ This article is a list of all known KuroWiki builds.
 
 **Public release**
 [6.0.4400.main.251204-0046](KuroWiki_build_4400)
+[6.0.1.4450.main.260110-2027](KuroWiki_build_4450)
+
+
+## Release Candidate 1
+
+**KuroWiki compiles**
+6.0.4401.kayaurora.251221-2024
+6.0.4406.kayaurora.251221-2108
+6.0.4413.kayaurora.251221-2127
+6.0.4417.kitsixtyfour.251215-1451
+7.0.4462.kitsixtyfour.251227-1246
+7.0.4483.kitsixtyfour.260110-2018
+7.0.4487.kayaurora.260111-1020
+7.0.4495.kayaurora.260112-2256
+7.0.4500.kayaurora.260209-1748
+7.0.4504.kayaurora.260215-2024
+[7.0.4538.kitsixtyfour.260208-1145](KuroWiki_build_4538)
+
+**Deltari Meta compiles**
+[7.0.4500.main.260113-1820](Deltari_build_4500)
+[7.0.4580.main.260113-1134](Deltari_build_4580)
+[7.0.4584.main.260113-1146](Deltari_build_4584)
