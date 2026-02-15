@@ -92,6 +92,14 @@ a {
     font-style: italic;
    }
    
+/* download box */
+.download-box-item {
+    width: 300px;
+    border: 100px solid var(--accent);
+    background-color: var(--mdlcard-background-color);
+    color: var(--text-color);
+}
+   
 /* image boxshadow */
 img {
     box-shadow:0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
