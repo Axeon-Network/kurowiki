@@ -17,7 +17,7 @@ ram='2GB DDR3'
 disk='313GB Western Digital WDC HDD'
 gpu='Intel Graphics Media Accelerator 3150'
 screenres='1024x600'
-screensize='10.1"' %}
+screensize='10.1" built-in LCD' %}
 
 **TheAspireLappy** (model *Acer Aspire One 532g*) is a laptop manufactured by Acer Inc. in 2011. It is [Kit](Kit64)'s secondary computer since December 2025.
 

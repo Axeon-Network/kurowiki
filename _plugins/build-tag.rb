@@ -1,78 +1,97 @@
 require 'time'
 require 'jekyll'
+require 'etc' 
+
+# tracker to prevent double banners
+$axeon_banner_shown = false
+
+# initial thing, only runs when jekyll server is first ran
+Jekyll::Hooks.register :site, :after_init do |site|
+  unless $axeon_banner_shown
+    output_dir = File.join(site.source, 'resources', 'ruby')
+    build_tag_file_path = File.join(output_dir, 'buildtag')
+    
+    dev_phase = site.config['devphase'] || "DUMMY"
+    buildtag = File.exist?(build_tag_file_path) ? File.read(build_tag_file_path).strip : "LOADING..."
+
+    puts "Axeon Kuro/Delta #{dev_phase} Version #{buildtag}"
+    puts "Axeon Deltari Build Tag Generator Code Named \"TagGen\", version 2.0"
+    puts "Copyright 2025-2026 Axeon Network\n\n"
+    
+    $axeon_banner_shown = true
+  end
+end
 
 module Jekyll
   class ExtBuildInfoGenerator < Generator
     safe true
     priority :highest
-    Jekyll.logger.info "KuroWiki", "TagGen, Version 1.0.1!"
-    Jekyll.logger.info "", "Who tagging they builds."
-    Jekyll.logger.info "", "Copyright Axeon Network/Nekori, 2025"
-
 
     def generate(site)
       output_dir = File.join(site.source, 'resources', 'ruby')
       build_number_file_path = File.join(output_dir, 'version')
       build_tag_file_path = File.join(output_dir, 'buildtag')
+      FileUtils.mkdir_p(output_dir) unless File.directory?(output_dir)
 
-      unless File.directory?(output_dir)
-          FileUtils.mkdir_p(output_dir)
-          Jekyll.logger.info "TagGen:", "Created output directory: #{output_dir}"
-      end
-		
-      id = 'rc1chk'
-
+      # git branch
       lab = ''
       begin
         lab = `git rev-parse --abbrev-ref HEAD`.strip
-      rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to get Git branch: #{e.message}. Using 'unknown'."
-        lab = 'unknown'
+        raise if lab.empty? || lab.include?("fatal")
+      rescue
+        date_stub = Time.now.strftime("%y-%m-%d")
+        user_stub = ENV['USERNAME'] || ENV['USER'] || Etc.getlogin || "dummy"
+        lab = "#{date_stub}_#{user_stub}"
       end
 
+      is_debug = site.config['debug'] == true
       current_incremental_number = 0
-      begin
-        if File.exist?(build_number_file_path)
-          current_incremental_number = File.read(build_number_file_path).to_i
-        else
+      buildtag = ""
+
+      if is_debug
+        is_regeneration = site.respond_to?(:regenerator)
+
+        begin
+          current_incremental_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 4209
+        rescue
           current_incremental_number = 4209
         end
-      rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to read /resources/ruby/version: #{e.message}. Starting from 4210."
-        current_incremental_number = 4209
+
+        # only increment if we are actually regenerating
+        if is_regeneration && $axeon_banner_shown
+          current_incremental_number += 1
+          File.write(build_number_file_path, current_incremental_number.to_s)
+          
+          timestamp = Time.now.strftime("%y%m%d-%H%M")
+          buildtag = "7.0.#{current_incremental_number}.#{lab}.#{timestamp}"
+          File.write(build_tag_file_path, buildtag)
+          
+          Jekyll.logger.info "", "Building Kuro/Delta ver #{buildtag}"
+        else
+          # just load the tag
+          buildtag = File.exist?(build_tag_file_path) ? File.read(build_tag_file_path).strip : "7.0.#{current_incremental_number}.#{lab}.000000-0000"
+        end
+      else
+        # in retail mode, dont increment anything, just load the last saved build
+        if File.exist?(build_tag_file_path)
+          buildtag = File.read(build_tag_file_path).strip
+          current_incremental_number = buildtag.split('.')[2].to_i rescue 0
+        else
+          buildtag = "MJ.MN.BD.LB.DT-TM_DUMMY-TGEN"
+          current_incremental_number = 0
+        end
       end
 
-      current_incremental_number += 1
-
-      begin
-        File.write(build_number_file_path, current_incremental_number.to_s)
-        Jekyll.logger.info "TagGen:", "Incremental build number persisted to disk: #{current_incremental_number}"
-      rescue => e
-        Jekyll.logger.error "TagGen Error:", "Failed to write /resources/ruby/version: #{e.message}. Build number not persisted."
-      end
-
-      timestamp = Time.now.strftime("%y%m%d-%H%M")
-
-      buildtag = "7.0.#{current_incremental_number}.#{lab}.#{timestamp}"
-
-      begin
-        File.write(build_tag_file_path, buildtag)
-        Jekyll.logger.info "TagGen:", "Full build tag persisted to disk: #{buildtag}"
-      rescue => e
-        Jekyll.logger.error "TagGen:", "Failed to write /resources/ruby/buildtag: #{e.message}. Build tag not persisted."
-      end
-
+      # site config writer
       site.config['version'] = {
         'major' => 7,
         'minor' => 0,
-        'id' => id,
+        'id' => 'rc1chk',
         'build' => current_incremental_number,
         'lab' => lab,
-        'timestamp' => timestamp,
+        'timestamp' => Time.now.strftime("%y%m%d-%H%M"),
         'full' => buildtag
       }
-
-      Jekyll.logger.info "TagGen:", "Ext Build Info loaded into site.config: #{site.config['version'].inspect}"
     end
   end
 end

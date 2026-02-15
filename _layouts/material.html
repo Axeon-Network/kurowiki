@@ -26,7 +26,13 @@
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_blue-blue.min.css">
+    
+    {% assign accent-enabled = "" %}
+    {% if site.accent-everywhere %}
+      {% assign accent-enabled = ".accent" %}
+    {% endif %}
+
+    <link rel="stylesheet" href="./resources/material/material.min{{ accent-enabled }}.css">
     <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
     <link rel="stylesheet" href="./resources/css/infobox.css">
     <link rel="stylesheet" href="./resources/css/global.css">
@@ -35,7 +41,7 @@
     <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script defer src="./resources/material/material.min.js"></script>
     <!-- springviewer js file -->
     <script src="./resources/js/springviewer.js"></script>
 

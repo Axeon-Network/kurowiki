@@ -96,6 +96,9 @@ drawertitle: false
 # specifies if a banner should be used in the drawer
 drawerbanner: true
 
+# specifies if the material design lite components should use the accent color or not
+accent-everywhere: true
+
 
 # DEFAULTS
 # so we can save a lot of time writing

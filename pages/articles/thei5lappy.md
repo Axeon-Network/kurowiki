@@ -4,17 +4,36 @@ title: Thei5Lappy
 redirect_from:
     - Dell_Latitude_3380
     - SuperNova
+    - NishiLappy
 ---
 
-**Thei5Lappy** (model *Dell Latitude 3380*), is a laptop manufactered by Dell Inc. in 2017. It is [Kit](Kit64)'s main PC since November 2024.
+{% include infoboxes/computer.html
+name='Thei5Lappy'
+owner='Kit'
+ownerurl='Kit64'
+manufacturer='Dell Inc.'
+model='Latitude 3380'
+image='resources/img/infoboxes/noimage.png'
+cpu='Intel Core i5-7200U @ 3.10 GHz' 
+ram='8GB DDR4'
+disk='1TB Seagate ST1000LM024 HN-M HDD'
+gpu='Intel HD Graphics 620'
+screenres='1366x768'
+screensize='13" built-in LCD' 
+hostname='NishiLappy'
+%}
+
+**Thei5Lappy** (model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in 2017. It is [Kit](Kit64)'s main PC since November 2024.
 
 # Naming
-The nickname `Thei5Lappy` is a reference to [TheCeleryPC](TheCeleryPC)'s nickname, as it follows the same scheme: `The`...is self-explanatory, `i5` for the computer's processor (an Intel Core i5-7200U), and `Lappy` for laptop.
+The nickname `Thei5Lappy` is a reference to [TheCeleryPC](TheCeleryPC)'s nickname, as it follows the same scheme: 
+- `The`...is self-explanatory 
+- `i5` for the computer's processor (an Intel Core i5-7200U)
+- `Lappy` being a common nickname for laptop.
 
-It has also been temporarily known as **SuperNova** in July-August 2025. Since November 2025, **NishiLappy** has also been used as a OS hostname, the name referencing [Nishi](Nishi), one of Kit's OCs.
+It has also been temporarily known as **SuperNova** in July to August 2025. Since November 2025, **NishiLappy** has been used as a OS hostname, the latter referencing [Nishi](Nishi), Kit's fursona.
 
 # History and Overview
-
 Following the death of TheCeleryPC and haitus of several projects in 3 November 2024, Kit was gifted a new computer by their dad on 29 November 2025.
 
 The computer originally ran Windows 10 Pro Education x64 when it was given to Kit, due to Kit's location, the OS was in Spanish, until Kit changed it to English a few days later.
