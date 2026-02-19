@@ -1,11 +1,11 @@
 ---
-title: Comet
+title: PTBW_Comet
 permalink: Comet
 aliases:
 - Comet Nishi Adsurden
 redirect_from:
 - Comet_Nishi_Adsurden
-hatnote: This article is about the fictional character. For the video game series, see <a href='Comet_Adventure'>Comet Adventure</a>. For the plushie with a similar design, see <a href='Dogui'>Dogui</a>. For <a href='Kit64'>Kit</a>'s similarly-named fursona, see <a href='Nishi'>Nishi</a>
+hatnote: "NOTE: THIS ARTICLE WILL BE REWRITTEN SOON ENOUGH.<br>This article is about the fictional character. For the video game series, see [Comet Adventure](Comet_Adventure). For the plushie with a similar design, see [Dogui](Dogui). For [KitSixtyFour](KitSixtyFour)'s similarly-named fursona, see [Nishi](Nishi)."
 ---
 
 {% include infoboxes/character.html

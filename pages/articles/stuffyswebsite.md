@@ -1,7 +1,8 @@
 ---
 title: Stuffy's Website
+isTitleItalic: true
 permalink: Stuffy's_Website
-hatnote: Not to be confused with the <a href="Stuffy's_Website_(May_2024)">May 2024 Stuffy Website</a>, which has the same page title. # i told you i can use a fucking apostrophe
+hatnote: Not to be confused with the [May 2024 Stuffy Website](Stuffy's_Website_(May_2024)), which has the same page title. # i told you i can use a fucking apostrophe
 redirect_from:
 - StuffyWebsite
 - Stuffys_Website
@@ -31,13 +32,13 @@ link='https://Kit64.github.io/stuffyxp-website/stuffywebsitewou'
 image='resources/img/articles/stuffyswebsite/home.png'
 %}
 
-**Stuffy's Website** (commongly abbreviated as **StuffyWebsite**, **Stuffy Website WOU**, or just **WOU**) was [Kit](Kit64)'s personal website from June 2024 to August 2024. It was succeded by the [StuffyXP Website](StuffyXP_Website) in September 2024.
+***Stuffy's Website*** (commonly abbreviated as ***StuffyWebsite***, ***Stuffy Website WOU***, or just ***WOU*** after the release of Update 1.1) was [KitSixtyFour](KitSixtyFour)'s personal website from June 2024 to August 2024. It was succeded by the *[StuffyXP Website](StuffyXP_Website)* in September 2024.
 
-The website is currently available at [Kit64.github.io/stuffyxp-website/stuffywebsitewou](https://Kit64.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite](HoriWebsite)'s domain, and `stuffyxp.github.io`.
+The website is currently available at [stupidbifox.github.io/stuffyxp-website/stuffywebsitewou](https://stupidbifox.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite](HoriWebsite)'s domain, and `stuffyxp.github.io`.
 
 # Development
 
-Shortly after [the original Stuffy Website](Stuffy's_Website_(May_2024)) source code was lost, Kit restarted the development of the new website, this time with the same name, as it was a ""rewrite"".
+Shortly after [the original *Stuffy Website*](Stuffy's_Website_(May_2024)) source code was lost, Kit restarted the development of the new website, this time with the same name, as it was a ""rewrite"".
 
 Kit used the same tools that they used in the previous iteration of the website, that is, the [Bulma](https://bulma.io) CSS Framework and [Jekyll](https://jekyllrb.com). Since Bulma v2.0 was recently released the time, Kit used a tabbed layout as the new interface of their website. The interface somewhat resembeled [KayAurora](KayAurora)'s [LynxWebsite](LynxWebsite).
 

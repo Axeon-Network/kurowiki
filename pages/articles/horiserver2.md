@@ -1,9 +1,10 @@
 ---
 title: HoriServer (2)
 permalink: HoriServer_(2)
-hatnote: This article is about the Discord Server known as HoriServer (2). For the Stoat HoriServer, see <a href="HoriServer">HoriServer</a>.
+isTitleItalic: true
+hatnote: "This article is about the Discord Server known as HoriServer (2). For the Stoat HoriServer, see [Horicraft](Horicraft).<br>I feel like there is more to this -kit/sbf"
 ---
-**HoriServer (2)** (sometimes abbreviated as HS2) was a Discord Server created by [Kit](Kit64) to succeed [StuffyXP Hangout](StuffyXP_Hangout) after the sunsetting of [StuffyXP](StuffyXP) on 14 March 2025.
+***HoriServer (2)*** (sometimes abbreviated as ***HS2***) was a Discord Server created by [Kit](Kit64) to succeed [StuffyXP Hangout](StuffyXP_Hangout) after the sunsetting of [StuffyXP](StuffyXP) on 14 March 2025.
 
 Despite the server being theoretically Kit's (and that they did still formally hold a position in the server's leadership), the server was actually technically owned by [KayAurora](KayAurora) for the longest time as Kit "didn't feel like managing a Discord server" at the time.
 

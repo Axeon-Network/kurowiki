@@ -1,12 +1,11 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" | markdownify }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-
     {% if include.image %}
     <div class="infobox-img-container">
             <img src="{{ include.image }}" alt="{{ include.name }} logo" class="infobox-img">
-         <div class="infobox-img-caption">{{ include.name }} logo</div>
+         <div class="infobox-img-caption">{{ include.name | markdownify }} logo</div>
     </div>
     {% endif %}
 
@@ -15,30 +14,30 @@
             {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly }}</td>
+                <td>{{ include.formerly | markdownify }}</td>
             </tr>
             {% endif %}
             <tr>
                 <th>Owner</th>
-                <td><a href="{{ include.ownerurl }}">{{ include.owner }}</a></td>
+                <td>{{ include.owner | markdownify }}</td>
             </tr>
             <tr>
                 <th>Platform</th>
-                <td>{{ include.platform }}</td>
+                <td>{{ include.platform | markdownify }}</td>
             </tr>
             <tr>
                 <th>Launched</th>
-                <td>{{ include.launchDate }}</td>
+                <td>{{ include.launchDate | markdownify }}</td>
             </tr>
             {% if include.discontinuedDate %}
             <tr>
                 <th>Discontinued</th>
-                <td>{{ include.discontinuedDate }}</td>
+                <td>{{ include.discontinuedDate | markdownify }}</td>
             </tr>
             {% endif %}
             <tr>
                 <th>Type</th>
-                <td>{{ include.type }}</a></td> <!-- can be Public or Private -->
+                <td>{{ include.type | markdownify }}</a></td> <!-- can be Public or Private -->
             </tr>
             <tr>
                 <th>Added in</th>
@@ -47,7 +46,7 @@
             {% if include.link %}
             <tr>
                 <th>Link</th>
-                <td><a href="{{ include.link }}">{{ include.link }}</a></td>
+                <td>{{ include.link | markdownify }}</td>
             </tr>
             {% endif %}
             </tbody>

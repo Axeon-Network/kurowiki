@@ -1,6 +1,6 @@
 ---
-layout: main
 title: Solarix Website
+isTitleItalic: true
 permalink: Solarix_Website
 aliases:
     - briciworld website
@@ -27,7 +27,7 @@ link=''
 image='resources/img/articles/solarixwebsite/fifthiteration.png'
 %}
 
-The **Solarix Website** was [KayAurora](KayAurora)'s personal website between 2017 and 2019.
+The ***Solarix Website*** was [KayAurora](KayAurora)'s personal website between 2017 and 2019.
 
 # First iteration (May-Aug 2017)
 The exact date when the first iteration of the Solarix Website (then known as Computerseasons.ml, and later as BriciWorld.ml during the lifecycle of this iteration) was released is unknown, but the earliest screenshots still in the Archives date back to May 2017.

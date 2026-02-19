@@ -6,8 +6,7 @@ aliases:
     - kurowiki 2600
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='5.1.2600.main.250928-0955'
 version='5.1'
 build='2600'
@@ -16,7 +15,7 @@ compiled='2025-09-28 09:55 UTC-6'
 image='resources/img/articles/kurowiki2600/home.png'
 %}
 
-**KuroWiki build 2600** is the first and official Beta 5 build of KuroWiki. It was publicly released on 28 September 2025 by the [Axeon Network](Axeon_Network).
+**KuroWiki build 2600** is the first and official Beta 5 build of [KuroWiki](KuroWiki). It was publicly released on 28 September 2025 by the [Axeon Network](Axeon_Network).
 
 <span>It is jokingly codenamed in the version information as <b><i>KuroWiki<span style="color:orange!important;">XP</span></i></b> due to its build number being identical to the build number of <a href="https://betawiki.net/wiki/Windows_XP_build_2600">Windows XP RTM</a> (<code>5.1.2600</code>).<span>
 
@@ -30,11 +29,6 @@ This build is also notable for being the first public build under the Axeon Netw
 # Gallery
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki2600/home.png" 
-        caption="Home Page"
-        style="width:50%;" %}
-
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki2600/drawer.png" 
         caption="The drawer, including links for the <a href='Contributing_to_KuroWiki'>Contributing to KuroWiki page</a> and version information."

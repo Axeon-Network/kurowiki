@@ -4,7 +4,7 @@ permalink: Sitemap
 search_exclude: true
 ---
 
-{% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" | sort: "title" %}
+{% assign article_pages = site.pages | where_exp: "p", "p.path contains 'pages/articles/'" | sort_natural: "title" %}
 
 This page contains a directory listing of all articles in this wiki.
 

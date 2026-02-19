@@ -9,8 +9,7 @@ aliases:
     - kurowiki first build
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='2.4.3567.main-wik.250504-1045'
 version='2.4'
 build='3567'
@@ -26,12 +25,6 @@ There are virtually no differences between the actual HoriWebsite v2.4 and this 
 Two compiles of this build exist, being 7 minutes apart. The second compile has the full build tag of `2.4.3567.horiwiki-pa1.250504-1052`, where "pa1" means Pre-Alpha 1.
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/horiwiki/earliest_developer_pre-alpha.png" 
-        alt_text="Build 2.4.3567.main-wik.250504-1045" 
-        caption="Build 2.4.3567.main-wik.250504-1045"
-        style="width:50%;" %}
-
     {% include gallery_item.html 
         image_src="resources/img/articles/horiwiki/devalpha-info.png" 
         alt_text="Build 2.4.3567.horiwiki-pa1.250504-1052" 

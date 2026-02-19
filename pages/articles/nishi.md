@@ -1,7 +1,7 @@
 ---
 title: Nishi
 permalink: Nishi
-hatnote: For the character with a similar canonical name, see <a href='Comet'>Comet</a>.
+hatnote: "For the character with a similar canonical name, see [Comet](Comet)<br>TODO: Fnish this when NishiV2 is done. -kit-sbf"
 ---
 
 {% include infoboxes/character.html

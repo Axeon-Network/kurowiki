@@ -1,9 +1,10 @@
 ---
 title: Finding Fucking
 permalink: Finding_Fucking
+isTitleItalic: true
 ---
 
-**Finding Fucking** is a 2025 short documentary film produced by the [Axeon Network](Axeon_Network) and created by [DHI Pictures](Dogui_Heavy_Industries_Incorporated#dhi-pictures) (in reality, created by *[Kit](Kit64)* and *[KayAurora](KayAurora)*). The movie is about finding the city of [Fucking](Fucking,_Novaland) in the [NekoCraft](NekoCraft) Minecraft server.
+***Finding Fucking*** is a 2025 short documentary film produced by the [Axeon Network](Axeon_Network) and created by [DHI Pictures](Dogui_Heavy_Industries_Incorporated#dhi-pictures) (in reality, created by *[Kit](Kit64)* and *[KayAurora](KayAurora)*). The movie is about finding the city of [Fucking](Fucking,_Novaland) in the [NekoCraft](NekoCraft) Minecraft server.
 
 It was released on 2 October 2025 as a premiere in the Axeon Network Voice Chat. After that, it was released on the Axeon Network website as a free-to-watch video file. It is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4).
 

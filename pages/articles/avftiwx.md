@@ -1,7 +1,8 @@
 ---
-title: A VMware First-Timer installs Windows XP!
+title: PTBW_A VMware First-Timer installs Windows XP!
 permalink: A_VMware_First-Timer_installs_Windows_XP!
-hatnote: TODO, add photos of the videos, properly show the thumbnail, move the og thumbnail from my [Kit's] phone and explain what happened in the video
+hatnote: "THIS ARTICLE WILL BE RE-WRITTEN IN A FUTURE RELEASE OF KUROWIKI; DO NOT USE THIS AS A RELIABLE SOURCE!!!<br><br>TODO: add photos of the videos, properly show the thumbnail, move the og thumbnail from my [Kit's] phone and explain what happened in the video"
+isTitleItalic: true
 aliases:
     - vmware first time
     - vmwarefirsttime

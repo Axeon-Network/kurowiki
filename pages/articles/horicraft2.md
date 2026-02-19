@@ -1,7 +1,7 @@
 ---
-title: Horicraft (2)
+title: PTBW_Horicraft (2)
 permalink: Horicraft_(2)
-hatnote: This article is about the spiritual successor to the original Horicraft server, for its predecessor, see <a href="Horicraft">Horicraft</a>.
+hatnote: "This article is about the spiritual successor to the original Horicraft server, for its predecessor, see [Horicraft (2)](Horicraft_(2)).<br>OUTDATED, NEEDS REWRITE."
 redirect_from: 
     - Horicraft_2
 aliases:

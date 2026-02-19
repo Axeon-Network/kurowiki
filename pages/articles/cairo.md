@@ -1,5 +1,4 @@
 ---
-layout: main
 title: Cairo
 permalink: Cairo
 hatnote:

@@ -1,14 +1,11 @@
-<div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.buildtag | default: "Untitled InfoBox" }}
-    </div>
-    
+<div class="infobox-title">
+    {{ include.buildtag | default: "Untitled InfoBox" }}
+</div>
+<div class="infobox mdl-shadow--4dp">    
     {% if include.image %}
     <div class="infobox-img-container">
-        <div class="infobox-img-caption">Build of <a href="{{ include.familyurl }}">{{ include.family }}</a></div>
-            <img src="{{ include.image }}" alt="Screenshot of {{ include.family }} {{ include.version }} build {{ 
-
-include.build }}" class="infobox-img">
+        <div class="infobox-img-caption">Build of {{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</div> <!-- we strip out the p items so it works fine-->
+            <img src="{{ include.image }}" alt="Screenshot of {{ include.family | escape }} {{ include.version }} build {{ include.build }}" class="infobox-img">
     </div>
     {% endif %}
 
@@ -16,7 +13,7 @@ include.build }}" class="infobox-img">
         <tbody>
             <tr>
                 <th>Family</th>
-                <td><a href="{{ include.familyurl }}">{{ include.family }}</a></td>
+                <td>{{ include.family | markdownify }}</td>
             </tr>
             <tr>
                 <th>Version number</th>
@@ -28,7 +25,7 @@ include.build }}" class="infobox-img">
             </tr>
             <tr>
                 <th>Build lab</th>
-                <td>{{ include.lab }}</td>
+                <td>{{ include.lab | markdownify }}</td>
             </tr>
             <tr>
                 <th>Compiled on</th>

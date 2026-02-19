@@ -14,7 +14,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     dev_phase = site.config['devphase'] || "DUMMY"
     buildtag = File.exist?(build_tag_file_path) ? File.read(build_tag_file_path).strip : "LOADING..."
 
-    puts "Axeon Kuro/Delta #{dev_phase} Version #{buildtag}"
+    puts "Pre-Release Axeon Kuro/Delta #{dev_phase}"
     puts "Axeon Deltari Build Tag Generator Code Named \"TagGen\", version 2.0"
     puts "Copyright 2025-2026 Axeon Network\n\n"
     

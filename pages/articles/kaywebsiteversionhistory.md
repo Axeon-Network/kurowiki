@@ -3,9 +3,9 @@ title: KayWebsite version history
 permalink: KayWebsite_version_history
 redirect_from:
 aliases:
-hatnote: Main article&#58; <a href='KayWebsite'>KayWebsite</a>
+hatnote: Main article&#58; [KayWebsite](KayWebsite)
 ---
-This is a list of all released versions of KayWebsite and their changelogs, as of January 2026, from latest to earliest.
+This is a list of all released versions of *[KayWebsite](KayWebsite)* and their changelogs, as of January 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from KayWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
