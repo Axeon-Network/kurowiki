@@ -13,24 +13,30 @@
         <tbody>
             <tr>
                 <th>Family</th>
-                <td>{{ include.family | markdownify }}</td>
+                <td>{{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Version number</th>
                 <td>{{ include.version }}</td>
             </tr>
+            {% if include.build %}
             <tr>
                 <th>Build number</th>
                 <td>{{ include.build }}</td>
             </tr>
+            {% endif %}
+            {% if include.lab %}
             <tr>
                 <th>Build lab</th>
-                <td>{{ include.lab | markdownify }}</td>
+                <td>{{ include.lab | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
+            {% endif %}
+            {% if include.compiled %}
             <tr>
                 <th>Compiled on</th>
                 <td>{{ include.compiled }}</td>
             </tr>
+            {% endif %}
             </tbody>
     </table>
 </div>

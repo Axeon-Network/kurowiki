@@ -1,10 +1,10 @@
 ﻿/* 
     Kuro/ModularDelta Global Stylesheet File
-    Copyright 2025 Axeon Network. Developed by KitSixtyFour
+    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
 
     Licensed under the MIT License, which is included below:
 
-    Copyright 2025 Axeon Network
+    Copyright 2025-2026 Axeon Network
     
     Permission is hereby granted, free of charge, to any person obtaining a copy 
     of this software and associated documentation files (the “Software”), to deal 
@@ -32,7 +32,7 @@
     --title-color-dark: rgb(226,179,100);
 
     --text-color-white: white;
-    --background-image-dark: url('../../resources/img/defaults/bg-dark.jpg'); 
+    --background-image-dark: url('../../img/defaults/bg-dark.jpg'); 
     --scrollbar-color-dark: rgb(155,91,54) rgb(59,33,20);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
@@ -42,7 +42,7 @@
     --accent-light: rgb(103, 137, 182);
     --title-color-light: rgb(44, 102, 156);
     --text-color-black: black;   
-    --background-image-light: url('../../resources/img/defaults/bg-light.jpg'); 
+    --background-image-light: url('../../img/defaults/bg-light.jpg'); 
     --scrollbar-color-light: rgb(33,80,122) rgb(0,15,28);
     --hatnote-color-light: rgba(255,255,255,0.75);
     --code-bg-light: rgba(230,230,230,1);
@@ -135,7 +135,7 @@ html {
     position: fixed;
     bottom: 0;
     left: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: left;
     padding: 1px;
     margin-bottom: -1px;
@@ -158,3 +158,29 @@ code {
 .titleItalic {
     font-style: italic !important;
 }
+
+/* * {
+    font-family: 'Roboto', 'Segoe UI', 'Tahoma', sans-serif;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto.ttf') format(ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto.ttf') format(ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto_italic.ttf') format(ttf);
+    font-style: italic;
+    font-weight: 400;
+} */
