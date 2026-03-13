@@ -15,7 +15,6 @@ compiled='2025-11-25 16:13 UTC+2'
 image='resources/img/articles/kurowiki4219/home.png'
 %}
 
-
 **KuroWiki build 4219** is a Beta 6 build of KuroWiki, compiled on 25 November 2025 at 4:13PM UTC+2 from the `kayaurora` development branch
 
 This build adds two new Deltari configuration variables, `background-dark` and `background-light`, allowing to easily set a custom background than the default ones used since [build 3842](KuroWiki_build_3842).

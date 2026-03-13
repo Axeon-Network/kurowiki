@@ -1,0 +1,46 @@
+<div class="infobox mdl-shadow--4dp">
+    <div class="infobox-title">
+        Part of a series of articles on
+        <h2><a href="{{ include.mainarticleurl }}">{{ include.mainarticle }}</a></h2>
+    </div>
+
+    <table class="seriesbox-data-table">
+        <tbody>
+           {% if include.uncategorized %}
+            <tr>
+                <td>{{ include.uncategorized }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>{{ include.category1name }}</th>
+            </tr>
+            <tr>
+                <td>{{ include.category1 }}</td>
+            </tr>
+           {% if include.category2name && if include.category2 %}
+            <tr>
+                <th>{{ include.category2name }}</th>
+            </tr>
+            <tr>
+                <td>{{ include.category2 }}</td>
+            </tr>
+            {% endif %}
+           {% if include.category3name && if include.category3 %}
+            <tr>
+                <th>{{ include.category3name }}</th>
+            </tr>
+            <tr>
+                <td>{{ include.category3 }}</td>
+            </tr>
+            {% endif %}
+            {% if include.category4name && if include.category4 %}
+            <tr>
+                <th>{{ include.category4name }}</th>
+            </tr>
+            <tr>
+                <td>{{ include.category4 }}</td>
+            </tr>
+            {% endif %}
+          </tbody>
+	</table>
+</div>

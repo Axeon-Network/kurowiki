@@ -24,13 +24,13 @@ The collab itself consisted of 5 total rounds, where Kit and KayAurora remade th
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/kayauroraandKitcollab/teaser.png" 
-        alt_text="" 
-        caption="Initial teaser from October 2024, posted on KayAurora's social medias" %}
+        caption="Initial teaser from October 2024, posted on KayAurora's social medias"
+        author="OneAveryAhead" %}
 
     {% include gallery_item.html 
-        image_src="resources/img/articles/kayauroraandKitcollab/teaser2.png" 
-        alt_text="" 
-        caption="Teaser from December 2024, announcing a 2025 'release date'" %}
+        image_src="resources/img/articles/kayauroraandKitcollab/teaser2.png"  
+        caption="Teaser from December 2024, announcing a 2025 'release date'"
+        author="OneAveryAhead" %}
 </div>
 
 # References

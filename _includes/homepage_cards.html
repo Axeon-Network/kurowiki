@@ -1,4 +1,19 @@
 <div class="homepage-cards">
+  <script>
+{% assign featuredpath = "pages/articles/" | append: site.featuredarticle | append: ".md" %}
+{% assign featured = site.pages | where: "path", featuredpath | first %}
+
+window.featuredArticle = {
+  url: "{{ featured.url | relative_url }}",
+  title: {{ featured.title | jsonify }},
+  excerpt: {{ featured.content
+      | markdownify
+      | split:'<h' | first
+      | split:'<img' | first
+      | truncatewords: 256
+      | jsonify }}
+};
+</script>
 <div class="featured-article kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">import_contacts</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>

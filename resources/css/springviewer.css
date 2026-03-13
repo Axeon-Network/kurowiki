@@ -29,7 +29,7 @@
 */
 
 /* variables */
-html {
+:root {
     /* dark mode */
     --viewer-background-color-dark: rgb(15,15,15); 
     --viewer-border-color-dark: #262626;
@@ -40,19 +40,20 @@ html {
     --viewer-background-color-light: white;
     --viewer-border-color-light: #e5e5e5;
     --viewer-button-color-light: rgb(220,220,220);
+}
 
-    /* you thought this was over? nah. */
+html {
     --viewer-background-color: var(--viewer-background-color-dark);
     --viewer-border-color: var(--viewer-border-color-dark);
     --viewer-button-color: var(--viewer-button-color-dark);
-
-    /* these are used when the light-mode class is appended to the body tag. */
-        &.light-mode {
-            --viewer-background-color: var(--viewer-background-color-light);
-            --viewer-border-color: var(--viewer-border-color-light);
-            --viewer-button-color: var(--viewer-button-color-light);
-        }
 }
+
+html.light-mode {
+    --viewer-background-color: var(--viewer-background-color-light);
+    --viewer-border-color: var(--viewer-border-color-light);
+    --viewer-button-color: var(--viewer-button-color-light);
+}
+
 /* springviewer watermark */
 #viewer-watermark {
     position: fixed;

@@ -26,7 +26,7 @@
 */
 
 /* variables */
-html {
+:root {
     /* dark mode */
     --infobox-bg-dark: rgba(50,50,50,1);
     --infobox-border-dark: rgba(30,30,30,1);
@@ -34,35 +34,77 @@ html {
     /* light mode */
     --infobox-bg-light: #f8f8f8;
     --infobox-border-light: #ccc;
+}
 
-    /* can i die now */
+html {
     --infobox-bg: var(--infobox-bg-dark);
     --infobox-border: var(--infobox-border-dark);
+}
 
-    &.light-mode {
-        --infobox-bg: var(--infobox-bg-light);
-        --infobox-border: var(--infobox-border-light);
-    }
+html.light-mode {
+    --infobox-bg: var(--infobox-bg-light);
+    --infobox-border: var(--infobox-border-light);
+}
+html.infobox-title,
+html.seriesbox-title {
+    text-shadow: 0px 0px 3px black;
+}
+.infobox-title.light-mode,
+.seriesbox-title.light-mode {
+    text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+}
+
+.infobox p,
+.seriesbox p {
+    font-size: 12px !important;
+    margin-bottom: -2px;
 }
 
 .infobox {
-    width: 300px; 
+    width: 320px; 
     float: right; 
     clear: right;
     margin: 0 0 1em 1em; /* top, right, bottom, left margin */
     border: 1px solid var(--infobox-border);
     background-color:  var(--infobox-bg);
     color: var(--text-color);
-    font-size: 90%;
+    font-size: 12px !important;
+    line-height: 1.4;
+}
+
+.seriesbox {
+    width: 320px; 
+    float: right; 
+    clear: right;
+    margin: 0 0 1em 1em; /* top, right, bottom, left margin */
+    border: 1px solid var(--infobox-border);
+    background-color:  var(--infobox-bg);
+    color: var(--text-color);
+    font-size: 12px !important;
     line-height: 1.4;
 }
 
 .infobox-title {
+    width: 322px;
+    height: auto;
     text-align: center;
-    font-size: 110%;
+    font-size: 100%;
     font-weight: bold;
-    padding: 0.25em 0.5em;
     color: var(--text-color);
+    float: right;
+    overflow-wrap:break-word;
+}
+
+.seriesbox-title {
+    width: 322px;
+    height: auto;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--text-color);
+    float: right;
+    overflow-wrap:break-word;
+    margin: 0 !important;
 }
 
 /* img style + container */
@@ -75,7 +117,7 @@ html {
 }
 
 .infobox-img {
-    max-width: 95%; /* wont go full width as its weird like that */
+    max-width: 97%; /* wont go full width as its weird like that */
     height: auto;
     display: block;
     justify-content: center !important;
@@ -97,12 +139,22 @@ html {
     border-collapse: collapse;
 }
 
-/* table rows */
-.infobox-data-table tr {
-    border-bottom: 0px;
+.seriesbox-data-table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    text-align: center;
 }
 
-.infobox-data-table tr:last-child {
+/* table rows */
+.infobox-data-table tr,
+.seriesbox-data-table tr {
+    border-bottom: none;
+}
+
+.infobox-data-table tr:last-child,
+.seriesbox-data-table tr:last-child {
     border-bottom: none;
 }
 
@@ -114,9 +166,22 @@ html {
     width: 40%;
 }
 
+.seriesbox-data-table th {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+    width: 40%;
+}
+
 /* value column */
 .infobox-data-table td {
     padding: 0.3em 0.6em;
     text-align: left;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.seriesbox-data-table td {
+    padding: 0.3em 0.6em;
     word-wrap: break-word;
 }

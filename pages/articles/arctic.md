@@ -18,7 +18,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Kit Arctic**[^1] is a free and open source operating system developed by [Kit](Kit64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/Kit64/arctic](https://github.com/Kit64/arctic)).
+**Kit Arctic**[^1] is a free and open source operating system developed by [Kit](KitSixtyFour), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/stupidbifox/arctic](https://github.com/stupidbifox/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 

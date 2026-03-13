@@ -11,9 +11,9 @@ banner='resources/img/articles/astront/banner.png'
 name='AstroNT'
 creator='Kit'
 creatorurl='KitSixtyFour'
-videos='7'
-subs='26'
-views='1,236'
+videos='9'
+subs='305'
+views='18,265'
 platform='YouTube'
 state='Active'
 creationdate='2025-09-17'
@@ -21,7 +21,7 @@ linkname='youtube.com/@AstroNTWorkstation'
 linkurl='https://youtube.com/@AstroNTWorkstation'
 %}
 
-**AstroNT** (*codenamed StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [Kit](Kit64) and [KayAurora](KayAurora) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
+**AstroNT** (*codenamed StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [Kit](KitSixtyFour) and [Avery](OneAveryAhead) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
 
 It was teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [NekoCafe](NekoCafe) Discord servers and announced in the aforementioned servers following the release of the channel trailer [channel trailer](https://youtu.be/Bea3xfG11fs) on 25 October. The first video was released on 3 November.
 
@@ -33,7 +33,7 @@ Shortly after Kit's August Discord return, Kit started to gain nostalgia for the
 
 # Videos
 
-As of February 2026, there are 6 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of February 2026, there are 8 videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
 - **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
@@ -42,6 +42,7 @@ As of February 2026, there are 6 videos uploaded to the AstroNT channel (excludi
 - **Running Linux in... year 10000?** - *uploaded 2026-01-19*
 - **Installing Windows Longhorn via MS-DOS! (Post-Reset)** - *uploaded 2026-01-25*
 - **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
+- **Turning Windows 11 into Windows XP, kinda... (ExplorerEx)** - *uploaded 2026-02-28*
 
 # AstroNT Advanced Server
 

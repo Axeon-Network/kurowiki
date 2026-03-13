@@ -37,6 +37,6 @@ This is a list of the `site` variables used within the layout files. These can b
     -  site.version.full = **{{ site.version.full }}**
 
 **{{ site.productname }}, {{ site.devphase }}**
-Version {{ site.version.full }}; Compiled on {{ site.version.timestamp | replace: '-', ' ' | date: "%y%m%d %H%M" | date: "%A, %d %B %Y at %H:%M" }} by neko64.
+Version {{ site.version.full }}; Compiled on {{ site.version.timestamp | replace: '-', ' ' | date: "%y%m%d %H%M" | date: "%A, %d %B %Y at %H:%M" }} by {{ "" | username }}.
 
 &copy; {{ site.copyyear }} Axeon Network. All rights reserved

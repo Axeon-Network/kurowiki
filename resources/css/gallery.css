@@ -26,7 +26,7 @@
 */
 
 /* variables */
-html {
+:root {
     /* dark mode */
     --gallery-bg-dark: rgba(50,50,50,1);
     --gallery-border-dark: rgba(30,30,30,1);
@@ -34,16 +34,17 @@ html {
     /* light mode */
     --gallery-bg-light: #f8f8f8;
     --gallery-border-light: #ccc;
-  
-    /* you thought this was over? nah. */
+}
+
+/* dark mode */
+html {
     --gallery-bg: var(--gallery-bg-dark);
     --gallery-border: var(--gallery-border-dark);
-    
-    /* these are used when the light-mode class is appended to the body tag. */
-        &.light-mode {
+}
+/* light mode! */
+html.light-mode {
             --gallery-bg: var(--gallery-bg-light);
             --gallery-border: var(--gallery-border-light);
-        }
 }
 
 /* remember when we said its gallery time and it gallered all over the pla- */
