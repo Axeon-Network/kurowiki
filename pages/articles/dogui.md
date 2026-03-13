@@ -1,7 +1,7 @@
 ---
-permalink: Dogui
+permalink: PTBW_Dogui
 title: Dogui
-hatnote: This article is about the original 2015 plushie owned by Kit. For the fictional character based on Dogui's design, see <a href='Comet'>Comet</a>.
+hatnote: "This article is about the original 2015 plushie owned by KitSixtyFour. For the fictional character based on Dogui's design, see [Comet](Comet).<br>I WILL FINISH THIS FUCKING ARTICLE SOON ENOUGH -kit/sbf"
 ---
 
 **Dogui** is the dog plushie owned by [Kit](Kit). Dogui has made appeared in Kit's online life since 2021.

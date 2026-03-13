@@ -1,107 +1,121 @@
-# BASIC INFORMATION
-# project name
+# DELTARI CONFIGURATION FILE
+# Copyright (C) 2025-2026 Axeon Network. Developed by KitSixtyFour and OneAveryAhead.
+
+
+# == BASIC INFORMATION ==
+# The full name of your wiki
 name: Axeon KuroWiki
 
-# Axeon KuroWiki is used in main kurowiki builds
-# Axeon Deltari is used in deltari builds
-productname: Axeon KuroWiki
-
-# project and site title
+# The name of your wiki
 title: KuroWiki
 
-# author of work, used in copyright notice
+# used for debug, to be hard-coded for Kuro STBL
+productname: Axeon KuroWiki
+
+# The author of the wiki
 author: Axeon Network
 
-# copyright year
+# Copyright year(s)
 copyyear: "2025-2026"
 
-# your email
+# Your email address
 email: thenekori64@gmail.com
 
-# description of site, used in embeds
+# The text used in embeds, like Discord.
 description: "Axeon KuroWiki Release Candidate 1"
 
-# the url of your site
+# Self-explanatory
 url: https://axeon-network.github.io
 
-# baseurl, only use if used on a subdirectory and not website root. prod-kuro *has* to use this
+# The path to be used if Deltari is deployed to a sub-directory and
+# NOT the server root. This is optional
 baseurl: /kurowiki
 
-# source code url
+# URL of the site's source code
 sourceurl: "https://github.com/Axeon-Network/kurowiki"
 
-# license name
-license: Creative Commons Attribution-ShareAlike 4.0 International
-# license url
+# The name of the license your wiki is licensed under.
+license: "Creative Commons Attribution-ShareAlike 4.0 International"
+# The URL of the license.
 licenseurl: https://creativecommons.org/licenses/by-sa/4.0/deed.en
-# short license name
+# Short license name, self-explanatory
 license-s: CC-BY-SA-4.0
 
-# image license name
+# The name of the license the wiki's images are licensed under.
 img_license: Creative Commons Attribution 4.0 International
-# image license url
+# Ditto; Line 39
 img_licenseurl: https://creativecommons.org/licenses/by/4.0/deed.en
-# short image license name
+# Ditto; Line 41
 img_license-s: CC-BY-4.0
 
 
-# HOMEPAGE
-# quick description of your wiki and what is it about, visible on the homepage
+# == HOMEPAGE ==
+# A quick description of your wiki and what is it about, visible on the homepage.
 home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Kit64 and KayAurora)."
 
-# featured article. specify the file name of the article
+# The file name of the article to be used in the Featured Article card.
 featuredarticle: kurowiki2000
 
+
+# DEPRECATED
 # retail tag. specifies the version number used in the drawer, and is to be replaced by
 # an incrementing one IF the debug mode is enabled.
-retailtag: 6.0.4450.main.260110-2027
+# retailtag: 7.0.4477.private/mdelta_N.260222-2026
 
 
-# DEVELOPER/DEBUG
-# developer phase
+# == DEVELOPER & DEBUG ==
+# The phase of Delta/Kuro's development track.
 devphase: Release Candidate 1
-# short version, used in drawer
+# Short version, used in drawer if nedecesary
 devphase-s: Delta 1
+# ID for dev builds
+idprefix: "rc1" # Release Candidate 1
 
-# debug mode
-# setting this to true enables the debug kurowiki and springviewer watermarks, 
-# and enables the incrementing build number in the drawer alongside a (Debug) suffix to the string above Axeon KuroWiki
+# = Debug Mode =
+# Enables various developer features of Deltari, like the watermarks and
+# "(Debug)" suffix to the drawer.
 debug: true
+# = Private Build =
+# Similar to Microsoft Windows, self-explanatory
+privatebuild: true
 
-# retail mode
-# enable this for non-developer builds, like public releases or IDRs
-# The Two KuroWiki Developers Shall Not Forget This Setting
+# = Retail Mode =
+# Self-explanatory, used for public releases
 retail: false
 
 # stupid
 myvariable: "{{ site.myvariable }}"
 
 
-# APPEARANCE AND PERSONALIZATION
-# windows 7/8 reference frfr
+# == APPEARANCE AND PERSONALIZATION ==
+# Windows 7 reference frfr
 
-# your background
-# background-dark will be the background appling on dark mode, background-light will apply on light mode
-# for this to work, you have to place your background files in resources/img
-# leave empty to use the default backgrounds
+# = Accent Everywhere =
+# Specifies if the Material Design Lite components should use the accent color or not
+accent-everywhere: true
+
+# = Custom Background =
+# Specifies whether to use a custom background instead of the retail ones, light and dark
+# variants are supported!
+
+# Leave blank to use defaults.
 background-dark:
 background-light:
+
+# = Drawer =
+# Specifies if the site title should be used in the drawer, like MDL does by default.
+drawertitle: false
+# Specifies if a banner image should be used in the drawer, in place of the site title.
+# You can drop your own banner over at /resources/img/banner.png!
+drawerbanner: true
 
 # only ONE of these can be enabled
 # ...i mean you can use both, but that wouldnt be practical, would it?
 # if you enable neither, you need help
 
-# specifies if text should be used in the drawer
-drawertitle: false
-# specifies if a banner should be used in the drawer
-drawerbanner: true
 
-# specifies if the material design lite components should use the accent color or not
-accent-everywhere: true
-
-
-# DEFAULTS
-# so we can save a lot of time writing
+# == DEFAULTS ==
+# So we can save a lot of time writing in the stupid front-matter
 defaults:
   -
     scope:
@@ -114,8 +128,7 @@ livereload: true
 open_url: true
 
 
-# OTHER
-
+# == OTHER ==
 # liquid you son of a bitch
 encoding: "utf-8"
 

@@ -5,8 +5,7 @@ aliases:
     - kurowiki 4450
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.1.4450.main.260110-2027'
 version='6.0.1'
 build='4450'
@@ -29,11 +28,8 @@ Additionally, the copyright year has been updated to reflect the new year, while
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4450/home.png" 
-        caption="Home" %}
-    {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4450/homelight.png" 
-        caption="Ditto, light mode enabled" %}
+        caption="Home page, light mode enabled" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4450/drawer.png" 
         caption="Drawer" %}

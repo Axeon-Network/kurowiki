@@ -1,13 +1,13 @@
 /* 
     Kuro/ModularDelta Custom Material Design Lite Stylesheet File
-    Copyright 2025 Axeon Network. Developed by KitSixtyFour
+    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
 
     Material Design and Material Design Lite (MDL) are Copyright 2016 Google Inc 
     and are licensed under the Apache License.
 
     This file is licensed under the MIT License, which is included below:
 
-    Copyright 2025 Axeon Network
+    Copyright 2025-2026 Axeon Network
     
     Permission is hereby granted, free of charge, to any person obtaining a copy 
     of this software and associated documentation files (the “Software”), to deal 
@@ -31,38 +31,39 @@
 /* variables */
 html {
     /* dark mode */
-    --contentbox-background-color-dark: rgba(0,0,0,0.45);
+    --contentbox-background-color-dark: rgba(0,0,0,0.4);
     --search-background-color-dark: rgba(50,50,50,0.5);
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
 
     /* light mode */
-    --contentbox-background-color-light: rgba(255,255,255,0.65);
+    --contentbox-background-color-light: rgba(255,255,255,0.80);
     --search-background-color-light: white;
     --mdlcard-background-color-light: white;
-    --drawer-color-light: rgba(255,255,255,0.98); /* microsoft windows ninety eiiight! :3 */
-    --navhoverlink-light: rgb(190, 190, 190);
-
-    /* what is actually used in the code */
-    --contentbox-background-color: var(--contentbox-background-color-dark);
-    --search-background-color: var(--search-background-color-dark);
-    --mdlcard-background-color: var(--mdlcard-background-color-dark);
-    --drawer-color: var(--drawer-color-dark);
-    --navhoverlink: var(--navhoverlink-dark);
-
-    &.light-mode {
-        --contentbox-background-color: var(--contentbox-background-color-light);
-        --search-background-color: var(--search-background-color-light);
-        --mdlcard-background-color: var(--mdlcard-background-color-light);
-        --drawer-color: var(--drawer-color-light);
-        --navhoverlink: var(--navhoverlink-light);
-    }
+    --drawer-color-light: rgba(255,255,255,0.8); /* microsoft windows ninety eiiight! :3 */
+    --navhoverlink-light: rgba(255,255,255,0.5);
 
     /* button status */
     /* i forgot why i used these but i wont remove these cuz ya never know */
     --button-status: var(--buttonstatus-set);
     --buttonstatus-set: block;
+}
+
+html {
+    --contentbox-background-color: var(--contentbox-background-color-dark);
+    --search-background-color: var(--search-background-color-dark);
+    --mdlcard-background-color: var(--mdlcard-background-color-dark);
+    --drawer-color: var(--drawer-color-dark);
+    --navhoverlink: var(--navhoverlink-dark);
+}
+
+html.light-mode {
+    --contentbox-background-color: var(--contentbox-background-color-light);
+    --search-background-color: var(--search-background-color-light);
+    --mdlcard-background-color: var(--mdlcard-background-color-light);
+    --drawer-color: var(--drawer-color-light);
+    --navhoverlink: var(--navhoverlink-light);
 }
 
 /* mdl-layout stuff */
@@ -315,4 +316,9 @@ body.viewer-active .mdl-layout__obfuscator {
 
 .kuro-card_can-has-transparency {
     background-color: rgba(15,15,15,0.4) !important;
+}
+
+/* they were never aligned... */
+.mdl-navigation__link .material-icons {
+    margin-bottom: 4px !important;
 }

@@ -1,6 +1,7 @@
 ---
 title: LynxWebsite
 permalink: LynxWebsite
+isTitleItalic: true
 aliases:
     - lynxmic website
 hatnote:
@@ -24,7 +25,7 @@ link='https://lynxmic.github.io'
 image='resources/img/articles/lynxwebsite/07-2024.png'
 %}
 
-**LynxWebsite** (also known as **Lynxmic Website** or after its URL name of **lynxmic.github.io**) was [KayAurora](KayAurora)'s personal website from August 2023 to July 2024, when it merged with the [Lynxmic Blog](Lynxmic_Blog) project to form [KayWebsite](KayWebsite).
+***LynxWebsite*** (also known as ***Lynxmic Website*** or after its URL name of **lynxmic.github.io**) was [KayAurora](KayAurora)'s personal website from August 2023 to July 2024, when it merged with the [Lynxmic Blog](Lynxmic_Blog) project to form [KayWebsite](KayWebsite).
 
 Developed with Jekyll using the Bulma CSS framework and hosted on GitHub Pages, it was initially meant to serve as a replacement for KayAurora's Linktree page, rather serving as a landing page with links to social media and other projects, and of course, the blog.
 

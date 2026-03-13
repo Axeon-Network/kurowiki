@@ -1,5 +1,6 @@
 ---
 title: Lynxmic Blog
+isTitleItalic: true
 permalink: Lynxmic_Blog
 aliases:
     - lynxblog
@@ -24,7 +25,7 @@ link='https://lynxmic.github.io/blog'
 image='resources/img/articles/lynxmicblog/02-06-2024.png'
 %}
 
-**Lynxmic Blog**, sometimes known as **LynxBlog** or previously after its URL address (**lynxmic.github.io**, prior to [LynxWebsite](LynxWebsite)'s launch) was [KayAurora](KayAurora)'s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll.
+***Lynxmic Blog***, sometimes known as ***LynxBlog*** or previously after its URL address (**lynxmic.github.io**, prior to [LynxWebsite](LynxWebsite)'s launch) was [KayAurora](KayAurora)'s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll.
 
 It initially used the MDBootstrap CSS framework for its first iteration used since the launch in 21 November 2021.
 An improved website layout using the Bulma CSS framework was rolled out on 1 January 2023, dubbed the "*Bulma revamp*" by KayAurora on social media as the second Lynxmic Blog iteration, followed by a third and final one on 25 April 2024 which brought the layout to consistency with LynxWebsite.

@@ -6,8 +6,7 @@ aliases:
     - kurowiki 3686
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.3686.nekori64.251013-0239'
 version='6.0'
 build='3686'
@@ -16,7 +15,7 @@ compiled='2025-10-12 17:17 UTC-6'
 image='resources/img/articles/kurowiki3686/home.png'
 %}
 
-**KuroWiki build 3686** is the second overall Beta 6 build of KuroWiki, compiled from the `nekori64` branch on 12 October 2025 at 17:17 (5:17pm) UTC-6.
+**KuroWiki build 3686** is the second overall Beta 6 build of [KuroWiki](KuroWiki), compiled from the `nekori64` branch on 12 October 2025 at 17:17 (5:17pm) UTC-6.
 
 This build builds upon the Dark Mode, first implemented in [the previous build](KuroWiki_build_2600_(Beta_6)), with more elements of the codebase having been adapted. However, it is still incomplete in this build, with various elements like the boxes in the Search Results page still being white, but with the text already white.
 
@@ -25,12 +24,6 @@ Additionally the "KuroWiki" text in the navbar is now clickable. For convenience
 The *Featured article* box was also changed, adding a link to the "Full article" at the end of the excerpt.
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowikibuild3686/home.png" 
-        alt_text="Homepage of KuroWiki build 3686" 
-        caption="Homepage of KuroWiki build 3686"
-        style="width:50%;" %}
-
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowikibuild3686/article.png" 
         alt_text="Article view" 

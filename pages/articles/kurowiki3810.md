@@ -5,8 +5,7 @@ aliases:
     - kurowiki 3810
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.3810.main.251017-1808'
 version='6.0'
 build='3810'
@@ -53,28 +52,23 @@ This main branch build introduced various features implemented after build 3680,
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki3810/home.png" 
-        alt_text="" 
-        caption="InfoBox Test Page"
-        style="width:50%;" %}
-    {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3810/homelight.png" 
         alt_text="" 
-        caption="InfoBox Test Page"
+        caption="Home page (light mode enabled)"
         style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3810/drawer.png" 
         alt_text="" 
-        caption="InfoBox Test Page"
+        caption="Drawer"
         style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3810/settings.png" 
         alt_text="" 
-        caption="InfoBox Test Page"
+        caption="Settings"
         style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3810/settingslight.png" 
         alt_text="" 
-        caption="InfoBox Test Page"
+        caption="Ditto, light mode"
         style="width:50%;" %}
 </div>

@@ -6,7 +6,7 @@ redirect_from:
 - Axeon_Deltari_Build_Tag_Generator
 ---
 
-The **Axeon Deltari Build Tag Generator**, also known as ***TagGen***, is a component present in *[Deltari](Deltari)* and *[Project Cuber](Cuber)* builds (and [subquesent](https://axeon-network.github.io/deltari-meta) [forks](https://axeon-network.github.io/kurowiki)). Its main function is to dynamically generate [build tags](https://betawiki.net/wiki/Build_tag) based on the [Microsoft Windows version format](https://betawiki.net/wiki/Build_tag#Format) for use in developer builds of *Deltari*.
+The **Axeon Deltari Build Tag Generator**, also known as **TagGen**, is a component present in *[Deltari](Deltari)* and *[Project Cuber](Cuber)* builds (and [subquesent](https://axeon-network.github.io/deltari-meta) [forks](https://axeon-network.github.io/kurowiki)). Its main function is to dynamically generate [build tags](https://betawiki.net/wiki/Build_tag) based on the [Microsoft Windows version format](https://betawiki.net/wiki/Build_tag#Format) for use in developer builds of *Deltari*.
 
 Build tags were introduced as early as [the first *KuroWiki* build](KuroWikii_build_3567_(main_wik)) but were not automatically generated with each site build until September 2025 following the release of Beta 4.
 

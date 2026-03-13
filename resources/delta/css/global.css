@@ -1,10 +1,10 @@
 ﻿/* 
     Kuro/ModularDelta Global Stylesheet File
-    Copyright 2025 Axeon Network. Developed by KitSixtyFour
+    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
 
     Licensed under the MIT License, which is included below:
 
-    Copyright 2025 Axeon Network
+    Copyright 2025-2026 Axeon Network
     
     Permission is hereby granted, free of charge, to any person obtaining a copy 
     of this software and associated documentation files (the “Software”), to deal 
@@ -26,49 +26,61 @@
 */
 
 /* variables */
-html {
+:root {
     /* dark mode */
-    --accent-dark: rgb(215,162,122);
-    --title-color-dark: rgb(226,191,159);
+    --accent-dark: rgb(226,179,100);
+    --title-color-dark: rgb(226,179,100);
+
     --text-color-white: white;
-    --background-image-dark: url('../../resources/img/defaults/bg-dark.jpg'); 
-    --scrollbar-color-dark: rgb(54,55,58) rgb(9,12,19);
+    --background-image-dark: url('../../img/defaults/bg-dark.jpg'); 
+    --scrollbar-color-dark: rgb(155,91,54) rgb(59,33,20);
     --hatnote-color-dark: rgba(8,8,8,0.3);
+    --code-border-dark: rgba(0,0,0,0.2);
+    --code-bg-dark: rgba(0,0,0,0.5);
     
     /* light mode */
-    --accent-light: #344a63;
-    --title-color-light: #35647c;
+    --accent-light: rgb(103, 137, 182);
+    --title-color-light: rgb(44, 102, 156);
     --text-color-black: black;   
-    --background-image-light: url('../../resources/img/defaults/bg-light.jpg'); 
-    --scrollbar-color-light: rgb(177,126,73) rgb(212,210,210);
+    --background-image-light: url('../../img/defaults/bg-light.jpg'); 
+    --scrollbar-color-light: rgb(33,80,122) rgb(0,15,28);
     --hatnote-color-light: rgba(255,255,255,0.75);
+    --code-bg-light: rgba(230,230,230,1);
+    --code-border-light:rgba(200,200,200,1);
+}
 
-    /* the ones that are actually used */
+/* setting the text color might fail under firefox, so we use the variables directly instead */
+html {
+    color: var(--text-color-white);
+}
+html.light-mode {
+        color: var(--text-color-black);
+}
+
+html {
     --title-color: var(--title-color-dark);
     --accent: var(--accent-dark);
     --hatnote-color: var(--hatnote-color-dark);
     --text-color: var(--text-color-white); 
     --background-image: var(--background-image-dark); 
     --scrollbar-color: var(--scrollbar-color-dark);
-
-    /* light mode part 2 AAAAAAAAAAAAAAAAAAAAAAAAAAA */
-    &.light-mode {
-        --title-color: var(--title-color-light);
-        --accent: var(--accent-light);
-        --hatnote-color: var(--hatnote-color-light);
-        --background-image: var(--background-image-light); 
-        --text-color: var(--text-color-black); 
-        --scrollbar-color: var(--scrollbar-color-light);
-    }
+    --code-bg: var(--code-bg-dark);
+    --code-border: var(--code-border-dark);
 }
 
-/* for firefox */
-html {
-    color: var(--text-color-white);
-    &.light-mode {
-    color: var(--text-color-black) !important;
+/* here we set light mode as it should be */
+
+html.light-mode {
+    --title-color: var(--title-color-light);
+    --accent: var(--accent-light);
+    --hatnote-color: var(--hatnote-color-light);
+    --background-image: var(--background-image-light); 
+    --text-color: var(--text-color-black) !important; 
+    --scrollbar-color: var(--scrollbar-color-light);
+    --code-bg: var(--code-bg-light);
+    --code-border: var(--code-border-light);
 }
-}
+
 
 /* the fucking font:tm: */
 /* if this fails to load i will explode */
@@ -123,7 +135,7 @@ html {
     position: fixed;
     bottom: 0;
     left: 0;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: left;
     padding: 1px;
     margin-bottom: -1px;
@@ -133,7 +145,42 @@ html {
     z-index: 1000000006;
 }
 
-/* can the code fucking code now thanks mr code */
 code {
-    font-family: 'Consolas', 'Hack' !important;
+    font-family: 'Roboto Mono' !important;
+    font-size: 12.5px;
+    color: var(--text-color);
+    background-color: var(--code-bg);
+    padding: 0px 2px 1px;
+    border: solid 1px var(--code-border);
+    border-radius: 4px;
 }
+
+.titleItalic {
+    font-style: italic !important;
+}
+
+/* * {
+    font-family: 'Roboto', 'Segoe UI', 'Tahoma', sans-serif;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto.ttf') format(ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto.ttf') format(ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto_italic.ttf') format(ttf);
+    font-style: italic;
+    font-weight: 400;
+} */

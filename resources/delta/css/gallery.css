@@ -1,10 +1,10 @@
 /* 
     Kuro/ModularDelta Gallery Stylesheet File
-    Copyright 2025 Axeon Network. Developed by KitSixtyFour
+    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
 
     Licensed under the MIT License, which is included below:
 
-    Copyright 2025 Axeon Network
+    Copyright 2025-2026 Axeon Network
     
     Permission is hereby granted, free of charge, to any person obtaining a copy 
     of this software and associated documentation files (the “Software”), to deal 
@@ -26,7 +26,7 @@
 */
 
 /* variables */
-html {
+:root {
     /* dark mode */
     --gallery-bg-dark: rgba(50,50,50,1);
     --gallery-border-dark: rgba(30,30,30,1);
@@ -34,16 +34,17 @@ html {
     /* light mode */
     --gallery-bg-light: #f8f8f8;
     --gallery-border-light: #ccc;
-  
-    /* you thought this was over? nah. */
+}
+
+/* dark mode */
+html {
     --gallery-bg: var(--gallery-bg-dark);
     --gallery-border: var(--gallery-border-dark);
-    
-    /* these are used when the light-mode class is appended to the body tag. */
-        &.light-mode {
+}
+/* light mode! */
+html.light-mode {
             --gallery-bg: var(--gallery-bg-light);
             --gallery-border: var(--gallery-border-light);
-        }
 }
 
 /* remember when we said its gallery time and it gallered all over the pla- */
