@@ -1,12 +1,11 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" | markdownify }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.image %}
     <div class="infobox-img-container">
         	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
-            <div class="infobox-img-caption">{{ include.name }}'s Profile Picture</div>
+            <div class="infobox-img-caption">{{ include.name | markdownify }}'s Profile Picture</div>
     </div>
     {% endif %}
 
@@ -14,19 +13,19 @@
         <tbody>
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly }}</td>
+                <td>{{ include.formerly | markdownify }}</td>
             </tr>
             <tr>
                 <th>Born</th>
-                <td>{{ include.bod }}</td>
+                <td>{{ include.bod | markdownify }}</td>
             </tr>
             <tr>
                 <th>Nationality</th>
-                <td>{{ include.nationality }}</td>
+                <td>{{ include.nationality | markdownify }}</td>
             </tr>
             <tr>
                 <th>Known for</th>
-                <td>{{ include.known }}</td>
+                <td>{{ include.known | markdownify }}</td>
             </tr>
           </tbody>
 	</table>

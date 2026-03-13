@@ -5,8 +5,7 @@ aliases:
     - kurowiki 3842
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.3842.nekori64.251022-2057'
 version='6.0'
 build='3842'
@@ -15,18 +14,13 @@ compiled='2025-10-22 20:57 UTC-6'
 image='resources/img/articles/kurowiki3842/homedark.png'
 %}
 
-**KuroWiki build 3842** is a Beta 6 build of KuroWiki, compiled on 22 October 2025 at 8:57PM UTC-6.
+**KuroWiki build 3842** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 22 October 2025 at 8:57PM UTC-6.
 
 It retired the background used since [Build 3615](KuroWiki_build_3615) in place of two separate backgrounds for Dark and Light mode respectively.
 
 # Gallery
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki3842/homedark.png" 
-        alt_text="" 
-        caption="Homepage"
-        style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3842/settings.png" 

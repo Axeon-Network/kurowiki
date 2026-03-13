@@ -1,7 +1,7 @@
 ---
-title: Kit Arctic
-permalink: Kit_Arctic
-hatnote: As of now, this article is about the publicly available version known as Arctic16. For the 32-bit internal developer version, see <a href='Arctic32'>Arctic32</a>.
+title: "PTBW_KitSixtyFour Arctic"
+permalink: KitSixtyFour_Arctic
+hatnote: ~~As of now, this article is about the publicly available version known as Arctic16. For the 32-bit internal developer version, see [Arctic32](Arctic32).~~<br>This article will be re-written soon, probably after the release of KRC1/KD1.
 redirect_from:
   - Horibyte_LeafyOS
   - StuffyXP_LeafyOS
@@ -11,6 +11,7 @@ redirect_from:
   - Arctic
   - Horibyte_Arctic
   - Lexibyte_Arctic
+  - Kit_Arctic
 aliases:
     - horibyte arctic
     - stuffyxp arctic
@@ -18,7 +19,7 @@ aliases:
     - stuffyxp leafyos
 ---
 
-**Kit Arctic**[^1] is a free and open source operating system developed by [Kit](KitSixtyFour), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/stupidbifox/arctic](https://github.com/stupidbifox/arctic)).
+<!-- **Kit Arctic**[^1] is a free and open source operating system developed by [Kit](Kit64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/Kit64/arctic](https://github.com/Kit64/arctic)).
 
 As of now, Arctic is only compatible on **QEMU** and **VMware**. This is due to how other virtualizors (and emulators) require image files to have a file system, whereas Arctic's boot disks are binary code.
 
@@ -93,4 +94,4 @@ Before development began, Kit designed several Arctic mockups using GIMP. These 
 #### References
 
 [^1]: Formerly known as **StuffyXP LeafyOS**, **Horibyte Arctic** and **LexNova Arctic**.
-[^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262)
+[^2]: [https://wetdry.world/@horibyte/114586135328279262](https://wetdry.world/@horibyte/114586135328279262) -->

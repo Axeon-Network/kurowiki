@@ -5,8 +5,7 @@ aliases:
     - kurowiki 4074
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.4074.nekori64.251029-1452'
 version='6.0'
 build='4074'
@@ -27,14 +26,9 @@ The source code was publically archived on Internet Archive/archive.org and is [
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4074/home.png" 
-        alt_text="" 
-        caption="Home"
-        style="width:50%;" %}
-    {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4074/drawer.png" 
         alt_text="" 
-        caption="Ditto, drawer open"
+        caption="Drawer"
         style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4074/404page.png" 

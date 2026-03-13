@@ -1,8 +1,7 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">Desktop screenshot of {{ include.name }}</div>
@@ -14,7 +13,7 @@
         <tbody>
             <tr>
                 <th>Owner</th>
-                <td><a href="{{ include.ownerurl }}">{{ include.owner }}</a></td>
+                <td>{{ include.owner | markdownify }}</td>
             </tr>
             <tr>
                 <th>Manufacturer</th>

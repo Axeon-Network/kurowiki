@@ -1,8 +1,7 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.pfp %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">{{ include.platform }} channel</div>
@@ -18,12 +17,12 @@
             {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly }}</td>
+                <td>{{ include.formerly | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             <tr>
                 <th>Created by</th>
-                <td><a href="{{ include.creatorurl }}">{{ include.creator }}</a></td>
+                <td>{{ include.creator | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Videos</th>
@@ -31,11 +30,11 @@
             </tr>
             <tr>
                 <th>Subscribers</th>
-                <td>{{ include.subs }}</td>
+                <td>{{ include.subs | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Views</th>
-                <td>{{ include.views }}</td>
+                <td>{{ include.views | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Platform</th>
@@ -49,17 +48,10 @@
                 <th>State</th>
                 <td>{{ include.state }}</td>
             </tr>
-            
             {% if include.link %}
             <tr>
                 <th>Link</th>
-                <td>{{ include.link }}</td>
-            </tr>
-            {% endif %}
-            {% if include.linkname %}
-            <tr>
-                <th>Link</th>
-                <td><a href='{{ include.linkurl }}'>{{ include.linkname }}</a></td>
+                <td>{{ include.link | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
 		    {% if include.deletiondate %} 

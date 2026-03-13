@@ -1,11 +1,10 @@
+<div class="infobox-title">
+    {{ include.title | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.title | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.image %}
     <div class="infobox-img-container">
-        <div class="infobox-img-caption"><a href="{{ include.channelurl }}">{{ include.channel }}</a> video</div>
+        <div class="infobox-img-caption">{{ include.channel | markdownify  | remove_first: '<p>' | remove: '</p>' }} video</div>
         	<img src="{{ include.image }}" alt="{{ include.title }} Thumbnail" class="infobox-img">
     </div>
     {% endif %}
@@ -14,7 +13,7 @@
         <tbody>
             <tr>
                 <th>Channel</th>
-                <td><a href="{{ include.channelurl }}">{{ include.channel }}</a></td>
+                <td>{{ include.channel | markdownify }}</td>
             </tr>
             <tr>
                 <th>Platform</th>

@@ -6,8 +6,7 @@ aliases:
 hatnote: "This article is incomplete."
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.4400.main.251204-0046'
 version='6.0'
 build='4400'
@@ -55,9 +54,6 @@ It brought many major fixes, changes and articles, including a redesigned media 
 ## Dark mode
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4400/home.png" 
-        caption="Home" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4400/drawer.png" 
         caption="Drawer" %}

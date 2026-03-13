@@ -1,8 +1,7 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.logo %}
     <div class="infobox-img-container">
             <img src="{{ include.logo }}" class="infobox-img">
@@ -25,8 +24,8 @@
             </tr>
             {% endif %}
             <tr>
-                <th>Developer</th>
-                <td><a href="{{ include.developerarticle }}">{{ include.developer }}</a></td>
+                <th>Developer(s)</th>
+                <td>{{ include.developer | markdownify }}</td>
             </tr>
             <tr>
                 <th>Written in</th>
@@ -38,15 +37,15 @@
             </tr>
             <tr>
                 <th>Initial release</th>
-                <td>{{ include.initialVersion }} / {{ include.initialVersionReleaseDate }}</td>
+                <td>{{ include.initialVersion | markdownify }} ({{ include.initialVersionReleaseDate }})</td>
             </tr>
             <tr>
                 <th>Current release</th>
-                <td>{{ include.currentVersion }} / {{ include.currentVersionReleaseDate }}</td>
+                <td>{{ include.currentVersion | markdownify }} ({{ include.currentVersionReleaseDate }})</td>
             </tr>
             <tr>
                 <th>Repository</th>
-                <td><a href="{{ include.repoLink }}">Source code on {{ include.repoHost }}</a></td>
+                <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify }}</td>
             </tr>
             <tr>
                 <th>Status</th>
@@ -54,7 +53,7 @@
             </tr>
             <tr>
                 <th>Link</th>
-                <td><a href="{{ include.link }}">{{ include.link }}</a></td>
+                <td>{{ include.link | markdownify }}</td>
             </tr>
             </tbody>
     </table>

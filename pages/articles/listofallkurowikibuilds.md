@@ -3,7 +3,7 @@ title: List of all KuroWiki builds
 permalink: List_of_all_KuroWiki_builds
 ---
 
-This article is a list of all known KuroWiki builds.
+This article is a list of all known [*KuroWiki*](KuroWiki) builds.
 
 
 ## Internal Pre-Alpha Releases
@@ -12,23 +12,24 @@ This article is a list of all known KuroWiki builds.
 2.4.3567.horiwiki-pa1.250504-1052
 
 ## Pre-Alpha
+Build numbers were introduced until KuroWiki 1.0.1
 
-0.1.???.main.250504-????
-0.2.???.main.250504-????
-0.3.???.main.250504-????
-0.4.???.main.250504-????
-0.5.???.main.250504-????
-0.5.2.???.main.250504-????
-0.5.3.???.main.250505-????
+0.1.main.250504-????
+0.2.main.250504-????
+0.3.main.250504-????
+0.4.main.250504-????
+0.5.main.250504-????
+0.5.2.main.250504-????
+0.5.3.main.250505-????
 
 ## Alpha
 
-1.1.???.250506-????
-1.2.???.250506-????
+1.1.250506-????
+1.2.250506-????
 
 ## Beta 1
 
-1.0.???.main.250507-????
+1.0.main.250507-????
 1.0.1.367.main.250515-1422
 
 ## Beta 2
@@ -274,3 +275,4 @@ This article is a list of all known KuroWiki builds.
 7.0.4504.mdelta_N.260215-2040
 7.0.4543.mdelta_N.260215-2357
 7.0.4600.mdelta_N.260216-0024
+7.0.4715.mdelta_N.260313-0401

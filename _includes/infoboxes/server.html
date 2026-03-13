@@ -1,8 +1,7 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-
     {% if include.image %}
     <div class="infobox-img-container">
             <img src="{{ include.image }}" alt="{{ include.name }} logo" class="infobox-img">

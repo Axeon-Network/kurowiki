@@ -1,8 +1,7 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
 <div class="infobox mdl-shadow--4dp">
-    <div class="infobox-title">
-        {{ include.name | default: "Untitled InfoBox" }}
-    </div>
-    
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">Fictional character</div>
@@ -14,7 +13,7 @@
         <tbody>
             <tr>
                 <th>Created by</th>
-                <td><a href="{{ include.creatorurl }}">{{ include.creator }}</a></td>
+                <td>{{ include.creator | markdownify }}</td>
             </tr>
             <tr>
                 <th>Designed by</th>

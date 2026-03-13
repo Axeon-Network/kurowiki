@@ -1,8 +1,10 @@
 ---
 title: HoriWebsite
 permalink: HoriWebsite
-hatnote: For the project that was also codenamed "StuffyXP 2", see <a href='AstroNT'>AstroNT</a>
+isTitleItalic: true
+hatnote: "For the project that was also codenamed \"StuffyXP 2\", see [AstroNT](AstroNT).<br>Needs to be finished already."
 ---
+
 {% include infoboxes/site.html
 name='HoriWebsite'
 formername='Horibyte Website'
@@ -22,4 +24,4 @@ link='https://horibyte.is-a.dev'
 image='resources/img/articles/horiwebsite/home.png'
 %}
 
-**HoriWebsite** (formerly known as **Horibyte Website**) is a website created by [Kit](Kit64) that served as their personal website. It was deprecated in June 2025 and was planned to be succeded by [LexSite](LexSite).
+***HoriWebsite*** (formerly known as ***Horibyte Website***) is a website created by [Kit](Kit64) that served as their personal website. It was deprecated in June 2025 and was planned to be succeded by [LexSite](LexSite).

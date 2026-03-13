@@ -1,11 +1,12 @@
 ---
 title: NovaSite
+isTitleItalic: true
 permalink: NovaSite
 ---
 
-**NovaSite** (reffered to as **Lex's NovaSite** in the website itself) was a website planned to succeed [HoriWebsite](HoriWebsite) and [LexSite](LexSite) as [Kit](Kit64)'s personal website. The name of the site traces back to Kit's back-then alias, Lex(The)Nova.
+***NovaSite***, also known as ***Lex's NovaSite***, was a website created in July 2025 planned to succeed *[HoriWebsite](HoriWebsite)* and *[LexSite](LexSite)*'s roles in being [KitSixtyFour](KitSixtyFour)'s personal website. The name of the site traces back to Kit's former alias, *Lex[The]Nova*.
 
-Only three builds of NovaSite are known to exist, `0.2.1.custo_dev(lex).250716-1632`, `0.2.4.custo_dev(lex).250716-1632` and `0.2.36.custo_dev(lex).250719-0946`.
+Only three builds of *NovaSite* are known to exist, `0.2.1.custo_dev(lex).250716-1632`, `0.2.4.custo_dev(lex).250716-1632` and `0.2.36.custo_dev(lex).250719-0946`.
 
 NovaSite was later scrapped due to Kit's disinterest in web development, which caused the deletion of its source code.
 

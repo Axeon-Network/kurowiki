@@ -1,8 +1,8 @@
-<!-- SpringViewer, HTML code -->
-<!-- Developed with love + some crashouts by KitSixtyFour -->
-<div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
+<!-- SpringViewer Code Name "Trifrost": HTML Code  -->
+<!-- Developed by KitSixtyFour/StupidBiFox. Licensed under The MIT License -->
+ <div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
     <span class="viewer-counter"></span>
-    
+   
     <div id="viewer-top-buttons">
         <span class="close-btn" title="Close (Escape)">
             <i class="material-icons">close</i>
@@ -15,14 +15,14 @@
         </span>
     </div>
 
-	<!-- basically what you see in the center of the drawer -->
+    <!-- basically what you see in the center of the drawer -->
     <div class="viewer-content">
         <button class="nav-btn prev-btn" title="Previous (Left)">
             <i class="material-icons">chevron_left</i>
         </button>
-        
+
         <div id="viewer-media-container"></div>
-          
+        
         <button class="nav-btn next-btn" title="Next (Right)">
             <i class="material-icons">chevron_right</i>
         </button>
@@ -38,38 +38,37 @@
             <!-- attribution -->
             <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
             <span id="viewer-details-author"></span>
-            
+
             <!-- license -->
             <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
             <span id="viewer-details-license">{{ site.img_license-s }}</span>
         </div>
-
         <!-- this was fun to figure out (not) -->
         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
             More Details
         </button>
-
     </div>
-    
+   
+
     <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
     {% if site.debug %}
     <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
-        &nbsp;Debug SpringViewer 2.8.5606.kitsixtyfour&nbsp;
+        &nbsp;SpringViewer "Trifrost" 3.0.{{ site.version.build }}.kit-sbf&nbsp;
     </p>
     {% endif %}
 
     <!-- aight, its the dialog -->
-    <!-- i will add the polyfill if there is need for one, 
+    <!-- i will add the polyfill if there is need for one,
          for now, every browser *should* support the dialog tag -->
+
     <dialog class="mdl-dialog">
         <h2 class="mdl-dialog__title">More Details</h2>
-            
         <div class="mdl-dialog__content">
             <p>File name: <span id="dialog-filename"></span></p>
             <p>File size: <span id="dialog-filesize"></span></p>
-            <p>Image resolution: <span id="dialog-resolution"></span></p>
-            <p>Uploaded by: <span id="dialog-author"></span></p>
-            <p>Uploaded on: <span id="dialog-uploaddate"></span></p>
+            <p>Resolution: <span id="dialog-resolution"></span></p>
+            <p>Uploaded by <span id="dialog-author"></span></p>
+            <p>Uploaded on <span id="dialog-uploaddate"></span></p>
             <p>Licensed under <a href="{{ site.img_licenseurl }}">{{ site.img_license }}</a></p>
         </div>
 
@@ -83,15 +82,17 @@
     </dialog>
 
     <!-- i just straight up copied it from mdl docs, seems to work! -->
-    
+
     <script>
         const dialog = document.querySelector('dialog');
         const showModalButton = document.getElementById('viewer-details-button');
 
+
         if (! dialog.showModal) {
             dialogPolyfill.registerDialog(dialog);
         }
-        
+
+
         showModalButton.addEventListener('click', function() {
             dialog.showModal();
         });
@@ -100,4 +101,4 @@
             dialog.close();
         });
     </script>
-</div>
+</div> 

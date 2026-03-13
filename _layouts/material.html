@@ -11,12 +11,16 @@
     <meta property="og:url" content="{{ site.url }}">
     <meta name="theme-color" content="#ffffff">
     <meta content="website" property="type">
-     
     <!-- the font (i dont think it works) -->
     <!-- it had the wrong fucking link bruh -->
+    <!-- now why isnt roboto bolding -kit/sbf -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- roboto monospace -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     
     <!-- gotta get a new one this is horiwebsite's one -->
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
@@ -32,12 +36,12 @@
       {% assign accent-enabled = ".accent" %}
     {% endif %}
 
-    <link rel="stylesheet" href="./resources/material/material.min{{ accent-enabled }}.css">
-    <link rel="stylesheet" href="./resources/css/materialdesignlite.css">
-    <link rel="stylesheet" href="./resources/css/infobox.css">
-    <link rel="stylesheet" href="./resources/css/global.css">
-    <link rel="stylesheet" href="./resources/css/gallery.css">
-    <link rel="stylesheet" href="./resources/css/springviewer.css"> 
+    <link rel="stylesheet" href="./resources/delta/material/material.min{{ accent-enabled }}.css">
+    <link rel="stylesheet" href="./resources/delta/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./resources/delta/css/infobox.css">
+    <link rel="stylesheet" href="./resources/delta/css/global.css">
+    <link rel="stylesheet" href="./resources/delta/css/gallery.css">
+    <link rel="stylesheet" href="./resources/delta/css/springviewer.css"> 
     <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
@@ -133,6 +137,15 @@
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
           </a>
 
+          <a class="mdl-navigation__link" id="drawerlink" href="./KuroWiki:PTBW">
+            <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
+          </a>
+          {% if site.debug %}
+          <a class="mdl-navigation__link" id="drawerlink" href="./Deltari:Test_Page">
+            <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Deltari Test Page
+          </a>
+          {% endif %}
+
           <span style="padding-left:4.5%; color:var(--text-color)">
             <br>
             &copy;{{ site.copyyear }} {{ site.author }}.
@@ -148,13 +161,7 @@
             </span>
             <br>
             <span style="font-size: smaller; color:darkgray !important;">
-              {% if site.debug %}
-                Version {{ site.version.full }}
-              {% endif %}
-            
-              {% if site.retail %}
-                Version {{ site.retailtag }}
-              {% endif %}
+                Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }})
             </span>
           </span>
         </nav>
@@ -168,7 +175,11 @@
               {{ page.hatnote | markdownify }}
             </div>
 
-            <h1 id="pagetitle" style="color:var(--title-color)" >{{ page.title }}</h1>
+            {% assign is-italic = "" %}
+            {% if page.isTitleItalic %}
+              {% assign is-italic = "titleItalic" %}
+            {% endif %}
+            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title }}</h1>
             <hr>
           
             <noscript>
@@ -197,7 +208,7 @@
 	
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;Debug {{ site.productname }} {{ site.devphase }} Version {{ site.version.full }} &nbsp;
+            &nbsp;Pre-Release {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}) &nbsp;
           </p>
         {% endif %}
       </main>

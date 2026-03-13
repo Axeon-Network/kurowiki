@@ -1,11 +1,12 @@
 ---
-title: Comet Adventure
+title: PTBW_Comet Adventure
+isTitleItalic: true
 permalink: Comet_Adventure
-hatnote: This article is about the video game series. For the character that it is named after, see <a href='Comet'>Comet</a>.
+hatnote: "This article is about the video game series. For the character that it is named after, see [Comet](Comet).<br>THIS ARTICLE WILL BE RE-WRITTEN."
 redirect_from:
 - Stuff_Adventure
 - Stuffy_Adventure
 - Starlight_Adventure
 ---
 
-**Comet Adventure** (formerly known as **Stuff Adventure**, **Stuffy Adventure** and **Starlight Adventure**) is an upcoming RPG video game series created and developed by [Kit](Kit64).
+***Comet Adventure*** (formerly known as ***Stuff Adventure***, ***Stuffy Adventure*** and ***Starlight Adventure***) is an upcoming RPG video game series created and developed by [Kit](Kit64).

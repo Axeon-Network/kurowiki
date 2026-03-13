@@ -1,19 +1,18 @@
 ---
 title: AstroNT
 permalink: AstroNT
-hatnote: For the project that was also codenamed "StuffyXP 2", see <a href='HoriWebsite'>HoriWebsite</a>.
+hatnote: For the project that was also codenamed "StuffyXP 2", see [HoriWebsite](HoriWebsite).
 ---
 
 {% include infoboxes/channel.html
 pfp='resources/img/articles/astront/logo.png'
-author='Kit64'
+author='KitSixtyFour'
 banner='resources/img/articles/astront/banner.png'
 name='AstroNT'
-creator='Kit'
-creatorurl='KitSixtyFour'
+creator='[KitSixtyFour](KitSixtyFour)'
 videos='9'
-subs='305'
-views='18,265'
+subs='335'
+views='21,751'
 platform='YouTube'
 state='Active'
 creationdate='2025-09-17'

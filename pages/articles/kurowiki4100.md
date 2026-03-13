@@ -5,8 +5,7 @@ aliases:
     - kurowiki 4100
 ---
 {% include infoboxes/build.html
-family='KuroWiki'
-familyurl='KuroWiki'
+family='[KuroWiki](KuroWiki)'
 buildtag='6.0.4100.main.251030-0038'
 version='6.0'
 build='4100'
@@ -21,12 +20,8 @@ image='resources/img/articles/kurowiki4100/home.png'
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4100/home.png"
-        caption="Homepage"
-        style="width:50%;" %}
-    {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4100/homelight.png"
-        caption="Ditto, light mode enabled"
+        caption="Home page, light mode enabled"
         style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4100/drawer.png"
