@@ -5,11 +5,19 @@ redirect_from:
 aliases:
 hatnote: Main article&#58; [KayWebsite](KayWebsite)
 ---
-This is a list of all released versions of *[KayWebsite](KayWebsite)* and their changelogs, as of January 2026, from latest to earliest.
+This is a list of all released versions of *[KayWebsite](KayWebsite)* and their changelogs, as of February 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from KayWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 # Version 26.x
+## 26.2.1
+Released on 19 February 2026, just about 15 minutes after v26.2, it was a minor hotfix update fixing the display of the buttons and webrings boxes being broken in the main (modern) frontend, discovered to be due to missing CSS code.
+
+## 26.2
+Released on 19 February 2026, it primarily focused around updating information in the Devices page and Homepage, fixing broken links, as well as fixing an issue with the display of the buttons and webrings boxes in the Retro Frontend. Also in the Retro Frontend, a warning was added that button or webring links may not work if using an ancient browser.
+
+This was initially supposed to be a bigger update similarily to v26.1, planned to launch at the latest by late February, however due to the amplitude of changes, added by plans of a rebrand from KayAurora to OneAveryAhead, Avery decided to release v26.2 as a smaller update primarily fixing significant issues from the previous and earlier versions and bringing information up-to-date. Other bigger changes initially planned for v26.2 were delayed until v26.3.
+
 ## 26.1
 Released on 15 January 2026, it brought significant changes, fixes and restructuring to the website, mostly in the backend but also changes that can be immediately noticeable by the end user in both the Modern and Retro Frontends.
 

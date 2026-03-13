@@ -21,7 +21,7 @@ link='None (deleted)'
 
 
 
-**A VMware First-Timer installs Windows XP!** (colloquially reffered to as **VMware First Time**) is the first public [StuffyXP](StuffyXP) video by [Kit](Kit). It was uploaded to YouTube on **13 February 2024** and had a total view count of **548 views** before the StuffyXP channel was deleted on 14 March 2025.
+**A VMware First-Timer installs Windows XP!** (colloquially reffered to as **VMware First Time**) is the first public [StuffyXP](StuffyXP) video by [Kit](KitSixtyFour). It was uploaded to YouTube on **13 February 2024** and had a total view count of **548 views** before the StuffyXP channel was deleted on 14 March 2025.
 
 The video consisted of Kit installing Windows XP Professional SP3 on a VMware 12 virtual machine on Windows 8.1. It is the first StuffyXP video of 2024, as well as the first video to be made on [TheCeleryPC](TheCeleryPC)
 

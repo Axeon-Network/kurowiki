@@ -45,53 +45,7 @@
     <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
-    <script defer src="./resources/delta/material/material.min.js"></script>
-    <!-- springviewer js file -->
-    <script src="./resources/delta/js/springviewer.js"></script>
-
-    <!-- the light mode mechanic -->
-     <script>
-      document.addEventListener('DOMContentLoaded', () => {
-      const htmlElement = document.documentElement;
-      const storageKey = 'themePreference';
-      const lightModeClass = 'light-mode';
-
-      function loadTheme() {
-          const savedTheme = localStorage.getItem(storageKey);
-        
-          if (savedTheme === 'light') {
-              htmlElement.classList.add(lightModeClass);
-          } else {
-              htmlElement.classList.remove(lightModeClass);
-          }
-      }
-
-      loadTheme();
-      });
-     </script>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const storageKey = 'onekoEnabled';
-    const scriptId = 'onekoTag';
-    const scriptSrc = './resources/js/oneko.js';
-
-    function loadScript() {
-        if (document.getElementById(scriptId)) return;
-        const el = document.createElement('script');
-        el.id = scriptId;
-        el.src = scriptSrc;
-        el.defer = true;
-        document.body.appendChild(el);
-    }
-
-    const enabled = localStorage.getItem(storageKey) === '1';
-    if (enabled) {
-        loadScript();
-    }
-});
-</script>
-
+    <script defer src="./resources/material/material.min.js"></script>
 
      {% if site.background-dark %}
      <style>
@@ -132,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);">
                     <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
                   </div>
-                </form> <!-- damn you stupid closing form tag!!!-->
+                </form> <!-- damn you stupid closing form tag!!! -->
               </div>
 
               <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
@@ -231,8 +185,16 @@ document.addEventListener('DOMContentLoaded', () => {
             <noscript>
               <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
             </noscript>
-
 		        <div id="pagecontent">
+              <!-- table of contents -->
+              <figure class="in-this-article">
+                  <div class="mdl-card mdl-shadow--2dp kuro-card_can-has-transparency">
+                   <details open>
+                    <summary>In this article...</summary>
+                    <ul id="table-of-contents"></ul>
+                   </details>
+                   </div>
+                  </figure>
               {{content}}
 		        </div>
           </div>
@@ -252,8 +214,14 @@ document.addEventListener('DOMContentLoaded', () => {
       </main>
     </div>
 
-    <!-- 'I'm Feeling Lucky' deltari edition -->
-  <script src="./resources/js/randomarticle.js"></script>
+    <!-- scripts! -->
+    <script src="./resources/js/lightmode.js"></script>
+    <script src="./resources/js/showOneko.js"></script>
+    <script src="./resources/js/toc.js"></script>
+    <script src="./resources/js/randomarticle.js"></script>
+    <script src="./resources/js/dyk.js"></script>
+    <script src="./resources/js/featuredarticle.js"></script>
+    <script src="./resources/js/springviewer.js"></script>
   </body>
 </html>
 

@@ -14,7 +14,6 @@ compiled='2026-01-10 20:27 UTC-6'
 image='resources/img/articles/kurowiki4450/home.png'
 %}
 
-
 **KuroWiki build 4450** is the official Deltari Beta 6.01 release, compiled on 10 January 2026 at 8:27PM UTC-6.
 
 This release mainly served to switch to locally hosting the Material Design Lite (MDL) resources, instead of relying on the official `getmdl.io` website, which was basically taken down (i.e. all requests to it result in a HTTP 403 error), leading up to the basic Deltari layout being broken.

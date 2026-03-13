@@ -9,6 +9,18 @@ permalink: Deltari
 
 Deltari uses the Jekyll static site generator, made in the Ruby programming language, and features elements such as SpringViewer (for viewing media), DeltaSearch (for searching). It has a modular layout which can be extensively customized including with from-scratch CSS.
 
+# Deltari Meta
+**Deltari Meta** is the "reference implementation" of the Deltari engine, initially started on 13 January 2026 with [Deltari build 4500](Deltari_build_4500). An KuroWiki downstream, earlier builds of Deltari Meta have been compiled under the `main` branch before it switched to its own `dmeta_N` branch, which would receive Deltari updates periodically.
+
+The wiki itself mainly provides documentation and other useful information about Deltari.
+
+<div>
+       {% include figure_item.html 
+        image_src="resources/img/articles/deltari4584/home.png" 
+        caption="Deltari Meta homepage"
+        style="width:40%; height:auto" %}
+</div>
+
 # Gallery
 ## Development
 <!--add screenshots of each public beta version-->

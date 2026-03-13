@@ -14,10 +14,9 @@ compiled='2025-10-29 14:52 UTC-6'
 image='resources/img/articles/kurowiki4074/home.png'
 %}
 
+**KuroWiki build 4074** is a Beta 6 build of KuroWiki, compiled on 27 October 2025 at 6:30PM UTC-6 from the `nekori64` development branch
 
-**KuroWiki build 4074** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 27 October 2025 at 6:30PM UTC-6 from the `nekori64` development branch
-
-Screenshots of this build were publicly shared on the [Nishi's Den](Nishi's_Den) and [Axeon Network](Axeon_Network) Discord Servers, as well as a video of it made available on [Nekori](Nekori64)'s YouTube [channel](https://youtu.be/AadFTp3So8E).
+Screenshots of this build were publicly shared on the [Nishi's Den](Nishi's_Den) and [Axeon Network](Axeon_Network) Discord Servers, as well as a video of it made available on [KitSixtyFour](KitSixtyFour)'s YouTube [channel](https://youtu.be/AadFTp3So8E).
 
 The product of an internal Jekyll bug, it is also known as the **Purgatory Build**. A plethora of articles were not included with this build as they would have blocked the compilation of this build otherwise. Technically speaking, Jekyll doesn't accept files encoded as UTF-8 with BOM, and any attempt to locally run a KuroWiki build from this branch would have led to an `Liquid Exception: invalid byte sequence in UTF-8` error. The root cause was eventually found to be unusual characters present inside SpringViewer code.
 

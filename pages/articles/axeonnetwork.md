@@ -84,7 +84,7 @@ Over time, the server had been updated to 1.21.5, then to 1.21.6 and to 1.21.7. 
 **i.axeon** (also known as the **Axeon Image Uploader**) was a planned online image uploading service during early 2018 primarily meant to be used with ShareX. Images uploaded to the service would be under the `i.axeoncommunity.ml` subdomain ready to link on Discord or generally other places of the Internet where attaching images is otherwise not a feature.
 
 The idea was cancelled due to its complex nature, and due to the `axeoncommunity.ml` website's switch to GitHub Pages from the free web hosting service it was previously using due to issues with images not properly displaying on the website.
-No plans exist to pick up this project back, with KayAurora now [generally against](https://archive.ph/OWZN2) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
+No plans exist to pick up this project back, with KayAurora now [generally against](https://web.archive.org/web/20230123202431/https://wetdry.world/@lynxmic/109737989404381830) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
 
 <div>
     {% include figure_item.html 
