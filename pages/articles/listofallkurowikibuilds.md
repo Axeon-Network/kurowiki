@@ -238,3 +238,8 @@ Build numbers were introduced until KuroWiki 1.0.1
 [7.0.4500.main.260113-1820](Deltari_build_4500)
 [7.0.4580.main.260113-1134](Deltari_build_4580)
 [7.0.4584.main.260113-1146](Deltari_build_4584)
+
+**mdelta_N compiles**
+7.0.4504.mdelta_N.260215-2040
+7.0.4543.mdelta_N.260215-2357
+7.0.4600.mdelta_N.260216-0024
