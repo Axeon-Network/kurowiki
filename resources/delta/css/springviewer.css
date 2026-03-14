@@ -251,10 +251,6 @@ html.light-mode {
     padding: 3px;
 }
 
-#watermark, #viewer-watermark {
-    display: none !important;
-}
-
 /* more details dialog */
 .mdl-dialog {
     background-color: var(--viewer-background-color);

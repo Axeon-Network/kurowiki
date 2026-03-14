@@ -9,6 +9,7 @@ aliases:
     - kurowiki first build
 ---
 {% include infoboxes/build.html
+release_name='Internal Pre-Alpha Release'
 family='[KuroWiki](KuroWiki)'
 buildtag='2.4.3567.main-wik.250504-1045'
 version='2.4'

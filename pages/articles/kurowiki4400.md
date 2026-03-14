@@ -6,6 +6,7 @@ aliases:
 hatnote: "This article is incomplete."
 ---
 {% include infoboxes/build.html
+release_name='Beta Release 6'
 family='[KuroWiki](KuroWiki)'
 buildtag='6.0.4400.main.251204-0046'
 version='6.0'
@@ -15,7 +16,7 @@ compiled='2025-12-04 00:46 UTC+2'
 image='resources/img/articles/kurowiki4400/home.png'
 %}
 
-**KuroWiki build 4400** is the official Deltari Beta 6 release, compiled on 12 December 2025 at 12:46AM UTC+2.
+**KuroWiki build 4400** is the official Beta 6 build of [KuroWiki](KuroWiki), compiled on 12 December 2025 at 12:46AM UTC+2.
 
 It brought many major fixes, changes and articles, including a redesigned media viewer and drawer, which itself now includes Random Article and Sitemap buttons.
 

@@ -5,6 +5,7 @@ aliases:
     - kurowiki 3810
 ---
 {% include infoboxes/build.html
+release_name='Interim Developer Release 3'
 family='[KuroWiki](KuroWiki)'
 buildtag='6.0.3810.main.251017-1808'
 version='6.0'
