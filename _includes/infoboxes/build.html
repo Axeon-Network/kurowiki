@@ -11,6 +11,12 @@
 
     <table class="infobox-data-table">
         <tbody>
+            {% if include.release_name %}
+            <tr>
+                <th>Release name</th>
+                <td>{{ include.release_name }}</td>
+            </tr>
+            {% endif %}
             <tr>
                 <th>Family</th>
                 <td>{{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
