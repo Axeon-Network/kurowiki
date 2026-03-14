@@ -244,9 +244,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         {% include springviewer.html %}      
 	
+        {% assign privatewarning = "" %}
+        {% if site.privatebuild %}
+          {% assign privatewarning = "For testing purposes only." %}
+        {% endif %}
+
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;Pre-Release {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}) &nbsp;
+            &nbsp;{{ privatewarning }} Pre-Release {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}) &nbsp;
           </p>
         {% endif %}
       </main>

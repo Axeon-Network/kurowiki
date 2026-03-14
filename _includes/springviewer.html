@@ -4,15 +4,15 @@
     <span class="viewer-counter"></span>
    
     <div id="viewer-top-buttons">
-        <span class="close-btn" title="Close (Escape)">
-            <i class="material-icons">close</i>
-        </span>
-        <span class="flscr-btn" title="Full Screen (F)">
+        <button class="dl-btn" title="Download (D)" style="display: block;">
+            <i class="material-icons">file_download</i>
+        </button>
+        <button class="flscr-btn" title="Full Screen (F)">
             <i class="material-icons">fullscreen</i>
         </span>
-        <span class="dl-btn" title="Download (D)" style="display: block;">
-            <i class="material-icons">file_download</i>
-        </span>
+        <button class="close-btn" title="Close (Escape)">
+            <i class="material-icons">close</i>
+        </button>
     </div>
 
     <!-- basically what you see in the center of the drawer -->
@@ -33,7 +33,10 @@
         <div id="viewer-details-nested">
             <h2 id="viewer-caption"></h2>
         </div>
-
+        <!-- this was fun to figure out (not) -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+            More Details
+        </button>
         <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
             <!-- attribution -->
             <span style="font-size:15px !important;" id="viewer-details-author-icon" class="material-icons">people</span>&nbsp;
@@ -43,10 +46,6 @@
             <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
             <span id="viewer-details-license">{{ site.img_license-s }}</span>
         </div>
-        <!-- this was fun to figure out (not) -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
-            More Details
-        </button>
     </div>
    
 
