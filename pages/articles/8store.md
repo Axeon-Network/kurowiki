@@ -1,6 +1,6 @@
 ---
 title: The Return of the Windows Store in Windows 8.1?! (8Store)
-permalink: The_Return_of_Windows_Store_in_Windows_8.1
+permalink: The_Return_of_Windows_Store_in_Windows_8_1
 hatnote:
 aliases:
     - 8store
