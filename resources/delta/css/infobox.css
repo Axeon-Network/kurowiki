@@ -45,14 +45,17 @@ html.light-mode {
     --infobox-bg: var(--infobox-bg-light);
     --infobox-border: var(--infobox-border-light);
 }
-html.infobox-title {
+html.infobox-title,
+html.seriesbox-title {
     text-shadow: 0px 0px 3px black;
 }
-.infobox-title.light-mode {
+.infobox-title.light-mode,
+.seriesbox-title.light-mode {
     text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
 }
 
-.infobox p {
+.infobox p,
+.seriesbox p {
     font-size: 13px !important;
     margin-bottom: -2px;
 }
@@ -65,7 +68,19 @@ html.infobox-title {
     border: 1px solid var(--infobox-border);
     background-color:  var(--infobox-bg);
     color: var(--text-color);
-    font-size: 90%; !important;
+    font-size: 12px !important;
+    line-height: 1.4;
+}
+
+.seriesbox {
+    width: 320px; 
+    float: right; 
+    clear: right;
+    margin: 0 0 1em 1em; /* top, right, bottom, left margin */
+    border: 1px solid var(--infobox-border);
+    background-color:  var(--infobox-bg);
+    color: var(--text-color);
+    font-size: 12px !important;
     line-height: 1.4;
 }
 
@@ -80,6 +95,18 @@ html.infobox-title {
     overflow-wrap:break-word;
 }
 
+.seriesbox-title {
+    width: 322px;
+    height: auto;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--text-color);
+    float: right;
+    overflow-wrap:break-word;
+    margin: 0 !important;
+}
+
 /* img style + container */
 .infobox-img-container {
     padding: 0;
@@ -91,7 +118,7 @@ html.infobox-title {
 }
 
 .infobox-img {
-    max-width: 95%; /* wont go full width as its weird like that */
+    max-width: 97%; /* wont go full width as its weird like that */
     height: auto;
     display: block;
     justify-content: center !important;
@@ -113,12 +140,22 @@ html.infobox-title {
     border-collapse: collapse;
 }
 
+.seriesbox-data-table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
 /* table rows */
-.infobox-data-table tr {
+.infobox-data-table tr,
+.seriesbox-data-table tr {
     border-bottom: none;
 }
 
-.infobox-data-table tr:last-child {
+.infobox-data-table tr:last-child,
+.seriesbox-data-table tr:last-child {
     border-bottom: none;
 }
 
@@ -132,10 +169,23 @@ html.infobox-title {
     padding-top: -20px !important;
 }
 
+.seriesbox-data-table th {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+    width: 40%;
+}
+
 /* value column */
 .infobox-data-table td {
     padding: 0.3em 0.6em;
     text-align: left;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+.seriesbox-data-table td {
+    padding: 0.3em 0.6em;
     word-wrap: break-word;
     vertical-align: top;
 }

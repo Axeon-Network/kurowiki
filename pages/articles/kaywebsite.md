@@ -9,16 +9,17 @@ aliases:
 hatnote: For a complete list of KayWebsite versions, see [KayWebsite version history](KayWebsite_version_history).
 ---
 {% include infoboxes/site.html
-name='KayWebsite'
-formerly='ClyronWebsite (2024-2025)'
+name='AveryWebsite'
+logo='resources/img/articles/kaywebsite/wordmark.png'
+formerly='ClyronWebsite (2024-2025), KayWebsite (2025-2026)'
 developer='KayAurora'
 developerarticle='KayAurora'
 writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.1'
-currentVersionReleaseDate='2026-01-15'
+currentVersion='v26.2.1'
+currentVersionReleaseDate='2026-02-19'
 sourceModel='Open source'
 repoLink='https://github.com/thekayaurora/thekayaurora.github.io'
 repoHost='GitHub'
@@ -125,7 +126,7 @@ v25.11, released on 6 November 2025, brought various bug fixes and improvements.
 ## Version 26.x
 The first KayWebsite version release in the v26 series was v26.1 from 15 January 2026. The major version number was bumped per the year-month-revision versioning format introduced with v25.10.
 
-v26.1 brought significant fixes and changes to the website that can be seen both in the modern and retro frontends.
+v26.1 brought significant fixes and changes to the website that can be seen both in the modern and retro frontends, while v26.2 and v26.2.1 were smaller versions mainly updating information, fixing bugs from v26.1 and other small quality-of-life improvements.
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

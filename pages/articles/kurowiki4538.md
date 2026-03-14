@@ -9,7 +9,7 @@ family='[KuroWiki](KuroWiki)'
 buildtag='7.0.4538.kitsixtyfour.260208-1145'
 version='7.0'
 build='4538'
-lab='main'
+lab='kitsixtyfour'
 compiled='2026-02-08 11:45 UTC-6'
 image='resources/img/articles/kurowiki4538/article.png'
 %}

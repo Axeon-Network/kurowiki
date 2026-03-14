@@ -111,6 +111,35 @@ a {
     background-color: var(--mdlcard-background-color);
     color: var(--text-color);
 }
+
+.download-box-item .mdl-card {
+    min-height: 0;
+}
+
+.download-box-item h6 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: var(--title-color);
+}
+
+/* table of contents */
+.in-this-article {
+    border: 1px solid var(--accent);
+    background-color: var(--mdlcard-background-color);
+    color: var(--text-color);
+}
+
+.in-this-article .mdl-card {
+    text-align: left; /* todo: need to not have mdl-card force text centering */
+}
+
+.in-this-article {
+  display: none; /* hide by default if there are no headings. the rest is handled by JS */
+}
+
+figure:not(.in-this-article) {
+    max-width: 0 !important;
+}
    
 /* image boxshadow */
 img {
