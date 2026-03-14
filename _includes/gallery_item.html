@@ -1,13 +1,17 @@
 <figure class="gallery-item">
     <div class="thumb-frame">
+
+
         <!-- {% if include.audio_src %} 
         <audio controls src="{{ include.audio_src }}" author="{{ include.author }}" title="{{ include.caption }}" loading="lazy"></audio>
         {% endif %} -->
-        <!-- {% if include.video_src %} 
-        <video controls src="{{ include.video_src }}" author="{{ include.author }}"title="{{ include.caption }}" loading="lazy"></video>
-        {% endif %} 
         
-        maybe we can try using a thumbnail image AND a video_src so it actually works?? -kit/sbf -->
+        <!-- Video -->
+        {% if include.video_src %} 
+        <img src="{{ include.thumb }}" alt="{{ include.caption }}" author="{{ include.author }}" data-video-src="{{ include.video_src }}">
+        {% endif %} 
+
+        <!-- Audio -->
         {% if include.image_src %} 
         <img src="{{ include.image_src }}" author="{{ include.author }}" alt="{{ include.caption }}" loading="lazy">
         {% endif %}

@@ -6,6 +6,7 @@ aliases:
     - kurowiki 2600
 ---
 {% include infoboxes/build.html
+release_name='Beta Release 5'
 family='[KuroWiki](KuroWiki)'
 buildtag='5.1.2600.main.250928-0955'
 version='5.1'

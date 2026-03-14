@@ -265,6 +265,7 @@ Build numbers were introduced until KuroWiki 1.0.1
 7.0.4702.private/kitsixtyfour(kit).260308-1234
 [7.0.4706.kayaurora.260309-0025](KuroWiki_build_4706)
 7.0.4714.kayaurora.260313-0201
+7.0.4726.rc1chk.private/kitsixtyfour(kit).260314-1002
 
 **Deltari Meta compiles**
 [7.0.4500.main.260113-1820](Deltari_build_4500)
@@ -276,3 +277,4 @@ Build numbers were introduced until KuroWiki 1.0.1
 7.0.4543.mdelta_N.260215-2357
 7.0.4600.mdelta_N.260216-0024
 7.0.4715.mdelta_N.260313-0401
+7.0.4720.mdelta_N.260313-2113
