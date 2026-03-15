@@ -25,7 +25,7 @@ category3='Test, Test, Test'
    %}
 </div>
 
-# Microsoft Windows NT
+# "Silver"/"Amber"
 {% include silver_item.html 
 image_src='resources/img/WindowsNT31-RTM-Desktop.png'
 caption='The desktop of [Microsoft Windows NT 3.1](https://betawiki.net/wiki/Windows_NT_3.1), the first major version of Windows NT.'
@@ -41,7 +41,7 @@ A user interface was added to Windows NT in the first half of 1991, with network
 
 The next minor version, [Windows NT 3.5](https://betawiki.net/wiki/Windows_NT_3.5) was released in 1994 and included performance improvement as well as a new full TCP/IP stack, long filename (LFN) support on the FAT file system and other refinements. [Windows NT 3.51](https://betawiki.net/wiki/Windows_NT_3.51) was released in 1995, which ensured compatibility with the upcoming [Windows 95](https://betawiki.net/wiki/Windows_95) and added support for the PowerPC architecture, the PCMCIA interface, as well as file compression, or replaceable GINA. 
 
-# Trifrost
+# "Trifrost"
 <div class="wiki-gallery">
     {% include gallery_item.html 
         thumb="resources/vid/thumb.png" 
@@ -51,3 +51,22 @@ The next minor version, [Windows NT 3.5](https://betawiki.net/wiki/Windows_NT_3.
         image_src="resources/img/articles/cometadv527/properties.png" 
         caption="Comet Adventure build 527 Properties window" %}
 </div>
+
+# "Starfly"
+{% include starfly_item.html
+image_1='resources/img/articles/kurowiki4100/home.png'
+image_1_alt='KuroWiki Interim Developer Release 4 build 4100'
+image_2='resources/img/articles/kurowiki4400/home.png'
+image_2_alt='KuroWiki Beta Release 6 build 4400'
+image_3='resources/img/articles/kurowiki4450/home.png'
+image_3_alt='KuroWiki Beta Release 6 Hotfix 1 build 4450'
+image_4='resources/img/articles/kurowiki4706/home.png'
+image_4_alt='KuroWiki Pre-Release Candidate 1 build 4706'
+caption='The home pages of four [KuroWiki](KuroWiki) builds from a different phase of its development: [KuroWiki build 4100](KuroWiki_build_4100) (IDR 4), [KuroWiki build 4400](KuroWiki_build_4400) (Beta 6), [KuroWiki build 4450](KuroWiki_build_4450) (Beta 6 Hotfix 1) and [KuroWiki build 4706](KuroWiki_build_4706) (Release Candidate 1).' %}
+
+{% include starfly_item.html
+image_1='resources/img/articles/arctic/7089server.png'
+image_1_alt='Waef'
+image_2='resources/img/articles/deltari260219/article.png'
+image_2_alt='Meow'
+caption='Lorem ipsum dolor sit amet...' %}

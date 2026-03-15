@@ -28,12 +28,12 @@
 /* variables */
 :root {
     /* dark mode */
-    --infobox-bg-dark: rgb(50,50,50);
-    --infobox-border-dark: rgb(40,40,40);
+    --infobox-bg-dark: #202122;
+    --infobox-border-dark: #161616;
 
     /* light mode */
-    --infobox-bg-light: #f8f8f8;
-    --infobox-border-light: #ccc;
+    --infobox-bg-light: #f8f9fa;
+    --infobox-border-light: #a2a9b1;
 }
 
 html {
@@ -71,6 +71,7 @@ html.seriesbox-title {
     color: var(--text-color);
     font-size: 12px !important;
     line-height: 1.4;
+    box-shadow: none;
 }
 
 .seriesbox {
