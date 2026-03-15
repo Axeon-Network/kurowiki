@@ -1,5 +1,5 @@
 /* 
-    Kuro/ModularDelta Gallery Stylesheet File
+    Kuro/ModularDelta Gallery Item and "Silver" Item Stylesheet File
     Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
 
     Licensed under the MIT License, which is included below:
@@ -28,11 +28,11 @@
 /* variables */
 :root {
     /* dark mode */
-    --gallery-bg-dark: rgba(50,50,50,1);
-    --gallery-border-dark: rgba(30,30,30,1);
+    --gallery-bg-dark: rgb(50,50,50);
+    --gallery-border-dark: rgb(40,40,40);
    
     /* light mode */
-    --gallery-bg-light: #f8f8f8;
+    --gallery-bg-light: #f9f9f9;
     --gallery-border-light: #ccc;
 }
 
@@ -89,7 +89,40 @@ html.light-mode {
     text-align: left;
 }
 
-/* gallery item but its not on the gallery ahh moment */
+/* amber/silver item */
+.silver-item, .amber-item {
+    background-color: var(--gallery-bg);
+    border: 1px solid var(--gallery-border);
+    float: right;
+    clear: right;
+    margin-left: 10px;
+    overflow: none;
+    width: 310px;
+    padding: 4px;
+    font-size: 88.40000000000001% !important;
+}
+.silver-item, .amber-item span {
+    margin-bottom: -1px !important;
+}
+
+.silver-item, .amber-item img {
+    max-width: 100%;
+    padding-bottom: 3px;
+    box-shadow: none;
+}
+.silver-item .material-icons, .amber-item .material-icons {
+    color: var(--text-color);
+    font-size: 13px;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 4px;
+    float: right;
+    clear: right;
+}
+
+/* this was for the legacy figure item code which is now deprecated */
+/* however, my kuro decided to break the gallery item so idk if removing it fucked it up */
+/* please tell me this works -kit/sbf */
 figure:not(.gallery-item) {
     max-width: 80%; 
     margin: 1em auto;

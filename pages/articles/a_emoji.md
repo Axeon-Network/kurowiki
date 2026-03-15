@@ -11,14 +11,15 @@ aliases:
 
 🅰️, officially named *A Button (Blood Type)*, is one of the many emojis on the Internet. Its primary design consists of the A letter on a red background. A Button (Blood Type) was approved as part of Unicode 6.0 with code point "U+1F170" in 2010 and added to Emoji 1.0 in 2015.
 
-In the context of NekoCulture, it is one of the earliest Kit memes, introduced in December 2023[^1], along with [Kit Moments](Kit_Moments). Initially regarded by Kit as a "shouting emoji", the A Button emoji has since became popular among Kit Fans, and over time variations of it have been made by Kit and others.
-
-{% include figure_item.html 
+{% include silver_item.html 
     image_src="resources/img/articles/a_emoji/1.jpg" 
     alt_text="A meme made by Kit about their original conception of the emoji" 
     caption="A meme made by Kit about their original conception of the emoji"
     style="width:30%;"
     author='Kit64' %}
+
+In the context of NekoCulture, it is one of the earliest Kit memes, introduced in December 2023[^1], along with [Kit Moments](Kit_Moments). Initially regarded by Kit as a "shouting emoji", the A Button emoji has since became popular among Kit Fans, and over time variations of it have been made by Kit and others.
+
 
 # Gallery of Fanmade 🅰️s
 

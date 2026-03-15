@@ -1,7 +1,7 @@
 <div class="infobox mdl-shadow--4dp">
     <div class="infobox-title">
         Part of a series of articles on
-        <h2><a href="{{ include.mainarticleurl }}">{{ include.mainarticle }}</a></h2>
+        <h2>{{ include.mainarticle | markdownify | remove_first: '<p>' | remove: '</p>' }}</h2>
     </div>
 
     <table class="seriesbox-data-table">

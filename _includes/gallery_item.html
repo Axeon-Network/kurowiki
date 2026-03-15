@@ -11,12 +11,11 @@
         <img src="{{ include.thumb }}" alt="{{ include.caption }}" author="{{ include.author }}" data-video-src="{{ include.video_src }}">
         {% endif %} 
 
-        <!-- Audio -->
         {% if include.image_src %} 
         <img src="{{ include.image_src }}" author="{{ include.author }}" alt="{{ include.caption }}" loading="lazy">
         {% endif %}
     </div>
  <figcaption class="gallery-caption">
- {{ include.caption }}
+ {{ include.caption | markdownify }}
  </figcaption>
 </figure>

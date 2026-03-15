@@ -1,11 +1,11 @@
 <div class="infobox-title">
-    {{ include.name | default: "Untitled InfoBox" | markdownify }}
+    {{ include.name | default: "Untitled InfoBox" | markdownify | remove_first: '<p>' | remove: '</p>' }}
 </div>
 <div class="infobox mdl-shadow--4dp">
     {% if include.image %}
     <div class="infobox-img-container">
             <img src="{{ include.image }}" alt="{{ include.name }} logo" class="infobox-img">
-         <div class="infobox-img-caption">{{ include.name | markdownify }} logo</div>
+         <div class="infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }} logo</div>
     </div>
     {% endif %}
 
@@ -14,30 +14,30 @@
             {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly | markdownify }}</td>
+                <td>{{ include.formerly | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             <tr>
                 <th>Owner</th>
-                <td>{{ include.owner | markdownify }}</td>
+                <td>{{ include.owner | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Platform</th>
-                <td>{{ include.platform | markdownify }}</td>
+                <td>{{ include.platform | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Launched</th>
-                <td>{{ include.launchDate | markdownify }}</td>
+                <td>{{ include.launchDate | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% if include.discontinuedDate %}
             <tr>
                 <th>Discontinued</th>
-                <td>{{ include.discontinuedDate | markdownify }}</td>
+                <td>{{ include.discontinuedDate | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             <tr>
                 <th>Type</th>
-                <td>{{ include.type | markdownify }}</a></td> <!-- can be Public or Private -->
+                <td>{{ include.type | markdownify | remove_first: '<p>' | remove: '</p>' }}</a></td> <!-- can be Public or Private -->
             </tr>
             <tr>
                 <th>Added in</th>
@@ -46,7 +46,7 @@
             {% if include.link %}
             <tr>
                 <th>Link</th>
-                <td>{{ include.link | markdownify }}</td>
+                <td>{{ include.link | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             </tbody>

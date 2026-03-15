@@ -25,7 +25,7 @@
             {% endif %}
             <tr>
                 <th>Developer(s)</th>
-                <td>{{ include.developer | markdownify }}</td>
+                <td>{{ include.developer | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Written in</th>
@@ -37,15 +37,15 @@
             </tr>
             <tr>
                 <th>Initial release</th>
-                <td>{{ include.initialVersion | markdownify }} ({{ include.initialVersionReleaseDate }})</td>
+                <td>{{ include.initialVersion | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.initialVersionReleaseDate }})</td>
             </tr>
             <tr>
                 <th>Current release</th>
-                <td>{{ include.currentVersion | markdownify }} ({{ include.currentVersionReleaseDate }})</td>
+                <td>{{ include.currentVersion | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.currentVersionReleaseDate }})</td>
             </tr>
             <tr>
                 <th>Repository</th>
-                <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify }}</td>
+                <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Status</th>
@@ -53,7 +53,7 @@
             </tr>
             <tr>
                 <th>Link</th>
-                <td>{{ include.link | markdownify }}</td>
+                <td>{{ include.link | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             </tbody>
     </table>

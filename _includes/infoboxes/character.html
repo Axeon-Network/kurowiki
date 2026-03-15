@@ -13,7 +13,7 @@
         <tbody>
             <tr>
                 <th>Created by</th>
-                <td>{{ include.creator | markdownify }}</td>
+                <td>{{ include.creator | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Designed by</th>

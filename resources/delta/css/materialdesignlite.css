@@ -317,6 +317,14 @@ body.viewer-active .mdl-layout__obfuscator {
 .kuro-card_can-has-transparency {
     background-color: rgba(15,15,15,0.4) !important;
 }
+.light-mode .kuro-card_can-has-transparency {
+    background-color: rgba(255,255,255,0.4) !important;
+}
+
+.kuro-card_disbale-text-opacity .mdl-card__supporting-text {
+    color: var(--text-color) !important;
+    opacity: 100%;
+}
 
 /* they were never aligned... */
 .mdl-navigation__link .material-icons {

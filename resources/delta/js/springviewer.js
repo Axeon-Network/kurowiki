@@ -40,11 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const foundBtn = document.querySelector('.mdl-layout__drawer-button');
         if (foundBtn) {
             drawerBtn = foundBtn; 
-            console.log("MDL Drawer Button Found and Listener Attached."); 
+            console.log("SUCCESS 0x7000 (SV_BUTTON_LOCATED): The MDL Button component is now attached for use."); 
         } else {
-            console.error("ERROR 0x3001 (SCRIPT_RAN_TOO_EARLY)");
+            console.error("STOP 0x7000 (SV_FAST_INVOKE): SpringViewer was invoked too fast and the MDL Button could not be located.");
         }
-    }, 100);
+    }, 50);
 
     const excludedID = 'viewer-media-element';
     const bannerID = 'drawer-banner';
@@ -53,21 +53,21 @@ document.addEventListener('DOMContentLoaded', () => {
     let totalMediaCount = 0;
 
     const formatBytes = (bytes, decimals = 2) => {
-        if (bytes === 0) return '0 Bytes';
+        if (bytes === 0) return '0 bytes';
         const k = 1024;
         const dm = decimals < 0 ? 0 : decimals;
-        const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+        const sizes = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
         const i = Math.floor(Math.log(bytes) / Math.log(k));
         return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
     };
     
     const clearDetailsDialog = () => {
-        document.getElementById('dialog-filename').textContent = 'N/A';
-        document.getElementById('dialog-filesize').textContent = 'N/A';
-        document.getElementById('dialog-resolution').textContent = 'N/A';
-        document.getElementById('dialog-author').textContent = 'N/A';
-        document.getElementById('viewer-details-author').textContent = 'N/A';
-        document.getElementById('dialog-uploaddate').textContent = 'N/A';
+        document.getElementById('dialog-filename').textContent = 'dummy';
+        document.getElementById('dialog-filesize').textContent = 'dummy';
+        document.getElementById('dialog-resolution').textContent = 'dummy';
+        document.getElementById('dialog-author').textContent = 'dummy';
+        document.getElementById('viewer-details-author').textContent = 'dummy';
+        document.getElementById('dialog-uploaddate').textContent = 'dummy';
     };
 
     const updateDetailsDialog = async (imgElement) => {
@@ -155,7 +155,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const tagName = mediaSourceElement.tagName;
                 
             if (videoSrc) {
-                // Handle Video via Thumbnail trigger
                 isVideo = true;
                 newMediaElement = document.createElement('video');
                 newMediaElement.id = excludedID;
@@ -202,7 +201,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 viewerCaption.innerHTML = captionText;
             }
             viewerCounter.textContent = `${currentIndex + 1}/${totalMediaCount}`;
-            // Download button visibility logic
             if (dlButton) dlButton.style.display = 'block'; 
         }
     };
@@ -231,7 +229,6 @@ document.addEventListener('DOMContentLoaded', () => {
         mainBody.classList.remove('hide-scrollbar');
     };
         
-    // Filtered to only IMG and VIDEO
     const allMediaElements = document.querySelectorAll('img, video'); 
     galleryMedia = Array.from(allMediaElements).filter(element => {
         return element.id !== excludedID && element.id !== bannerID && (element.src || element.querySelector('source') || element.hasAttribute('data-video-src'));

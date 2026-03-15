@@ -1,11 +1,11 @@
 <div class="infobox-title">
-    {{ include.name | default: "Untitled InfoBox" | markdownify }}
+    {{ include.name | default: "Untitled InfoBox" | markdownify | remove_first: '<p>' | remove: '</p>' }}
 </div>
 <div class="infobox mdl-shadow--4dp">
     {% if include.image %}
     <div class="infobox-img-container">
         	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
-            <div class="infobox-img-caption">{{ include.name | markdownify }}'s Profile Picture</div>
+            <div class="infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }}'s Profile Picture</div>
     </div>
     {% endif %}
 
@@ -13,19 +13,19 @@
         <tbody>
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly | markdownify }}</td>
+                <td>{{ include.formerly | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Born</th>
-                <td>{{ include.bod | markdownify }}</td>
+                <td>{{ include.bod | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Nationality</th>
-                <td>{{ include.nationality | markdownify }}</td>
+                <td>{{ include.nationality | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Known for</th>
-                <td>{{ include.known | markdownify }}</td>
+                <td>{{ include.known | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
           </tbody>
 	</table>
