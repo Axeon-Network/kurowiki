@@ -127,6 +127,7 @@ a {
     border: 1px solid var(--accent);
     background-color: var(--mdlcard-background-color);
     color: var(--text-color);
+    float: left;
 }
 
 .in-this-article .mdl-card {
@@ -136,7 +137,10 @@ a {
 .in-this-article {
   display: none; /* hide by default if there are no headings. the rest is handled by JS */
 }
-
+   
+figure.in-this-article {
+    max-width: 0 !important;
+}
 
 /* image boxshadow */
 img {

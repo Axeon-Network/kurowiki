@@ -8,6 +8,7 @@ redirect_from:
     - StuffyCraft
 aliases:
     - horicraft 1
+toc: true
 ---
 
 **Horicraft**[^1] (formerly known as ***StuffyCraft***) was a creative Minecraft server owned and operated by [Kit](Kit). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
