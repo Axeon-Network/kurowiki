@@ -25,3 +25,5 @@ category3='Test, Test, Test'
      src="resources/files/articles/downloaddebug/globe.kra"
    %}
    </div>
+
+   <img src="resources/img/logo.svg" width="25%">
