@@ -28,12 +28,12 @@
 /* variables */
 :root {
     /* dark mode */
-    --infobox-bg-dark: rgba(50,50,50,1);
-    --infobox-border-dark: rgba(30,30,30,1);
+    --infobox-bg-dark: #202122;
+    --infobox-border-dark: #161616;
 
     /* light mode */
-    --infobox-bg-light: #f8f8f8;
-    --infobox-border-light: #ccc;
+    --infobox-bg-light: #f8f9fa;
+    --infobox-border-light: #a2a9b1;
 }
 
 html {
@@ -51,7 +51,7 @@ html.seriesbox-title {
 }
 .infobox-title.light-mode,
 .seriesbox-title.light-mode {
-    text-shadow: 0px 0px 0px rgba(0,0,0,0) !important;
+    text-shadow: none !important;
 }
 
 .infobox p,
@@ -64,12 +64,14 @@ html.seriesbox-title {
     width: 320px; 
     float: right; 
     clear: right;
+    margin-left: 10px;
     margin: 0 0 1em 1em; /* top, right, bottom, left margin */
     border: 1px solid var(--infobox-border);
     background-color:  var(--infobox-bg);
     color: var(--text-color);
     font-size: 12px !important;
     line-height: 1.4;
+    box-shadow: none;
 }
 
 .seriesbox {

@@ -28,17 +28,16 @@ As of 16 February 2026, the video has over forty views. It was the first AstroNT
 
 # Making of
 ## As a Lynxmic Video
+
+{% include silver_item.html 
+image_src="resources/img/articles/5001viados/installing_longhorn_build_5001_from_dos.png" 
+caption="'Installing Windows Longhorn (Build 5001) from DOS' thumbnail, 23 February 2023"
+author="OneAveryAhead/Lynxmic" %}
+
 It is known that the video idea has been attempted for Lynxmic in March 2023 and again in March 2025, both with their final recordings ending at a "NTLDR is missing" after the first-stage text mode setup, which in the last copying stage kept failing to copy `.mui` files. The 2025 attempt though was part of the plans for a final set of Lynxmic videos before the semi-retirement of new uploads for the channel.
 
 Longhorn Build 5001's ISO does not have `winnt.exe` in the `I386` folder, so as such the `winnt.exe` from Windows XP 2600's ISO was used for both attempts as well as the AstroNT attempt mentioned below.
 
-<div>
-       {% include figure_item.html 
-        image_src="resources/img/articles/5001viados/installing_longhorn_build_5001_from_dos.png" 
-        caption="'Installing Windows Longhorn (Build 5001) from DOS' thumbnail, 23 February 2023"
-        style="width:40%; height:auto"
-        author="OneAveryAhead/Lynxmic" %}
-</div>
 
 ## As an AstroNT Video
 ### Using the Windows XP ISO

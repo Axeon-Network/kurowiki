@@ -1,0 +1,15 @@
+<div class="starfly">
+    {% if include.image_1 %}
+        <img src="{{ include.image_1 }}" alt="{{ include.image_1_alt }}">
+    {% endif %}
+    {% if include.image_2 %}
+        <img src="{{ include.image_2 }}" alt="{{ include.image_2_alt }}">
+    {% endif %}
+    {% if include.image_3 %}
+        <img src="{{ include.image_3 }}" alt="{{ include.image_3_alt }}">
+    {% endif %}
+    {% if include.image_4 %}
+        <img src="{{ include.image_4 }}" alt="{{ include.image_4_alt }}">
+    {% endif %}
+    <span>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+</div>
