@@ -17,7 +17,7 @@ aliases:
 name='Axeon Network'
 formerly='LynxPlaza\ Lynxmic\'s Square\ Lynxmic\'s Lodge\ Lynx-Axeon\ Axeon\ Axeon Community\ Aqua Community'
 owner='Avery'
-ownerurl='OneAveryAhead'
+ownerurl='AveryEclipse'
 platform='Discord\ Stoat\ Twitch Desktop (formerly)\ Steam Chat (formerly)'
 creationDate='2017-12-18'
 openedDate='2017-12-28'

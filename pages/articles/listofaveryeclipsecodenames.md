@@ -1,12 +1,12 @@
 ---
-title: List of OneAveryAhead Codenames
-permalink: List_of_OneAveryAhead_Codenames
+title: List of AveryEclipse Codenames
+permalink: List_of_AveryEclipse_Codenames
 hatnote: This list is subject to change in the future.
 redirect_from:
      - List_of_KayAurora_Codenames
 ---
 
-This article shows a list of codenames used by [OneAveryAhead](OneAveryAhead) in their projects.
+This article shows a list of codenames used by [AveryEclipse](AveryEclipse) in their projects.
 
 [C](#C) · [L](#L) · [P](#P) · [R](#R) · [S](#S) · [U](#U) · [V](#V)
 

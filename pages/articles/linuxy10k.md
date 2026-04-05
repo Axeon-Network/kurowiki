@@ -18,7 +18,7 @@ views='194'
 reldate='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
 %}
 
-***Running Linux... on Year 10000?*** is an [AstroNT](AstroNT) video made by [Avery](OneAveryAhead).
+***Running Linux... on Year 10000?*** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
 
 It was initially planned as a [Lynxmic](Lynxmic) video during the video idea brainstorming of early 2025, after which a set of at least 30 video ideas have been noted in a Lynxmic video idea sheet to be used throughout 2025. The video was however cancelled with the discontinuation of active Lynxmic uploads.
 

@@ -13,13 +13,12 @@ aliases:
 
 The **A Board** (also known as the **🅰️ Board**) is a message board channel present in the [Nishi's Den](Nishi's_Den), [Axeon Network](Axeon_Network#Discord_Server) and [HoriServer (2)](HoriServer_(2)) Discord servers, and the [NovaServer](NovaServer) Stoat server. Similar to a starboard, its main functionality is sending messages reacted with an [🅰️ emoji](A_Emoji) to said channel.
 
-#### History
-
-The concept of an A Board came before the launch of [Kit](KitSixtyFour)'s HoriServer (2), on which Kit and [Avery](OneAveryAhead) eventually made one.
+# History
+The concept of an A Board came before the launch of [Kit](KitSixtyFour)'s HoriServer (2), on which Kit and [Avery](AveryEclipse) eventually made one.
 
 The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen at Kit's old Mastodon account.
 
-#### Gallery
+# Gallery
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

@@ -6,7 +6,7 @@ redirect_from:
      - Project_Orchid
 ---
 
-**Orchid** is a planned new project by the [Axeon Network](Axeon_Network) for a multiple-way bridge between Discord, Stoat, Fluxer and eventually the in-game chat of [KitsuMC](KitsuMC), that can be selfhosted by anyone.
+**Orchid** is a planned new project by the [Axeon Network](Axeon_Network) made by [AveryEclipse](AveryEclipse) for a multiple-way bridge between Discord, Stoat, Fluxer and eventually the in-game chat of [KitsuMC](KitsuMC), that can be selfhosted by anyone.
 
 <!-- **The *Orchid* Discord Bot** (May 2023): spiritual successor (but unrelated) to 2018's *AxeonBot*, used as a complementary extension to existing 3rd-party bots already in use in Axeon Network (at the time known as Lynxmic's Square). The original bot account for it would later change to report the online status of [MidoriMC](MidoriMC) on Discord.
 - **The *Orchid* Stoat Bot** (February 2025): a multi-purpose bot with many features that anyone could add to their very own Stoat (Formerly revolt.chat) servers (similar to [Venus](Venus) feature-wise). The original bot account would later be deleted in March 2025.

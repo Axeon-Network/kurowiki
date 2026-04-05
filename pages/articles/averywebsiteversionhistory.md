@@ -1,22 +1,34 @@
 ---
-title: KayWebsite version history
-permalink: KayWebsite_version_history
+title: AveryWebsite version history
+permalink: AveryWebsite_version_history
 redirect_from:
 aliases:
-hatnote: Main article&#58; [KayWebsite](KayWebsite)
+hatnote: Main article&#58; [AveryWebsite](AveryWebsite)
 ---
-This is a list of all released versions of *[KayWebsite](KayWebsite)* and their changelogs, as of February 2026, from latest to earliest.
+This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of March 2026, from latest to earliest.
 
-The changelogs of all versions before and including v3.3.1 are inherited from KayWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
+The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 # Version 26.x
+## 26.3
+Released on 22 March 2026, coinciding with the rebrand from KayAurora to AveryEclipse, it was an major update to KayWebsite, now referred to as AveryWebsite starting with this update.
+
+Most notably, alongside the rebrand, this release introduces a Table of Contents to be displayed in the blog and a complete overhaul of the Devices page. Webrings now use button navigation styles similar to ClyronWebsite v2 versions (except in the Retro Frontend).
+
+The Retro Frontend has been vastly improved as well. Support for the `rfgif` prop has been added, a purely decorative optional prop enabling use of old-school GIFs per page, exclusive to the Retro Frontend. 
+The "non-working link warning" previously added in v26.2 had also been changed to cover any external link in general and is also now its optional boolean `rfwarning` prop that can be enabled per page.
+
+In addition, other general fixes, cleanups and enhancements having been made site-wide.
+
 ## 26.2.1
 Released on 19 February 2026, just about 15 minutes after v26.2, it was a minor hotfix update fixing the display of the buttons and webrings boxes being broken in the main (modern) frontend, discovered to be due to missing CSS code.
+
+This is the final website version release to refer to itself as KayWebsite <!--and to be powered by Astro v5.-->
 
 ## 26.2
 Released on 19 February 2026, it primarily focused around updating information in the Devices page and Homepage, fixing broken links, as well as fixing an issue with the display of the buttons and webrings boxes in the Retro Frontend. Also in the Retro Frontend, a warning was added that button or webring links may not work if using an ancient browser.
 
-This was initially supposed to be a bigger update similarily to v26.1, planned to launch at the latest by late February, however due to the amplitude of changes, added by plans of a rebrand from KayAurora to OneAveryAhead, Avery decided to release v26.2 as a smaller update primarily fixing significant issues from the previous and earlier versions and bringing information up-to-date. Other bigger changes initially planned for v26.2 were delayed until v26.3.
+This was initially supposed to be a bigger update similarily to v26.1, planned to launch at the latest by late February, however due to the amplitude of changes, added by plans of a rebrand from KayAurora to AveryEclipse, Avery decided to release v26.2 as a smaller update primarily fixing significant issues from the previous and earlier versions and bringing information up-to-date. Other bigger changes initially planned for v26.2 were delayed until v26.3.
 
 ## 26.1
 Released on 15 January 2026, it brought significant changes, fixes and restructuring to the website, mostly in the backend but also changes that can be immediately noticeable by the end user in both the Modern and Retro Frontends.

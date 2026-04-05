@@ -1,34 +1,36 @@
 ---
-title: KayWebsite
-permalink: KayWebsite
+title: AveryWebsite
+permalink: AveryWebsite
 isTitleItalic: true
 redirect_from:
     - ClyronWebsite
+    - KayWebsite
 aliases:
     - kayaurora website
-hatnote: For a complete list of KayWebsite versions, see [KayWebsite version history](KayWebsite_version_history).
+    - averyeclipse website
+hatnote: For a complete list of AveryWebsite versions, see [AveryWebsite version history](AveryWebsite_version_history).
 ---
 {% include infoboxes/site.html
 name='AveryWebsite'
 logo='resources/img/articles/kaywebsite/wordmark.png'
 formerly='ClyronWebsite (2024-2025), KayWebsite (2025-2026)'
-developer='KayAurora'
-developerarticle='KayAurora'
+developer='AveryEclipse'
+developerarticle='AveryEclipse'
 writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.2.1'
-currentVersionReleaseDate='2026-02-19'
+currentVersion='v26.3'
+currentVersionReleaseDate='2026-03-22'
 sourceModel='Open source'
-repoLink='https://github.com/thekayaurora/thekayaurora.github.io'
+repoLink='https://github.com/AveryEclipse/averyeclipse.github.io'
 repoHost='GitHub'
 status='Available'
-link='https://kay.is-a.dev'
-image='resources/img/articles/kaywebsite/v26.1.png'
+link='https://avery.is-a.dev'
+image='resources/img/articles/kaywebsite/v26.3.png'
 %}
 
-***KayWebsite*** (also known after its URL name, [kay.is-a.dev](https://kay.is-a.dev)) is [KayAurora](KayAurora)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying *[LynxWebsite](LynxWebsite)* and the *[Lynxmic Blog](Lynxmic_Blog)* under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
+***AveryWebsite*** (also known after its URL name, [avery.is-a.dev](https://avery.is-a.dev)) is [AveryEclipse](AveryEclipse)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying *[LynxWebsite](LynxWebsite)* and the *[Lynxmic Blog](Lynxmic_Blog)* under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
 
 # History
 ## Version 1.x
@@ -48,7 +50,7 @@ Further updates were planned to improve the overall design, but they never happe
 ## Version 2.x
 In October 2024, plans were planted over for a complete rewrite of KayWebsite (then known as ***ClyronWebsite***), switching from Jekyll to Astro. The website layout was originally planned to remain as-is but it was decided later on that the website receives a complete redesign using Tailwind CSS.
 
-The development of v2.0 took more than 3 months, mainly due to KayAurora's lack of motivation and interest. An initial public beta released on 11 January 2025 with frequent rolling updates as the rewrite progressed.
+The development of v2.0 took more than 3 months, mainly due to Avery's lack of motivation and interest. An initial public beta released on 11 January 2025 with frequent rolling updates as the rewrite progressed.
 
 v2.0 was finally finished almost a month later, on 9 February 2025, when it replaced v1.1. The final v2 release was v2.5.2 from 8 July 2025.
 
@@ -80,14 +82,14 @@ v2.0 was finally finished almost a month later, on 9 February 2025, when it repl
 </div>
 
 ## Version 3.x
-Plans for a ClyronWebsite v3.0 trace back to May 2025, as KayAurora had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS, thus regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [KitSixtyFour](KitSixtyFour)'s *[HoriWebsite](HoriWebsite)*.
-Like with the HoriWebsite retro frontend, KayAurora wanted to build one using Microsoft FrontPage 2003, but plans later shifted to just building it on top of the existing Astro ClyronWebsite, to keep maintenence burden low.
+Plans for a ClyronWebsite v3.0 trace back to May 2025, as AveryEclipse had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS, thus regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [KitSixtyFour](KitSixtyFour)'s *[HoriWebsite](HoriWebsite)*.
+Like with the HoriWebsite retro frontend, Avery wanted to build one using Microsoft FrontPage 2003, but plans later shifted to just building it on top of the existing Astro ClyronWebsite, to keep maintenence burden low.
 
 Much of v3.0's development happened in July 2025, immediately after v2.5.2's release. The website has undergone a new major visual overhaul, also nicely incorporating the design of the then-fairly-new KayAurora branding.
 
 v3.0 was finished and released on 18 July 2025, with the website now known under its current naming of ***KayWebsite***. The Retro Frontend came later on 24 July 2025 with v3.1, [extensively and thoroughly tested](https://kay.is-a.dev/blog/2025-07-24-how-low-can-you-go-browser-compatibility/) for compatibility with ancient browsers. v3.2, released 11 August 2025, primarily focused on fixes and refinements.
 
-v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's new visual branding along with a bunch of fixes and improvements. The final v3 release is v3.3.1, released 7 October 2025.
+v3.3 from 14 September 2025 introduced a new color scheme to go with the then-new visual branding of KayAurora along with a bunch of fixes and improvements. The final v3 release is v3.3.1, released 7 October 2025.
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
@@ -107,7 +109,7 @@ v3.3 from 14 September 2025 introduced a new color scheme to go with KayAurora's
 </div>
 
 ## Version 25.x
-KayWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time KayWebsite is built in production. The changelog page was also deprecated entirely in favor of the [KayWebsite version history](KayWebsite_version_history) KuroWiki article.
+KayWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time KayWebsite is built in production. The changelog page was also deprecated entirely in favor of the [AveryWebsite version history](AveryWebsite_version_history) KuroWiki article.
 
 v25.11, released on 6 November 2025, brought various bug fixes and improvements. Similarily, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2 have all focused on smaller changes and fixing other bugs that have been found. The final v25 release was v25.12.2 from 28 December 2025.
 
@@ -128,6 +130,8 @@ The first KayWebsite version release in the v26 series was v26.1 from 15 January
 
 v26.1 brought significant fixes and changes to the website that can be seen both in the modern and retro frontends, while v26.2 and v26.2.1 were smaller versions mainly updating information, fixing bugs from v26.1 and other small quality-of-life improvements.
 
+The website has seen further major changes with v26.3, released 22 March 2026, which has notably seen the website being rebranded from KayAurora to AveryEclipse, now being referred to as AveryWebsite.
+
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/kaywebsite/v26.1.png" 
@@ -135,4 +139,10 @@ v26.1 brought significant fixes and changes to the website that can be seen both
     {% include gallery_item.html 
         image_src="resources/img/articles/kaywebsite/v26.1-retro.png" 
         caption="KayWebsite v26.1 Retro Frontend" %}
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v26.3.png" 
+        caption="AveryWebsite v26.3, March 2026" %}
+    {% include gallery_item.html 
+        image_src="resources/img/articles/kaywebsite/v26.3-retro.png" 
+        caption="AveryWebsite v26.3 Retro Frontend" %}
 </div>

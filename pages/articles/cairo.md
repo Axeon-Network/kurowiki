@@ -7,7 +7,7 @@ hatnote:
 {% include infoboxes/character.html
 name='Cairo'
 creator='Avery'
-creatorurl='OneAveryAhead'
+creatorurl='AveryEclipse'
 designer='Avery'
 introduced='17 March 2025'
 bod='*Unknown Location*'
@@ -18,7 +18,7 @@ species='Catgirl'
 image='resources/img/articles/cairo/profile.png'
 %}
 
-**Cairo** is a fictional character created by [Avery](OneAveryAhead). It was officially introduced on 17 March 2025, after months of planning, continuous experimentation with designs, and draw practicing which initially began as early as November 2024.
+**Cairo** is a fictional character created by [Avery](AveryEclipse). It was officially introduced on 17 March 2025, after months of planning, continuous experimentation with designs, and draw practicing which initially began as early as November 2024.
 
 It had mainly been used as part of the Clyron Branding, though separate drawings have been thought but either cancelled or forgotten about. Usage has been discontinued after May 2025, however an updated "Cairo V2" is planned with an updated and improved design, though there's no estimated introduction date for it.
 

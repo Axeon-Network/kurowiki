@@ -19,10 +19,10 @@ toc: true
 ---
 {% include infoboxes/channel.html
 pfp='resources/img/articles/lynxmic/logo.png'
-author='OneAveryAhead'
+author='AveryEclipse'
 name='Lynxmic'
 creator='Avery'
-creatorurl='OneAveryAhead'
+creatorurl='AveryEclipse'
 videos='126'
 subs='1,543'
 views='242,798'
