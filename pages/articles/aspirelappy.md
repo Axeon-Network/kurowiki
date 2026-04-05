@@ -12,11 +12,15 @@ owner='[KitSixryFour](KitSixtyFour)'
 manufacturer='Acer Inc.'
 model='Aspire One 532g'
 image='resources/img/articles/aspirelappy/desktop.png'
+image_caption='Desktop as of December 2025'
 cpu='Intel Atom N570 (1.66 GHz)' 
 ram='2GB DDR3'
 disk='313GB Western Digital WDC HDD'
 gpu='Intel Graphics Media Accelerator 3150'
+integrated=true
 screenres='1024x600'
+introduced='25 December 2025'
+introISO='2025-12-25'
 screensize='10.1" built-in LCD' %}
 
 **TheAspireLappy** (model *Acer Aspire One D257*) is a laptop manufactured by Acer Inc. in 2011. It is [Kit](Kit64)'s secondary computer since December 2025.

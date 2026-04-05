@@ -25,6 +25,8 @@
     <!-- gotta get a new one this is horiwebsite's one -->
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
     
+    <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon">
+
     <!-- do i need to explain this??? -->
     <title>{{ page.title | default: "Untitled" }} ~ {{ site.title }}</title>
     
@@ -35,6 +37,7 @@
     {% if site.accent-everywhere %}
       {% assign accent-enabled = ".accent" %}
     {% endif %}
+
 
     <link rel="stylesheet" href="./resources/delta/material/material.min{{ accent-enabled }}.css">
     <link rel="stylesheet" href="./resources/delta/css/materialdesignlite.css">
@@ -160,7 +163,7 @@
               {% endif %}
             </span>
             <br>
-            <span style="font-size: smaller; color:darkgray !important;">
+            <span style="font-size: smaller; line-height: 1.0; color:darkgray !important;">
                 Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }})
             </span>
           </span>

@@ -5,8 +5,27 @@
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">Build of {{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</div> <!-- we strip out the p items so it works fine-->
-            <img src="{{ include.image }}" alt="Screenshot of {{ include.family | escape }} {{ include.version }} build {{ include.build }}" class="infobox-img">
-    </div>
+            <img src="{{ include.image }}" alt="{{ include.image_caption }}" class="infobox-img">
+            {% if include.image_caption %}
+            <p class="infobox-img-caption-2">{{ include.image_caption }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if include.image2 %}
+    <div class="infobox-img-container">
+            <img src="{{ include.image2 }}" alt="{{ include.image2_caption }}" class="infobox-img">
+            {% if include.image2_caption %}
+            <p class="infobox-img-caption-2">{{ include.image2_caption }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+    {% if include.image3 %}
+    <div class="infobox-img-container">
+            <img src="{{ include.image3 }}" alt="{{ include.image3_caption }}" class="infobox-img">
+            {% if include.image3_caption %}
+            <p class="infobox-img-caption-2">{{ include.image3_caption }}</p>
+            {% endif %}
+        </div>
     {% endif %}
 
     <table class="infobox-data-table">

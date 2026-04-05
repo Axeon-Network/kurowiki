@@ -1,6 +1,6 @@
 ---
-title: List of KitSixtyFour Codenames
-permalink: List_of_KitSixtyFour_Codenames
+title: List of KitSixtyFour codenames
+permalink: List_of_KitSixtyFour_codenames
 hatnote: "This list is subject to change in the future."
 redirect_from:
     - List_of_Nekori_Codenames
@@ -16,7 +16,7 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **Amber**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The single-gallery item component present in *[Deltari](Deltari)*. Also see [Silver](#S)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The single-gallery item component present in *[Deltari](Deltari)*. Also see [Silver](#s)
 
 **Arctic+1**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Codename for a rewrite of [the original *Arctic*](KitSixtyFour_Arctic) with 32-bit support, as seen in *[Arctic32](Arctic32)*.
@@ -37,7 +37,7 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **Cairo**
-The codebase semester of Axeon Deltari Release Preview 1.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The codebase semester of Axeon Deltari Release Preview 1.
 
 **[Cuber](Cuber)**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An internal successor to *[HoriWebsite](HoriWebsite)*, which features a *Watercolor*-like interface, like the visual style present in [Windows Whistler build 2419](https://betawiki.net/wiki/Windows_XP_build_2419)
@@ -140,6 +140,9 @@ The codebase semester of Axeon Deltari Release Preview 1.
 
 **SpringViewer**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Internal name of the *KuroWiki* media viewer.
+
+**Sydney**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first major release of *[Arctic32](Arctic32)*.
 
 # T
 ---

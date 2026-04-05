@@ -70,7 +70,7 @@ html.seriesbox-title {
     background-color:  var(--infobox-bg);
     color: var(--text-color);
     font-size: 12px !important;
-    line-height: 1.4;
+    line-height: 1.0 !important;
     box-shadow: none;
 }
 
@@ -112,7 +112,6 @@ html.seriesbox-title {
 /* img style + container */
 .infobox-img-container {
     padding: 0;
-    margin-top: 8px !important;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
@@ -130,8 +129,9 @@ html.seriesbox-title {
 }
 
 .infobox-img-caption {
-    padding: 0.5em 0.5em 0.7em 0.5em;
-    color: darkgray;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-align: center;
 }
 
 /* table style */
@@ -159,6 +159,13 @@ html.seriesbox-title {
 .infobox-data-table tr:last-child,
 .seriesbox-data-table tr:last-child {
     border-bottom: none;
+}
+
+.infobox-img-caption-2 {
+    margin-top: -2px;
+    margin-bottom: 2px !important;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* table headers */
@@ -189,5 +196,9 @@ html.seriesbox-title {
 .seriesbox-data-table td {
     padding: 0.3em 0.6em;
     word-wrap: break-word;
+    vertical-align: top;
+}
+
+.delta-infobox-computer-integrated {
     vertical-align: top;
 }

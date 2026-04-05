@@ -45,8 +45,8 @@
     --background-image-light: url('../../img/defaults/bg-light.jpg'); 
     --scrollbar-color-light: rgb(33,80,122) rgb(0,15,28);
     --hatnote-color-light: rgba(255,255,255,0.75);
-    --code-bg-light: rgba(230,230,230,1);
-    --code-border-light:rgba(200,200,200,1);
+    --code-bg-light: #f8f9fa;
+    --code-border-light: #eee;
 }
 
 /* setting the text color might fail under firefox, so we use the variables directly instead */
@@ -86,6 +86,7 @@ html.light-mode {
 /* if this fails to load i will explode */
 * {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 
 /* so the links dont have that ugly underline */
@@ -176,37 +177,17 @@ code {
     font-size: 12.5px;
     color: var(--text-color);
     background-color: var(--code-bg);
-    padding: 0px 2px 1px;
+    padding: 1px 4px 2px;
     border: solid 1px var(--code-border);
-    border-radius: 4px;
 }
 
 .titleItalic {
     font-style: italic !important;
 }
 
-/* * {
-    font-family: 'Roboto', 'Segoe UI', 'Tahoma', sans-serif;
-    font-size: 14px;
+a.footnote::before {
+    content: "["
 }
-
-@font-face {
-    font-family: "Roboto";
-    src: url('../fonts/roboto.ttf') format(ttf);
-    font-style: normal;
-    font-weight: normal;
+a.footnote::after {
+    content: "]"
 }
-
-@font-face {
-    font-family: "Roboto";
-    src: url('../fonts/roboto.ttf') format(ttf);
-    font-style: normal;
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url('../fonts/roboto_italic.ttf') format(ttf);
-    font-style: italic;
-    font-weight: 400;
-} */

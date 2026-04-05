@@ -4,47 +4,55 @@ permalink: Comet_Adventure_build_527
 ---
 
 {% include infoboxes/build.html
-family='Comet Adventure'
-familyurl='Comet_Adventure'
-buildtag='0.5.527.private/kitsixtyfour.260110-1659/<br>0.5.527.private/kitsixtyfour.260110-1746'
+family='[Comet Adventure](Comet_Adventure)'
+buildtag='0.5.527.private/kitsixtyfour.260110-1659<br>0.5.527.private/kitsixtyfour.260110-1746'
 version='0.5'
 build='527'
-lab='kitsixtyfour (private)'
-compiled='2026-01-10 16:59 UTC-6 (Linux)<br>2026-01-10 17:46 UTC-6 (Windows)'
+lab='kitsixtyfour'
+compiled='2026-01-10 16:59 <small>(Linux)</small><br>and 17:46 <small>(Windows)</small>'
 image='resources/img/articles/cometadv527/windows81.png'
+image_caption='Comet Adventure build 527 running under Windows 8.1'
+image2='resources/img/articles/cometadv527/linux.png'
+image2_caption='Ditto, running under Linux'
 %}
 
-**Comet Adventure build 527** is a private *Engine Usability Test* build of [Comet Adventure](Comet Adventure). It was compiled on 10 January 2026. The Linux version was compiled at 4:59 PM (UTC-6) and the Windows version was compiled at 5:46 PM (UTC-6), both from the private `kitsixtyfour` development branch.
+**Comet Adventure build 527** is the third Engine Usability Test[^1] build of *[Comet Adventure](Comet_Adventure)*. The Linux version was compiled on 10 January 2026 at 4:59 PM while the Windows version was compiled 47 minutes later, both from the `kitsixtyfour` development branch.
 
-Screenshots of this build's Microsoft Windows compile running on Windows Vista and Windows 8.1 (plus the Details tab from the Properties dialog), alongside a Windows Explorer view of the Linux compile's folder (featuring [build 513](Comet_Adventure_build_513)) had been shared on the [Nishi's Den](Nishi's_Den) Discord server.
-
-This is the second *Engine Usability Test* build known to exist, the first being build 513.
+Several screenshots of this build's Windows version alongside a Properties dialog, and a Windows Explorer window showing the Linux version's folder (featuring [build 513](Comet_Adventure_build_513)) had been sent to the [Nishi's Den](Nishi's_Den) Discord server.
 
 # Changes
-Changes over build 513 include a fix with Luigi/""Daylight""'s[^1] moveset, the latter triggering the `daylight_jump` animation when Mario/""Comet""[^1] jumps. Another fix is both characters not jumping at the same time when both of their respective keybinds are pressed.
+A bug regarding Daylight (shown as Luigi) jumping on his own whenever Comet (shown as Mario) jumps was fixed[^2]. Additionally, both characters can now jump at the same time whenever their respective keybinds are pressed at the same time.
+
+# Public release
+This build's Windows and Linux compiles, alongside [other](Comet_Adventure_build_513) [several](Comet_Adventure_build_594) [builds](Comet_Adventure_build_621) compiled for Linux only, were released by KitSixtyFour on 26 January 2026 on the Nishi's Den Discord server.
 
 # Gallery
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/cometadv527/windowsvista.png"  
-        caption="Comet Adventure build 527 running on Windows Vista"
+        caption="Comet Adventure build 527 running under Windows Vista"
         style="width:50%;" %}
 
-    {% include gallery_item.html 
-        image_src="resources/img/articles/cometadv527/windows81.png"  
-        caption="Comet Adventure build 527 running on Windows 8.1"
-        style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/cometadv527/properties.png"  
-        caption="The Details tab from the Properties dialog"
+        caption="The Details tab from the Properties dialog, showing the full build tag"
+        style="width:50%;" %}
+
+    {% include gallery_item.html 
+        image_src="resources/img/articles/cometadv527/properties_dp.png"  
+        caption="Ditto, *Comet Adventure Build Pack* version"
         style="width:50%;" %}
 
     {% include gallery_item.html 
         image_src="resources/img/articles/cometadv527/explorer.png"  
-        caption="Windows Explorer folder listing showing the Linux compiles of build 527 and build 513"
+        caption="The Windows Explorer window showing the Linux compiles of build 513 and 527"
         style="width:50%;" %}
 </div>
 
+# Further reading
+- [Development of Comet Adventure § Engine Usability Test](Development_of_Comet_Adventure#engine-usability-test)
+
 # Notes
-[^1]: Similar to the *Internal Experimental Release* builds of *Comet Adventure*, this build uses the Mario and Luigi sprites from *Mario & Luigi: Bowser's Inside Story* as placeholders due to Comet and Daylight's sprites not existing at the time when this build was compiled.
+[^1]: Later known as *Developer Preview* on the Windows version.
+[^2]: In similar fashion to the *Internal Experimental Release* development stage, this build uses sprites from *[Mario & Luigi: Bowser's Inside Story](https://mariowiki.com/wiki/Mario_&_Luigi:_Bowser's_Inside_Story)* as placeholders for Comet and Daylight since their character designs were not finalized at this point.

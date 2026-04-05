@@ -4,8 +4,11 @@
 <div class="infobox mdl-shadow--4dp">
     {% if include.image %}
     <div class="infobox-img-container">
-        <div class="infobox-img-caption">Desktop screenshot of {{ include.name }}</div>
+        <div class="infobox-img-caption"></div>
         	<img src="{{ include.image }}"  style="width:75%;" class="infobox-img">
+            {% if include.image_caption %}
+            <p class="infobox-img-caption-2">{{ include.image_caption }}</p>
+            {% endif %}
     </div>
     {% endif %}
 
@@ -23,6 +26,35 @@
                 <th>Model</th>
                 <td>{{ include.model }}</td>
             </tr>
+
+            <!-- we use introISO to calculate the actual time, using other stuff would make it inaccurate -->
+            {% if include.introISO %}
+            {% assign now_year = "now" | date: "%Y" | plus: 0 %}
+            {% assign now_month = "now" | date: "%m" | plus: 0 %}
+            {% assign intro_year = include.introISO | date: "%Y" | plus: 0 %}
+            {% assign intro_month = include.introISO | date: "%m" | plus: 0 %}
+
+            {% assign total_now_months = now_year | times: 12 | plus: now_month %}
+            {% assign total_intro_months = intro_year | times: 12 | plus: intro_month %}
+            {% assign diff_months = total_now_months | minus: total_intro_months %}
+            
+            <!-- now we do the math and capture it for later use: if it's months, use months ago, if it's years, use years ago -->
+            {% capture timeago %}
+            {% if diff_months > 0 %}
+                {% if diff_months < 12 %}
+                    ({{ diff_months }} {% if diff_months == 1 %}month{% else %}months{% endif %} ago)
+                {% else %}
+                    {% assign diff_years = diff_months | divided_by: 12 %}
+                    ({{ diff_years }} {% if diff_years == 1 %}year{% else %}years{% endif %} ago)
+                {% endif %}
+            {% endif %}
+            {% endcapture %}
+            {% endif %}
+
+            <tr>
+                <th>Introduced</th>
+                <td>{{ include.introduced }} {{ timeago }}</td>
+            </tr>
             {% if include.hostname %}
             <tr>
                 <th>Hostname</th>
@@ -36,24 +68,35 @@
 	<tbody>
        	<tr>
                 <th>Processor</th>
-                <td>{{ include.cpu }}</td>
+                <td>{{ include.cpu | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
-                <th>RAM</th>
-                <td>{{ include.ram }}</td>
+                <th>Memory</th>
+                <td>{{ include.ram | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
-	    <tr>
-                <th>GPU</th>
-                <td>{{ include.gpu }}</td>
+
+            {% if include.integrated %}
+                {% assign integrated = "<sup class='delta-infobox-computer-integrated'>(Integrated)</sup>" %}
+            {% endif %}
+
+	        <tr>
+                <th>Graphics Card</th>
+                <td>{{ include.gpu }} {{ integrated }}</td>
             </tr>
             <tr>
                 <th>Hard Drive</th>
-                <td>{{ include.disk }}</td>
+                <td>{{ include.disk | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
-	<tr>
-                <th>Screen</th>
-                <td>{{ include.screenres }} ({{ include.screensize }})</td>
+	        <tr>
+                <th>Display</th>
+                <td>{{ include.screenres | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.screensize }})</td>
             </tr>   
+            {% if include.os %}
+            <tr>
+                <th>Operating System</th>
+                <td>{{ include.os }}</td>
+            </tr>
+            {% endif %}
             </tbody>
     </table>
 </div>
