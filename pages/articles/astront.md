@@ -20,7 +20,7 @@ linkname='youtube.com/@AstroNTWorkstation'
 linkurl='https://youtube.com/@AstroNTWorkstation'
 %}
 
-**AstroNT** (*codenamed StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [Kit](KitSixtyFour) and [Avery](OneAveryAhead) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
+**AstroNT** (*codenamed StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [Kit](KitSixtyFour) and [Avery](AveryEclipse) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
 
 It was teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [NekoCafe](NekoCafe) Discord servers and announced in the aforementioned servers following the release of the channel trailer [channel trailer](https://youtu.be/Bea3xfG11fs) on 25 October. The first video was released on 3 November.
 
@@ -42,6 +42,7 @@ As of February 2026, there are 8 videos uploaded to the AstroNT channel (excludi
 - **Installing Windows Longhorn via MS-DOS! (Post-Reset)** - *uploaded 2026-01-25*
 - **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
 - **Turning Windows 11 into Windows XP, kinda... (ExplorerEx)** - *uploaded 2026-02-28*
+- **Converting Windows XP to "Windows Server 2003" (on RTM!)** - *uploaded 2026-03-29*
 
 # AstroNT Advanced Server
 

@@ -10,7 +10,7 @@ aliases:
 ---
 **Cairo Company Incorporated** (officially abbreviated as **CC** or **CC Inc.**) is a fictional [Lynxian](Lynxia) company. It was founded February 2025 as a tentative for a major global rival to [Dogui Heavy Industries](Dogui_Heavy_Industries_Incorporated) of [NovaLand](NovaLand), where it has been known to also been investing through its subsidiary registered there.
 
-The company's name is inherited from the [Avery](OneAveryAhead)-drawn [Cairo](Cairo) original character (OC), with the "Company" term added to make for an appealing name with good abbreviation.
+The company's name is inherited from the [Avery](AveryEclipse)-drawn [Cairo](Cairo) original character (OC), with the "Company" term added to make for an appealing name with good abbreviation.
 
   <div>
     {% include figure_item.html 

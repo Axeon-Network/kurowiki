@@ -3,7 +3,7 @@ title: pc tec tutorial
 permalink: pc_tec_tutorial
 ---
 
-**pc tec tutorial** is an inside joke meme in the [OneAveryAhead](OneAveryAhead)/[Lynxmic](Lynxmic) universe, from late 2024-early 2025.
+**pc tec tutorial** is an inside joke meme in the [AveryEclipse](AveryEclipse)/[Lynxmic](Lynxmic) universe, from late 2024-early 2025.
 
 The original meaning dates back to a Lynxmic sponsorship email from sometime around October-November 2024, shown on the [LynxPlaza](Axeon_Network) Discord server.
 
