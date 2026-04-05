@@ -22,12 +22,12 @@ platform='Discord\ Stoat\ Twitch Desktop (formerly)\ Steam Chat (formerly)'
 creationDate='2017-12-18'
 openedDate='2017-12-28'
 type='Public'
-memberCount='97 (as of 2026-02-09)'
+memberCount='98 (as of 2026-03-15)'
 link='https://axeon-network.github.io/discord'
 image='resources/img/articles/axeonnetwork/logo.png'
 %}
 
-**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [KayAurora](KayAurora)), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), and previously [MidoriMC](MidoriMC) prior to its closure, along with other proposed projects over time.
+**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [KayAurora](KayAurora)), which had always been the 'heart' of the network from the start, other stuff include a Stoat (formerly revolt.chat) server of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 

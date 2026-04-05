@@ -15,6 +15,7 @@ redirect_from:
     - BriciWorld
     - Computerseasons
 hatnote: This article is incomplete.
+toc: true
 ---
 {% include infoboxes/channel.html
 pfp='resources/img/articles/lynxmic/logo.png'
@@ -49,13 +50,14 @@ The Lynxmic channel was initially created as Computerseasons on 5 December 2016,
 Later on 24 December 2016, the Computerseasons Twitter Account would be created under the handle `@ComputerStudio2` (today `@Lynxmic`), which would be primarily used to interact with English-language accounts. This account would however stay mostly inactive until around July 2017, when it began to be used until KayAurora quit Twitter in 2023 in favor of the Fediverse.
 
 2016 videos mostly consisted of videos made with the Adobe Flash-based YT Video Editor or RAW unedited recordings. Today, only one of the 2016 videos still exist, albeit private for privacy reasons.
+
    <div>
-    {% include figure_item.html 
+        {% include figure_item.html 
         image_src="resources/img/articles/lynxmic/cs_channel_picture.png" 
         alt_text="" 
         caption="Computerseasons logo, December 2016"
         style="width:10%; height:auto" %}
-        </div>
+    </div>
 
 January 2017 saw the launch of the second/extras channel of Computerseasons, named **Computerseasons2** (today MoreLynxmic).
 
@@ -110,29 +112,36 @@ An official "Lynxmic Discord Server" was launched as [Lynxmic Official Server](L
 
 2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after KayAurora got [a new main laptop](Thei3Lappy) to replace [TheHaswellLappy](TheHaswellLappy), which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.
 
+In November-December 2021, the Lynxmic channel celebrated its 5th anniversary since its creation, with whole branding changes introduced for the first time since 2019, including a new Lynxmic logotype which is still in use to this day, as well as a new font, with the background being a poly instead of a gradient.
+
 Most videos during 2020 and 2021 have had less than 100 views, while only a few videos had 100-500 views.
 
-## 2022: 100 subscribers
-*This section is incomplete.*
+## 2022-2023: 400 subscribers, weekly schedule, "fresh coat of purple paint"
+In 2022, videos were posted in a more frequent basis similar to 2020. However, starting from August 2022 a video release schedule had been officially introduced, where new videos would generally come out every Saturday morning (GMT+2/+3, depending on if Daylight Saving Time is in effect or not).
 
-2022 has seen more frequent videos than in 2021, especially since August when the channel moved to a weekly schedule with videos uploaded every Saturday morning (UTC+2/+3, depending if Daylight Saving Time is in effect or not).
+The channel had started to see some growth throughout 2022, after stagnating for the past few years prior, and re-hit 100 subscribers in October, this time for good without dropping below the threshold again. Views per video, albeit largely the same, have been also somewhat increasing, with multiple videos going past 1K views.
 
-The channel re-hit 100 subscribers in October.
+A new drastically changed thumbnail design was introduced in late July 2022, which was then updated in October 2022 with all the videos using the new thumbnail style having gotten their thumbnails changed to accomodate YouTube's then-new rounded corners that were added in thumbnails and other parts of the UI. Also in October, the branding was changed from a poly back to a gradient, this time a radial one.
 
-## 2023: 400 subscribers
-*This section is incomplete.*
+In September 2022, the *LynxLIVE* branding was scrapped entirely in the case of livestreams, while new annual *LynxLIVE Special* streams and the *LynxLIVE Highlight* series were cancelled due to their redundancy. The first stream to not have the LynxLIVE branding was a stream revisiting Windows 10 Technical Preview. In early December 2022, the [Axeon](Axeon_Network#Discord_Server) server was renamed to *Lynxmic's Square*, an adaptation of a Lynxmic Discord Server to "[then] today's reality".
 
-2023 saw the current most popular video being uploaded in February, *Upgrading from Windows 1.0 to Windows 10*, with over 35K views. The weekly schedule generally in place since August 2022 has been phased out in April 2023. The channel ended 2023 with over 400 subscribers, by far the largest rise in analytical numbers since 2018.
+The weekly schedule was temporarily suspended in time for the winter holidays in 2022-23, resuming in the third Saturday of 2023 (21 January). During this time, a video was uploaded on 10 January 2023 on the Windows 8.1 EOS.
+
+In February, the current most popular Lynxmic video was uploaded being *Upgrading from Windows 1.0 to Windows 10*, with over 35K views, which set the path for the future not just for the Lynxmic project, but also Avery themselves.
+
+That said, the weekly schedule has been phased out after March 2023 as plans for an entire channel revamp, the biggest one thus far since the renaming to Lynxmic in 2019, were taking place. In May 2023, the new branding was finally introduced, with the blue having been done away in favor of a purple, however videos wouldn't actively properly resume again until June 2023. From here on, there would be generally at least 1-2 videos per month on random dates.
+
+By the end of 2023, Lynxmic had surpassed 400+ subscribers with thousands of total views, overtaking even analytical numbers from 2018.
 
 ## 2024: 1,000 subscribers
 ### *Lynxmic 2024*
 The Lynxmic project entered 2024 with a new branding, which would use a pink-blue gradient, part of wider plans for the biggest and most ambitious changes in Lynxmic history that took place on the night between 2023 and 2024.
 
-Original concepts pointed that the pinkish color would mainly represent the YouTube channel side (which had already seen a record growth in 2023 especially under the now-previous purple branding), while the blue color would represent the Lynxmic “online identity”. [LynxWebsite](LynxWebsite) and [Lynxmic’s Lodge](Axeon_Network) would have used the main pink-blue gradient branding. Earliest concepts/ideas date back to early October 2023.
+Original concepts pointed that the pinkish color would mainly represent the YouTube channel side (which had already seen a record growth in 2023 especially under the now-previous purple branding), while the blue color would represent the Lynxmic “online identity”. [LynxWebsite](LynxWebsite) and [Lynxmic’s Lodge](Axeon_Network#Discord_Server) would have used the main pink-blue gradient branding. Earliest concepts/ideas date back to early October 2023.
 
 In the end though, it was decided that the pink-blue profile picture be used generally everywhere, with the blue profile picture being used for MoreLynxmic and Lynxmic’s Lodge, as KayAurora wasn’t quite content with the pink profile picture.
 
-As part of the changes, LynxWebsite changed from a simple landing page with links to an all-round personal website. As for [Lynxmic’s Lodge](Axeon_Network) (renamed from Lynxmic’s Square), it was thought as an ““all-new”” Discord Server albeit built on top of the same server from 2017 with all its existing members and message history.
+As part of the changes, LynxWebsite changed from a simple landing page with links to an all-round personal website. As for [Lynxmic’s Lodge](Axeon_Network#Discord_Server) (renamed from Lynxmic’s Square), it was thought as an ““all-new”” Discord Server albeit built on top of the same server from 2017 with all its existing members and message history.
 
 ### Channel evolution and uploads
 2024 has seen the most growth on the Lynxmic and MoreLynxmic channels, with a jump from over 400+ subscribers to almost 1,400 subscribers, engagement levels never seen in previous years. Many videos have went past 1,000 views, some even being in the top of most viewed videos to this day with over 10K-20K views: *Swapping Windows 11’s and Windows NT 4.0’s Registries*, *Recreating my First PC in a VM* and *There’s a variant of Windows 8.1 with a Start Menu*, released in October, August and July 2024 respectively.

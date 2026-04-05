@@ -190,14 +190,16 @@
             </noscript>
 		        <div id="pagecontent">
               <!-- table of contents -->
+               {% if page.toc %}
               <figure class="in-this-article">
-                  <div class="mdl-card mdl-shadow--2dp kuro-card_can-has-transparency">
+                  <div class="mdl-card mdl-shadow--2dp">
                    <details open>
                     <summary>In this article...</summary>
-                    <ul id="table-of-contents"></ul>
+                    <ol id="table-of-contents"></ol>
                    </details>
                    </div>
                   </figure>
+                  {% endif %}
               {{content}}
 		        </div>
           </div>
@@ -223,7 +225,9 @@
     </div>
 
     <!-- scripts! -->
+    {% if page.toc %}
     <script src="./resources/delta/js/toc.js"></script>
+    {% endif %}
     <script src="./resources/delta/js/randomArticle.js"></script>
     <script src="./resources/delta/js/featuredArticle.js"></script>
     <script src="./resources/delta/js/springviewer.js"></script>
