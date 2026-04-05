@@ -77,7 +77,7 @@ idprefix: "rc1" # Release Candidate 1
 debug: true
 # = Private Build =
 # Similar to Microsoft Windows, self-explanatory
-privatebuild: true
+privatebuild: false
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
