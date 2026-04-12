@@ -14,20 +14,20 @@ This article is a list of all known [*KuroWiki*](KuroWiki) builds.
 ## Pre-Alpha Release
 *Build numbers were reintroduced until KuroWiki 1.0.1*
 
-[Pre-Alpha 0.1](KuroWiki_Pre-Alpha_0.1) 0.1.main.250504-????
-[Pre-Alpha 0.2](KuroWiki_Pre-Alpha_0.2) 0.2.main.250504-????
-[Pre-Alpha 0.3](KuroWiki_Pre-Alpha_0.3) 0.3.main.250504-????
-[Pre-Alpha 0.4](KuroWiki_Pre-Alpha_0.4) 0.4.main.250504-????
-[Pre-Alpha 0.5](KuroWiki_Pre-Alpha_0.5) 0.5.main.250504-????
-[Pre-Alpha 0.5.2](KuroWiki_Pre-Alpha_0.5.2) 0.5.2.main.250504-????
-[Pre-Alpha 0.5.3](KuroWiki_Pre-Alpha_0.5.3) 0.5.3.main.250505-????
+[0.1](KuroWiki_build_0.1) 0.1.main.250504-????
+[0.2](KuroWiki_Pre-Alpha_0.2) 0.2.main.250504-????
+[0.3](KuroWiki_Pre-Alpha_0.3) 0.3.main.250504-????
+[0.4](KuroWiki_Pre-Alpha_0.4) 0.4.main.250504-????
+[0.5](KuroWiki_Pre-Alpha_0.5) 0.5.main.250504-????
+[0.5.2](KuroWiki_Pre-Alpha_0.5.2) 0.5.2.main.250504-????
+[0.5.3](KuroWiki_Pre-Alpha_0.5.3) 0.5.3.main.250505-????
 
 ## Alpha Release
-[Alpha 1.1](KuroWiki_Alpha_1.1) 1.1.250506-????
-[Pre-Alpha 0.1](KuroWiki_Alpha_1.2) 1.2.250506-????
+[1.1](KuroWiki_Alpha_1.1) 1.1.250506-????
+[1.2](KuroWiki_Alpha_1.2) 1.2.250506-????
 
 ## Beta 1
-[Beta 1.0](KuroWiki_Beta_1.0) 1.0.main.250507-????
+[1.0](KuroWiki_Beta_1.0) 1.0.main.250507-????
 [1.0.1.367.main.250515-1422](KuroWiki_build_367)
 
 ## Beta 2

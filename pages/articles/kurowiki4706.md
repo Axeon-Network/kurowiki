@@ -15,7 +15,7 @@ compiled='2026-03-09 00:25 UTC+2'
 image='resources/img/articles/kurowiki4706/home.png'
 %}
 
-**KuroWiki build 4706** is a RC1 build of KuroWiki, compiled on 9 March 2026 at 00:25 UTC+2 from the `kayaurora` development branch.
+**KuroWiki build 4706** is a Release Candidate 1 build of KuroWiki, compiled on 9 March 2026 at 00:25 UTC+2 from the `kayaurora` development branch.
 
 Screenshots with this build have been published with a final design of the Table of Contents (ToC) box, simply known in the frontend as the *In this article...* box, which is however still not implemented well enough in this build due to quirks such as improper aligning or it appearing where it shouldn't, like the Homepage or the Settings page.
 

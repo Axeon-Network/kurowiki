@@ -1,6 +1,7 @@
 /* 
     Kuro/ModularDelta InfoBox Stylesheet File
-    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
+    Written by KitSixtyFour/StupidBiFox
+    Copyright 2025-2026 Axeon Network.
 
     Licensed under the MIT License, which is included below:
 
@@ -132,6 +133,11 @@ html.seriesbox-title {
     padding-top: 8px;
     padding-bottom: 6px;
     text-align: center;
+}
+
+.computer-desktop {
+    min-width: 97% !important;
+    margin-top: -8px !important;
 }
 
 /* table style */

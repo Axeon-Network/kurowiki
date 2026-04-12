@@ -15,7 +15,7 @@ compiled='2026-02-19 4:35 UTC+2'
 image='resources/img/articles/kurowiki4641/article.png'
 %}
 
-**KuroWiki build 4641** is an RC1 build of KuroWiki, compiled on 19 February 2026 at 4:35AM UTC+2 from the `kayaurora` branch.
+**KuroWiki build 4641** is an Release Candidate 1 build of KuroWiki, compiled on 19 February 2026 at 4:35AM UTC+2 from the `kayaurora` branch.
 
 A screenshot of this build's Deltari Test Page was sent on the [Axeon Network](Axeon_Network#Discord_Server) Discord server, showing a fully implemented Download Box element and a broken "Part of a series of articles on" infobox (also known as an "article series box", or an "seriesbox" in the source code).
 

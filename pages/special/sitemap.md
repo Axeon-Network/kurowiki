@@ -12,6 +12,6 @@ There are <b>{{ article_pages | size }}</b> articles in total.
 
 {% for page in article_pages %}
 
-- [{{ page.title }}]({{ site.url }}{{ site.baseurl }}{{ page.url }}) - *{{site.url}}{{ site.baseurl }}{{ page.url }}*
+- [{{ page.title }}]({{ site.url }}{{ site.baseurl }}{{ page.url | remove: '.html' }}) - *{{site.url}}{{ site.baseurl }}{{ page.url | remove: '.html' }}*
 
 {% endfor %}

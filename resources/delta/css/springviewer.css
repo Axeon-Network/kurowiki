@@ -1,6 +1,7 @@
 /* 
     Kuro/ModularDelta SpringViewer Stylesheet File
-    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
+    Written by KitSixtyFour/StupidBiFox
+    Copyright 2025-2026 Axeon Network.
     If you are looking for the CSS code used in galleries, the component that invokes
     SpringViewer, see gallery.css.
     Licensed under the MIT License, which is included below:
@@ -95,34 +96,48 @@ html.light-mode {
     background-color: none;
 }
 
+/* The Container: Fills the screen but creates a "safe zone" for the footer */
 #viewer-media-container {
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding-bottom: 6.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* 100vh minus the 89px footer height */
+    height: calc(100vh - 89px); 
     z-index: 4;
-}
-#viewer-media-element {
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    border: none;
-    margin: 0 auto;
-    max-height: 86.04%;
-    max-width: 85%;
-    object-fit: contain;
+    overflow: hidden;
 }
 
-@media (max-width:1024px) {
+/* The Image: The "Smart" scaling logic */#viewer-media-element {
+    width: auto;
+    height: auto;
+
+    /* Let it touch the left and right sides of the screen */
+    max-width: 100%; 
+
+    /* Let it touch the very top of the screen, and the very top of the 89px footer */
+    max-height: calc(100vh - 89px); 
+
+    object-fit: contain;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+@media (max-width: 1024px) {
     #viewer-media-element {
-        max-height: 75% !important;
+        /* Keep the logic consistent even on tablets */
+        max-height: calc(100vh - 160px) !important;
     }
 }
 
-@media (max-width:1023px) {
+@media (max-width: 767px) {
     #viewer-media-element {
-        max-height: 40% !important;
+        /* On phones, give a bit more horizontal breathing room */
+        max-width: 98vw;
+        max-height: calc(100vh - 180px) !important;
     }
 }
 
