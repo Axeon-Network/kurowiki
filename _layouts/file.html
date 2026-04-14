@@ -11,7 +11,7 @@
     <meta property="og:url" content="{{ site.url }}">
     <meta name="theme-color" content="#ffffff">
     <meta content="website" property="type">
-
+    
     <!-- the font (i dont think it works) -->
     <!-- it had the wrong fucking link bruh -->
     <!-- now why isnt roboto bolding -kit/sbf -->
@@ -42,9 +42,7 @@
 
     <link rel="stylesheet" href="./resources/delta/material/material.min{{ accent-enabled }}.css">
     <link rel="stylesheet" href="./resources/delta/css/materialdesignlite.css">
-    <link rel="stylesheet" href="./resources/delta/css/infobox.css">
     <link rel="stylesheet" href="./resources/delta/css/global.css">
-    <link rel="stylesheet" href="./resources/delta/css/gallery.css">
     <link rel="stylesheet" href="./resources/delta/css/springviewer.css"> 
     <!-- springviewer takes alot of lines okay~ -->
 
@@ -219,23 +217,14 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }} {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %}) &nbsp;
+            &nbsp;USING FILE LAYOUT VIEW<br>{{ privatewarning }} {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %}) &nbsp;
           </p>
         {% endif %}
       </main>
     </div>
 
-    <!-- scripts! -->
-    {% if page.toc %}
-    <script src="./resources/delta/js/toc.js"></script>
-    {% endif %}
-    <script src="./resources/delta/js/randomArticle.js"></script>
-    <script src="./resources/delta/js/featuredArticle.js"></script>
     <script src="./resources/delta/js/springviewer.js"></script>
     <script src="./resources/delta/js/lightMode.js"></script>
-
-    <!-- dyk.js file - to be deprecated -->
-    <script src="./resources/js/dyk.js"></script>
     
     <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
     <script src="./resources/js/showOneko.js"></script>

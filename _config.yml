@@ -78,6 +78,10 @@ debug: true
 # = Private Build =
 # Similar to Microsoft Windows, self-explanatory
 privatebuild: false
+# = Extended Build Lab =
+# Shows the branch and timestamp of the build, instead of the major, minor
+# and build number
+buildlabex: false
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
@@ -123,6 +127,16 @@ defaults:
       type: "pages"
     values:
       layout: "material"
+  -
+    scope:
+      path: "media"
+    values:
+      layout: "file"
+
+collections:
+  files:
+    output: true
+    permalink: "/wiki/File::name"
 
 livereload: true
 open_url: true
