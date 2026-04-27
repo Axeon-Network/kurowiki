@@ -5,7 +5,7 @@ redirect_from:
     - Dell_Latitude_3380
     - SuperNova
     - Thei5Lappy
-hatnote: 'For the character that it is named after, see [Nishi](Nishi).'
+hatnote: 'For the character that it is named after, see [Nishi](Nishi). For its successor, see [NishiLappyV2](NishiLappyV2)'
 ---
 
 {% include infoboxes/computer.html
@@ -27,7 +27,7 @@ screensize='13.3" built-in LCD'
 os='Windows 10 Enterprise LTSC 2019'
 %}
 
-**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is [KitSixtyFour](KitSixtyFour)'s main computer since November 2024.
+**NishiLappy**, formerly known as **Thei5Lappy** (model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [Kit](KitSixtyFour)'s main computer from November 2024 to April 2025 following the introduction of [NishiLappyV2](NishiLappyV2).
 
 # Name
 The computer was originally known as ***Thei5Lappy*** since 29 November 2024, the latter becoming a reference to [TheCeleryPC](TheCeleryPC)'s nickname; as it followed the same naming system: *The* being used as an obligatory prefix, *i5* being the computer's processor, and *Lappy* being a common nickname for the word *laptop*.
@@ -36,7 +36,7 @@ Between July and August 2025, it was temporarily known as ***SuperNova***, follo
 
 Since November 2025, it has been known under the name ***NishiLappy***, the latter being a merger of *[Nishi](Nishi)* (Kit's fursona) and *Lappy*.<br>Both *Thei5Lappy* and *NishiLappy* had been used simultaneously between November 2025 and March 2026: *Thei5Lappy* was used to refer to the computer itself, while *NishiLappy* was used as the computer's hostname (also known as a computer name). 
 
-Following the introduction of [CometLappy](CometLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
+Following the introduction of [NishiLappyV2](NishiLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
 
 
 

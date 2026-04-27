@@ -212,12 +212,12 @@
 	
         {% assign privatewarning = "" %}
         {% if site.privatebuild %}
-          {% assign privatewarning = "For testing purposes only." %}
+          {% assign privatewarning = "For testing purposes only. " %}
         {% endif %}
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;USING FILE LAYOUT VIEW<br>{{ privatewarning }} {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %}) &nbsp;
+            &nbsp;USING FILE LAYOUT VIEW<br>&nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>

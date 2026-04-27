@@ -32,7 +32,7 @@
 /* variables */
 html {
     /* dark mode */
-    --contentbox-background-color-dark: rgba(0,0,0,0.4);
+    --contentbox-background-color-dark: rgba(0,0,0,0.35);
     --search-background-color-dark: rgba(50,50,50,0.5);
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);

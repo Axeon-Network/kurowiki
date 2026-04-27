@@ -29,12 +29,12 @@
 /* variables */
 :root {
     /* dark mode */
-    --accent-dark: rgb(226,179,100);
-    --title-color-dark: rgb(226,179,100);
+    --accent-dark: rgb(213,177,203);
+    --title-color-dark: rgb(213,177,203);
 
     --text-color-white: white;
-    --background-image-dark: url('../../img/defaults/bg-dark.jpg'); 
-    --scrollbar-color-dark: rgb(155,91,54) rgb(59,33,20);
+    --background-image-dark: url('../../img/defaults/bg-dark.jpg');
+    --scrollbar-color-dark: rgb(73,135,176) rgb(25,55,106);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
     --code-bg-dark: rgba(0,0,0,0.5);
