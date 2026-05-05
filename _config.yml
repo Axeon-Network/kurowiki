@@ -78,7 +78,7 @@ privatebuild: false
 # = Extended Build Lab =
 # Shows the branch and timestamp of the build, instead of the major, minor
 # and build number
-buildlabex: false
+buildlabex: true
 
 # = Retail Mode =
 # Self-explanatory, used for public releases

@@ -5,7 +5,7 @@ permalink: Arctic32_build_200
 
 {% include infoboxes/build.html
 family='[Arctic32](Arctic32)'
-buildtag='200.arc_rwrite.260330-1627'
+buildtag='1.0.200.arc_rwrite.260330-1627'
 version='1.0'
 build='200'
 lab='arc_rwrite'
@@ -14,8 +14,7 @@ image='resources/img/articles/arctic200/firstboot.png'
 image_caption='First boot'
 %}
 
-**Arctic32 build 200** is an early build of [Arctic32](Arctic32) compiled on 30 March 2025 at 4:27 PM UTC-6 from the `arc_rwrite` development branch. It is the first build of Arctic32 compiled in over 5 months after the [4 October build](Arctic32_unidentified_4_October_2025_build).
 
-**Arctic32 build 200** is an early build of [Arctic32](Arctic32) compiled on 30 March 2025 at 4:27 PM UTC-6 from the `arc_rwrite` development branch.
+**Arctic32 build 200** is an early development build of [Arctic32](Arctic32) compiled on 30 March 2026 at 4:27 PM UTC-6 from the `arc_rwrite` development branch. It is the first Arctic32 build compiled in 2026, over 5 months after the [October 2025 build](Arctic32_unidentified_October_2025_build)
 
 Unlike the October build, this build uses a modified version of the [Arctic16](Arctic16) kernel, meaning it has no 32-bit support and therefore is 16-bit.

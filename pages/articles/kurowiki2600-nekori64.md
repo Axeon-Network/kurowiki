@@ -1,10 +1,14 @@
 ---
-title: KuroWiki build 2600 (Beta 6)
-permalink: KuroWiki_build_2600_(Beta_6)
+title: KuroWiki build 2600 (nekori64)
+permalink: KuroWiki_build_2600_(nekori64)
+redirect_from:
+    - KuroWiki_build_2600_(Beta_6)
 hatnote: Not to be confused with the official KuroWiki Beta 5 release, <a href='KuroWiki_build_2600'>KuroWiki build 2600 (main)</a>.
 aliases:
     - kurowiki 2600
     - kurowiki 2600 beta 6
+dyk:
+    - "...that [KuroWiki build 2600 (nekori64)](KuroWiki_build_2600_(nekori64))'s build number was the result of an internal Panther bug?"
 ---
 {% include infoboxes/build.html
 family='[KuroWiki](KuroWiki)'

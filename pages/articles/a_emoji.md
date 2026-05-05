@@ -7,6 +7,9 @@ redirect_from:
 aliases: 
     - a emoji
     - a
+dyk:
+    - "...that the [A Emoji](A_Emoji) was introduced in 2023 and is the earliest [KitSixtyFour](KitSixtyFour) meme?"
+    - "...that [Kit](KitSixtyFour) originally thought the [A Emoji](A_Emoji) was a shouting emoji?"
 ---
 
 🅰️, officially named *A Button (Blood Type)*, is one of the many emojis on the Internet. Its primary design consists of the A letter on a red background. A Button (Blood Type) was approved as part of Unicode 6.0 with code point "U+1F170" in 2010 and added to Emoji 1.0 in 2015.

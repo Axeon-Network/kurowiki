@@ -5,6 +5,9 @@ permalink: Making_a_Custom_Windows_Bootleg
 redirect_from:
    - Making_a_Custom_Windows_Bootleg_(but_Everything_Goes_Wrong)
    - How_to_(NOT)_make_a_Windows_Bootleg
+dyk:
+   - "...that *[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)* took over 1 month to make?"
+   - "...that the bootleg featured in *[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)* has SketchUp preinstalled as a nod to one of KitSixtyFour's sisters?"
 ---
 
 ***Making a Custom Windows Bootleg***[^1] is a YouTube video made by [KitSixtyFour](KitSixtyFour) for the [AstroNT](AstroNT) channel, becoming the 10th video overall.

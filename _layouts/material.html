@@ -140,11 +140,10 @@
           <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random Article
           </a>
-
+          {% if site.debug %}
           <a class="mdl-navigation__link" id="drawerlink" href="./KuroWiki:PTBW">
             <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
           </a>
-          {% if site.debug %}
           <a class="mdl-navigation__link" id="drawerlink" href="./Deltari:Test_Page">
             <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Deltari Test Page
           </a>
@@ -190,19 +189,12 @@
               <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
             </noscript>
 		        <div id="pagecontent">
-              <!-- table of contents -->
-               {% if page.toc %}
-              <figure class="in-this-article">
-                  <div class="mdl-card mdl-shadow--2dp">
-                   <details open>
-                    <summary>In this article...</summary>
-                    <ol id="table-of-contents"></ol>
-                   </details>
-                   </div>
-                  </figure>
-                  {% endif %}
               {{content}}
 		        </div>
+
+            <!-- i have to find a better way -->
+            <script src="./resources/delta/js/toc.js"></script>
+
           </div>
         </div>
       
@@ -214,28 +206,24 @@
 	
         {% assign privatewarning = "" %}
         {% if site.privatebuild %}
-          {% assign privatewarning = "For testing purposes only." %}
+          {% assign privatewarning = "For testing purposes only. " %}
         {% endif %}
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }} {{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
+            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabex %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>
     </div>
 
     <!-- scripts! -->
-    {% if page.toc %}
-    <script src="./resources/delta/js/toc.js"></script>
-    {% endif %}
     <script src="./resources/delta/js/randomArticle.js"></script>
     <script src="./resources/delta/js/featuredArticle.js"></script>
-    <script src="./resources/delta/js/springviewer.js"></script>
     <script src="./resources/delta/js/lightMode.js"></script>
 
     <!-- dyk.js file - to be deprecated -->
-    <script src="./resources/js/dyk.js"></script>
+    <!-- <script src="./resources/js/dyk.js"></script> -->
     
     <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
     <script src="./resources/js/showOneko.js"></script>

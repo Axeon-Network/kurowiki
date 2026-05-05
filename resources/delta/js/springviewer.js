@@ -1,4 +1,4 @@
-// Axeon SpringViewer "Trifrost" Version 3.00
+// SpringViewer Codename "Trifrost" Version 3.00
 // Written by KitSixtyFour/StupidBiFox
 
 // Licensed under The MIT License:
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (foundBtn) {
             drawerBtn = foundBtn; 
         } else {
-            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running.");
+            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running on this page.");
         }
     }, 50);
 
@@ -210,12 +210,14 @@ document.addEventListener('DOMContentLoaded', () => {
             let captionText = '';
 
             // look for the caption
-            const container = mediaSourceElement.parentElement;
-            const specialCaption = container.querySelector('.infobox-img-caption-2, figcaption.gallery-caption, .silver-caption');
+            const container = mediaSourceElement.closest('.gallery-item, .silver-item, .infobox-img-container') || mediaSourceElement.parentElement;
+
+            // Pass a string to querySelector, not an array
+            const specialCaption = container.querySelector('.infobox-img-caption-2, .gallery-caption, .silver-caption');
     
             if (specialCaption) {
                 // if it's already rendered, grab the html
-                captionText = specialCaption.innerHTML;
+                captionText = specialCaption.innerHTML.replace(/<\/?p>/gi, '').trim();
             } 
     
             // fallback to alt text/title attribs if no caption is found

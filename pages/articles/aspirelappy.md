@@ -4,6 +4,8 @@ permalink: TheAspireLappy
 redirect_from:
     - Acer_Aspire_One_D257
     - Acer_Aspire_One_AOD257
+dyk:
+    - "...that [TheAspireLappy](TheAspireLappy) was originally given to [KitSixtyFour](KitSixtyFour) on 2023 but wasn't recovered until December 2025?"
 ---
 
 {% include infoboxes/computer.html

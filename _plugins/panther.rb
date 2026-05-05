@@ -59,9 +59,9 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   id = "#{id_prefix}#{id_suffix}"
 
   begin
-    stored_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 5010
+    stored_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 5186
   rescue
-    stored_number = 5010
+    stored_number = 5186
   end
 
   current_incremental_number = stored_number
@@ -101,7 +101,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     'major' => major,
     'minor' => minor,
     'id' => id,
-    'build' => current_incremental_number,
+    'build' => 5186,
     'lab' => lab,
     'timestamp' => buildtag.split('.').last,
     'full' => buildtag

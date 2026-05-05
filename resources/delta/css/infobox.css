@@ -3,6 +3,9 @@
     Written by KitSixtyFour/StupidBiFox
     Copyright 2025-2026 Axeon Network.
 
+    Despite its name, it also has stylesheets for the Article Series box and
+    the Table of Contents, we can't be bothered to change it.
+
     Licensed under the MIT License, which is included below:
 
     Copyright 2025-2026 Axeon Network
@@ -207,4 +210,110 @@ html.seriesbox-title {
 
 .delta-infobox-computer-integrated {
     vertical-align: top;
+}
+
+/* self-explanatory */
+.table-of-contents {
+    border: 1px solid var(--gallery-border);
+    background-color: var(--gallery-bg);
+    color: var(--text-color);
+    box-shadow: none !important;
+    width: max-content;
+    height: auto;
+    
+}
+
+#toc-list {
+    background-color: none;
+    width: max-content;
+    list-style: none;
+    padding: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+
+li ul a {
+    margin-left: -23px;
+}
+
+.toc-title {
+    width: max-content;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#toc-list li::marker {
+    font-size: 0px;
+}
+
+#toc-list li a:hover .tocnumber,
+#toc-list li a:hover .toctext {
+    text-decoration: underline !important;
+}
+
+.tocnumber {
+    color: var(--text-color) !important;
+    margin-right: 5px;
+}
+
+.toc-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delta-infobox-server-icon {
+    padding-top: 5px;
+}
+
+
+#hidetoc::before {
+    content: "[";
+    color: var(--text-color);
+    pointer-events: none;
+}
+
+#hidetoc::after {
+    content: "]";
+    color: var(--text-color);
+    pointer-events: none;
+}
+
+.seriesbox-title {
+    font-size: 14px !important;
+    font-weight: normal !important;
+}
+
+#hidetoc {
+    cursor: pointer;
+}
+
+#hidetoc:hover {
+    text-decoration: underline !important;
+}
+
+#hidetoc::after:hover, #hidetoc::before:hover {
+    text-decoration: none !important;
+    color: var(--text-color)
+}
+
+.arcser-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.seriesbox-title {
+    width: 322px;
+    height: auto;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--text-color);
+    float: right;
+    overflow-wrap:break-word;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
 }

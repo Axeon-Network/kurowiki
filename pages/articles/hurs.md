@@ -5,6 +5,8 @@ redirect_from:
   - HURS
 aliases:
   - hurs
+dyk:
+  - "...that the Main Station of the Horicraft Underground Rail System has two design versions?"
 ---
 The **Horicraft Underground Rail System** (HURS) is a underground railway network mainly located in [Fucking](Fucking,_NovaLand), [NovaLand](NovaLand), also connecting to the NovaLandese cities of [Ture](Ture,_NovaLand) and [Jell](Jell,_NovaLand).
 

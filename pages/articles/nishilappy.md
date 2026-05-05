@@ -5,7 +5,9 @@ redirect_from:
     - Dell_Latitude_3380
     - SuperNova
     - Thei5Lappy
-hatnote: 'For the character that it is named after, see [Nishi](Nishi). For its successor, see [NishiLappyV2](NishiLappyV2)'
+hatnote: 'For the character that it is named after, see [Nishi](Nishi).'
+dyk:
+    - "...that the names \"[NishiLappy](NishiLappy)\" and \"Thei5Lappy\" were used simultaneously until April 2026?" 
 ---
 
 {% include infoboxes/computer.html
@@ -19,15 +21,15 @@ introduced='29 November 2024'
 introISO='2024-11-29'
 cpu='Intel Core i5-7200U @ 3.10 GHz (*Kaby Lake*)' 
 ram='8 GB (DDR4)'
-disk='128 GB SAMSUNG MZ7TD128HAFV-000L1 SATA SSD'
+disk='1TB TOSHIBA HDWL110 SATA HDD'
 gpu='Intel HD Graphics 620'
 integrated=true
 screenres='1366x768'
 screensize='13.3" built-in LCD' 
-os='Windows 10 Enterprise LTSC 2019'
+os='TBD'
 %}
 
-**NishiLappy**, formerly known as **Thei5Lappy** (model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [Kit](KitSixtyFour)'s main computer from November 2024 to April 2025 following the introduction of [NishiLappyV2](NishiLappyV2).
+**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is [KitSixtyFour](KitSixtyFour)'s main computer since November 2024.
 
 # Name
 The computer was originally known as ***Thei5Lappy*** since 29 November 2024, the latter becoming a reference to [TheCeleryPC](TheCeleryPC)'s nickname; as it followed the same naming system: *The* being used as an obligatory prefix, *i5* being the computer's processor, and *Lappy* being a common nickname for the word *laptop*.
@@ -36,7 +38,7 @@ Between July and August 2025, it was temporarily known as ***SuperNova***, follo
 
 Since November 2025, it has been known under the name ***NishiLappy***, the latter being a merger of *[Nishi](Nishi)* (Kit's fursona) and *Lappy*.<br>Both *Thei5Lappy* and *NishiLappy* had been used simultaneously between November 2025 and March 2026: *Thei5Lappy* was used to refer to the computer itself, while *NishiLappy* was used as the computer's hostname (also known as a computer name). 
 
-Following the introduction of [NishiLappyV2](NishiLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
+Following the introduction of [CometLappy](CometLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
 
 
 
@@ -75,7 +77,3 @@ Due to the nature of the fix, the charger wasn't 100% perfect. It continued to m
 Interestingly enough, KitSixtyFour tried their sister's charger prior to the second fix, which has been tested to work since both computers are similar, with model numbers apart (*Latitude E6420* and *Latitude 3380* respectively). Nonetheless, KitSixtyFour kept using their original laptop charger to avoid getting into any problems. On 10 July 2025, the original charger sparked, burning KitSixtyFour's hand.
 
 KitSixtyFour began using their sister's charger, with permision from their mother after the incident.
-
-
-
-

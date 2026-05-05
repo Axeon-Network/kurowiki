@@ -29,12 +29,12 @@
 /* variables */
 :root {
     /* dark mode */
-    --accent-dark: rgb(213,177,203);
+    --accent-dark: rgb(204, 147, 194);
     --title-color-dark: rgb(213,177,203);
 
     --text-color-white: white;
     --background-image-dark: url('../../img/defaults/bg-dark.jpg');
-    --scrollbar-color-dark: rgb(73,135,176) rgb(25,55,106);
+    --scrollbar-color-dark: rgb(85,94,106) rgb(5,17,43);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
     --code-bg-dark: rgba(0,0,0,0.5);
@@ -124,22 +124,7 @@ a {
     color: var(--title-color);
 }
 
-/* table of contents */
-.in-this-article {
-    border: 1px solid var(--accent);
-    background-color: var(--mdlcard-background-color);
-    color: var(--text-color);
-    float: left;
-}
 
-.in-this-article .mdl-card {
-    text-align: left; /* todo: need to not have mdl-card force text centering */
-}
-
-.in-this-article {
-  display: none; /* hide by default if there are no headings. the rest is handled by JS */
-}
-   
 figure.in-this-article {
     max-width: 0 !important;
 }

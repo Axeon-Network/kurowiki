@@ -19,20 +19,53 @@ window.featuredArticle = {
     <i class="material-icons">import_contacts</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    <div id="feat-article-container" style="color:var(--text-color);padding:-1;">
+    <div id="feat-article-container" style="color:var(--text-color);padding:0;">
        Could not load featured article.
       </div>
   </div>
 </div>
+
+{% comment %} 
+   1. Filter pages that actually have DYK facts
+{% endcomment %}
+{% assign dyk_pages = site.pages | where_exp: "item", "item.dyk" %}
+{% assign total_articles = dyk_pages.size %}
 
 <div class="did-you-know kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">question_mark</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Did you know...</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    <div id="facts-container" style="color:var(--text-color);padding:-1;">
-    <noscript>...that JavaScript is currently disabled and several <s>LexiWiki</s>..i mean KuroWiki features are disabled?</noscript> 
-      </div>
+    <div id="facts-container" style="color:var(--text-color); padding: 0 !important;">
+      {% if total_articles > 0 %}
+        {% assign day_seed = "now" | date: "%Y%m%d" | plus: 0 %}
+        
+        {% comment %} Determine which 12 articles to show today {% endcomment %}
+        {% assign start_index = day_seed | modulo: total_articles %}
+        {% assign end_index = start_index | plus: 11 %}
+
+          {% for i in (0..total_articles) %}
+            {% assign wrap_index = i | plus: total_articles %}
+            
+            {% comment %} Check if this article index falls in today's window {% endcomment %}
+            {% if i >= start_index and i <= end_index or wrap_index >= start_index and wrap_index <= end_index %}
+              
+              {% assign p = dyk_pages[i] %}
+              {% if p.dyk %}
+                {% comment %} 
+                   Pick exactly ONE fact from this article's list. 
+                   We use the day_seed again so the fact itself rotates daily too.
+                {% endcomment %}
+                {% assign fact_index = day_seed | modulo: p.dyk.size %}
+                <p>{{ p.dyk[fact_index] | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+              {% endif %}
+              
+            {% endif %}
+          {% endfor %}
+      {% else %}
+        <p>No facts found.</p>
+      {% endif %}
+    </div>
   </div>
 </div>
 
@@ -41,7 +74,7 @@ window.featuredArticle = {
     <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>
   </div>
   <div class="mdl-card__supporting-text">
-    <div style="color:var(--text-color);padding:-1;">
+    <div style="color:var(--text-color);padding:0;">
     {% capture recent_news %}
      {% include recent_news.md %}
        {% endcapture %}
