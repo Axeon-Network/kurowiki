@@ -13,15 +13,15 @@ hatnote: For a complete list of AveryWebsite versions, see [AveryWebsite version
 {% include infoboxes/site.html
 name='AveryWebsite'
 logo='resources/img/articles/kaywebsite/wordmark.png'
-formerly='ClyronWebsite (2024-2025), KayWebsite (2025-2026)'
+formerly='ClyronWebsite (2024-2025)<br>KayWebsite (2025-2026)'
 developer='AveryEclipse'
 developerarticle='AveryEclipse'
 writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.3'
-currentVersionReleaseDate='2026-03-22'
+currentVersion='v26.4.1'
+currentVersionReleaseDate='2026-04-09'
 sourceModel='Open source'
 repoLink='https://github.com/AveryEclipse/averyeclipse.github.io'
 repoHost='GitHub'
@@ -130,7 +130,7 @@ The first KayWebsite version release in the v26 series was v26.1 from 15 January
 
 v26.1 brought significant fixes and changes to the website that can be seen both in the modern and retro frontends, while v26.2 and v26.2.1 were smaller versions mainly updating information, fixing bugs from v26.1 and other small quality-of-life improvements.
 
-The website has seen further major changes with v26.3, released 22 March 2026, which has notably seen the website being rebranded from KayAurora to AveryEclipse, now being referred to as AveryWebsite.
+The website has seen further major changes with v26.3, released 22 March 2026, which has notably seen the website being rebranded from KayAurora to AveryEclipse, now being referred to as AveryWebsite. This version was followed by a minor-ish v26.4 release on 9 April 2026, followed hours later by the much smaller v26.4.1.
 
 <div class="wiki-gallery">
     {% include gallery_item.html 

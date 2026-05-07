@@ -6,7 +6,7 @@ redirect_from:
     - eMachines_ET1810-03
     - eMachines_ET1810_Revision_3
     - TheCeleryPC_(KitSixtyFour)
-hatnote: "This article is about KitSixtyFour's main computer from 2021 to 2024. For KayAurora's first computer with similar specs, see [TheCeleryPC (KayAurora)](TheCeleryPC_(KayAurora))"
+hatnote: "This article is about KitSixtyFour's main computer from 2021 to 2024. For AveryEclipse's first computer with similar specs, see [TheCeleryPC (AveryEclipse)](TheCeleryPC_(AveryEclipse))"
 dyk:
     - "...that the name \"[TheCeleryPC](TheCeleryPC)\" came from its processor, as Intel Celerons are jokingly named \"Celery\" online?"
     - "...that [TheCeleryPC](TheCeleryPC) has a Windows Vista Home Basic OEM key, thus legally giving [Kit](KitSixtyFour) a Windows product key?"

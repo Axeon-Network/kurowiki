@@ -6,11 +6,11 @@ dyk:
    - "...that [HoriServer](HoriServer) was created due to KitSixtyFour's first Discord break?"
    - "...that [HoriServer](HoriServer) was eventually suceeded by [HoriServer (2)](HoriServer_(2)) in Discord and (NovaServer)(NovaServer) in Stoat?"
 ---
-**HoriServer**[^1] is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). It was created on 3 February 2025 as a result of and was primarily active during [Kit](Kit)'s prolonged Discord break throughout February 2025.
+**HoriServer**[^1] is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). It was created on 3 February 2025 as a result of and was primarily active during [Kit](KitSixtyFour)'s prolonged Discord break throughout February 2025.
 
 A private server, its main purpose is to serve as a fallback limited space with Kit and their friends. Kit has stated that they joined Stoat (and thus create the server) to not "be alone for the 3rd time in my [Kit's] life". A wave of several few people have joined Stoat for HoriServer in the immediate aftermath of Kit departing Discord.
 
-At its peak in February, the Stoat server ran alongside the [StuffyXP Hangout](StuffyXP_Hangout) Discord server, which continued to be ran separately by KayAurora, next in the server's management after Kit. Following the [sunsetting of the StuffyXP channels](StuffyXP#Closure), a successor Discord server was created, bearing the name [HoriServer (2)](HoriServer_(2)), considered to be the spiritual successor to "HoriServer" on Stoat.
+At its peak in February, the Stoat server ran alongside the [StuffyXP Hangout](StuffyXP_Hangout) Discord server, which continued to be ran separately by AveryEclipse, next in the server's management after Kit. Following the [sunsetting of the StuffyXP channels](StuffyXP#Closure), a successor Discord server was created, bearing the name [HoriServer (2)](HoriServer_(2)), considered to be the spiritual successor to "HoriServer" on Stoat.
 
 As of September 2025, the server still exists and remains fully open, but has remained mostly inactive after Kit's comeback to Discord in March 2025. A new Stoat server known as [NovaServer](NovaServer) has been created in July 2025 (due to Kit taking another break) and has succeeded this one.
 

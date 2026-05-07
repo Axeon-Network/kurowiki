@@ -29,9 +29,11 @@ image='resources/img/articles/kurowiki4450/home.png'
 
 KuroWiki was planned to be powered by MediaWiki with a custom user interface. However, it was decided instead to build a separate wiki engine, codenamed [*Deltari*](Deltari), powered by [Jekyll](https://jekyllrb.com).
 
-Before an agreement between Kit and KayAurora (members of the [Axeon Network](Axeon_Network)), KuroWiki was a Kit-focused encyclopedia (known as ***HoriWiki*** and ***LexWiki*** in May and July 2025, respectively), in which was the main theme of the wiki until late August 2025.
+The wiki initially started in 4 May 2025 as ***HoriWiki***, a Kit-focused encyclopedia built primarily by [KitSixtyFour](KitSixtyFour) with the help of several contributors. It was later renamed to ***LexWiki*** in July 2025.
 
-After the agreement, KuroWiki expanded its content to not only cover Kit stuff, but to also cover the Axeon Network as a whole.
+Since late August 2025, the wiki project had been under the [Axeon Network](Axeon_Network) bearing the current KuroWiki name, following an agreement between the KuroWiki project founder [KitSixtyFour](KitSixtyFour) and Axeon's founder and CEO [AveryEclipse](AveryEclipse), who would join the primary development team after previously being one of HoriWiki/LexWiki's major contributors.
+
+After the agreement, KuroWiki expanded its content to not only cover Kit stuff, but to also cover Avery stuff and the Axeon Network as a whole.
 
 # Notable KuroWiki builds
 

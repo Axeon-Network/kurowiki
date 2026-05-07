@@ -10,9 +10,9 @@ author='KitSixtyFour'
 banner='resources/img/articles/astront/banner.png'
 name='AstroNT'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='9'
-subs='335'
-views='21,751'
+videos='11'
+subs='660'
+views='51,524'
 platform='YouTube'
 state='Active'
 creationdate='2025-09-17'
@@ -22,17 +22,15 @@ linkurl='https://youtube.com/@AstroNTWorkstation'
 
 **AstroNT** (*codenamed StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [Kit](KitSixtyFour) and [Avery](AveryEclipse) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
 
-It was teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [NekoCafe](NekoCafe) Discord servers and announced in the aforementioned servers following the release of the channel trailer [channel trailer](https://youtu.be/Bea3xfG11fs) on 25 October. The first video was released on 3 November.
+It was teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den) Discord servers and announced in the aforementioned servers following the release of the channel trailer [channel trailer](https://youtu.be/Bea3xfG11fs) on 25 October. The first video was released on 3 November.
 
 # Background
-
 The StuffyXP channel was deleted in March 2025 due to Kit's mental status with no plans of going back at that time, regardless, two tech-related videos were uploaded to [Kit's personal channel](https://youtube.com/@Kit64) in May 2025.
 
 Shortly after Kit's August Discord return, Kit started to gain nostalgia for the StuffyXP channels and [its respective Discord server](StuffyXP_Hangout). Afterwards, a StuffyXP successor (codenamed *StuffyXP 2*) was revealed by Kit in September 2025.
 
 # Videos
-
-As of February 2026, there are 8 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of May 2026, there are 10 videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
 - **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
@@ -43,6 +41,9 @@ As of February 2026, there are 8 videos uploaded to the AstroNT channel (excludi
 - **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
 - **Turning Windows 11 into Windows XP, kinda... (ExplorerEx)** - *uploaded 2026-02-28*
 - **Converting Windows XP to "Windows Server 2003" (on RTM!)** - *uploaded 2026-03-29*
+- **Making a Custom Windows Bootleg** - *uploaded 2026-04-04*
+- **Upgrading (directly) from Windows 7 to Windows 8.1!** - *uploaded 2026-04-11*
+- **Converting a Windows Install to a VMware VM...** - *uploaded 2026-04-25*
 
 # AstroNT Advanced Server
 

@@ -48,10 +48,10 @@ img_license-s: CC-BY-4.0
 
 # == HOMEPAGE ==
 # A quick description of your wiki and what is it about, visible on the homepage.
-home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (Kit64 and KayAurora)."
+home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (KitSixtyFour and AveryEclipse)."
 
 # The file name of the article to be used in the Featured Article card.
-featuredarticle: horicraft
+featuredarticle: windowsnishilecat
 
 
 # DEPRECATED

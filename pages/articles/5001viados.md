@@ -15,18 +15,18 @@ image='resources/img/articles/5001viados/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'
-views='298'
+views='748'
 reldate='2026-01-25'
 link='https://youtu.be/9PPVtLosMaQ'
 %}
 
-**Installing Windows Longhorn via MS-DOS! (Post-Reset)** is an [AstroNT](AstroNT) video made by [Avery](OneAveryAhead).
+**Installing Windows Longhorn via MS-DOS! (Post-Reset)** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
 
 The video focuses on installing Windows Longhorn Build 5001, an early post-reset build of Longhorn from September 2004, via an Windows 98 Boot Disk (based on MS-DOS). Notably, 5001 was the last Windows build to use NTLDR and the i386 installation method before later builds shifted to WIM for good, but did not include an `winnt.exe` that could be invoked from MS-DOS for installation. The video showcases issues that happen when still trying to install this build via MS-DOS regardless.
 
 Initial plans for such a video for the [Lynxmic](Lynxmic) channel date back to early 2023. A thumbnail for the video was created using the Lynxmic thumbnail style from the time dating back to 23 February 2023 at 1:20am UTC+2 according to file metadata.
 
-As of 16 February 2026, the video has over forty views. It was the first AstroNT video to be edited on DaVinci Resolve (Windows), a choice made by Avery after previous videos since September 2025 (including OneAveryAhead and [Lynxmic](Lynxmic) videos) made with Kdenlive on Linux were all either cancelled or took a long time to make due to procrastination.
+As of 16 February 2026, the video has over forty views. It was the first AstroNT video to be edited on DaVinci Resolve (Windows), a choice made by Avery after previous videos since September 2025 (including AveryEclipse and [Lynxmic](Lynxmic) videos) made with Kdenlive on Linux were all either cancelled or took a long time to make due to procrastination.
 
 # Making of
 ## As a Lynxmic Video
@@ -34,16 +34,15 @@ As of 16 February 2026, the video has over forty views. It was the first AstroNT
 {% include silver_item.html 
 image_src="resources/img/articles/5001viados/installing_longhorn_build_5001_from_dos.png" 
 caption="'Installing Windows Longhorn (Build 5001) from DOS' thumbnail, 23 February 2023"
-author="OneAveryAhead/Lynxmic" %}
+author="AveryEclipse/Lynxmic" %}
 
 It is known that the video idea has been attempted for Lynxmic in March 2023 and again in March 2025, both with their final recordings ending at a "NTLDR is missing" after the first-stage text mode setup, which in the last copying stage kept failing to copy `.mui` files. The 2025 attempt though was part of the plans for a final set of Lynxmic videos before the semi-retirement of new uploads for the channel.
 
 Longhorn Build 5001's ISO does not have `winnt.exe` in the `I386` folder, so as such the `winnt.exe` from Windows XP 2600's ISO was used for both attempts as well as the AstroNT attempt mentioned below.
 
-
 ## As an AstroNT Video
 ### Using the Windows XP ISO
-A while after Avery joined the AstroNT project, they have been determined to try to get around the "NTLDR is missing" error in order to finally make the 5001 via DOS video. The earliest recordings date back to 15 December 2025, with a picture made using a phone camera with a 5001 VM having been sent on the private Discord server[AstroNT Advanced Server](AstroNT#AstroNT_Advanced_Server).
+A while after Avery joined the AstroNT project, they have been determined to try to get around the "NTLDR is missing" error in order to finally make the 5001 via DOS video. The earliest recordings date back to 15 December 2025, with a picture made using a phone camera with a 5001 VM having been sent on the private Discord server [AstroNT Advanced Server](AstroNT#AstroNT_Advanced_Server).
 
 The first attempted workaround was to first install Windows XP via DOS, only getting through the initial text-mode setup just enough to have a working NTLDR, then overwrite the incomplete XP install with an Longhorn build 5001 install, also via DOS. 
 

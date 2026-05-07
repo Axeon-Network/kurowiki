@@ -12,7 +12,7 @@ dyk:
     caption='%iKBLULTGT2% visible in the Windows 7 Device Manager.' 
     %}
 
-**%iKBLULTGT2%** is the name for an Intel HD Graphics driver modded to work under Windows 7 and Windows 8 on [Thei5Lappy](Thei5Lappy) (Dell Latitude 3380), which uses a 7th generation Intel CPU (codenamed *Kaby Lake*), which officially delibrately does not support any version of Windows that's not Windows 10.
+**%iKBLULTGT2%** is the name for an Intel HD Graphics driver modded to work under Windows 7 and Windows 8 on [NishiLappy](NishiLappy) (Dell Latitude 3380), which uses a 7th generation Intel CPU (codenamed *Kaby Lake*), which officially delibrately does not support any version of Windows that's not Windows 10.
 
 While official Windows 7 drivers do exist for the Latitude 3380, no official integrated graphics driver has been found to work[^1], leading to this.
 
@@ -27,4 +27,4 @@ The variable's name meaning has been decoded as follows:
 - `GT2` = Graphics Technology level 2
 
 # Notes
-[^1]: The official Dell driver pack includes a driver for the *Graphics 520* for 6th generation Intel CPUs (codenamed *Skylake*), leading to the driver not installing under Thei5Lappy.
+[^1]: The official Dell driver pack includes a driver for the *Graphics 520* for 6th generation Intel CPUs (codenamed *Skylake*), leading to the driver not installing under NishiLappy.

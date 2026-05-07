@@ -18,12 +18,12 @@ memberCount='24 (as of 2026-02-09)'
 image='resources/img/articles/nishisden/logo.png'
 %}
 
-**Nishi's Den**[^1] (formerly known as **NekoCafe ft. AstroNT** and ***NekoCafe**[^2]) was a Discord server created by [Nekori](Nekori64) on 30 August 2025 and opened publicly one day later. It is the spiritual sucessor to [StuffyXP Hangout](StuffyXP_Hangout), [HoriServer (2)](HoriServer_(2)) and the [NovaServer](NovaServer) [Stoat](https://stoat.chat) server.
+**Nishi's Den**[^1] (formerly known as **NekoCafe ft. AstroNT** and ***NekoCafe**[^2]) was a Discord server created by [KitSixtyFour](KitSixtyFour) on 30 August 2025 and opened publicly one day later. It is the spiritual sucessor to [StuffyXP Hangout](StuffyXP_Hangout), [HoriServer (2)](HoriServer_(2)) and the [NovaServer](NovaServer) [Stoat](https://stoat.chat) server.
 
 The server was discontinued on 7 February 2026 due to lack of activity and Kit's declining mental state.
 
 # Stoat version
-**Nishi's Den SE**[^3] ("SE" being short for *Stoat Edition*) is a server on the Discord alternative Stoat, created by Nekori on 11 November 2025 as a port of Nishi's Den to the platform.
+**Nishi's Den SE**[^3] ("SE" being short for *Stoat Edition*) is a server on the Discord alternative Stoat, created by Kit on 11 November 2025 as a port of Nishi's Den to the platform.
 
 The server was created due to concerns by Kit about a potential privacy invasion coming from one of their sisters.
 

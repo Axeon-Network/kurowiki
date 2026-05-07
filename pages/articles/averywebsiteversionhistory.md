@@ -10,6 +10,12 @@ This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and th
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 # Version 26.x
+## 26.4.1
+Released on 9 April 2026, just 14 hours after the previous release, it undoes a change made in v26.4 (removal of [TheHaswellLappy](TheHaswellLappy) from the Devices page, which appeared to have been working again hours after v26.4's release), finally fixes the display of webrings in the Retro Frontend, and drops support for the Modern Frontend in Opera Presto.
+
+## 26.4
+Released on 9 April 2026, this version mainly marked a switch from using FontAwesome and emojis to using the `astro-icon` package instead for icons, along with other minor updates and fixes.
+
 ## 26.3
 Released on 22 March 2026, coinciding with the rebrand from KayAurora to AveryEclipse, it was an major update to KayWebsite, now referred to as AveryWebsite starting with this update.
 
