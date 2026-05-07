@@ -11,7 +11,7 @@ aliases:
 toc: true
 ---
 
-**Horicraft**[^1] (formerly known as ***StuffyCraft***) was a creative Minecraft server owned and operated by [Kit](Kit). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
+**Horicraft**[^1] (formerly known as ***StuffyCraft***) was a creative Minecraft server owned and operated by [Kit](KitSixtyFour). It was initially announced by them on 3 December 2024, on the [StuffyXP Hangout](StuffyXP_Hangout) Discord Server, however it would only begin gaining significant popularity from late January 2025.
 
 Main cities built in Horicraft include [Horilandese](NovaLand) (now NovaLandese) cities like the capital [Fucking](Fucking) or [Jell](Jell). As the world spawn, Fucking is home to most of Horicraft's players as well as facitilies like [Dogui Heavy Industries Incorporated](Dogui_Heavy_Industries_Incorporated). Jell is mainly known for its tourist attraction, the *B Parkour*, shaped as a 🅱️ cube.
 

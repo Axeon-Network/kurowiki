@@ -6,7 +6,7 @@ redirect_from:
     - eMachines_ET1810-03
     - eMachines_ET1810_Revision_3
     - TheCeleryPC_(KitSixtyFour)
-hatnote: This article is about KitSixtyFour's main computer from 2021 to 2024. For KayAurora's first computer with similar specs, see <a href="TheCeleryPC_(KayAurora)">TheCeleryPC (KayAurora)</a>
+hatnote: This article is about KitSixtyFour's main computer from 2021 to 2024. For AveryEclipse's first computer with similar specs, see <a href="TheCeleryPC_(AveryEclipse)">TheCeleryPC (AveryEclipse)</a>
 ---
 
 {% include infoboxes/computer.html

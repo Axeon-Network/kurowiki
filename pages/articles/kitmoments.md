@@ -8,7 +8,7 @@ redirect_from:
 
 **Kit Moments** (formerly known as, **Nekori Moments**, **Horibyte Moments** and **Stuffy Moments**) are moments when Kit breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.
 
-The original term of "average stuffy moment" was first used by a member of the [Stuffy's Place](Stuffys_Place) Discord server, which started the idea of the Kit moment back in January 2024.
+The original term of "average stuffy moment" was first used by a member of the [Stuffy's Place](Stuffys_Place) Discord server, which kickstarted the idea of the Kit moment back in January 2024.
 
 # Types of Kit moments
 Kit moments can vary from a range of 'moment levels', with that being the following:

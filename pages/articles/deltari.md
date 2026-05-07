@@ -5,12 +5,12 @@ permalink: Deltari
 
 **Deltari** (formerly known as HoriWiki Engine and LexWiki Engine) is a free-and-open-source (FOSS) general use wiki engine built by [Axeon Network](Axeon_Network) primarily for use in [KuroWiki](KuroWiki), but may be used by anyone.
 
-[Development](Development_of_KuroWiki) began in May 2025 following a rejected request for a Miraheze KuroWiki. Stable was finally reached on 28 December 2025, when a selfhostable version was made available on GitHub as well.
+[Development](Development_of_KuroWiki) began in May 2025 following a rejected request for a Miraheze KuroWiki.
 
 Deltari uses the Jekyll static site generator, made in the Ruby programming language, and features elements such as SpringViewer (for viewing media), DeltaSearch (for searching). It has a modular layout which can be extensively customized including with from-scratch CSS.
 
 # Deltari Meta
-**Deltari Meta** is the "reference implementation" of the Deltari engine, initially started on 13 January 2026 with [Deltari build 4500](Deltari_build_4500). An KuroWiki downstream, earlier builds of Deltari Meta have been compiled under the `main` branch before it switched to its own `dmeta_N` branch, which would receive Deltari updates periodically.
+**Deltari Meta** is the "reference implementation" of the Deltari engine, initially started on 13 January 2026 with [Deltari build 4500](Deltari_build_4500). A downstream of KuroWiki, earlier builds of Deltari Meta have been compiled under the `main` branch before it switched to its own `dmeta_N` branch, which would receive Deltari updates periodically.
 
 The wiki itself mainly provides documentation and other useful information about Deltari.
 

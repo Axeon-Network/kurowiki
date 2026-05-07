@@ -135,9 +135,7 @@ a {
     text-align: left; /* todo: need to not have mdl-card force text centering */
 }
 
-.in-this-article {
-  display: none; /* hide by default if there are no headings. the rest is handled by JS */
-}
+
    
 figure.in-this-article {
     max-width: 0 !important;

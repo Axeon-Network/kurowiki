@@ -18,7 +18,7 @@ aliases:
     style="width:30%;"
     author='Kit64' %}
 
-In the context of NekoCulture, it is one of the earliest Kit memes, introduced in December 2023[^1], along with [Kit Moments](Kit_Moments). Initially regarded by Kit as a "shouting emoji", the A Button emoji has since became popular among Kit Fans, and over time variations of it have been made by Kit and others.
+In the context of NekoCulture, it is one of the earliest Kit memes, introduced in December 2023[^1], along with [Kit Moments](Kit_Moments). Initially regarded by Kit as a "shouting emoji", the A Button emoji has since became popular among fans of KitSixtyFour, and over time variations of it have been made by Kit and others.
 
 
 # Gallery of Fanmade 🅰️s

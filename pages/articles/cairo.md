@@ -6,9 +6,9 @@ hatnote:
 
 {% include infoboxes/character.html
 name='Cairo'
-creator='Avery'
+creator='AveryEclipse'
 creatorurl='AveryEclipse'
-designer='Avery'
+designer='AveryEclipse'
 introduced='17 March 2025'
 bod='*Unknown Location*'
 nationality='Averian'
@@ -25,12 +25,12 @@ It had mainly been used as part of the Clyron Branding, though separate drawings
 # Physical appearance
 Cairo's body skin is predominantly light gray, with darker shade spots seen around their knees and ears. Additionally, they also wear glasses (though they became optional in early April 2025, alongside a name change from the initial **Kairo** name to **Cairo**).
 
-At the time of Cairo's introduction in early 2025, Avery, then known as Clyron, considered them an "anthropomorphic cat that has human characteristics" in chats. Though in reality as seen from the actual drawings, Cairo tends to be a catgirl.
+At the time of Cairo's introduction in early 2025, Avery, then known as Clyron, considered them an "anthropomorphic cat that has human characteristics" in chats. Though in reality as seen from the actual drawings, Cairo is a catgirl.
 
 # Lore
 According to Cairo's [ClyronWebsite](AveryWebsite) page (taken down in July 2025 with KayWebsite v2.0's release), they are "socially shy and most times will not start a casual conversation first due to this. Though, if you do talk with them sufficiently and nicely, they can become your friend."
 
-Also according to same source, Cairo is primarily passionate about anything tech-related, enjoys anything natural sights and travelling, and they try to be caring of anything surrounding them.
+Also according to the same source, Cairo is primarily passionate about anything tech-related, enjoys anything natural sights and travelling, and they try to be caring of anything surrounding them.
 
 <div>
     {% include figure_item.html 

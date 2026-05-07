@@ -8,13 +8,13 @@ aliases:
 
 {% include infoboxes/video.html
 title='The Return of the Windows Store in Windows 8.1?! (8Store)'
-image='resources/img/articles/8store/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'
-views='14,290'
+views='30,652'
 reldate='2026-02-15'
 link='https://youtu.be/YdZhdkPzCoQ'
+image='resources/img/articles/8store/thumbnail.png'
 %}
 
 **The Return of the Windows Store in Windows 8.1?! (8Store)**[^1] is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse), primarily focused on reviewing the Windows 8.1 Store revival project app *8Store* but also around sideloading of Windows 8.1 "modern apps" (also known as Metro Apps) in general.
@@ -23,7 +23,7 @@ The video was initially planned as early as late December 2025, when Avery was o
 
 The debut of [TheHaswellLappy](TheHaswellLappy) on the AstroNT channel, recordings for what was considered by Avery "the first AstroNT video to use real hardware instead of virtual machines" generally took place around 3-5 February 2026, with video editing done on 12-14 February 2026.
 
-By the time 8Store was discontinued on 26 March 2026, the video had gotten over 20,000+ views, with over 260+ subscribers out of AstroNT's almost 400 subscriber total having came from the 8Store video, making it the most popular AstroNT video.
+As of May 2026, the video had gotten over 30,000+ views, with over 300+ subscribers out of AstroNT's over 600 subscriber total having came from the 8Store video, making it the most popular AstroNT video.
 
 The view count has especially started to soar since 22 February 2026, when it also became the most popular video, overtaking the previous title holder, that of the first proper AstroNT video, *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista)* by [Kit](KitSixtyFour) with 510+ views at the time.
 

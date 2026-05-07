@@ -9,7 +9,6 @@ window.featuredArticle = {
   excerpt: {{ featured.content
       | markdownify
       | split:'<h' | first
-      | split:'<img' | first
       | truncatewords: 256
       | jsonify }}
 };

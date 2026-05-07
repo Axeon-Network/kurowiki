@@ -11,23 +11,17 @@ hatnote: This article is incomplete.
 {% include infoboxes/site.html
 name="Solarix Website"
 formerly=''
-developer='KayAurora'
-developerarticle='KayAurora'
+developer='AveryEclipse'
+developerarticle='AveryEclipse'
 writtenin='HTML/CSS/JS'
 type='Personal Website'
-initialVersion=''
-initialVersionReleaseDate=''
-currentVersion=''
-currentVersionReleaseDate=''
 sourceModel='Open source (since June 2018), Closed source (before June 2018)'
-repoLink=''
-repoHost=''
-status='Source code archived (fifth iteration), lost (other iterations). Website no longer available'
+status='Source code archived (iterations 4-5), lost (iterations 1-3). Website no longer available'
 link=''
-image='resources/img/articles/solarixwebsite/fifthiteration.png'
+image='resources/img/articles/solarixwebsite/home.png'
 %}
 
-The ***Solarix Website*** was [KayAurora](KayAurora)'s personal website between 2017 and 2019.
+The ***Solarix Website*** was [AveryEclipse](AveryEclipse)'s personal website between 2017 and 2019.
 
 # First iteration (May-Aug 2017)
 The exact date when the first iteration of the Solarix Website (then known as Computerseasons.ml, and later as BriciWorld.ml during the lifecycle of this iteration) was released is unknown, but the earliest screenshots still in the Archives date back to May 2017.
@@ -47,7 +41,7 @@ This first iteration has been deprecated in late August 2017. It continued to be
         </div>
 
 # Second iteration (Aug-Oct 2017)
-In late August 2017, the website has seen a complete revamp, a full-on improvement over the first iteration showcasing the evolution of KayAurora's coding skills. Similarily with the first iteration, it uses the Material Design Lite CSS framework.
+In late August 2017, the website has seen a complete revamp, a full-on improvement over the first iteration showcasing the evolution of AveryEclipse's coding skills. Similarily with the first iteration, it uses the Material Design Lite CSS framework.
 
 The website primarily just linked to social media profiles (located inside the drawer) and projects.
 
@@ -60,7 +54,7 @@ The website primarily just linked to social media profiles (located inside the d
         </div>
 
 # Third iteration (Oct 2017-Jul 2018)
-Just two months after the rollout of the second iteration, KayAurora decided to try a different CSS framework that looked nicer (MDBootstrap), which led to a third iteration being rolled out in late October 2017, together with an announcement in the form of a blog post on the BriciWorld Blog. This iteration ended up being the longest in the life of the Solarix Website.
+Just two months after the rollout of the second iteration, AveryEclipse decided to try a different CSS framework that looked nicer (MDBootstrap), which led to a third iteration being rolled out in late October 2017, together with an announcement in the form of a blog post on the BriciWorld Blog. This iteration ended up being the longest in the life of the Solarix Website.
 
 The homepage consisted of two rows of buttons linking to projects and socials respectively, with the navigation bar used to link to additional stuff. Additional About and Devices pages were later known to exist as of early 2018.
 
@@ -77,7 +71,7 @@ One of the main new "features" was the Dark Mode, however the implementation was
 # Fourth iteration (Jul-Dec 2018)
 In July 2018, the website has seen a complete revamp. Unlike the third iteration, the website is this time more simplified, fluently incorporating the then-new BW Tech branding, with the homepage looking like just a "landing page" with buttons to social media and other stuff. The About and Devices pages also continue to be present.
 
-A short 1-minute [video](https://youtu.be/P3H8aoOx-LE) has been posted to the [Lynxmic](Lynxmic) YT channel (then known simply as "BW Tech") on 8 July 2018 promoting the "fresh, clean" new website look, followed by an update in the same video where KayAurora announced they began actual YouTube streams after getting [a good enough computer](TheHaswellLappy).
+A short 1-minute [video](https://youtu.be/P3H8aoOx-LE) has been posted to the [Lynxmic](Lynxmic) YT channel (then known simply as "BW Tech") on 8 July 2018 promoting the "fresh, clean" new website look, followed by an update in the same video where AveryEclipse announced they began actual YouTube streams after getting [a good enough computer](TheHaswellLappy).
 
 Also in July 2018, a custom blog built from scratch was officially said to be worked on based on the fourth iteration of the website, also including a Gallery section (which later became a standalone page on the website itself). This was however abandoned after a short while due to complications, or rather said a lack of knowledge in maintaining such a blog. A similar idea would only be done in 2021 with the [Lynxmic Blog](Lynxmic_Blog), powered by the Jekyll static site generator.
 
@@ -102,20 +96,39 @@ After the rollout of the fifth iteration of the website in 2019, this fourth ite
         </div>
 
 # Fifth iteration (Jan-Apr 2019)
-In December 2018, KayAurora announced that the website would receive a design revamp to go with the Solarix branding revamp for 2019.
+In December 2018, AveryEclipse announced that the website would receive a design revamp to go with the Solarix branding revamp for 2019.
 
 The fifth and final iteration of the website was initially made publicly available as a beta on 27 December 2018 and then fully replaced the fourth iteration on 9 January 2019.
 
 It received updates later on to be on track with the evolution of the solarixtech branding, but just like with the fourth iteration there haven't been any known major changes over time.
 
-The website was finally discontinued on 2 April 2019, coinciding with the Lynxmic Twitch account deletion, due to KayAurora finding a personal website for themselves "unnecessary" at the time. The fifth iteration is the only iteration of the website to have its source code still preserved to this day (albeit only in KayAurora's local archives).
+The website was finally discontinued on 2 April 2019, coinciding with the Lynxmic Twitch account deletion, due to AveryEclipse finding a personal website for themselves "unnecessary" at the time. The fifth iteration is the only iteration of the website to have its source code still preserved to this day (albeit only in AveryEclipse's local archives).
 
-Although this theory is not officially confirmed, it can be said the discontinuation of Solarix Website was the beginning of a departure of KayAurora from programming-related activities to focus only on the Lynxmic project, which culminated in the discontinuation of the Venus Discord Bot, the other major programming project by Kay at the time, in July 2019.
+Although this theory is not officially confirmed, it can be said the discontinuation of Solarix Website was the beginning of a departure of AveryEclipse from programming-related activities to focus only on the Lynxmic project, which culminated in the discontinuation of the Venus Discord Bot, the other major programming project by Avery at the time, in July 2019.
 
-<div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/solarixwebsite/fifthiteration.png" 
-        alt_text="" 
-        caption="The fifth iteration of the website."
-        style="width:50%; height:auto" %}
-        </div>
+<div class="wiki-gallery">
+    {% include gallery_item.html 
+    image_src="resources/img/articles/solarixwebsite/home.png" 
+    alt_text="" 
+    caption="Home page"
+    author="AveryEclipse"
+    style="width:50%; height:auto" %}
+    {% include gallery_item.html 
+    image_src="resources/img/articles/solarixwebsite/about.png" 
+    alt_text="" 
+    caption="About page"
+    author="AveryEclipse"
+    style="width:50%; height:auto" %}
+    {% include gallery_item.html 
+    image_src="resources/img/articles/solarixwebsite/devices.png" 
+    alt_text="" 
+    caption="Devices page"
+    author="AveryEclipse"
+    style="width:50%; height:auto" %}
+    {% include gallery_item.html 
+    image_src="resources/img/articles/solarixwebsite/gallery.png" 
+    alt_text="" 
+    caption="Gallery page"
+    author="AveryEclipse"
+    style="width:50%; height:auto" %}
+</div>

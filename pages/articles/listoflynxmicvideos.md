@@ -5,7 +5,10 @@ permalink: List_of_Lynxmic_videos
 
 This article is a list of all [Lynxmic](Lynxmic) videos on YouTube (excluding ones set as Unlisted or Private), from newest to oldest.
 
-As of October 2025, there are 127 uploaded videos that are currently public (including livestreams).
+As of March 2026, there are 128 uploaded videos that are currently public (including livestreams).
+
+# 2026
+- **what windows iso is this... 🥀** - *Published 2026-03-25*
 
 # 2025
 - **Goodbye Windows 10... (End of Support)** - *Published 2025-10-14*

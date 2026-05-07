@@ -21,11 +21,11 @@ toc: true
 pfp='resources/img/articles/lynxmic/logo.png'
 author='AveryEclipse'
 name='Lynxmic'
-creator='Avery'
+creator='AveryEclipse'
 creatorurl='AveryEclipse'
-videos='126'
-subs='1,543'
-views='242,798'
+videos='127'
+subs='1,665'
+views='257,949'
 platform='YouTube'
 state='Mostly Inactive; channel available'
 creationdate='2016-12-05'
@@ -33,21 +33,21 @@ linkname='youtube.com/lynxmic'
 linkurl='https://youtube.com/lynxmic'
 %}
 
-**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a tech-focused YouTube channel ran and owned by [KayAurora](KayAurora) launched on 5 December 2016.
+**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) launched on 5 December 2016.
 
-It is the first created of KayAurora's main channels to be completely in the English language from the start. The channel's content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only "opinion" or "tech news" videos and previously "updates" videos, discontinued in favor of just using social media and YouTube's Community Tab (now the *Posts* tab) upon rollout.
+It is the first created of AveryEclipse's main channels to be completely in the English language from the start. The channel's content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only "opinion" or "tech news" videos and previously "updates" videos, discontinued in favor of just using social media and YouTube's Community Tab (now the *Posts* tab) upon rollout.
 
-In April 2025, KayAurora announced the stopping of new Lynxmic content due to dwindling interest and motivation. Occasional new videos and streams would still come out, but would be spontaneous and low-quality.
+In April 2025, AveryEclipse announced the stopping of new Lynxmic content due to dwindling interest and motivation. Occasional new videos and streams would still come out, but would be spontaneous and low-quality.
 
-As of November 2025, the channel has over 1,500+ subscribers and 125+ public videos - the largest of KayAurora's channels. In total, the channel has about 330 videos including ones set as unlisted or private. A list of Lynxmic videos can be found [here](List_of_Lynxmic_videos).
+As of May 2026, the channel has over 1,600+ subscribers and 125+ public videos - the largest of AveryEclipse's channels. In total, the channel has about 330 videos including ones set as unlisted or private. A list of Lynxmic videos can be found [here](List_of_Lynxmic_videos).
 
 # History
 ## 2016-2017: Backstory and channel beginnings
-The backstory of the online identity that would eventually become **Computerseasons** dates back to early September 2016, when KayAurora discovered several small mainly tech-oriented YouTube channels in English language, some which were blowing up at this time, and started watching them. Later on 27 October 2016, KayAurora created their first Discord Account under a different online alias.
+The backstory of the online identity that would eventually become **Computerseasons** dates back to early September 2016, when AveryEclipse discovered several small mainly tech-oriented YouTube channels in English language, some which were blowing up at this time, and started watching them. Later on 27 October 2016, AveryEclipse created their first Discord Account under a different online alias.
 
-The Lynxmic channel was initially created as Computerseasons on 5 December 2016, when KayAurora got [their first laptop](Toshiba_Laptop), as it was becoming increasingly clear that a separate online identity was an ideal must for the English stuff as opposed to the primarily-native-language one at the time (which was eventually retired by mid-2017). Their Discord Account and Server at the time also took the Computerseasons name.
+The Lynxmic channel was initially created as Computerseasons on 5 December 2016, when AveryEclipse got [their first laptop](Toshiba_Laptop), as it was becoming increasingly clear that a separate online identity was an ideal must for the English stuff as opposed to the primarily-native-language one at the time (which was eventually retired by mid-2017). Their Discord Account and Server at the time also took the Computerseasons name.
 
-Later on 24 December 2016, the Computerseasons Twitter Account would be created under the handle `@ComputerStudio2` (today `@Lynxmic`), which would be primarily used to interact with English-language accounts. This account would however stay mostly inactive until around July 2017, when it began to be used until KayAurora quit Twitter in 2023 in favor of the Fediverse.
+Later on 24 December 2016, the Computerseasons Twitter Account would be created under the handle `@ComputerStudio2` (today `@Lynxmic`), which would be primarily used to interact with English-language accounts. This account would however stay mostly inactive until around July 2017, when it began to be used until AveryEclipse quit Twitter in 2023 in favor of the Fediverse.
 
 2016 videos mostly consisted of videos made with the Adobe Flash-based YT Video Editor or RAW unedited recordings. Today, only one of the 2016 videos still exist, albeit private for privacy reasons.
 
@@ -61,7 +61,7 @@ Later on 24 December 2016, the Computerseasons Twitter Account would be created 
 
 January 2017 saw the launch of the second/extras channel of Computerseasons, named **Computerseasons2** (today MoreLynxmic).
 
-KayAurora continued to post several random videos to the Computerseasons channel until new content inexplicably ceased in April 2017. No more videos would be posted until August 2017, when the channel was rebooted as **BriciWorld Productions** (BWP), this time with more proper edited videos, using Camtasia Studio 8. The intro and outro first became standard elements of a BWP video around this time. Most of the pre-BWP 2016-17 videos were deleted around this time for unknown reasons. In October 2017, the channel was renamed just **BriciWorld**, receiving the branding of KayAurora's then actual online identity which had been used since late July 2017 for consistency.
+AveryEclipse continued to post several random videos to the Computerseasons channel until new content inexplicably ceased in April 2017. No more videos would be posted until August 2017, when the channel was rebooted as **BriciWorld Productions** (BWP), this time with more proper edited videos, using Camtasia Studio 8. The intro and outro first became standard elements of a BWP video around this time. Most of the pre-BWP 2016-17 videos were deleted around this time for unknown reasons. In October 2017, the channel was renamed just **BriciWorld**, receiving the branding of AveryEclipse's then actual online identity which had been used since late July 2017 for consistency.
 
 December 2017 saw the release of the video *How to get Visual Studio Code Rich Presence for Discord*, which would end up the most viewed video on the channel until being finally surpassed in 2022 at just past 4K views. The year ended with the channel having a mere 15 subs. Additionally, [BW-Tech](BW-Tech) launched as a channel that would strictly only upload tech videos.
 
@@ -76,7 +76,7 @@ On 26 March 2018, a tutorial video series was started, deemed *Discord.js bot tu
 
 On 14 May 2018, the *[Windows 98 for Daily Use](Windows_98_for_Daily_Use)* video series was officially announced, with the first episode released on 1 June 2018. Also in May, the channel was renamed from *BriciWorld* to *BW Tech*.
 
-New videos significantly slowed down in June 2018 after KayAurora's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [TheHaswellLappy](TheHaswellLappy), which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. Videos also began to be generally exported in 1080p instead of 720p around the same time.
+New videos significantly slowed down in June 2018 after AveryEclipse's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [TheHaswellLappy](TheHaswellLappy), which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. Videos also began to be generally exported in 1080p instead of 720p around the same time.
 
 New videos continued to be posted on a frequent basis, even with significant periods of daily uploads lasting even 5 days. In mid August 2018, the channel was rebranded from *BW Tech* to *Solarix*, effectively retiring the *Brici* naming for good as the previous name was still a reference to BriciWorld.
 
@@ -88,29 +88,29 @@ Also in September 2018, new videos began to be exported in 60fps instead of 30fp
 ## 2019: Continued growth and early *Lynxmic*
 In early 2019, the Lynxmic channel then known as **Solarix** continued to see frequent uploads and livestreams, although the frequency rate was slowly going down by this point, with most videos this year have been uploaded in January and March 2019 (both equally having 11 videos in total).
 
-At the same time, KayAurora also attempted to switch editing software, from Camtasia to Vegas Pro 16, which failed as they kept using the former more than the latter. However, they began using OBS Studio as both streaming and recording software in place of Camtasia Recorder, OBS Studio having been solely used for streaming in the past. It is still being used by KayAurora to this day.
+At the same time, AveryEclipse also attempted to switch editing software, from Camtasia to Vegas Pro 16, which failed as they kept using the former more than the latter. However, they began using OBS Studio as both streaming and recording software in place of Camtasia Recorder, OBS Studio having been solely used for streaming in the past. It is still being used by AveryEclipse to this day.
 
-KayAurora has been getting slowly demotivated to even do anything over time, including new videos, which even the simplest ones started taking more than a day to produce. What doesn't help is that Fall 2018 has seen KayAurora being affected by negative experiences including criticism over at least some of the videos and at-least-slightly-traumatizing social media feuds especially at an younger age. All of these led not only to cut-offs, but also a sudden rise of standards, or at least an attempt in one.
+AveryEclipse has been getting slowly demotivated to even do anything over time, including new videos, which even the simplest ones started taking more than a day to produce. What doesn't help is that Fall 2018 has seen AveryEclipse being affected by negative experiences including criticism over at least some of the videos and at-least-slightly-traumatizing social media feuds especially at an younger age. All of these led not only to cut-offs, but also a sudden rise of standards, or at least an attempt in one.
 
-On 3 March 2019, the final episode of the *Make a Discord Bot!* series was uploaded. The series ended at a total of 7 episodes after almost a year due to "lack of interest in continuing". KayAurora claimed they would continue to code, but over time more and more coding projects would be discontinued (starting with [Solarix Website](Solarix_Website) in April), culminating in them quitting coding entirely in July 2019 with [Venus](Venus) Bot and other remaining code projects being discontinued.
+On 3 March 2019, the final episode of the *Make a Discord Bot!* series was uploaded. The series ended at a total of 7 episodes after almost a year due to "lack of interest in continuing". AveryEclipse claimed they would continue to code, but over time more and more coding projects would be discontinued (starting with [Solarix Website](Solarix_Website) in April), culminating in them quitting coding entirely in July 2019 with [Venus](Venus) Bot and other remaining code projects being discontinued.
 
-May 2019 saw many videos going unlisted/privated from the channel, as KayAurora wanted to do it but couldn't quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use) being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year. On 1 June 2019, the first episode of [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) was uploaded.
+May 2019 saw many videos going unlisted/privated from the channel, as AveryEclipse wanted to do it but couldn't quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use) being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year. On 1 June 2019, the first episode of [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) was uploaded.
 
-By early August 2019, every single video and stream have been hidden from the channel (except for the latest video at the time, *Upgrading from Windows 3.1 to Windows 7*), with KayAurora having mostly purged/hidden most-if-not-all social media posts, and also switched Discord accounts as well. Around mid-to-late August 2019, the *Lynxmic* name was introduced fully replacing Solarix/solarixtech.
+By early August 2019, every single video and stream have been hidden from the channel (except for the latest video at the time, *Upgrading from Windows 3.1 to Windows 7*), with AveryEclipse having mostly purged/hidden most-if-not-all social media posts, and also switched Discord accounts as well. Around mid-to-late August 2019, the *Lynxmic* name was introduced fully replacing Solarix/solarixtech.
 
-Late 2019 Lynxmic videos were more rare as opposed to early 2019 Solarix videos, but there were at least slightly bigger video standards. In fact, KayAurora has been putting rather extreme standards for themselves as to what they post about and interact with, which resulted in negative impacts for themselves that in some form are still there to this day. For example, if just a year prior they were in over 60 Discord servers, that number has went down to a total of mere 4 Discord servers and has been the same for a long time.
+Late 2019 Lynxmic videos were more rare as opposed to early 2019 Solarix videos, but there were at least slightly bigger video standards. In fact, AveryEclipse has been putting rather extreme standards for themselves as to what they post about and interact with, which resulted in negative impacts for themselves that in some form are still there to this day. For example, if just a year prior they were in over 60 Discord servers, that number has went down to a total of mere 4 Discord servers and has been the same for a long time.
 
 In late October 2019, the Lynxmic channel hit 100 subscribers for the first time, however YT Audits have then pushed the number down to just past 90 subs, then to below 80 subs by 2020.
 A *Lynx Explores* series was planned in September 2019 but cancelled. Livestreams have been under the *LynxLIVE* umbrella, with best moments being uploaded as separate *LynxLIVE Highlight* videos. At the end of every year there would be so called *LynxLIVE Special* streams.
 
 ## 2020-2021: The Great Decline
-Content in 2020 has been consistent year-round, with 1-3, sometimes 4 videos being uploaded every month. Videos mostly consisted of update videos, videos of KayAurora sharing their opinions on various things in the tech news space, installation and exploration videos or even Minecraft videos.
+Content in 2020 has been consistent year-round, with 1-3, sometimes 4 videos being uploaded every month. Videos mostly consisted of update videos, videos of AveryEclipse sharing their opinions on various things in the tech news space, installation and exploration videos or even Minecraft videos.
 
-However, despite world events, the Lynxmic project just like any of KayAurora's online projects at the time (including the [Axeon Community](Axeon_Network) Discord server) have been in a continued collapse during 2020 and 2021 after decisions made throughout 2019. All attempts to keep things afloat have failed in the long run.
+However, despite world events, the Lynxmic project just like any of AveryEclipse's online projects at the time (including the [Axeon Community](Axeon_Network) Discord server) have been in a continued collapse during 2020 and 2021 after decisions made throughout 2019. All attempts to keep things afloat have failed in the long run.
 
 An official "Lynxmic Discord Server" was launched as [Lynxmic Official Server](LynxPlaza_(original)) as a spinoff from Axeon in late 2019, later renamed *LynxPlaza*, but it was merged back into Axeon in November 2020 in an attempt to have everyone in one single server.
 
-2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after KayAurora got [a new main laptop](Thei3Lappy) to replace [TheHaswellLappy](TheHaswellLappy), which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.
+2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after AveryEclipse got [a new main laptop](Thei3Lappy) to replace [TheHaswellLappy](TheHaswellLappy), which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.
 
 In November-December 2021, the Lynxmic channel celebrated its 5th anniversary since its creation, with whole branding changes introduced for the first time since 2019, including a new Lynxmic logotype which is still in use to this day, as well as a new font, with the background being a poly instead of a gradient.
 
@@ -139,7 +139,7 @@ The Lynxmic project entered 2024 with a new branding, which would use a pink-blu
 
 Original concepts pointed that the pinkish color would mainly represent the YouTube channel side (which had already seen a record growth in 2023 especially under the now-previous purple branding), while the blue color would represent the Lynxmic “online identity”. [LynxWebsite](LynxWebsite) and [Lynxmic’s Lodge](Axeon_Network#Discord_Server) would have used the main pink-blue gradient branding. Earliest concepts/ideas date back to early October 2023.
 
-In the end though, it was decided that the pink-blue profile picture be used generally everywhere, with the blue profile picture being used for MoreLynxmic and Lynxmic’s Lodge, as KayAurora wasn’t quite content with the pink profile picture.
+In the end though, it was decided that the pink-blue profile picture be used generally everywhere, with the blue profile picture being used for MoreLynxmic and Lynxmic’s Lodge, as AveryEclipse wasn’t quite content with the pink profile picture.
 
 As part of the changes, LynxWebsite changed from a simple landing page with links to an all-round personal website. As for [Lynxmic’s Lodge](Axeon_Network#Discord_Server) (renamed from Lynxmic’s Square), it was thought as an ““all-new”” Discord Server albeit built on top of the same server from 2017 with all its existing members and message history.
 
@@ -149,29 +149,31 @@ As part of the changes, LynxWebsite changed from a simple landing page with link
 The upload schedule would continue to generally be 1-2 videos per month, except for July-August 2024 where new videos would have been uploaded every single week on Friday. No videos have been uploaded in June.
 
 ### The “online identity split”
-In July 2024, the Lynxmic “online identity” turned into Clyron (now KayAurora), with LynxWebsite and the [Lynxmic Blog](Lynxmic_Blog) discontinued in favor of [KayWebsite](KayWebsite) and all Lynxmic social media accounts having been rebranded. Lynxmic’s Square (which previously reverted from the Lynxmic’s Lodge name) would become LynxPlaza, a community Discord server themed around the Lynxmic project. The Lynxmic name would keep being used for the YouTube Channel.
+In July 2024, the Lynxmic “online identity” turned into Clyron (now AveryEclipse), with LynxWebsite and the [Lynxmic Blog](Lynxmic_Blog) discontinued in favor of [KayWebsite](KayWebsite) and all Lynxmic social media accounts having been rebranded. Lynxmic’s Square (which previously reverted from the Lynxmic’s Lodge name) would become LynxPlaza, a community Discord server themed around the Lynxmic project. The Lynxmic name would keep being used for the YouTube Channel.
 
 ## 2025: General sunsetting
 After the final video of 2024 (*Exploring Third-Party Apps & Games for OS/2 Warp 4!*) flopped with just over 400+ views compared to the over at least 2,000+ views of consecutive previous videos of late 2024, a majority of videos that were uploaded in 2025 did not get past 1,000+ views.
 
-As early as November 2024, after *5 Years Later... - Windows 98 for Daily Use*, a video from November 2024 revisiting the VM previously used in the [Windows 98 for Daily Use](Windows_98_for_Daily_Use) series, surprisingly gained over 2,000+ views (added by the success of the first PC/laptop recreation videos), KayAurora attempted shifting away to making videos more similar to those for 2025, centred around random operating systems with 3rd-party stuff. However the OS/2 video being a flop, video plans were largely adjusted back to something closer to what worked better for the channel's growth.
+As early as November 2024, after *5 Years Later... - Windows 98 for Daily Use*, a video from November 2024 revisiting the VM previously used in the [Windows 98 for Daily Use](Windows_98_for_Daily_Use) series, surprisingly gained over 2,000+ views (added by the success of the first PC/laptop recreation videos), AveryEclipse attempted shifting away to making videos more similar to those for 2025, centred around random operating systems with 3rd-party stuff. However the OS/2 video being a flop, video plans were largely adjusted back to something closer to what worked better for the channel's growth.
 
-Of the initial wave of videos planned for 2025, only the Arch Linux video was produced, which went live on 7 January 2025 as *i used arch (btw) for the first time...* Later on 18 January 2025, *This video was made entirely on a phone (almost)* released as a Lynxmic video primarily made on a phone as a video creation experiment, the video having been done within 2 weeks in the times when KayAurora only had access to their phone (mainly during free-time at school).
+Of the initial wave of videos planned for 2025, only the Arch Linux video was produced, which went live on 7 January 2025 as *i used arch (btw) for the first time...* Later on 18 January 2025, *This video was made entirely on a phone (almost)* released as a Lynxmic video primarily made on a phone as a video creation experiment, the video having been done within 2 weeks in the times when AveryEclipse only had access to their phone (mainly during free-time at school).
 
-A day after, KayAurora announced that "they would take a break from the Lynxmic YT channels for an indefinite amount of time".
+A day after, AveryEclipse announced that "they would take a break from the Lynxmic YT channels for an indefinite amount of time".
 
 > *I have lately realized that working on any videos for the channel just feels like more of a task I need to do than something I'm passionate with ... I feel like I have to do anything to keep the channel back on track, make sure the growth rate won't fall down by constantly pushing out videos and hoping the algorithm will pick them up etc.*
 
--*KayAurora about the break from making Lynxmic videos, in LynxPlaza, 19 January 2025*
+-*AveryEclipse about the break from making Lynxmic videos, in LynxPlaza, 19 January 2025*
 
 New videos subsequently resumed after 1.5 months, with *Running Windows Installers Inside Windows Sandbox?* having been uploaded on 6 March 2025. A new Lynxmic branding with updated thumbnail design was also introduced, and there were at least over 30 video ideas for the channel that came up throughout the break. *Windows 7 on FAT16* was later uploaded on 13 March 2025, a week after the first one, followed by *Upgrading x86 Windows to x64 (in true fashion!)* on 24 March 2025, a remake of a previous video from late 2024.
 
-However after none of them surpassed 1,000 views within their first month, KayAurora began to consider sunsetting the project entirely as early as late March 2025. The future video planning was shrunk to just a few last videos. However only one of them (*"New Life" for a 18-Year-Old Laptop: Installing & Setting Up Windows Vista*) went up on 6 April 2025, having been already a work-in-progress for a few weeks by then.
+However after none of them surpassed 1,000 views within their first month, AveryEclipse began to consider sunsetting the project entirely as early as late March 2025. The future video planning was shrunk to just a few last videos. However only one of them (*"New Life" for a 18-Year-Old Laptop: Installing & Setting Up Windows Vista*) went up on 6 April 2025, having been already a work-in-progress for a few weeks by then.
 Two other videos were uploaded before it, the first (about forced Microsoft Accounts in the modern Windows OOBE) ending up being the most popular Lynxmic video of 2025 with over 2,500+ views, and the second being the yearly April Fools video.
 
-On 9 April 2025, KayAurora formally announced on LynxPlaza that they were moving on from the Lynxmic project entirely, stating that their interest for the channel specifically (or generally speaking, being a "wintuber") has been slowly dwindling and that they would rather use their free time for other things instead. In the following weeks, the LynxPlaza server would go through a restructuring process, with the server officially being renamed [Axeon Network](Axeon_Network).
+On 9 April 2025, AveryEclipse formally announced on LynxPlaza that they were moving on from the Lynxmic project entirely, stating that their interest for the channel specifically (or generally speaking, being a "wintuber") has been slowly dwindling and that they would rather use their free time for other things instead. In the following weeks, the LynxPlaza server would go through a restructuring process, with the server officially being renamed [Axeon Network](Axeon_Network).
 
-From this point on, only very occasional videos and streams would be made, including one on Windows 10's End of Support on 14 October 2025. Weeks later, [AstroNT](AstroNT) came as a spiritual successor to the Lynxmic project, channel jointly maintained with [StuffyXP](StuffyXP)'s creator, [Kit](KitSixtyFour).
+From this point on, only very occasional videos and streams would be made, including one on Windows 10's End of Support on 14 October 2025. Weeks later, [AstroNT](AstroNT) began as a spiritual successor to the Lynxmic project, channel jointly maintained with [StuffyXP](StuffyXP)'s creator, [Kit](KitSixtyFour).
+
+On 25 March 2026, a video was posted reviewing a random Windows ISO found on the Internet Archive (deemed "*Windows Triuosfjd*"). Within a month, the video has gotten 10k views, the first video since October 2024 with over 5k views.
 
 # Video Series
 ## Windows 98 for Daily Use

@@ -23,7 +23,7 @@ introduced='25 December 2025'
 introISO='2025-12-25'
 screensize='10.1" built-in LCD' %}
 
-**TheAspireLappy** (model *Acer Aspire One D257*) is a laptop manufactured by Acer Inc. in 2011. It is [Kit](Kit64)'s secondary computer since December 2025.
+**TheAspireLappy** (model *Acer Aspire One D257*) is a laptop manufactured by Acer Inc. in 2011. It is [Kit](KitSixtyFour)'s secondary computer since December 2025.
 
 # Naming
 The nickname `TheAspireLappy` is a reference to both [TheCeleryPC](TheCeleryPC) and [Thei5Lappy](Thei5Lappy)'s nicknames, following the same scheme: `The`...is self-explanatory as always, but `Aspire` is a reference to the computer's model instead of the processor, and `Lappy` for laptop.

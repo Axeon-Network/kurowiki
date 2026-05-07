@@ -14,7 +14,7 @@ image='resources/img/articles/linuxy10k/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'
-views='194'
+views='456'
 reldate='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
 %}
 
