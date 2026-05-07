@@ -8,7 +8,7 @@
 </div>
 
 **This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it the *Deltari* engine!)\
-Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *OneAveryAhead*!)
+Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *AveryEclipse*!)
 
 ## Contributing & Support
 *Remember, this is pre-release software!* If you encounter any issues or just have any suggestion, we're all ears! Just feel free to open a new issue in the [Issues](https://github.com/Axeon-Network/kurowiki/issues) page.\
