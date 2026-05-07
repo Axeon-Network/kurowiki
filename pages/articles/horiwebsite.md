@@ -3,6 +3,8 @@ title: HoriWebsite
 permalink: HoriWebsite
 isTitleItalic: true
 hatnote: "For the project that was also codenamed \"StuffyXP 2\", see [AstroNT](AstroNT).<br>Needs to be finished already."
+dyk:
+    - "...that early builds of HoriWebsite identified themselves as \"StuffyXP 2\" due to a bug in the branding logic?"
 ---
 
 {% include infoboxes/site.html

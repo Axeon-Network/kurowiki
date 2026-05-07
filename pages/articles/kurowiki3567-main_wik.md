@@ -7,6 +7,8 @@ aliases:
     - kurowiki 3567 main wik
     - kurowiki 3567 main
     - kurowiki first build
+dyk:
+    - "...that [the first KuroWiki build](KuroWiki_build_3567_(main_wik)) is a one-to-one fork of [HoriWebsite build 3567](HoriWebsite_build_3567)?"
 ---
 {% include infoboxes/build.html
 release_name='Internal Pre-Alpha Release'

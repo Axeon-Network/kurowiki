@@ -1,7 +1,6 @@
 ---
-title: KuroWiki
+title: Axeon KuroWiki
 permalink: KuroWiki
-isTitleItalic: true
 redirect_from:
   - LexWiki
   - HoriWiki
@@ -9,7 +8,7 @@ hatnote: "This article is about the wiki. For the development of KuroWiki and De
 ---
 
 {% include infoboxes/site.html
-name='KuroWiki'
+name='Axeon KuroWiki'
 formername='*HoriWiki* (May-June 2025)<br>*LexWiki* (July 2025)'
 developer='[KitSixtyFour](KitSixtyFour) and the *KuroWiki* Contributors (May-August 2025)<br>[Axeon Network](Axeon_Network) (since September 2025)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
@@ -26,7 +25,7 @@ link='[https://axeon-network.github.io/kurowiki](https://axeon-network.github.io
 image='resources/img/articles/kurowiki4450/home.png'
 %}
 
-***KuroWiki*** is an open-source online encyclopedia made by the [Axeon Network](Axeon_Network). Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse).
+**Axeon KuroWiki** is an open-source online encyclopedia planned to be launched as stable by the [Axeon Network](Axeon_Network) on the second quarter of 2026 (a.k.a *Q2*). Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse).
 
 KuroWiki was planned to be powered by MediaWiki with a custom user interface. However, it was decided instead to build a separate wiki engine, codenamed [*Deltari*](Deltari), powered by [Jekyll](https://jekyllrb.com).
 

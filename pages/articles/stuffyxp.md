@@ -5,6 +5,9 @@ hatnote: TODO, cover other stuffyxp history, like the gd on vista strike, and ma
 aliases:
     - stxp
 isTitleItalic: true     # to enable italics in the page title without messing up the sitemap.
+dyk:
+  - "...that the original handle for [StuffyXP](StuffyXP) was \"StuffyYT20\"?"
+  - "...that [StuffyXP VODS](StuffyXP#stuffyxp-vods) was the shortest lived channel in the StuffyXP Network?"
 ---
 
 <style>

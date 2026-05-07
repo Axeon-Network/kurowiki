@@ -1,5 +1,7 @@
-// Developed with love by KitSixtyFour/StupidBiFox.
-// SpringViewer "Trifrost" Version 3.0. Licensed under The MIT License:
+// SpringViewer Codename "Trifrost" Version 3.00
+// Written by KitSixtyFour/StupidBiFox
+
+// Licensed under The MIT License:
 //
 // Copyright 2025-2026 Axeon Network
 //
@@ -34,15 +36,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const dlButton = document.querySelector('.dl-btn'); 
     const flscrButton = document.querySelector('.flscr-btn');
     const viewerCounter = document.querySelector('.viewer-counter');
-            
+
+
+    // jekyll can convert markdown to html via markdownify, which works on the gallery items,
+    // when springviewer sees it, it uses something like [Text](URL) since it uses the raw data,
+    // so we make a small markdown helper so it displays "correctly".
+    const miniMarkdownify = (text) => {
+    if (!text) return '';
+    return text
+        .replace(/\*\*\*(.*?)\*\*\*/g, '<b><i>$1</i></b>') // Bold + Italic
+        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')           // Bold
+        .replace(/\*(.*?)\*/g, '<i>$1</i>')               // Italic
+        .replace(/~~(.*?)~~/g, '<del>$1</del>')          // Strikethrough
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>'); // Links
+    };
+
     let drawerBtn = null;
     setTimeout(() => {
         const foundBtn = document.querySelector('.mdl-layout__drawer-button');
         if (foundBtn) {
             drawerBtn = foundBtn; 
-            console.log("SUCCESS 0x7000 (SV_BUTTON_LOCATED): The MDL Button component is now attached for use."); 
         } else {
-            console.error("STOP 0x7000 (SV_FAST_INVOKE): SpringViewer was invoked too fast and the MDL Button could not be located.");
+            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running on this page.");
         }
     }, 50);
 
@@ -96,7 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (contentLength) {
                 document.getElementById('dialog-filesize').textContent = formatBytes(parseInt(contentLength, 10));
             } else {
-                document.getElementById('dialog-filesize').textContent = '0x8001 (MISSING_SIZE)';
+                document.getElementById('dialog-filesize').textContent = 'FLSIZE_REQ_FAILED';
+                console.error(`*** ERROR 0x0007 (FLSIZE_REQ_FAILED)\nThe request for fetching the file size has failed. ${err.message}`)
             }
             
             const lastModified = response.headers.get('last-modified');
@@ -106,11 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
                 document.getElementById('dialog-uploaddate').textContent = date;
             } else {
-                document.getElementById('dialog-uploaddate').textContent = '0x8002 (MISSING_DATE)';
+                document.getElementById('dialog-uploaddate').textContent = 'MDFDATE_REQ_FAILED';
+                console.error(`*** ERROR 0x0008 (MDFDATE_REQ_FAILED)\nThe request for fetching the last modified date has failed. ${err.message}`);
             }
         } catch (error) {
-            document.getElementById('dialog-filesize').textContent = '0x8100 (FETCH_FAIL)';
-            document.getElementById('dialog-uploaddate').textContent = '0x8100 (FETCH_FAIL)';
+            document.getElementById('dialog-filesize').textContent = 'The request has failed. Please see the console for more information.';
+            document.getElementById('dialog-uploaddate').textContent = 'The request has failed. Please see the console for more information.';;
         }
     };
 
@@ -136,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.exitFullscreen();
         } else {
             viewer.requestFullscreen().catch(err => {
-                console.error(`0x7001 (FULLSCREEN_REQUEST_FAILED): ${err.message}`);
+                console.error(`*** ERROR 0x0010 (FULLSCR_REQ_FAILED)\nSpringViewer cannot enter full screen mode. ${err.message}`);
             });
         }
     };
@@ -188,18 +205,37 @@ document.addEventListener('DOMContentLoaded', () => {
             } 
                 
             if (newMediaElement) {
-                viewerMediaContainer.appendChild(newMediaElement);
-                let captionText = '';
-                const parentFigure = mediaSourceElement.closest('figure');
-                if (parentFigure) {
-                    const captionElement = parentFigure.querySelector('figcaption');
-                    captionText = captionElement ? captionElement.innerHTML : '';
-                }
-                if (!captionText) {
-                    captionText = mediaSourceElement.alt || mediaSourceElement.title || '';
-                }
-                viewerCaption.innerHTML = captionText;
+            viewerMediaContainer.appendChild(newMediaElement);
+    
+            let captionText = '';
+
+            // look for the caption
+            const container = mediaSourceElement.closest('.gallery-item, .silver-item, .infobox-img-container') || mediaSourceElement.parentElement;
+
+            // Pass a string to querySelector, not an array
+            const specialCaption = container.querySelector('.infobox-img-caption-2, .gallery-caption, .silver-caption');
+    
+            if (specialCaption) {
+                // if it's already rendered, grab the html
+                captionText = specialCaption.innerHTML.replace(/<\/?p>/gi, '').trim();
+            } 
+    
+            // fallback to alt text/title attribs if no caption is found
+            if (!captionText || captionText.trim() === "") {
+                captionText = mediaSourceElement.alt || mediaSourceElement.title || '';
+                // run it through the markdown helper
+                captionText = miniMarkdownify(captionText);
             }
+
+            // if all else fail, use the filename
+            if (!captionText || captionText.trim() === "") {
+                const url = mediaSourceElement.src || videoSrc || "";
+                captionText = url.substring(url.lastIndexOf('/') + 1);
+                console.error(`*** ERROR 0x0020 (CAPTIONTXT_FAILED)\nThe image's caption text cannot be found. SpringViewer will display the file name instead.`)
+            }
+
+            viewerCaption.innerHTML = captionText;
+            }  
             viewerCounter.textContent = `${currentIndex + 1}/${totalMediaCount}`;
             if (dlButton) dlButton.style.display = 'block'; 
         }

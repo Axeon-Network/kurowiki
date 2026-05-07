@@ -27,9 +27,11 @@ link='https://axeon-network.github.io/discord'
 image='resources/img/articles/axeonnetwork/logo.png'
 %}
 
-**Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), which had always been the 'heart' of the network from the start, other stuff include Stoat (formerly revolt.chat) and Fluxer servers of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.
+The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), which had always been the 'heart' of the network from the start, other stuff include Stoat (formerly revolt.chat) and Fluxer servers of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
+
+{% include tableofcontents.html %}
 
 # Discord Server
 By far, the Discord Server of the same name is the flagship of the Axeon Network.
@@ -39,6 +41,12 @@ its initial scope was to serve as a spiritual successor to the [BriciWorld Loung
 
 The server was renamed to Axeon Community in April 2018, and the Axeon logo has reached its current form in June 2018. By the same month, it has went past the 100 member milestone, peaking at just over 120 members in early 2019. The server had for a while also went by “Lynx-Axeon” during early-to-mid 2021, as a result of the breakaway LynxPlaza server merging back in late 2020 after having previously spun off a year prior.
 
+{% include silver_item.html 
+image_src="resources/img/articles/axeonnetwork/axeonlogos.png" 
+caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (current logo, used since June 2025)"
+style="width:50%; height:auto" %}
+
+
 After 2020, the server has seen a decline in activity. 2022 has seen the lowest activity in the server, with only very few occasional messages per month. The server member count had gone down to around 60 members. After a prune of inactive Discord accounts, this count has gone down to just under 30.
 In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following AveryEclipse’s personal alias rebrand from Lynxmic to Clyron.
 
@@ -46,15 +54,8 @@ In early April 2025, AveryEclipse officially announced the sunsetting of the Lyn
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
 Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
-On 8 September 2025, the Axeon Network Discord Server re-reached 100 members. Since then the server's member count continued to occasionally both fall below and increase back around the 100-member mark.
 
-<div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/axeonnetwork/axeonlogos.png" 
-        alt_text="From left to right: Aqua Community, Axeon Community, Lynxmic's Square, Axeon Network logos." 
-        caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (current logo, used since June 2025)"
-        style="width:50%; height:auto" %}
-        </div>
+On 8 September 2025, the Axeon Network Discord Server re-reached 100 members, however it dropped under that milestone after a month.
 
 ## Custom server-specific Discord Bots
 Initially, there were several bots hosted specifically for the Axeon Network server, all which started operating in late 2017-early 2018:

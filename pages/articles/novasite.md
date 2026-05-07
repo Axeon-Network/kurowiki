@@ -2,6 +2,7 @@
 title: NovaSite
 isTitleItalic: true
 permalink: NovaSite
+dyk: "...that [NovaSite](NovaSite) was the most short-lived [HoriWebsite](HoriWebsite) successor, only lasting 1 week?"
 ---
 
 ***NovaSite***, also known as ***Lex's NovaSite***, was a website created in July 2025 planned to succeed *[HoriWebsite](HoriWebsite)* and *[LexSite](LexSite)*'s roles in being [KitSixtyFour](KitSixtyFour)'s personal website. The name of the site traces back to Kit's former alias, *Lex[The]Nova*.

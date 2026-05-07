@@ -2,6 +2,9 @@
 title: Finding Fucking
 permalink: Finding_Fucking
 isTitleItalic: true
+dyk:
+    - "...that *[Finding Fucking](Finding_Fucking)* is the movie within the DHI Pictures universe that actually exists?"
+    - "...that a sequel to *[Finding Fucking](Finding_Fucking)* was planned following the introduction of [KitsuMC](KitsuMC)?"
 ---
 
 ***Finding Fucking*** is a 2025 short documentary film produced by the [Axeon Network](Axeon_Network) and created by [DHI Pictures](Dogui_Heavy_Industries_Incorporated#dhi-pictures) (in reality, created by *[Kit](KitSixtyFour)* and *[AveryEclipse](AveryEclipse)*). The movie is about finding the city of [Fucking](Fucking,_Novaland) in the [NekoCraft](NekoCraft) Minecraft server.

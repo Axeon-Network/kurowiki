@@ -1,6 +1,7 @@
 ---
 title: pc tec tutorial
 permalink: pc_tec_tutorial
+dyk: "...that the \"pc tec tutorial\" meme was born after an sponsor email sent to Lynxmic in late 2024?"
 ---
 
 **pc tec tutorial** is an inside joke meme in the [AveryEclipse](AveryEclipse)/[Lynxmic](Lynxmic) universe, from late 2024-early 2025.

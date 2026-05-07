@@ -1,6 +1,7 @@
 /* 
     Kuro/ModularDelta Custom Material Design Lite Stylesheet File
-    Copyright 2025-2026 Axeon Network. Developed by KitSixtyFour
+    Written by KitSixtyFour/StupidBiFox
+    Copyright 2025-2026 Axeon Network.
 
     Material Design and Material Design Lite (MDL) are Copyright 2016 Google Inc 
     and are licensed under the Apache License.
@@ -31,7 +32,7 @@
 /* variables */
 html {
     /* dark mode */
-    --contentbox-background-color-dark: rgba(0,0,0,0.4);
+    --contentbox-background-color-dark: rgba(0,0,0,0.39);
     --search-background-color-dark: rgba(50,50,50,0.5);
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
@@ -41,7 +42,7 @@ html {
     --contentbox-background-color-light: rgba(255,255,255,0.80);
     --search-background-color-light: white;
     --mdlcard-background-color-light: white;
-    --drawer-color-light: rgba(255,255,255,0.8); /* microsoft windows ninety eiiight! :3 */
+    --drawer-color-light: rgb(239, 250, 255); /* microsoft windows ninety eiiight! :3 */
     --navhoverlink-light: rgba(255,255,255,0.5);
 
     /* button status */
@@ -329,4 +330,29 @@ body.viewer-active .mdl-layout__obfuscator {
 /* they were never aligned... */
 .mdl-navigation__link .material-icons {
     margin-bottom: 4px !important;
+}
+
+hr {
+    border-color: white;
+    opacity: 0.1;
+}
+.light-mode hr {
+    border-color: black !important;
+    opacity: 0.1;
+}
+
+details summary {
+    list-style: none;
+    display: flex;
+}
+
+details summary::before {
+    font-family: 'Material Icons';
+    content: "arrow_right"; /* This is the icon name */
+    font-size: 28px;
+    margin-left: -12px;
+}
+
+details[open] summary::before {
+    content: "arrow_drop_down"; /* Optional: change the icon entirely when open */
 }

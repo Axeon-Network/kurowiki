@@ -1,28 +1,29 @@
 ---
 title: CometLappy
 permalink: CometLappy
-hatnote: "For he character that it is named after, see [Comet](Comet)"
+hatnote: "For the character that it is named after, see [Comet](Comet)"
+dyk:
+    - "...that [CometLappy](CometLappy) was originally known as *NishiLappyV2*?"
+    - "...that [CometLappy](CometLappy) has very similar specs to [NishiLappy](NishiLappy)?"
 ---
 
 {% include infoboxes/computer.html
 name='CometLappy'
 owner='[KitSixtyFour](KitSixtyFour)'
 manufacturer='HP Inc.'
-model='Pavilion 15-cc0xx'
-image='resources/img/infoboxes/noimage.png'
-image_caption='Desktop as of April 2026'
+model='Pavilion Laptop 15-cc060wm'
+image='resources/img/articles/cometlappy/202605desk.png'
+image_caption='Desktop as of May 2026'
 introduced='5 April 2026'
 introISO='2026-04-05'
-cpu='Intel Core i7-7500U @ ?.?? GHz (*Kaby Lake*)' 
-ram='12 GB (DDR?)'
-disk='DUMMY'
+cpu='Intel Core i7-7500U @ 2.70 GHz (*Kaby Lake*)' 
+ram='8 GB (DDR4)'
+disk='128 GB SAMSUNG MZ7TD128HAFV-000L1 SATA SSD'
 gpu='Intel HD Graphics 620'
 integrated=true
-screenres='DUMMY'
-screensize='DUMMY' 
-os='DUMMY'
+screenres='1366x768'
+screensize='15.6" built-in touchscreen LCD' 
+os='Windows 10 Enterprise LTSC 2019'
 %}
 
-**CometLappy** (model *HP Pavilion Laptop 15-cc0xx*) is a laptop manufactered by HP Inc. in 2017.
-
-TODO: finish this; "DUMMY" or "?" values are to be replaced when i get the info -kit/sbf
+**CometLappy** (model *HP Pavilion Laptop 15-cc060wm*) is a laptop manufactered by HP Inc. in 2017. It is [Kit](KitSixtyFour)'s main computer since April 5th 2026 and the successor to [NishiLappy](NishiLappy) since April 27th.

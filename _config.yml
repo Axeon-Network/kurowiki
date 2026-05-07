@@ -18,9 +18,6 @@ author: Axeon Network
 # Copyright year(s)
 copyyear: "2025-2026"
 
-# Your email address
-email: thenekori64@gmail.com
-
 # The text used in embeds, like Discord.
 description: "Axeon KuroWiki Release Candidate 1"
 
@@ -78,6 +75,10 @@ debug: true
 # = Private Build =
 # Similar to Microsoft Windows, self-explanatory
 privatebuild: false
+# = Extended Build Lab =
+# Shows the branch and timestamp of the build, instead of the major, minor
+# and build number
+buildlabex: true
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
@@ -123,6 +124,16 @@ defaults:
       type: "pages"
     values:
       layout: "material"
+  -
+    scope:
+      path: "media"
+    values:
+      layout: "file"
+
+collections:
+  files:
+    output: true
+    permalink: "/wiki/File::name"
 
 livereload: true
 open_url: true
