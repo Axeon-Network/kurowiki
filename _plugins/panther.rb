@@ -64,7 +64,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     stored_number = 5186
   end
 
-  current_incremental_number = stored_number
+  current_incremental_number = 5186
   buildtag = ""
 
   if is_debug
