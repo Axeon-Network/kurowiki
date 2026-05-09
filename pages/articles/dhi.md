@@ -1,10 +1,10 @@
 ---
 title: Dogui Heavy Industries Incorporated
-permalink: Dogui_Heavy_Industries_Incorporated
+permalink: Dogui_Heavy_Industries
 redirect_from:
   - DHI_Inc
   - DHI
-  - Dogui_Heavy_Industries
+  - Dogui_Heavy_Industries_Incorporated
   - Dogui_Heavy_Industries_Inc
 aliases:
   - dhi
@@ -13,40 +13,36 @@ aliases:
   - dhi turtles
 ---
 
-**Dogui Heavy Industries Incorporated**[^1] (DHI Inc.) is a fictional NovaLandese company. Its main headquarters are located in [Fucking](Fucking), the capital city of [NovaLand](NovaLand).
+{% include silver_item.html 
+  image_src="resources/img/articles/dhi/hq.png" 
+  caption="Headquarters of DHI Inc. in Fucking, NovaLand"
+%}
 
-The company was founded in June 2024 as Dogui Heavy Coding Industries, with its first part of the name inheriting from [Dogui](Dogui), the name of [Kit](KitSixtyFour)'s dog plushie which at the time was the logo of [StuffyXP](StuffyXP). Its first mention was on a message on a Discord Server in which Kit was in, which had attached the [Stuffy Vlogs](Stuffy_Vlogs) background from the time.
+**Dogui Heavy Industries Incorporated** (officially abbreviated as **DHI Inc.**) is a fictional [NovaLandese](NovaLand) company. Its main headquarters are located in [Fucking](Fucking), the capital city of [NovaLand](NovaLand).
 
-In July 2024, the company was renamed Dogui Heavy Industries Limited, having its own motto:
-> *When the tables suddenly turn at the Dogui Heavy Industries Headquarters, it's when you know there's a certified Stuffy Moment*
+The company was founded in June 2024 as *Dogui Heavy Coding Industries*, with its first part of the name inheriting from [Dogui](Dogui), the name of [Kit](KitSixtyFour)'s dog plushie which at the time was the logo of [StuffyXP](StuffyXP). Its first mention was on a message on a Discord Server in which Kit was in, which had attached the [Stuffy Vlogs](Stuffy_Vlogs) background from the time.
 
-As of March 2025, Dogui Heavy Industries has changed from a Limited Company to a Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Kit Moments](Kit_Moments).
+In July 2024, the company was renamed *Dogui Heavy Industries Limited*, having its own motto "*When the tables suddenly turn at the Dogui Heavy Industries Headquarters, it's when you know there's a certified Stuffy Moment*".
 
-   <div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/dhi/hq.png" 
-        alt_text="" 
-        caption="Headquarters of DHI Inc. in Fucking, NovaLand"
-        style="width:50%; height:auto" %}
-        </div>
+In March 2025, Dogui Heavy Industries has changed from a Limited Company to an Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Kit Moments](Kit_Moments).
 
 # Subsidiaries
+{% include silver_item.html 
+    image_src="resources/img/articles/dhi/hqturtles.png" 
+    caption="Headquarters of DHI Turtles on the coast of Fucking, NovaLand"
+%}
+
 ## DHI Turtles
-**DHI Turtles LLC** (fully known as *Dogui Heavy Industries Turtle Research & Observatory Center LLC*) is a subsidiary of Dogui Heavy Industries Incorporated, its main goal is to rescue, preserve and study NovaLandese turtles.
-    <div>
-    {% include figure_item.html 
-        image_src="resources/img/articles/dhi/hqturtles.png" 
-        alt_text="" 
-        caption="Headquarters of DHI Turtles on the coast of Fucking, NovaLand"
-        style="width:50%; height:auto" %}
-        </div>
+**Dogui Heavy Industries Turtle Research & Observatory Center LLC** (abbreviated as **DHI Turtles LLC**) is a subsidiary of Dogui Heavy Industries Incorporated, its main goal is to rescue, preserve and study NovaLandese turtles.
+
+The subsidiary was founded in January 14 2025, originally having its headquarters in Ture, Novaland before moving to Fucking. The company has raised over 1B [NSB](NovaStarbit) within the span of 1 year.
 
 ## DHI Pictures
-**Dogui Heavy Industries Home Pictures Co., Ltd** (abbreviated as **DHI Pictures**; formerly known as **Dogui Heavy Industries Movie Studio Corporation**; abbreviated as **DHI Movies Corp**) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand. The company changed from DHI Movies to DHI Pictures in October 2025 following the release of [Finding Fucking](Finding_Fucking)
+**Dogui Heavy Industries Home Pictures Co., Ltd** (abbreviated as **DHI Pictures**), formerly known as **Dogui Heavy Industries Movie Studio Corporation** (abbreviated as **DHI Movies Corp**) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand. The company changed from DHI Movies to DHI Pictures in October 2025 following the release of [Finding Fucking](Finding_Fucking)
 
-DHI Pictures has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of [NSB.](NovaStarbit) 459M separately.
+DHI Pictures has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of 459M [NSB](NovaStarbit) separately.
 
-An actual (short) movie was released in 2 October 2025 titled [Finding Fucking](Finding_Fucking), which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4)
+An actual (short) movie was released in 2 October 2025 titled *[Finding Fucking](Finding_Fucking)*, which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/findingfucking.mp4)
 
 <!-- # [Loreside](KuroWiki%3ALoreside)
 ---
@@ -63,6 +59,3 @@ After the Economy Crash of 2017, DHI suffered a loss of NSB. 761,000,000 which m
 The company was barely keeping itself alive in 2019 until COVID-19 struck StuffyLand, DHI founded DHI Movies, a movie studio for the citizen's entertainment while at home.
 
 The company successfully recovered from the crash (in fact, was only one of the two to do so) and gained around LXL 1B due to the massive success of DHI Movies, and several donations for DHI Turtles. The company became the most profitable business in the country again in August 2021 due to a new CEO, [Kit](Kit). -->
-
-# References
-[^1]: Formerly known as **Dogui Heavy Industries Limited** (DHI Ltd.) and **Dogui Heavy Coding Industries** (DHCI).

@@ -17,7 +17,7 @@ window.featuredArticle = {
   <div class="mdl-card__title">
     <i class="material-icons">import_contacts</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
   </div>
-  <div class="mdl-card__supporting-text">
+  <div class="mdl-card__supporting-text" style="opacity:1;">
     <div id="feat-article-container" style="color:var(--text-color);padding:0;">
        Could not load featured article.
       </div>
@@ -34,7 +34,7 @@ window.featuredArticle = {
   <div class="mdl-card__title">
     <i class="material-icons">question_mark</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Did you know...</h2>
   </div>
-  <div class="mdl-card__supporting-text">
+  <div class="mdl-card__supporting-text" style="opacity:1;">
     <div id="facts-container" style="color:var(--text-color); padding: 0 !important;">
       {% if total_articles > 0 %}
         {% assign day_seed = "now" | date: "%Y%m%d" | plus: 0 %}
@@ -72,7 +72,7 @@ window.featuredArticle = {
   <div class="mdl-card__title">
     <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>
   </div>
-  <div class="mdl-card__supporting-text">
+  <div class="mdl-card__supporting-text" style="opacity:1;">
     <div style="color:var(--text-color);padding:0;">
     {% capture recent_news %}
      {% include recent_news.md %}

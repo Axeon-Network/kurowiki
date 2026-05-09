@@ -1,6 +1,7 @@
 @echo off
 echo.
-echo Whidbey Build Environment Version 0.8 for Axeon Deltari
+echo Whidbey Build Helper Version 0.8 for Microsoft Windows NT
+echo Designed for use with Axeon Deltari
 echo Copyright 2026 KitSixtyFour. For internal use only
 echo.
 echo This script creates DOSKEY Aliases for easier debugging.
