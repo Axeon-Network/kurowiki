@@ -34,7 +34,7 @@ title Whidbey - Delta%status% of %lab% in %cd%
 doskey dlt=bundle exec jekyll server -l -o --port 4500
 doskey dnw=bundle exec jekyll server -l -o --no-watch --port 4500
 doskey bni=bundle install
-doskey hlp=call tools\whidbey_hlp.cmd
+doskey hlp=call tools\win\whidbey_hlp.cmd
 doskey dsv=bundle exec jekyll server --port 4500
 doskey dbl=bundle exec jekyll build
 doskey dcl=bundle exec jekyll clean
