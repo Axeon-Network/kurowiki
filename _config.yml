@@ -1,5 +1,5 @@
 # DELTARI CONFIGURATION FILE
-# Copyright (C) 2025-2026 Axeon Network. Developed by KitSixtyFour and OneAveryAhead.
+# Copyright (C) 2025-2026 Axeon Network. Developed by KitSixtyFour and AveryEclipse.
 
 
 # == BASIC INFORMATION ==
@@ -79,6 +79,9 @@ privatebuild: false
 # Shows the branch and timestamp of the build, instead of the major, minor
 # and build number
 buildlabex: true
+# = Build Delta =
+# Enables or disables build revisions, useful when build numbers are fixed
+builddelta: true
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
@@ -143,7 +146,7 @@ open_url: true
 # liquid you son of a bitch
 encoding: "utf-8"
 
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,mk"
 
 plugins:
   - jekyll-redirect-from
@@ -155,3 +158,4 @@ kramdown:
 exclude:
   - resources/ruby/version # just so it doesnt get caught in a loop
   - resources/ruby/buildtag # ditto
+  - resources/ruby/delta # ditto

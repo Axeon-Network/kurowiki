@@ -164,7 +164,7 @@
             </span>
             <br>
             <span style="font-size: smaller; line-height: 1.0; color:darkgray !important;">
-                Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }})
+                Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.builddelta %}.{{ site.version.delta }}{% endif %})
             </span>
           </span>
         </nav>
@@ -211,7 +211,7 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabex %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
+            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.builddelta %}.{{ site.version.delta }}{% endif %}{% if site.buildlabex %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>
