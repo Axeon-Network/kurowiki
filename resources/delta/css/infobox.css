@@ -34,20 +34,24 @@
     /* dark mode */
     --infobox-bg-dark: #202122;
     --infobox-border-dark: #161616;
+    --infobox-section-dark: #161616;
 
     /* light mode */
     --infobox-bg-light: #f8f9fa;
     --infobox-border-light: #a2a9b1;
+    --infobox-section-light: #efefef;
 }
 
 html {
     --infobox-bg: var(--infobox-bg-dark);
     --infobox-border: var(--infobox-border-dark);
+    --infobox-section: var(--infobox-section-dark);
 }
 
 html.light-mode {
     --infobox-bg: var(--infobox-bg-light);
     --infobox-border: var(--infobox-border-light);
+    --infobox-section: var(--infobox-section-light);
 }
 html.infobox-title,
 html.seriesbox-title {
@@ -235,7 +239,7 @@ html.seriesbox-title {
 }
 
 li ul a {
-    margin-left: -23px;
+    margin-left: -9px !important;
 }
 
 .toc-title {
@@ -283,7 +287,7 @@ li ul a {
 }
 
 .seriesbox-title {
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: normal !important;
 }
 
@@ -312,7 +316,6 @@ li ul a {
     font-size: 100%;
     font-weight: bold;
     color: var(--text-color);
-    float: right;
     overflow-wrap:break-word;
     padding-top: 6px !important;
     padding-bottom: 6px !important;

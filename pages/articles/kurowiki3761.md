@@ -13,6 +13,7 @@ build='3761'
 lab='nekori64'
 compiled='2025-10-12 20:01 UTC-6'
 image='resources/img/articles/kurowiki3761/settings.png'
+image_caption='Settings page'
 %}
 
 **KuroWiki build 3761** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 12 October 2025 20:01 (8:01pm) UTC-6 from the `nekori64` branch.

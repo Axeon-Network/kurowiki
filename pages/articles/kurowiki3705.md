@@ -13,6 +13,7 @@ build='3705'
 lab='nekori64'
 compiled='2025-10-12 18:32 UTC-6'
 image='resources/img/articles/kurowiki3705/homedark.png'
+image_caption='Home page'
 %}
 
 **KuroWiki build 3705** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 12 October 2025 18:32 (6:32pm) UTC-6.

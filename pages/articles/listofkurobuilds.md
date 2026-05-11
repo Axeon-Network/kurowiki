@@ -3,34 +3,35 @@ title: List of all KuroWiki builds
 permalink: List_of_all_KuroWiki_builds
 ---
 
-This article is a list of all known [*KuroWiki*](KuroWiki) builds.
+This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 
 
 ## Internal Builds
 
 [2.4.3567.main-wik.250504-1045](KuroWiki_build_3567_(main_wik))
-[2.4.3567.horiwiki-pa1.250504-1052](KuroWiki_build_3567_(main_wik))
+[2.4.3567.horiwiki-pa1.250504-1052](KuroWiki_build_3567_(horiwiki-pa1))
 
 ## Pre-Alpha Release
 *Build numbers were reintroduced until KuroWiki 1.0.1*
 
-[0.1](KuroWiki_build_0.1) 0.1.main.250504-????
-[0.2](KuroWiki_Pre-Alpha_0.2) 0.2.main.250504-????
-[0.3](KuroWiki_Pre-Alpha_0.3) 0.3.main.250504-????
-[0.4](KuroWiki_Pre-Alpha_0.4) 0.4.main.250504-????
-[0.5](KuroWiki_Pre-Alpha_0.5) 0.5.main.250504-????
-[0.5.2](KuroWiki_Pre-Alpha_0.5.2) 0.5.2.main.250504-????
-[0.5.3](KuroWiki_Pre-Alpha_0.5.3) 0.5.3.main.250505-????
+[0.1](KuroWiki_build_0.1)
+[0.2](KuroWiki_build_0.2)
+[0.3](KuroWiki_build_0.3)
+[0.4](KuroWiki_build_0.4)
+[0.5](KuroWiki_build_0.5)
+[0.5.2](KuroWiki_build_0.5.2)
+[0.5.3](KuroWiki_build_0.5.3)
 
 ## Alpha Release
-[1.1](KuroWiki_Alpha_1.1) 1.1.250506-????
-[1.2](KuroWiki_Alpha_1.2) 1.2.250506-????
+[1.1](KuroWiki_build_1.1)
+[1.2](KuroWiki_build_1.2)
 
 ## Beta 1
-[1.0](KuroWiki_Beta_1.0) 1.0.main.250507-????
+[1.0](KuroWiki_build_1.0_(Beta))
 [1.0.1.367.main.250515-1422](KuroWiki_build_367)
 
 ## Beta 2
+2.0.451.material.250516-1647
 2.0.566.material.250516-1933
 2.1.602.material.250602-1710
 
@@ -270,8 +271,9 @@ This article is a list of all known [*KuroWiki*](KuroWiki) builds.
 [7.0.4584.main.260113-1146](Deltari_build_4584)
 
 **mdelta_N compiles**
-7.0.4504.mdelta_N.260215-2040
+[7.0.4504.mdelta_N.260215-2040](KuroWiki_build_4504)
 7.0.4543.mdelta_N.260215-2357
 7.0.4600.mdelta_N.260216-0024
 7.0.4715.mdelta_N.260313-0401
 7.0.4720.mdelta_N.260313-2113
+7.0.4477.private/mdelta_N.260222-2026

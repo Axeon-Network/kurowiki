@@ -1,7 +1,8 @@
 /* 
     Kuro/ModularDelta SpringViewer Stylesheet File
     Written by KitSixtyFour/StupidBiFox
-    Copyright 2025-2026 Axeon Network.
+    Copyright 2025-2026 Axeon Network
+    .
     If you are looking for the CSS code used in galleries, the component that invokes
     SpringViewer, see gallery.css.
     Licensed under the MIT License, which is included below:
@@ -26,22 +27,23 @@
 :root {
     /* dark mode */
     --viewer-background-color-dark: rgb(15,15,15); 
-    --viewer-border-color-dark: #262626;
-    --viewer-button-color-dark: rgb(40,40,40);
+    --viewer-border-color-dark: #202020;
+    /* --viewer-button-color-dark: rgb(40,40,40); */
+
     /* light mode */
-    --viewer-background-color-light: white;
-    --viewer-border-color-light: #e5e5e5;
-    --viewer-button-color-light: rgb(220,220,220);
+    --viewer-background-color-light: rgb(248,248,248);
+    --viewer-border-color-light: #dfdfdf;
+    /* --viewer-button-color-light: rgb(233,233,233); */
 }
 html {
     --viewer-background-color: var(--viewer-background-color-dark);
     --viewer-border-color: var(--viewer-border-color-dark);
-    --viewer-button-color: var(--viewer-button-color-dark);
+    /* --viewer-button-color: var(--viewer-button-color-dark); */
 }
 html.light-mode {
     --viewer-background-color: var(--viewer-background-color-light);
     --viewer-border-color: var(--viewer-border-color-light);
-    --viewer-button-color: var(--viewer-button-color-light);
+    /* --viewer-button-color: var(--viewer-button-color-light); */
 }
 /* springviewer watermark */
 #viewer-watermark {
@@ -96,7 +98,6 @@ html.light-mode {
     background-color: none;
 }
 
-/* The Container: Fills the screen but creates a "safe zone" for the footer */
 #viewer-media-container {
     display: flex; 
     justify-content: center;
@@ -111,16 +112,11 @@ html.light-mode {
     overflow: hidden;
 }
 
-/* The Image: The "Smart" scaling logic */#viewer-media-element {
+#viewer-media-element {
     width: auto;
     height: auto;
-
-    /* Let it touch the left and right sides of the screen */
     max-width: 100%; 
-
-    /* Let it touch the very top of the screen, and the very top of the 89px footer */
     max-height: calc(100vh - 89px); 
-
     object-fit: contain;
     user-select: none;
     -webkit-user-drag: none;
@@ -128,14 +124,12 @@ html.light-mode {
 
 @media (max-width: 1024px) {
     #viewer-media-element {
-        /* Keep the logic consistent even on tablets */
         max-height: calc(100vh - 160px) !important;
     }
 }
 
 @media (max-width: 767px) {
     #viewer-media-element {
-        /* On phones, give a bit more horizontal breathing room */
         max-width: 98vw;
         max-height: calc(100vh - 180px) !important;
     }
@@ -144,16 +138,14 @@ html.light-mode {
 /* image counter */
 .viewer-counter {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 50px;
+    right: 15px;
     color: white;
     background-color: rgba(0,0,0,1) !important;
     font-size: 16px;
     line-height: 1;
     padding: 8px;
-    margin-top: 50px;
-    margin-right: 15px;
-    opacity: 0.5 !important;
+    opacity: 0.7 !important;
     z-index: 6;
 }
 
@@ -172,20 +164,25 @@ html.light-mode {
 #viewer-top-buttons button {
     color: white !important;
     background-color: rgba(0,0,0,1);
-    opacity: 0.6;
+    opacity: 0.75;
     border: none;
     padding: 0px;
     width: 30px !important;
     height: 30px !important;
 }
-/* ditto */
+/* somehow the icons get disaligned, but hey its now fixed on
+   5186.39.kuro_rc1_prerelase! :3 -stupidbifox */
+#viewer-top-buttons button i {
+    padding-top: 3px;
+    opacity: 1 !important;
+}
 #viewer-top-buttons button:hover {
-    opacity: 0.8;
+    opacity: 9;
     cursor: pointer;
 }
-/* ditto part 2 */
 #viewer-top-buttons button:active {
-    opacity: 1;
+    color: #aaa !important;
+    background-color: rgba(10,10,10,1)
 }
 
 /* image navigation */
@@ -197,14 +194,14 @@ html.light-mode {
     font-size: 0px;
     cursor: pointer;
     user-select: none;
-    opacity: 0.6;
+    opacity: 0.75;
     margin: 0 20px;
     padding: 0 8px;
     position: fixed;
     z-index: 6;
 }
 .nav-btn:hover {
-    opacity: 0.8;
+    opacity: 9;
 }
 .nav-btn:active {
     opacity: 1;
@@ -222,7 +219,7 @@ html.light-mode {
 
 /* the bottom part */
 #viewer-details-sub {
-    font-size: 0.9em;
+    font-size: 0.89em;
     color: #939393;
     margin-bottom: -4px;
     background-color: inherit;
@@ -245,31 +242,31 @@ html.light-mode {
     position: absolute;
     justify-items: center;
     margin-top: 1.2%;
-    margin-left: -15px;
+    margin-left: -10px;
     align-items: center;
     align-self: center;
 }
 #viewer-details-button {
     position: fixed;
-    right: 0;
-    margin-top: -46px;
-    margin-right: 8px;
-    color: var(--text-color);
-    background-color: var(--viewer-button-color);
+    right: 12px;
+    bottom: 44px;
+    color: white;
+    background-color: var(--accent-light);
 }
 #viewer-details-license {
     float: right !important;
-    margin: 0 auto;
-    position: relative;
-    padding-right: 3px;
+    /*! margin: 0 auto; */
+    position: fixed;
+    right: 28px;
+    bottom: 8px;
 }
 #viewer-details-license-icon {
     float: right;
     padding-right: 0px;
 }
 #viewer-details-author {
-    margin: 0 auto;
-    position: absolute;
+    position: fixed;
+    bottom: 8px;
 }
 #viewer-details-author-icon {
     padding-left: 2px;
@@ -302,13 +299,17 @@ html.light-mode {
     border-top-color: var(--viewer-border-color) !important;
 }
 
+/* NOTE: as of build 5186.38, THIS DOES NOT WORK */
+
 /* firefox video player */
 /* thumb button */
+/*
 .scrubber:active::-moz-range-thumb,
 .volumeControl:active::-moz-range-thumb {
   background-color: var(--accent) !important;
-}
+} */
 /* progress bar */
+/*
 .progressBar::-moz-progress-bar {
   background-color: var(--accent) !important;
-}
+} */

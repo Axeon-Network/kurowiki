@@ -13,6 +13,7 @@ build='3762'
 lab='nekori64'
 compiled='2025-10-12 20:07 UTC-6'
 image='resources/img/articles/kurowiki3761/settings.png'
+image_caption='Settings page'
 %}
 
 **KuroWiki build 3762** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 12 October 2025 20:07 (8:07pm) UTC-6.

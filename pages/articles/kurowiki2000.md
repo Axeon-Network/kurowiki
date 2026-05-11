@@ -14,6 +14,7 @@ build='2000'
 lab='kuro_escro'
 compiled='2025-07-25 14:23 UTC-6'
 image='resources/img/articles/kurowiki2000/preview.png'
+image_caption='Article view with drawer open'
 %}
 
 **KuroWiki build 2000** is a Beta 4 build of [KuroWiki](KuroWiki), compiled on 25 July 2025 at 2:23PM UTC-6.

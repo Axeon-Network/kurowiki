@@ -8,9 +8,10 @@ family='[KuroWiki](KuroWiki)'
 buildtag='7.0.4546.private/kitsixtyfour_N(stupidbifox).260215-1732'
 version='7.0'
 build='4546'
-lab='kitsixtyfour_N (private build; initiated by the account `stupidbifox`)'
+lab='kitsixtyfour_N'
 compiled='2026-02-15 17:32 UTC-6'
 image='resources/img/articles/kurowiki4546/homepage.png'
+image_caption='Home page'
 %}
 
 **KuroWiki build 4546** is a private Release Candidate 1 build of [KuroWiki](KuroWiki), compiled on 15 February 2026 at 5:32 pm UTC-6 from the `kitsixtyfour_N` branch. Screenshots of this build had been sent to the [Axeon Network](Axeon_Network#Discord_Server) Discord server.

@@ -1,0 +1,28 @@
+---
+title: KuroWiki build 3615
+permalink: KuroWiki_build_4504
+aliases:
+    - kurowiki 4504
+---
+{% include infoboxes/build.html
+family='[KuroWiki](KuroWiki)'
+buildtag='7.0.4504.mdelta_N.260215-2040'
+version='7.0'
+build='4504'
+lab='mdelta_N'
+compiled='2026-02-15'
+image='resources/img/articles/kurowiki4504/home.png'
+image_caption='Home page'
+%}
+
+**KuroWiki build 4504** is a Release Candidate 1 build of [KuroWiki](KuroWiki). It was compiled on February 15 2026 at 8:40pm.
+
+This is the first build compiled from the `mdelta_N` branch, which is a "*buffer branch*" designed to merge back and forth the development branches (`kitsixtyfour` and `averyeclipse`) to unify the codebases, similar to the [four](KuroWiki_build_3615) [Interim](KuroWiki_build_3680) [Developer](KuroWiki_build_3810) [Releases](KuroWiki_build_4100) (IDRs) of KuroWiki. Unlike the IDRs, builds compiled from the `mdelta_N` branch are not public releases, eliminating the need of IDRs entirely.
+
+# Gallery
+<div class="wiki-gallery">
+{% include gallery_item.html
+    image_src="resources/img/articles/kurowiki4504/drawer.png"
+    caption="Drawer"
+    %}
+</div>

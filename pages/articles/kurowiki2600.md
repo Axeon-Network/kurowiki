@@ -1,5 +1,5 @@
 ---
-title: KuroWiki build 2600 (main)
+title: KuroWiki build 2600
 permalink: KuroWiki_build_2600
 hatnote: Not to be confused with <a href='KuroWiki_build_2600_(nekori64)'>KuroWiki build 2600 (nekori64)</a>.
 aliases:
@@ -14,6 +14,7 @@ build='2600'
 lab='main'
 compiled='2025-09-28 09:55 UTC-6'
 image='resources/img/articles/kurowiki2600/home.png'
+image_caption='Home page'
 %}
 
 **KuroWiki build 2600** is the first and official Beta 5 build of [KuroWiki](KuroWiki). It was publicly released on 28 September 2025 by the [Axeon Network](Axeon_Network).

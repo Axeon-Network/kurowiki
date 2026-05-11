@@ -14,9 +14,10 @@ build='4400'
 lab='main'
 compiled='2025-12-04 00:46 UTC+2'
 image='resources/img/articles/kurowiki4400/home.png'
+image_caption='Home page'
 %}
 
-**KuroWiki build 4400** is the official Beta 6 build of [KuroWiki](KuroWiki), compiled on 12 December 2025 at 12:46AM UTC+2.
+**KuroWiki build 4400** is the official Beta 6 build of [KuroWiki](KuroWiki), compiled on 4 December 2025 at 12:46AM UTC+2 (4:46PM UTC-6 the day prior) and released 2 hours and 26 minutes later the same day.
 
 It brought many major fixes, changes and articles, including a redesigned media viewer and drawer, which itself now includes Random Article and Sitemap buttons.
 

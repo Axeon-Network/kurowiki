@@ -163,7 +163,7 @@
               {% endif %}
             </span>
             <br>
-            <span style="font-size: smaller; line-height: 1.0; color:darkgray !important;">
+            <span id="drawer-version-info" style="font-size: smaller; line-height: 1.0;">
                 Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.builddelta %}.{{ site.version.delta }}{% endif %})
             </span>
           </span>
@@ -222,8 +222,10 @@
     <script src="./resources/delta/js/featuredArticle.js"></script>
     <script src="./resources/delta/js/lightMode.js"></script>
 
-    <!-- dyk.js file - to be deprecated -->
-    <!-- <script src="./resources/js/dyk.js"></script> -->
+    {% if site.debug %}
+      <script src="./resources/delta/js/debug.js"></script>
+    {% endif %}
+
     
     <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
     <script src="./resources/js/showOneko.js"></script>

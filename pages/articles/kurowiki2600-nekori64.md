@@ -18,11 +18,12 @@ build='2600'
 lab='nekori64'
 compiled='2025-10-12 16:10 UTC-6'
 image='resources/img/articles/kurowiki2600-ne/homepage.png'
+image_caption='Home page'
 %}
 
-**KuroWiki build 2600** is a Beta 6 build of [KuroWiki](KuroWiki). It was compiled on the `nekori64` branch in 12 October 2025 at 4:10 PM UTC-6.
+**KuroWiki build 2600 (nekori64)** is a Beta 6 build of [KuroWiki](KuroWiki). It was compiled on the `nekori64` branch in 12 October 2025 at 4:10 PM UTC-6.
 
-This build is notable for being the first Beta 6 build known to exist. Its build name is due to a bug within the build generation system found on KuroWiki (codenamed TagGen), as the build number was mistakengly set as 2600.
+This build is notable for being the first Beta 6 build known to exist. Its build name is due to a bug within the build generation system found on KuroWiki (codenamed *[Panther](Panther)*), as the build number was mistakengly set as 2600.
 
 It introduces an early iteration of the new Dark Mode, making key elements of the wiki dark.
 In the homepage, the Featured Article was also changed from [Absolute Cinema](Absolute_Cinema) to [Dogui Heavy Industries Incorporated](Dogui_Heavy_Industries_Incorporated) and the description was changed as well.

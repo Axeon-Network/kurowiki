@@ -13,6 +13,7 @@ build='4641'
 lab='kayaurora'
 compiled='2026-02-19 4:35 UTC+2'
 image='resources/img/articles/kurowiki4641/article.png'
+image_caption='Article view'
 %}
 
 **KuroWiki build 4641** is an Release Candidate 1 build of KuroWiki, compiled on 19 February 2026 at 4:35AM UTC+2 from the `kayaurora` branch.

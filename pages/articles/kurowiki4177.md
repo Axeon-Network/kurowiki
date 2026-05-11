@@ -12,6 +12,7 @@ build='4177'
 lab='kayaurora'
 compiled='2025-11-09 01:34 UTC+2'
 image='resources/img/articles/kurowiki4177/home.png'
+image_caption='Home page'
 %}
 
 

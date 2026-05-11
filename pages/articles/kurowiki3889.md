@@ -12,6 +12,7 @@ build='3889'
 lab='nekori64'
 compiled='2025-10-27 17:15 UTC-6'
 image='resources/img/articles/kurowiki3889/infoboxtestpage.png'
+image_caption='The Infobox Test Page'
 %}
 
 **KuroWiki build 3889** is a Beta 6 build of [KuroWiki](KuroWiki), compiled on 27 October 2025 at 5:15PM UTC-6 from the `nekori64` development branch

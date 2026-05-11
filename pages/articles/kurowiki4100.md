@@ -13,17 +13,16 @@ build='4100'
 lab='main'
 compiled='2025-10-29 16:38 UTC-6'
 image='resources/img/articles/kurowiki4100/home.png'
+image_caption='Home page (dark mode)'
+image2='resources/img/articles/kurowiki4100/homelight.png'
+image2_caption='Home page (light mode)'
 %}
 
-**KuroWiki build 4100** is the official fourth **Interim Developer Release** (IDR) of KuroWiki, compiled and released on 29 October 2025 at 4:38PM UTC-6.
+**KuroWiki build 4100** is the fourth *Interim Developer Release* of KuroWiki, compiled and released on 29 October 2025 at 4:38PM UTC-6. It is based on the Beta 6 codebase
 
 # Gallery
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4100/homelight.png"
-        caption="Home page, light mode enabled"
-        style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4100/drawer.png"
         caption="Drawer"

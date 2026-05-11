@@ -12,6 +12,7 @@ build='4074'
 lab='nekori64'
 compiled='2025-10-29 14:52 UTC-6'
 image='resources/img/articles/kurowiki4074/home.png'
+image_caption='Home page'
 %}
 
 **KuroWiki build 4074** is a Beta 6 build of KuroWiki, compiled on 27 October 2025 at 6:30PM UTC-6 from the `nekori64` development branch

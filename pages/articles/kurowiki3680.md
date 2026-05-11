@@ -14,6 +14,7 @@ build='3680'
 lab='main'
 compiled='2025-10-11 16:01 UTC-6'
 image='resources/img/articles/kurowiki3680/home.png'
+image_caption='Home page'
 %}
 
 **KuroWiki build 3680** is the official second **Interim Developer Release** (IDR) of [KuroWiki](KuroWiki) Beta 5.2, and the final Beta 5 build known to exist. It was released on 12 October 2025 at 1:01 AM UTC+3 (4:01 PM UTC-6 the day prior).

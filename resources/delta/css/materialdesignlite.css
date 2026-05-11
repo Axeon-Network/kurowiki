@@ -32,18 +32,18 @@
 /* variables */
 html {
     /* dark mode */
-    --contentbox-background-color-dark: rgba(0,0,0,0.39);
+    --contentbox-background-color-dark: rgba(0,0,0,0.43);
     --search-background-color-dark: rgba(50,50,50,0.5);
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
 
     /* light mode */
-    --contentbox-background-color-light: rgba(255,255,255,0.80);
+    --contentbox-background-color-light: rgba(248,248,248,0.73);
     --search-background-color-light: white;
     --mdlcard-background-color-light: white;
-    --drawer-color-light: rgb(239, 250, 255); /* microsoft windows ninety eiiight! :3 */
-    --navhoverlink-light: rgba(255,255,255,0.5);
+    --drawer-color-light: rgb(246, 246, 246,0.8); /* microsoft windows ninety eiiight! :3 */
+    --navhoverlink-light: rgba(230,230,230,1);
 
     /* button status */
     /* i forgot why i used these but i wont remove these cuz ya never know */
@@ -110,10 +110,14 @@ hr {
 /* custom mdl stuff: the drawer */
 .mdl-layout__drawer {
  background-color: var(--drawer-color);
- backdrop-filter: blur(20px);
+ backdrop-filter: blur(15px);
  color: var(--text-color) !important;
  border-color: none;
  border-right: 0px;
+}
+
+.mdl-navigation__link:hover {
+    text-decoration: none !important;
 }
 
 .mdl-layout__drawer-button {
@@ -248,7 +252,6 @@ h3, h4, h5, h6 {
 
 #mainbox {
     background-color: var(--contentbox-background-color); 
-    backdrop-filter: blur(25px); 
     width:96%; 
     justify-content: center; 
     display: block; 
@@ -355,4 +358,23 @@ details summary::before {
 
 details[open] summary::before {
     content: "arrow_drop_down"; /* Optional: change the icon entirely when open */
+}
+
+#drawer-version-info {
+    opacity: 0.5;
+}
+
+.mdl-button {
+    text-decoration: none !important;
+}
+
+.mdl-layout__header-row .container a {
+    color: white !important;
+}
+a#drawerlink.mdl-navigation__link {
+    color: var(--text-color) !important;
+}
+
+#mainbox {
+    backdrop-filter: blur(12px);
 }

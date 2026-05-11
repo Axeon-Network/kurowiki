@@ -13,6 +13,9 @@ build='4706'
 lab='kayaurora'
 compiled='2026-03-09 00:25 UTC+2'
 image='resources/img/articles/kurowiki4706/home.png'
+image_caption='Home page (dark mode)'
+image2='resources/img/articles/kurowiki4706/homelight.png'
+image2_caption='Home page (light mode)'
 %}
 
 **KuroWiki build 4706** is a Release Candidate 1 build of KuroWiki, compiled on 9 March 2026 at 00:25 UTC+2 from the `kayaurora` development branch.
@@ -29,9 +32,6 @@ Additionally, the line "*This is beta software!*" in the homepage's hatnote has 
 
 <div class="wiki-gallery">
     {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4706/homet.png" 
-        caption="Home" %}
-    {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4706/drawer.png" 
         caption="Drawer" %}
     {% include gallery_item.html 
@@ -45,9 +45,6 @@ Additionally, the line "*This is beta software!*" in the homepage's hatnote has 
 ## Light mode
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4706/homelight.png" 
-        caption="Home" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4706/drawerlight.png" 
         caption="Drawer" %}

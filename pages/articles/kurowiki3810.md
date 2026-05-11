@@ -13,6 +13,9 @@ build='3810'
 lab='main'
 compiled='2025-10-17 18:08 UTC-6'
 image='resources/img/articles/kurowiki3810/home.png'
+image_caption='Home page (dark mode)'
+image2='resources/img/articles/kurowiki3810/homelight.png'
+image2_caption='Home page (light mode)'
 %}
 
 **KuroWiki build 3810** is the official third **Interim Developer Release** (IDR) of KuroWiki, compiled and released on 27 October 2025 at 5:15PM UTC-6.
@@ -52,11 +55,6 @@ This main branch build introduced various features implemented after build 3680,
 # Gallery
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki3810/homelight.png" 
-        alt_text="" 
-        caption="Home page (light mode enabled)"
-        style="width:50%;" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki3810/drawer.png" 
         alt_text="" 

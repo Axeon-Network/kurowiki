@@ -5,7 +5,7 @@ aliases:
     - kurowiki 3615
 ---
 {% include infoboxes/build.html
-release_name='Interim Developer Release 1'
+release_name='Interim Developer Release'
 family='[KuroWiki](KuroWiki)'
 buildtag='5.2.3615.main.251011-0412'
 version='5.2'
@@ -13,9 +13,10 @@ build='3615'
 lab='main'
 compiled='2025-10-10 19:12 UTC-6'
 image='resources/img/articles/kurowiki3615/home.png'
+image_caption='Home page'
 %}
 
-**KuroWiki build 3615** is the official **Interim Developer Release** of [KuroWiki](KuroWiki) Beta 5.2. It was released on 11 October 2025 at 4:12 AM UTC+3 (7:12 PM UTC-6 the day before). It was released as a way to merge the `nekori64` and `kayaurora` developer branches into one, like it was done with [build 2600](KuroWiki_build_2600).
+**KuroWiki build 3615** is the first official *Interim Developer Release* of [KuroWiki](KuroWiki). It was released on 11 October 2025 at 4:12 AM UTC+3 (7:12 PM UTC-6 the day before).<br>It was released as a way to merge the `nekori64` and `kayaurora` developer branches into one, like it was done with [build 2600](KuroWiki_build_2600). This method would be deprecated in favor of the `mdelta_N` buffer branch starting from [build 4504](KuroWiki_build_4504).
 
 It is jokingly codenamed in the version information as KuroWikiXP due to its version number of 5.2 being identical to the Windows NT kernel version used in Windows Server 2003 and XP x64. The codename of *KuroWiki XP 2002 Server .NET Advanced Web Datacenter Blade Server Limited Edition 2003* was used as a way to mock the many names [Windows Server 2003](http://betawiki.net/wiki/Windows_Server_2003) used to have between 2001 and 2003."
 

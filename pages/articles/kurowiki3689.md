@@ -13,9 +13,10 @@ build='3689'
 lab='kayaurora'
 compiled='2025-10-12 17:39 UTC-6'
 image='resources/img/articles/kurowiki3689/home.png'
+image_caption='Home page'
 %}
 
-**KuroWiki build 3689** is the first Beta 6 build of [KuroWiki](KuroWiki) to be compiled from the `kayaurora` branch, on 13 October 2025 02:39 UTC+3 (17:39 UTC-6 the day prior).
+**KuroWiki build 3689** is a Beta 6 build of [KuroWiki](KuroWiki). It is the first build to be compiled from the `kayaurora` branch, and was compiled on 13 October 2025 02:39 UTC+3 (17:39 UTC-6 the day prior).
 
 The fourth Beta 6 build overall, it introduces a custom 404 Not Found page for when an user attempts to access a page that doesn't exist, also explaining as to "what's going on". Also a notice has been added to the [Contributing to KuroWiki](Contributing_to_KuroWiki) page that it is outdated in its then-iteration and that it will be completely rewritten soon.
 

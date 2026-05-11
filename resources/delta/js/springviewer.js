@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running on this page.");
         }
-    }, 50);
+    }, 55);
 
     const excludedID = 'viewer-media-element';
     const bannerID = 'drawer-banner';

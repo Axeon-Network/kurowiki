@@ -29,25 +29,29 @@
 /* variables */
 :root {
     /* dark mode */
-    --accent-dark: rgb(204, 147, 194);
-    --title-color-dark: rgb(213,177,203);
+    --accent-dark: rgb(147,150,153);
+    --link-visited-dark: rgb(153, 115, 153);
+    --link-active-dark: rgb(250, 190, 110);
+    --title-color-dark: rgb(174,176,183);
 
     --text-color-white: white;
-    --background-image-dark: url('../../img/defaults/bg-dark.jpg');
-    --scrollbar-color-dark: rgb(85,94,106) rgb(5,17,43);
+    --background-image-dark: url('../../img/defaults/bg.jpg');
+    --scrollbar-color-dark: rgb(60,62,74) rgb(43,46,55);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
     --code-bg-dark: rgba(0,0,0,0.5);
     
     /* light mode */
-    --accent-light: rgb(103, 137, 182);
-    --title-color-light: rgb(44, 102, 156);
+    --accent-light: rgb(47,54,64);
+    --title-color-light: rgb(47,54,64);
     --text-color-black: black;   
-    --background-image-light: url('../../img/defaults/bg-light.jpg'); 
-    --scrollbar-color-light: rgb(33,80,122) rgb(0,15,28);
+    --background-image-light: url('../../img/defaults/bg.jpg'); 
+    --scrollbar-color-light: rgb(60,62,74) rgb(43,46,55);
     --hatnote-color-light: rgba(255,255,255,0.75);
     --code-bg-light: #f8f9fa;
     --code-border-light: #eee;
+    --link-visited-light: rgb(71, 93, 133);
+    --link-active-light: rgb(235, 145, 75);
 }
 
 /* setting the text color might fail under firefox, so we use the variables directly instead */
@@ -67,6 +71,8 @@ html {
     --scrollbar-color: var(--scrollbar-color-dark);
     --code-bg: var(--code-bg-dark);
     --code-border: var(--code-border-dark);
+    --link-visited: var(--link-visited-dark);
+    --link-active: var(--link-active-dark)
 }
 
 /* here we set light mode as it should be */
@@ -80,6 +86,8 @@ html.light-mode {
     --scrollbar-color: var(--scrollbar-color-light);
     --code-bg: var(--code-bg-light);
     --code-border: var(--code-border-light);
+    --link-visited: var(--link-visited-light);
+    --link-active: var(--link-active-light);
 }
 
 
@@ -95,6 +103,10 @@ a {
     text-decoration: none !important;
     color: var(--accent);
 }
+#pagecontent a:hover {
+    text-decoration: underline !important;
+}
+
 
 /* its hatnote time */
 .hatnote {
@@ -180,4 +192,16 @@ a.footnote::before {
 }
 a.footnote::after {
     content: "]"
+}
+
+ul li {
+    margin-left: -15px;
+}
+
+li {
+    line-height: 1.7
+}
+
+a:active {
+    color: var(--link-active) !important;
 }

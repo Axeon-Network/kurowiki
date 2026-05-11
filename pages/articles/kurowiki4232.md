@@ -12,6 +12,9 @@ build='4232'
 lab='kayaurora'
 compiled='2025-11-28 23:35 UTC+2'
 image='resources/img/articles/kurowiki4232/home.png'
+image_caption='Home page (dark mode)'
+image2='resources/img/articles/kurowiki4232/homelight.png'
+image2_caption='Home page (light mode)'
 %}
 
 
@@ -22,9 +25,6 @@ This build makes the Oneko toggle functional in the Settings page as *Cat friend
 # Gallery
 
 <div class="wiki-gallery">
-    {% include gallery_item.html 
-        image_src="resources/img/articles/kurowiki4232/homelight.png" 
-        caption="Home page, light mode enabled" %}
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4232/settings.png" 
         caption="Settings page" %}

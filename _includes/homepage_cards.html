@@ -8,8 +8,9 @@ window.featuredArticle = {
   title: {{ featured.title | jsonify }},
   excerpt: {{ featured.content
       | markdownify
-      | split:'<h' | first
-      | truncatewords: 256
+      | remove: '<sup id="fnref:1">'
+      | remove: '<a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a>'
+      | truncatewords: 145
       | jsonify }}
 };
 </script>

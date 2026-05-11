@@ -41,7 +41,7 @@
             <span id="viewer-details-author"></span>
 
             <!-- license -->
-            <span class="material-icons" style="font-size:15px !important" id="viewer-details-license-icon">copyright</span>
+            <span class="material-icons" style="font-size:15px !important;position: fixed;bottom: 8;right: 10px;" id="viewer-details-license-icon">copyright</span>
             <span id="viewer-details-license">{{ site.img_license-s }}</span>
         </div>
     </div>
@@ -50,7 +50,7 @@
     <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
     {% if site.debug %}
     <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
-        &nbsp;SpringViewer "Trifrost" 3.0.{{ site.version.build }}.kit-sbf&nbsp;
+        &nbsp;SpringViewer Codename "Trifrost" 3.0.{{ site.version.build }}.{{ site.version.lab }}&nbsp;
     </p>
     {% endif %}
 
