@@ -10,11 +10,18 @@ This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and th
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 # Version 26.x
+## 26.5
+Released on 14 May 2026, it further expanded on the rollout of `astro-icon` icons sitewide to Unicode emojis in sections and page headers. Support for the `icon` prop was added for the collapsible box component (used for the homepage Buttons and Webrings sections) and in the layout. The Box component also no longer requires a title. Other bug fixes and enhancements have been done as well.
+
+This is the first version to be powered by Astro v6.x.x versions. The minimum required Node.js version is now Node 22 and has been reflected as such in the deployment CI/CD, as Astro v6 dropped support for older Node versions.
+
 ## 26.4.1
 Released on 9 April 2026, just 14 hours after the previous release, it undoes a change made in v26.4 (removal of [TheHaswellLappy](TheHaswellLappy) from the Devices page, which appeared to have been working again hours after v26.4's release), finally fixes the display of webrings in the Retro Frontend, and drops support for the Modern Frontend in Opera Presto.
 
+This is the final version to be powered by Astro v5.x.x versions.
+
 ## 26.4
-Released on 9 April 2026, this version mainly marked a switch from using FontAwesome and emojis to using the `astro-icon` package instead for icons, along with other minor updates and fixes.
+Released on 9 April 2026, this version mainly marked a switch from using FontAwesome to using the `astro-icon` package instead for icons, along with other minor updates and fixes.
 
 ## 26.3
 Released on 22 March 2026, coinciding with the rebrand from KayAurora to AveryEclipse, it was an major update to KayWebsite, now referred to as AveryWebsite starting with this update.
@@ -29,7 +36,7 @@ In addition, other general fixes, cleanups and enhancements having been made sit
 ## 26.2.1
 Released on 19 February 2026, just about 15 minutes after v26.2, it was a minor hotfix update fixing the display of the buttons and webrings boxes being broken in the main (modern) frontend, discovered to be due to missing CSS code.
 
-This is the final website version release to refer to itself as KayWebsite <!--and to be powered by Astro v5.-->
+This is the final website version release to refer to itself as KayWebsite
 
 ## 26.2
 Released on 19 February 2026, it primarily focused around updating information in the Devices page and Homepage, fixing broken links, as well as fixing an issue with the display of the buttons and webrings boxes in the Retro Frontend. Also in the Retro Frontend, a warning was added that button or webring links may not work if using an ancient browser.

@@ -22,10 +22,10 @@ screensize='DUMMY'
 os='Windows 8.1 Pro x64'
 %}
 
-**TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AveryEclipse](AveryEclipse)'s main PC between 2018 and 2021, and a secondary/testing PC from 2021 until 2026, when it was retired due to an unfunctional charging port.
+**TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AveryEclipse](AveryEclipse)'s main PC between 2018 and 2021, and since then a secondary/testing PC.
 
 # Naming
-At some point since late 2025 (?), the computer began to be referred to as *TheHaswellLappy*, inspired from the computer naming system used by Kit for their computers, where *The* is an obligatory prefix, *Haswell* the generation of the CPU used (Intel Core i5-4210U), and *Lappy* being a common nickname for the word *laptop*.
+At some point since late 2025 (?), the computer began to be referred to as *TheHaswellLappy*, inspired from a computer naming scheme previously used by [KitSixtyFour](KitSixtyFour) for their computers in 2024-2026, where *The* is an obligatory prefix, *Haswell* the generation of the CPU used (Intel Core i5-4210U), and *Lappy* being a common nickname for the word *laptop*.
 
 The decision to use *TheHaswellLappy* name was primarily made to avoid confusion with Kit's Dell Latitude 3380, formerly named [Thei5Lappy](NishiLappy), although on the other hand Avery's [first PC](TheCeleryPC_(AveryEclipse)) and Kit's [eMachines ET1810-03](TheCeleryPC) are both known to share the name *TheCeleryPC*, albeit retroactively in the former's case.
 
@@ -54,3 +54,7 @@ TheHaswellLappy began to be used as a secondary PC. In December 2021, the Window
 Several other Windows 11 installs followed until October 2025, when Avery decided to install Windows 10 LTSC 2019 on it instead. In the meantime, the HDD had finally been converted from MBR to GPT around 2023-24.
 
 In early February 2026, the Windows 10 LTSC 2019 install on the 128GB SSD was wiped in place of a Windows 8.1 Pro install, which would then be used for various AstroNT videos such as the ChromeOS Flex, PCtoVM, and most notably, the 8Store video.
+
+<!-- there is room for improvement but i am not bothering
+
+- averyeclipse -->
