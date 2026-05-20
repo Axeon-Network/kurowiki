@@ -1,6 +1,10 @@
 ---
 title: KuroWiki build 4450
 permalink: KuroWiki_build_4450
+redirect_from: 
+    - KuroWiki_Beta_6.1.html
+    - KuroWiki_Beta_6_Hotfix_1
+    - KuroWiki_Beta_6.0.1.html
 aliases:
     - kurowiki 4450
 ---

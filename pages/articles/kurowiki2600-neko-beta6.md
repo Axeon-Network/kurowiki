@@ -1,6 +1,6 @@
 ---
 title: KuroWiki build 2600 (nekori64.251012-1610)
-permalink: KuroWiki_build_2600_(nekori64.251012-1610)
+permalink: KuroWiki_build_2600_(nekori64.251012-1610).html
 redirect_from:
     - KuroWiki_build_2600_(Beta_6)
 hatnote: Not to be confused with the official KuroWiki Beta 5 release, [KuroWiki build 2600 (main)](KuroWiki_build_2600_(main)) and [its earlier compile](KuroWiki_build_2600).

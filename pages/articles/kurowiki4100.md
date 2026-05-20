@@ -1,6 +1,8 @@
 ---
 title: KuroWiki build 4100
 permalink: KuroWiki_build_4100
+redirect_from:
+    - KuroWiki_Interim_Developer_Release_1
 aliases:
     - kurowiki 4100
 ---

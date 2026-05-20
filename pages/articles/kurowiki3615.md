@@ -1,6 +1,9 @@
 ---
 title: KuroWiki build 3615
 permalink: KuroWiki_build_3615
+redirect_from: 
+- KuroWiki_Interim_Developer_Release
+- KuroWiki_Interim_Developer_Release_1
 aliases:
     - kurowiki 3615
 ---

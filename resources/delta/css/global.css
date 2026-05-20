@@ -111,13 +111,26 @@ a {
 /* its hatnote time */
 .hatnote {
     background-color: var(--hatnote-color);
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: -5px;
     margin-right: 15px;
+    padding-left: 10px;
+    margin-right: 0px;
+    font-style: italic;
+}
+   
+/* its hatnote time */
+.hatnote-portable {
+    background-color: var(--hatnote-color);
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     font-style: italic;
-   }
-   
+    display:flow-root;
+    height: 24px;
+    margin-bottom: 10px;
+}   
+
 /* download box */
 .download-box-item {
     width: 330px;

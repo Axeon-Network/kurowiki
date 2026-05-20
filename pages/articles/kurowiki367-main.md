@@ -4,6 +4,8 @@ permalink: KuroWiki_build_367_(main)
 hatnote: "Not to be confused with [KuroWiki build 367 (material)](KuroWiki_build_367_(material)), [KuroWiki build 3567 (main-wik)](KuroWiki_build_3567_(main-wik)) or [KuroWiki build 3567 (kayaurora)](KuroWiki_build_3567_(kayaurora))."
 aliases:
     - kurowiki 367 main
+redirect_from:
+   - KuroWiki_Beta_1.0.1
 ---
 
 {% include infoboxes/build.html
@@ -17,9 +19,9 @@ image='resources/img/articles/kurowiki367-main/home.png'
 image_caption='Home page'
 %}
 
-**KuroWiki build 367 (main)** is the official Beta 1.0.1 build of [KuroWiki](KuroWiki) compiled and released on May 15 2025 at 2:22pm. This build shares almost all of its version information with [its `material` counterpart](KuroWiki_build_367_(material)).
+**KuroWiki build 367 (main)** is the official Beta 1.0.1 build of [KuroWiki](KuroWiki). It was compiled and released on May 15 2025 at 2:22pm. This build shares almost all of its version information with [its `material` counterpart](KuroWiki_build_367_(material)).
 
-This build is the last known build to use the legacy HoriWiki layout, as later builds including its `material` counterpart would use a Material Design Lite-based layout.
+This is the last known build to use the legacy HoriWiki layout, as the newer layout, based on Material Design Lite, would already be present on its [its `material` counterpart](KuroWiki_build_367_(material)).
 
 This build is available at the `main` branch of [github.com/stupidbifox/legacy-kuro](https://github.com/stupidbifox/legacy-kuro) and can be used in the current date.
 

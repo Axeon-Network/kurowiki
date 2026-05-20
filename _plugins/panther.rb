@@ -61,9 +61,9 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   id = "#{id_prefix}#{id_suffix}"
 
   begin
-    stored_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 5186
+    stored_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 5192
   rescue
-    stored_number = 5186
+    stored_number = 5192
   end
 
   begin
@@ -73,7 +73,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   end
 
   current_delta = delta_nbr
-  current_incremental_number = 5186
+  current_incremental_number = 5192
   buildtag = ""
 
   if delta_enabled && is_debug
@@ -114,7 +114,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     'major' => major,
     'minor' => minor,
     'id' => id,
-    'build' => 5186,
+    'build' => 5192,
     'delta' => current_delta,
     'lab' => lab,
     'timestamp' => buildtag.split('.').last,

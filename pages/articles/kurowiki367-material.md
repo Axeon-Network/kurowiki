@@ -17,7 +17,7 @@ image='resources/img/articles/kurowiki367-material/drawer.png'
 image_caption='Article view with drawer open'
 %}
 
-**KuroWiki build 367 (material)** is a Beta 1 build of [KuroWiki](KuroWiki) compiled and released on May 16 2025 at 6:40 pm.[^1] This build shares almost the same build info as its [`main` branch](KuroWiki_build_367_(main)) sibling, except for its build lab.
+**KuroWiki build 367 (material)** is a Beta 1 build of [KuroWiki](KuroWiki) compiled and released on May 16 2025 at 6:40 pm.[^1] This build shares almost the same build info as its [`main`](KuroWiki_build_367_(main)) counterpart, except for its build lab.
 
 # Changes
 This is the first build to be compiled from the `material` branch, which was a branch made by [KitSixtyFour](KitSixtyFour) to develop an experimental *[Deltari](Deltari)* layout based on the *Material Design Lite* framework by Google. This layout would end up continue to be used in KuroWiki to this day.

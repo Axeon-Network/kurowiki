@@ -1,8 +1,8 @@
 @echo off
 
 :: read the build tag file, then set it.
-if exist resources\ruby\buildtag (
-    for /f "tokens=4 delims=." %%a in (resources\ruby\buildtag) do (
+if exist .\resources\ruby\buildtag (
+    for /f "tokens=4 delims=." %%a in (.\resources\ruby\buildtag) do (
         set raw_id=%%a
     )
 ) else (
@@ -41,5 +41,5 @@ doskey dcl=bundle exec jekyll clean
 doskey dtr=git add .
 doskey dcm=git commit -m $*
 doskey dce=git commit -m $* -m $*
-doskey dph=git push
+doskey dps=git push
 doskey dpl=git pull

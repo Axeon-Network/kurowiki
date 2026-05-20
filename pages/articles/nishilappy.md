@@ -7,7 +7,7 @@ redirect_from:
     - Thei5Lappy
 hatnote: 'For the character that it is named after, see [Nishi](Nishi).'
 dyk:
-    - "...that the names \"[NishiLappy](NishiLappy)\" and \"Thei5Lappy\" were used simultaneously until April 2026?" 
+    - "...that the names \"[NishiLappy](NishiLappy)\" and \"Thei5Lappy\" were simultaneously used until April 2026?" 
 ---
 
 {% include infoboxes/computer.html
@@ -15,8 +15,8 @@ name='NishiLappy'
 owner='[KitSixtyFour](KitSixtyFour)'
 manufacturer='Dell Inc.'
 model='Latitude 3380'
-image='resources/img/articles/nishilappy/202604desk.png'
-image_caption='Desktop as of April 2026'
+image='resources/img/articles/nishilappy/202605desk.png'
+image_caption='Desktop as of May 2026'
 introduced='29 November 2024'
 introISO='2024-11-29'
 cpu='Intel Core i5-7200U @ 3.10 GHz (*Kaby Lake*)' 
@@ -26,28 +26,37 @@ gpu='Intel HD Graphics 620'
 integrated=true
 screenres='1366x768'
 screensize='13.3" built-in LCD' 
-os='TBD'
+os='Windows 7 Enterprise E Service Pack 1'
 %}
 
-**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is [KitSixtyFour](KitSixtyFour)'s main computer since November 2024.
+**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on April 27, 2026.
+
+{% include tableofcontents.html %}
+
+# Background
+{% include hatnote.html
+content='For more information, see [TheCeleryPC § History](TheCeleryPC#history)'
+%}
+
+[TheCeleryPC](TheCeleryPC), an eMachines ET-1810 with an Intel Celeron 420 processor, used to be Kit's main computer from mid 2021 to late 2024. It was used for several purposes, including the creation of many [StuffyXP](StuffyXP) videos and several other projects made by Kit, such as the *[June 2025 Stuffy Website](Stuffy_Website)*. 
+
+After a power outage on November 3, TheCeleryPC stopped functioning, more specifically, the power supply was partially fried, causing DC-reliant components to not work at all. One of the symptoms of this problem was the computer's fans spinning up without any display output.
+
+From November 3 to November 28, 2024, all of Kit's projects officially went on a haitus. 
+
+# History
+
 
 # Name
 The computer was originally known as ***Thei5Lappy*** since 29 November 2024, the latter becoming a reference to [TheCeleryPC](TheCeleryPC)'s nickname; as it followed the same naming system: *The* being used as an obligatory prefix, *i5* being the computer's processor, and *Lappy* being a common nickname for the word *laptop*.
 
-Between July and August 2025, it was temporarily known as ***SuperNova***, following the now-cancelled [Nova Naming Scheme](Nova_Naming_Scheme), It was reverted in September 2025 following the introduction of the *Nekori64* alias in August of the same year.
+Between July and August 2025, it was temporarily known as ***SuperNova***, following the now-cancelled [Nova Naming Scheme](Nova_Naming_Scheme). It was reverted in September 2025 following the introduction of the *Nekori64* alias in August of the same year.
 
 Since November 2025, it has been known under the name ***NishiLappy***, the latter being a merger of *[Nishi](Nishi)* (Kit's fursona) and *Lappy*.<br>Both *Thei5Lappy* and *NishiLappy* had been used simultaneously between November 2025 and March 2026: *Thei5Lappy* was used to refer to the computer itself, while *NishiLappy* was used as the computer's hostname (also known as a computer name). 
 
 Following the introduction of [CometLappy](CometLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
 
-
-
-TODO: rewrite the rest of this
-# Background
-Following the death of [TheCeleryPC](TheCeleryPC)'s PSU, rendering the aforementioned computer unable to power on, several projects of Kit (including [StuffyXP](StuffyXP)) went on a haitus from 3 to 28 November of 2024. Thus, on 29 November, NishiLappy was given to Kit by their dad as an "early Christmas gift".
-
-
-## Computer Specs
+<!-- ## Computer Specs
 
 The computer's hardware is the following:
 
@@ -76,4 +85,4 @@ Due to the nature of the fix, the charger wasn't 100% perfect. It continued to m
 
 Interestingly enough, KitSixtyFour tried their sister's charger prior to the second fix, which has been tested to work since both computers are similar, with model numbers apart (*Latitude E6420* and *Latitude 3380* respectively). Nonetheless, KitSixtyFour kept using their original laptop charger to avoid getting into any problems. On 10 July 2025, the original charger sparked, burning KitSixtyFour's hand.
 
-KitSixtyFour began using their sister's charger, with permision from their mother after the incident.
+KitSixtyFour began using their sister's charger, with permision from their mother after the incident. -->

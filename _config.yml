@@ -19,7 +19,7 @@ author: Axeon Network
 copyyear: "2025-2026"
 
 # The text used in embeds, like Discord.
-description: "Axeon KuroWiki Release Candidate 1"
+description: "Axeon KuroWiki Release Candidate Escrow"
 
 # Self-explanatory
 url: https://axeon-network.github.io
@@ -62,9 +62,9 @@ featuredarticle: winnishilecat
 
 # == DEVELOPER & DEBUG ==
 # The phase of Delta/Kuro's development track.
-devphase: Release Candidate 1
+devphase: Release Candidate Escrow
 # Short version, used in drawer if nedecesary
-devphase-s: Delta 1
+devphase-s: Silver Escrow
 # ID for dev builds
 idprefix: "rc1" # Release Candidate 1
 

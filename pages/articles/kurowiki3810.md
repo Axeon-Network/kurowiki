@@ -1,6 +1,8 @@
 ---
 title: KuroWiki build 3810
 permalink: KuroWiki_build_3810
+redirect_from:
+    - KuroWiki_Interim_Developer_Release_3
 aliases:
     - kurowiki 3810
 ---

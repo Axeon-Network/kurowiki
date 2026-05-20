@@ -1,6 +1,7 @@
 ---
 title: KuroWiki build 4400
 permalink: KuroWiki_build_4400
+redirect_from: KuroWiki_Beta_6
 aliases:
     - kurowiki 4400
 hatnote: "This article is incomplete."

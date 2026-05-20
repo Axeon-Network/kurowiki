@@ -1,6 +1,7 @@
 ---
 title: KuroWiki build 2600 (main)
 permalink: KuroWiki_build_2600_(main)
+redirect_from: KuroWiki_Beta_5
 hatnote: Not to be confused with <a href='KuroWiki_build_2600_(nekori64)'>KuroWiki build 2600 (nekori64)</a>.
 aliases:
     - kurowiki 2600

@@ -1,7 +1,8 @@
 ---
 title: KuroWiki build 3680
 permalink: KuroWiki_build_3680
-hatnote:
+redirect_from:
+    - KuroWiki_Interim_Developer_Release_2
 aliases:
     - kurowiki 3680
 ---
