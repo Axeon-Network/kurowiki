@@ -180,7 +180,7 @@ code {
     display: table;
     width: 100%;
     table-layout: fixed;
-    border-spacing: 20px;
+    border-spacing: 10px;
 }
 .homepage-cards .demo-card-wide {
     display: table-cell;
@@ -194,7 +194,6 @@ code {
     display: none;
 }
 }
-
 /* why the fuck cant i just merge these ~~two~~ ~~OOPS SIX NOW~~ WAIT THREE NOW fucking hell */
 .featured-article.demo-card-wide > .mdl-card__title {
   color: #fff;
@@ -377,4 +376,36 @@ a#drawerlink.mdl-navigation__link {
 
 #mainbox {
     backdrop-filter: blur(12px);
+}
+
+
+.homepage-cards {
+    border-spacing: 15px !important;;
+}
+
+
+.hcards-row1, .mdl-card {
+    min-height: 0 !important;
+    justify-content: center;
+    height: 500px;
+    gap: 15px;
+    display: flex;
+    margin-top: -30px;
+}
+.featured-article.mdl-card {
+    width:55%;
+}
+.did-you-know.mdl-card {
+    width: 45%;
+}
+.hcards-row2, .mdl-card {
+    min-height: 0 !important;
+    justify-content: center;
+    
+    display: flex;
+    margin-top:15px;
+    width: 100%;
+}
+.recent-news {
+    height: 450px !important;
 }

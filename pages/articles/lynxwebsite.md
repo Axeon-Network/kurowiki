@@ -9,8 +9,7 @@ hatnote:
 {% include infoboxes/site.html
 name="LynxWebsite"
 formerly='Lynxmic Website (2023)'
-developer='AveryEclipse'
-developerarticle='AveryEclipse'
+developer='[AveryEclipse](AveryEclipse)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='1.0'

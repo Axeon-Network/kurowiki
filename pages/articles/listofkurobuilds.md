@@ -5,6 +5,7 @@ permalink: List_of_all_KuroWiki_builds
 
 This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 
+{% include tableofcontents.html %}
 
 ## Internal Builds
 
@@ -12,7 +13,7 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 [2.4.3567.horiwiki-pa1.250504-1052](KuroWiki_build_3567_(horiwiki-pa1))
 
 ## Pre-Alpha Release
-*Build numbers were reintroduced until KuroWiki 1.0.1*
+Builds from this phase up did not have build numbers.
 
 [0.1](KuroWiki_build_0.1)
 [0.2](KuroWiki_build_0.2)
@@ -27,8 +28,9 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 [1.2](KuroWiki_build_1.2)
 
 ## Beta 1
-[1.0](KuroWiki_build_1.0_(Beta))
-[1.0.1.367.main.250515-1422](KuroWiki_build_367)
+[1.0](KuroWiki_build_1.0)
+[1.0.1.367.main.250515-1422](KuroWiki_build_367_(main))
+[1.0.1.367.material.250515-1422](KuroWiki_build_367_(material))
 
 ## Beta 2
 2.0.451.material.250516-1647
@@ -36,12 +38,10 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 2.1.602.material.250602-1710
 
 ## Beta 3
-
 [3.0.1032.material.250625-1706](KuroWiki_build_1032)
 
 ## Beta 4
-
-4.2.2000.kuro_escro.250725-1423
+[4.2.2000.kuro_escro.250725-1423](KuroWiki_build_2000)
 4.2.2001.kuro_escro.250725-1527
 4.2.2002.kuro_escro.250725-1533
 4.2.2.2004.???.2509??-????
@@ -61,22 +61,16 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 4.3.2537.kayaurora.25????-????
 
 ## Beta 5
+[5.1.2600.nekori64.250927-1322](KuroWiki_build_2600_(nekori64.250927-1322))
+[5.1.2600.main.250928-0955](KuroWiki_build_2600_(main))
 
-5.1.2600.nekori64.250927-1322
-[5.1.2600.main.250928-0955](KuroWiki_build_2600)
+#### Post RTW
 5.1.2635.main.250928-1523
 5.1.2639.kayaurora.251001-2349
 5.1.2678.nekori64.251004-1836
 
-### Beta 5.2
-
-**Main branch compiles**
-
-[5.2.3615.main.251011-0412](KuroWiki_build_3615)
-[5.2.3680.main.251012-0101](KuroWiki_build_3680)
-
-**Nekori64 compiles**
-
+## Beta 5.2
+### Interim Developer Release 1
 5.2.2680.nekori64.251005-1326
 5.2.2681.nekori64.251005-1328
 5.2.2684.nekori64.251005-1331
@@ -88,19 +82,14 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 5.2.2700.nekori64.251005-1711
 5.2.2701.nekori64.251005-1712
 5.2.2702.nekori64.251005-1713
-5.2.2740.nekori64.251010-1513
-5.2.2759.nekori64.251010-1745
-5.2.3669.nekori64.251011-1345
-5.2.3670.nekori64.251011-1346
-
-**KayAurora compiles**
-
 5.2.3505.kayaurora.251005-2147
 5.2.3505.kayaurora.251005-2151
 5.2.3505.kayaurora.251005-2154
 5.2.3505.kayaurora.251005-2217
 5.2.3510.kayaurora.251006-0048
-5.2.3567.kayaurora.251009-0049
+[5.2.3567.kayaurora.251009-0049](KuroWiki_build_3567_(kayaurora))
+5.2.2740.nekori64.251010-1513
+5.2.2759.nekori64.251010-1745
 5.2.3578.kayaurora.251010-2329
 5.2.3587.kayaurora.251011-0023
 5.2.3595.kayaurora.251011-0044
@@ -109,17 +98,21 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 5.2.3606.kayaurora.251011-0240
 5.2.3608.kayaurora.251011-0257
 5.2.3614.kayaurora.251011-0318
+[5.2.3615.main.251011-0412](KuroWiki_build_3615)
+
+### Interim Developer Release 2
+5.2.3669.nekori64.251011-1345
+5.2.3670.nekori64.251011-1346
 5.2.3619.kayaurora.251011-1913
 5.2.3631.kayaurora.251011-2020
 5.2.3632.kayaurora.251011-2140
 5.2.3670.kayaurora.251011-2254
 5.2.3677.kayaurora.251012-0025
+[5.2.3680.main.251012-0101](KuroWiki_build_3680)
 
 ## Beta 6
-
-### Interim Developer Release 3
-
-[6.0.2600.nekori64.251012-1610](KuroWiki_build_2600_(Beta_6))
+#### Interim Developer Release 3
+[6.0.2600.nekori64.251012-1610](KuroWiki_build_2600_(nekori64.251012-1610))
 [6.0.3686.nekori64.251012-1717](KuroWiki_build_3686)
 6.0.3688.nekori64.251012-1733
 [6.0.3689.kayaurora.251013-0239](KuroWiki_build_3689)
@@ -151,8 +144,7 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 **Public release**
 [6.0.3810.main.251017-1808](KuroWiki_build_3810)
 
-## Interim Developer Release 4
-
+### Interim Developer Release 4
 6.0.3816.kayaurora.251024-2208
 6.0.3820.nekori64.251018-1051
 6.0.3820.kayaurora.251025-0011
@@ -186,7 +178,7 @@ This article is a list of all known *[KuroWiki](KuroWiki)* builds.
 **Public release**
 [6.0.4100.main.251030-0038](KuroWiki_build_4100)
 
-## Public Release Escrow
+#### Public Release Escrow
 6.0.4104.kayaurora.251030-1717
 6.0.4107.kayaurora.251031-0134
 6.0.4116.nekori64.251101-1501

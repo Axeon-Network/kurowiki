@@ -11,7 +11,7 @@
     {% if include.image %}
     <div class="infobox-img-container">
             <img src="{{ include.image }}" alt="Screenshot of the {{ include.name }} Homepage" class="infobox-img delta-infobox-server-icon"> <!-- i dont CARE if its the server one, it works. -->
-         <div class="infobox-img-caption">{{ include.name }} homepage</div>
+         <div class="infobox-img-caption">{{ include.image_caption | default: 'Site homepage' | remove: '<p>' | remove: '</p>' | markdownify }}</div>
     </div>
     {% endif %}
 
@@ -51,10 +51,12 @@
                 <th>Status</th>
                 <td>{{ include.status }}</td>
             </tr>
+            {% if include.link %}
             <tr>
                 <th>Link</th>
                 <td>{{ include.link | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
+            {% endif %}
             </tbody>
     </table>
 </div>

@@ -6,6 +6,7 @@ redirect_from:
 - KuroWiki_Interim_Developer_Release_1
 aliases:
     - kurowiki 3615
+hatnote: "\"KuroWiki Interim Developer Release\" redirects here. For the section depicting the concepts of the IDRs, see [Development of Deltari § Interim Developer Releases](Development_of_Deltari#interim-developer-releases)"
 ---
 {% include infoboxes/build.html
 release_name='Interim Developer Release'

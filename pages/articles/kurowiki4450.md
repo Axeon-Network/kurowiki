@@ -25,7 +25,7 @@ image2_caption='Home page (light mode)'
 
 **KuroWiki build 4450** is the official Beta 6 Hotfix 1 build of [KuroWiki](KuroWiki), compiled and released on 10 January 2026 at 8:27PM UTC-6.
 
-This release mainly served to switch to locally hosting the [Material Design Lite (MDL)](https://github.com/google/material-design-lite) resources, instead of relying on the official `getmdl.io` website, which was basically taken down (i.e. all requests to it result in a HTTP 403 error), leading up to the basic Deltari layout being broken.
+This release mainly served to switch to locally hosting the [Material Design Lite (MDL)](https://github.com/google/material-design-lite) resources, instead of relying on the official getmdl.io website, which was taken down by Google sometime before January 10. This caused [build 4400](KuroWiki_build_4400), and many other KuroWiki builds prior to it, to completely break since any requests to getmdl.io returned with HTTP 403, essentially making MDL unavailable. 
 
 Additionally, the copyright year has been updated to reflect the new year, while some references to "Nekori" and "Nekori64" have been replaced with "KitSixtyFour".
 
@@ -33,7 +33,6 @@ Additionally, the copyright year has been updated to reflect the new year, while
 - The version number is incorrectly displayed as `6.0.4450.main.260110-2027` in the build tag and as "Axeon KuroWiki Beta 6.01" in the version banner, while the actual version number is `6.0.1`.
 
 # Gallery
-
 <div class="wiki-gallery">
     {% include gallery_item.html 
         image_src="resources/img/articles/kurowiki4450/drawer.png" 

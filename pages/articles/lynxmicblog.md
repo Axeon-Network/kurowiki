@@ -9,8 +9,7 @@ hatnote:
 {% include infoboxes/site.html
 name="Lynxmic Blog"
 logo='resources/img/articles/lynxmicblog/logo2.png'
-developer='AveryEclipse'
-developerarticle='AveryEclipse'
+developer='[AveryEclipse](AveryEclipse)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Blog'
 initialVersion='November 2021 Release'

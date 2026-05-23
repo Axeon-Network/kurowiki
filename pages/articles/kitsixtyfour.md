@@ -16,11 +16,8 @@ dyk:
     - "...that [KitSixtyFour](KitSixtyFour) has used 6 aliases within the span of 3 years?"
 ---
 
-**KitSixtyFour**, alternatively known as **StupidBiFox** and more commonly known as **Kit**[^1] [^2] (born 19 June 2010) is a Honduran YouTuber, developer, gamer and self-proclaimed "*[professional tech breaker](Kit_Moments)*". They are a member of the [Axeon Network](Axeon_Network), primarily known for developing *[KuroWiki](KuroWiki)* alongside [Avery](Avery).
+**KitSixtyFour**, alternatively known as **StupidBiFox**, and more commonly known as **Kit** (born 19 June 2010) is a Honduran YouTuber, developer, gamer and self-proclaimed "*[professional tech breaker](Kit_Moments)*". They are a member of the [Axeon Network](Axeon_Network), primarily known for developing *[KuroWiki](KuroWiki)* alongside [Avery](Avery).
 
 Alongside founding *KuroWiki*, Kit is also the creator of *[StuffyXP](StuffyXP)*, *[Horicraft](Horicraft)*, *[HoriServer](HoriServer)* (and its *[Discord counterpart](HoriServer_(2))*), [amongst several others](List_of_KitSixtyFour's_projects). Kit is also the founder of *[AstroNT](AstroNT)* and *[Comet Adventure](Comet_Adventure)*.
 
-
-# Notes
-[^1]: Alternatively *KitTheBiFox* in some platforms.
-[^2]: In most cases, Kit's username is styled in all lowercase.
+*This article is a stub, and will be probably mostly completed on Release Candidate 2*

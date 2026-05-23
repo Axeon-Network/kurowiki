@@ -8,16 +8,16 @@ aliases:
     - kurowiki 2600
     - kurowiki 2600 beta 6
 dyk:
-    - "...that [KuroWiki build 2600 (nekori64)](KuroWiki_build_2600_(nekori64))'s build number was the result of an internal Panther bug?"
+    - "...that [KuroWiki build 2600 (nekori64.251012-1610)](KuroWiki_build_2600_(nekori64.251012-1610))'s build number was the result of an internal Panther bug?"
 ---
 {% include infoboxes/build.html
 family='[KuroWiki](KuroWiki)'
 buildtag='6.0.2600.nekori64.251012-1610'
-version='5.1'
+version='6.0'
 build='2600'
 lab='nekori64'
-compiled='2025-10-12 16:10 UTC-6'
-image='resources/img/articles/kurowiki2600-ne/homepage.png'
+compiled='2025-10-12'
+image='resources/img/articles/kurowiki2600-neko-beta6/homepage.png'
 image_caption='Home page'
 %}
 

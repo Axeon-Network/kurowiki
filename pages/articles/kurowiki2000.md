@@ -4,7 +4,7 @@ permalink: KuroWiki_build_2000
 aliases:
     - kurowiki 2000
 dyk:
-    - "...that [KuroWiki build 2000](KuroWiki_build_2000) is the first known build to identify itself as \"KuroWiki\""
+    - "...that [KuroWiki build 2000](KuroWiki_build_2000) is the first known build to identify itself as \"KuroWiki\"?"
 ---
 {% include infoboxes/build.html
 family='[KuroWiki](KuroWiki)'
