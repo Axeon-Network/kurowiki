@@ -153,9 +153,6 @@ hr {
 /* for some reason nesting it makes it work, dont ask me how. */
 code {
     font-family: 'Consolas', 'Hack' !important;
-.demo-card-wide.mdl-card {
-  width: 512px !important;
-}
 }
 
 /* Resistance is futile. Work. Now. Please. */
@@ -384,13 +381,13 @@ a#drawerlink.mdl-navigation__link {
 }
 
 
-.hcards-row1, .mdl-card {
+.hcards-row1 {
     min-height: 0 !important;
     justify-content: center;
-    height: 500px;
+    height: 100%;
     gap: 15px;
-    display: flex;
     margin-top: -30px;
+    overflow: none;
 }
 .featured-article.mdl-card {
     width:55%;
@@ -398,12 +395,12 @@ a#drawerlink.mdl-navigation__link {
 .did-you-know.mdl-card {
     width: 45%;
 }
-.hcards-row2, .mdl-card {
+.hcards-row2 {
     min-height: 0 !important;
     justify-content: center;
     
-    display: flex;
-    margin-top:15px;
+ 
+    margin-top:-10px;
     width: 100%;
 }
 .recent-news {
