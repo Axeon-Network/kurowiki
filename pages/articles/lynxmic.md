@@ -14,7 +14,7 @@ redirect_from:
     - BW Tech
     - BriciWorld
     - Computerseasons
-hatnote: This article is incomplete.
+hatnote: This article is incomplete. It will probably be finished in Release Candidate 2. Page restructuration is possible.
 toc: true
 ---
 {% include infoboxes/channel.html
@@ -177,7 +177,7 @@ On 25 March 2026, a video was posted reviewing a random Windows ISO found on the
 
 # Video Series
 ## Windows 98 for Daily Use
-**Windows 98 for Daily Use** was one of the main video series of the Lynxmic YouTube channel. The series came to life to serve as an recorded effort of setting up a Windows 98 VM, installing programs and adjusting settings, after Avery lost the original Windows 98 VM they made in August 2017.
+***Windows 98 for Daily Use*** was one of the main video series of the Lynxmic YouTube channel. The series came to life to serve as an recorded effort of setting up a Windows 98 VM, installing programs and adjusting settings, after Avery lost the original Windows 98 VM they made in August 2017.
 
 The series was initially announced on 14 May 2018, with the first episode going out on 1 June 2018. A total of 14 episodes have been made (including 11 normal videos and 3 streams (which counted as episodes)), the longest-running of all Lynxmic video series. The final episode came out on 11 May 2019.
 
@@ -186,19 +186,19 @@ The average view count of episodes of this series was 20 to 100, which is also t
 Even after the series ending, Lynxmic/Avery had been keeping the VM used in the series to this day, and an extra episode premiered on 28 November 2024 revisiting the VM, which got 2,6K+ views.
 
 ## Windows XP for Daily Use
-**Windows XP for Daily Use** was one of the main video series of the Lynxmic YouTube channel. Direct successor to Windows 98 for Daily Use, the series involved setting up a Windows XP VM with apps and other personalization and settings.
+***Windows XP for Daily Use*** was one of the main video series of the Lynxmic YouTube channel. Direct successor to Windows 98 for Daily Use, the series involved setting up a Windows XP VM with apps and other personalization and settings.
 
 The first episode went out on 1 June 2019. However the series would only last for another episode before being cancelled entirely, with a 3rd episode only having been recorded and never edited. The RAW recordings of episode 3 of WXPFDU were later uploaded with very minimal editing to [Axeon_Productions](NightskyArchive) in 2020.
 
 ## Discord.js Bot Tutorial
-**Discord.js Bot Tutorial** (also known as ***"Make a Discord Bot!***, abbreviated **MADB**) was a educational video series of the Lynxmic YouTube channel. Its main purpose was on how to code a Discord bot in Discord.js (JavaScript), from basic knowledge stuff to various bot commands of moderate difficulty, and even tips.
+***Discord.js Bot Tutorial*** (also known as ***"Make a Discord Bot!***, abbreviated **MADB**) was a educational video series of the Lynxmic YouTube channel. Its main purpose was on how to code a Discord bot in Discord.js (JavaScript), from basic knowledge stuff to various bot commands of moderate difficulty, and even tips.
 
 A total of 7 episodes have been produced, with them mostly getting all-time view counts of 100-900, higher than the average Lynxmic video in 2018 with some even ending up in the chart of most popular Lynxmic videos prior to the unlisting of all videos in July-August 2019.
 
 The first episode released on 26 March 2018, and the last on 3 March 2019, after which the series was discontinued due to a "lack of interest".
 
 ## OS Look-Back
-**OS Look-Back** was a video series of the Lynxmic YouTube channel, looking back at old operating systems.
+***OS Look-Back*** was a video series of the Lynxmic YouTube channel, looking back at old operating systems.
 
 It was a seasonal series, with seasons generally taking place in the first half of the year, from late Winter to around mid-to-late Spring. The first season (***OS Look-Back 2018***), began on 2 February 2018 and lasted 6 episodes, with the last one coming out on 21 April 2018.
 
@@ -207,11 +207,14 @@ A second season, ***OS Look-Back 2019*** was teased as early as September 2018, 
 <!-- todo: maybe move entire OS Look-Back history from the history section to here -->
 
 ## This Month on Solarix
-**This Month on Solarix** (initially **BW Updates** before August 2018) was a monthly video series of the Lynxmic YouTube channel, recapping major events that happened through the month, both on the Lynxmic channel and other of Avery's projects.
+***This Month on Solarix*** (initially ***BW Updates*** before August 2018) was a monthly video series of the Lynxmic YouTube channel, recapping major events that happened through the month, both on the Lynxmic channel and other of Avery's projects.
 
 The first video of the series came on 20 December 2017, with the final video being on 30 October 2018, after which it was discontinued due to low viewership in favor of using social media and the Axeon Network announcements channel. 
 
 ## Lynx Explores
-**Lynx Explores** is a cancelled video series planned for 2019 exploring various operating systems. Trailers have went out on the Lynxmic Twitter and Instagram accounts, initially in picture-form in late August 2019, and then in video-form in early September 2019, with the first formal episode scheduled for late September 2019.
+***Lynx Explores*** is a cancelled video series planned for 2019 exploring various operating systems. Trailers have went out on the Lynxmic Twitter and Instagram accounts, initially in picture-form in late August 2019, and then in video-form in early September 2019, with the first formal episode scheduled for late September 2019.
 
 Plans for this series were abandoned by mid September 2019, with the original posts having been deleted ever since, however the trailers for Lynx Explores do still exist in Avery's archives.
+
+## Virtual Time Machine
+***Virtual Time Machine*** (abbreviated: **VTM**) is a cancelled video series planned for 2021, primarily focused around retro software. It was announced on the Lynxmic Twitter account on 26 March 2021 in form of a picture-form teaser for "April" before being ultimately cancelled on 21 April 2021.

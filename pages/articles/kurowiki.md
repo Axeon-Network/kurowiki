@@ -36,6 +36,7 @@ Since late August 2025, the wiki project had been under the [Axeon Network](Axeo
 After the agreement, KuroWiki expanded its content to not only cover Kit stuff, but to also cover Avery stuff and the Axeon Network as a whole.
 
 # Notable KuroWiki builds
+*This section is incomplete and will be probably finished in Release Candidate 2.*
 
 ## KuroWiki build 3567
 

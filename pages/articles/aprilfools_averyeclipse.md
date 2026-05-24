@@ -1,7 +1,7 @@
 ---
 title: April Fools in the AveryEclipse universe
 permalink: April_Fools_in_the_AveryEclipse_universe
-hatnote: "This article is incomplete."
+hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 
 [April Fools](https://en.wikipedia.org/wiki/April_Fools'_Day) is an annual tradition marked on the first day of April. In the [AveryEclipse](AveryEclipse) universe, the first year April Fools was celebrated was in 2018, and has continued to be observed every year to this day, except for 2020.

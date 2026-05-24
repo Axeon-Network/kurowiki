@@ -50,6 +50,12 @@
                 <td>{{ include.build }}</td>
             </tr>
             {% endif %}
+            {% if include.delta %}
+            <tr>
+                <th>Build revision</th>
+                <td>{{ include.delta }}</td>
+            </tr>
+            {% endif %}
             {% if include.lab %}
             <tr>
                 <th>Build lab</th>

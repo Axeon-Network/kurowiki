@@ -1,7 +1,7 @@
 ---
 title: Orchid
 permalink: Orchid
-hatnote: This article is incomplete.
+hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 redirect_from:
      - Project_Orchid
 ---

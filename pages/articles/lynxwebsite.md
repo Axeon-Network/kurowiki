@@ -4,7 +4,7 @@ permalink: LynxWebsite
 isTitleItalic: true
 aliases:
     - lynxmic website
-hatnote:
+hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 {% include infoboxes/site.html
 name="LynxWebsite"

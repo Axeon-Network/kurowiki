@@ -6,7 +6,7 @@ aliases:
     - briciworld website
     - bw website
     - solarixtech website
-hatnote: This article is incomplete.
+hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 {% include infoboxes/site.html
 name="Solarix Website"

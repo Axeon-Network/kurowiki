@@ -1,6 +1,7 @@
 ---
 title: AveryLappy
 permalink: AveryLappy
+hatnote: "This article is a stub."
 ---
 
 {% include infoboxes/computer.html

@@ -50,12 +50,11 @@ style="width:50%; height:auto" %}
 After 2020, the server has seen a decline in activity. 2022 has seen the lowest activity in the server, with only very few occasional messages per month. The server member count had gone down to around 60 members. After a prune of inactive Discord accounts, this count has gone down to just under 30.
 In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following AveryEclipse’s personal alias rebrand from Lynxmic to Clyron.
 
-In early April 2025, AveryEclipse officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Kit](Kit)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
+In early April 2025, AveryEclipse officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Kit](KitSixtyFour)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
 Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
-
-On 8 September 2025, the Axeon Network Discord Server re-reached 100 members, however it dropped under that milestone after a month.
+On 8 September 2025, the Axeon Network Discord Server re-reached 100 members.
 
 ## Custom server-specific Discord Bots
 Initially, there were several bots hosted specifically for the Axeon Network server, all which started operating in late 2017-early 2018:
@@ -99,7 +98,9 @@ The website has been hosted on GitHub Pages since May 2018, and initially on a d
         style="width:40%; height:auto" %}
         </div>
 
-A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](KayWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
+A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](AveryWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
+
+In April 2026, a new permanent iteration of the new AxeonWebsite was rolled out.
 
 # i.axeon
 **i.axeon** (also known as the **Axeon Image Uploader**) was a planned online image uploading service during early 2018 primarily meant to be used with ShareX. Images uploaded to the service would be under the `i.axeoncommunity.ml` subdomain ready to link on Discord or generally other places of the Internet where attaching images is otherwise not a feature.

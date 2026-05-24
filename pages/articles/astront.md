@@ -32,21 +32,22 @@ The StuffyXP channel was deleted in March 2025 due to Kit's mental status with n
 Shortly after Kit's August Discord return, Kit started to gain nostalgia for the StuffyXP channels and [its respective Discord server](StuffyXP_Hangout). Afterwards, a StuffyXP successor (codenamed *StuffyXP 2*) was revealed by Kit in September 2025.
 
 # Videos
-As of May 2026, there are 12 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of May 2026, there are 13 videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
 - **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
 - **Android, But It's on the x86 Architecture...** - *uploaded 2025-11-11*
 - **Discord on Windows Vista but EVERYTHING Goes Wrong** - *uploaded 2025-11-18*
-- **Running Linux in... year 10000?** - *uploaded 2026-01-19*
+- **Running Linux in... Year 10000?** - *uploaded 2026-01-19*
 - **Installing Windows Longhorn via MS-DOS! (Post-Reset)** - *uploaded 2026-01-25*
 - **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
-- **Turning Windows 11 into Windows XP, kinda... (ExplorerEx)** - *uploaded 2026-02-28*
+- **Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)** - *uploaded 2026-02-28*
 - **Converting Windows XP to "Windows Server 2003" (on RTM!)** - *uploaded 2026-03-29*
 - **Making a Custom Windows Bootleg** - *uploaded 2026-04-04*
 - **Upgrading (directly) from Windows 7 to Windows 8.1!** - *uploaded 2026-04-11*
-- **Converting a Windows Install to a VMware VM...** - *uploaded 2026-04-25*
+- **Converting a Windows Install to a VMware VM** - *uploaded 2026-04-25*
 - **Can you Daily Drive Windows on Android? (w/ Vectras VM)** - *uploaded 2026-05-08*
+- **Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong** - *uploaded 2026-05-23*
 
 # AstroNT Advanced Server
 **AstroNT Advanced Server**[^1] (formerly known as **AstroNT Datacenter**[^2] and **StuffyXP 2 Hangout**) is a private Discord server owned by KitSixtyFour used for talk about future AstroNT plans. It was created on 16 September 2025.

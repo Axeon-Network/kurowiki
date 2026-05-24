@@ -1,6 +1,7 @@
 ---
 title: TheHaswellLappy
 permalink: TheHaswellLappy
+hatnote: "This article is incomplete and will be probably finished in Release Candidate 2."
 ---
 
 {% include infoboxes/computer.html

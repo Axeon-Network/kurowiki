@@ -1,7 +1,7 @@
 ---
 title: CometLappy
 permalink: CometLappy
-hatnote: "For the character that it is named after, see [Comet](Comet)"
+hatnote: "For the character that it is named after, see [Comet](Comet)<br>This article is a stub and will be probably finished in Release Candidate 2."
 dyk:
     - "...that [CometLappy](CometLappy) was originally known as *NishiLappyV2*?"
     - "...that [CometLappy](CometLappy) has very similar specs to [NishiLappy](NishiLappy)?"

@@ -2,7 +2,7 @@
 title: Stuffy's Tech Misadventures
 isTitleItalic: true
 permalink: Stuffy's Tech Misadventures
-hatnote: See also&colon; [List of cancelled StuffyXP videos](List_of_cancelled_StuffyXP_videos)<br>This article is unfinished.
+hatnote: See also&colon; [List of cancelled StuffyXP videos](List_of_cancelled_StuffyXP_videos)<br>This article is a stub and will be probably finished in Release Candidate 2.
 ---
 
 ***Stuffy's Tech Misadventures*** was a video series planned for the [StuffyXP](StuffyXP) channel sometime between March and May 2024. The last iteration of the series consisted of 5 total episodes before its cancellation in late May 2024

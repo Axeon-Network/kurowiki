@@ -1,6 +1,7 @@
 ---
 title: Deltari
 permalink: Deltari
+hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 
 **Deltari** (formerly known as HoriWiki Engine and LexWiki Engine) is a free-and-open-source (FOSS) general use wiki engine built by [Axeon Network](Axeon_Network) primarily for use in [KuroWiki](KuroWiki), but may be used by anyone.

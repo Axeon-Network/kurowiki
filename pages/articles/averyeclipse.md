@@ -10,7 +10,7 @@ aliases:
 
 **AveryEclipse** (formerly known as **KayAurora**, **Clyron** and **Lynxmic**) (born 17 August[^1]), also known as just **Avery** or **Ave**, is an European[^1] content creator and developer, (occasional) gamer and graphics designer.
 
-The founder and one of the administrators of [Axeon Network](Axeon_Network) (including the Discord Server, [KuroWiki](KuroWiki) and [MidoriMC](MidoriMC)), they're also the creator of several other projects such as the [Lynxmic](Lynxmic) YouTube channel and several Discord Bots (primarily [Venus](Venus) and [Sapphire](Sapphire)), [among others](List_of_AveryEclipse's_projects), and also makes content for the [AstroNT](AstroNT) channel. Their personal website is [AveryWebsite](AveryWebsite).
+The founder and one of the administrators of [Axeon Network](Axeon_Network) (including the Discord Server, [KuroWiki](KuroWiki) and [KitsuMC](KitsuMC)), they're also the creator of several other projects such as the [Lynxmic](Lynxmic) YouTube channel and several Discord Bots (primarily [Venus](Venus) and [Sapphire](Sapphire)), [among others](List_of_AveryEclipse's_projects), and also makes content for the [AstroNT](AstroNT) channel. Their personal website is [AveryWebsite](AveryWebsite).
 
 # Personal life
 Avery was born on the date of 17 August in an unknown place in Europe.

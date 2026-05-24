@@ -48,7 +48,7 @@ Further updates were planned to improve the overall design, but they never happe
         </div>
 
 ## Version 2.x
-<!-- needs expanding -averyeclipse -->
+*This section is a stub and will be finished in Release Candidate 2.*
 
 In October 2024, plans were planted over for a complete rewrite of AveryWebsite (then known as ***ClyronWebsite***), switching from Jekyll to Astro. The website layout was originally planned to remain as-is but it was decided later on that the website receives a complete redesign using Tailwind CSS.
 
