@@ -5,11 +5,14 @@ redirect_from:
 aliases:
 hatnote: Main article&#58; [AveryWebsite](AveryWebsite)
 ---
-This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of March 2026, from latest to earliest.
+This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of May 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 # Version 26.x
+## 26.5.1
+Released on 26 May 2026, this version fixed a major bug with displaying blog post tags on mobile,. Additionally, the `env.d.ts` file was deleted from the `src` folder, deemed unnecessary.
+
 ## 26.5
 Released on 14 May 2026, it further expanded on the rollout of `astro-icon` icons sitewide to Unicode emojis in sections and page headers. Support for the `icon` prop was added for the collapsible box component (used for the homepage Buttons and Webrings sections) and in the layout. The Box component also no longer requires a title. Other bug fixes and enhancements have been done as well.
 
