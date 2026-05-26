@@ -11,7 +11,7 @@ The changelogs of all versions before and including v3.3.1 are inherited from Av
 
 # Version 26.x
 ## 26.5.1
-Released on 26 May 2026, this version fixed a major bug with displaying blog post tags on mobile,. Additionally, the `env.d.ts` file was deleted from the `src` folder, deemed unnecessary.
+Released on 26 May 2026, this version fixed a major bug with displaying blog post tags on mobile. Additionally, the `env.d.ts` file was deleted from the `src` folder, deemed unnecessary.
 
 ## 26.5
 Released on 14 May 2026, it further expanded on the rollout of `astro-icon` icons sitewide to Unicode emojis in sections and page headers. Support for the `icon` prop was added for the collapsible box component (used for the homepage Buttons and Webrings sections) and in the layout. The Box component also no longer requires a title. Other bug fixes and enhancements have been done as well.
