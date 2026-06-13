@@ -1,0 +1,298 @@
+---
+title: Search Results
+permalink: /search
+search_exclude: true
+---
+
+<noscript>AkaneSearch requires JavaScript to function correctly. Please enable JavaScript, or use the <a href="./Sitemap">Sitemap</a> for navigation.</noscript>
+
+<div id="results-container">
+</div>
+
+<script>
+// AkaneSearch v.1.5a / RETAIL
+// Copyright 2026 Axeon Network
+// Written by StupidBiFox
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('search-input');
+    const resultsContainer = document.getElementById('results-container');
+    
+    if (!searchInput || !resultsContainer) return;
+
+    const searchDataURL = './resources/search.json'; 
+    let searchIndex = [];
+
+    const urlParams = new URLSearchParams(window.location.search);
+    let currentQuery = urlParams.get('q') || '';
+    searchInput.value = currentQuery;
+
+    fetch(searchDataURL)
+    .then(response => response.json())
+    .then(data => {
+        const parser = new DOMParser();
+
+        searchIndex = data.map(item => {
+            const doc = parser.parseFromString(item.raw_html || '', 'text/html');
+
+            // we nuke infoboxes and other stuff since they are not true article content
+            const badComponents = doc.querySelectorAll('.infobox, .infobox-title, .toc-wrapper, .seriesbox, .series-box, .silver-item, .hatnote, sup, .reference, .gallery-caption');
+            badComponents.forEach(component => component.remove());
+
+            // then, we split the excerpt by dots so it looks nicer
+            const paragraphs = doc.querySelectorAll('p');
+            let combinedHTML = '';
+            let totalDots = 0;
+            let targetReached = false;
+            
+            for (let p of paragraphs) {
+                let pText = p.textContent.replace(/\s+/g, ' ').trim();
+                if (pText.length === 0) continue;
+
+                // create a clone of the paragraph so we can manipulate it
+                // without breaking the original document loop
+                const pClone = p.cloneNode(true);
+
+                // strip all links while retaining their inner text titles
+                const links = pClone.querySelectorAll('a');
+                links.forEach(link => {
+                    const textNode = doc.createTextNode(link.textContent);
+                    link.parentNode.replaceChild(textNode, link);
+                });
+
+                // scan through the clean text node structure of the clone to find the 4th dot
+                let currentText = pClone.textContent.replace(/\s+/g, ' ').trim();
+                let dotCountInP = 0;
+                let cutCharIndex = -1;
+
+                for (let i = 0; i < currentText.length; i++) {
+                    if (currentText[i] === '.') {
+                        // strings like "Windows 8.1" or "Windows NT 4.0" can get cut to "Windows 8." or "Windows NT 4.",
+                        // so we make it not cut the content if the left and right sides of the dot are decimals
+                        const isDecimal = (i > 0 && i < currentText.length - 1) && 
+                                          (currentText[i - 1] >= '0' && currentText[i - 1] <= '9') && 
+                                          (currentText[i + 1] >= '0' && currentText[i + 1] <= '9');
+                        
+                        if (isDecimal) continue;
+
+                        totalDots++;
+                        if (totalDots === 4) {
+                            cutCharIndex = i;
+                            targetReached = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (combinedHTML.length > 0) {
+                    combinedHTML += ' ';
+                }
+
+                if (targetReached && cutCharIndex !== -1) {
+                    // to avoid slicing complex HTML tags into raw code fragments, 
+                    // we use a neat structural walker trick
+
+                    // we temporarily load our text-stripped clone into a temporary container node
+                    const tempDiv = doc.createElement('div');
+                    tempDiv.appendChild(pClone);
+
+                    const walker = doc.createTreeWalker(tempDiv, NodeFilter.SHOW_TEXT, null, false);
+                    let charCounter = 0;
+                    let nodeToCut = null;
+                    let offsetInNode = -1;
+
+                    while (walker.nextNode()) {
+                        let currentNode = walker.currentNode;
+                        let nodeLength = currentNode.nodeValue.length;
+                        if (charCounter + nodeLength >= cutCharIndex + 1) {
+                            nodeToCut = currentNode;
+                            offsetInNode = (cutCharIndex + 1) - charCounter;
+                            break;
+                        }
+                        charCounter += nodeLength;
+                    }
+
+                    // ut the precise text element chunk short and erase any excess trailing elements
+                    // inside the paragraph container
+                    if (nodeToCut) {
+                        nodeToCut.nodeValue = nodeToCut.nodeValue.substring(0, offsetInNode);
+                        while (nodeToCut.nextSibling) {
+                            nodeToCut.parentNode.removeChild(nodeToCut.nextSibling);
+                        }
+                        let parent = nodeToCut.parentNode;
+                        while (parent && parent !== tempDiv) {
+                            while (parent.nextSibling) {
+                                parent.parentNode.removeChild(parent.nextSibling);
+                            }
+                            parent = parent.parentNode;
+                        }
+                    }
+
+                    combinedHTML += tempDiv.firstChild.innerHTML.replace(/\s+/g, ' ').trim();
+                    break;
+                } else {
+                    combinedHTML += pClone.innerHTML.replace(/\s+/g, ' ').trim();
+                }
+            }
+
+            // we also can fallback if anything goes wrong
+            if (!combinedHTML.trim()) {
+                const bodyClone = doc.body.cloneNode(true);
+                const links = bodyClone.querySelectorAll('a');
+                links.forEach(link => {
+                    const textNode = doc.createTextNode(link.textContent);
+                    link.parentNode.replaceChild(textNode, link);
+                });
+
+                combinedHTML = bodyClone.innerHTML.replace(/\s+/g, ' ').trim();
+                
+                totalDots = 0;
+                let textContent = bodyClone.textContent.replace(/\s+/g, ' ').trim();
+                let cutIndex = -1;
+                for (let i = 0; i < textContent.length; i++) {
+                    if (textContent[i] === '.') {
+                        const isDecimal = (i > 0 && i < textContent.length - 1) && 
+                                          (textContent[i - 1] >= '0' && textContent[i - 1] <= '9') && 
+                                          (textContent[i + 1] >= '0' && textContent[i + 1] <= '9');
+                        if (isDecimal) continue;
+                        totalDots++;
+                        if (totalDots === 4) {
+                            cutIndex = i;
+                            break;
+                        }
+                    }
+                }
+                if (cutIndex !== -1) {
+                    combinedHTML = textContent.substring(0, cutIndex + 1);
+                }
+            }
+            
+            return {
+                title: item.title,
+                url: item.url,
+                snippet: combinedHTML,
+                isTitleItalic: item.isTitleItalic
+            };
+        });
+
+        // execute search right away to capture queries or print welcome screen
+        executeSearch(currentQuery);
+    })
+    .catch(error => console.error("Cannot build search index (", error, ")"));
+
+    searchInput.addEventListener('input', function() {
+        currentQuery = this.value;
+        executeSearch(currentQuery);
+
+        const newUrl = new URL(window.location.href);
+        if (currentQuery.trim()) {
+            newUrl.searchParams.set('q', currentQuery);
+        } else {
+            newUrl.searchParams.delete('q');
+        }
+        window.history.pushState({ path: newUrl.href }, '', newUrl.href);
+    });
+
+    // now, we add a way for it to search within words instead of match-casing the title,
+    // so for example, "KuroWiki 4466 kitsixtyfour" can return
+    // "KuroWiki build 4466 (kitsixtyfour.251227-1311)" for example
+    function executeSearch(query) {
+        resultsContainer.innerHTML = '';
+        const trimmedQuery = query.toLowerCase().trim();
+        
+        // If there isn't a query, show the welcome invitation text node
+        if (!trimmedQuery) {
+            resultsContainer.innerHTML = '<p>Welcome! To continue, just use the search box on the top-right part of the site!</p>';
+            return;
+        }
+        
+        if (!searchIndex.length) return;
+
+        const queryWords = trimmedQuery.split(/\s+/);
+
+        // Filter out unmatched articles and assign temporary relevance weights
+        const matchedItems = [];
+
+        searchIndex.forEach(item => {
+            const title = (item.title || '').toLowerCase();
+            const titleAcronym = title.match(/\b(\w)/g)?.join('') || '';
+            
+            // Extract only the first sentence text for searching to avoid false positives
+            const rawSnippetText = (item.snippet || '').replace(/<[^>]*>/g, ''); 
+            let firstSentence = rawSnippetText;
+            
+            for (let i = 0; i < rawSnippetText.length; i++) {
+                if (rawSnippetText[i] === '.') {
+                    const isDecimal = (i > 0 && i < rawSnippetText.length - 1) && 
+                                      (rawSnippetText[i - 1] >= '0' && rawSnippetText[i - 1] <= '9') && 
+                                      (rawSnippetText[i + 1] >= '0' && rawSnippetText[i + 1] <= '9');
+                    
+                    if (!isDecimal) {
+                        firstSentence = rawSnippetText.substring(0, i + 1);
+                        break;
+                    }
+                }
+            }
+            const cleanSearchText = firstSentence.toLowerCase();
+
+            // All words must be satisfied somewhere within the title, acronym, or first sentence text
+            const isMatch = queryWords.every(word => {
+                return title.includes(word) || cleanSearchText.includes(word) || titleAcronym.includes(word);
+            });
+
+            if (isMatch) {
+                // Calculate ranking relevance criteria score:
+                // Direct title match gets top priority, followed by acronym match, followed by sentence matching
+                let score = 0;
+                if (queryWords.every(word => title.includes(word))) {
+                    score = 2; 
+                } else if (queryWords.every(word => titleAcronym.includes(word))) {
+                    score = 1;
+                }
+                
+                matchedItems.push({ item: item, score: score });
+            }
+        });
+
+        // Sort items strictly based on relevance score weight descending
+        matchedItems.sort((a, b) => b.score - a.score);
+
+        // Flatten the object array structure back to normal records for printing
+        const sortedResults = matchedItems.map(wrapper => wrapper.item);
+
+        displayResults(sortedResults);
+    }
+
+    function displayResults(results) {
+        if (results.length === 0) {
+            resultsContainer.innerHTML = `<p>Whoops! There wasn't a match for "${searchInput.value}". Please try another query.</p>`;
+            return;
+        }
+
+        const fragment = document.createDocumentFragment();
+
+        results.forEach(item => {
+            const resultBox = document.createElement('div');
+            resultBox.style.cssText = 'padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); background-color: var(--search-background-color);';
+
+            const titleLink = document.createElement('a');
+            titleLink.href = item.url;
+            titleLink.textContent = item.title;
+            if (item.isTitleItalic == true) {
+                titleLink.style.cssText = 'font-size: 1.2em; font-weight: bold; font-style: italic; display: block;';
+            } else {
+                titleLink.style.cssText = 'font-size: 1.2em; font-weight: bold; display: block;';
+            }
+
+            const descriptionP = document.createElement('p');
+            descriptionP.innerHTML = item.snippet; 
+            descriptionP.style.margin = '0';
+
+            resultBox.appendChild(titleLink);
+            resultBox.appendChild(descriptionP);
+            fragment.appendChild(resultBox);
+        });
+
+        resultsContainer.appendChild(fragment);
+    }
+});
+</script>

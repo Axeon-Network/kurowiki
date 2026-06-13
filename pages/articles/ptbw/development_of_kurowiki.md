@@ -2,6 +2,7 @@
 title: PTBW_Development of KuroWiki
 permalink: Development_of_KuroWiki-1
 hatnote: This article will be rewritten soon enough.
+search_exclude: true
 ---
 
 Initial ideas for what would eventually become [KuroWiki](KuroWiki) existed as early as April 2025 with the set goal of making easy to get information about [Nekori](Nekori64)'s projects. In its early days, *KuroWiki* was a Nekori-themed encyclopedia branded under the name *HoriWiki*.

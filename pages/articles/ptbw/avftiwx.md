@@ -6,6 +6,7 @@ isTitleItalic: true
 aliases:
     - vmware first time
     - vmwarefirsttime
+search_exclude: true
 ---
 
 {% include infoboxes/video.html

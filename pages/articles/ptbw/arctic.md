@@ -17,6 +17,7 @@ aliases:
     - stuffyxp arctic
     - horibyte leafyos
     - stuffyxp leafyos
+search_exclude: true
 ---
 
 <!-- **Kit Arctic**[^1] is a free and open source operating system developed by [Kit](Kit64), first released on 26 May 2025. The source code is freely available on GitHub ([github.com/Kit64/arctic](https://github.com/Kit64/arctic)).

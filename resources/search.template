@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /resources/search.json
+version: 1.5a / RETAIL
+---
+[
+  {% assign all_items = site.pages | concat: site.posts %}
+  {% assign first_item = true %}
+  {% for item in all_items %}
+    {% if item.title and item.url != "/resources/search.json" and item.layout != nil and item.search_exclude != true %}
+      {% unless first_item %},{% endunless %}
+      {% assign first_item = false %}
+      {
+        "title": {{ item.title | jsonify }},
+        "url": {{ item.url | absolute_url | jsonify }},
+        "raw_html": {{ item.content | markdownify | jsonify }},
+        "isTitleItalic": {% if item.isTitleItalic %}true{% else %}false{% endif %}
+      }
+    {% endif %}
+  {% endfor %}
+]

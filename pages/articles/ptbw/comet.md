@@ -6,6 +6,7 @@ aliases:
 redirect_from:
 - Comet_Nishi_Adsurden
 hatnote: "NOTE: THIS ARTICLE WILL BE REWRITTEN SOON ENOUGH.<br>This article is about the fictional character. For the video game series, see [Comet Adventure](Comet_Adventure). For the plushie with a similar design, see [Dogui](Dogui). For [KitSixtyFour](KitSixtyFour)'s similarly-named fursona, see [Nishi](Nishi)."
+search_exclude: true
 ---
 
 {% include infoboxes/character.html

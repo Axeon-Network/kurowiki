@@ -6,6 +6,7 @@ redirect_from:
     - Horicraft_2
 aliases:
     - horicraft 2
+search_exclude: true
 ---
 
 **Horicraft (2)** was a survival Minecraft server owned & operated by [Kit](Kit) founded on 14 March 2025 and closed on 18 May 2025. It is the spiritual successor to the [original Horicraft server](Horicraft) after being closed due to a disagreement between the server hoster and Kit.

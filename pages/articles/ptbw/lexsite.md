@@ -1,3 +1,7 @@
+---
+search_exclude: true
+---
+
 hey there, we gotta redo this entire article and make sub-pages fully covering every iteration of my website, including lexsite, whose development was shared on the axeon network server. -nekori
 
 
@@ -59,7 +63,7 @@ LexSite was always developed alongside Clyron, and the website's source code is 
 
 #### Versioning dillema
 
-LexSite's version string inherits from its prior version, for example, StuffyXP Website 2.1 --> Lexibyte Website 2.2, the build string can be discompossed as the following:
+LexSite's version string inherits from its prior version, for example, StuffyXP Website 2.1 Lexibyte Website 2.2, the build string can be discompossed as the following:
 
 `2.4.3565.main.250406-1905`
 

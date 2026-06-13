@@ -12,13 +12,13 @@ if exist .\resources\ruby\buildtag (
 :: check the current build status, then set it
 echo %raw_id% | findstr /i "chk" >nul
 if %errorlevel% equ 0 (
-    set status=Chk
+    set status=Checked
 ) else (
     echo %raw_id% | findstr /i "fre" >nul
     if %errorlevel% equ 0 (
-        set status=Fre
+        set status=Free
     ) else (
-        set status=Dmm
+        set status=STATUS_DUMMY
     )
 )
 
@@ -28,18 +28,18 @@ for /f "tokens=*" %%i in ('git rev-parse --abbrev-ref HEAD 2^>nul') do set lab=%
 if "%lab%"=="" set lab=PANTHER_%username%
 
 :: now we set the title
-title Whidbey - Delta%status% of %lab% in %cd%
+title Whidbey - %status% Akane from %lab% in %cd%
 
 :: aliases
-doskey dlt=bundle exec jekyll server -l -o --port 4500
-doskey dnw=bundle exec jekyll server -l -o --no-watch --port 4500
+doskey akn=bundle exec jekyll server -l -o --port 4500
+doskey akw=bundle exec jekyll server -l -o --no-watch --port 4500
 doskey bni=bundle install
 doskey hlp=call tools\win\whidbey_hlp.cmd
-doskey dsv=bundle exec jekyll server --port 4500
-doskey dbl=bundle exec jekyll build
-doskey dcl=bundle exec jekyll clean
-doskey dtr=git add .
-doskey dcm=git commit -m $*
-doskey dce=git commit -m $* -m $*
-doskey dps=git push
-doskey dpl=git pull
+doskey aks=bundle exec jekyll server --port 4500
+doskey akb=bundle exec jekyll build
+doskey acl=bundle exec jekyll clean
+doskey atr=git add .
+doskey acm=git commit -m $*
+doskey ace=git commit -m $* -m $*
+doskey aps=git push
+doskey apl=git pull
