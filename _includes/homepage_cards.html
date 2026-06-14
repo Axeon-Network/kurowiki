@@ -3,22 +3,21 @@
 <div class="homepage-cards">
   {% comment %} 1. Filter pages natively in Liquid {% endcomment %}
   {% assign featured_articles = site.pages | where: "featured", true | where_exp: "item", "item.ftsnippet != nil" %}
-  <div class="hcards-row1">
-  <div class="featured-article kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
-    <div class="mdl-card__title">
-      <i class="material-icons">import_contacts</i>
-      <h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
-    </div>
-    <div class="mdl-card__supporting-text" style="opacity:1;width: 95%;">
-      <div id="feat-header" style="margin-top: -5px;"></div>
-      <div id="feat-article-container" style="color:var(--text-color);padding:0;">
-          You shoudnt be able to see this, and if you do... fuck
+  <div>
+    <div class="featured-article kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <i class="material-icons">import_contacts</i>
+        <h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
+      </div>
+      <div class="mdl-card__supporting-text" style="opacity:1;width: 95%;">
+        <div id="feat-header" style="margin-top: -5px;"></div>
+        <div id="feat-article-container" style="color:var(--text-color);padding:0;">
+          You shouldn't be able to see this, and if you do... fuck
+        </div>
       </div>
     </div>
-  </div>
   
   <script>
-    // Pass the Liquid array to JavaScript safely
     const featuredArticles = [
       {% for item in featured_articles %}
         
@@ -33,7 +32,6 @@
         {
           title: {{ item.title | jsonify }},
           url: "{{ item.url | relative_url }}",
-          // 3. Combine the component HTML and text into the payload
           snippet: {{ parsed_text | jsonify }},
           component: {{ component_html | jsonify }}
         }{% unless forloop.last %},{% endunless %}
@@ -45,7 +43,6 @@
       const selectedIndex = currentMonth % featuredArticles.length;
       const featured = featuredArticles[selectedIndex];
   
-      // Inject the Title and combined content into the HTML card
       document.getElementById('feat-header').innerHTML = `${featured.component}<a href="${featured.url}" id="feat-title" style="color:var(--title-color); font-size:24px;">${featured.title}</a>`;
       document.getElementById('feat-article-container').innerHTML = `
         ${featured.snippet}
@@ -73,9 +70,8 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById('facts-container');
-    let dayOffset = 0; // Used for the Ctrl+Alt+F hotkey
+    let dayOffset = 0; // Ctrl+Alt+F debug hotkey that reloads DYK
 
-    // A seeded random number generator so everyone sees the same facts on the same day
     function seededRandom(seed) {
         let x = Math.sin(seed++) * 10000;
         return x - Math.floor(x);
@@ -87,14 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Create a seed based on today's date + our hotkey offset
         const today = new Date();
         const seedBase = (today.getFullYear() * 10000) + ((today.getMonth() + 1) * 100) + today.getDate() + offset;
 
-        // Clone the array so we can safely splice it
         let availableFacts = [...window.allDykFacts];
         
-        // Shuffle the array using our daily seed
         for (let i = availableFacts.length - 1; i > 0; i--) {
             const j = Math.floor(seededRandom(seedBase + i) * (i + 1));
             [availableFacts[i], availableFacts[j]] = [availableFacts[j], availableFacts[i]];
@@ -103,12 +96,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let selectedFacts = [];
         let lastArticle = null;
 
-        // Pick seven facts, preventing back-to-back facts from the same article
         while (selectedFacts.length < 7 && availableFacts.length > 0) {
-            // Find the first fact that doesn't share the same article as the previous one
             let indexToPick = availableFacts.findIndex(f => f.article !== lastArticle);
             
-            // Fallback: If only facts from the same article are left, just pick the first one to avoid crashing
             if (indexToPick === -1) indexToPick = 0;
 
             let picked = availableFacts.splice(indexToPick, 1)[0];
@@ -116,7 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
             lastArticle = picked.article;
         }
 
-        // Render the chosen facts
         let html = '';
         selectedFacts.forEach(f => {
             html += `<p>${f.text}</p>`;
@@ -124,10 +113,8 @@ document.addEventListener("DOMContentLoaded", () => {
         container.innerHTML = html;
     }
 
-    // Initial render
     renderFacts(dayOffset);
 
-    // Debug Hotkey: Ctrl + Alt + F
     document.addEventListener('keydown', (e) => {
         if (e.ctrlKey && e.altKey && (e.key === 'f' || e.key === 'F')) {
             e.preventDefault();
@@ -139,9 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-{% comment %} 
-   1. Filter pages that actually have DYK facts
-{% endcomment %}
 {% assign dyk_pages = site.pages | where_exp: "item", "item.dyk" %}
 {% assign total_articles = dyk_pages.size %}
 
@@ -154,22 +138,16 @@ document.addEventListener("DOMContentLoaded", () => {
       {% if total_articles > 0 %}
         {% assign day_seed = "now" | date: "%Y%m%d" | plus: 0 %}
         
-        {% comment %} Determine which 12 articles to show today {% endcomment %}
         {% assign start_index = day_seed | modulo: total_articles %}
         {% assign end_index = start_index | plus: 11 %}
 
           {% for i in (0..total_articles) %}
             {% assign wrap_index = i | plus: total_articles %}
             
-            {% comment %} Check if this article index falls in today's window {% endcomment %}
             {% if i >= start_index and i <= end_index or wrap_index >= start_index and wrap_index <= end_index %}
               
               {% assign p = dyk_pages[i] %}
               {% if p.dyk %}
-                {% comment %} 
-                   Pick exactly ONE fact from this article's list. 
-                   We use the day_seed again so the fact itself rotates daily too.
-                {% endcomment %}
                 {% assign fact_index = day_seed | modulo: p.dyk.size %}
                 <p>{{ p.dyk[fact_index] | markdownify | remove: '<p>' | remove: '</p>' }}</p>
               {% endif %}
@@ -183,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </div>
 </div>
-<div class="hcards-row2">
+<div>
 <div class="recent-news kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
     <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>

@@ -7,14 +7,14 @@ dyk:
 ---
 
 {% include infoboxes/channel.html
+logo='resources/img/articles/astront/wordmark.png'
 pfp='resources/img/articles/astront/logo.png'
 author='KitSixtyFour'
-banner='resources/img/articles/astront/banner.png'
 name='AstroNT'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='14'
-subs='771'
-views='61,300'
+videos='17'
+subs='918'
+views='79,753'
 platform='YouTube'
 state='Active'
 creationdate='2025-09-17'
@@ -32,7 +32,7 @@ The StuffyXP channel was deleted in March 2025 due to Kit's mental status with n
 Shortly after Kit's August Discord return, Kit started to gain nostalgia for the StuffyXP channels and [its respective Discord server](StuffyXP_Hangout). Afterwards, a StuffyXP successor (codenamed *StuffyXP 2*) was revealed by Kit in September 2025.
 
 # Videos
-As of May 2026, there are 13 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of June 2026, there are 16 videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
 - **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
@@ -48,6 +48,8 @@ As of May 2026, there are 13 videos uploaded to the AstroNT channel (excluding t
 - **Converting a Windows Install to a VMware VM** - *uploaded 2026-04-25*
 - **Can you Daily Drive Windows on Android? (w/ Vectras VM)** - *uploaded 2026-05-08*
 - **Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong** - *uploaded 2026-05-23*
+- **ChromeOS Flex on an "Uncertified" HP Laptop** - *uploaded 2026-05-29*
+- **Swapping Linux /etc directories!** - *uploaded 2026-06-10*  
 
 # AstroNT Advanced Server
 **AstroNT Advanced Server**[^1] (formerly known as **AstroNT Datacenter**[^2] and **StuffyXP 2 Hangout**) is a private Discord server owned by KitSixtyFour used for talk about future AstroNT plans. It was created on 16 September 2025.
@@ -63,8 +65,8 @@ Before the launch of AstroNT, the server was used to discuss the development of 
 
 <div class="wiki-gallery">
     {% include gallery_item.html
-        image_src="resources/img/articles/astront/wordmark.png"
-        caption="AstroNT Wordmark." 
+        image_src="resources/img/articles/astront/banner.png"
+        caption="AstroNT Banner." 
         author='KitSixtyFour' %}
 
     {% include gallery_item.html

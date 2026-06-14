@@ -67,7 +67,56 @@ html.light-mode {
     --navhoverlink: var(--navhoverlink-light);
 }
 
+/* mdl's h1-h3 are way tooooo gigantic so we make them use mdl's h4-h6 styling */
+h1 {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    letter-spacing: 0;
+}
+h2 {
+    font-size: 20px;
+    line-height: 1;
+}
+h3, h4, h5, h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 16px;
+    letter-spacing: .04em;
+}
+
+hr {
+    border-color: white;
+    opacity: 0.1;
+}
+.light-mode hr {
+    border-color: black;
+    opacity: 0.1;
+}
+
+/* CSS FOR RECENT NEWS */
+summary {
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 25px;
+    color: var(--title-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+summary::before {
+    font-family: 'Material Icons';
+    content: "arrow_right";
+    font-size: 28px;
+    margin-left: -12px;
+}
+
+details[open] summary::before {
+    content: "arrow_drop_down";
+}
+
 /* mdl-layout stuff */
+/* makes the drawer icon and header title (supposedly) white */
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
     color: white;
@@ -75,9 +124,12 @@ html.light-mode {
 /* ^ i've just realized that we use the demo versions */
 
 /* i forgor what this is */
-.mdl-layout__header, .is-casting-shadow {
-    display:block !important;
-    word-wrap: normal;
+.mdl-layout__header {
+    display: block;
+}
+
+.mdl-layout__header-row .container a {
+    color: white !important;
 }
 
 /* this too */
@@ -87,21 +139,18 @@ html.light-mode {
 
 /* this too..TWO!! */
 .mdl-navigation__link:hover {
- background-color: var(--navhoverlink) !important;
+    background-color: var(--navhoverlink) !important;
 }
 
+/* interesting how without ts the silver item is what breaks */
 .mdl-card__supporting-text {
     color: var(--text-color) !important;
     opacity: 75%;
 }
 
-hr {
-    border-color: white;
-    opacity: 29%;
-}
 
 /* why does "two" have 3 letters but "three" have 5 letters */
-/* even then, "five" has 5 letters, "six" has 3 letters, same with "one" */
+/* even then, "five" has 4 letters, "six" has 3 letters, same with "one" */
 /* "seven" and "eight" have 5 letters, "nine" has 4 letters, and "ten" has 3 letters! */
 /* NONE MATCH! */
 /* the only one that matches is "four". pretty weird, isn't it? */
@@ -109,26 +158,40 @@ hr {
 
 /* custom mdl stuff: the drawer */
 .mdl-layout__drawer {
- background-color: var(--drawer-color);
- backdrop-filter: blur(15px);
- color: var(--text-color) !important;
- border-color: none;
- border-right: 0px;
-}
-
-.mdl-navigation__link:hover {
-    text-decoration: none !important;
+    background-color: var(--drawer-color);
+    backdrop-filter: blur(15px);
+    color: var(--text-color) !important;
+    border-color: none;
+    border-right: 0px;
+    box-shadow: 0px 0px 20px black;
 }
 
 .mdl-layout__drawer-button {
+    display: var(--button-status) !important;
     z-index: 4 !important;
 }
 
-/* i guess this is for the drawer idk */
-/* wait is this a leftover from lexsite???? */
+/* hide drawer button while on springviewer */
+.mdl-layout .mdl-layout__drawer-button.mdl-hidden {
+    visibility: hidden;
+}
+
 .mdl-navigation__link {
- color:var(--text-color) !important;
- 
+    padding: 8px 20px !important;
+    color: var(--text-color) !important;
+}
+
+/* they were never aligned... */
+.mdl-navigation__link .material-icons {
+    margin-bottom: 3px;
+}
+
+#drawer-banner {
+    box-shadow: none;
+}
+
+#drawer-version-info {
+    opacity: 0.5;
 }
 
 
@@ -136,119 +199,23 @@ hr {
 /* me omw to add -4.56192 to the deltari source cod- oh wait i already did */
 
 
-
-/* what was this for??????? */
-.mdl-layout__header {
-    background-color: rgba(0, 0, 0, 0) !important;
+.mdl-card__title {
+    color: white;
+}
+.featured-article > .mdl-card__title {
+    background-image: linear-gradient(rgb(120, 120, 120), rgb(90, 97, 136));
+}
+.did-you-know > .mdl-card__title {
+    background-image: linear-gradient(rgb(120, 120, 120), rgb(158, 111, 117));
+}
+.recent-news > .mdl-card__title {
+    background-image: linear-gradient(rgb(120, 120, 120), rgb(136, 107, 148));
 }
 
-.mdl-layout__drawer-button {
-    display: var(--button-status) !important;
-}
-
-.mdl-card {
-    background-color: var(--mdlcard-background-color);
-}
-
-/* for some reason nesting it makes it work, dont ask me how. */
-code {
-    font-family: 'Consolas', 'Hack' !important;
-}
-
-/* Resistance is futile. Work. Now. Please. */
-@media (max-width: 1160px) {
-    .featured-article,
-    .did-you-know,
-    .recent-news {
-     width: 100%;
-     margin-top: 5%;
-     margin-bottom: 5%;
-    }
-    #desktop-search {
-     display: none;
-}
-    #mobile-search {
-     display: block;
-}
-}
-
-@media (min-width: 1160px) {
-.homepage-cards {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 10px;
-}
-.homepage-cards .demo-card-wide {
-    display: table-cell;
-    vertical-align: top;
-    text-align: left;
-}
-#desktop-search {
-    display: block;
-}
-#mobile-search {
-    display: none;
-}
-}
-/* why the fuck cant i just merge these ~~two~~ ~~OOPS SIX NOW~~ WAIT THREE NOW fucking hell */
-.featured-article.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 60px;
-  background-image: linear-gradient(rgb(120, 120, 120), rgb(90, 97, 136)) !important;
-}
-.did-you-know.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 60px;
-  background-image: linear-gradient(rgb(120, 120, 120), rgb(158, 111, 117)) !important;
-}
-.recent-news.demo-card-wide > .mdl-card__title {
-  color: #fff;
-  height: 60px;
-  background-image: linear-gradient(rgb(120, 120, 120), rgb(136, 107, 148)) !important;
-}
-
-/* CSS FOR RECENT NEWS */
-summary {
-    font-size: 20px;
-    padding: 5px;
-    line-height: 25px;
-    color: var(--title-color);
-}
-
-summary:hover {
-    cursor: pointer;
-}
-
-/* mdl's h1-h3 are way tooooo gigantic so we make them use mdl's h4-h6 styling */
-h1 {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 400;
-    margin: 24px 0 16px;
-    letter-spacing: 0em;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-h2 {
-    font-size: 20px;
-    line-height: 1;
-    font-weight: 500;
-    margin: 24px 0 16px;
-    letter-spacing: 0em;
-}
-
-h3, h4, h5, h6 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    margin: 24px 0 16px;
-    letter-spacing: .04em;
-}
-
-#mainbox {
+.box {
     background-color: var(--contentbox-background-color); 
-    width:96%; 
+    backdrop-filter: blur(12px);
+    width: 96%; 
     justify-content: center; 
     display: block; 
     margin: 0 auto; 
@@ -256,69 +223,11 @@ h3, h4, h5, h6 {
     overflow: hidden;
 }
 
-body.viewer-active .mdl-layout__header,
-body.viewer-active .mdl-layout__drawer,
-body.viewer-active .mdl-layout__drawer-button {
-    visibility: hidden !important; 
-    opacity: 0 !important;
-    pointer-events: none !important;
-    transition: none !important;
-}
-
-body.viewer-active .mdl-layout__obfuscator {
-    display: none !important;
-}
-
-.mdl-layout .mdl-layout__drawer-button.mdl-hidden {
-    visibility: hidden !important;
-    opacity: 0 !important;
-    pointer-events: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    display: none !important; 
-}
-
-#drawerlink {
-    height: 44px !important;
-    line-height: 44px !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-#drawerlink:hover {
-    line-height: 44px !important;
-}
-
-@media screen and (max-width: 1024px) {
-    .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-        padding: 20px !important;
-    }
-}
-
-.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-        padding: 20px !important;
-}
-
-#drawer-banner {
-    pointer-events: none;
-    cursor: pointer;
-    box-shadow: none;
-}
-
-.mdl-layout__drawer-button {
-    text-shadow: 0 0 4px black !important;
-}
-
-.mdl-layout__drawer {
-    box-shadow: 0px 0px 20px black;
-}
-
 .kuro-card_can-has-transparency {
-    background-color: rgba(15,15,15,0.4) !important;
+    background-color: rgba(15,15,15,0.4);
 }
 .light-mode .kuro-card_can-has-transparency {
-    background-color: rgba(255,255,255,0.4) !important;
+    background-color: rgba(255,255,255,0.4);
 }
 
 .kuro-card_disbale-text-opacity .mdl-card__supporting-text {
@@ -326,83 +235,37 @@ body.viewer-active .mdl-layout__obfuscator {
     opacity: 100%;
 }
 
-/* they were never aligned... */
-.mdl-navigation__link .material-icons {
-    margin-bottom: 4px !important;
+/* Resistance is futile. Work. Now. Please. */
+@media (max-width: 1024px) {
+    .mdl-card {
+        width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    /* thanks mdl for making properly making this show up a Pain */
+    .mdl-textfield {
+        width: auto;
+    }
+    .mdl-textfield__input {
+        padding: 0;
+    }
 }
-
-hr {
-    border-color: white;
-    opacity: 0.1;
-}
-.light-mode hr {
-    border-color: black !important;
-    opacity: 0.1;
-}
-
-details summary {
-    list-style: none;
-    display: flex;
-}
-
-details summary::before {
-    font-family: 'Material Icons';
-    content: "arrow_right"; /* This is the icon name */
-    font-size: 28px;
-    margin-left: -12px;
-}
-
-details[open] summary::before {
-    content: "arrow_drop_down"; /* Optional: change the icon entirely when open */
-}
-
-#drawer-version-info {
-    opacity: 0.5;
-}
-
-.mdl-button {
-    text-decoration: none !important;
-}
-
-.mdl-layout__header-row .container a {
-    color: white !important;
-}
-a#drawerlink.mdl-navigation__link {
-    color: var(--text-color) !important;
-}
-
-#mainbox {
-    backdrop-filter: blur(12px);
-}
-
-
-.homepage-cards {
-    border-spacing: 15px !important;;
-}
-
-
-.hcards-row1 {
-    min-height: 0 !important;
-    justify-content: center;
-    height: 100%;
-    gap: 15px;
-    margin-top: -30px;
-    overflow: none;
-}
-.featured-article.mdl-card {
-    width:55%;
-}
-.did-you-know.mdl-card {
-    width: 45%;
-}
-.hcards-row2 {
-    min-height: 0 !important;
-    justify-content: center;
-    
- 
-    margin-top:-10px;
-    width: 100%;
-}
-.recent-news {
-    height: 450px !important;
+@media (min-width: 1024px) {
+    .homepage-cards {
+        border-spacing: 16px 10px;
+    }
+    .homepage-cards .demo-card-wide {
+        display: table-cell;
+        vertical-align: top;
+        text-align: left;
+    }
+    .featured-article.mdl-card {
+        width: 55%;
+    }
+    .did-you-know.mdl-card {
+        width: 45%;
+    }
+    .recent-news.mdl-card {
+        width: fit-content;
+    }
 }

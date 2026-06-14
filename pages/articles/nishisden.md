@@ -7,7 +7,7 @@ redirect_from:
 ---
 {% include infoboxes/server.html
 name='Nishi\'s Den'
-formerly='NekoCafe ft. AstroNT, NekoCafe'
+formerly='NekoCafe ft. AstroNT<br>NekoCafe'
 owner='[KitSixtyFour](KitSixtyFour)'
 platform='Discord, Stoat'
 creationDate='2025-08-30'
@@ -15,7 +15,7 @@ openedDate='2025-08-31'
 closedDate='2026-02-07'
 type='Public'
 memberCount='24 (as of 2026-02-09)'
-image='resources/img/articles/nishisden/logo.png'
+srvicon='resources/img/articles/nishisden/logo.png'
 %}
 
 **Nishi's Den**[^1] (formerly known as **NekoCafe ft. AstroNT** and ***NekoCafe**[^2]) was a Discord server created by [KitSixtyFour](KitSixtyFour) on 30 August 2025 and opened publicly one day later. It is the spiritual sucessor to [StuffyXP Hangout](StuffyXP_Hangout), [HoriServer (2)](HoriServer_(2)) and the [NovaServer](NovaServer) [Stoat](https://stoat.chat) server.

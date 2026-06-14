@@ -23,23 +23,25 @@ author='AveryEclipse'
 name='Lynxmic'
 creator='AveryEclipse'
 creatorurl='AveryEclipse'
-videos='127'
+videos='32'
 subs='1,665'
-views='257,949'
+views='185,554'
 platform='YouTube'
-state='Mostly Inactive; channel available'
+state='Inactive; channel available'
 creationdate='2016-12-05'
 linkname='youtube.com/lynxmic'
 linkurl='https://youtube.com/lynxmic'
 %}
 
-**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) launched on 5 December 2016.
+**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) created on 5 December 2016.
 
 It is the first created of AveryEclipse's main channels to be completely in the English language from the start. The channel's content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only "opinion" or "tech news" videos and previously "updates" videos, discontinued in favor of just using social media and YouTube's Community Tab (now the *Posts* tab) upon rollout.
 
 In April 2025, AveryEclipse announced the stopping of new Lynxmic content due to dwindling interest and motivation. Occasional new videos and streams would still come out, but would be spontaneous and low-quality.
 
-As of May 2026, the channel has over 1,600+ subscribers and 125+ public videos - the largest of AveryEclipse's channels. In total, the channel has about 330 videos including ones set as unlisted or private. A list of Lynxmic videos can be found [here](List_of_Lynxmic_videos).
+As of June 2026, the channel has over 1,600+ subscribers and 30+ public videos. In total, the channel has about 330 videos, although most of them have been unlisted/privated due to personal reasons on Avery's side. A list of Lynxmic videos can be found [here](List_of_Lynxmic_videos).
+
+{% include tableofcontents.html %}
 
 # History
 ## 2016-2017: Backstory and channel beginnings
@@ -151,7 +153,7 @@ The upload schedule would continue to generally be 1-2 videos per month, except 
 ### The “online identity split”
 In July 2024, the Lynxmic “online identity” turned into Clyron (now AveryEclipse), with LynxWebsite and the [Lynxmic Blog](Lynxmic_Blog) discontinued in favor of [KayWebsite](KayWebsite) and all Lynxmic social media accounts having been rebranded. Lynxmic’s Square (which previously reverted from the Lynxmic’s Lodge name) would become LynxPlaza, a community Discord server themed around the Lynxmic project. The Lynxmic name would keep being used for the YouTube Channel.
 
-## 2025: General sunsetting
+## 2025-2026: General sunsetting
 After the final video of 2024 (*Exploring Third-Party Apps & Games for OS/2 Warp 4!*) flopped with just over 400+ views compared to the over at least 2,000+ views of consecutive previous videos of late 2024, a majority of videos that were uploaded in 2025 did not get past 1,000+ views.
 
 As early as November 2024, after *5 Years Later... - Windows 98 for Daily Use*, a video from November 2024 revisiting the VM previously used in the [Windows 98 for Daily Use](Windows_98_for_Daily_Use) series, surprisingly gained over 2,000+ views (added by the success of the first PC/laptop recreation videos), AveryEclipse attempted shifting away to making videos more similar to those for 2025, centred around random operating systems with 3rd-party stuff. However the OS/2 video being a flop, video plans were largely adjusted back to something closer to what worked better for the channel's growth.
@@ -174,6 +176,8 @@ On 9 April 2025, AveryEclipse formally announced on LynxPlaza that they were mov
 From this point on, only very occasional videos and streams would be made, including one on Windows 10's End of Support on 14 October 2025. Weeks later, [AstroNT](AstroNT) began as a spiritual successor to the Lynxmic project, channel jointly maintained with [StuffyXP](StuffyXP)'s creator, [Kit](KitSixtyFour).
 
 On 25 March 2026, a video was posted reviewing a random Windows ISO found on the Internet Archive (deemed "*Windows Triuosfjd*"). Within a month, the video has gotten 10k views, the first video since October 2024 with over 5k views.
+
+By May 2026, most of the Lynxmic videos (except for 32 videos, most of them from 2024 onwards) have been unlisted/privated due to personal reasons on Avery's side, while MoreLynxmic no longer has any videos set to public.
 
 # Video Series
 ## Windows 98 for Daily Use
