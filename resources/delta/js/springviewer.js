@@ -36,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const dlButton = document.querySelector('.dl-btn'); 
     const flscrButton = document.querySelector('.flscr-btn');
     const viewerCounter = document.querySelector('.viewer-counter');
+    const opnButton = document.querySelector('.opn-btn');
 
 
     // jekyll can convert markdown to html via markdownify, which works on the gallery items,
@@ -142,6 +143,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const extension = activeMediaElement.tagName === 'VIDEO' ? '.mp4' : '.png';
             const filename = currentSrc.substring(currentSrc.lastIndexOf('/') + 1) || ('download' + extension);
             link.download = filename; 
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    };
+
+    const openInBrowser = () => {
+        const activeMediaElement = document.getElementById(excludedID);
+        if (currentIndex !== -1 && activeMediaElement) {
+            const currentSrc = activeMediaElement.src;
+            if (!currentSrc) return;
+            
+            const link = document.createElement('a');
+            link.href = currentSrc;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -293,6 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     if (dlButton) dlButton.addEventListener('click', downloadMedia);
+    if (opnButton) opnButton.addEventListener('click', openInBrowser);
     if (flscrButton) flscrButton.addEventListener('click', toggleFullscreen);
     if (closeBtn) closeBtn.addEventListener('click', hideViewer);
 
@@ -309,5 +328,6 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (event.key === 'ArrowLeft') prevBtn?.click();
         else if (event.key === 'd' || event.key === 'D') { event.preventDefault(); downloadMedia(); }
         else if (event.key === 'f' || event.key === 'F') { event.preventDefault(); toggleFullscreen(); }
+        else if (event.key === 'o' || event.key === 'O') { openInBrowser(); }
     });
 });

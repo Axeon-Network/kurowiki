@@ -1,9 +1,10 @@
 ---
 title: AstroNT
 permalink: AstroNT
-hatnote: For the project that was also codenamed "StuffyXP 2", see [HoriWebsite](HoriWebsite).
+hatnote: For the project that was also codenamed "StuffyXP 2", see [HoriWebsite](HoriWebsite).<br>This article is unfinished and will be completed in Release Candidate 2.
 dyk:
-    - "...that the [Horibyte](KitSixtyFour) star was reused in the AstroNT profile picture?"
+    - "...that the [Horibyte](KitSixtyFour) star used in the [AstroNT](AstroNT) logo actually comes from the [Stuffy Website](Stuffy's_Website_(June_2024))?"
+    - "...that [AstroNT](AstroNT) was once almost called AsteroidNT?"
 ---
 
 {% include infoboxes/channel.html
@@ -22,14 +23,21 @@ linkname='youtube.com/@AstroNTWorkstation'
 linkurl='https://youtube.com/@AstroNTWorkstation'
 %}
 
-**AstroNT** (codenamed *StuffyXP 2*) is a tech-focused YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse) launched on 25 October 2025. It is the successor to [StuffyXP](StuffyXP), 7 months after its original closure, and the spiritual sucessor to [Lynxmic](Lynxmic).
+**AstroNT Workstation**, more commonly known as **AstroNT** (known *StuffyXP 2* prior to its public reveal) is a tech-focused YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse) launched on 25 October 2025. It is the official successor to [StuffyXP](StuffyXP) and [Lynxmic](Lynxmic).
 
-It was teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den) Discord servers and announced in the aforementioned servers following the release of the [channel trailer](https://youtu.be/Bea3xfG11fs) on 25 October. The first video was released on 3 November.
+The channel was originally teased by Kit on 20 October 2025 in the [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den) Discord servers. It was officially announced in the latter on the 25th, alongside the release of the [original channel trailer](https://youtu.be/Bea3xfG11fs).
 
-# Background
-The StuffyXP channel was deleted in March 2025 due to Kit's mental status with no plans of going back at that time, regardless, two tech-related videos were uploaded to [Kit's personal channel](https://youtube.com/@KitSixtyFour) in May 2025.
+# History
+## 2025: The early days
+[StuffyXP](StuffyXP), a tech-focused YouTube channel previously ran by Kit, began in 2020 initially as a plushie-oriented channel in its early years. Following the creation of Kit's Discord account, it was converted into a tech YouTube channel primarily focused on Microsoft Windows (more commonly known as a <span title="A portmanteau of Windows and YouTuber" style="cursor:help;text-decoration:dotted underline;">wintuber</span>), with its first video released in February 2024. Since then, it had been one of Kit's most popular projects, reaching 238 subscribers within a year, and became one of the "underdogs" between its community circle. However, the channel was officially closed on March 2025 due to Kit's decreasing mental health status, with a decision to stop "all complex activity that might stress me [Kit] out". This also affected the so-called "StuffyXP Network"--a collection of projects released under the StuffyXP umbrella, where its projects were slowly phased out, beginning with the [StuffyXP Website](StuffyXP_Website).
 
-Shortly after Kit's August Discord return, Kit started to gain nostalgia for the StuffyXP channels and [its respective Discord server](StuffyXP_Hangout). Afterwards, a StuffyXP successor (codenamed *StuffyXP 2*) was revealed by Kit in September 2025.
+On the other hand, the [Lynxmic](Lynxmic) channel, created and ran by [Avery](AveryEclipse), began in late 2016 being primarily tech-focused from the start. However it did not begin to meaningfully pick up in views and subscribers until early 2023, having been struggling to grow for most of its lifetime. By late 2024, the channel reached over 1,000 subscribers, becoming one of the more significant players in the wintuber niche. However the channel began to be considered largely discontinued since April 2025, also due to Avery's low interest in the channel and overall declining mental health status.
+
+Fast-forward a couple of months, Kit was re-organizing their personal data to prepare for a data backup since they were going to reinstall their daily driver, and came across a folder named "The StuffyXP Archive". This folder contained the entire set of StuffyXP videos, alongside their original thumbnails and a JSON file hosting channel data. Shortly after revisiting the now-archived [StuffyXP Hangout](StuffyXP_Hangout) server, Kit gained nostalgia for "the good times" as dubbed by them, and decided to "try the field once again". A StuffyXP successor, publicly reffered to as *StuffyXP 2* until a proper name would've been chosen, was revealed by Kit on September 2025.
+
+On the 16th, the *AstroNT Datacenter* Discord server (known back-then as *StuffyXP 2 Hangout*) was created to discuss the preparation and creation of the channel itself. The name of the channel was chosen as a nod to [StuffyXP](StuffyXP), as it had a Windows-themed suffix added to it. Ideas for suffixes for the channel would've been "CE" (from [Windows CE](https://betawiki.net/wiki/Windows_CE)) and "ME" (from [Windows ME/Millenium Edition](https://betawiki.net/wiki/Windows_Me)), however these wouldn't go beyond the chatting phase, and were scrapped in favor of "NT", this time referencing [Windows NT](https://betawiki.net/wiki/Windows_NT). The channel was planned to be named between "AstroNT" and "AsteroidNT", both coming from the fact that Windows NT 4.0 is themed around space, as seen in the branding of it. After such decision, "AstroNT" was chosen for the final name of the channel, with "AstroNT Workstation" was chosen for a formal, longer name where cases "AstroNT" isn't enough, such as the email address of channel handle. Regarding the logo, it was decided to reuse the star present in the Horibyte branding in order to follow the space theme, however, a sparkle was also brought into the table, but was scrapped last minute.
+
+The channel was created a day later, but wasn't officially announced until a few weeks later. In the meantime, teaser announcements would be posted by Kit on the [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den) Discord servers, officially revealing the AstroNT name.
 
 # Videos
 As of May 2026, there are 13 videos uploaded to the AstroNT channel (excluding the channel trailer):

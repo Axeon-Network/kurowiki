@@ -406,3 +406,10 @@ a#drawerlink.mdl-navigation__link {
 .recent-news {
     height: 450px !important;
 }
+
+#pagecontent em, #pagecontent i, #pagecontent [style="font-style: italic;"], #pagecontent b i, 
+#pagecontent strong i, #pagecontent strong em, #pagecontent b em, #pagecontent b i a, #pagecontent strong i a, 
+#pagecontent strong em a, #pagecontent b em a {
+    margin-left: -1px;
+    margin-right: 2px
+}

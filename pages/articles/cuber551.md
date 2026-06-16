@@ -9,7 +9,7 @@ family='[Project Cuber](Cuber)'
 buildtag='551'
 version='0.4'
 build='551'
-image='resources/img/articles/cuber456/image.png'
+image='resources/img/articles/cuber551/image.png'
 image_caption='System Properties Demo Window'
 %}
 
