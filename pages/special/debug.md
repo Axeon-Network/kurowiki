@@ -68,3 +68,7 @@ The next minor version, [Windows NT 3.5](https://betawiki.net/wiki/Windows_NT_3.
      name="globe.kra"
      src="resources/files/articles/downloaddebug/globe.kra"
    %}
+
+# H1
+## H2
+### H3-H6

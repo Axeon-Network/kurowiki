@@ -3,8 +3,8 @@
     Written by KitSixtyFour/StupidBiFox
     Copyright 2025-2026 Axeon Network.
 
-    Despite its name, it also has stylesheets for the Article Series box and
-    the Table of Contents, we can't be bothered to change it.
+    Despite its name, it also has stylesheets for the Article Series box, 
+    we can't be bothered to change it.
 
     Licensed under the MIT License, which is included below:
 
@@ -47,12 +47,12 @@ html {
     --infobox-border: var(--infobox-border-dark);
     --infobox-section: var(--infobox-section-dark);
 }
-
 html.light-mode {
     --infobox-bg: var(--infobox-bg-light);
     --infobox-border: var(--infobox-border-light);
     --infobox-section: var(--infobox-section-light);
 }
+
 html.infobox-title,
 html.seriesbox-title {
     text-shadow: 0px 0px 3px black;
@@ -62,8 +62,7 @@ html.seriesbox-title {
     text-shadow: none !important;
 }
 
-.infobox p,
-.seriesbox p {
+.infobox p {
     font-size: 13px !important;
     margin-bottom: -2px;
 }
@@ -82,18 +81,6 @@ html.seriesbox-title {
     box-shadow: none;
 }
 
-.seriesbox {
-    width: 320px; 
-    float: right; 
-    clear: right;
-    margin: 0 0 1em 1em; /* top, right, bottom, left margin */
-    border: 1px solid var(--infobox-border);
-    background-color:  var(--infobox-bg);
-    color: var(--text-color);
-    font-size: 12px !important;
-    line-height: 1.4;
-}
-
 .infobox-title {
     width: 322px;
     height: auto;
@@ -102,38 +89,40 @@ html.seriesbox-title {
     font-weight: bold;
     color: var(--text-color);
     float: right;
-    overflow-wrap:break-word;
+    overflow-wrap: break-word;
 }
 
 .seriesbox-title {
     width: 322px;
     height: auto;
     text-align: center;
-    font-size: 100%;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: normal;
     color: var(--text-color);
-    float: right;
-    overflow-wrap:break-word;
-    margin: 0 !important;
+    overflow-wrap: break-word;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.seriesbox-title h2 {
+    margin: 0;
 }
 
 /* img style + container */
+.infobox-logo-container,
 .infobox-img-container {
-    padding: 0;
     text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    display: block;
+}
+
+.infobox-logo {
+    max-width: 80%;
+    box-shadow: none; /* just so it doesnt look weird */
+    margin: 5px;
 }
 
 .infobox-img {
-    max-width: 97%; /* wont go full width as its weird like that */
-    height: auto;
-    display: block;
-    justify-content: center !important;
-    margin: 0 auto !important;
-    display: block !important;
-    box-shadow: none !important; /* just so it doesnt look weird */
+    max-width: 95%; /* wont go full width as its weird like that */
+    box-shadow: none; /* ditto with infobox-logo */
 }
 
 .infobox-img-caption {
@@ -148,19 +137,12 @@ html.seriesbox-title {
 }
 
 /* table style */
-.infobox-data-table {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border-collapse: collapse;
-}
-
+.infobox-data-table,
 .seriesbox-data-table {
     width: 100%;
     margin: 0;
     padding: 0;
     border-collapse: collapse;
-    text-align: center;
 }
 
 /* table rows */
@@ -216,107 +198,6 @@ html.seriesbox-title {
     vertical-align: top;
 }
 
-/* self-explanatory */
-.table-of-contents {
-    border: 1px solid var(--gallery-border);
-    background-color: var(--gallery-bg);
-    color: var(--text-color);
-    box-shadow: none !important;
-    width: max-content;
-    height: auto;
-    
-}
-
-#toc-list {
-    background-color: none;
-    width: max-content;
-    list-style: none;
-    padding: 0;
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-bottom: 7px;
-    margin-top: 10px;
-}
-
-li ul a {
-    margin-left: -9px !important;
-}
-
-.toc-title {
-    width: max-content;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-
-#toc-list li::marker {
-    font-size: 0px;
-}
-
-#toc-list li a:hover .tocnumber,
-#toc-list li a:hover .toctext {
-    text-decoration: underline !important;
-}
-
-.tocnumber {
-    color: var(--text-color) !important;
-    margin-right: 5px;
-}
-
-.toc-wrapper {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .delta-infobox-server-icon {
     padding-top: 5px;
-}
-
-
-#hidetoc::before {
-    content: "[";
-    color: var(--text-color);
-    pointer-events: none;
-}
-
-#hidetoc::after {
-    content: "]";
-    color: var(--text-color);
-    pointer-events: none;
-}
-
-.seriesbox-title {
-    font-size: 13px !important;
-    font-weight: normal !important;
-}
-
-#hidetoc {
-    cursor: pointer;
-}
-
-#hidetoc:hover {
-    text-decoration: underline !important;
-}
-
-#hidetoc::after:hover, #hidetoc::before:hover {
-    text-decoration: none !important;
-    color: var(--text-color)
-}
-
-.arcser-title {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.seriesbox-title {
-    width: 322px;
-    height: auto;
-    text-align: center;
-    font-size: 100%;
-    font-weight: bold;
-    color: var(--text-color);
-    overflow-wrap:break-word;
-    padding-top: 6px !important;
-    padding-bottom: 6px !important;
 }

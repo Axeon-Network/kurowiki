@@ -40,7 +40,7 @@
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
     --code-bg-dark: rgba(0,0,0,0.5);
-    
+
     /* light mode */
     --accent-light: rgb(47,54,64);
     --title-color-light: rgb(47,54,64);
@@ -59,7 +59,7 @@ html {
     color: var(--text-color-white);
 }
 html.light-mode {
-        color: var(--text-color-black);
+    color: var(--text-color-black);
 }
 
 html {
@@ -76,7 +76,6 @@ html {
 }
 
 /* here we set light mode as it should be */
-
 html.light-mode {
     --title-color: var(--title-color-light);
     --accent: var(--accent-light);
@@ -98,67 +97,6 @@ html.light-mode {
     line-height: 1.5;
 }
 
-/* so the links dont have that ugly underline */
-a {
-    text-decoration: none !important;
-    color: var(--accent);
-}
-#pagecontent a:hover {
-    text-decoration: underline !important;
-}
-
-
-/* its hatnote time */
-.hatnote {
-    background-color: var(--hatnote-color);
-    margin-top: 15px;
-    margin-bottom: -5px;
-    margin-right: 15px;
-    padding-left: 10px;
-    margin-right: 0px;
-    font-style: italic;
-}
-   
-/* its hatnote time */
-.hatnote-portable {
-    background-color: var(--hatnote-color);
-    margin-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-style: italic;
-    display:flow-root;
-    height: 24px;
-    margin-bottom: 10px;
-}   
-
-/* download box */
-.download-box-item {
-    width: 330px;
-    background-color: var(--mdlcard-background-color);
-    color: var(--text-color);
-}
-
-.download-box-item .mdl-card {
-    min-height: 0;
-}
-
-.download-box-item h6 {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    color: var(--title-color);
-}
-
-
-figure.in-this-article {
-    max-width: 0 !important;
-}
-
-/* image boxshadow */
-img {
-    box-shadow:0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
-}
-
 /* waf cool bg :3 */
 html {
     background-image: var(--background-image);
@@ -170,6 +108,52 @@ html {
     scrollbar-color: var(--scrollbar-color);
     overflow-y: hidden;
     overflow-x: hidden !important;
+}
+
+/* so the links dont have that ugly underline */
+a {
+    text-decoration: none !important;
+    color: var(--accent);
+}
+#pagecontent a:hover:not(.download-box-item a) {
+    text-decoration: underline !important;
+}
+
+a:active {
+    color: var(--link-active) !important;
+}
+
+a.footnote::before {
+    content: "["
+}
+a.footnote::after {
+    content: "]"
+}
+
+ul li {
+    margin-left: -15px;
+}
+
+li {
+    line-height: 1.7;
+}
+
+/* image boxshadow */
+img {
+    box-shadow:0 3px 4px 0 rgba(0,0,0,.14),0 3px 3px -2px rgba(0,0,0,.2),0 1px 8px 0 rgba(0,0,0,.12);
+}
+
+code {
+    font-family: 'Roboto Mono', 'Consolas', 'Hack' !important;
+    font-size: 12.5px;
+    color: var(--text-color);
+    background-color: var(--code-bg);
+    padding: 1px 4px 2px;
+    border: solid 1px var(--code-border);
+}
+
+.titleItalic {
+    font-style: italic !important;
 }
 
 /* debug watermark */
@@ -187,34 +171,56 @@ html {
     z-index: 1000000006;
 }
 
-code {
-    font-family: 'Roboto Mono' !important;
-    font-size: 12.5px;
+/* its hatnote time */
+.hatnote {
+    background-color: var(--hatnote-color);
+    margin-top: 15px;
+    margin-bottom: -5px;
+    margin-right: 15px;
+    padding-left: 10px;
+    margin-right: 0px;
+    font-style: italic;
+}
+.hatnote-portable {
+    background-color: var(--hatnote-color);
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: italic;
+    display: flow-root;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
+/* download box */
+.download-box-item,
+.download-box-item .mdl-card {
+    width: 330px;
+    background-color: var(--mdlcard-background-color);
     color: var(--text-color);
-    background-color: var(--code-bg);
-    padding: 1px 4px 2px;
-    border: solid 1px var(--code-border);
+    min-height: 0;
 }
 
-.titleItalic {
-    font-style: italic !important;
+.download-box-item h6 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    color: var(--title-color);
 }
 
-a.footnote::before {
-    content: "["
+@media (max-width: 1024px) {
+    .desktop-only {
+        display: none;
 }
-a.footnote::after {
-    content: "]"
+    .mobile-only {
+        display: block;
 }
-
-ul li {
-    margin-left: -15px;
 }
-
-li {
-    line-height: 1.7
+@media (min-width: 1024px) {
+    .desktop-only {
+        display: block;
 }
-
-a:active {
-    color: var(--link-active) !important;
+    .mobile-only {
+        display: none;
+}
 }

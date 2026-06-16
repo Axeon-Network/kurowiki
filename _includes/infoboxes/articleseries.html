@@ -1,7 +1,7 @@
 <div class="infobox mdl-shadow--4dp">
     <div class="seriesbox-title">
         Part of a series of articles on {% if include.theprefix %}the{% endif %}
-        <h2 class="arcser-title">{{ include.mainarticle | markdownify | remove_first: '<p>' | remove: '</p>' }}</h2>
+        <h2>{{ include.mainarticle | markdownify | remove_first: '<p>' | remove: '</p>' }}</h2>
         {% if include.subtitle %}{{ include.subtitle }}{% endif %}
     </div>
     {% if include.uncategorized %}

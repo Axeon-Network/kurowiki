@@ -119,31 +119,31 @@
         {% endif %}
     
         <nav class="mdl-navigation" style="margin-top: -3% !important;">
-          <a class="mdl-navigation__link" id="drawerlink" href="./">
+          <a class="mdl-navigation__link" href="./">
             <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
           </a>
 
-          <a class="mdl-navigation__link" id="drawerlink" href="Settings">
+          <a class="mdl-navigation__link" href="Settings">
             <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
           </a>
        
-          <a class="mdl-navigation__link" id="drawerlink" href="Contributing_to_KuroWiki">
+          <a class="mdl-navigation__link" href="Contributing_to_KuroWiki">
             <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contributing
           </a>
        
-          <a class="mdl-navigation__link" id="drawerlink" href="Sitemap">
+          <a class="mdl-navigation__link" href="Sitemap">
             <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
           </a>
        
-          <a class="mdl-navigation__link" id="drawerlink" href="#" onclick="loadRandomArticle()">
+          <a class="mdl-navigation__link" href="#" onclick="loadRandomArticle()">
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random page
           </a>
 
-          <a class="mdl-navigation__link" id="drawerlink" href="./KuroWiki:PTBW">
+          <a class="mdl-navigation__link" href="./KuroWiki:PTBW">
             <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
           </a>
           {% if site.debug %}
-          <a class="mdl-navigation__link" id="drawerlink" href="./Deltari:Test_Page">
+          <a class="mdl-navigation__link" href="./Deltari:Test_Page">
             <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Deltari Test Page
           </a>
           {% endif %}
@@ -171,7 +171,7 @@
 
       <!-- and god said, let there be content, and there was content -->
       <main class="mdl-layout__content">
-        <div class="box mdl-shadow--8dp" id="mainbox">
+        <div class="box mdl-shadow--8dp">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
               <div class="hatnote" markdown="1">
               {{ page.hatnote | markdownify }}

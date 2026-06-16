@@ -22,9 +22,9 @@ platform='Discord<br>Stoat<br>Fluxer<br>Twitch Desktop <small>(formerly)</small>
 creationDate='2017-12-18'
 openedDate='2017-12-28'
 type='Public'
-memberCount='100 (as of 2026-05-05)'
-link='https://axeon-network.github.io/discord'
-image='resources/img/articles/axeonnetwork/logo.png'
+memberCount='100 (as of 2026-06-14)'
+link='https://axeon-network.github.io'
+logo='resources/img/articles/axeonnetwork/wordmark.png'
 %}
 
 The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), which had always been the 'heart' of the network from the start, other stuff include Stoat (formerly revolt.chat) and Fluxer servers of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.

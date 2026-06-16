@@ -40,3 +40,5 @@ alias dpl='git pull'
 
 dcm() { git commit -m "$1"; }
 dce() { git commit -m "$1" -m "$2"; }
+
+# todo: make this actually properly workable -avery

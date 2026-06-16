@@ -2,10 +2,15 @@
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
 <div class="infobox mdl-shadow--4dp">
+    <div class="infobox-img-caption">{{ include.platform }} channel</div>
+    {% if include.logo %}
+    <div class="infobox-logo-container">
+        <img src="{{ include.logo }}" class="infobox-logo">
+    </div>
+    {% endif %}
     {% if include.pfp %}
     <div class="infobox-img-container">
-        <div class="infobox-img-caption">{{ include.platform }} channel</div>
-        	<img src="{{ include.pfp }}" alt="{{ include.name }} Profile Picture" style="width:25%;" class="infobox-img"><br>
+        <img src="{{ include.pfp }}" alt="{{ include.name }} Profile Picture" style="width:25%;" class="infobox-img"><br>
             {% if include.banner %}
             <img src="{{ include.banner }}" alt="{{ include.name }} Banner" style="width:70%;" class="infobox-img"><br>
             {% endif %}
