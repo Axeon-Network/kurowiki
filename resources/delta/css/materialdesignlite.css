@@ -250,83 +250,6 @@ details[open] summary::before {
         padding: 0;
     }
 }
-
-hr {
-    border-color: white;
-    opacity: 0.1;
-}
-.light-mode hr {
-    border-color: black !important;
-    opacity: 0.1;
-}
-
-details summary {
-    list-style: none;
-    display: flex;
-}
-
-details summary::before {
-    font-family: 'Material Icons';
-    content: "arrow_right"; /* This is the icon name */
-    font-size: 28px;
-    margin-left: -12px;
-}
-
-details[open] summary::before {
-    content: "arrow_drop_down"; /* Optional: change the icon entirely when open */
-}
-
-#drawer-version-info {
-    opacity: 0.5;
-}
-
-.mdl-button {
-    text-decoration: none !important;
-}
-
-.mdl-layout__header-row .container a {
-    color: white !important;
-}
-a#drawerlink.mdl-navigation__link {
-    color: var(--text-color) !important;
-}
-
-#mainbox {
-    backdrop-filter: blur(12px);
-}
-
-
-.homepage-cards {
-    border-spacing: 15px !important;;
-}
-
-
-.hcards-row1 {
-    min-height: 0 !important;
-    justify-content: center;
-    height: 100%;
-    gap: 15px;
-    margin-top: -30px;
-    overflow: none;
-}
-.featured-article.mdl-card {
-    width:55%;
-}
-.did-you-know.mdl-card {
-    width: 45%;
-}
-.hcards-row2 {
-    min-height: 0 !important;
-    justify-content: center;
-    
- 
-    margin-top:-10px;
-    width: 100%;
-}
-.recent-news {
-    height: 450px !important;
-}
-
 #pagecontent em, #pagecontent i, #pagecontent [style="font-style: italic;"], #pagecontent b i, 
 #pagecontent strong i, #pagecontent strong em, #pagecontent b em, #pagecontent b i a, #pagecontent strong i a, 
 #pagecontent strong em a, #pagecontent b em a {
@@ -335,6 +258,7 @@ a#drawerlink.mdl-navigation__link {
 }
 @media (min-width: 1024px) {
     .homepage-cards {
+        margin: 0px -16px;
         border-spacing: 16px 10px;
     }
     .homepage-cards .demo-card-wide {

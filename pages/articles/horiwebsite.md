@@ -18,6 +18,8 @@ initialVersion='2.2.3075.main.250110-2101'
 initialVersionReleaseDate='2025-01-10'
 currentVersion='2.5.3567.main.250507-1947'
 currentVersionReleaseDate='2025-05-07'
+predecessor='StuffyXP Website'
+successor='Cuber <small>(planned)</small>'
 sourceModel='Open source'
 repoLink='https://github.com/stupidbifox/horibyte.github.io'
 repoHost='GitHub'
@@ -26,4 +28,6 @@ link='https://horibyte.is-a.dev'
 image='resources/img/articles/horiwebsite/home.png'
 %}
 
-***HoriWebsite*** (formerly known as ***Horibyte Website***) is a website created by [Kit](KitSixtyFour) that served as their personal website. It was deprecated in June 2025 and was planned to be succeded by [LexSite](LexSite).
+***HoriWebsite*** (formerly known as ***Horibyte Website***) is a website created by [Kit](KitSixtyFour) which served as their personal website since January 2025. Although still accessible to this day at its `horibyte.is-a.dev` domain, it was deprecated in June 2025 with the Horibyte -> Lexibyte rebrand. There have been numerous successor tentatives that were later cancelled, including *[LexSite](LexSite)*, *[NovaSite](NovaSite)*, *[NekoSite](NekoSite)* and *[Nishi Blade](Nishi_Blade)*, and since February 2026, work has been ongoing on *[Cuber](Cuber)* as *HoriWebsite*'s replacement.
+
+*HoriWebsite* continued the version numbering scheme of *[StuffyXP Website](StuffyXP_Website)*, with its initial release being version v2.2 build 3075 from 10 January 2025. Technically speaking it drops the Bulma CSS framework used by previous websites in favor of using pure CSS. Nevertheless the pages continued to have a similar design to its predecessor.

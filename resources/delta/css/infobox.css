@@ -183,9 +183,7 @@ html.seriesbox-title {
 /* value column */
 .infobox-data-table td {
     padding: 0.3em 0.6em;
-    text-align: left;
-    justify-content: center;
-    word-wrap: break-word;
+    word-wrap: anywhere;
 }
 
 .seriesbox-data-table td {

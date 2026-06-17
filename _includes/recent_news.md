@@ -1,6 +1,23 @@
 
 <!-- why does markdown not markdown without first line empty AAA-->
 <details markdown="1" open>
+<summary>We've gone silver</summary>
+
+We finally present *Release Candidate 1*, the first update to KuroWiki of the year 2026. *After ~~9 years~~ oops, over 6 months of development, hopefully it would've been worth the wait.*
+
+We made multiple under-the-hood changes, added a lot of new features, added over **60+** new articles (almost double Beta 6's total of 70) and rewritten others ...and fixed bugs of course.
+
+Although multiple factors have caused development to slow down these past few months, we're still committed to getting KuroWiki to Stable this year. One thing we've also been working towards is cleaning up the tech debt that has accumulated over time in the codebase, which will continue throughout the Release Candidate stage.
+
+As always, if you got anything to say, feel free to let us know in GitHub Issues, or in our Discord Server.
+
+Sincerely,<br>The KuroWiki Development Team.
+
+<small>16 June 2026, 5:10 PM UTC-6</small>
+
+</details>
+
+<details markdown="1" closed>
 <summary>Axeon KuroWiki Beta 6 released</summary>
 
 Happy Holidays everybody!<br>As a present from the team behind Axeon Network, and after one and a half months of continious development, we are pleased to announce the general availability of the 6th Beta release of KuroWiki. This is the last Beta release, and thus, we are moving to the *Release Candidate* development stage, being more closer to Stable!

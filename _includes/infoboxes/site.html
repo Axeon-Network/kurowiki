@@ -43,6 +43,18 @@
                 <th>Current release</th>
                 <td>{{ include.currentVersion | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.currentVersionReleaseDate }})</td>
             </tr>
+            {% if include.predecessor %}
+            <tr>
+                <th>Preceded by</th>
+                <td>{{ include.predecessor }}</td>
+            </tr>
+            {% endif %}
+            {% if include.successor %}
+            <tr>
+                <th>Succeeded by</th>
+                <td>{{ include.successor }}</td>
+            </tr>
+            {% endif %}
             <tr>
                 <th>Repository</th>
                 <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
