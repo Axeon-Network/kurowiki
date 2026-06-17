@@ -250,7 +250,6 @@ details[open] summary::before {
         padding: 0;
     }
 }
-<<<<<<< HEAD
 
 hr {
     border-color: white;
@@ -333,7 +332,7 @@ a#drawerlink.mdl-navigation__link {
 #pagecontent strong em a, #pagecontent b em a {
     margin-left: -1px;
     margin-right: 2px
-=======
+}
 @media (min-width: 1024px) {
     .homepage-cards {
         border-spacing: 16px 10px;
@@ -352,5 +351,4 @@ a#drawerlink.mdl-navigation__link {
     .recent-news.mdl-card {
         width: fit-content;
     }
->>>>>>> 449060a81e5a9c8b71df845f170eef43484866ac
 }
