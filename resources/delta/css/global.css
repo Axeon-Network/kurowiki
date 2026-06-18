@@ -29,10 +29,10 @@
 /* variables */
 :root {
     /* dark mode */
-    --accent-dark: rgb(147,150,153);
+    --accent-dark: rgb(157,176,183);
     --link-visited-dark: rgb(153, 115, 153);
     --link-active-dark: rgb(250, 190, 110);
-    --title-color-dark: rgb(174,176,183);
+    --title-color-dark: rgb(154,176,183);
 
     --text-color-white: white;
     --background-image-dark: url('../../img/defaults/bg.jpg');
@@ -42,8 +42,8 @@
     --code-bg-dark: rgba(0,0,0,0.5);
 
     /* light mode */
-    --accent-light: rgb(47,54,64);
-    --title-color-light: rgb(47,54,64);
+    --accent-light: rgb(44,60,84);
+    --title-color-light: rgb(44,60,84);
     --text-color-black: black;   
     --background-image-light: url('../../img/defaults/bg.jpg'); 
     --scrollbar-color-light: rgb(60,62,74) rgb(43,46,55);
@@ -119,7 +119,7 @@ a {
     text-decoration: underline !important;
 }
 
-a:active {
+#pagecontent a:active {
     color: var(--link-active) !important;
 }
 

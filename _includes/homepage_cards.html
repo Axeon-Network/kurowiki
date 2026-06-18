@@ -2,7 +2,7 @@
 
 <div class="homepage-cards">
   {% comment %} 1. Filter pages natively in Liquid {% endcomment %}
-  {% assign featured_articles = site.pages | where: "featured", true | where_exp: "item", "item.ftsnippet != nil" %}
+  {% assign featured_articles = site.articles | where: "featured", true | where_exp: "item", "item.ftsnippet != nil" %}
   <div>
     <div class="featured-article kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
       <div class="mdl-card__title">
@@ -54,7 +54,7 @@
 
 <script>window.allDykFacts = [
   {% assign is_first = true %}
-  {% for p in site.pages %}
+  {% for p in site.articles %}
     {% if p.dyk %}
       {% for fact in p.dyk %}
         {% unless is_first %},{% endunless %}

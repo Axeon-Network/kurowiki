@@ -1,4 +1,4 @@
-# DELTARI CONFIGURATION FILE
+# AKANE CONFIGURATION FILE
 # Copyright (C) 2025-2026 Axeon Network. Developed by KitSixtyFour and AveryEclipse.
 
 
@@ -10,7 +10,7 @@ name: Axeon KuroWiki
 title: KuroWiki
 
 # used for debug, to be hard-coded for Kuro STBL
-productname: Axeon KuroWiki
+productname: Axeon Akane
 
 # The author of the wiki
 author: Axeon Network
@@ -81,7 +81,7 @@ privatebuild: false
 buildlabex: true
 # = Build Delta =
 # Enables or disables build revisions, useful when build numbers are fixed
-builddelta: true
+builddelta: false
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
@@ -129,18 +129,28 @@ defaults:
       layout: "material"
   -
     scope:
-      path: "media"
+      type: "media"
     values:
       layout: "file"
+  -
+    scope:
+      type: "articles" # "type", not "path". very funny
+    values:
+      layout: "material"
+  -
+    scope:
+      type: "special" # i like boys anyway -sfox64
+    values:
+      layout: "material"
 
 collections:
   files:
     output: true
     permalink: "/wiki/File::name"
-
-livereload: true
-open_url: true
-
+  articles:
+    output: true # the fuck you mean you actually need this
+  special:
+    output: true # jekyll you can fuck my ass whenever you want, fuck you.
 
 # == OTHER ==
 # liquid you son of a bitch

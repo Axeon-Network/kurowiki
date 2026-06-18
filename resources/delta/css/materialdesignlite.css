@@ -214,7 +214,7 @@ details[open] summary::before {
 
 .box {
     background-color: var(--contentbox-background-color); 
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(40px);
     width: 96%; 
     justify-content: center; 
     display: block; 

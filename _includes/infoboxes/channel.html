@@ -29,6 +29,12 @@
                 <th>Created by</th>
                 <td>{{ include.creator | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
+            {% if include.maintainers %}
+            <tr>
+                <th>Maintained by</th>
+                <td>{{ include.maintainers | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            {% endif %}
             <tr>
                 <th>Videos</th>
                 <td>{{ include.videos }}</td>
