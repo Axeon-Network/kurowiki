@@ -163,7 +163,7 @@
             </span>
             <br>
             <span style="font-size: smaller; line-height: 1.0; color:darkgray !important;">
-                Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }})
+                Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }})
             </span>
           </span>
         </nav>
@@ -217,7 +217,7 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;USING FILE LAYOUT VIEW<br>&nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.buildlabext %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
+            &nbsp;USING FILE LAYOUT VIEW<br>&nbsp;&nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>

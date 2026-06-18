@@ -71,7 +71,7 @@ idprefix: "rc1" # Release Candidate 1
 # = Debug Mode =
 # Enables various developer features of Deltari, like the watermarks and
 # "(Debug)" suffix to the drawer.
-debug: true
+debug: false
 # = Private Build =
 # Similar to Microsoft Windows, self-explanatory
 privatebuild: false
@@ -85,7 +85,7 @@ builddelta: false
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
-retail: false
+retail: true
 
 # stupid
 myvariable: "{{ site.myvariable }}"
@@ -166,6 +166,7 @@ kramdown:
   hard_wrap: true
 
 exclude:
-  - resources/ruby/version # just so it doesnt get caught in a loop
-  - resources/ruby/buildtag # ditto
-  - resources/ruby/delta # ditto
+  # - resources/ruby/version # just so it doesnt get caught in a loop
+  # - resources/ruby/buildtag # ditto
+  # - resources/ruby/delta # ditto
+  - _includes/version.html # what resources/ruby/version used to do when excluded, except its more better.

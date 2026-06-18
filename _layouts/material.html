@@ -66,6 +66,8 @@
       }
      </style>
      {% endif %}
+
+     {% include version.html %}
   </head>
 
   <!-- and so, it begins -->
@@ -165,7 +167,7 @@
             </span>
             <br>
             <span id="drawer-version-info" style="font-size: smaller; line-height: 1.0;">
-                Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.builddelta %}.{{ site.version.delta }}{% endif %})
+                Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %})
             </span>
           </span>
         </nav>
@@ -212,7 +214,7 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ site.version.major }}.{{ site.version.minor }} (Build {{ site.version.build }}{% if site.builddelta %}.{{ site.version.delta }}{% endif %}{% if site.buildlabex %}.{{ site.version.id }}.{{ site.version.lab }}.{{ site.version.timestamp }}{% endif %})&nbsp;
+            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>
