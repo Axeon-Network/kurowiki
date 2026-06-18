@@ -34,17 +34,9 @@ Jekyll::Hooks.register :site, :after_init do |site|
 end
 
 Jekyll::Hooks.register :site, :after_reset do |site|
-  # Internal tracking directories
-  tracking_dir = File.expand_path('resources/ruby', site.source)
-  build_number_file_path = File.join(tracking_dir, 'version')
-  build_delta_file_path = File.join(tracking_dir, 'delta')
-  build_tag_file_path = File.join(tracking_dir, 'buildtag')
-  
-  # Target header file (ntverp.h style)
   header_dir = File.expand_path('_includes', site.source)
   version_header_path = File.join(header_dir, 'version.html')
 
-  FileUtils.mkdir_p(tracking_dir) unless File.directory?(tracking_dir)
   FileUtils.mkdir_p(header_dir) unless File.directory?(header_dir)
 
   # build lab
@@ -101,7 +93,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
     File.write(build_tag_file_path, buildtag)
     
-    Jekyll.logger.info "PANTHER:", "Loading Kuro #{current_incremental_number}.#{current_delta}.#{lab}.#{timestamp}"
+    Jekyll.logger.info "PANTHER:", "Loading Akn #{current_incremental_number}.#{current_delta}.#{lab}.#{timestamp}"
   else
     if File.exist?(build_tag_file_path)
       saved_tag = File.read(build_tag_file_path).strip
