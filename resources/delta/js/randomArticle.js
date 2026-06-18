@@ -1,6 +1,6 @@
 /* 'I'm Feeling Lucky' deltari edition */
 async function loadRandomArticle() {
-    const res = await fetch("./resources/index.json");
+    const res = await fetch("./articles.json");
     const articles = await res.json();
     if (!articles?.length) {
         alert("No articles found");
