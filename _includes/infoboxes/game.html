@@ -1,0 +1,86 @@
+<div class="infobox-title">
+    {{ include.name | default: "Untitled InfoBox" }}
+</div>
+<div class="infobox mdl-shadow--4dp">
+    {% if include.logo %}
+    <div class="infobox-logo-container">
+            <img src="{{ include.logo }}" class="infobox-logo">
+    </div>
+    {% endif %}
+
+    {% if include.screenshot %}
+    <div class="infobox-img-container">
+            <img src="{{ include.screenshot }}" class="infobox-img delta-infobox-server-icon"> <!-- i dont CARE if its the server one, it works. -->
+         <div class="infobox-img-caption">{{ include.caption | default: 'Screenshot' | remove: '<p>' | remove: '</p>' | markdownify }}</div>
+    </div>
+    {% endif %}
+
+    <table class="infobox-data-table">
+        <tbody>
+            {% if include.formerly %}
+            <tr>
+                <th>Formerly known as</th>
+                <td>{{ include.formerly }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Developer(s)</th>
+                <td>{{ include.developer | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>{{ include.genre | default: "GENRE" }}</td>
+            </tr>
+            <tr>
+                <th>Written in</th>
+                <td>{{ include.writtenin }}</td>
+            </tr>
+            <tr>
+                <th>Platform</th>
+                <td>{{ include.platform }}</td>
+            </tr>
+            <tr>
+                <th>Architecture</th>
+                <td>{{ include.arch }}</td>
+            </tr>
+            <tr>
+                <th>Latest version</th>
+                <td>{{ include.currentVersion | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            <tr>
+                <th>Release date</th>
+                <td>{{ include.releasedate | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            {% if include.predecessor %}
+            <tr>
+                <th>Preceded by</th>
+                <td>{{ include.predecessor }}</td>
+            </tr>
+            {% endif %}
+            {% if include.successor %}
+            <tr>
+                <th>Succeeded by</th>
+                <td>{{ include.successor }}</td>
+            </tr>
+            {% endif %}
+            {% if include.repoHost && include.repoLink %}
+            <tr>
+                <th>Repository</th>
+                <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            {% endif %}
+            {% if include.status %}
+            <tr>
+                <th>Status</th>
+                <td>{{ include.status }}</td>
+            </tr>
+            {% endif %}
+            {% if include.link %}
+            <tr>
+                <th>Link</th>
+                <td>{{ include.link | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            {% endif %}
+            </tbody>
+    </table>
+</div>

@@ -1,6 +1,6 @@
 ---
-title: List of AveryEclipse Codenames
-permalink: List_of_AveryEclipse_Codenames
+title: List of AveryEclipse codenames
+permalink: List_of_AveryEclipse_codenames # for consistencie:tm:
 hatnote: This list is subject to change in the future.
 redirect_from:
      - List_of_KayAurora_Codenames

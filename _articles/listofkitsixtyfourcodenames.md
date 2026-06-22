@@ -144,12 +144,6 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 **Sydney**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The first major release of *[Arctic32](Arctic32)*.
 
-# T
----
-
-**Tablery**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The table gallery component present in *[Deltari](Deltari)*.
-
 # W
 ---
 

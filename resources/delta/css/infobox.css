@@ -115,7 +115,8 @@ html.seriesbox-title {
 }
 
 .infobox-logo {
-    max-width: 80%;
+    padding-top: 5px;
+    max-width: 90%;
     box-shadow: none; /* just so it doesnt look weird */
     margin: 5px;
 }
@@ -198,4 +199,5 @@ html.seriesbox-title {
 
 .delta-infobox-server-icon {
     padding-top: 5px;
+    margin-bottom: -6px;
 }

@@ -276,3 +276,24 @@ details[open] summary::before {
         width: fit-content;
     }
 }
+
+blockquote {
+    line-height: 0.8;
+}
+
+blockquote p:last-child {
+  display: inline; /* Forces the paragraph to only take up as much space as the text */
+}
+
+/* CHANGE THIS: Attach the closing quote inline right after the text */
+blockquote p:last-child:after {
+  content: '”';
+}
+
+blockquote:after {
+    margin-left: -6px;
+    vertical-align:sub;
+}
+blockquote:before {
+    margin-top:5px;
+}

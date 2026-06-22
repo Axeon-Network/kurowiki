@@ -5,7 +5,7 @@ redirect_from:
     - Dell_Latitude_3380
     - SuperNova
     - Thei5Lappy
-hatnote: 'For the character that it is named after, see [Nishi](Nishi).'
+hatnote: 'For the character that it is named after, see [Nishi](Nishi).<br>This article is unfinished and will be worked further in Release Candidate 2.'
 dyk:
     - "...that the names \"[NishiLappy](NishiLappy)\" and \"Thei5Lappy\" were simultaneously used until April 2026?" 
 ---
@@ -16,7 +16,7 @@ owner='[KitSixtyFour](KitSixtyFour)'
 manufacturer='Dell Inc.'
 model='Latitude 3380'
 image='resources/img/articles/nishilappy/202605desk.png'
-image_caption='Desktop as of May 2026'
+image_caption='Desktop as of June 2026'
 introduced='29 November 2024'
 introISO='2024-11-29'
 cpu='Intel Core i5-7200U @ 3.10 GHz (*Kaby Lake*)' 
@@ -29,7 +29,7 @@ screensize='13.3" built-in LCD'
 os='Windows 7 Enterprise E Service Pack 1'
 %}
 
-**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on April 27, 2026.
+**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on 27 April 2026.
 
 {% include tableofcontents.html %}
 
@@ -43,9 +43,6 @@ content='For more information, see [TheCeleryPC § History](TheCeleryPC#history)
 After a power outage on November 3, TheCeleryPC stopped functioning, more specifically, the power supply was partially fried, causing DC-reliant components to not work at all. One of the symptoms of this problem was the computer's fans spinning up without any display output.
 
 From November 3 to November 28, 2024, all of Kit's projects officially went on a haitus. 
-
-# History
-
 
 # Name
 The computer was originally known as ***Thei5Lappy*** since 29 November 2024, the latter becoming a reference to [TheCeleryPC](TheCeleryPC)'s nickname; as it followed the same naming system: *The* being used as an obligatory prefix, *i5* being the computer's processor, and *Lappy* being a common nickname for the word *laptop*.

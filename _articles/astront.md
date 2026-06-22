@@ -14,7 +14,7 @@ pfp='resources/img/articles/astront/logo.png'
 name='AstroNT'
 creator='[KitSixtyFour](KitSixtyFour)'
 maintainers='[KitSixtyFour](KitSixtyFour)<br>[AveryEclipse](AveryEclipse)'
-videos='17'
+videos='18'
 subs='920'
 views='80,138'
 platform='YouTube'
@@ -48,24 +48,25 @@ This is the first AstroNT-branded project that changes the edition name in order
 
 
 # Videos
-As of June 2026, there are 16 videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of June 2026, there are eighteen videos uploaded to the AstroNT channel (excluding the channel trailer):
 
-- **Running VMware Workstation 12 on Windows Vista!** - *uploaded 2025-11-03*
-- **The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)** - *uploaded 2025-11-07*
-- **Android, But It's on the x86 Architecture...** - *uploaded 2025-11-11*
-- **Discord on Windows Vista but EVERYTHING Goes Wrong** - *uploaded 2025-11-18*
-- **Running Linux in... Year 10000?** - *uploaded 2026-01-19*
-- **Installing Windows Longhorn via MS-DOS! (Post-Reset)** - *uploaded 2026-01-25*
-- **The Return of the Windows Store in Windows 8.1?! (8Store)** - *uploaded 2026-02-15*
-- **Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)** - *uploaded 2026-02-28*
-- **Converting Windows XP to "Windows Server 2003" (on RTM!)** - *uploaded 2026-03-29*
-- **Making a Custom Windows Bootleg** - *uploaded 2026-04-04*
-- **Upgrading (directly) from Windows 7 to Windows 8.1!** - *uploaded 2026-04-11*
-- **Converting a Windows Install to a VMware VM** - *uploaded 2026-04-25*
-- **Can you Daily Drive Windows on Android? (w/ Vectras VM)** - *uploaded 2026-05-08*
-- **Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong** - *uploaded 2026-05-23*
-- **ChromeOS Flex on an "Uncertified" HP Laptop** - *uploaded 2026-05-29*
-- **Swapping Linux /etc directories!** - *uploaded 2026-06-10*  
+- ***[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*** (uploaded 2025-11-03)
+- ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
+- ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture...)*** (uploaded 2025-11-11)
+- ***[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*** (uploaded 2025-11-18)
+- ***[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*** (uploaded 2026-01-19)
+- ***[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*** (uploaded 2026-01-25)
+- ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))*** (uploaded 2026-02-15)
+- ***[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))*** (uploaded 2026-02-28)
+- ***[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_"Windows_Server_2003"_(on_RTM!))*** (uploaded 2026-03-29)
+- ***[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*** (uploaded 2026-04-04)
+- ***[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*** (uploaded 2026-04-11)
+- ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)*** (uploaded 2026-04-25)
+- ***[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android?_(w/_Vectras_VM))*** (uploaded 2026-05-08)
+- ***[Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong](Windows_10_Mobile_on_an_Android_Device_but_EVERYTHING_Goes_Wrong)*** (uploaded 2026-05-23)
+- ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)*** (uploaded 2026-05-29)
+- ***[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*** (uploaded 2026-06-10)
+- ***[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*** (uploaded 2026-06-19)
 
 # Gallery
 

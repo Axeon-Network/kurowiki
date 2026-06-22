@@ -63,13 +63,13 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   id = "#{id_prefix}#{id_suffix}"
 
   begin
-    stored_number = File.exist?(build_number_file_path) ? File.read(build_number_file_path).to_i : 5200
+    stored_number = 5200
   rescue
     stored_number = 5200
   end
 
   begin
-    delta_nbr = File.exist?(build_delta_file_path) ? File.read(build_delta_file_path).to_i : 1
+    delta_nbr = 1
   rescue
     delta_nbr = 0
   end
@@ -80,35 +80,17 @@ Jekyll::Hooks.register :site, :after_reset do |site|
 
   if delta_enabled && is_debug
     current_delta += 1
-    File.write(build_delta_file_path, current_delta.to_s)
   else
     current_delta = 0
   end
 
   if is_debug
     current_incremental_number += 0 # disable this for now.
-    File.write(build_number_file_path, current_incremental_number.to_s)
     
     timestamp = Time.now.strftime("%y%m%d-%H%M")
     buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
-    File.write(build_tag_file_path, buildtag)
     
     Jekyll.logger.info "PANTHER:", "Loading Akn #{current_incremental_number}.#{current_delta}.#{lab}.#{timestamp}"
-  else
-    if File.exist?(build_tag_file_path)
-      saved_tag = File.read(build_tag_file_path).strip
-      parts = saved_tag.split('.')
-      
-      # grab the build number (index 2) and timestamp (last index)
-      current_incremental_number = parts[2] || stored_number
-      saved_timestamp = parts.last || "000000-0000"
-
-      # reconstruct the string with the LIVE ID (fre) and Lab
-      buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{saved_timestamp}"
-      File.write(build_tag_file_path, buildtag)
-    else
-      buildtag = "#{major}.#{minor}.#{stored_number}.#{current_delta}.#{id}.#{lab}.000000-0000"
-    end
   end
 
   # Extract final timestamp string safely
