@@ -11,7 +11,7 @@
     <meta property="og:url" content="{{ site.url }}">
     <meta name="theme-color" content="#ffffff">
     <meta content="website" property="type">
-    
+
     <!-- the font (i dont think it works) -->
     <!-- it had the wrong fucking link bruh -->
     <!-- now why isnt roboto bolding -kit/sbf -->
@@ -26,7 +26,7 @@
     <!-- gotta get a new one this is horiwebsite's one -->
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
     
-    <link rel="shortcut icon" href="./resources/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./res/img/favicon.png" type="image/x-icon">
 
     <!-- do i need to explain this??? -->
     <title>{{ page.title | default: "Untitled" }} ~ {{ site.title }}</title>
@@ -40,29 +40,34 @@
     {% endif %}
 
 
-    <link rel="stylesheet" href="./resources/delta/material/material.min{{ accent-enabled }}.css">
-    <link rel="stylesheet" href="./resources/delta/css/materialdesignlite.css">
-    <link rel="stylesheet" href="./resources/delta/css/global.css">
-    <link rel="stylesheet" href="./resources/delta/css/springviewer.css"> 
+    <link rel="stylesheet" href="./res/mdl/material.min{{ accent-enabled }}.css">
+    <link rel="stylesheet" href="./res/akn/css/materialdesignlite.css">
+    <link rel="stylesheet" href="./res/akn/css/infobox.css">
+    <link rel="stylesheet" href="./res/akn/css/toc.css"> 
+    <link rel="stylesheet" href="./res/akn/css/global.css">
+    <link rel="stylesheet" href="./res/akn/css/gallery.css">
+    <link rel="stylesheet" href="./res/akn/css/springviewer.css"> 
     <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
-    <script defer src="./resources/delta/material/material.min.js"></script>
+    <script defer src="./res/mdl/material.min.js"></script>
 
      {% if site.background-dark %}
      <style>
       html {
-        --background-image-dark: url('./resources/img/{{ site.background-dark }}');
+        --background-image-dark: url('./res/img/{{ site.background-dark }}');
       }
      </style>
      {% endif %}
     {% if site.background-light %}
      <style>
       html {
-        --background-image-light: url('./resources/img/{{ site.background-light }}');
+        --background-image-light: url('./res/img/{{ site.background-light }}');
       }
      </style>
      {% endif %}
+
+     {% include misc/version.html %}
   </head>
 
   <!-- and so, it begins -->
@@ -79,27 +84,27 @@
         
           <div class="mdl-layout-spacer"></div>
         
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right" style="color: white !important;">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right">
             <!-- search box -->
             <div class="mdl-textfield__holder">
-              <div class="container" style="padding: 5%; margin:-10px !important;" id="desktop-search">
+              <div class="container desktop-only">
                 <form action="search" method="get">
                   <div class="mdl-textfield mdl-js-textfield">
                     <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);text-shadow: 0 0 4px black;">
-                    <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
+                    <label class="mdl-textfield__label"><i style="color:white;">Search {{ site.title }}...</i></label>
                   </div>
                 </form> <!-- damn you stupid closing form tag!!! -->
               </div>
 
-              <div class="container" style="padding: 5%; margin:50px !important;" id="mobile-search">
+              <div class="container mobile-only">
                 <form action="search" method="get">
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="mobile-search-input">
                       <i class="material-icons">search</i>
                     </label>
                     <div class="mdl-textfield__expandable-holder">
-                      <input class="mdl-textfield__input" type="text" id="sample6" name="q" style="text-shadow: 0 0 4px black;">
-                      <label class="mdl-textfield__label" for="sample1"><i style="color: rgb(255, 255, 255) !important;font-family: Roboto;">Search {{ site.title }}...</i></label>
+                      <input class="mdl-textfield__input" type="text" id="mobile-search-input" name="q" style="text-shadow: 0 0 4px black;">
+                      <label class="mdl-textfield__label"></label>
                     </div>
                   </div>
                 </form>
@@ -115,7 +120,7 @@
         {% endif %}
 
         {% if site.drawerbanner %}
-          <img src="resources/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+          <img src="res/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
         {% endif %}
     
         <nav class="mdl-navigation" style="margin-top: -3% !important;">
@@ -123,7 +128,7 @@
             <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
           </a>
 
-          <a class="mdl-navigation__link" href="Settings">
+          <a class="mdl-navigation__link" href="./Special:Settings">
             <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
           </a>
        
@@ -131,20 +136,19 @@
             <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contributing
           </a>
        
-          <a class="mdl-navigation__link" href="Sitemap">
+          <a class="mdl-navigation__link" href="./Special:Sitemap">
             <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
           </a>
        
           <a class="mdl-navigation__link" href="#" onclick="loadRandomArticle()">
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random page
           </a>
-
+          {% if site.debug %}
           <a class="mdl-navigation__link" href="./KuroWiki:PTBW">
             <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
           </a>
-          {% if site.debug %}
-          <a class="mdl-navigation__link" href="./Deltari:Test_Page">
-            <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Deltari Test Page
+          <a class="mdl-navigation__link" href="./Debug:Akane_Sandbox">
+            <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Akane Sandbox
           </a>
           {% endif %}
 
@@ -162,8 +166,8 @@
               {% endif %}
             </span>
             <br>
-            <span style="font-size: smaller; line-height: 1.0; color:darkgray !important;">
-                Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }})
+            <span id="drawer-version-info" style="font-size: smaller; line-height: 1.0;">
+                Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %})
             </span>
           </span>
         </nav>
@@ -188,19 +192,12 @@
               <b><span style="color:rgb(238, 234, 13);">Note:</span></b><i> JavaScript is not enabled. The website may not work to its full capacity.</i>
             </noscript>
 		        <div id="pagecontent">
-              <!-- table of contents -->
-               {% if page.toc %}
-              <figure class="in-this-article">
-                  <div class="mdl-card mdl-shadow--2dp">
-                   <details open>
-                    <summary>In this article...</summary>
-                    <ol id="table-of-contents"></ol>
-                   </details>
-                   </div>
-                  </figure>
-                  {% endif %}
               {{content}}
 		        </div>
+
+            <!-- i have to find a better way -->
+            <script src="./res/akn/js/toc.js"></script>
+
           </div>
         </div>
       
@@ -208,7 +205,7 @@
           &nbsp;<br>
         </p>
 
-        {% include springviewer.html %}      
+        {% include misc/springviewer.html %}      
 	
         {% assign privatewarning = "" %}
         {% if site.privatebuild %}
@@ -217,17 +214,23 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;USING FILE LAYOUT VIEW<br>&nbsp;&nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
+            &nbsp;USING FILE-BASED LAYOUT!!<br>{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>
     </div>
 
-    <script src="./resources/delta/js/springviewer.js"></script>
-    <script src="./resources/delta/js/lightMode.js"></script>
+    <!-- scripts! -->
+    <script src="./res/akn/js/random.js"></script>
+    <script src="./res/akn/js/theme.js"></script>
+
+    {% if site.debug %}
+      <script src="./res/akn/js/debug.js"></script>
+    {% endif %}
+
     
     <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
-    <script src="./resources/js/showOneko.js"></script>
+    <script src="./res/js/showOneko.js"></script>
   </body>
 </html>
 

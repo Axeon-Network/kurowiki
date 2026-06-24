@@ -1,3 +1,6 @@
+# Axeon Panther (formerly TagGen)
+# Copyright 2026 Axeon Network. Written with love by KitSixtyFour :3
+
 require 'time'
 require 'jekyll'
 require 'etc' 
@@ -12,32 +15,28 @@ $axeon_banner_shown = false
 
 Jekyll::Hooks.register :site, :after_init do |site|
   unless $axeon_banner_shown
-    dev_phase = site.config['devphase'] || "Developer Release"
+    dev_phase = site.config['devphase'] || "Gold Release"
     
+    type = ""
     if site.config['debug'] == true
       type = "(Checked)"
-    end
-    if site.config['retail'] == true
+    elsif site.config['retail'] == true
       type = "(Retail)"
     end
 
     puts "Axeon Akane Engine #{dev_phase} #{type} [Version #{major}.#{minor}]"
-    puts "               (C) 2025-2026 Axeon Network. All Rights Reserved.\n\n"
-    puts "Panther Version Master Utility [Version 4.0.5200]"
-    puts "               (C) 2025-2026 KitSixtyFour/StupidBiFox.\n\n"
+    puts "               (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
     puts ""
-    puts "WARNING!!!: Panther does NOT write to buildtag nor version. Instead, it writes to _includes/version.html"
-    puts "            for accessibility use. Please update any old definitions"
-    puts ""
+    puts "Axeon Panther Version Master Utility [Version 4.0.5200]"
+    puts "               (C) 2026 Axeon Network."
+    puts "               Written by KitSixtyFour for the Axeon Network.\n\n"
     $axeon_banner_shown = true
   end
 end
 
 Jekyll::Hooks.register :site, :after_reset do |site|
   header_dir = File.expand_path('_includes', site.source)
-  version_header_path = File.join(header_dir, 'version.html')
-
-  FileUtils.mkdir_p(header_dir) unless File.directory?(header_dir)
+  version_header_path = File.join(header_dir, 'misc', 'version.html')
 
   # build lab
   lab = ''
@@ -62,58 +61,34 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   id_suffix = is_debug ? "chk" : "fre"
   id = "#{id_prefix}#{id_suffix}"
 
-  begin
-    stored_number = 5200
-  rescue
-    stored_number = 5200
-  end
-
-  begin
-    delta_nbr = 1
-  rescue
-    delta_nbr = 0
-  end
+  stored_number = 5200
+  delta_nbr = delta_enabled && is_debug ? 1 : 0
 
   current_delta = delta_nbr
-  current_incremental_number = 5200
-  buildtag = ""
+  current_incremental_number = stored_number
 
-  if delta_enabled && is_debug
-    current_delta += 1
-  else
-    current_delta = 0
+  # Timestamp logic processing directly from version.html
+  saved_timestamp = nil
+  if File.exist?(version_header_path)
+    existing_content = File.read(version_header_path)
+    # Regex search to extract the old timestamp value from your generated Liquid statement
+    if match = existing_content.match(/\{\%\s+assign\s+AKN_TIMESTAMP\s+=\s+"([^"]+)"\s+\%\}/)
+      saved_timestamp = match[1]
+    end
   end
 
-#  if is_debug
-#    current_incremental_number += 0 # disable this for now.
-#    File.write(build_number_file_path, current_incremental_number.to_s)
-    
-#    timestamp = Time.now.strftime("%y%m%d-%H%M")
-#    buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
-#   File.write(build_tag_file_path, buildtag)
-    
-#   Jekyll.logger.info "PANTHER:", "Loading Akn #{current_incremental_number}.#{current_delta}.#{lab}.#{timestamp}"
-# else
-#   if File.exist?(build_tag_file_path)
-#     saved_tag = File.read(build_tag_file_path).strip
-#     parts = saved_tag.split('.')
-      
-      # grab the build number (index 2) and timestamp (last index)
-#      current_incremental_number = parts[2] || stored_number
-#      saved_timestamp = parts.last || "000000-0000"
+  if is_debug
+    # In Debug mode, always generate a live fresh build timestamp
+    timestamp = Time.now.strftime("%y%m%d-%H%M")
+    buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
+    Jekyll.logger.info "PANTHER:", "Loading Akane #{current_incremental_number}.#{current_delta} (#{lab}.#{timestamp})"
+  else
+    # In Retail/Release mode, reuse the old string if found, otherwise default it
+    timestamp = saved_timestamp || "YYmmDD-HHss"
+    buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
+  end
 
-      # reconstruct the string with the LIVE ID (fre) and Lab
-#      buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{saved_timestamp}"
-#      File.write(build_tag_file_path, buildtag)
-#    else
-#      buildtag = "#{major}.#{minor}.#{stored_number}.#{current_delta}.#{id}.#{lab}.000000-0000"
-#    end
-#  end
-
-  # Extract final timestamp string safely
-  final_timestamp = buildtag.split('.').last
-
-  # site configuration fallback
+  # site configuration fallback exposure
   site.config['version'] = {
     'major' => major,
     'minor' => minor,
@@ -121,22 +96,19 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     'build' => current_incremental_number,
     'delta' => current_delta,
     'lab' => lab,
-    'timestamp' => final_timestamp,
+    'timestamp' => timestamp,
     'full' => buildtag
   }
 
-  # make a header
+  # Write directly to header file
   header_content = <<~HTML
-    <!-- AkanePanther Header -->
-    <!-- This file is automatically generated by Panther on each build -->
-    <!-- If you see nothing when seeing this file on InspElement, that's fine!! :) -->
     {% assign AKN_MAJOR = #{major} %}
     {% assign AKN_MINOR = #{minor} %}
     {% assign AKN_BUILD = #{current_incremental_number} %}
     {% assign AKN_DELTA = #{current_delta} %}
     {% assign AKN_ID = "#{id}" %}
     {% assign AKN_LAB = "#{lab}" %}
-    {% assign AKN_TIMESTAMP = "#{final_timestamp}" %}
+    {% assign AKN_TIMESTAMP = "#{timestamp}" %}
     {% assign AKN_VERSION = "#{buildtag}" %}
   HTML
 

@@ -71,7 +71,7 @@ idprefix: "rc1" # Release Candidate 1
 # = Debug Mode =
 # Enables various developer features of Deltari, like the watermarks and
 # "(Debug)" suffix to the drawer.
-debug: false
+debug: true
 # = Private Build =
 # Similar to Microsoft Windows, self-explanatory
 privatebuild: false
@@ -85,7 +85,7 @@ builddelta: false
 
 # = Retail Mode =
 # Self-explanatory, used for public releases
-retail: true
+retail: false
 
 # stupid
 myvariable: "{{ site.myvariable }}"
@@ -110,7 +110,7 @@ background-light:
 # Specifies if the site title should be used in the drawer, like MDL does by default.
 drawertitle: false
 # Specifies if a banner image should be used in the drawer, in place of the site title.
-# You can drop your own banner over at /resources/img/banner.png!
+# You can drop your own banner over at /res/img/banner.png!
 drawerbanner: true
 
 # only ONE of these can be enabled
@@ -151,6 +151,14 @@ collections:
     output: true # the fuck you mean you actually need this
   special:
     output: true # jekyll you can fuck my ass whenever you want, fuck you.
+  featured:
+
+  news:
+    output: true
+
+
+include: 
+ - _articles
 
 # == OTHER ==
 # liquid you son of a bitch
@@ -166,7 +174,8 @@ kramdown:
   hard_wrap: true
 
 exclude:
-  # - resources/ruby/version # just so it doesnt get caught in a loop
-  # - resources/ruby/buildtag # ditto
-  # - resources/ruby/delta # ditto
-  - _includes/version.html # what resources/ruby/version used to do when excluded, except its more better.
+  # - res/ruby/version # just so it doesnt get caught in a loop
+  # - res/ruby/buildtag # ditto
+  # - res/ruby/delta # ditto
+  - _includes/misc/version.html # what res/ruby/version used to do when excluded, except its more better.
+  - _articles

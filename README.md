@@ -1,5 +1,5 @@
 <div align="center">
-<img src="resources/img/logo.svg" width="30%">
+<img src="res/img/logo.svg" width="30%">
 <h1>KuroWiki</h1>
 </div>
 <div align="center">

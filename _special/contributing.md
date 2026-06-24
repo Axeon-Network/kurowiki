@@ -86,23 +86,23 @@ In order to import this component, you'd need to use the following structure:
 
 <code>
 &lt;div class="wiki-gallery"><br><br>
-{&percnt; include gallery_item.html<br>
-image_src="resources/img/articles/helloworld/untitled.png"<br>
+{&percnt; include items/gallery.html<br>
+image_src="res/img/articles/helloworld/untitled.png"<br>
 caption="Lorem ipsum dolor sit amet..." &percnt;}<br>
-{&percnt; include gallery_item.html<br>
-image_src="resources/img/articles/helloworld/untitled2.webp"<br>
+{&percnt; include items/gallery.html<br>
+image_src="res/img/articles/helloworld/untitled2.webp"<br>
 caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." &percnt;}<br>
-{&percnt; include gallery_item.html<br>
-image_src="resources/img/articles/helloworld/untitled3.jpg"<br>
+{&percnt; include items/gallery.html<br>
+image_src="res/img/articles/helloworld/untitled3.jpg"<br>
 caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." &percnt;}<br><br>
 &lt;/div>
 </code>
 
 ...which would end up being this!
 
-<div>
-{% include figure_item.html 
-    image_src="resources/img/articles/contributing/gallery.png" 
+<div class="wiki-gallery">
+{% include items/gallery.html 
+    image_src="res/img/articles/contributing/gallery.png" 
     style="width:50%;" %}
     </div>
 
@@ -112,7 +112,7 @@ To import the single-item frame, you'd need to use this:
 
 <code>
 {&percnt; include figure_item.html<br>
-image_src="resources/img/articles/helloworld/untitled.png"<br>
+image_src="res/img/articles/helloworld/untitled.png"<br>
 caption="Lorem ipsum dolor sit amet..." &percnt;}<br>
 </code>
 
@@ -130,15 +130,15 @@ version='6.0'<br>
 build='3933'<br>
 lab='nekori64'<br>
 compiled='2025-10-27 18:30 UTC-6'<br>
-image='resources/img/articles/horiwiki/article.png'<br>
+image='res/img/articles/horiwiki/article.png'<br>
 &percnt;}
 </code>
 
 The end result of the above example is this:
 
-<div>
-{% include figure_item.html 
-    image_src="resources/img/articles/contributing/infobox.png" 
+<div class="wiki-gallery">
+{% include items/gallery.html 
+    image_src="res/img/articles/contributing/infobox.png" 
     style="width:30%;" %}
   </div>
 

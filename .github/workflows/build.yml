@@ -25,12 +25,12 @@ jobs:
 
       - name: Sync content
         run: |
-          rm -rf _articles resources/img/articles
+          rm -rf _articles res/img/articles
 
-          mkdir -p _articles resources/img/articles
+          mkdir -p _articles res/img/articles
 
           rsync -av --delete media/kuro/articles/ _articles/
-          rsync -av --delete media/kuro/img/ resources/img/articles/
+          rsync -av --delete media/kuro/img/ res/img/articles/
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1

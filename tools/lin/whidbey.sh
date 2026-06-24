@@ -6,9 +6,9 @@ echo "Axeon Whidbey 2.0a"
 echo "Copyright (c) Axeon Network."
 
 # Read the build tag file, then set it.
-if [ -f "./resources/ruby/buildtag" ]; then
+if [ -f "./res/ruby/buildtag" ]; then
     # Reads the file, uses '.' as delimiter, extracts 4th field
-    raw_id=$(cut -d'.' -f4 ./resources/ruby/buildtag)
+    raw_id=$(cut -d'.' -f4 ./res/ruby/buildtag)
 else
     raw_id="chk"
 fi

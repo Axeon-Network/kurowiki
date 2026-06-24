@@ -1,6 +1,6 @@
 ---
 title: Sitemap
-permalink: ./Sitemap
+permalink: ./Special:Sitemap
 search_exclude: true
 ---
 

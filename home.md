@@ -18,4 +18,4 @@ hatnote: This software is still unfinished! Please report any issues you may fin
 <p class="homepage-description">{{ site.home_desc }}<br>You can use the drawer or the search bar to browse the contents of this wiki!</p>
 
 <!-- cards to make the homepage complete™ -->
-{% include homepage_cards.html %}
+{% include misc/homepage_cards.html %}

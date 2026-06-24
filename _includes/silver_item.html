@@ -1,7 +1,0 @@
-<!-- Codename Silver -->
-<div class="silver-item"
-    {% if include.left %}style="clear:left;float:left;margin-left:0px!important;margin-right:10px!important;"{% endif %}>
-    <img src="{{ include.image_src }}">
-    <a href="{{ include.image_src }}" title='Open "{{ include.image_src | remove: 'resources/img/' }}" in new tab' target="_blank" rel="noopener noreferrer"><span class="material-icons">aspect_ratio</span></a>
-    <span class="silver-caption">{{ include.caption | markdownify | remove_first: '<p>' | remove: '</p>' }}</span>
-</div>

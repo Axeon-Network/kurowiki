@@ -1,0 +1,163 @@
+<div class="homepage-cards">
+  
+  {% comment %} 
+    CRITICAL: This wrapping div must contain BOTH Featured and DYK 
+    for the desktop table-cell CSS properties to align them side-by-side! 
+  {% endcomment %}
+  <div>
+    <div class="featured-article kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <i class="material-icons">import_contacts</i>
+        <h2 class="mdl-card__title-text">&nbsp;&nbsp;Featured article</h2>
+      </div>
+      <div class="mdl-card__supporting-text" style="opacity:1;width: 95%;">
+        <div id="feat-header" style="margin-top: -5px;"></div>
+        <div id="feat-article-container" style="color:var(--text-color);padding:0;">
+          
+          {% comment %} 1. Load featured article dynamically based on Year + Month slug {% endcomment %}
+          {% assign current_date_slug = "now" | date: "%Y%m" %}
+          {% assign featured_page = site.featured | where: "slug", current_date_slug | first %}
+
+          {% if featured_page %}
+            <h1 style="margin-top:0;margin-bottom:0;"><a href="{{ featured_page.url }}">{{ featured_page.title }}</a></h1>
+            {{ featured_page.content | markdownify }}
+          {% else %}
+            <p>The {{ "now" | date: "%B %Y" }} article cannot be found. Please check the sources.</p>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  
+    {% comment %} Keep the client-side array script tags as originally configured underneath the first card {% endcomment %}
+    <script>
+    window.allDykFacts = [
+      {% assign is_first = true %}
+      {% for p in site.articles %}
+        {% if p.dyk %}
+          {% for fact in p.dyk %}
+            {% unless is_first %},{% endunless %}
+            {
+              "article": {{ p.title | jsonify }},
+              "text": {{ fact | markdownify | remove: '<p>' | remove: '</p>' | jsonify }}
+            }
+            {% assign is_first = false %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    ];
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById('facts-container');
+        let dayOffset = 0;
+
+        function seededRandom(seed) {
+            let x = Math.sin(seed++) * 10000;
+            return x - Math.floor(x);
+        }
+
+        function renderFacts(offset) {
+            if (!window.allDykFacts || window.allDykFacts.length === 0) {
+                container.innerHTML = '<p>No facts found.</p>';
+                return;
+            }
+
+            const today = new Date();
+            const seedBase = (today.getFullYear() * 10000) + ((today.getMonth() + 1) * 100) + today.getDate() + offset;
+
+            let availableFacts = [...window.allDykFacts];
+            
+            for (let i = availableFacts.length - 1; i > 0; i--) {
+                const j = Math.floor(seededRandom(seedBase + i) * (i + 1));
+                [availableFacts[i], availableFacts[j]] = [availableFacts[j], availableFacts[i]];
+            }
+
+            let selectedFacts = [];
+            let lastArticle = null;
+
+            while (selectedFacts.length < 7 && availableFacts.length > 0) {
+                let indexToPick = availableFacts.findIndex(f => f.article !== lastArticle);
+                if (indexToPick === -1) indexToPick = 0;
+
+                let picked = availableFacts.splice(indexToPick, 1)[0];
+                selectedFacts.push(picked);
+                lastArticle = picked.article;
+            }
+
+            let html = '';
+            selectedFacts.forEach(f => {
+                html += `<p>${f.text}</p>`;
+            });
+            container.innerHTML = html;
+        }
+
+        renderFacts(dayOffset);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey && e.altKey && (e.key === 'f' || e.key === 'F')) {
+                e.preventDefault();
+                dayOffset++;
+                renderFacts(dayOffset);
+                console.log(`[SpringViewer/Trifrost] DYK Seed Shifted: +${dayOffset} days`);
+            }
+        });
+    });
+    </script>
+
+    {% assign dyk_pages = site.pages | where_exp: "item", "item.dyk" %}
+    {% assign total_articles = dyk_pages.size %}
+
+    <div class="did-you-know kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <i class="material-icons">question_mark</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Did you know</h2>
+      </div>
+      <div class="mdl-card__supporting-text" style="opacity:1;">
+        <div id="facts-container" style="color:var(--text-color); padding: 0 !important;">
+          {% if total_articles > 0 %}
+            {% assign day_seed = "now" | date: "%Y%m%d" | plus: 0 %}
+            {% assign start_index = day_seed | modulo: total_articles %}
+            {% assign end_index = start_index | plus: 11 %}
+
+              {% for i in (0..total_articles) %}
+                {% assign wrap_index = i | plus: total_articles %}
+                
+                {% if i >= start_index and i <= end_index or wrap_index >= start_index and wrap_index <= end_index %}
+                  {% assign p = dyk_pages[i] %}
+                  {% if p.dyk %}
+                    {% assign fact_index = day_seed | modulo: p.dyk.size %}
+                    <p>{{ p.dyk[fact_index] | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+          {% else %}
+            <p>An error has occured.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% comment %} Recent News sits cleanly in its own wrapper block below {% endcomment %}
+  <div>
+    <div class="recent-news kuro-card_can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
+      <div class="mdl-card__title">
+        <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>
+      </div>
+      <div class="mdl-card__supporting-text" style="opacity:1;">
+        <div style="color:var(--text-color);padding:0;">
+          
+          {% comment %} 2. Sort news by date from newest to oldest {% endcomment %}
+          {% assign news_items = site.news | sort: "date" | reverse | where_exp: "item", "item.disabled != true"" %}
+          {% for item in news_items %}
+<details markdown="1" {% if item.default == true %}open{% endif %}>
+<summary>{{ item.title }}</summary>
+{{ item.content }}
+</details>
+          {% endfor %}
+          <p style="text-align: right;">Looking for older news reports? Click <a href="./Special:Legacy_News_Reports">here</a>!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
