@@ -10,7 +10,7 @@ name: Axeon KuroWiki
 title: KuroWiki
 
 # used for debug, to be hard-coded for Kuro STBL
-productname: Axeon Akane
+productname: "Axeon Akane Code Name \"Cairo\""
 
 # The author of the wiki
 author: Axeon Network
@@ -146,19 +146,15 @@ defaults:
 collections:
   files:
     output: true
-    permalink: "/wiki/File::name"
+    permalink: "./File::name"
   articles:
     output: true # the fuck you mean you actually need this
   special:
     output: true # jekyll you can fuck my ass whenever you want, fuck you.
   featured:
-
-  news:
     output: true
+  news:
 
-
-include: 
- - _articles
 
 # == OTHER ==
 # liquid you son of a bitch
@@ -178,4 +174,3 @@ exclude:
   # - res/ruby/buildtag # ditto
   # - res/ruby/delta # ditto
   - _includes/misc/version.html # what res/ruby/version used to do when excluded, except its more better.
-  - _articles

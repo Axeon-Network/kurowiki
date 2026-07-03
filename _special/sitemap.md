@@ -5,13 +5,11 @@ search_exclude: true
 ---
 
 {% assign articles = site.articles | sort_natural: "title" %}
+{% assign article_count = site.articles.size %}
 
-This page contains a directory listing of all articles in this wiki.
-
-There are <b>{{ articles | size }}</b> articles in total.
+This page contains a directory listing of all articles in this wiki arranged in alphabetical order.<br>There {% if article_count > 1 %}are{% else %}is{% endif %} <b>{{ article_count }}</b> {% if article_count > 1 %}articles{% else %}article{% endif %} in total.
 
 {% for page in articles %}
-
-- [{{ page.title }}]({{ site.url }}{{ site.baseurl }}{{ page.url | remove: '.html' }}) - *{{site.url}}{{ site.baseurl }}{{ page.url | remove: '.html' }}*
+- [{{ page.title }}]({{ site.url }}{{ site.baseurl }}{{ page.url | remove: '.html' }}) - *{{ page.url | remove: '.html' | remove_first: '/' }}*
 
 {% endfor %}

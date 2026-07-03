@@ -14,14 +14,10 @@
 
     <!-- the font (i dont think it works) -->
     <!-- it had the wrong fucking link bruh -->
-    <!-- now why isnt roboto bolding -kit/sbf -->
+    <!-- now why isnt roboto bolding -snowy -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <!-- roboto monospace -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
     
     <!-- gotta get a new one this is horiwebsite's one -->
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
@@ -29,7 +25,7 @@
     <link rel="shortcut icon" href="./res/img/favicon.png" type="image/x-icon">
 
     <!-- do i need to explain this??? -->
-    <title>{{ page.title | default: "Untitled" }} ~ {{ site.title }}</title>
+    <title>{{ page.title | default: "I think you forgot something... ;)" }} ~ {{ site.title }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -51,6 +47,12 @@
 
     <!-- the thing that makes most of mdl work -->
     <script defer src="./res/mdl/material.min.js"></script>
+
+    <!-- so we have fancy codeblocks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
      {% if site.background-dark %}
      <style>
@@ -214,7 +216,7 @@
 
         {% if site.debug %}
           <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }}{{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
+            &nbsp;{{ privatewarning }}Debug {{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>

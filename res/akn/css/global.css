@@ -40,6 +40,8 @@
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
     --code-bg-dark: rgba(0,0,0,0.5);
+    --supercode-border-dark: #111;
+    --supercode-bg-dark: #1e1e1e;
 
     /* light mode */
     --accent-light: rgb(44,60,84);
@@ -50,6 +52,8 @@
     --hatnote-color-light: rgba(255,255,255,0.75);
     --code-bg-light: #f8f9fa;
     --code-border-light: #eee;
+    --supercode-bg-light: #f8f9fa;
+    --supercode-border-light: #eee;
     --link-visited-light: rgb(71, 93, 133);
     --link-active-light: rgb(235, 145, 75);
 }
@@ -72,7 +76,9 @@ html {
     --code-bg: var(--code-bg-dark);
     --code-border: var(--code-border-dark);
     --link-visited: var(--link-visited-dark);
-    --link-active: var(--link-active-dark)
+    --link-active: var(--link-active-dark);
+    --supercode-border: var(--supercode-border-dark);
+    --supercode-bg: var(--supercode-bg-dark);
 }
 
 /* here we set light mode as it should be */
@@ -87,6 +93,8 @@ html.light-mode {
     --code-border: var(--code-border-light);
     --link-visited: var(--link-visited-light);
     --link-active: var(--link-active-light);
+    --supercode-border: var(--supercode-border-light);
+    --supercode-bg: var(--supercode-bg-light);
 }
 
 
@@ -223,4 +231,86 @@ code {
     .mobile-only {
         display: none;
 }
+}
+
+code.hljs span {
+    font-family: 'Roboto Mono' !important;
+}
+
+code.hljs {
+    background: var(--supercode-bg-dark);
+    border: 1px solid var(--supercode-border-dark)
+}
+
+html.light-mode code.hljs {
+    background: var(--supercode-bg-light);
+    border: 1px solid var(--supercode-border-light);
+    color: #444;
+}
+
+
+html.light-mode code.hljs .hljs-comment {
+  color:#697070 !important;
+}
+html.light-mode code.hljs .hljs-punctuation,
+html.light-mode code.hljs .hljs-tag {
+  color:rgba(68,68,68,.667) !important;
+}
+html.light-mode code.hl-js .hljs-tag .hljs-attr,
+html.light-mode code.hl-js .hljs-tag .hljs-name {
+  color:#444 !important;
+}
+html.light-mode code.hl-js .hljs-attribute,
+html.light-mode code.hl-js .hljs-doctag,
+html.light-mode code.hl-js .hljs-keyword,
+html.light-mode code.hl-js .hljs-meta .hljs-keyword,
+html.light-mode code.hl-js .hljs-name,
+html.light-mode code.hl-js .hljs-selector-tag {
+  font-weight:700 !important;
+}
+html.light-mode code.hl-js .hljs-deletion,
+html.light-mode code.hl-js .hljs-number,
+html.light-mode code.hl-js .hljs-quote,
+html.light-mode code.hl-js .hljs-selector-class,
+html.light-mode code.hl-js .hljs-selector-id,
+html.light-mode code.hl-js .hljs-string,
+html.light-mode code.hl-js .hljs-template-tag,
+html.light-mode code.hl-js .hljs-type {
+  color:#800 !important;
+}
+html.light-mode code.hl-js .hljs-section,
+html.light-mode code.hl-js .hljs-title {
+  color:#800 !important;
+  font-weight:700 !important;
+}
+html.light-mode code.hl-js .hljs-link,
+html.light-mode code.hl-js .hljs-operator,
+html.light-mode code.hl-js .hljs-regexp,
+html.light-mode code.hl-js .hljs-selector-attr,
+html.light-mode code.hl-js .hljs-selector-pseudo,
+html.light-mode code.hl-js .hljs-symbol,
+html.light-mode code.hl-js .hljs-template-variable,
+html.light-mode code.hl-js .hljs-variable {
+  color:#ab5656 !important;
+}
+html.light-mode code.hl-js .hljs-literal {
+  color:#695 !important;
+}
+html.light-mode code.hl-js .hljs-addition,
+html.light-mode code.hl-js .hljs-built_in,
+html.light-mode code.hl-js .hljs-bullet,
+html.light-mode code.hl-js .hljs-code {
+  color:#397300 !important;
+}
+html.light-mode code.hl-js .hljs-meta {
+  color:#1f7199 !important;
+}
+html.light-mode code.hl-js .hljs-meta .hljs-string {
+  color:#38a !important;
+}
+html.light-mode code.hl-js .hljs-emphasis {
+  font-style:italic !important;
+}
+html.light-mode code.hl-js .hljs-strong {
+  font-weight:700 !important;
 }

@@ -85,3 +85,152 @@ I'll be there when the light comes in<br>Just tell them we're survivors!
 Life is a highway!<br>Well I wanna ride it all night loooong! (whoo!)<br>If you're goin' my way~<br>I wanna drive it all night long! (a gimme, gimme, gimme, yeah!)
 
 Life is a highway!<br>Well I wanna ride it all night looong! (all night loong!)<br>If you're goin' my way! (you're my way!)<br>I wanna drive it all night loong! (all night looong!!)
+
+
+# HlJS test
+
+```js
+function executeSearch(query) {
+        resultsContainer.innerHTML = '';
+        const trimmedQuery = query.toLowerCase().trim();
+        
+        // If there isn't a query, show the welcome invitation text node
+        if (!trimmedQuery) {
+            resultsContainer.innerHTML = '<p>Welcome! To continue, just use the search box on the top-right part of the site!</p>';
+            return;
+        }
+}
+```
+
+```css
+/* 
+    Kuro/ModularDelta Custom Material Design Lite Stylesheet File
+    Written by KitSixtyFour/StupidBiFox
+    Copyright 2025-2026 Axeon Network.
+
+    Material Design and Material Design Lite (MDL) are Copyright 2016 Google Inc 
+    and are licensed under the Apache License.
+
+    This file is licensed under the MIT License, which is included below:
+
+    Copyright 2025-2026 Axeon Network
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy 
+    of this software and associated documentation files (the “Software”), to deal 
+    in the Software without restriction, including without limitation the rights 
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+    of the Software, and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies 
+    or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+    PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+    FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.
+
+*/
+
+/* variables */
+html {
+    /* dark mode */
+    --contentbox-background-color-dark: rgba(0,0,0,0.43);
+    --search-background-color-dark: rgba(50,50,50,0.5);
+    --mdlcard-background-color-dark: #424242;
+    --drawer-color-dark: rgba(0, 0, 0, 0.5);
+    --navhoverlink-dark: rgba(0, 0, 0, 0.6);
+
+    /* light mode */
+    --contentbox-background-color-light: rgba(248,248,248,0.73);
+    --search-background-color-light: white;
+    --mdlcard-background-color-light: white;
+    --drawer-color-light: rgb(246, 246, 246,0.8); /* microsoft windows ninety eiiight! :3 */
+    --navhoverlink-light: rgba(230,230,230,1);
+
+    /* button status */
+    /* i forgot why i used these but i wont remove these cuz ya never know */
+    --button-status: var(--buttonstatus-set);
+    --buttonstatus-set: block;
+}
+
+html {
+    --contentbox-background-color: var(--contentbox-background-color-dark);
+    --search-background-color: var(--search-background-color-dark);
+    --mdlcard-background-color: var(--mdlcard-background-color-dark);
+    --drawer-color: var(--drawer-color-dark);
+    --navhoverlink: var(--navhoverlink-dark);
+}
+
+html.light-mode {
+    --contentbox-background-color: var(--contentbox-background-color-light);
+    --search-background-color: var(--search-background-color-light);
+    --mdlcard-background-color: var(--mdlcard-background-color-light);
+    --drawer-color: var(--drawer-color-light);
+    --navhoverlink: var(--navhoverlink-light);
+}
+
+/* mdl's h1-h3 are way tooooo gigantic so we make them use mdl's h4-h6 styling */
+h1 {
+    font-size: 24px;
+    margin: 24px 0 16px;
+    letter-spacing: 0;
+}
+h2 {
+    font-size: 20px;
+    line-height: 1;
+}
+h3, h4, h5, h6 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 16px;
+    letter-spacing: .04em;
+}
+
+hr {
+    border-color: white;
+    opacity: 0.1;
+}
+.light-mode hr {
+    border-color: black;
+    opacity: 0.1;
+}
+```
+
+```md
+***Project Cuber***, more commonly known as ***Cuber***, is the codename for a currently work-in-progress website developed by [KitSixtyFour](KitSixtyFour). The user interface is based on the *[Watercolor](https://betawiki.net/wiki/Watercolor)* visual style found in pre-release builds of [Windows XP](https://betawiki.net/wiki/Windows_XP), specifically the [Beta 1](https://betawiki.net/wiki/Windows_XP#Beta_1) development stage.
+
+A successor to *[HoriWebsite](HoriWebsite)* (and [its](LexSite) [cancelled](NovaSite) [successor](NekoSite) [tentatives](Nishi_Blade)), the development of *Cuber* began on 9 February 2026, and is currently still being developed to this day. Alongside *[Deltari](Deltari)*, it is one of Kit's most ambitious projects yet, and it is planned to be released alongside *CuberSH*, a public, modular version of the CSS framework used in Cuber.
+
+Nevertheless, the development of *Cuber* has been slow, since it has been worked on alongside *[KuroWiki](KuroWiki)* and *[AstroNT](AstroNT)*, which is visible on the time differences between many builds.
+However, an Alpha Release has been scheduled for the second quarter of 2026.
+```
+
+
+```bat
+:show_help
+echo.
+echo Axeon Whidbey 2000 for Microsoft(R) Windows(R)
+echo Copyright 2026 KitSixtyFour. For internal Axeon use only
+echo.
+echo.
+echo Commands:
+echo           bni               - install missing gems via bundler
+echo           akn               - run Akane normally
+echo           akw               - run Akane WITHOUT regeneration
+echo           aks               - run Akane WITHOUT LiveReload or OpenURL
+echo           akb               - build the site without a server
+echo           acl               - clean site leftovers (such as _site)
+echo           trk               - track ALL files for git
+echo           cmt "arg"         - commit current work. "arg" is the title of the
+echo                               commit, do not skip the quotation marks or else it
+echo                               WONT work!
+echo           cme "arg" "arg2"  - same as cmt but "arg2" is an extended description
+echo                               of the commit
+echo           pul               - pull changes from github
+echo           psh               - push work to github
+echo           hlp               - print this message
+exit /b
+```

@@ -35,14 +35,18 @@
                 <th>Type</th>
                 <td>{{ include.type | default: "Website" }}</td>
             </tr>
+            {% if include.initialVersion %}
             <tr>
                 <th>Initial release</th>
                 <td>{{ include.initialVersion | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.initialVersionReleaseDate }})</td>
             </tr>
+            {% endif %}
+            {% if include.currentVersion %}
             <tr>
                 <th>Current release</th>
                 <td>{{ include.currentVersion | markdownify | remove_first: '<p>' | remove: '</p>' }} ({{ include.currentVersionReleaseDate }})</td>
             </tr>
+            {% endif %}
             {% if include.predecessor %}
             <tr>
                 <th>Preceded by</th>
@@ -59,10 +63,12 @@
                 <th>Repository</th>
                 <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
+            {% if include.status %}
             <tr>
                 <th>Status</th>
                 <td>{{ include.status }}</td>
             </tr>
+            {% endif %}
             {% if include.link %}
             <tr>
                 <th>Link</th>

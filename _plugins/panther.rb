@@ -19,12 +19,32 @@ Jekyll::Hooks.register :site, :after_init do |site|
     
     type = ""
     if site.config['debug'] == true
-      type = "(Checked)"
+      type = "(Debug)"
     elsif site.config['retail'] == true
       type = "(Retail)"
     end
 
-    puts "Axeon Akane Engine #{dev_phase} #{type} [Version #{major}.#{minor}]"
+    hedDir = File.expand_path('_includes', site.source)
+    verHed = File.join(hedDir, 'misc', 'version.html')
+
+    prevBUILD = nil
+    prevDELTA = nil
+
+    # Read the file only once if it exists
+    if File.exist?(verHed)
+      existing_content = File.read(verHed)
+      
+      # Match integers or strings, with or without quotes
+      if match1 = existing_content.match(/\{\%\s+assign\s+AKN_BUILD\s+=\s+["']?([^"'\s\%]+)["']?\s+\%\}/)
+        prevBUILD = match1[1]
+      end
+
+      if match2 = existing_content.match(/\{\%\s+assign\s+AKN_DELTA\s+=\s+["']?([^"'\s\%]+)["']?\s+\%\}/)
+        prevDELTA = match2[1]
+      end
+    end
+
+    puts "Axeon Akane Codenamed Cairo Version #{major}.#{minor} (Build #{prevBUILD}.#{prevDELTA}: #{dev_phase}) #{type}"
     puts "               (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
     puts ""
     puts "Axeon Panther Version Master Utility [Version 4.0.5200]"
@@ -81,7 +101,7 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     # In Debug mode, always generate a live fresh build timestamp
     timestamp = Time.now.strftime("%y%m%d-%H%M")
     buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
-    Jekyll.logger.info "PANTHER:", "Loading Akane #{current_incremental_number}.#{current_delta} (#{lab}.#{timestamp})"
+    Jekyll.logger.info "PANTHER:", "Loading Cairo #{current_incremental_number}.#{current_delta} (#{lab}.#{timestamp})"
   else
     # In Retail/Release mode, reuse the old string if found, otherwise default it
     timestamp = saved_timestamp || "YYmmDD-HHss"
