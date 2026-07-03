@@ -20,8 +20,8 @@ writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.5.1'
-currentVersionReleaseDate='2026-05-26'
+currentVersion='v26.6.1'
+currentVersionReleaseDate='2026-06-29'
 sourceModel='Open source'
 repoLink='https://github.com/AveryEclipse/averyeclipse.github.io'
 repoHost='GitHub'
@@ -135,6 +135,8 @@ v26.1 brought significant fixes and changes to the website that can be seen both
 The website has seen further major changes with v26.3, released 22 March 2026, coinciding with the KayAurora-AveryEclipse rebrand. At this point the website became to be called under its current name ***AveryWebsite*** rather than ***KayWebsite***. This version was followed by a minor-ish v26.4 release on 9 April 2026, which has replaced FontAwesome with the `astro-icon` package, and then hours later by the much smaller v26.4.1.
 
 v26.5, released 14 May 2026, further expanded on the rollout of `astro-icon` icons by replacing Unicode emojis in page and section headings, and marked the website's transition from Astro v5 to v6. v26.5.1, released 26 May 2026, fixed a major bug with displaying blog post tags on mobile.
+
+The website has been largely overhauled again with the release of v26.6 on 29 June  2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed as a hotfix update fixing issues discovered with the v26.6 retro frontend.
 
 <div class="wiki-gallery">
     {% include items/gallery.html 
