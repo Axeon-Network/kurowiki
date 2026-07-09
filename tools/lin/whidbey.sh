@@ -1,13 +1,14 @@
 #!/bin/bash
 
+# To use, make sure you run "source ./tools/lin/whidbey.sh" (without quotations) in your terminal!
+
 clear
 
 echo "Axeon Whidbey 2.0a"
 echo "Copyright (c) Axeon Network."
+echo ""
 
-# Read the build tag file, then set it.
 if [ -f "./res/ruby/buildtag" ]; then
-    # Reads the file, uses '.' as delimiter, extracts 4th field
     raw_id=$(cut -d'.' -f4 ./res/ruby/buildtag)
 else
     raw_id="chk"
@@ -22,7 +23,6 @@ else
 fi
 
 lab=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
-# If we don't have anything, use the default panther lab manually
 if [ -z "$lab" ]; then
     lab="PANTHER_${USER}"
 fi
