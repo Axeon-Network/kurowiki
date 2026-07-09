@@ -1,7 +1,6 @@
 ---
 title: Cuber build 133
 permalink: Cuber_build_133
-aliases: cuber 133
 ---
 
 {% include infoboxes/build.html

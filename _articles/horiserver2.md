@@ -2,8 +2,21 @@
 title: HoriServer (2)
 permalink: HoriServer_(2)
 isTitleItalic: true
-hatnote: "This article is about the Discord Server known as HoriServer (2). For the Stoat HoriServer, see [Horicraft](Horicraft).<br>I feel like there is more to this -kit/sbf"
+hatnote: This article is about the Discord Server known as HoriServer (2). For the Stoat HoriServer, see [HoriServer](HoriServer).
 ---
+{% include infoboxes/server.html
+name='HoriServer (2)'
+owner='[KitSixtyFour](KitSixtyFour)'
+platform='Discord'
+creationDate='2025-03-11'
+openedDate='2025-03-11'
+closedDate="2025-04-23"
+type='Public'
+memberCount='34'
+srvIcon="res/img/articles/horiserver2/horiserver2.png"
+%}
+
+
 ***HoriServer (2)*** (sometimes abbreviated as ***HS2***) was a Discord Server created by [Kit](KitSixtyFour) to succeed [StuffyXP Hangout](StuffyXP_Hangout) after the sunsetting of [StuffyXP](StuffyXP) on 14 March 2025.
 
 Despite the server being theoretically Kit's (and that they did still formally hold a position in the server's leadership), the server was actually technically owned by [AveryEclipse](AveryEclipse) for the longest time as Kit "didn't feel like managing a Discord server" at the time.
@@ -11,13 +24,6 @@ Despite the server being theoretically Kit's (and that they did still formally h
 The server was nuked and closed on 23 April 2025, a direct result of the [April 2025 HoriServer (2) incident](April_2025_HoriServer_(2)_incident) part of the wider April 2025 Discord drama incidents in the surrounding community, which led to both Kit and AveryEclipse resigning a day prior.
 
 [A YouTube channel](https://www.youtube.com/@HoriServer2) of the same name also exists meant for highlights from various events or other things to do with the community, created on 21 April 2025. This channel still exists to this day but remains unused.
-   <div class="wiki-gallery">
-    {% include items/gallery.html 
-        image_src="res/img/articles/horiserver2/horiserver2.png" 
-        alt_text="" 
-        caption="HoriServer (2) logo"
-        style="width:10%; height:auto" %}
-        </div>
 
 # Lyra
 Following the discontinuation of new regularly-uploaded [Lynxmic](Lynxmic) videos in early April 2025, plans called for AveryEclipse's [LynxPlaza](Axeon_Network) to merge into HoriServer (2), which would be renamed **Lyra**.

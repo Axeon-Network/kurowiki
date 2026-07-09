@@ -3,8 +3,7 @@ title: Horicraft Underground Rail System
 permalink: Horicraft_Underground_Rail_System
 redirect_from:
   - HURS
-aliases:
-  - hurs
+  - HWTS
 dyk:
   - "...that the Main Station of the Horicraft Underground Rail System has two design versions?"
 ---

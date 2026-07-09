@@ -1,13 +1,6 @@
 ---
 title: Lynxmic
 permalink: Lynxmic
-aliases:
-    - solarix
-    - solarixtech
-    - bw tech
-    - bw
-    - briciworld
-    - computerseasons
 redirect_from:
     - solarixtech
     - Solarix
@@ -21,8 +14,7 @@ toc: true
 pfp='res/img/articles/lynxmic/logo.png'
 author='AveryEclipse'
 name='Lynxmic'
-creator='AveryEclipse'
-creatorurl='AveryEclipse'
+creator='[AveryEclipse](AveryEclipse)'
 videos='32'
 subs='1,665'
 views='185,554'

@@ -23,7 +23,7 @@ image_caption='Home page'
 
 This is the last known build to use the legacy HoriWiki layout, as the newer layout, based on Material Design Lite, would already be present on its [its `material` counterpart](KuroWiki_build_367_(material)).
 
-This build is available at the `main` branch of [github.com/stupidbifox/legacy-kuro](https://github.com/stupidbifox/legacy-kuro) and can be used in the current date.
+This build is available at the `main` branch of [github.com/legacy-kuro](https://github.com/snowybifox/legacy-kuro) and can be used in the current date.
 
 # Changes
 {% include items/embed.html

@@ -2,10 +2,6 @@
 title: Running Linux... on Year 10000?
 isTitleItalic: true
 permalink: Running_Linux_on_Year_10000
-hatnote: This article is incomplete.
-aliases:
-    - linux y10k
-    - y10k on linux
 dyk:
     - "...that [Running Linux... on Year 10000?](Running_Linux_on_Year_10000) was recorded prior to [Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong) but wasn't released two months after it?"
 ---

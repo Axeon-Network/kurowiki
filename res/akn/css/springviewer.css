@@ -1,6 +1,6 @@
 /* 
     Kuro/ModularDelta SpringViewer Stylesheet File
-    Written by KitSixtyFour/StupidBiFox
+    Written by KitSixtyFour/SnowyBiFox
     Copyright 2025-2026 Axeon Network
     .
     If you are looking for the CSS code used in galleries, the component that invokes
@@ -171,7 +171,7 @@ html.light-mode {
     height: 30px !important;
 }
 /* somehow the icons get disaligned, but hey its now fixed on
-   5186.39.kuro_rc1_prerelase! :3 -stupidbifox */
+   5186.39.kuro_rc1_prerelase! :3 -snowybifox */
 #viewer-top-buttons button i {
     padding-top: 3px;
     opacity: 1 !important;

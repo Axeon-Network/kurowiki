@@ -4,7 +4,7 @@ permalink: NovaLand
 redirect_from:
     - LexLand
     - Horiland
-hatnote:
+hatnote: This article is a stub and will be finished in Release Candidate 2.
 ---
 
 **NovaLand**, officially known as the **Republic of NovaLand**, and formerly known as **Horiland** (**Republic of Horiland**) is a fictional country.

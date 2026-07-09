@@ -1,7 +1,6 @@
 ---
 title: Cairo
 permalink: Cairo
-hatnote:
 ---
 
 {% include infoboxes/character.html

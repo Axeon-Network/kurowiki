@@ -5,6 +5,7 @@ redirect_from:
 - TagGen
 - TagGenerator
 - Axeon_Deltari_Build_Tag_Generator
+hatnote: This article is a stub and will be finished in Release Candidate 2.
 ---
 
 The **Axeon Panther Version Master Utility**, simply reffered to as **Panther** (formerly known as *TagGen* and the *Axeon Deltari Build Tag Generator*) is a component present in *[Deltari](Deltari)* (including [subquesent](Deltari_Meta) [forks](KuroWiki)) and *[Project Cuber](Cuber)* designed to automatically generate a new version number after each build. It uses a modified version of the [Microsoft Windows version number format](https://betawiki.net/wiki/Build_tag) for version numbers, commonly reffered to as *build tags*. 
@@ -23,4 +24,4 @@ The Panther utility uses a custom version of the Microsoft Windows build tag for
 - `timestamp`: The compilation date and time of the build itself based on the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format. It is usually in the UTC-6 or UTC+2 (or +3 depending on Daylight Saving Time) timezones, but it depends by branch.
 
 # Usage and Implementation
-
+On prior versions of Panther, the version numbers would be called via ``{{ site.version.object }}``, such as ``{{ site.version.build }}``. Starting with version 3.0, the version numbers are written to `_includes/version.html`, which then can be called independently or fully via ``{{ AKN_OBJECT }}``, such as ``{{ AKN_VERSION }}``. To call the full build tag, the `full` object can be called.

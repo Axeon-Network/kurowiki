@@ -1,10 +1,6 @@
 ---
 title: Installing Windows Longhorn via MS-DOS! (Post-Reset)
 permalink: Installing_Windows_Longhorn_via_MS-DOS
-hatnote:
-aliases:
-    - 5001 via dos
-    - longhorn via dos
 dyk:
     - "...that [Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS) was originally meant to be a [Lynxmic](Lynxmic) video?"
 ---

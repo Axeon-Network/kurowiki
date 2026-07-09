@@ -29,4 +29,4 @@ Another compile of this build (practically wearing the same build tag) was sent 
 
 
 # Notes
-[^1]: The build tag does not display a compilation date nor build lab, but images of this build were sent on the aforementioned date on the [Axeon Network](Axeon_Network) Discord server showing progress of HoriWiki at that time.<br>Additionally, all KuroWiki Pre-Alpha, Alpha and Beta builds were compiled from the main branch before [KuroWiki build 367 (material)](KuroWiki_build_367_(material)).
+[^1]: Even though the build tag does not show a compilation date nor build lab, images of this build were sent on the [Axeon Network](Axeon_Network) Discord server on the aforementioned date.

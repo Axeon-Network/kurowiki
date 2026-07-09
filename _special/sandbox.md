@@ -87,7 +87,8 @@ Life is a highway!<br>Well I wanna ride it all night loooong! (whoo!)<br>If you'
 Life is a highway!<br>Well I wanna ride it all night looong! (all night loong!)<br>If you're goin' my way! (you're my way!)<br>I wanna drive it all night loong! (all night looong!!)
 
 
-# HlJS test
+# Highlighting test
+The following samples are powered by Highlight.JS:
 
 ```js
 function executeSearch(query) {
@@ -105,7 +106,7 @@ function executeSearch(query) {
 ```css
 /* 
     Kuro/ModularDelta Custom Material Design Lite Stylesheet File
-    Written by KitSixtyFour/StupidBiFox
+    Written by KitSixtyFour/SnowyBiFox
     Copyright 2025-2026 Axeon Network.
 
     Material Design and Material Design Lite (MDL) are Copyright 2016 Google Inc 
@@ -234,3 +235,312 @@ echo           psh               - push work to github
 echo           hlp               - print this message
 exit /b
 ```
+
+The following segment uses the `raw` Liquid tag to escape Jekyll builds:
+```html
+{% raw %}
+<div class="wiki-gallery">
+{% include items/gallery.html
+  image_src="res/img/articles/helloworld/untitled.png"
+  caption="Lorem ipsum dolor sit amet..." %}
+
+{% include items/gallery.html
+  image_src="res/img/articles/helloworld/untitled2.webp"
+  caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
+
+{% include items/gallery.html
+  image_src="res/img/articles/helloworld/untitled3.jpg"
+  caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." %}
+</div>
+{% endraw %}
+```
+
+Additionally, this is a test of `highlight`:
+{% highlight js %}
+// SpringViewer Codename "Trifrost" Version 3.00
+// Written by KitSixtyFour/SnowyBiFox
+
+document.addEventListener('DOMContentLoaded', () => { 
+    const header = document.querySelector('.mdl-layout__header');
+    const drawer = document.querySelector('.mdl-layout__drawer'); 
+    const mainBody = document.body; 
+    const viewer = document.getElementById('springviewer');
+    const viewerCaption = document.getElementById('viewer-caption');
+    const closeBtn = document.querySelector('.close-btn');
+    const prevBtn = document.querySelector('.nav-btn.prev-btn');
+    const nextBtn = document.querySelector('.nav-btn.next-btn');
+    const viewerMediaContainer = document.getElementById('viewer-media-container');
+    const dlButton = document.querySelector('.dl-btn'); 
+    const flscrButton = document.querySelector('.flscr-btn');
+    const viewerCounter = document.querySelector('.viewer-counter');
+    const opnButton = document.querySelector('.opn-btn');
+
+
+    // jekyll can convert markdown to html via markdownify, which works on the gallery items,
+    // when springviewer sees it, it uses something like [Text](URL) since it uses the raw data,
+    // so we make a small markdown helper so it displays "correctly".
+    const miniMarkdownify = (text) => {
+    if (!text) return '';
+    return text
+        .replace(/\*\*\*(.*?)\*\*\*/g, '<b><i>$1</i></b>') // Bold + Italic
+        .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')           // Bold
+        .replace(/\*(.*?)\*/g, '<i>$1</i>')               // Italic
+        .replace(/~~(.*?)~~/g, '<del>$1</del>')          // Strikethrough
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>'); // Links
+    };
+
+    let drawerBtn = null;
+    setTimeout(() => {
+        const foundBtn = document.querySelector('.mdl-layout__drawer-button');
+        if (foundBtn) {
+            drawerBtn = foundBtn; 
+        } else {
+            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running on this page.");
+        }
+    }, 55);
+
+    const excludedID = 'viewer-media-element';
+    const bannerID = 'drawer-banner';
+    let galleryMedia = []; 
+    let currentIndex = -1; 
+    let totalMediaCount = 0;
+
+    const formatBytes = (bytes, decimals = 2) => {
+        if (bytes === 0) return '0 bytes';
+        const k = 1024;
+        const dm = decimals < 0 ? 0 : decimals;
+        const sizes = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    };
+    
+    const clearDetailsDialog = () => {
+        document.getElementById('dialog-filename').textContent = 'dummy';
+        document.getElementById('dialog-filesize').textContent = 'dummy';
+        document.getElementById('dialog-resolution').textContent = 'dummy';
+        document.getElementById('dialog-author').textContent = 'dummy';
+        document.getElementById('viewer-details-author').textContent = 'dummy';
+        document.getElementById('dialog-uploaddate').textContent = 'dummy';
+    };
+
+    const updateDetailsDialog = async (imgElement) => {
+        const url = imgElement.src;
+        let pathStart = url.indexOf('/', url.indexOf('://') + 3); 
+        let filename = (pathStart !== -1) ? url.substring(pathStart) : url;
+        const prefixToRemove = '/kurowiki/';
+        if (filename.startsWith(prefixToRemove)) {
+            filename = filename.substring(prefixToRemove.length);
+        }
+        document.getElementById('dialog-filename').textContent = filename;
+        const author = imgElement.getAttribute('author') || 'Axeon Network';
+        document.getElementById('dialog-author').textContent = author;
+        document.getElementById('viewer-details-author').textContent = author;
+
+        const width = imgElement.naturalWidth || 0;
+        const height = imgElement.naturalHeight || 0;
+        document.getElementById('dialog-resolution').textContent = (width > 0) ? `${width}x${height} pixels` : 'N/A';
+
+        document.getElementById('dialog-filesize').textContent = 'Loading...';
+        document.getElementById('dialog-uploaddate').textContent = 'Loading...';
+
+        try {
+            const response = await fetch(url, { method: 'HEAD' });
+            const contentLength = response.headers.get('content-length');
+            if (contentLength) {
+                document.getElementById('dialog-filesize').textContent = formatBytes(parseInt(contentLength, 10));
+            } else {
+                document.getElementById('dialog-filesize').textContent = 'FLSIZE_REQ_FAILED';
+                console.error(`*** ERROR 0x0007 (FLSIZE_REQ_FAILED)\nThe request for fetching the file size has failed. ${err.message}`)
+            }
+            
+            const lastModified = response.headers.get('last-modified');
+            if (lastModified) {
+                const date = new Date(lastModified).toLocaleDateString('en-GB', { 
+                    year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' 
+                });
+                document.getElementById('dialog-uploaddate').textContent = date;
+            } else {
+                document.getElementById('dialog-uploaddate').textContent = 'MDFDATE_REQ_FAILED';
+                console.error(`*** ERROR 0x0008 (MDFDATE_REQ_FAILED)\nThe request for fetching the last modified date has failed. ${err.message}`);
+            }
+        } catch (error) {
+            document.getElementById('dialog-filesize').textContent = 'The request has failed. Please see the console for more information.';
+            document.getElementById('dialog-uploaddate').textContent = 'The request has failed. Please see the console for more information.';;
+        }
+    };
+{% endhighlight %}
+
+# Recent news and featured article
+{% assign news_items = site.news | sort: "date" | reverse | where_exp: "item", "item.disabled != true" %}
+{% for item in news_items %}
+- [{{ item.title }}]({{ item.url }})
+{% endfor %}
+
+{% assign current_date_slug = "now" | date: "%Y%m" %}
+{% assign featured_page = site.featured | where: "slug", current_date_slug | first %}
+
+Showing featured article for **{{ "now" | date: "%B" }}** of **{{ "now" | date: "%Y"}}**:
+
+{% if featured_page %}
+{{ featured_page.content | markdownify }}
+    {% else %}
+        <p>The article cannot be found. Please check the sources.</p>
+{% endif %}
+
+
+## mj time lol
+You know I'm bad, I'm bad, you know it!<br>You know I'm bad, I'm bad, you know it!<br>And the whole world has to answer right now to tell you once again~<br>You know I'm woo~, I'm bad, you know it<br>You know I'm baaad~ (really really bad)<br>Ya know, ya know, ya know, you know it, shamone<br>And the whole world has to answer right now to tell you once again, who's bad?
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*-- Michael Jackson, 1987*.
+
+# Material Design Lite Accent Color
+This page was originally `Debug:Accent_Color`/`mdlaccentest.md`. It was moved here because, who's gonna see this page anyway? :3<br>yes this is a port:
+
+me when the material design is lite (real)
+
+<!-- Settings Toggles -->
+<header>
+    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events is-upgraded" for="darkModeToggle" data-upgraded=",MaterialSwitch,MaterialRipple">
+        <input type="checkbox" id="darkModeToggle" class="mdl-switch__input">
+        <span class="mdl-switch__label">Unchecked</span>
+    <div class="mdl-switch__track"></div><div class="mdl-switch__thumb"><span class="mdl-switch__focus-helper"></span></div><span class="mdl-switch__ripple-container mdl-js-ripple-effect mdl-ripple--center" data-upgraded=",MaterialRipple"><span class="mdl-ripple"></span></span></label>
+</header>
+<header>
+    <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect is-checked mdl-js-ripple-effect--ignore-events is-upgraded" for="onekoToggle" data-upgraded=",MaterialSwitch,MaterialRipple">
+        <input type="checkbox" id="onekoToggle" class="mdl-switch__input">
+        <span class="mdl-switch__label">Checked</span>
+    <div class="mdl-switch__track"></div><div class="mdl-switch__thumb"><span class="mdl-switch__focus-helper"></span></div><span class="mdl-switch__ripple-container mdl-js-ripple-effect mdl-ripple--center" data-upgraded=",MaterialRipple"><span class="mdl-ripple"></span></span></label>
+</header>
+
+<br>
+
+<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+  <i class="material-icons">add</i>
+</button>
+
+<!-- Colored raised button -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  Button
+</button>
+
+<!-- Accent-colored raised button -->
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">
+  Button
+</button>
+<br>
+<!-- Wide card with share menu button -->
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('res/img/articles/cometadv527/windows81.png') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Welcome</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Mauris sagittis pellentesque lacus eleifend lacinia...
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
+<br>
+<div class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+<br>
+<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+<br>
+<!-- Default Slider -->
+<input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="0" tabindex="0">
+  <br>
+  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+  <span class="mdl-checkbox__label">Checked</span>
+</label>
+<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+  <span class="mdl-checkbox__label">Unchecked</span>
+</label>
+<br>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  <span class="mdl-radio__label">First</span>
+</label>
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1">
+  <span class="mdl-radio__label">First</span>
+</label>
+<br>
+<label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
+  <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input" checked>
+  <i class="mdl-icon-toggle__label material-icons">format_bold</i>
+</label>
+<label class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
+  <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input">
+  <i class="mdl-icon-toggle__label material-icons">format_bold</i>
+</label>
+<br>
+
+
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Codename</th>
+      <th class="mdl-data-table__cell--non-numeric">Preliminary Name</th>
+      <th class="mdl-data-table__cell--non-numeric">Final Release</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Revolution</td>
+      <td class="mdl-data-table__cell--non-numeric">-</td>
+      <td class="mdl-data-table__cell--non-numeric">Wii</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Project Reality</td>
+      <td class="mdl-data-table__cell--non-numeric">Nintendo Ultra 64</td>
+      <td class="mdl-data-table__cell--non-numeric">Nintendo 64</td>
+    </tr>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">Home Video Computer</td>
+      <td class="mdl-data-table__cell--non-numeric">Advanced Video System</td>
+      <td class="mdl-data-table__cell--non-numeric">Nintendo Entertainment System</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Text...</label>
+  </div>
+</form>
+<br>
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="sample3">
+    <label class="mdl-textfield__label" for="sample3">Text...</label>
+  </div>
+</form>
+<br>
+<div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">account_box</div>
+
+# what else can i put here?
+i got no idea :3

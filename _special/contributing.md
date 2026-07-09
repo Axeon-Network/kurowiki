@@ -61,21 +61,22 @@ To help articles become more complete, KuroWiki hosts a set of items that are co
 ### Gallery
 Similar to other wikis, KuroWiki also supports galleries, which are a clean and organized way to show and demo any images. In order to import this component, you'd need to use the following structure:
 
-```html
-<div class="wiki-gallery">
-&#123;% include items/gallery.html
+```txt
+{% raw %}<div class="wiki-gallery">
+{% include items/gallery.html
   image_src="res/img/articles/helloworld/untitled.png"
   caption="Lorem ipsum dolor sit amet..." %}
 
-&#123;% include items/gallery.html
+{% include items/gallery.html
   image_src="res/img/articles/helloworld/untitled2.webp"
   caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 
-&#123;% include items/gallery.html
+{% include items/gallery.html
   image_src="res/img/articles/helloworld/untitled3.jpg"
   caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." %}
-</div>
+</div>{% endraw %}
 ```
+<!-- dont use breaklines so the output doesnt break!~ -->
 
 Which would output this something similar to this:
 
@@ -90,12 +91,12 @@ Which would output this something similar to this:
 {% include items/embed.html
   image_src="res/img/articles/contributing/embedEx.png"
   caption="Lorem ipsum dolor sit amet..." %}
-The embed item is a quick short way to put an image in your article. Unlike the gallery item, this directly embeds into the content (hence its name) and only supports one image at a time. This is useful for minor examples of the content where it is used in. To import it, use the following structure:
+The embed item is a quick short way to put an image in your article. Unlike the gallery item, this directly embeds into the content (hence its name) and only supports one image at a time. This is useful for minor examples of the content where it is used in, such as small notes, slides, demos, or quite anything else!<br>To import it, use the following structure:
 
-```
-&#123;% include items/embed.html
+```txt
+{% raw %}{% include items/embed.html
   image_src="res/img/articles/helloworld/untitled.png"
-  caption="Lorem ipsum dolor sit amet..." %}
+  caption="Lorem ipsum dolor sit amet..." %}{% endraw %}
 ```
 
 Which would output something like what you currently see! A good thing about these items is that they're customizable! You can set `left` to true when including the item so it attaches to the left instead of the right. Be sure to include it before the content that you want it attached to!
@@ -105,8 +106,8 @@ The infobox item is usually located on the right side of the page, and includes 
 
 Currently upstream Deltari/KuroWiki supports the following types of infobox: `build`, `channel`, `character`, `site`, `video`. Below is an example template for the `build` type of infobox (for the other types and allowed variables, please look at their corresponding includes files):
 
-```
-&#123;% include infoboxes/build.html
+```txt
+{% raw %}{% include infoboxes/build.html
 family='KuroWiki'
 familyurl='KuroWiki'
 buildtag='6.0.3933.nekori64.251027-1830'
@@ -115,16 +116,8 @@ build='3933'
 lab='nekori64'
 compiled='2025-10-27 18:30 UTC-6'
 image='res/img/articles/horiwiki/article.png'
-%}
+%}{% endraw %}
 ```
-
-The end result of the above example is this:
-
-<div class="wiki-gallery">
-{% include items/gallery.html 
-    image_src="res/img/articles/contributing/infobox.png" 
-    style="width:30%;" %}
-  </div>
 
 Just like with the gallery, you can change these variables to your liking! Just make sure the infobox item is located just after the frontmatter but before the actual page content!
 

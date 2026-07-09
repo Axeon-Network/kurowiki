@@ -17,7 +17,7 @@
             </tr>
             <tr>
                 <th>Designed by</th>
-                <td>{{ include.designer }}</td>
+                <td>{{ include.designer | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Introduced</th>
@@ -30,15 +30,15 @@
 	<tbody>
        	<tr>
                 <th>Born</th>
-                <td>{{ include.name }}<br>{{ include.bod }}</td>
+                <td>{{ include.name }}<br>{{ include.bod | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Nationality</th>
-                <td>{{ include.nationality }}</td>
+                <td>{{ include.nationality | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
 	    <tr>
                 <th>Residence</th>
-                <td>{{ include.residence }}</td>
+                <td>{{ include.residence | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
 	<tr>
                 <th>Gender</th>

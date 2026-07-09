@@ -14,13 +14,11 @@ Additionally, a Minecraft world containing a main "lobby" for the then-known as 
 
 Tentatives at hosting a Minecraft Server date back to summer 2018, when the then-known-as Axeon Community was planning a joined game night with one of its partnered Discord Servers. However, this never happened.
 
-<div>
-    {% include items/embed.html 
-        image_src="res/img/articles/midorimc/2021.png" 
-        alt_text="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021" 
-        caption="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021"
-        style="width:30%; height:auto" %}
-        </div>
+{% include items/embed.html 
+    image_src="res/img/articles/midorimc/2021.png" 
+    caption="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021"
+    style="width:30%; height:auto" %}
+
 
 The idea of an "AxeonMC" had been dusted off once more in March 2025, following the closure of [the original Horicraft](Horicraft) caused by a disagreement between the server hoster and [Kit](KitSixtyFour), the owner of Horicraft. However this never happened as the [Horicraft (2)](Horicraft_(2)) server came to life just a few days later.
 

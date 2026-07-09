@@ -26,4 +26,4 @@ screensize='15.6" built-in touchscreen LCD'
 os='Windows 10 Enterprise LTSC 2019'
 %}
 
-**CometLappy** (model *HP Pavilion Laptop 15-cc060wm*) is a laptop manufactered by HP Inc. in 2017. It is [Kit](KitSixtyFour)'s main computer since April 5th 2026 and the successor to [NishiLappy](NishiLappy) since April 27th.
+**CometLappy** (model *HP Pavilion Laptop 15-cc060wm*) is a laptop manufactered by HP Inc. in 2017. It is [Kit](KitSixtyFour)'s main computer since 5 April 2026 and the successor to [NishiLappy](NishiLappy) since the 27th.

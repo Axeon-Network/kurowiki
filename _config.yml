@@ -154,6 +154,8 @@ collections:
   featured:
     output: true
   news:
+    output: true
+    permalink: "./Document::slug"
 
 
 # == OTHER ==
@@ -164,6 +166,8 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md,mk"
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
+  # "jekyll-make-this-work" ahh names lmfao
 
 kramdown:
   input: GFM

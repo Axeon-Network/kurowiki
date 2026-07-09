@@ -4,6 +4,7 @@ permalink: Kit_Moments
 redirect_from:
     - Horibyte_Moments
     - Stuffy_Moments
+    - Nekori_Moments
 ---
 
 **Kit Moments** (formerly known as, **Nekori Moments**, **Horibyte Moments** and **Stuffy Moments**) are moments when Kit breaks any sort of tech (that being software, hardware, services, etc) in an unexpected way.

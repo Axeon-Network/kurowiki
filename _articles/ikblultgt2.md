@@ -1,10 +1,8 @@
 ---
 title: '%iKBLULTGT2%'
 permalink: iKBLULTGT2
-aliases:
-    - intel graphics driver
 dyk:
-    - "...that the \"%iKBLULTGT2%\" is named such way due to a bug in the .inf file?"
+    - "...that \"[%iKBLULTGT2%](iKBLULTGT2)\" is named such way due to a bug in the .inf file?"
 ---
 
 {% include items/embed.html 

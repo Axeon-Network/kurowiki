@@ -33,4 +33,4 @@ Alongside that, this build introduces a search engine (codenamed *DeltaSearch*) 
 </div>
 
 # Notes
-[^1]: The build tag shows a compilation date of May 15 2025 at 2:22pm but it wasn't compiled and released a day later, according to [commit f2c53ac](https://github.com/stupidbifox/legacy-kuro/commit/f2c53ac2b01e4e2152323d408d3d42696e759e67).
+[^1]: The build tag shows a compilation date of May 15 2025 at 2:22pm but it wasn't compiled and released a day later, according to [commit f2c53ac](https://github.com/snowybifox/legacy-kuro/commit/f2c53ac2b01e4e2152323d408d3d42696e759e67).

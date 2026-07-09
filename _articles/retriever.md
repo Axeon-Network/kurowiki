@@ -37,7 +37,7 @@ Following the compilation of [build 677](Comet_Adventure_build_677), the develop
 
 > Project Retriever realistically could be possible to make if I were to have the skills needed to make it. I still want to get dirty with the code, but I can only do <span title='Abbreviation of "website development". Similar to how "Game development" is abbreviated to "gamedev".' style="cursor:help;text-decoration:underline dotted;">webdev</span>, and *[Nexus](Nexus)* is proof of that. I can still get people, but I'm not good enough at communicating with people about my ideas; I was already kind of freezing when I worked with pquirrel when *[Icefield](Icefield)* was actively worked on.<br><br>However, I still can get involved aside from being the director and creator, I just need to learn how to draw better to meet my expectations. Story-wise I already get enough ideas for it on and off, just that I wanna learn how to make the usual "protagonist-defeats-antagonist" story without it getting too annoying. I still dream of [Comet](Comet) and [Daylight](Daylight) saving the world, I just need to get my shit together to form The Retriever Team.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- KitSixtyFour on the Retriever project. June 2026.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*-- KitSixtyFour on the Retriever project. June 2026.*
 <!-- always use 7 spaces so it aligns with the quote -->
 
 # Notes

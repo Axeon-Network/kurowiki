@@ -5,9 +5,6 @@ isTitleItalic: true
 redirect_from:
     - ClyronWebsite
     - KayWebsite
-aliases:
-    - kayaurora website
-    - averyeclipse website
 hatnote: For a complete list of AveryWebsite versions, see [AveryWebsite version history](AveryWebsite_version_history).
 ---
 {% include infoboxes/site.html
@@ -23,7 +20,7 @@ initialVersionReleaseDate='2024-07-23'
 currentVersion='v26.6.1'
 currentVersionReleaseDate='2026-06-29'
 sourceModel='Open source'
-repoLink='https://github.com/AveryEclipse/averyeclipse.github.io'
+repoLink='[AveryEclipse/averyeclipse.github.io](https://github.com/AveryEclipse/averyeclipse.github.io)'
 repoHost='GitHub'
 status='Available'
 link='https://avery.is-a.dev'

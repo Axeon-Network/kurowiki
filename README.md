@@ -10,8 +10,11 @@
 **This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it the *Deltari* engine!)\
 Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *AveryEclipse*!)
 
+> [!NOTE]
+> Looking for the engine that powers KuroWiki? Head out to the [Akane](https://github.com/Axeon-Network/Akane) repository!
+
 ## Contributing & Support
-*Remember, this is pre-release software!* If you encounter any issues or just have any suggestion, we're all ears! Just feel free to open a new issue in the [Issues](https://github.com/Axeon-Network/kurowiki/issues) page.\
+*Remember, this is pre-release software!* If you encounter any issues or just have any suggestion, we're all ears! Just feel free to open a new issue in the [Issues](https://github.com/Axeon-Network/KuroWiki/issues) page.\
 Or, if you prefer chatting back-and-forth, feel free to join the [Discord server](https://axeon-network.github.io/discord)!
 
 You are always welcome to contribute with new KuroWiki articles, in accordance with the [Contributing to KuroWiki](https://axeon-network.github.io/kurowiki/Contributing_to_KuroWiki) page.

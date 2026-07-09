@@ -6,8 +6,6 @@ redirect_from:
     - Horicraft_(1)
     - Horicraft_1
     - StuffyCraft
-aliases:
-    - horicraft 1
 dyk: 
     - "...that [Horicraft](Horicraft) was originally known as \"StuffyCraft\"?"
 ---

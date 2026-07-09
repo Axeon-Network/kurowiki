@@ -1,7 +1,7 @@
 ---
 title: Nishi's Den
 permalink: Nishi's_Den
-hatnote: "This article is about the server formerly known as NekoCafe. For the character, see [Nishi](Nishi).<br>we need to finish this."
+hatnote: "This article is about the server formerly known as NekoCafe. For the character, see [Nishi](Nishi).<br>This article is a stub and will be finished in Release Candidate 2."
 redirect_from:
 - NekoCafe
 ---

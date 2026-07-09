@@ -1,8 +1,7 @@
 ---
 title: StuffyXP 2
 permalink: StuffyXP_2
-hatnote:
-aliases:
+search_exclude: true
 ---
 
 **StuffyXP 2** may refer to:

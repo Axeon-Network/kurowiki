@@ -48,7 +48,7 @@ This is the first AstroNT-branded project that changes the edition name in order
 
 
 # Videos
-As of June 2026, there are eighteen videos uploaded to the AstroNT channel (excluding the channel trailer):
+As of July 2026, there are eighteen videos uploaded to the AstroNT channel (excluding the channel trailer):
 
 - ***[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*** (uploaded 2025-11-03)
 - ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
@@ -67,6 +67,7 @@ As of June 2026, there are eighteen videos uploaded to the AstroNT channel (excl
 - ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)*** (uploaded 2026-05-29)
 - ***[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*** (uploaded 2026-06-10)
 - ***[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*** (uploaded 2026-06-19)
+- ***[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*** (uploaded 2026-06-26)
 
 # Gallery
 

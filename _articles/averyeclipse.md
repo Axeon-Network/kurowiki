@@ -4,8 +4,6 @@ permalink: AveryEclipse
 redirect_from:
    - Clyron
    - KayAurora
-aliases:
-   - avery
 ---
 
 **AveryEclipse** (formerly known as **KayAurora**, **Clyron** and **Lynxmic**) (born 17 August[^1]), also known as just **Avery** or **Ave**, is an European[^1] content creator and developer, (occasional) gamer and graphics designer.

@@ -54,13 +54,13 @@
             {% if include.predecessor %}
             <tr>
                 <th>Preceded by</th>
-                <td>{{ include.predecessor }}</td>
+                <td>{{ include.predecessor | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             {% if include.successor %}
             <tr>
                 <th>Succeeded by</th>
-                <td>{{ include.successor }}</td>
+                <td>{{ include.successor | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             {% if include.repoHost && include.repoLink %}

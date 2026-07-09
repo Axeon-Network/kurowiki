@@ -1,7 +1,6 @@
 ---
 title: Cuber build 418
 permalink: Cuber_build_418
-aliases: cuber 418
 ---
 
 {% include infoboxes/build.html
@@ -15,4 +14,6 @@ image='res/img/articles/cuber418/image.png'
 image_caption='The Demo page'
 %}
 
-**Cuber build 418** is an Alpha Escrow build of *[Project Cuber](Cuber)*. It was compiled on 2 May 2026 at 8:00 pm. This build enhances further the Demo page, where the button controls were fixed, and the "Tab test" window was re-introduced, albeit not positioned correctly. Additionally, the debug red box under the buttons, used for debugging the flex gap between buttons, was fixed and is no longer shown.
+**Cuber build 418** is an Alpha Escrow build of *[Project Cuber](Cuber)*. It was compiled on 2 May 2026 at 8:00 pm.
+
+This build enhances further the Demo page, where the button controls were fixed, and the "Tab test" window was re-introduced, albeit not positioned correctly. Additionally, the debug red box under the buttons, used for debugging the flex gap between buttons, was fixed and is no longer shown.

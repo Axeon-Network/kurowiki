@@ -121,7 +121,7 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **ReKanto**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The assembly-based rewrite of the *Arctic* kernel, included in [public versions of Arctic](https://github.com/kitthebifox/arctic/releases).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The assembly-based rewrite of the *Arctic* kernel, included in [public versions of Arctic](https://github.com/snowybifox/arctic/releases).
 
 **Retriever**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alternative codename of *[Comet Adventure](Comet_Adventure)*.
@@ -158,4 +158,4 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 
 
 # References
-[^1]: *build.js - commit edb1785* - [github.com/kitthebifox/stuffyxp-website/blob/edb17853d923a889996abe566e3d1096f422308a/js/build.js](https://github.com/kitthebifox/stuffyxp-website/blob/edb17853d923a889996abe566e3d1096f422308a/js/build.js)
+[^1]: *build.js - commit edb1785* - [github.com/snowybifox/stuffyxp-website/blob/edb17853d923a889996abe566e3d1096f422308a/js/build.js](https://github.com/snowybifox/stuffyxp-website/blob/edb17853d923a889996abe566e3d1096f422308a/js/build.js)

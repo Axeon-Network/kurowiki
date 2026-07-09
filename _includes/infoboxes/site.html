@@ -20,7 +20,7 @@
             {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly }}</td>
+                <td>{{ include.formerly | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             <tr>
@@ -50,19 +50,21 @@
             {% if include.predecessor %}
             <tr>
                 <th>Preceded by</th>
-                <td>{{ include.predecessor }}</td>
+                <td>{{ include.predecessor | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             {% if include.successor %}
             <tr>
                 <th>Succeeded by</th>
-                <td>{{ include.successor }}</td>
+                <td>{{ include.successor | markdownify | remove: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
+            {% if include.repoHost && include.repoLink %}
             <tr>
                 <th>Repository</th>
                 <td><b>{{ include.repoHost }}</b>:<br>{{ include.repoLink | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
+            {% endif %}
             {% if include.status %}
             <tr>
                 <th>Status</th>

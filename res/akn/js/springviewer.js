@@ -1,5 +1,5 @@
 // SpringViewer Codename "Trifrost" Version 3.00
-// Written by KitSixtyFour/StupidBiFox
+// Written by KitSixtyFour/SnowyBiFox
 
 // Licensed under The MIT License:
 //

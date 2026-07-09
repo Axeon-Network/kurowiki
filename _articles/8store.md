@@ -1,10 +1,8 @@
 ---
 title: The Return of the Windows Store in Windows 8.1?! (8Store)
 isTitleItalic: true
-permalink: The_Return_of_Windows_Store_in_Windows_8_1
-hatnote:
-aliases:
-    - 8store
+permalink: The_Return_of_Windows_Store_in_Windows_8.1.html
+redirect_from: The_Return_of_Windows_Store_in_Windows_8_1
 dyk:
     - "...that *[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_Windows_Store_in_Windows_8_1)* became the most popular [AstroNT](AstroNT) video only a week after its release?"
 ---

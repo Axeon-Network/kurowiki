@@ -1,7 +1,6 @@
 ---
 title: Cuber build 64
 permalink: Cuber_build_64
-aliases: cuber 64
 ---
 
 {% include infoboxes/build.html

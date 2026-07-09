@@ -6,11 +6,6 @@ redirect_from:
   - DHI
   - Dogui_Heavy_Industries_Incorporated
   - Dogui_Heavy_Industries_Inc
-aliases:
-  - dhi
-  - dhi pictures
-  - dhi movies
-  - dhi turtles
 ---
 
 {% include items/embed.html 

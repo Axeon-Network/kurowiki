@@ -2,10 +2,6 @@
 title: Solarix Website
 isTitleItalic: true
 permalink: Solarix_Website
-aliases:
-    - briciworld website
-    - bw website
-    - solarixtech website
 hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 {% include infoboxes/site.html

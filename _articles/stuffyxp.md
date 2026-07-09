@@ -1,9 +1,7 @@
 ---
 title: StuffyXP
 permalink: StuffyXP
-hatnote: This article is about the deleted YouTube channel. For its creator who used to be known as StuffyXP, see <a href='KitSixtyFour'>KitSixtyFour</a>. For the archived Discord server, see <a href='StuffyXP_Hangout'>StuffyXP Hangout</a>. For the website, see <a href='StuffyXP_Website'>StuffyXP Website</a>. For a full list StuffyXP videos, see <a href='List_of_StuffyXP_videos'>List of StuffyXP videos</a>.<br>This article is incomplete and will be finished in Release Candidate 2.
-aliases:
-    - stxp
+hatnote: This article is about the deleted YouTube channel. For its creator who used to be known as StuffyXP, see <a href='KitSixtyFour'>KitSixtyFour</a>. For the archived Discord server, see <a href='StuffyXP_Hangout'>StuffyXP Hangout</a>. For the website, see <a href='StuffyXP_Website'>StuffyXP Website</a>. For a list StuffyXP videos, see <a href='List_of_StuffyXP_videos'>List of StuffyXP videos</a>.<br>This article is incomplete and will be finished in Release Candidate 2.
 isTitleItalic: true     # to enable italics in the page title without messing up the sitemap.
 dyk:
   - "...that the original handle for [StuffyXP](StuffyXP) was \"StuffyYT20\"?"
@@ -24,7 +22,7 @@ banner='res/img/articles/stuffyxp/stuffyxpbanner2025.png'
 name='StuffyXP'
 formerly='Yoshi Land0842 (2020-2021)<br>Stuff Life (2021-2023)<br>Stuffy (2023-2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='44 (including streams)'
+videos='44 (including streams and private videos)'
 subs='238'
 views='12,052'
 platform='YouTube'
@@ -34,11 +32,13 @@ link='youtube.com/@StuffyXP'
 deletiondate='2025-03-14'
 %}
 
-**StuffyXP** (commonly abbreviated as **STXP**) was a tech-focused (formerly *plushie-focused*) YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was closed and deleted in 14 March 2025 due to Kit's declining mental health status.
+***StuffyXP*** (commonly abbreviated as **STXP**) was a tech-focused (formerly plushie-focused) YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was closed and deleted in 16 March 2025 due to Kit's declining mental health status.
 
 {% include items/tableofcontents.html %}
 
 # Videos
+Over its lifespan, *StuffyXP* had 11 public videos.
+
 - ***[A VMware First-Timer installs Windows XP!](A_VMware_First-Timer_installs_Windows_XP!)*** (548 views - Uploaded 2024-02-13)
 - ***[Installing modern programs on Windows Vista!](Installing_modern_programs_on_Windows_Vista!)*** (742 views - Uploaded 2024-07-23)
 - ***[The Windows XP Vibes are here! -- Whistler Beta 2](The_Windows_XP_Vibes_are_here!_--_Whistler_Beta_2)*** (140 views - Uploaded 2024-08-04)
@@ -125,11 +125,10 @@ pfp='res/img/articles/stuffyxp/stuffyxpextras2025.png'
 banner='res/img/articles/stuffyxp/stuffyxpextrasbanner.jpg'
 name='StuffyXP Extras'
 formerly='Sttuf Blogs (2021-2023)<br>Stuffy + (2023-2024)<br>StuffyXP Plus (Mid 2024)'
-creator='KitSixtyFour'
-creatorurl='KitSixtyFour'
+creator='[KitSixtyFour](KitSixtyFour)'
 videos='11'
-subs='19 [^2]'
-views='177 (estimated)[^2]'
+subs='19 (estimated)'
+views='177 (estimated)'
 platform='YouTube'
 state='Deleted'
 creationdate='2021-06-26'
@@ -153,8 +152,7 @@ pfp='res/img/articles/stuffyxp/stuffyxpvlogs2025.png'
 banner='res/img/articles/stuffyxp/stuffyxpvlogsbanner2025.png'
 name='StuffyXP Extras'
 formerly='Stuffy Vlogs (2023-2024)'
-creator='KitSixtyFour'
-creatorurl='KitSixtyFour'
+creator='[KitSixtyFour](KitSixtyFour)'
 videos='1'
 subs='15'
 views='15'
@@ -181,8 +179,7 @@ pfp='res/img/articles/stuffyxp/stuffy642025.png'
 banner='res/img/articles/stuffyxp/stuffy64banner2025.png'
 name='Stuffy 64'
 formerly='Stuff Life 64 (2023-2024)'
-creator='KitSixtyFour'
-creatorurl='KitSixtyFour'
+creator='[KitSixtyFour](KitSixtyFour)'
 videos='51'
 subs='178'
 views='40,227'

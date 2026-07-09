@@ -1,14 +1,12 @@
 ---
 title: Avery and Kit Collab
 permalink: Avery_and_Kit_Collab
-aliases:
-    - recreating old youtube thumbnails
 dyk:
     - "...that the [Avery and Kit Collab](Avery_and_Kit_Collab) was originally going to be edited by [Kit](KitSixtyFour)?"
     - "...that the [Avery and Kit Collab](Avery_and_Kit_Collab) was originally recorded in October 2024 but wasn't released until February 2025 due to the death of [TheCeleryPC](TheCeleryPC)?"
 ---
 {% include infoboxes/video.html
-title='Recreating Old YouTube Thumbnails (ft. @stupidbifox)'
+title='Recreating Old YouTube Thumbnails (ft. @SnowyBiFox)'
 channel='[AveryEclipse](https://youtube.com/@theaveryeclipse)'
 platform='YouTube'
 views='171'
@@ -17,7 +15,7 @@ link='[https://www.youtube.com/watch?v=Oum-DvZcY_w](https://www.youtube.com/watc
 image='res/img/articles/kayauroraandnekoricollab/thumbnail.png'
 %}
 
-***Recreating Old YouTube Thumbnails (ft. @stupidbifox)***[^1] is a video posted on the AveryEclipse channel on 15 February 2025 about remaking thumbnails for [KitSixtyFour](KitSixtyFour)'s [StuffyXP](StuffyXP) channel and [AveryEclipse](AveryEclipse)'s [Lynxmic](Lynxmic) channel (plus one AveryEclipse video).
+***Recreating Old YouTube Thumbnails (ft. @SnowyBiFox)***[^1] is a video posted on the AveryEclipse channel on 15 February 2025 about remaking thumbnails for [KitSixtyFour](KitSixtyFour)'s [StuffyXP](StuffyXP) channel and [AveryEclipse](AveryEclipse)'s [Lynxmic](Lynxmic) channel (plus one AveryEclipse video).
 
 # Collab Structure
 The collab itself consisted of 5 total rounds, where KitSixtyFour (back then Horibyte) and AveryEclipse (back then Clyron) remade thumbnails from their respective channels. The last round has a twist where Kit made a thumbnail for the Lynxmic channel and Avery made a thumbnail for the StuffyXP channel.

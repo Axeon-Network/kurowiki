@@ -1,8 +1,9 @@
 ---
 title: Stuffy's Website
 isTitleItalic: true
-permalink: Stuffy's_Website
-hatnote: Not to be confused with the [May 2024 Stuffy Website](Stuffy's_Website_(May_2024)), which has the same page title. # i told you i can use a fucking apostrophe
+permalink: Stuffy's_Website_(June_2024)
+hatnote: Not to be confused with its [predecessor](Stuffy's_Website_(May_2024)) nor its [successor](StuffyXP_Website) # i told you i can use a fucking apostrophe
+# i was gonna delete the hatnote line but the comment is gold so im keeping it
 redirect_from:
 - StuffyWebsite
 - Stuffys_Website
@@ -16,8 +17,7 @@ aliases:
 ---
 {% include infoboxes/site.html
 name="Stuffy's Website"
-developer='kit'
-developerarticle='Kit64'
+developer='[KitSixtyFour](KitSixtyFour)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='1.0 Public Beta'
@@ -25,16 +25,17 @@ initialVersionReleaseDate='2024-06-22'
 currentVersion='1.1'
 currentVersionReleaseDate='2024-06-27'
 sourceModel='Open source'
-repoLink='https://github.com/Kit64/stuffyxp-website'
+repoLink='[snowybifox/stuffyxp-website](https://github.com/snowybifox/stuffyxp-website)'
 repoHost='GitHub'
 status='Source code archived; website accessible'
-link='https://Kit64.github.io/stuffyxp-website/stuffywebsitewou'
+link='[snowybifox.github.io/stuffyxp-website/stuffywebsitewou](https://snowybifox.github.io/stuffyxp-website/stuffywebsitewou)'
 image='res/img/articles/stuffyswebsite/home.png'
+successor='*[StuffyXP Website](StuffyXP_Website)*'
 %}
 
-***Stuffy's Website*** (commonly abbreviated as ***StuffyWebsite***, ***Stuffy Website WOU***, or just ***WOU*** after the release of Update 1.1) was [KitSixtyFour](KitSixtyFour)'s personal website from June 2024 to August 2024. It was succeded by the *[StuffyXP Website](StuffyXP_Website)* in September 2024.
+***Stuffy's Website*** (commonly known as ***StuffyWebsite WOU*** to differentiate it from its [predecessor](Stuffy's_Website_(February_2024))) was [KitSixtyFour](KitSixtyFour)'s personal website from June 2024 to August 2024. It was succeded by the *[StuffyXP Website](StuffyXP_Website)* in September 2024.
 
-The website is currently available at [stupidbifox.github.io/stuffyxp-website/stuffywebsitewou](https://stupidbifox.github.io/stuffyxp-website/stuffywebsitewou), previously being available at [HoriWebsite](HoriWebsite)'s domain, and `stuffyxp.github.io`.
+The website is currently available at [snowybifox.github.io/stuffyxp-website/stuffywebsitewou](https://snowybifox.github.io/stuffyxp-website/stuffywebsitewou), previously being available at *[HoriWebsite](HoriWebsite)*'s domain, and `stuffyxp.github.io`.
 
 # Development
 

@@ -17,10 +17,14 @@ Jekyll::Hooks.register :site, :after_init do |site|
   unless $axeon_banner_shown
     dev_phase = site.config['devphase'] || "Gold Release"
     
+    # Check Whidbey environment variable first, then fall back to site config context
+    is_debug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
+    is_retail = ENV['WhdBuildType'] == 'fre' || (ENV['WhdBuildType'].nil? && site.config['retail'] == true)
+
     type = ""
-    if site.config['debug'] == true
+    if is_debug
       type = "(Debug)"
-    elsif site.config['retail'] == true
+    elsif is_retail
       type = "(Retail)"
     end
 
@@ -69,14 +73,17 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     lab = "#{date_stub}_#{user_stub}"
   end
 
-  if site.config['privatebuild'] == true
+  # Parse environmental conditions fed by Whidbey profile initialization
+  is_debug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
+  delta_enabled = ENV['WhdIsDeltaEnabled'] != 'no'
+  private_build = ENV['WhdPrivateBuild'] == 'yes'
+
+  if private_build
     current_user = ENV['USERNAME'] || ENV['USER'] || Etc.getlogin || "dummy"
     lab = "private/#{lab}(#{current_user})"
   end
 
   # ids
-  is_debug = site.config['debug'] == true
-  delta_enabled = site.config['builddelta'] == true
   id_prefix = site.config['idprefix'] || "dp"
   id_suffix = is_debug ? "chk" : "fre"
   id = "#{id_prefix}#{id_suffix}"

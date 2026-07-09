@@ -1,6 +1,7 @@
 ---
 title: NovaServer
 permalink: NovaServer
+hatnote: This article is a stub and will be finished in Release Candidate 2.
 ---
 
 **NovaServer** is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). The server existed since 19 July 2025 as a spiritual successor to the original Stoat [HoriServer](HoriServer), and was publicly announced on the [Axeon Network](Axeon_Network) Discord and Stoat servers on 26 July 2025.

@@ -2,7 +2,7 @@
 // Debug Keybinds JavaScript File
 
 // Copyright 2026 Axeon Network
-// Written by: StupidBiFox on 2026-05-09 8:52 pm
+// Written by: SnowyBiFox on 2026-05-09 8:52 pm
 // Last Updated: 2026-06-24 11:28 am
 
 // What is this? This is a small script to enable debug keybinds to Akane,

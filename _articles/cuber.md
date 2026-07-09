@@ -35,6 +35,8 @@ Along with the public release of what would eventually become *Cuber*, a variant
 
 Nevertheless, the development of *Cuber* has been slow, since it has been worked on alongside *[KuroWiki](KuroWiki)* and *[AstroNT](AstroNT)*, which is visible on the time differences between many builds.
 
+A preview version of *Cuber*, named [*Project Cuber, Minimal Edition*](Minimal_Cuber) is also in development, intended as a quick replacement to *HoriWebsite* while *Cuber* is finished. It is based on the Alpha codebase and includes utilities like a blog.
+
 # List of known builds
 ### Developer Preview
 [1.26-02-09_kit.260209-2052](Cuber_build_1)

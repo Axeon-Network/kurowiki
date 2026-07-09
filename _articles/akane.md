@@ -14,7 +14,9 @@ Akane uses the Jekyll static site generator for compatibility with [GitHub Pages
 # Implemetations
 ## KuroWiki
 {% include items/hatnote.html content='For more information, see [Axeon KuroWiki](KuroWiki).'%}
+
 **KuroWiki** (formally **Axeon KuroWiki**) is an online encyclopedia developed by the Axeon Network, originally created on May 2025. It is the commonplace implementation of the Akane engine, and is the primary use of the engine itself. As of June 2026, KuroWiki and Akane are developed together, similar to Chrome and Chromium.
+
 <div class="wiki-gallery">
 {% include items/gallery.html image_src='res/img/articles/kurowiki4450/home.png' caption='A screenshot of the home page of KuroWiki' %} <!-- todo: change it to 5200 when it gets compiled -->
 </div>

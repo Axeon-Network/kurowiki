@@ -2,12 +2,13 @@
 title: AveryWebsite version history
 permalink: AveryWebsite_version_history
 redirect_from:
-aliases:
-hatnote: Main article&#58; [AveryWebsite](AveryWebsite)
+hatnote: "Main article: [AveryWebsite](AveryWebsite)"
 ---
 This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of June 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
+
+{% include items/tableofcontents.html %}
 
 # Version 26.x
 
