@@ -3,3 +3,5 @@ Gemfile
 Gemfile.lock
 LICENSE
 .jekyll-cache
+_articles
+res/img/articles

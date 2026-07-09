@@ -1,3 +1,6 @@
+:: Axeon Whidbey Environment Framework for Microsoft Windows DOS/NT
+:: Copyright 2026 KitSixtyFour. For internal Axeon use only.
+
 @echo off
 :: Capture the true script path immediately before any argument shifting happens
 set "WhdScript=%~f0"
