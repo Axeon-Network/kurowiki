@@ -142,6 +142,12 @@ defaults:
       type: "special" # i like boys anyway -sfox64
     values:
       layout: "material"
+  -
+    scope:
+      path: "special"
+      type: "special"
+    values:
+      layout: "material"
 
 collections:
   files:
@@ -167,7 +173,11 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md,mk"
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate-v2
   # "jekyll-make-this-work" ahh names lmfao
+
+pagination:
+  enabled: true
 
 kramdown:
   input: GFM

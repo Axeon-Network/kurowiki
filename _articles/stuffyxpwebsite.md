@@ -27,7 +27,7 @@ successor='*[HoriWebsite](HoriWebsite)*'
 predecessor='*[Stuffy\'s Website](Stuffy\'s_Website_(June_2024))*'
 %}
 
-The ***StuffyXP Website*** was [KitSixtyFour](KitSixtyFour)'s personal website from September to December 2024. It was created as the successor to [Stuffy's Website](Stuffy's_Website_(June_2024)), which used the older [Dogui](Dogui)-era branding. It was replaced by [HoriWebsite](HoriWebsite) in January 2025 following Kit's personal alias rebrand from StuffyXP to Horibyte.
+The ***StuffyXP Website*** was [KitSixtyFour](KitSixtyFour)'s personal website from September to December 2024. It was created as the successor to *[Stuffy's Website](Stuffy's_Website_(June_2024))*, which used the older [Dogui](Dogui)-era branding. It was replaced by *[HoriWebsite](HoriWebsite)* in January 2025 following Kit's personal alias rebrand from StuffyXP to Horibyte.
 
 Development of the *StuffyXP Website* began in August 2024 to find a replacement to *Stuffy's Website*, which became visually outdated following the introduction of the StuffyXP branding one month earlier. By late September, the website was considered finished with the compilation of [build 1986](StuffyXP_Website_build_1986), which was published to `stuffyxp.github.io` not long after, effectively replacing the older site which could still be viewed on the `stuffywebsitewou` subdirectory. Throughout its lifespan, the website got updates, further improving the site. Its last update, [Update 2.1.2](StuffyXP_Website_build_2100), was released in February 2025.
 

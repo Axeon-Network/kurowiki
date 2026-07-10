@@ -15,6 +15,7 @@ gem "jekyll", "~> 4.3.4"
 group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem 'jekyll-sitemap'
+  gem 'jekyll-paginate-v2'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

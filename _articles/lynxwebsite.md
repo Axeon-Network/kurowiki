@@ -2,8 +2,6 @@
 title: LynxWebsite
 permalink: LynxWebsite
 isTitleItalic: true
-aliases:
-    - lynxmic website
 hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 {% include infoboxes/site.html
@@ -17,10 +15,10 @@ initialVersionReleaseDate='2023-08-26'
 currentVersion='2.1'
 currentVersionReleaseDate='2024-04-25'
 sourceModel='Open source'
-repoLink='(AveryEclipse/lynxwebsite)[https://github.com/AveryEclipse/lynxwebsite]'
+repoLink='[AveryEclipse/lynxwebsite](https://github.com/AveryEclipse/lynxwebsite)'
 repoHost='GitHub'
 status='Source code archived; website unavailable'
-link='https://lynxmic.github.io'
+link='[lynxmic.github.io](https://lynxmic.github.io)'
 image='res/img/articles/lynxwebsite/07-2024.png'
 %}
 
