@@ -112,7 +112,7 @@ _whd_load_config() {
 
 _whd_save_config() {
     cat << EOF > "whidbey.ini"
-:: AXEONWHIDBEY4
+AXEONWHIDBEY4
 [AxeonAkane]
 ArticlePath=$SourceArticles
 ImgPath=$SourceMedia

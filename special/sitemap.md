@@ -7,29 +7,38 @@ pagination:
   enabled: true
   collection: articles
   per_page: 50
-  permalink: ./Sitemap/Page_:num
-layout: material
+  permalink: ./Page_:num
+layout: sitemap # just kill me already
 ---
 
 This page contains a directory listing of all articles in this wiki arranged in alphabetical order.<br>
-There {% if paginator.total_pages.size < 2 %}is{% endif %}{% if paginator.total_pages.size > 1%}are{% endif %} {% if paginator.total_pages.size > 1 %}<b>{{ paginator.total_pages.size }}</b>{% endif %}{% if paginator.total_pages.size < 1 %}no{% endif %} {% if paginator.total_pages.size < 2 %}article{% endif %}{% if paginator.total_pages.size > 1 %}articles{% endif %}{% if paginator.total_pages.size < 1 %}articles{% endif %} in total.
+There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}are{% endif %} {% if site.articles.size > 1 %}<b>{{ site.articles.size }}</b>{% endif %}{% if site.articles.size < 1 %}no{% endif %} {% if site.articles.size < 2 %}article{% endif %}{% if site.articles.size > 1 %}articles{% endif %}{% if site.articles.size < 1 %}articles{% endif %} in total.
 
-{% for item in paginator.posts %}
-- [{{ item.title }}]({{ site.url }}{{ site.baseurl }}{{ item.url | remove: '.html' }}) - *{{ item.url | remove: '.html' | remove_first: '/' }}*
+<!-- cant use markdown no more -->
+
+{% assign paginator_posts = paginator.posts | sort_natural: "title" %}
+
+<ul>
+{% for item in paginator_posts %}
+<li style="margin-bottom: 8px; margin-top: 8px;">
+<a href="{{ site.url }}{{ site.baseurl }}{{ item.url | remove: '.html' }}">{{ item.title }}</a> - <i>{{ item.url | remove: '.html' | remove_first: '/' }}</i>
+</li>
+
 {% endfor %}
+</ul>
 
 {% if paginator.total_pages > 1 %}
 <nav class="pagination" role="navigation" aria-label="Pagination manager">
   {% if paginator.previous_page %}
-    <a class="pagination-previous" href="{{ paginator.previous_page_path | relative_url }}" title="Previous page"><i class="material-icons">assignment_late</i> Previous</a>
+    <a class="pagination-previous" href="{{ paginator.previous_page_path | relative_url }}" title="Previous page"><span><i class="material-icons">assignment_late</i> Previous</span></a>
   {% else %}
-    <button class="pagination-previous" title="You're already on the first page" disabled><i class="material-icons">assignment_late</i> Previous</button>
+    <span class="pagination-previous" title="You're already on the first page" disabled><i class="material-icons">assignment_late</i> Previous</sp>
   {% endif %}
   
   {% if paginator.next_page %}
-    <a class="pagination-next" href="{{ paginator.next_page_path | relative_url }}" title="Next page">Next <i class="material-icons">copyright</i></a>
+    <a class="pagination-next" href="{{ paginator.next_page_path | relative_url }}" title="Next page"><span>Next <i class="material-icons">copyright</i></span></a>
   {% else %}
-    <button class="pagination-next" title="You're already on the last page" disabled>Next <i class="material-icons">copyright</i></button>
+    <span class="pagination-next" title="You're already on the last page" disabled>Next <i class="material-icons">copyright</i></span>
   {% endif %}
   
   <ul class="pagination-list">

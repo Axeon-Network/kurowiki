@@ -114,7 +114,7 @@ exit /b
 
 :save_config
 (
-echo :: AXEONWHIDBEY4
+echo AXEONWHIDBEY4
 echo [AxeonAkane]
 echo ArticlePath=!SourceArticles!
 echo ImgPath=!SourceMedia!
