@@ -22,10 +22,10 @@
     <!-- gotta get a new one this is horiwebsite's one -->
     <meta name="google-site-verification" content="juCkrJsWFUpDDiBrebgAywCVCCE90p5S7yfXBNjIlXQ" />
     
-    <link rel="shortcut icon" href="./res/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/res/img/favicon.png" type="image/x-icon">
 
     <!-- do i need to explain this??? -->
-    <title>{{ page.title | default: "I think you forgot something... ;)" }} ~ {{ site.title }}</title>
+    <title>{{ page.title | default: "I think you forgot something... ;)" | replace_first: 'Sitemap - Page', 'Sitemap' }} ~ {{ site.title }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -36,17 +36,17 @@
     {% endif %}
 
 
-    <link rel="stylesheet" href="./res/mdl/material.min{{ accent-enabled }}.css">
-    <link rel="stylesheet" href="./res/akn/css/materialdesignlite.css">
-    <link rel="stylesheet" href="./res/akn/css/infobox.css">
-    <link rel="stylesheet" href="./res/akn/css/toc.css"> 
-    <link rel="stylesheet" href="./res/akn/css/global.css">
-    <link rel="stylesheet" href="./res/akn/css/gallery.css">
-    <link rel="stylesheet" href="./res/akn/css/springviewer.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/mdl/material.min{{ accent-enabled }}.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/materialdesignlite.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/infobox.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/toc.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/global.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/gallery.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/springviewer.css"> 
     <!-- springviewer takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
-    <script defer src="./res/mdl/material.min.js"></script>
+    <script defer src="{{ site.baseurl }}/res/mdl/material.min.js"></script>
 
     <!-- so we have fancy codeblocks -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.min.css">
@@ -57,14 +57,14 @@
      {% if site.background-dark %}
      <style>
       html {
-        --background-image-dark: url('./res/img/{{ site.background-dark }}');
+        --background-image-dark: url('{{ site.baseurl }}/res/img/{{ site.background-dark }}');
       }
      </style>
      {% endif %}
     {% if site.background-light %}
      <style>
       html {
-        --background-image-light: url('./res/img/{{ site.background-light }}');
+        --background-image-light: url('{{ site.baseurl }}/res/img/{{ site.background-light }}');
       }
      </style>
      {% endif %}
@@ -79,7 +79,7 @@
         <div class="mdl-layout__header-row" style="text-shadow: 0 0 4px black;">
           <div class="container is-hidden-mobile">
             <!-- its finally a link it has been bothering me alot recently idk why -->
-            <a href="./" style="color:white;" title="Go back to home page">
+            <a href="{{ site.baseurl }}/" style="color:white;" title="Go back to home page">
               <span id="title" class="mdl-layout-title">{{ site.title }}</span>
             </a>
           </div>
@@ -122,15 +122,15 @@
         {% endif %}
 
         {% if site.drawerbanner %}
-          <img src="res/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+          <img src="{{ site.baseurl }}/res/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
         {% endif %}
     
         <nav class="mdl-navigation" style="margin-top: -3% !important;">
-          <a class="mdl-navigation__link" href="./">
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/">
             <span class="material-icons">home</span>&nbsp;&nbsp;&nbsp;Home
           </a>
 
-          <a class="mdl-navigation__link" href="./Special:Settings">
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/Special:Settings">
             <span class="material-icons">settings</span>&nbsp;&nbsp;&nbsp;Settings
           </a>
        
@@ -138,7 +138,7 @@
             <span class="material-icons">group</span>&nbsp;&nbsp;&nbsp;Contributing
           </a>
        
-          <a class="mdl-navigation__link" href="./Sitemap">
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/Sitemap">
             <span class="material-icons">explore</span>&nbsp;&nbsp;&nbsp;Sitemap
           </a>
        
@@ -146,10 +146,10 @@
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random page
           </a>
           {% if site.debug %}
-          <a class="mdl-navigation__link" href="./KuroWiki:PTBW">
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/KuroWiki:PTBW">
             <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
           </a>
-          <a class="mdl-navigation__link" href="./Debug:Akane_Sandbox">
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/Debug:Akane_Sandbox">
             <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Akane Sandbox
           </a>
           {% endif %}
@@ -187,7 +187,7 @@
             {% if page.isTitleItalic %}
               {% assign is-italic = "titleItalic" %}
             {% endif %}
-            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title }}</h1>
+            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title | replace_first: 'Sitemap - Page', 'Sitemap' }}</h1>
             <hr>
           
             <noscript>
@@ -198,7 +198,7 @@
 		        </div>
 
             <!-- i have to find a better way -->
-            <script src="./res/akn/js/toc.js"></script>
+            <script src="{{ site.baseurl }}/res/akn/js/toc.js"></script>
 
           </div>
         </div>
@@ -223,16 +223,16 @@
     </div>
 
     <!-- scripts! -->
-    <script src="./res/akn/js/random.js"></script>
-    <script src="./res/akn/js/theme.js"></script>
+    <script src="{{ site.baseurl }}/res/akn/js/random.js"></script>
+    <script src="{{ site.baseurl }}/res/akn/js/theme.js"></script>
 
     {% if site.debug %}
-      <script src="./res/akn/js/debug.js"></script>
+      <script src="{{ site.baseurl }}/res/akn/js/debug.js"></script>
     {% endif %}
 
     
     <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
-    <script src="./res/js/showOneko.js"></script>
+    <script src="{{ site.baseurl }}/res/js/showOneko.js"></script>
   </body>
 </html>
 

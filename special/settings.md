@@ -22,4 +22,4 @@ Customize your experience!
 </header>
 
 <!-- Scripts for the toggles -->
-<script src="./res/akn/js/settings.js"></script>
+<script src="{{ site.baseurl }}/res/akn/js/settings.js"></script>

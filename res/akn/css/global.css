@@ -35,7 +35,7 @@
     --title-color-dark: rgb(154,176,183);
 
     --text-color-white: white;
-    --background-image-dark: url('../../img/defaults/bg.jpg');
+    --background-image-dark: url('{{ site.baseurl }}/img/defaults/bg.jpg');
     --scrollbar-color-dark: rgb(60,62,74) rgb(43,46,55);
     --hatnote-color-dark: rgba(8,8,8,0.3);
     --code-border-dark: rgba(0,0,0,0.2);
@@ -47,7 +47,7 @@
     --accent-light: rgb(44,60,84);
     --title-color-light: rgb(44,60,84);
     --text-color-black: black;   
-    --background-image-light: url('../../img/defaults/bg.jpg'); 
+    --background-image-light: url('{{ site.baseurl }}/img/defaults/bg.jpg'); 
     --scrollbar-color-light: rgb(60,62,74) rgb(43,46,55);
     --hatnote-color-light: rgba(255,255,255,0.75);
     --code-bg-light: #f8f9fa;
