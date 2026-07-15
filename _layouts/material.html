@@ -25,7 +25,7 @@
     <link rel="shortcut icon" href="{{ site.baseurl }}/res/img/favicon.png" type="image/x-icon">
 
     <!-- do i need to explain this??? -->
-    <title>{{ page.title | default: "I think you forgot something... ;)" | replace_first: 'Sitemap - Page', 'Sitemap' }} ~ {{ site.title }}</title>
+    <title>{{ page.title | default: "I think you forgot something... ;)" | replace_first: 'Sitemap - page', 'Sitemap' }} ~ {{ site.title }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -187,7 +187,7 @@
             {% if page.isTitleItalic %}
               {% assign is-italic = "titleItalic" %}
             {% endif %}
-            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title | replace_first: 'Sitemap - Page', 'Sitemap' }}</h1>
+            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title | replace_first: 'Sitemap - page', 'Sitemap' }}</h1>
             <hr>
           
             <noscript>
