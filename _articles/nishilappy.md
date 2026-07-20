@@ -29,7 +29,7 @@ screensize='13.3" built-in LCD'
 os='Windows 7 Enterprise E Service Pack 1'
 %}
 
-**NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February 2017. It is the successor to [TheCeleryPC](TheCeleryPC) and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on 27 April 2026.
+The **NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February of 2017. It is the successor to [TheCeleryPC](TheCeleryPC), and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on 27 April 2026.
 
 {% include items/tableofcontents.html %}
 
@@ -40,7 +40,7 @@ content='For more information, see [TheCeleryPC § History](TheCeleryPC#history)
 
 [TheCeleryPC](TheCeleryPC), an eMachines ET-1810 with an Intel Celeron 420 processor, used to be Kit's main computer from mid 2021 to late 2024. It was used for several purposes, including the creation of many [StuffyXP](StuffyXP) videos and several other projects made by Kit, such as the *[June 2025 Stuffy Website](Stuffy_Website)*. 
 
-After a power outage on November 3, TheCeleryPC stopped functioning, more specifically, the power supply was partially fried, causing DC-reliant components to not work at all. One of the symptoms of this problem was the computer's fans spinning up without any display output.
+After a power outage on November 3, TheCeleryPC stopped functioning, more specifically, the power supply was partially fried, causing DC-reliant components to not work at all. One of the symptoms of this problem was the computer's fans spinning up without any display output.[^1]
 
 From November 3 to November 28, 2024, all of Kit's projects officially went on a haitus. 
 
@@ -52,6 +52,9 @@ Between July and August 2025, it was temporarily known as ***SuperNova***, follo
 Since November 2025, it has been known under the name ***NishiLappy***, the latter being a merger of *[Nishi](Nishi)* (Kit's fursona) and *Lappy*.<br>Both *Thei5Lappy* and *NishiLappy* had been used simultaneously between November 2025 and March 2026: *Thei5Lappy* was used to refer to the computer itself, while *NishiLappy* was used as the computer's hostname (also known as a computer name). 
 
 Following the introduction of [CometLappy](CometLappy) in April 2026, the *Thei5Lappy* name had been officially retired for consistency reasons.
+
+# References & Notes
+[^1]: *KitSixtyFour*. StuffyXP Wrapped: 2024 Edition § The Celery PC Status - [horibyte.is-a.dev/blog/2024/12/31/stuffyxp-wrapped-2024-edition.html](https://horibyte.is-a.dev/blog/2024/12/31/stuffyxp-wrapped-2024-edition.html)
 
 <!-- ## Computer Specs
 

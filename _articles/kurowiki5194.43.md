@@ -1,6 +1,7 @@
 ---
 title: KuroWiki build 5194.43
-permalink: KuroWiki_build_5194_43
+permalink: KuroWiki_build_5194.43.html
+redirect_from: KuroWiki_build_5194_43
 ---
 
 {% include infoboxes/build.html

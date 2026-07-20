@@ -23,7 +23,7 @@ There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}
 {% endif %}
 
 {% if paginator.total_pages > 1 %}
-<div style="text-align: right; clear:right; float:right;">
+<div style="padding-top: 12px;">
   Showing <b>{{ start_index }}</b> through <b>{{ end_index }}</b> of <b>{{ paginator.total_posts }}</b>
   <br>
     {% if paginator.previous_page %}

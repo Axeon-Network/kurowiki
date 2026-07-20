@@ -9,8 +9,7 @@ dyk:
 
 {% include infoboxes/video.html
 title='The Return of the Windows Store in Windows 8.1?! (8Store)'
-channel='AstroNT'
-channelurl='AstroNT'
+channel='[AstroNT](AstroNT)'
 platform='YouTube'
 views='32,672'
 reldate='2026-02-15'

@@ -1,22 +1,22 @@
 ---
 title: Installing Windows Longhorn via MS-DOS! (Post-Reset)
+isTitleItalic: true
 permalink: Installing_Windows_Longhorn_via_MS-DOS
 dyk:
     - "...that [Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS) was originally meant to be a [Lynxmic](Lynxmic) video?"
 ---
 
 {% include infoboxes/video.html
-title='Installing Windows Longhorn via MS-DOS! (Post-Reset)'
+title='<i>Installing Windows Longhorn via MS-DOS! (Post-Reset)</i>'
 image='res/img/articles/5001viados/thumbnail.png'
-channel='AstroNT'
-channelurl='AstroNT'
+channel='[AstroNT](AstroNT)'
 platform='YouTube'
 views='748'
 reldate='2026-01-25'
 link='https://youtu.be/9PPVtLosMaQ'
 %}
 
-**Installing Windows Longhorn via MS-DOS! (Post-Reset)** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
+***Installing Windows Longhorn via MS-DOS! (Post-Reset)*** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
 
 The video focuses on installing Windows Longhorn Build 5001, an early post-reset build of Longhorn from September 2004, via an Windows 98 Boot Disk (based on MS-DOS). Notably, 5001 was the last Windows build to use NTLDR and the i386 installation method before later builds shifted to WIM for good, but did not include an `winnt.exe` that could be invoked from MS-DOS for installation. The video showcases issues that happen when still trying to install this build via MS-DOS regardless.
 
