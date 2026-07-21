@@ -4,7 +4,7 @@ permalink: AveryWebsite_version_history
 redirect_from:
 hatnote: "Main article: [AveryWebsite](AveryWebsite)"
 ---
-This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of June 2026, from latest to earliest.
+This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of July 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
@@ -12,8 +12,17 @@ The changelogs of all versions before and including v3.3.1 are inherited from Av
 
 # Version 26.x
 
+## 26.7
+Released on 20 July 2026, it was regarded as a polish update for v26.6, fixing many bugs and styling issues and cleaning up more code.
+
+The design first introduced in v26.6 has been massively updated making it feel more complete, with the Projects and Socials pages having received a complete overhaul to be consistent with the rest of the website, while looking nicer.
+
+This is the first version of AveryWebsite to be powered by Astro v7.x.x versions.
+
 ## 26.6.1
 Released also on 29 June 2026, a few hours after v26.6, it was a hotfix update fixing multiple major bugs discovered in the Fallback Layout (formerly the Retro Frontend).
+
+This is the final version of AveryWebsite to be powered by Astro v6.x.x versions.
 
 ## 26.6
 Released on 29 June 2026, it is the biggest update to AveryWebsite so far.

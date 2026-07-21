@@ -12,8 +12,9 @@ image='res/img/articles/linuxy10k/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'
-views='456'
-reldate='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
+views='653'
+reldate='2026-01-19'
+link='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
 %}
 
 ***Running Linux... on Year 10000?*** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
@@ -31,4 +32,4 @@ The video itself features a Virtual Machine with Debian 13 'Trixie', the Linux d
 It was expected for it to "work" under Linux too but it turned out that Windows' /YEAR switch was a fake year that only applied in Windows, so it was decided to use `faketime` on Linux instead to set a fake year on Linux, also to year 9999. Once the year changed to 10000 in Linux, an exploration is done. Unlike Windows, Linux didn't massively slow down, but several bugs and segmentation faults were observed in various apps.
 
 The final video flopped with just over 20+ views as of 16 February 2026 (almost a month after release), making it the least popular AstroNT video.
-As of early March 2026, the view count was of over 190+ views, surpassing even that of the Android x86 video (125+ views), the previous title holder of "least popular AstroNT video" which it regained. It is the first major AstroNT video of 2026.
+As of July 2026, the view count was of over 650+ views. It is the first major AstroNT video of 2026.
