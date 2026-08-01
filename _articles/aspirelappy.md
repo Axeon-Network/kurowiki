@@ -10,7 +10,7 @@ dyk:
 
 {% include infoboxes/computer.html
 name='TheAspireLappy'
-owner='[KitSixryFour](KitSixtyFour)'
+owner='[KitSixtyFour](KitSixtyFour)'
 manufacturer='Acer Inc.'
 model='Aspire One 532g'
 image='res/img/articles/aspirelappy/desktop.png'

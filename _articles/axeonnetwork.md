@@ -37,9 +37,8 @@ The server was renamed to Axeon Community in April 2018, and the Axeon logo has 
 
 {% include items/embed.html 
 image_src="res/img/articles/axeonnetwork/axeonlogos.png" 
-caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (current logo, used since June 2025)"
+caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (logo used between June 2025 and July 2026)"
 style="width:50%; height:auto" %}
-
 
 After 2020, the server has seen a decline in activity. 2022 has seen the lowest activity in the server, with only very few occasional messages per month. The server member count had gone down to around 60 members. After a prune of inactive Discord accounts, this count has gone down to just under 30.
 In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following AveryEclipse’s personal alias rebrand from Lynxmic to Clyron.

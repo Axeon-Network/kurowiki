@@ -11,6 +11,8 @@ The changelogs of all versions before and including v3.3.1 are inherited from Av
 {% include items/tableofcontents.html %}
 
 # Version 26.x
+## 26.7.1
+Released on 31 July 2026, it primarily focused on bug fixes and improvements, primarily in the Fallback Layout.
 
 ## 26.7
 Released on 20 July 2026, it was regarded as a polish update for v26.6, fixing many bugs and styling issues and cleaning up more code.

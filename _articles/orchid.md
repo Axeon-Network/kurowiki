@@ -6,6 +6,16 @@ redirect_from:
      - Axeon_Orchid
 ---
 
+{% include infoboxes/bot.html
+image='res/img/articles/orchid/logo.png'
+name='Orchid'
+owner='[AveryEclipse](AveryEclipse)'
+platform='Discord<br>Stoat<br>Fluxer <small>(planned)</small>'
+launchDate='2026-07-01 <small>(Alpha)</small>'
+type='Utility/bridge'
+state='In development'
+%}
+
 **Axeon Orchid** is a planned new project currently under development by the [Axeon Network](Axeon_Network). Developed by [AveryEclipse](AveryEclipse), it aims to, per-say, serve as an in-house solution to "actually make the Axeon Network a network", by linking together the three Axeon Network servers on the Discord, Stoat and Fluxer platforms.
 
 The primary selling point of Orchid is the cross-guild chatting feature which is ""federated"" across the three chatting platforms, allowing one to talk to someone on Discord via Stoat or Fluxer and vice-versa, to which are added various other utility features like sending an announcement to all configured servers on Discord, Stoat and Fluxer at the same time.
@@ -23,10 +33,11 @@ Some actual work was actually done on the Orchid bot project in June 2023, re-us
 
 The idea of an Orchid bot came back to light sometime during February 2025 after the launch of [HoriServer](HoriServer) on Stoat, then known as Revolt, this time as a public multi-purpose bot (similar to Venus in idea) for said chatting platform, however the project was yet again abandoned after a short while, and the Stoat bot account for Orchid was deleted in March 2025.
 
-   <div class="container">
-        <img src="res/img/articles/listofkayauroracodenames/orchid.png" style="width:20%; height:auto">
-        <p id="caption">Initial Orchid logos, from left to right: 2023 (for the Discord bot), 2025 (for the multi-purpose Stoat bot)</p>
-   </div>
+{% include items/embed.html 
+   image_src="res/img/articles/orchid/earlylogos.png" 
+   caption="Initial Orchid logos, from left to right: 2023 (for the Discord bot), 2025 (for the multi-purpose Stoat bot)"
+
+%}
 
 ### Current idea
 In July 2025, Orchid came back to light again for a fourth time, this time as a project under the [Axeon Network](Axeon_Network) umbrella, at the time planned to link the Axeon Discord server, Stoat server, and the in-game chat of [MidoriMC](MidoriMC). However the idea was largely abandoned again in August following the discontinuation of MidoriMC and the inactivity of the Axeon Network Stoat server.

@@ -11,7 +11,7 @@ The Akane engine was created by [KitSixtyFour](KitSixtyFour) in May 2025 followi
 
 Akane uses the Jekyll static site generator for compatibility with [GitHub Pages](https://pages.github.com), which is one of the many goals of the project. It uses components such as [SpringViewer](SpringViewer), a media viewer written in JavaScript, [AkaneSearch](AkaneSearch) for searching articles, and (by default) the [Material Design Lite](https://github.com/google/material-design-lite) CSS framework for its user interface. However, Akane is modular by design, which means that it can be modified without extreme reliance on other components, and can even be used with [a from-scratch layout](Nyxeon).
 
-# Implemetations
+# Implementations
 ## KuroWiki
 {% include items/hatnote.html content='For more information, see [Axeon KuroWiki](KuroWiki).'%}
 
