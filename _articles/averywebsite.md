@@ -17,14 +17,14 @@ writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.6.1'
-currentVersionReleaseDate='2026-06-29'
+currentVersion='v26.7.1'
+currentVersionReleaseDate='2026-07-31'
 sourceModel='Open source'
 repoLink='[AveryEclipse/averyeclipse.github.io](https://github.com/AveryEclipse/averyeclipse.github.io)'
 repoHost='GitHub'
 status='Available'
 link='https://avery.is-a.dev'
-image='res/img/articles/kaywebsite/v26.5.png'
+image='res/img/articles/kaywebsite/v26.7.png'
 %}
 
 ***AveryWebsite*** (also known after its URL name, [avery.is-a.dev](https://avery.is-a.dev)) is [AveryEclipse](AveryEclipse)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying *[LynxWebsite](LynxWebsite)* and the *[Lynxmic Blog](Lynxmic_Blog)* under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
@@ -133,7 +133,7 @@ The website has seen further major changes with v26.3, released 22 March 2026, c
 
 v26.5, released 14 May 2026, further expanded on the rollout of `astro-icon` icons by replacing Unicode emojis in page and section headings, and marked the website's transition from Astro v5 to v6. v26.5.1, released 26 May 2026, fixed a major bug with displaying blog post tags on mobile.
 
-The website has been largely overhauled again with the release of v26.6 on 29 June  2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed as a hotfix update fixing issues discovered with the v26.6 retro frontend.
+The website has been largely overhauled again with the release of v26.6 on 29 June 2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed, with v26.7 from 20 July 2026 further polishing v26.6.x while bringing a more complete, updated website design. The current release as of 31 July 2026 is v26.7.1, which brought further enhancements on top of v26.7, primarily in the retro frontend.
 
 <div class="wiki-gallery">
     {% include items/gallery.html 
@@ -154,4 +154,13 @@ The website has been largely overhauled again with the release of v26.6 on 29 Ju
     {% include items/gallery.html 
         image_src="res/img/articles/kaywebsite/v26.5-retro.png" 
         caption="AveryWebsite v26.5 Retro Frontend" %}
+    {% include items/gallery.html 
+        image_src="res/img/articles/kaywebsite/v26.6.1.png" 
+        caption="AveryWebsite v26.6.1, June 2026" %}
+    {% include items/gallery.html 
+        image_src="res/img/articles/kaywebsite/v26.7.png" 
+        caption="AveryWebsite v26.7, July 2026" %}
+    {% include items/gallery.html 
+        image_src="res/img/articles/kaywebsite/v26.7-retro.png" 
+        caption="AveryWebsite v26.7 Retro Frontend" %}
 </div>

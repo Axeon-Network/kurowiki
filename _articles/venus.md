@@ -12,7 +12,7 @@ hatnote: "This article is incomplete and will be finished in Release Candidate 2
 image='res/img/articles/venus/logo.jpg'
 name='Venus'
 formerly='Melon (2018)'
-owner='<a href="/AveryEclipse">AveryEclipse</a>'
+owner='[AveryEclipse](AveryEclipse)'
 platform='Discord'
 launchDate='2018-04-28'
 discontinuedDate='2019-07-25'

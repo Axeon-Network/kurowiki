@@ -40,9 +40,15 @@
                 <td>{{ include.type | markdownify | remove_first: '<p>' | remove: '</p>' }}</td> <!-- can be Public or Private -->
             </tr>
             <tr>
+                <th>State</th>
+                <td>{{ include.state | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
+            </tr>
+            {% if include.serverCount %}
+            <tr>
                 <th>Added in</th>
                 <td>{{ include.serverCount }} servers</td>
             </tr>
+            {% endif %}
             {% if include.link %}
             <tr>
                 <th>Link</th>

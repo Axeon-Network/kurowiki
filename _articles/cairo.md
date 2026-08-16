@@ -21,7 +21,7 @@ image='res/img/articles/cairo/profile.png'
 
 It had mainly been used as part of the Clyron Branding, though separate drawings have been thought but either cancelled or forgotten about. The OC has largely became unused since May 2025.
 
-Plans for an revised OC exist since as early as November 2025 but nothing much has been concretely publicly set in stone yet.
+Plans for an improved, revised OC have existed since as early as November 2025 but these have been pretty much dropped after July 2026 due to lack of interest.
 
 <!-- todo: add name origin and history -->
 
