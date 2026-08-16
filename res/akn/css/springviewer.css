@@ -26,8 +26,8 @@
 /* variables */
 :root {
     /* dark mode */
-    --viewer-background-color-dark: rgb(15,15,15); 
-    --viewer-border-color-dark: #202020;
+    --viewer-background-color-dark: #424242; 
+    --viewer-border-color-dark: #555555;
     /* --viewer-button-color-dark: rgb(40,40,40); */
 
     /* light mode */

@@ -68,7 +68,7 @@ li ul a {
 
 .tocnumber {
     color: var(--text-color) !important;
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
 .toc-wrapper {

@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
             tSpan.textContent = h.textContent;
 
             a.appendChild(nSpan);
-            a.appendChild(document.createTextNode(" "));
             a.appendChild(tSpan);
             li.appendChild(a);
 

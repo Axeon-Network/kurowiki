@@ -96,11 +96,14 @@ html.light-mode {
     border: 1px solid var(--gallery-border);
     float: right;
     clear: right;
-    margin-left: 10px;
+    margin-left: 5px;
     overflow: none;
-    width: 280px;
+    min-width: 200px;
+    max-width: 240px;
     padding: 4px;
     font-size: 88.40000000000001% !important;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 .silver-item span, .amber-item span {
     margin-bottom: -1px !important;
@@ -121,7 +124,7 @@ html.light-mode {
     clear: right;
 }
 
-.starfly {
+/* .starfly {
     border: 1px solid var(--gallery-border);
     background-color: var(--gallery-bg);
     padding: 4px;
@@ -149,4 +152,4 @@ html.light-mode {
     flex-basis: 100%;
     display: block;
     margin-top: 3px;
-}
+} */

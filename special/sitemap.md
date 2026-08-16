@@ -15,7 +15,7 @@ There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}
 
 <!-- cant use markdown no more -->
 
-{% assign paginator_posts = paginator.posts | sort_natural: "title" %}
+{% assign paginator_posts = paginator.posts %}
 {% assign start_index = paginator.page | minus: 1 | times: paginator.per_page | plus: 1 %}
 {% assign end_index = paginator.page | times: paginator.per_page %}
 {% if end_index > paginator.total_posts %}
@@ -24,7 +24,7 @@ There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}
 
 {% if paginator.total_pages > 1 %}
 <div style="padding-top: 12px;">
-  Showing <b>{{ start_index }}</b> through <b>{{ end_index }}</b> of <b>{{ paginator.total_posts }}</b>
+  Showing <b>{{ start_index }}</b> through <b>{{ end_index }}</b> out of <b>{{ paginator.total_posts }}</b>.
   <br>
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" title="Previous page">Previous</a>
@@ -51,7 +51,7 @@ There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}
 
 {% if paginator.total_pages > 1 %}
 <div style="text-align: right;">
-  Showing <b>{{ start_index }}</b> through <b>{{ end_index }}</b> of <b>{{ paginator.total_posts }}</b>
+  Showing <b>{{ start_index }}</b> through <b>{{ end_index }}</b> out of <b>{{ paginator.total_posts }}</b>.
   <br>
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path | relative_url }}" title="Previous page">Previous</a>

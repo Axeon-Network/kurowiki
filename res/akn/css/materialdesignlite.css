@@ -239,10 +239,10 @@ details[open] summary::before {
 }
 
 .kuro-card_can-has-transparency {
-    background-color: rgba(15,15,15,0.4);
+    background-color: rgba(15,15,15,0.4) !important;
 }
 .light-mode .kuro-card_can-has-transparency {
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.4) !important;
 }
 
 .kuro-card_disbale-text-opacity .mdl-card__supporting-text {
@@ -306,4 +306,44 @@ blockquote:after {
 }
 blockquote:before {
     margin-top:5px;
+}
+
+/* cards and tables are broken on dark mode */
+/* fix intro @ 7.0.5.2k kuro_sl1 2026-07-26 12:57:00 */
+.mdl-card {
+    background:#424242;
+}
+.light-mode .mdl-card {
+    background:white;
+}
+.mdl-data-table {
+    background:#424242;
+}
+.light-mode .mdl-data-table {
+    background:white;
+}
+thead .mdl-data-table__cell--non-numeric {
+    color: rgba(255,255,255,0.7) !important;
+}
+.light-mode thead .mdl-data-table__cell--non-numeric {
+    color: rgba(0,0,0,0.54) !important;
+}
+
+td .mdl-checkbox__box-outline, th .mdl-checkbox__box-outline {
+    border: 2px solid rgba(255,255,255,0.7);
+}
+.light-mode th .mdl-checkbox__box-outline, .light-mode td .mdl-checkbox__box-outline {
+    border: 2px solid rgba(0,0,0,0.54);
+}
+.light-mode .mdl-data-table tbody tr.is-selected {
+  background-color:#e0e0e0
+}
+.light-mode .mdl-data-table tbody tr:hover {
+  background-color:#eee
+}
+.mdl-data-table tbody tr.is-selected {
+  background-color:#292929
+}
+.mdl-data-table tbody tr:hover {
+  background-color:#313131
 }
