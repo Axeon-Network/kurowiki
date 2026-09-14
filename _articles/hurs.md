@@ -13,17 +13,17 @@ In [Horicraft](Horicraft), most of the network was built in January 2025 in the 
 
 While most of the railway network is underground, some sections of HURS railway may also run on ground level, primarily in Jell.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/hurs/mainstation.png" 
+        image_src="hurs/mainstation.png" 
         caption="The biggest HURS station in Fucking, where all railway lines passing there meet. It is located near DHI Turtles HQ." %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/hurs/mainstation-2.png" 
+        image_src="hurs/mainstation-2.png" 
         caption="The Ture-Fucking railway terminus at Fucking, in the lower story of the biggest HURS station" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/hurs/hursjell.png" 
+        image_src="hurs/hursjell.png" 
         caption="Although mostly underground, an HURS railway may still be on ground level. The example here is from Jell, near Cairo Company NovaLand HQ." %}
 </div>
 

@@ -10,9 +10,9 @@ version='0.5'
 build='527'
 lab='kitsixtyfour'
 compiled='2026-01-10 16:59 <small>(Linux)</small><br>and 17:46 <small>(Windows)</small>'
-image='res/img/articles/cometadv527/windows81.png'
+image='cometadv527/windows81.png'
 image_caption='Comet Adventure build 527 running under Windows 8.1'
-image2='res/img/articles/cometadv527/linux.png'
+image2='cometadv527/linux.png'
 image2_caption='Ditto, running under Linux'
 %}
 
@@ -27,25 +27,25 @@ A bug regarding Daylight (shown as Luigi) jumping on his own whenever Comet (sho
 This build's Windows and Linux compiles, alongside [other](Comet_Adventure_build_513) [several](Comet_Adventure_build_594) [builds](Comet_Adventure_build_621) compiled for Linux only, were released by KitSixtyFour on 26 January 2026 on the Nishi's Den Discord server.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/cometadv527/windowsvista.png"  
+        image_src="cometadv527/windowsvista.png"  
         caption="Comet Adventure build 527 running under Windows Vista"
         style="width:50%;" %}
 
 
     {% include items/gallery.html 
-        image_src="res/img/articles/cometadv527/properties.png"  
+        image_src="cometadv527/properties.png"  
         caption="The Details tab from the Properties dialog, showing the full build tag"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/cometadv527/properties_dp.png"  
+        image_src="cometadv527/properties_dp.png"  
         caption="Ditto, *Comet Adventure Build Pack* version"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/cometadv527/explorer.png"  
+        image_src="cometadv527/explorer.png"  
         caption="The Windows Explorer window showing the Linux compiles of build 513 and 527"
         style="width:50%;" %}
 </div>

@@ -12,9 +12,9 @@ version='7.0'
 build='4706'
 lab='kayaurora'
 compiled='2026-03-09 00:25 UTC+2'
-image='res/img/articles/kurowiki4706/home.png'
+image='kurowiki4706/home.png'
 image_caption='Home page (dark mode)'
-image2='res/img/articles/kurowiki4706/homelight.png'
+image2='kurowiki4706/homelight.png'
 image2_caption='Home page (light mode)'
 %}
 
@@ -30,25 +30,25 @@ Additionally, the line "*This is beta software!*" in the homepage's hatnote has 
 
 ## Dark mode
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4706/drawer.png" 
+        image_src="kurowiki4706/drawer.png" 
         caption="Drawer" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4706/article.png" 
+        image_src="kurowiki4706/article.png" 
         caption="Article" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4706/settings.png" 
+        image_src="kurowiki4706/settings.png" 
         caption="Settings" %}
 </div>
 
 ## Light mode
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4706/drawerlight.png" 
+        image_src="kurowiki4706/drawerlight.png" 
         caption="Drawer" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4706/articlelight.png" 
+        image_src="kurowiki4706/articlelight.png" 
         caption="Article" %}
 </div>

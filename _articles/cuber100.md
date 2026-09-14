@@ -10,7 +10,7 @@ version='0.1'
 build='100'
 lab='26-02-10_kit'
 compiled='2026-02-10'
-image='res/img/articles/cuber100/image.png'
+image='cuber100/image.png'
 image_caption='Main page'
 %}
 

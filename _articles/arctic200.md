@@ -11,7 +11,7 @@ build='200'
 lab='arc_rwrite'
 compiled='2026-03-30'
 arch='x86 16-bit'
-image='res/img/articles/arctic200/firstboot.png'
+image='arctic200/firstboot.png'
 image_caption='First boot'
 %}
 
@@ -34,17 +34,17 @@ It is one of the builds from the so-called "Arctic32 Reboot", yet another series
 
 # Gallery
 
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
-    image_src='res/img/articles/arctic200/help.png'
+    image_src='arctic200/help.png'
     caption='Help command' %}
 {% include items/gallery.html
-    image_src='res/img/articles/arctic200/ver.png'
+    image_src='arctic200/ver.png'
     caption='Version' %}
 {% include items/gallery.html
-    image_src='res/img/articles/arctic200/sample.png'
+    image_src='arctic200/sample.png'
     caption='Sample command' %}
 {% include items/gallery.html
-    image_src='res/img/articles/arctic200/exit.png'
+    image_src='arctic200/exit.png'
     caption='Not recognized message and exit command' %}
 </div>

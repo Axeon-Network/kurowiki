@@ -4,12 +4,12 @@
 <div class="infobox mdl-shadow--4dp">
     {% if include.logo %}
     <div class="infobox-logo-container">
-        <img src="{{ include.logo }}" class="infobox-logo">
+        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" class="infobox-logo">
     </div>
     {% endif %}
     {% if include.srvicon %}
     <div class="infobox-img-container">
-            <img src="{{ include.srvicon }}" alt="{{ include.name }} logo" class="infobox-img delta-infobox-server-icon">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.srvicon }}" alt="{{ include.name }} logo" class="infobox-img delta-infobox-server-icon" style="max-width: 55%;">
          <div class="infobox-img-caption">{{ include.name }} icon</div>
     </div>
     {% endif %}

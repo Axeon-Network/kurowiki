@@ -10,7 +10,7 @@ version='0.5'
 build='508'
 lab='kitsixtyfour'
 compiled='2026-01-10 16:25'
-image='res/img/articles/cometadv508/image.png'
+image='cometadv508/image.png'
 image_caption='A build log showing the build tag'
 %}
 

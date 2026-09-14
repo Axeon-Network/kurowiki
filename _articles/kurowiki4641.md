@@ -12,7 +12,7 @@ version='7.0'
 build='4641'
 lab='kayaurora'
 compiled='2026-02-19 4:35 UTC+2'
-image='res/img/articles/kurowiki4641/article.png'
+image='kurowiki4641/article.png'
 image_caption='Article view'
 %}
 
@@ -23,11 +23,11 @@ A screenshot of this build's Deltari Test Page was sent on the [Axeon Network](A
 In the full page screenshot available, it is presumed that the state of the article series box was due to cache. Another screenshot of this build was taken with the actual box in its actual state, and also posted to the Axeon server.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4641/article.png" 
+        image_src="kurowiki4641/article.png" 
         caption="Article" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4641/articleseriesbox.png" 
+        image_src="kurowiki4641/articleseriesbox.png" 
         caption="Article series box" %}
 </div>

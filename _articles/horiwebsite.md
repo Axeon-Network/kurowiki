@@ -24,7 +24,7 @@ repoLink='[snowybifox/horibyte.github.io](https://github.com/snowybifox/horibyte
 repoHost='GitHub'
 status='Source code archived; website accessible'
 link='[horibyte.is-a.dev](https://horibyte.is-a.dev)'
-image='res/img/articles/horiwebsite/home.png'
+image='horiwebsite/home.png'
 %}
 
 ***HoriWebsite*** (formerly known as the ***Horibyte Website***) is a website created by [Kit](KitSixtyFour) which served as their personal website since January 2025. Although still accessible to this day at its `horibyte.is-a.dev` domain, it was deprecated in June 2025 with the Horibyte -> Lexibyte rebrand. There have been numerous successor tentatives that were later cancelled, including *[LexSite](LexSite)*, *[NovaSite](NovaSite)*, *[NekoSite](NekoSite)* and *[Nishi Blade](Nishi_Blade)*, and since February 2026, work has been ongoing on *[Cuber](Cuber)* as *HoriWebsite*'s replacement.

@@ -21,7 +21,7 @@ type='Personal Website'
 sourceModel='Open source'
 repoLink='Private'
 repoHost='GitHub'
-logo='res/img/articles/mincuber/logo.png'
+logo='mincuber/logo.png'
 status='In development; not publicly available.'
 %}
 

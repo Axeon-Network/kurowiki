@@ -14,7 +14,7 @@ version='6.0'
 build='4400'
 lab='main'
 compiled='2025-12-04 00:46 UTC+2'
-image='res/img/articles/kurowiki4400/home.png'
+image='kurowiki4400/home.png'
 image_caption='Home page'
 %}
 
@@ -57,40 +57,40 @@ https://axeon-network.github.io/kurowiki
 
 # Gallery
 ## Dark mode
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/drawer.png" 
+        image_src="kurowiki4400/drawer.png" 
         caption="Drawer" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/article.png" 
+        image_src="kurowiki4400/article.png" 
         caption="Article view" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/settings.png" 
+        image_src="kurowiki4400/settings.png" 
         caption="Settings" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/sitemap.png" 
+        image_src="kurowiki4400/sitemap.png" 
         caption="Sitemap" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/springviewer.png" 
+        image_src="kurowiki4400/springviewer.png" 
         caption="SpringViewer" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/springviewerdetails.png" 
+        image_src="kurowiki4400/springviewerdetails.png" 
         caption="Ditto, More Details box open" %}
 </div>
 
 ## Light mode
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/homelight.png" 
+        image_src="kurowiki4400/homelight.png" 
         caption="Home" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/drawerlight.png" 
+        image_src="kurowiki4400/drawerlight.png" 
         caption="Drawer" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/articlelight.png" 
+        image_src="kurowiki4400/articlelight.png" 
         caption="Article view" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4400/settingslight.png" 
+        image_src="kurowiki4400/settingslight.png" 
         caption="Settings" %}
 </div>

@@ -11,9 +11,9 @@ version='6.0'
 build='3842'
 lab='nekori64'
 compiled='2025-10-22 20:57 UTC-6'
-image='res/img/articles/kurowiki3842/homedark.png'
+image='kurowiki3842/homedark.png'
 image_caption='Home page (dark mode)'
-image2='res/img/articles/kurowiki3842/homelight.png'
+image2='kurowiki3842/homelight.png'
 image2_caption='Home page (light mode)'
 %}
 
@@ -23,23 +23,23 @@ It retired the background used since [Build 3615](KuroWiki_build_3615) in place 
 
 # Gallery
 
-<div class="wiki-gallery">
+<gallery>
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3842/settings.png" 
+        image_src="kurowiki3842/settings.png" 
         alt_text="" 
         caption="Settings page"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3842/article.png" 
+        image_src="kurowiki3842/article.png" 
         alt_text="" 
         caption="Article view"
         style="width:50%;" %}
 
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3842/settingslight.png" 
+        image_src="kurowiki3842/settingslight.png" 
         alt_text="Settings with light mode enabled" 
         caption="Settings with light mode enabled"
         style="width:50%;" %}

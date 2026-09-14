@@ -49,11 +49,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
     end
 
     puts "Axeon Akane Codenamed Cairo Version #{major}.#{minor} (Build #{prevBUILD}.#{prevDELTA}: #{dev_phase}) #{type}"
-    puts "               (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
+    puts "              (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
     puts ""
-    puts "Axeon Panther Version Master Utility [Version 4.0.5200]"
-    puts "               (C) 2026 Axeon Network."
-    puts "               Written by KitSixtyFour for the Axeon Network.\n\n"
+    puts "Axeon Panther Version Tracker Utility [Version 4.0.5200]"
+    puts "              (C) 2026 Axeon Network."
+    puts "              Written by KitSixtyFour for the Axeon Network.\n\n"
     $axeon_banner_shown = true
   end
 end
@@ -61,6 +61,27 @@ end
 Jekyll::Hooks.register :site, :after_reset do |site|
   header_dir = File.expand_path('_includes', site.source)
   version_header_path = File.join(header_dir, 'misc', 'version.html')
+
+  # parse the whidbey vars
+  if ENV['WhdBuildType'] == 'chk'
+    site.config['debug'] = true
+    site.config['retail'] = false
+  elsif ENV['WhdBuildType'] == 'fre'
+    site.config['debug'] = false
+    site.config['retail'] = true
+  end
+
+  if ENV['WhdIsDeltaEnabled'] == 'no'
+    site.config['builddelta'] = false
+  elsif ENV['WhdIsDeltaEnabled'] == 'yes'
+    site.config['builddelta'] = true
+  end
+
+  if ENV['WhdPrivateBuild'] == 'yes'
+    site.config['privatebuild'] = true
+  elsif ENV['WhdPrivateBuild'] == 'no'
+    site.config['privatebuild'] = false
+  end
 
   # build lab
   lab = ''
@@ -73,10 +94,10 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     lab = "#{date_stub}_#{user_stub}"
   end
 
-  # Parse environmental conditions fed by Whidbey profile initialization
-  is_debug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
-  delta_enabled = ENV['WhdIsDeltaEnabled'] != 'no'
-  private_build = ENV['WhdPrivateBuild'] == 'yes'
+  # read any vars made by whidbey to set debug/retail mode
+  is_debug = site.config['debug'] == true
+  delta_enabled = site.config['builddelta'] == true
+  private_build = site.config['privatebuild'] == true
 
   if private_build
     current_user = ENV['USERNAME'] || ENV['USER'] || Etc.getlogin || "dummy"
@@ -94,40 +115,24 @@ Jekyll::Hooks.register :site, :after_reset do |site|
   current_delta = delta_nbr
   current_incremental_number = stored_number
 
-  # Timestamp logic processing directly from version.html
   saved_timestamp = nil
   if File.exist?(version_header_path)
     existing_content = File.read(version_header_path)
-    # Regex search to extract the old timestamp value from your generated Liquid statement
     if match = existing_content.match(/\{\%\s+assign\s+AKN_TIMESTAMP\s+=\s+"([^"]+)"\s+\%\}/)
       saved_timestamp = match[1]
     end
   end
 
   if is_debug
-    # In Debug mode, always generate a live fresh build timestamp
     timestamp = Time.now.strftime("%y%m%d-%H%M")
     buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
     Jekyll.logger.info "PANTHER:", "Loading Cairo #{current_incremental_number}.#{current_delta} (#{lab}.#{timestamp})"
   else
-    # In Retail/Release mode, reuse the old string if found, otherwise default it
+    # in retail mode, just used whatever the last saved thing was
     timestamp = saved_timestamp || "YYmmDD-HHss"
     buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
   end
 
-  # site configuration fallback exposure
-  site.config['version'] = {
-    'major' => major,
-    'minor' => minor,
-    'id' => id,
-    'build' => current_incremental_number,
-    'delta' => current_delta,
-    'lab' => lab,
-    'timestamp' => timestamp,
-    'full' => buildtag
-  }
-
-  # Write directly to header file
   header_content = <<~HTML
     {% assign AKN_MAJOR = #{major} %}
     {% assign AKN_MINOR = #{minor} %}

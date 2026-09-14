@@ -14,9 +14,9 @@ version='6.0'
 build='3810'
 lab='main'
 compiled='2025-10-17 18:08 UTC-6'
-image='res/img/articles/kurowiki3810/home.png'
+image='kurowiki3810/home.png'
 image_caption='Home page (dark mode)'
-image2='res/img/articles/kurowiki3810/homelight.png'
+image2='kurowiki3810/homelight.png'
 image2_caption='Home page (light mode)'
 %}
 
@@ -56,19 +56,19 @@ https://axeon-network.github.io/kurowiki
 ```
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3810/drawer.png" 
+        image_src="kurowiki3810/drawer.png" 
         alt_text="" 
         caption="Drawer"
         style="width:50%;" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3810/settings.png" 
+        image_src="kurowiki3810/settings.png" 
         alt_text="" 
         caption="Settings"
         style="width:50%;" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3810/settingslight.png" 
+        image_src="kurowiki3810/settingslight.png" 
         alt_text="" 
         caption="Ditto, light mode"
         style="width:50%;" %}

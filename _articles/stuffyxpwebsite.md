@@ -20,9 +20,9 @@ repoLink='[snowybifox/stuffyxp-website](https://github.com/snowybifox/stuffyxp-w
 repoHost='GitHub'
 status='Source code archived; website accessible'
 link='[snowybifox.github.io/stuffyxp-website](https://snowybifox.github.io/stuffyxp-website)'
-image='res/img/articles/stxpwebsite2100/home.png'
+image='stxpwebsite2100/home.png'
 image_caption='Home page'
-logo='res/img/articles/stuffyxp/wordmar.png'
+logo='stuffyxp/wordmar.png'
 successor='*[HoriWebsite](HoriWebsite)*'
 predecessor='*[Stuffy\'s Website](Stuffy\'s_Website_(June_2024))*'
 %}

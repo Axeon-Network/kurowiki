@@ -12,7 +12,7 @@ version='6.0'
 build='3705'
 lab='nekori64'
 compiled='2025-10-12 18:32 UTC-6'
-image='res/img/articles/kurowiki3705/homedark.png'
+image='kurowiki3705/homedark.png'
 image_caption='Home page'
 %}
 
@@ -20,9 +20,9 @@ image_caption='Home page'
 
 It adds a Light Mode toggle in the bottom of the homepage, which when activated, applies a light theme in place of the now-default dark theme, albeit broken in this build.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3705/homelight.png" 
+        image_src="kurowiki3705/homelight.png" 
         alt_text="Broken Light Mode in Build 3705" 
         caption="Broken Light Mode in Build 3705"
         style="width:50%;" %}

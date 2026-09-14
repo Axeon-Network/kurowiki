@@ -9,8 +9,9 @@ dyk:
 ---
 
 {% include infoboxes/channel.html
-logo='res/img/articles/astront/wordmark.png'
-pfp='res/img/articles/astront/logo.png'
+logo='astront/wordmark.png'
+banner='astront/banner.png'
+pfp='astront/logo.png'
 name='AstroNT'
 creator='[KitSixtyFour](KitSixtyFour)'
 maintainers='[KitSixtyFour](KitSixtyFour)<br>[AveryEclipse](AveryEclipse)'
@@ -19,8 +20,10 @@ subs='1,010'
 views='90,373'
 platform='YouTube'
 state='Active'
-creationdate='2025-09-17'
+creationdate='17 September 2025'
+createdISO='2025-09-17'
 link='[youtube.com/@AstroNTWorkstation](https://youtube.com/@AstroNTWorkstation)'
+predecessor='[StuffyXP](StuffyXP)<br>[Lynxmic](Lynxmic)'
 %}
 
 **AstroNT**, formally **AstroNT Workstation** (known as *StuffyXP 2* prior to its public reveal) is a tech-focused YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse) created on 17 September 2025 and launched on 25 October 2025. It is the official successor to [StuffyXP](StuffyXP) and [Lynxmic](Lynxmic).
@@ -37,13 +40,13 @@ The channel was originally teased by Kit on 20 October 2025 in the *[StuffyXP Ha
 On the other hand, the [Lynxmic](Lynxmic) channel, created and ran by [Avery](AveryEclipse), began in late 2016 being primarily tech-focused from the start. However it did not begin to meaningfully pick up in views and subscribers until early 2023, having been struggling to grow for most of its lifetime. By late 2024, the channel reached over 1,000 subscribers, becoming one of the more significant players in the wintuber niche. However the channel began to be considered largely discontinued since April 2025, also due to Avery's low interest in the channel and overall declining mental health status.
 
 ### Channel creation and planning
-Fast-forward a couple of months, Kit was re-organizing their personal data to prepare for a data backup since they were going to reinstall their daily driver, and came across a folder named "The StuffyXP Archive". This folder contained the entire set of StuffyXP videos, alongside their original thumbnails and a JSON file hosting channel data. Shortly after revisiting the now-archived [StuffyXP Hangout](StuffyXP_Hangout) server, Kit gained nostalgia for "the good times" as dubbed by them, and decided to "try the field once again". A StuffyXP successor, publicly reffered to as *StuffyXP 2* until a proper name would've been chosen, was revealed by Kit on September 2025.
+Fast-forward a couple of months, Kit was re-organizing their personal data to prepare for a data backup since they were going to reinstall their daily driver, and came across a folder named "StuffyXP Archive". This folder contained the entire set of StuffyXP videos, alongside their original thumbnails and a JSON file hosting channel data. Shortly after revisiting the now-archived [StuffyXP Hangout](StuffyXP_Hangout) server, Kit gained nostalgia for "the good times" as dubbed by them, and decided to "try the field once again". A StuffyXP successor, publicly reffered to as *StuffyXP 2* until a proper name would've been chosen, was revealed by Kit on September 2025.
 
 On the 16th, the *AstroNT Datacenter* Discord server (known back-then as *StuffyXP 2 Hangout*) was created to discuss the preparation and creation of the channel itself. The name of the channel was chosen as a nod to [StuffyXP](StuffyXP), as it had a Windows-themed suffix added to it. Ideas for suffixes for the channel would've been "CE" (from [Windows CE](https://betawiki.net/wiki/Windows_CE)) and "ME" (from [Windows ME/Millenium Edition](https://betawiki.net/wiki/Windows_Me)), however these wouldn't go beyond the chatting phase, and were scrapped in favor of "NT", this time referencing [Windows NT](https://betawiki.net/wiki/Windows_NT). The channel was planned to be named between "AstroNT" and "AsteroidNT", both coming from the fact that Windows NT 4.0 is themed around space, as seen in the branding of it. After such decision, "AstroNT" was chosen for the final name of the channel, with "AstroNT Workstation" was chosen for a formal, longer name where cases "AstroNT" isn't enough, such as the email address or the channel handle. Regarding the logo, it was decided to reuse the star present in the Horibyte branding in order to follow the space theme, however, a sparkle was also brought into the table, but was scrapped last minute.
 
 The channel was created a day later, but wasn't officially announced until a few weeks later. In the meantime, teaser announcements would be posted by Kit on the [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den) Discord servers, officially revealing the AstroNT name.
 
-{% include items/embed.html image_src='res/img/articles/astront/wave1.png' caption='The message for the so-called "Wave 1". 17 September 2025.' %}
+{% include items/embed.html image_src='astront/misc/wave1.png' caption='The message for the so-called "Wave 1". 17 September 2025.' %}
 
 Following the release of the channel trailer, a roadmap was created detailing the first seven videos of the channel, featuring videos such as *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*, *[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))* and *[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*, which would cover the rest of 2025. This roadmap would be then dubbed "**Wave 1**".
 
@@ -53,7 +56,7 @@ Additionally, "Replacing ProgMan", which consisted of replacing the Program Mana
 
 While work for VMware 12 on Vista began, Axeon Network CEO and Founder [AveryEclipse](AveryEclipse) agreed to join the AstroNT project, with their first video for the channel being NewShell. This would officially mark AstroNT as a duo project, just like Axeon Network's [KuroWiki](KuroWiki). 
 
-## 2026: The rise of AstroNT, 8Store and Vectras, and "Wave 2"
+## January-July 2026: The rise of AstroNT, 8Store and Vectras, and "Wave 2"
 While there were no videos uploaded in December 2025, plans have been set in stone for many of the 2026 videos, including 5001 via DOS (*[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*) and 8Store (*[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))*), which became additional parts of "Wave 1".
 
 Although Y10K on Linux (*Running Linux in... Year 10000?*) was recorded prior to Discord on Vista, the video was continuously delayed for 2 months. It wouldn't be until 24 December 2025 that the editing phase begins and not until 19 January 2026 that the video would be finished. Shortly after the video went out, Avery decided to stop using Kdenlive and move back to DaVinci Resolve, which has improved production time and quality thanks to the latter feeling more easy and convenient to work with. The first AstroNT video to be edited in DaVinci Resolve was 5001 via DOS (*Installing Windows Longhorn via MS-DOS! (Post-Reset)*), which came about a week after Y10K on Linux.
@@ -73,6 +76,16 @@ In April 2026, work started for the Vectras video (*[Can you Daily Drive Windows
 June 2026 saw the release of the videos (*[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*), Microsoft Bob (*[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*) and Modern Programs on 98 (*[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*).
 
 On 8 July 2026, the AstroNT channel reached 1,000 subscribers, which was celebrated with a [stream](https://www.youtube.com/live/amFxXFCdGfQ), the first livestream ever made on the channel. One more video would come out on 18 July 2026 (*[What happens if you upgrade the Windows XP Mode VM?](What_happens_if_you_upgrade_the_Windows_XP_Mode_VM?)*) before an announcement was posted on 24 July 2026 that video uploads will stop for "at most a month or two" (i.e. channel goes on break).
+
+## August-December 2026: The comeback, *AstroNT Datacenter* and "Wave 3"
+Following the start of the AstroNT upload break and the end of "Wave 2" on the 24th of July, Kit and Avery would begin planning "Wave 3", which would officially mark the comeback for the AstroNT itself, on the 19th of July. For which, "Wave 3" would begin with the release of ***[Installing Haiku on unsupported hardware](Installing_Haiku_on_unsupported_hardware)*** (originally uploaded on 13 August 2026; codenamed *Haiku on Real HW*).
+Along with this, the concept of "video waves" were also created on the latter date.
+
+Along with the video schedule, finalized on 16 August, *[AstroNT Datacenter](AstroNT_Datacenter)* would be planned to be created on 16 September 2026 and publicly released a day later alongside ***[Transforming Windows 11 to Windows 1.0!?](Transforming_Windows_11_to_Windows_1.0!?)*** (originally uploaded on 9 August), to match the 1st anniversaries of AstroNT Workstation and *[MiloNXl](MiloNXl)*, a private Discord server which also used to be known as "AstroNT Datacenter" from March to July 2026.
+
+{% include items/embed.html image_src='astront/misc/brandcomp.png' caption='Comparison of the AstroNT branding (left: Version 1.1; right: Original/1.0)' %}
+
+Alongside Haiku on Real HW, a new channel trailer and branding was planned to release on the same day. The channel trailer being an updated version of the one uploaded on 25 October of 2025, while the new branding (officially being *Version 1.1*) being a much darker version of the original branding.
 
 
 # Videos
@@ -100,33 +113,54 @@ As of July 2026, there are eighteen videos uploaded to the AstroNT channel (excl
 
 
 # Gallery
-
-<div class="wiki-gallery">
+## AstroNT "Version 1.1" Branding
+<gallery>
     {% include items/gallery.html
-        image_src="res/img/articles/astront/banner.png"
-        caption="AstroNT Banner" 
+        image_src="astront/banneralt.png"
+        caption="Banner, \"AstroNT Workstation\" variant" 
+        author='KitSixtyFour' %}
+    {% include items/gallery.html
+        image_src="astront/wordmarkalt.png"
+        caption="Ditto, wordmark only" 
+        author='KitSixtyFour' %}
+    {% include items/gallery.html
+        image_src="astront/background.png"
+        caption="Background only" 
+        author='KitSixtyFour' %}
+</gallery>
+
+## AstroNT "Version 1.0" Branding
+<gallery>
+    {% include items/gallery.html
+        image_src="astront/legacy/banner.png"
+        caption="Banner" 
+        author='KitSixtyFour' %}
+    {% include items/gallery.html
+        image_src="astront/legacy/logo.png"
+        caption="Profile Picture" 
+        author='KitSixtyFour' %}
+</gallery>
+
+## Miscellaneous
+<gallery>
+{% include items/gallery.html
+        image_src="astront/misc/teaser1.png"
+        caption="The launch teaser originally sent in *[StuffyXP Hangout](StuffyXP_Hangout)* and *[Nishi's Den](Nishi's_Den)*" 
         author='KitSixtyFour' %}
 
     {% include items/gallery.html
-        image_src="res/img/articles/astront/teaser1.png"
-        caption="The launch teaser originally sent in [StuffyXP Hangout](StuffyXP_Hangout) and [Nishi's Den](Nishi's_Den)" 
-        author='KitSixtyFour' %}
-
-    {% include items/gallery.html
-        image_src="res/img/articles/astront/teaser2.png"
+        image_src="astront/misc/teaser2.png"
         caption="Ditto, [Horicraft](Horicraft) variant." 
         author='KitSixtyFour' %}
 
     {% include items/gallery.html
-        image_src="res/img/articles/astront/earlyteaser.png"
+        image_src="astront/misc/earlyteaser.png"
         caption="An early version of the teaser." 
         author='KitSixtyFour' %}
 
     {% include items/gallery.html
-        image_src="res/img/articles/astront/makingoflogo.png"
+        image_src="astront/misc/makingoflogo.png"
         caption="An image depicting how the AstroNT logo was created." 
         author='KitSixtyFour' %}
-</div>
+</gallery>
 
-# References
-[^1]: The former names originally had Katakana subtitles. For example, <span title='Japanese language text. Romanization: Asutoro Enū Tī Dātasentā'>"アストロNT ダータセンター"</span> was used for *AstroNT Datacenter*. However, this was scrapped sometime in May 2026.

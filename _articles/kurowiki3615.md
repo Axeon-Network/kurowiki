@@ -16,7 +16,7 @@ version='5.2'
 build='3615'
 lab='main'
 compiled='2025-10-10 19:12 UTC-6'
-image='res/img/articles/kurowiki3615/home.png'
+image='kurowiki3615/home.png'
 image_caption='Home page'
 %}
 
@@ -66,19 +66,19 @@ https://axeon-network.github.io/kurowiki
 
 # Gallery
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3615/homeditto.png" 
+        image_src="kurowiki3615/homeditto.png" 
         caption="Home page, recent news collapsed."
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3615/drawer.png" 
+        image_src="kurowiki3615/drawer.png" 
         caption="The drawer"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3615/homebug.png" 
+        image_src="kurowiki3615/homebug.png" 
         caption="The home page's card bug."
         style="width:50%;" %}
 </div>

@@ -20,22 +20,24 @@ document.addEventListener('keydown', (e) => {
         switch (key) {
             // ctrl+alt+t = changes the theme of the site 
             case 't':
-                e.preventDefault(); // stop default browser actions
+                e.preventDefault();
                 const htmlElement = document.documentElement;
                 
-                // toggle the class and store the result (true if light-mode is now on)
-                const isLightMode = htmlElement.classList.toggle('light-mode');
-                // then sync it with themePreference
-                localStorage.setItem('currentTheme', isLightMode ? 'light' : 'dark');
+                const willBeLight = !htmlElement.classList.contains('light-mode');
                 
-                // now here's a fun thing; if we are already on the settings page,
-                // just toggle the switch!
+                if (typeof window.applyTheme === 'function') {
+                    window.applyTheme(willBeLight);
+                } else {
+                    htmlElement.classList.toggle('light-mode', willBeLight);
+                    localStorage.setItem('currentTheme', willBeLight ? 'light' : 'dark');
+                }
+                
                 const darkModeToggle = document.getElementById('themeToggle');
                 if (darkModeToggle) {
-                    darkModeToggle.checked = isLightMode;
-                    darkModeToggle.parentElement.classList.toggle('is-checked', isLightMode);
+                    darkModeToggle.checked = willBeLight;
+                    darkModeToggle.parentElement.classList.toggle('is-checked', willBeLight);
                 }
-                console.log(`${isLightMode ? 'Light' : 'Dark'} mode enabled.`);
+                console.log(`${willBeLight ? 'Light' : 'Dark'} mode enabled.`);
                 break;
 
             // ctrl+alt+w = hides or shows the build watermarks

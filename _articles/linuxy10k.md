@@ -8,7 +8,7 @@ dyk:
 
 {% include infoboxes/video.html
 title='Running Linux... on Year 10000?'
-image='res/img/articles/linuxy10k/thumbnail.png'
+image='linuxy10k/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'

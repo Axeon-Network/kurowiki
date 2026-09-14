@@ -40,11 +40,14 @@ license-s: CC-BY-SA-4.0
 
 # The name of the license the wiki's images are licensed under.
 img_license: Creative Commons Attribution 4.0 International
-# Ditto; Line 39
+# Ditto; Line 34
 img_licenseurl: https://creativecommons.org/licenses/by/4.0/deed.en
-# Ditto; Line 41
+# Ditto; Line 36
 img_license-s: CC-BY-4.0
-
+# Path for every article's image
+# Completely optional, just remove the variable or leave it blank to do
+# something else
+img_article_path: res/img/articles/
 
 # == HOMEPAGE ==
 # A quick description of your wiki and what is it about, visible on the homepage.
@@ -67,25 +70,19 @@ devphase: Release Candidate
 devphase-s: Silver Release
 # ID for dev builds
 idprefix: "rc1" # Release Candidate 1
-
-# = Debug Mode =
-# Enables various developer features of Deltari, like the watermarks and
-# "(Debug)" suffix to the drawer.
-debug: true
-# = Private Build =
-# Similar to Microsoft Windows, self-explanatory
-privatebuild: false
 # = Extended Build Lab =
 # Shows the branch and timestamp of the build, instead of the major, minor
 # and build number
 buildlabex: true
-# = Build Delta =
-# Enables or disables build revisions, useful when build numbers are fixed
-builddelta: false
 
-# = Retail Mode =
-# Self-explanatory, used for public releases
-retail: false
+# Looking for debug mode? Use Whidbey to set it up!
+# If you want to use the old method, uncomment these:
+#  debug: true      # set to false to enable retail mode
+#  retail: false    # set to true to enable retail mode, too (great code ik)
+# For private builds and deltas:
+#  privatebuild: true
+#  builddelta: true
+
 
 # stupid
 myvariable: "{{ site.myvariable }}"
@@ -155,6 +152,7 @@ collections:
     permalink: "./File::name"
   articles:
     output: true # the fuck you mean you actually need this
+    sort_by: title
   special:
     output: true # jekyll you can fuck my ass whenever you want, fuck you.
   featured:

@@ -9,7 +9,7 @@ hatnote: "This article is incomplete and will be finished in Release Candidate 2
 ---
 
 {% include infoboxes/bot.html
-image='res/img/articles/venus/logo.jpg'
+image='venus/logo.jpg'
 name='Venus'
 formerly='Melon (2018)'
 owner='[AveryEclipse](AveryEclipse)'

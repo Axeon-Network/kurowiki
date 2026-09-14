@@ -6,8 +6,8 @@ hatnote: This article is about the secondary channel, for the channel shortly kn
 ---
 
 {% include infoboxes/channel.html
-logo='res/img/articles/astronte/logo.png'
-pfp='res/img/articles/astronte/pfp.png'
+logo='astronte/logo.png'
+pfp='astronte/pfp.png'
 name='AstroNT Embedded'
 creator='[KitSixtyFour](KitSixtyFour) (Google Account)<br>[AveryEclipse](AveryEclipse) (YouTube channel)'
 maintainers='KitSixtyFour<br>AveryEclipse'
@@ -27,7 +27,7 @@ The channel was created as a response to the amount of unused AstroNT material t
 
 # Series
 {% include items/embed.html
-image_src='res/img/articles/astronte/rawcut.png'
+image_src='astronte/rawcut.png'
 caption='RawCuts wordmark' %}
 
 To easily categorise the different types of content uploaded to the channel, several categories or "series" were created:
@@ -49,8 +49,8 @@ As of July 2026, four videos have been uploaded to the channel.
 <!-- - ***EXTRAS: Kit plays Minesweeper*** (uploaded 2026-??-??) -->
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
 caption='Channel banner'
-image_src='res/img/articles/astronte/banner.png' %}
+image_src='astronte/banner.png' %}
 </div>

@@ -11,7 +11,7 @@ hatnote: This article is incomplete. It will probably be finished in Release Can
 toc: true
 ---
 {% include infoboxes/channel.html
-pfp='res/img/articles/lynxmic/logo.png'
+pfp='lynxmic/logo.png'
 author='AveryEclipse'
 name='Lynxmic'
 creator='[AveryEclipse](AveryEclipse)'
@@ -20,9 +20,10 @@ subs='1,665'
 views='185,554'
 platform='YouTube'
 state='Inactive; channel available'
-creationdate='2016-12-05'
-linkname='youtube.com/lynxmic'
-linkurl='https://youtube.com/lynxmic'
+creationdate='5 December 2016'
+createdISO='2016-12-05'
+link='[youtube.com/lynxmic](https://youtube.com/lynxmic)'
+successor='[AstroNT](AstroNT)'
 %}
 
 **Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) created on 5 December 2016.
@@ -47,7 +48,7 @@ Later on 24 December 2016, the Computerseasons Twitter Account would be created 
 
    <div>
         {% include figure_item.html 
-        image_src="res/img/articles/lynxmic/cs_channel_picture.png" 
+        image_src="lynxmic/cs_channel_picture.png" 
         alt_text="" 
         caption="Computerseasons logo, December 2016"
         style="width:10%; height:auto" %}

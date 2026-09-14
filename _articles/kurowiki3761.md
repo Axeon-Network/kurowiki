@@ -12,7 +12,7 @@ version='6.0'
 build='3761'
 lab='nekori64'
 compiled='2025-10-12 20:01 UTC-6'
-image='res/img/articles/kurowiki3761/settings.png'
+image='kurowiki3761/settings.png'
 image_caption='Settings page'
 %}
 
@@ -20,10 +20,10 @@ image_caption='Settings page'
 
 It adds a new Settings page accessible at [Settings](Settings) and from the drawer. The Light Mode toggle had been relocated from the main KuroWiki pages under the new Settings page.
 
-<div class="wiki-gallery">
+<gallery>
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3761/settingslightmode.png" 
+        image_src="kurowiki3761/settingslightmode.png" 
         alt_text="Ditto, light mode enabled" 
         caption="Settings with light mode enabled"
         style="width:50%;" %}

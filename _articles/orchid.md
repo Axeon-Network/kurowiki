@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 {% include infoboxes/bot.html
-image='res/img/articles/orchid/logo.png'
+image='orchid/logo.png'
 name='Orchid'
 owner='[AveryEclipse](AveryEclipse)'
 platform='Discord<br>Stoat<br>Fluxer <small>(planned)</small>'
@@ -34,7 +34,7 @@ Some actual work was actually done on the Orchid bot project in June 2023, re-us
 The idea of an Orchid bot came back to light sometime during February 2025 after the launch of [HoriServer](HoriServer) on Stoat, then known as Revolt, this time as a public multi-purpose bot (similar to Venus in idea) for said chatting platform, however the project was yet again abandoned after a short while, and the Stoat bot account for Orchid was deleted in March 2025.
 
 {% include items/embed.html 
-   image_src="res/img/articles/orchid/earlylogos.png" 
+   image_src="orchid/earlylogos.png" 
    caption="Initial Orchid logos, from left to right: 2023 (for the Discord bot), 2025 (for the multi-purpose Stoat bot)"
 
 %}

@@ -12,7 +12,7 @@ Dogui was given to Kit on 13 October 2015 as a gift from their aunt (who has pas
 The plush first appeared on a *[StuffyXP](StuffyXP)* video recorded and uploaded on 9 May 2024, part of the so-called [Stuff Life era](StuffyXP#2020-2022-yoshi-land0842-and-stuff-life), being the main protagonist of the latter. Since then, Dogui has made several appearances and roles in video from said era until 2024, where the focus of the channel was changed from plushies to technology, following the release of *[A VMware First-Timer installs Windows XP!](A_VMware_First-Timer_installs_Windows_XP!)*.
 
 {% include items/embed.html 
-    image_src='res/img/articles/dogui/dogui2024.jpg'
+    image_src='dogui/dogui2024.jpg'
     caption='The picture sent to the [Axeon Network](Axeon_Network) Discord server. 10 January 2024.'
 %}
 
@@ -27,34 +27,34 @@ On March 2025, Kit designed what would eventually become [Comet](Comet), which r
 On June 2026, the photo of Dogui taken in 2024 was retaken.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffyxp/stuffyxp2023_proto.jpg'
+    image_src='stuffyxp/stuffyxp2023_proto.jpg'
     caption='An early version of the 2023 *StuffyXP* profile picture.'
 %}
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffyxp/stuffyxp2023_proto2.jpg'
+    image_src='stuffyxp/stuffyxp2023_proto2.jpg'
     caption='Ditto.'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffyxp/stuffyxp2023.jpg'
+    image_src='stuffyxp/stuffyxp2023.jpg'
     caption='The finished profile picture.'
 %}
 {% include items/gallery.html 
-    image_src='res/img/articles/dogui/dogui2026.jpg'
+    image_src='dogui/dogui2026.jpg'
     caption='The remake of the picture sent to the [Axeon Network](Axeon_Network) Discord server. 15 June 2026.'
 %}
 {% include items/gallery.html 
-    image_src='res/img/articles/dogui/emoji.webp'
+    image_src='dogui/emoji.webp'
     caption='The Dogui emoji present in the *Stuffy\'s Place!* and *StuffyXP Hangout* Discord servers.'
 %}
 {% include items/gallery.html 
-    image_src='res/img/articles/dogui/sticker.webp'
+    image_src='dogui/sticker.webp'
     caption='A Dogui sticker present in the aforementioned Discord servers.'
 %}
 {% include items/gallery.html 
-    image_src='res/img/articles/dogui/sticker2.webp'
+    image_src='dogui/sticker2.webp'
     caption='Ditto.'
 %}
 </div>

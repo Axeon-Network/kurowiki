@@ -5,7 +5,7 @@
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">Fictional character</div>
-        	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="infobox-img">
     </div>
     {% endif %}
 

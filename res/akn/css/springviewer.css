@@ -26,8 +26,8 @@
 /* variables */
 :root {
     /* dark mode */
-    --viewer-background-color-dark: #424242; 
-    --viewer-border-color-dark: #555555;
+    --viewer-background-color-dark: #101010; 
+    --viewer-border-color-dark: #252525;
     /* --viewer-button-color-dark: rgb(40,40,40); */
 
     /* light mode */
@@ -303,9 +303,7 @@ html.light-mode {
     background: black;
     opacity: 80%;
 }
-.mdl-card--border {
-    border-top-color: var(--viewer-border-color) !important;
-}
+
 
 /* NOTE: as of build 5186.38, THIS DOES NOT WORK */
 
@@ -321,3 +319,7 @@ html.light-mode {
 .progressBar::-moz-progress-bar {
   background-color: var(--accent) !important;
 } */
+
+#viewer-details-sub {
+    border-top: 1px solid var(--viewer-border-color) !important;
+}

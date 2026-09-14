@@ -15,7 +15,7 @@ Additionally, a Minecraft world containing a main "lobby" for the then-known as 
 Tentatives at hosting a Minecraft Server date back to summer 2018, when the then-known-as Axeon Community was planning a joined game night with one of its partnered Discord Servers. However, this never happened.
 
 {% include items/embed.html 
-    image_src="res/img/articles/midorimc/2021.png" 
+    image_src="midorimc/2021.png" 
     caption="World spawn of the 'Lynx-Axeon Minecraft Server' from 2021"
     style="width:30%; height:auto" %}
 
@@ -28,7 +28,7 @@ Both AxeonMC (hosted by [AveryEclipse](AveryEclipse)) and Horicraft (2) (hosted 
 
 <div>
     {% include items/embed.html 
-        image_src="res/img/articles/midorimc/axeonmc.png" 
+        image_src="midorimc/axeonmc.png" 
         alt_text="World spawn of AxeonMC" 
         caption="World spawn of AxeonMC"
         style="width:30%; height:auto" %}
@@ -45,7 +45,7 @@ Another idea was to [unify](Orchid) the MidoriMC in-game chat and the Axeon Netw
 
 <div>
     {% include items/embed.html 
-        image_src="res/img/articles/midorimc/midorimclogo.png" 
+        image_src="midorimc/midorimclogo.png" 
         alt_text="Logo of MidoriMC, in use from June 2025 until its closure." 
         caption="Logo of MidoriMC, in use from June 2025 until its closure."
         style="width:10%; height:auto" %}

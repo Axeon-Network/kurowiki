@@ -12,7 +12,7 @@ version='6.0'
 build='3689'
 lab='kayaurora'
 compiled='2025-10-12 17:39 UTC-6'
-image='res/img/articles/kurowiki3689/home.png'
+image='kurowiki3689/home.png'
 image_caption='Home page'
 %}
 
@@ -22,16 +22,16 @@ The fourth Beta 6 build overall, it introduces a custom 404 Not Found page for w
 
 This build was compiled with an issue in the homepage where the *Recent news* text was rendering white, issue related to testing Dark Mode in [a previous build](KuroWiki_build_3686) from the `nekori64` branch.
 
-<div class="wiki-gallery">
+<gallery>
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3689/404.png" 
+        image_src="kurowiki3689/404.png" 
         alt_text="The new 404 page." 
         caption="The new 404 page."
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3689/contrib.png" 
+        image_src="kurowiki3689/contrib.png" 
         alt_text="Hatnote of the Contributing to KuroWiki page." 
         caption="Hatnote of the Contributing to KuroWiki page."
         style="width:50%;" %}

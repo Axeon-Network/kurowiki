@@ -22,7 +22,7 @@ repoLink='[Axeon-Network/KuroWiki](https://github.com/Axeon-Network/KuroWiki)'
 repoHost='GitHub'
 status='Available'
 link='[https://axeon-network.github.io/kurowiki](https://axeon-network.github.io/kurowiki)'
-image='res/img/articles/kurowiki4450/home.png'
+image='kurowiki4450/home.png'
 %}
 
 **Axeon KuroWiki** is an open-source online encyclopedia planned to be launched as stable by the [Axeon Network](Axeon_Network) on the second half of 2026 (a.k.a *H2*). Its main purpose is documenting meanings of inside jokes and random things of the Axeon Network. It is primarily developed by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse).

@@ -24,8 +24,9 @@
     
     <link rel="shortcut icon" href="{{ site.baseurl }}/res/img/favicon.png" type="image/x-icon">
 
+    
     <!-- do i need to explain this??? -->
-    <title>{{ page.title | default: "I think you forgot something... ;)" | replace_first: 'Sitemap - page', 'Sitemap' }} ~ {{ site.title }}</title>
+    <title>{% if page.type == 'sitemap' %}Sitemap{% else %}{{ page.title | default: "I think you forgot something... ;)" }}{% endif %%} ~ {{ site.title }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -49,7 +50,7 @@
     <script defer src="{{ site.baseurl }}/res/mdl/material.min.js"></script>
 
     <!-- so we have fancy codeblocks -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/vs2015.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.css" id="hlJS_color">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
     <script>hljs.highlightAll();</script>
@@ -90,7 +91,7 @@
             <!-- search box -->
             <div class="mdl-textfield__holder">
               <div class="container desktop-only">
-                <form action="search" method="get">
+                <form action="{{ site.baseurl }}/search" method="get">
                   <div class="mdl-textfield mdl-js-textfield">
                     <input class="mdl-textfield__input" type="text" id="search-input" name="q" style="border-bottom: 0px rgba(0,0,0,0);text-shadow: 0 0 4px black;">
                     <label class="mdl-textfield__label"><i style="color:white;">Search {{ site.title }}...</i></label>
@@ -99,7 +100,7 @@
               </div>
 
               <div class="container mobile-only">
-                <form action="search" method="get">
+                <form action="{{ site.baseurl }}/search" method="get">
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
                     <label class="mdl-button mdl-js-button mdl-button--icon" for="mobile-search-input">
                       <i class="material-icons">search</i>
@@ -187,7 +188,7 @@
             {% if page.isTitleItalic %}
               {% assign is-italic = "titleItalic" %}
             {% endif %}
-            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{{ page.title | replace_first: 'Sitemap - page', 'Sitemap' }}</h1>
+            <h1 id="pagetitle" class="{{ is-italic }}" style="color:var(--title-color)">{% if page.type == 'sitemap' %}Sitemap{% else %}{{ page.title }}{% endif %}</h1>
             <hr>
           
             <noscript>

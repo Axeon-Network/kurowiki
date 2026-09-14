@@ -37,7 +37,7 @@ subtitle="operating system family"
 %}
 
 {% include items/embed.html 
-image_src='res/img/WindowsNT31-RTM-Desktop.png'
+image_src='../../img/WindowsNT31-RTM-Desktop.png'
 caption='The desktop of [Microsoft Windows NT 3.1](https://betawiki.net/wiki/Windows_NT_3.1), the first major version of Windows NT.'
 %}
 
@@ -52,22 +52,22 @@ A user interface was added to Windows NT in the first half of 1991, with network
 The next minor version, [Windows NT 3.5](https://betawiki.net/wiki/Windows_NT_3.5) was released in 1994 and included performance improvement as well as a new full TCP/IP stack, long filename (LFN) support on the FAT file system and other refinements. [Windows NT 3.51](https://betawiki.net/wiki/Windows_NT_3.51) was released in 1995, which ensured compatibility with the upcoming [Windows 95](https://betawiki.net/wiki/Windows_95) and added support for the PowerPC architecture, the PCMCIA interface, as well as file compression, or replaceable GINA. 
 
 # "Trifrost"
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        thumb="res/vid/thumb.png" 
-        video_src="res/vid/test.mp4"
+        thumb="../../vid/thumb.png" 
+        video_src="../../vid/test.mp4"
         caption="Mario & Luigi RPG 3!!!" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/cometadv527/properties.png" 
+        image_src="cometadv527/properties.png" 
         caption="Comet Adventure build 527 Properties window" %}
-</div>
+</gallery>
 
 
 # Download
-   {% include items/download.html
-     name="globe.kra"
-     src="res/files/articles/downloaddebug/globe.kra"
-   %}
+{% include items/download.html
+  name="globe.kra"
+  src="res/files/articles/downloaddebug/globe.kra"
+%}
 
 # Header 1
 Through all these cities and all these towns<br>It's in my blood and it's all around
@@ -239,19 +239,18 @@ exit /b
 The following segment uses the `raw` Liquid tag to escape Jekyll builds:
 ```html
 {% raw %}
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled.png"
+  image_src="helloworld/untitled.png"
   caption="Lorem ipsum dolor sit amet..." %}
 
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled2.webp"
+  image_src="helloworld/untitled2.webp"
   caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled3.jpg"
-  caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." %}
-</div>
+  image_src="helloworld/untitled3.jpg"
+  caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." </gallery>
 {% endraw %}
 ```
 
@@ -435,7 +434,7 @@ me when the material design is lite (real)
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 176px;
-  background: url('res/img/articles/cometadv527/windows81.png') center / cover;
+  background: url('cometadv527/windows81.png') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
@@ -546,10 +545,10 @@ me when the material design is lite (real)
 i got no idea :3
 
 # Silver, Part Two
-{% include items/embed.html caption='Wide' image_src='res/img/wide.jpg' %}
-{% include items/embed.html caption='Cube or 4by3' image_src='res/img/cube.jpg' %}
-{% include items/embed.html caption='Tall' image_src='res/img/tall.png' left=true %}
-{% include items/embed.html caption='Rectangle or 16by9' image_src='res/img/rect.png' left=true %}
+{% include items/embed.html caption='Wide' image_src='../../img/wide.jpg' %}
+{% include items/embed.html caption='Cube or 4by3' image_src='../../img/cube.jpg' %}
+{% include items/embed.html caption='Tall' image_src='../../img/tall.png' left=true %}
+{% include items/embed.html caption='Rectangle or 16by9' image_src='../../img/rect.png' left=true %}
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
@@ -567,3 +566,22 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+
+# Silver Size Test
+{% include items/embed.html image_src='astront/wordmarkalt.png' size=1 caption='Size 1' %}
+{% include items/embed.html image_src='dhi/hq.png' size=2 caption='Size 2' %}
+{% include items/embed.html image_src='findingfucking/tposter1.png' size=3 caption='Size 3' %}
+{% include items/embed.html image_src='winnishilecat/winver.png' size=4 caption='Size 4' %}
+Satoru Iwata (Japanese: 岩田 聡; December 6, 1959 – July 11, 2015) was a Japanese businessman, video game programmer and producer. Beginning in 2002, Iwata served as the fourth president of Nintendo, as well as the chief executive officer (CEO) of Nintendo of America from 2013 until his death in 2015. Iwata was a major contributor in broadening the appeal of video games by focusing on novel and entertaining games rather than top-of-the-line hardware.
+
+Born in Sapporo, Iwata expressed interest in video games from an early age and created his first simple game while in high school. He majored in computer science at the Tokyo Institute of Technology. In 1980, he joined the game developer HAL Laboratory while attending the university. At HAL, he worked as a programmer and closely collaborated with Nintendo, producing his first commercial game in 1983. Games to which he contributed include EarthBound and many games in the Kirby series. Following a downturn and near-bankruptcy, Iwata became the president of HAL in 1993 at the insistence of Nintendo president Hiroshi Yamauchi and brought financial stability. In the following years, he worked in the development of the Pokémon and Super Smash Bros. series. Iwata joined Nintendo as the head of its corporate planning division in 2000.
+
+Nintendo saw growth under Iwata and, when Yamauchi retired, he was sworn in as the company's president in May 2002. Under Iwata's leadership, Nintendo developed the Nintendo DS and Wii game consoles, helping the company achieve massive financial success. As a self-declared gamer, he focused on expanding the appeal of video games across demographics through a "blue ocean" business strategy. Nintendo attained record profits by 2009, and Barron's placed Iwata among the top 30 CEOs worldwide. Iwata expanded his strategy by defining a quality-of-life product line for the Wii that evolved into a ten-year strategy to create standalone products. Later hardware such as the Nintendo 3DS and Wii U proved far less profitable than the Wii, and Nintendo's net sales fell by two thirds from 2009 to 2012; the company saw its first operating losses in 30 years during this time. Iwata voluntarily halved his salary in 2011 and again in 2014. In 2015, after several years of decline, Iwata put a portion of Nintendo's focus into the rapidly growing mobile game market; a landmark partnership with mobile provider DeNA was established that March. Throughout his career, Iwata built a relationship with Nintendo fans through social media and his regular appearances in Iwata Asks and Nintendo Direct, becoming the public face of the company.
+
+In June 2014, a tumor in Iwata's bile duct was discovered during a routine physical exam. It was removed, and Iwata returned to work in October of that year. The problem resurfaced in 2015, and Iwata died at the age of 55 from its complications on July 11. Members of the gaming industry and gamers worldwide alike offered tributes through public announcements and social media, and fans worldwide established temporary memorials. Iwata was posthumously awarded the Lifetime Achievement Award at the 2015 Golden Joystick Awards and the 2016 D.I.C.E. Awards.
+
+Satoru Iwata was born on December 6, 1959, and raised in Sapporo, Japan, where his father served as a prefectural official. Throughout middle and high school, Iwata displayed leadership skills through service as class president, student council president, and club president at various times. His first experience with computers was in middle school with a demo computer that used telephone lines. Iwata would frequent the Sapporo subway and play a simple numeric game, called Game 31, until he mastered it. With money saved up from a dish-washing job and some additional allowance from his father, Iwata purchased an HP-65, the first programmable calculator, in 1974. After entering Hokkaido Sapporo South High School in April 1975, he began developing his own games during his junior year. The several simple number games Iwata produced, such as Volleyball and Missile Attack, made use of an electronic calculator he shared with his schoolmates.
+
+He obtained his first computer, a Commodore PET, in 1978. He dismantled and studied the machine out of his desire to understand it. The computer coincidentally had a central processing unit (MOS 6502) similar to the one used by Nintendo for the Nintendo Entertainment System (NES), a gaming console for which he would later develop games. Following high school, Iwata was admitted to the Tokyo Institute of Technology in April 1978, where he majored in computer science. Tomohiko Uematsu, an engineering professor, noted Iwata's proficiency with software programming and remarked that Iwata could write programs faster and more accurately than any of his other students.
+
+While attending the school, he was one of several unpaid interns at Commodore Japan, assisting the subsidiary's head engineer—Yash Terakura—with technical and software-development tasks. One of his main reasons for taking the job was to spend more time around computers and learn of details not openly available to the public. Terakura would later serve as a mentor to Iwata, teaching him about hardware engineering to supplement Iwata's already extensive software knowledge. Iwata and several of his friends rented an apartment in Akihabara and soon formed a club where they would create and code games. Classmates living in nearby apartments referred to Iwata's room as "Game Center Iwata". He would frequently show off his games to the Seibu department store's computer department, and by 1980 a group of employees there invited him to join their company, HAL Laboratory, Inc.

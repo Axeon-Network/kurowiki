@@ -14,7 +14,7 @@ platform='YouTube'
 views='32,672'
 reldate='2026-02-15'
 link='https://youtu.be/YdZhdkPzCoQ'
-image='res/img/articles/8store/thumbnail.png'
+image='8store/thumbnail.png'
 %}
 
 ***The Return of the Windows Store in Windows 8.1?! (8Store)***[^1] is an [AstroNT](AstroNT) video made by [AveryEclipse](AveryEclipse), primarily focused on reviewing the Windows 8.1 Store revival project app *8Store* but also around sideloading of Windows 8.1 "modern apps" (also known as Metro Apps) in general.

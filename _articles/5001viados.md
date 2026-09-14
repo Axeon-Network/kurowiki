@@ -8,7 +8,7 @@ dyk:
 
 {% include infoboxes/video.html
 title='<i>Installing Windows Longhorn via MS-DOS! (Post-Reset)</i>'
-image='res/img/articles/5001viados/thumbnail.png'
+image='5001viados/thumbnail.png'
 channel='[AstroNT](AstroNT)'
 platform='YouTube'
 views='748'
@@ -28,7 +28,7 @@ As of 16 February 2026, the video has over forty views. It was the first AstroNT
 ## As a Lynxmic Video
 
 {% include items/embed.html 
-image_src="res/img/articles/5001viados/installing_longhorn_build_5001_from_dos.png" 
+image_src="5001viados/installing_longhorn_build_5001_from_dos.png" 
 caption="'Installing Windows Longhorn (Build 5001) from DOS' thumbnail, 23 February 2023"
 author="AveryEclipse/Lynxmic" %}
 

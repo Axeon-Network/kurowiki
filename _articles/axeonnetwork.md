@@ -18,7 +18,7 @@ openedDate='2017-12-28'
 type='Public'
 memberCount='98 (as of 2026-07-04)'
 link='[axeon-network.github.io](https://axeon-network.github.io)'
-logo='res/img/articles/axeonnetwork/wordmark.png'
+logo='axeonnetwork/wordmark.png'
 %}
 
 The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), which had always been the 'heart' of the network from the start, other stuff include Stoat (formerly revolt.chat) and Fluxer servers of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.
@@ -36,7 +36,7 @@ its initial scope was to serve as a spiritual successor to the [BriciWorld Loung
 The server was renamed to Axeon Community in April 2018, and the Axeon logo has reached its current form in June 2018. By the same month, it has went past the 100 member milestone, peaking at just over 120 members in early 2019. The server had for a while also went by “Lynx-Axeon” during early-to-mid 2021, as a result of the breakaway LynxPlaza server merging back in late 2020 after having previously spun off a year prior.
 
 {% include items/embed.html 
-image_src="res/img/articles/axeonnetwork/axeonlogos.png" 
+image_src="axeonnetwork/axeonlogos.png" 
 caption="From left to right: Aqua Community (first ever server logo, late 2017), Axeon Community (early 2019), Lynxmic's Square (late 2022), Axeon Network (logo used between June 2025 and July 2026)"
 style="width:50%; height:auto" %}
 
@@ -83,20 +83,20 @@ AxeonWebsite was primarily designed to promote the Axeon Network Discord Server,
 Initially on the `aquacommunity.ml` domain, it has moved to `axeoncommunity.ml` following the rebrand from Aqua Community to Axeon Community in April 2018, domain which would remain for the remainder of the website's lifetime. As previously stated, a subdomain of the same domain was planned to be used for *i.axeon* as well.
 The website has been hosted on GitHub Pages since May 2018, and initially on a different free web hosting service, from which it migrated due to persisting issues loading media under said provider.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/axeonnetwork/axeonwebsite.png" 
+        image_src="axeonnetwork/axeonwebsite.png" 
         alt_text="AxeonWebsite in May 2019" 
         caption="AxeonWebsite in May 2019"
         style="width:40%; height:auto" %}
-        </div>
+</gallery>
 
 A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](AveryWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
 
 In April 2026, a new permanent iteration of the new AxeonWebsite was rolled out.
 
 {% include items/embed.html 
-    image_src="res/img/articles/axeonnetwork/i.axeon.png" 
+    image_src="axeonnetwork/i.axeon.png" 
     caption="Proposed logo of the i.axeon service (early 2018)."
 %}
 

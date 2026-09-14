@@ -4,7 +4,7 @@
 <div class="infobox mdl-shadow--4dp">
     {% if include.image %}
     <div class="infobox-img-container">
-        	<img src="{{ include.image }}"  style="width:50%;" class="infobox-img">
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="infobox-img">
             <div class="infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }}'s Profile Picture</div>
     </div>
     {% endif %}

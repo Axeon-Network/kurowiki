@@ -62,40 +62,39 @@ To help articles become more complete, KuroWiki hosts a set of items that are co
 Similar to other wikis, KuroWiki also supports galleries, which are a clean and organized way to show and demo any images. In order to import this component, you'd need to use the following structure:
 
 ```txt
-{% raw %}<div class="wiki-gallery">
+{% raw %}<gallery>
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled.png"
+  image_src="helloworld/untitled.png"
   caption="Lorem ipsum dolor sit amet..." %}
 
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled2.webp"
+  image_src="helloworld/untitled2.webp"
   caption="...consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." %}
 
 {% include items/gallery.html
-  image_src="res/img/articles/helloworld/untitled3.jpg"
-  caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." %}
-</div>{% endraw %}
+  image_src="helloworld/untitled3.jpg"
+  caption="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." </gallery>{% endraw %}
 ```
 <!-- dont use breaklines so the output doesnt break!~ -->
 
 Which would output this something similar to this:
 
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html 
-    image_src="res/img/articles/contributing/gallery.png" 
+    image_src="contributing/gallery.png" 
     style="width:50%;" %}
-    </div>
+    </gallery>
 
 
 ### Embed
 {% include items/embed.html
-  image_src="res/img/articles/contributing/embedEx.png"
+  image_src="contributing/embedEx.png"
   caption="Lorem ipsum dolor sit amet..." %}
 The embed item is a quick short way to put an image in your article. Unlike the gallery item, this directly embeds into the content (hence its name) and only supports one image at a time. This is useful for minor examples of the content where it is used in, such as small notes, slides, demos, or quite anything else!<br>To import it, use the following structure:
 
 ```txt
 {% raw %}{% include items/embed.html
-  image_src="res/img/articles/helloworld/untitled.png"
+  image_src="helloworld/untitled.png"
   caption="Lorem ipsum dolor sit amet..." %}{% endraw %}
 ```
 
@@ -115,7 +114,7 @@ version='6.0'
 build='3933'
 lab='nekori64'
 compiled='2025-10-27 18:30 UTC-6'
-image='res/img/articles/horiwiki/article.png'
+image='horiwiki/article.png'
 %}{% endraw %}
 ```
 

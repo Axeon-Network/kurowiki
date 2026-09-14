@@ -14,19 +14,19 @@ NovaSite was later scrapped due to Kit's disinterest in web development, which c
 # Gallery
 ## Real builds
 
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
-image_src="res/img/articles/novasite/build2.png"
+image_src="novasite/build2.png"
 caption="NovaSite 0.2.1.custo_dev(lex).250716-1632"
 %}
 
 {% include items/gallery.html
-image_src="res/img/articles/novasite/build4.png"
+image_src="novasite/build4.png"
 caption="NovaSite 0.2.4.custo_dev(lex).250716-1632"
 %}
 
 {% include items/gallery.html
-image_src="res/img/articles/novasite/build36.png"
+image_src="novasite/build36.png"
 caption="NovaSite 0.2.36.custo_dev(lex).250719-0946"
 %}
 
@@ -38,11 +38,11 @@ caption="NovaSite 0.2.36.custo_dev(lex).250719-0946"
 
 
 
-<div class="wiki-gallery">
+<gallery>
 
 {% include items/gallery.html
 
-image_src="res/img/articles/novasite/mockup-purple.png"
+image_src="novasite/mockup-purple.png"
 
 caption="Mockup for NovaSite's design, dated 17 July 2025."
 
@@ -50,7 +50,7 @@ caption="Mockup for NovaSite's design, dated 17 July 2025."
 
 {% include items/gallery.html
 
-image_src="res/img/articles/novasite/mockup-blue.png"
+image_src="novasite/mockup-blue.png"
 
 caption="Blue variant"
 
@@ -58,7 +58,7 @@ caption="Blue variant"
 
 {% include items/gallery.html
 
-image_src="res/img/articles/novasite/mockup-green.png"
+image_src="novasite/mockup-green.png"
 
 caption="Green variant"
 

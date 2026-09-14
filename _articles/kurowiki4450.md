@@ -16,9 +16,9 @@ version='6.0.1'
 build='4450'
 lab='main'
 compiled='2026-01-10 20:27 UTC-6'
-image='res/img/articles/kurowiki4450/home.png'
+image='kurowiki4450/home.png'
 image_caption='Home page (dark mode)'
-image2='res/img/articles/kurowiki4450/homelight.png'
+image2='kurowiki4450/homelight.png'
 image2_caption='Home page (light mode)'
 %}
 
@@ -33,8 +33,8 @@ Additionally, the copyright year has been updated to reflect the new year, while
 - The version number is incorrectly displayed as `6.0.4450.main.260110-2027` in the build tag and as "Axeon KuroWiki Beta 6.01" in the version banner, while the actual version number is `6.0.1`.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4450/drawer.png" 
+        image_src="kurowiki4450/drawer.png" 
         caption="Drawer" %}
 </div>

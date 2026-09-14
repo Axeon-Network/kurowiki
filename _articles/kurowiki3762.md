@@ -12,7 +12,7 @@ version='6.0'
 build='3762'
 lab='nekori64'
 compiled='2025-10-12 20:07 UTC-6'
-image='res/img/articles/kurowiki3761/settings.png'
+image='kurowiki3761/settings.png'
 image_caption='Settings page'
 %}
 

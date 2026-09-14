@@ -29,7 +29,7 @@ repoLink='[snowybifox/stuffyxp-website](https://github.com/snowybifox/stuffyxp-w
 repoHost='GitHub'
 status='Source code archived; website accessible'
 link='[snowybifox.github.io/stuffyxp-website/stuffywebsitewou](https://snowybifox.github.io/stuffyxp-website/stuffywebsitewou)'
-image='res/img/articles/stuffyswebsite/home.png'
+image='stuffyswebsite/home.png'
 successor='*[StuffyXP Website](StuffyXP_Website)*'
 %}
 
@@ -53,9 +53,9 @@ These issues consisted of the website's font being italic in Chromium-based brow
 
 The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/)
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/stuffyswebsite/homepublicbeta.png" 
+        image_src="stuffyswebsite/homepublicbeta.png" 
         alt_text="" 
         caption="Stuffy's Website! Public Beta homepage"
         style="width:50%; height:auto" %}

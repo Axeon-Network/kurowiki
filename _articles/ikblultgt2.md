@@ -6,7 +6,7 @@ dyk:
 ---
 
 {% include items/embed.html 
-    image_src="res/img/articles/ikblultgt2/devicemanager.png" 
+    image_src="ikblultgt2/devicemanager.png" 
     caption='%iKBLULTGT2% visible in the Windows 7 Device Manager.' 
     %}
 

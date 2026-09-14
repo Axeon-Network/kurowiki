@@ -10,7 +10,7 @@ version='0.2'
 build='259'
 lab='whcuber_main'
 compiled='2026-03-15'
-image='res/img/articles/cuber259/image.png'
+image='cuber259/image.png'
 image_caption='Main page'
 %}
 

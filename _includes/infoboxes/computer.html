@@ -6,7 +6,7 @@
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption"></div>
-        <img src="{{ include.image }}" style="width:75%;" class="infobox-img computer-desktop">
+        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" style="width:75%;" class="infobox-img computer-desktop">
         {% if include.image_caption %}
             <p class="infobox-img-caption-2">{{ include.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}

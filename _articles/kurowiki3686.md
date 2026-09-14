@@ -12,7 +12,7 @@ version='6.0'
 build='3686'
 lab='nekori64'
 compiled='2025-10-12 17:17 UTC-6'
-image='res/img/articles/kurowiki3686/home.png'
+image='kurowiki3686/home.png'
 image_caption='Home page'
 %}
 
@@ -24,39 +24,39 @@ Additionally the "KuroWiki" text in the navbar is now clickable. For convenience
 
 The *Featured article* box was also changed, adding a link to the "Full article" at the end of the excerpt.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/article.png" 
+        image_src="kurowiki3686/article.png" 
         alt_text="Article view" 
         caption="Article view"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/drawer.png" 
+        image_src="kurowiki3686/drawer.png" 
         alt_text="Ditto, drawer open" 
         caption="Ditto, drawer open"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/springviewer.png" 
+        image_src="kurowiki3686/springviewer.png" 
         alt_text="SpringViewer, KuroWiki's media viewer" 
         caption="SpringViewer, KuroWiki's media viewer"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/search.png" 
+        image_src="kurowiki3686/search.png" 
         alt_text="Search Results" 
         caption="Search Results"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/navbar.png" 
+        image_src="kurowiki3686/navbar.png" 
         alt_text="The KuroWiki text in the navbar, now clickable." 
         caption="The KuroWiki text in the navbar, now clickable."
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki3686/404.png" 
+        image_src="kurowiki3686/404.png" 
         alt_text="Main_Page displaying a 404, after the homepage was moved to the website root" 
         caption="Main_Page displaying a 404, after the homepage was moved to the website root. An 404 page wouldn't be implemented until <a href='KuroWiki_build_3689'>build 3689</a>"
         style="width:50%;" %}

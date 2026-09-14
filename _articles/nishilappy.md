@@ -15,7 +15,7 @@ name='NishiLappy'
 owner='[KitSixtyFour](KitSixtyFour)'
 manufacturer='Dell Inc.'
 model='Latitude 3380'
-image='res/img/articles/nishilappy/202605desk.png'
+image='nishilappy/202605desk.png'
 image_caption='Desktop as of July 2026'
 introduced='29 November 2024'
 introISO='2024-11-29'
@@ -71,7 +71,7 @@ Around 29 May 2025, the computer's charger's state had become increasingly worse
 
 <div>
 {% include figure_item.html 
-    image_src="res/img/articles/thei5lappy/chargerissuesgoneevenworse.png" 
+    image_src="thei5lappy/chargerissuesgoneevenworse.png" 
     alt_text="A Discord screenshot of a message by KitSixtyFour's old Discord account where they show the state of the computer in that time" 
     caption="A Discord screenshot of a message by KitSixtyFour's old Discord account where they show the state of the computer in that time"
     author='KitSixtyFour'

@@ -8,7 +8,7 @@ hatnote:
 ---
 {% include infoboxes/site.html
 name="Lynxmic Blog"
-logo='res/img/articles/lynxmicblog/logo2.png'
+logo='lynxmicblog/logo2.png'
 developer='[AveryEclipse](AveryEclipse)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Blog'
@@ -21,7 +21,7 @@ repoLink='[AveryEclipse/lynxblog](https://github.com/AveryEclipse/lynxblog)'
 repoHost='GitHub'
 status='Source code archived; website unavailable'
 link='https://lynxmic.github.io/blog'
-image='res/img/articles/lynxmicblog/02-06-2024.png'
+image='lynxmicblog/02-06-2024.png'
 %}
 
 ***Lynxmic Blog***, sometimes known as ***LynxBlog*** or previously after its URL address (**lynxmic.github.io**, prior to [LynxWebsite](LynxWebsite)'s launch) was [AveryEclipse](AveryEclipse)'s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll.
@@ -51,39 +51,39 @@ A month later, in December 2021, a set of updates was rolled out, including a Sh
 
 The blog would continue to receive occasional updates in 2022 to adapt to changes to branding and what social media platforms are being linked to, but would remain mostly inactive new post-wise aside from Lynxmic project updates and related.
 
-<div class="wiki-gallery">
+<gallery>
        {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/placeholdersite.png" 
+        image_src="lynxmicblog/placeholdersite.png" 
         alt_text="A placeholder page, used while the Lynxmic Blog was under development in 2021" 
         caption="A placeholder page, used while the Lynxmic Blog was under development in 2021"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/21-11-2021.png" 
+        image_src="lynxmicblog/21-11-2021.png" 
         alt_text="Initial iteration of the Lynxmic Blog, 21 November 2021" 
         caption="Initial iteration of the Lynxmic Blog, 21 November 2021"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/14-04-2022.png" 
+        image_src="lynxmicblog/14-04-2022.png" 
         alt_text="Lynxmic Blog, 14 April 2022. Fonts have been switched up and the navbar has been simplified." 
         caption="Lynxmic Blog, 14 April 2022. Fonts have been switched up and the navbar has been simplified."
         style="width:50%;" %}
 
             {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/14-04-2022-footer.png" 
+        image_src="lynxmicblog/14-04-2022-footer.png" 
         alt_text="Footer of the Lynxmic Blog on 14 April 2022. Visible is a broken pagination implementation and social media buttons" 
         caption="Footer of the Lynxmic Blog on 14 April 2022. Visible is a broken pagination implementation and social media buttons"
         style="width:50%;" %}
 
             {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/23-11-2022.png" 
+        image_src="lynxmicblog/23-11-2022.png" 
         alt_text="Lynxmic Blog just over a year after launch, 23 November 2022. Logo centering was fixed" 
         caption="Lynxmic Blog just over a year after launch, 23 November 2022. Logo centering was fixed"
         style="width:50%;" %}
 
             {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/23-11-2022-footer.png" 
+        image_src="lynxmicblog/23-11-2022-footer.png" 
         alt_text="Footer of the Lynxmic Blog on 23 November 2022. Pagination was removed, and Mastodon was added in place of Reddit" 
         caption="Footer of the Lynxmic Blog on 23 November 2022. Pagination was removed, and Mastodon was added in place of Reddit"
         style="width:50%;" %}
@@ -96,40 +96,40 @@ This design saw major changes later on in February, May and July 2023, and then 
 
 In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsite) took over the root of `lynxmic.github.io`.
 
-<div class="wiki-gallery">
+<gallery>
        {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/09-01-2023.png" 
+        image_src="lynxmicblog/09-01-2023.png" 
         alt_text="The Lynxmic Blog on 9 January 2023" 
         caption="The Lynxmic Blog on 9 January 2023"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/21-05-2023.png" 
+        image_src="lynxmicblog/21-05-2023.png" 
         alt_text="The Lynxmic Blog on 21 May 2023" 
         caption="The Lynxmic Blog on 21 May 2023"
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/31-10-2023.png" 
+        image_src="lynxmicblog/31-10-2023.png" 
         alt_text="The Lynxmic Blog on 31 October 2023" 
         caption="The Lynxmic Blog on 31 October 2023"
         style="width:50%;" %}
 
             {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/19-04-2024.png" 
+        image_src="lynxmicblog/19-04-2024.png" 
         alt_text="The Lynxmic Blog on 19 April 2024" 
         caption="The Lynxmic Blog on 19 April 2024"
         style="width:50%;" %}
 </div>
 
-<div class="wiki-gallery">
+<gallery>
        {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/logo1.png" 
+        image_src="lynxmicblog/logo1.png" 
         alt_text="Lynxmic Blog logo used from November 2021 to May 2023" 
         caption="Lynxmic Blog logo used from November 2021 to May 2023"
         style="width:50%;" %}
         {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/logo2.png" 
+        image_src="lynxmicblog/logo2.png" 
         alt_text="Lynxmic Blog logo used from May to December 2023" 
         caption="Lynxmic Blog logo used from May to December 2023"
         style="width:50%;" %}
@@ -142,9 +142,9 @@ Despite that the Lynxmic Blog and LynxWebsite continued to have separate codebas
 
 That said, this Lynxmic Blog iteration was rather short-lived as in July 2024, the blog was merged with the rest of the website as part of the [AveryWebsite](AveryWebsite) project. The Lynxmic Blog continued to be accessible for historical purposes under AveryEclipse's new website domain.
 
-<div class="wiki-gallery">
+<gallery>
        {% include items/gallery.html 
-        image_src="res/img/articles/lynxmicblog/02-06-2024.png" 
+        image_src="lynxmicblog/02-06-2024.png" 
         alt_text="The Lynxmic Blog on 2 June 2024" 
         caption="The Lynxmic Blog on 2 June 2024"
         style="width:50%;" %}

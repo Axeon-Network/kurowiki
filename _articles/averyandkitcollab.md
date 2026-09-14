@@ -12,7 +12,7 @@ platform='YouTube'
 views='171'
 reldate='2025-02-13'
 link='[https://www.youtube.com/watch?v=Oum-DvZcY_w](https://www.youtube.com/watch?v=Oum-DvZcY_w)'
-image='res/img/articles/kayauroraandnekoricollab/thumbnail.png'
+image='kayauroraandnekoricollab/thumbnail.png'
 %}
 
 ***Recreating Old YouTube Thumbnails (ft. @SnowyBiFox)***[^1] is a video posted on the AveryEclipse channel on 15 February 2025 about remaking thumbnails for [KitSixtyFour](KitSixtyFour)'s [StuffyXP](StuffyXP) channel and [AveryEclipse](AveryEclipse)'s [Lynxmic](Lynxmic) channel (plus one AveryEclipse video).
@@ -20,14 +20,14 @@ image='res/img/articles/kayauroraandnekoricollab/thumbnail.png'
 # Collab Structure
 The collab itself consisted of 5 total rounds, where KitSixtyFour (back then Horibyte) and AveryEclipse (back then Clyron) remade thumbnails from their respective channels. The last round has a twist where Kit made a thumbnail for the Lynxmic channel and Avery made a thumbnail for the StuffyXP channel.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kayauroraandnekoricollab/teaser.png" 
+        image_src="kayauroraandnekoricollab/teaser.png" 
         caption="Initial teaser from October 2024, posted on Avery's social medias"
         author="AveryEclipse" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kayauroraandnekoricollab/teaser2.png"  
+        image_src="kayauroraandnekoricollab/teaser2.png"  
         caption="Teaser from December 2024, announcing a 2025 'release date'"
         author="AveryEclipse" %}
 </div>

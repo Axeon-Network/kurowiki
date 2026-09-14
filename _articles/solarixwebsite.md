@@ -14,7 +14,7 @@ type='Personal Website'
 sourceModel='Open source (since June 2018), Closed source (before June 2018)'
 status='Source code archived (iterations 4-5), lost (iterations 1-3). Website no longer available'
 link=''
-image='res/img/articles/solarixwebsite/home.png'
+image='solarixwebsite/home.png'
 %}
 
 The ***Solarix Website*** was [AveryEclipse](AveryEclipse)'s personal website between 2017 and 2019.
@@ -28,9 +28,9 @@ The first website of the [BriciWorld Lounge](BriciWorld_Lounge) Discord Server f
 
 This first iteration has been deprecated in late August 2017. It continued to be accessible until January 2018, when the source code for the website was deleted entirely.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/solarixwebsite/firstiteration.png" 
+        image_src="solarixwebsite/firstiteration.png" 
         alt_text="" 
         caption="Solarix Website in early August 2017"
         style="width:50%; height:auto" %}
@@ -41,9 +41,9 @@ In late August 2017, the website has seen a complete revamp, a full-on improveme
 
 The website primarily just linked to social media profiles (located inside the drawer) and projects.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/solarixwebsite/seconditeration.png" 
+        image_src="solarixwebsite/seconditeration.png" 
         alt_text="" 
         caption="Beta version of the second iteration in August 2017"
         style="width:50%; height:auto" %}
@@ -56,9 +56,9 @@ The homepage consisted of two rows of buttons linking to projects and socials re
 
 One of the main new "features" was the Dark Mode, however the implementation was very poor as it was actually a full duplicate of the same site but with the background and CSS assets changed to black, instead of using real CSS dark/light mode mechanism methods. It was introduced and announced on the Lynxmic Blog in November 2018, a few weeks after the initial launch of the main third iteration website.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/solarixwebsite/thirditeration.png" 
+        image_src="solarixwebsite/thirditeration.png" 
         alt_text="" 
         caption="Solarix Website in June 2018"
         style="width:50%; height:auto" %}
@@ -71,9 +71,9 @@ A short 1-minute [video](https://youtu.be/P3H8aoOx-LE) has been posted to the [L
 
 Also in July 2018, a custom blog built from scratch was officially said to be worked on based on the fourth iteration of the website, also including a Gallery section (which later became a standalone page on the website itself). This was however abandoned after a short while due to complications, or rather said a lack of knowledge in maintaining such a blog. A similar idea would only be done in 2021 with the [Lynxmic Blog](Lynxmic_Blog), powered by the Jekyll static site generator.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/solarixwebsite/bwtechmlblog.png" 
+        image_src="solarixwebsite/bwtechmlblog.png" 
         alt_text="" 
         caption="The BWTech.ml Blog, custom blog based on the fourth website iteration"
         style="width:50%; height:auto" %}
@@ -83,9 +83,9 @@ Aside from one update in the website in September-October 2018 to reflect the re
 
 After the rollout of the fifth iteration of the website in 2019, this fourth iteration continued to be accessible in a similar manner with the first iteration until the Solarix Website was discontinued as a whole.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/solarixwebsite/fourthiteration.png" 
+        image_src="solarixwebsite/fourthiteration.png" 
         alt_text="" 
         caption="Solarix Website in July 2018"
         style="width:50%; height:auto" %}
@@ -102,27 +102,27 @@ The website was finally discontinued on 2 April 2019, coinciding with the Lynxmi
 
 Although this theory is not officially confirmed, it can be said the discontinuation of Solarix Website was the beginning of a departure of AveryEclipse from programming-related activities to focus only on the Lynxmic project, which culminated in the discontinuation of the Venus Discord Bot, the other major programming project by Avery at the time, in July 2019.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-    image_src="res/img/articles/solarixwebsite/home.png" 
+    image_src="solarixwebsite/home.png" 
     alt_text="" 
     caption="Home page"
     author="AveryEclipse"
     style="width:50%; height:auto" %}
     {% include items/gallery.html 
-    image_src="res/img/articles/solarixwebsite/about.png" 
+    image_src="solarixwebsite/about.png" 
     alt_text="" 
     caption="About page"
     author="AveryEclipse"
     style="width:50%; height:auto" %}
     {% include items/gallery.html 
-    image_src="res/img/articles/solarixwebsite/devices.png" 
+    image_src="solarixwebsite/devices.png" 
     alt_text="" 
     caption="Devices page"
     author="AveryEclipse"
     style="width:50%; height:auto" %}
     {% include items/gallery.html 
-    image_src="res/img/articles/solarixwebsite/gallery.png" 
+    image_src="solarixwebsite/gallery.png" 
     alt_text="" 
     caption="Gallery page"
     author="AveryEclipse"

@@ -9,7 +9,7 @@ buildtag='Unidentified October 2025 build'
 version='1.0'
 compiled='2025-10'
 arch='x86'
-image='res/img/articles/arctic_oct25/image.png'
+image='arctic_oct25/image.png'
 image_caption='The build running under QEMU'
 %}
 

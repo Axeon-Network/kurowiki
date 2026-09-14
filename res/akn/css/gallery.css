@@ -49,7 +49,7 @@ html.light-mode {
 }
 
 /* remember when we said its gallery time and it gallered all over the pla- */
-.wiki-gallery {
+gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
@@ -57,13 +57,13 @@ html.light-mode {
     justify-content: left;
     text-align: center; 
 }
-.wiki-gallery .gallery-item {
+gallery div.gallery-item {
     width: 220px; 
     margin: 0;
     padding: 0;
     display: block;
 }
-.wiki-gallery .thumb-frame {
+gallery div.thumb-frame {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@ html.light-mode {
     padding: 6px;
     margin-bottom: 4px;
 }
-.wiki-gallery .thumb-frame img {
+gallery div.thumb-frame img {
     max-height: 100%; 
     max-width: 100%;
     object-fit: contain;

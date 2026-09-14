@@ -12,7 +12,7 @@ openedDate='2024-10-04'
 closedDate='2025-03-16'
 type='Public'
 memberCount='41 (as of 2026-03-18)'
-srvicon='res/img/articles/stuffyxphangout/logo.png'
+srvicon='stuffyxphangout/logo.png'
 %}
 
 ***StuffyXP Hangout*** was a Discord server created by [Kit](KitSixtyFour). It was created on 3 October 2024 to replace Kit's previous and first server [Stuffy's Place](Stuffy's_Place) for a "fresh start".

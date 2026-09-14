@@ -8,7 +8,7 @@ family='[StuffyXP Website](StuffyXP_Website)'
 buildtag='9 August 2024 build'
 version='2.0'
 compiled='2024-08-09'
-image='res/img/articles/stxpwebsite240809/image.png'
+image='stxpwebsite240809/image.png'
 image_caption='Home page'
 %}
 
@@ -24,9 +24,9 @@ As apparent by its looks, this build is built upon the codebase of *WOU*, which 
 
 While it was shared in screenshot form, the site itself was shared as a `.7z` package in the *[Stuffy's Place!](Stuffy's_Place')* Discord server.
 
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
 caption='The screenshot sent by Kit'
 author='KitSixtyFour'
-image_src='res/img/articles/stxpwebsite240809/hangout.png' %}
+image_src='stxpwebsite240809/hangout.png' %}
 </div>

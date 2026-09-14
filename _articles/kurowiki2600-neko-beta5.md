@@ -14,9 +14,9 @@ version='5.1'
 build='2600'
 lab='nekori64'
 compiled='2025-09-27'
-image='res/img/articles/kurowiki2600-neko-beta5/default.png'
+image='kurowiki2600-neko-beta5/default.png'
 image_caption='Default broken home page'
-image2='res/img/articles/kurowiki2600-neko-beta5/home.png'
+image2='kurowiki2600-neko-beta5/home.png'
 image2_caption='Fixed home page'
 %}
 
@@ -27,29 +27,29 @@ This build is an earlier compile of [the official Beta 5 release](KuroWiki_build
 This build is available and can be run in the current date by going to [github.com/Axeon-Network/kurowiki/tree/4916310d0b611f258e9ea281e57698eba72545cf](https://github.com/Axeon-Network/kurowiki/tree/4916310d0b611f258e9ea281e57698eba72545cf), which is a snapshot of commit `4916310`. However, in this build (and many other KuroWiki builds prior to [4450](KuroWiki_build_4450)), any references of "getmdl.io" must be changed to "axeon-network.github.io/kurowiki/res/material" for Material Design Lite to work correctly, as getmdl.io was taken down by Google in January 2026.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600-neko-beta5/drawer.png" 
+        image_src="kurowiki2600-neko-beta5/drawer.png" 
         caption="Drawer"
     %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600-neko-beta5/sitemap.png" 
+        image_src="kurowiki2600-neko-beta5/sitemap.png" 
         caption="Sitemap"
     %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600-neko-beta5/article.png" 
+        image_src="kurowiki2600-neko-beta5/article.png" 
         caption="An article"
     %}
     
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600-neko-beta5/contributing.png" 
+        image_src="kurowiki2600-neko-beta5/contributing.png" 
         caption="*[Contributing to KuroWiki](Contributing_to_KuroWiki)*, mislabeled as \"Contributing to the LexWiki\""
     %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600-neko-beta5/sviewer.png" 
+        image_src="kurowiki2600-neko-beta5/sviewer.png" 
         caption="SpringViewer"
     %}
 </div>

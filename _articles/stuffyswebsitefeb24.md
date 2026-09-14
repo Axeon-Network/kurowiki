@@ -19,7 +19,7 @@ writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 sourceModel='Open source (planned)'
 status='Lost media'
-image='res/img/articles/stuffywebsitefeb24/home.png'
+image='stuffywebsitefeb24/home.png'
 successor='*[Stuffy\'s Website](Stuffy\'s_Website_(June_2024))* <small>(as a rewrite)</small>'
 %}
 
@@ -43,44 +43,44 @@ It is notable to know that parts of the code have been sent in various Discord s
 # Gallery
 The following images were taken from a build dated 10 May 2024. These are screenshots from the video uploaded to *StuffyXP Extras*.
 
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/home2.png'
+    image_src='stuffywebsitefeb24/home2.png'
     caption='Bottom of Home page'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/socials.png'
+    image_src='stuffywebsitefeb24/socials.png'
     caption='Socials page'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/socials2.png'
+    image_src='stuffywebsitefeb24/socials2.png'
     caption='Ditto.'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/projects.png'
+    image_src='stuffywebsitefeb24/projects.png'
     caption='Projects page'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/other.png'
+    image_src='stuffywebsitefeb24/other.png'
     caption='Other page'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/other_drop.png'
+    image_src='stuffywebsitefeb24/other_drop.png'
     caption='Ditto, dropdown open'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/other2.png'
+    image_src='stuffywebsitefeb24/other2.png'
     caption='Other page, further scrolled down'
 %}
 
 {% include items/gallery.html 
-    image_src='res/img/articles/stuffywebsitefeb24/other3.png'
+    image_src='stuffywebsitefeb24/other3.png'
     caption='Ditto'
 %}
 

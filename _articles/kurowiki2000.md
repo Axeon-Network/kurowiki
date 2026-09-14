@@ -13,7 +13,7 @@ version='4.2'
 build='2000'
 lab='kuro_escro'
 compiled='2025-07-25 14:23 UTC-6'
-image='res/img/articles/kurowiki2000/preview.png'
+image='kurowiki2000/preview.png'
 image_caption='Article view with drawer open'
 %}
 

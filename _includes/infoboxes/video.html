@@ -5,7 +5,7 @@
     {% if include.image %}
     <div class="infobox-img-container">
         <div class="infobox-img-caption">{{ include.channel | markdownify  | remove_first: '<p>' | remove: '</p>' }} video</div>
-        	<img src="{{ include.image }}" alt="{{ include.title }} Thumbnail" class="infobox-img">
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" alt="{{ include.title }} Thumbnail" class="infobox-img">
     </div>
     {% endif %}
 
@@ -30,7 +30,7 @@
             {% if include.link %}
             <tr>
                 <th>Link</th>
-                <td>{{ include.link }}</td>
+                <td>{{ include.link | remove: '<p>' | remove: '</p>' | markdownify }}</td>
             </tr>
             {% endif %}
             </tbody>

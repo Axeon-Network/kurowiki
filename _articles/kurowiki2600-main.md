@@ -14,7 +14,7 @@ version='5.1'
 build='2600'
 lab='main'
 compiled='2025-09-28 09:55 UTC-6'
-image='res/img/articles/kurowiki2600/home.png'
+image='kurowiki2600/home.png'
 image_caption='Home page'
 %}
 
@@ -29,24 +29,24 @@ This build is the first public build released under the Axeon Network umbrella, 
 - The SpringViewer version watermark is left enabled.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600/drawer.png" 
+        image_src="kurowiki2600/drawer.png" 
         caption="The drawer, including links for the <a href='Contributing_to_KuroWiki'>Contributing to KuroWiki page</a> and version information."
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600/search.png" 
+        image_src="kurowiki2600/search.png" 
         caption="The search page, featuring the search index bug."
         style="width:50%;" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600/axeon.png" 
+        image_src="kurowiki2600/axeon.png" 
         caption="An article (featuring the <a href='Axeon_Network'>Axeon Network</a> article)"
         style="width:50%;" %}
     
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki2600/viewer.png" 
+        image_src="kurowiki2600/viewer.png" 
         caption="The media viewer, featuring the viewer watermark."
         style="width:50%;" %}
 </div>

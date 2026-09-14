@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% include items/embed.html 
-  image_src="res/img/articles/dhi/hq.png" 
+  image_src="dhi/hq.png" 
   caption="Headquarters of DHI Inc. in Fucking, NovaLand"
 %}
 
@@ -23,7 +23,7 @@ In March 2025, Dogui Heavy Industries has changed from a Limited Company to an I
 
 # Subsidiaries
 {% include items/embed.html 
-    image_src="res/img/articles/dhi/hqturtles.png" 
+    image_src="dhi/hqturtles.png" 
     caption="Headquarters of DHI Turtles on the coast of Fucking, NovaLand"
 %}
 

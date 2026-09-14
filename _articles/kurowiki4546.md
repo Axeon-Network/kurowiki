@@ -10,7 +10,7 @@ version='7.0'
 build='4546'
 lab='kitsixtyfour_N'
 compiled='2026-02-15 17:32 UTC-6'
-image='res/img/articles/kurowiki4546/homepage.png'
+image='kurowiki4546/homepage.png'
 image_caption='Home page'
 %}
 
@@ -34,15 +34,15 @@ Within the engine's source code, the website layout is now automatically defined
 Although not shown, the site may fail to load certain pages due to merge conflicts between the `kitsixtyfour` and `kayaurora` branches. Technically speaking, articles that originate from the `kayaurora` branch still had `layout: main` included in their frontmatters. The `main` layout was renamed to `material` sometime after *Modular Deltari* was merged back to the `kitsixtyfour` branch.
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4546/banner.png" 
+        image_src="kurowiki4546/banner.png" 
         caption="The site homepage with the drawer open." %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4546/article.png" 
+        image_src="kurowiki4546/article.png" 
         caption="Article view." %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4546/console.png" 
+        image_src="kurowiki4546/console.png" 
         caption="The console output of the site build, showing the version banners and the DeltaSearch notice." %}
 </div>
 

@@ -10,7 +10,7 @@ version='0.3'
 build='456'
 lab='wh-cuber_alpha_escrow'
 compiled='2026-05-02'
-image='res/img/articles/cuber456/image.png'
+image='cuber456/image.png'
 image_caption='The Demo page'
 %}
 

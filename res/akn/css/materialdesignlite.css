@@ -37,6 +37,7 @@ html {
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
+    --card-border-color-dark: #555555;
 
     /* light mode */
     --contentbox-background-color-light: rgba(248,248,248,0.73);
@@ -44,6 +45,7 @@ html {
     --mdlcard-background-color-light: white;
     --drawer-color-light: rgb(246, 246, 246,0.8); /* microsoft windows ninety eiiight! :3 */
     --navhoverlink-light: rgba(230,230,230,1);
+    --card-border-color-light: #dfdfdf;
 
     /* button status */
     /* i forgot why i used these but i wont remove these cuz ya never know */
@@ -57,6 +59,7 @@ html {
     --mdlcard-background-color: var(--mdlcard-background-color-dark);
     --drawer-color: var(--drawer-color-dark);
     --navhoverlink: var(--navhoverlink-dark);
+    --card-border-color: var(--card-border-color-dark);
 }
 
 html.light-mode {
@@ -65,6 +68,7 @@ html.light-mode {
     --mdlcard-background-color: var(--mdlcard-background-color-light);
     --drawer-color: var(--drawer-color-light);
     --navhoverlink: var(--navhoverlink-light);
+    --card-border-color: var(--card-border-color-light);
 }
 
 /* mdl's h1-h3 are way tooooo gigantic so we make them use mdl's h4-h6 styling */
@@ -346,4 +350,12 @@ td .mdl-checkbox__box-outline, th .mdl-checkbox__box-outline {
 }
 .mdl-data-table tbody tr:hover {
   background-color:#313131
+}
+
+.mdl-card--border {
+    border-top-color: var(--card-border-color) !important;
+}
+
+blockquote {
+    z-index: -4 !important;
 }

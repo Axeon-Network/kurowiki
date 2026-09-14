@@ -84,219 +84,219 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
 
 # Gallery
 ## Windows Setup
-<div class="wiki-gallery">
+<gallery>
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/windowsiscopyingfiles.png"
+   image_src="winnishilecat/windowsiscopyingfiles.png"
    caption="Windows is copying files..."
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupautorun.png"
+   image_src="winnishilecat/setupautorun.png"
    caption="Setup"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/stpautorun2.png"
+   image_src="winnishilecat/stpautorun2.png"
    caption="Ditto"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupprodkey.png"
+   image_src="winnishilecat/setupprodkey.png"
    caption="Product key"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupeula.png"
+   image_src="winnishilecat/setupeula.png"
    caption="EULA"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupinstalltype.png"
+   image_src="winnishilecat/setupinstalltype.png"
    caption="Installation type"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupinstallloc.png"
+   image_src="winnishilecat/setupinstallloc.png"
    caption="Disk partitioning"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/setupinstalling.png"
+   image_src="winnishilecat/setupinstalling.png"
    caption="Installing Windows"
    author="AveryEclipse"
    %}
-</div>
+</gallery>
 
 ## Out of Box Experience
-<div class="wiki-gallery">
+<gallery>
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/plswait.png"
+   image_src="winnishilecat/plswait.png"
    caption="Please wait while Windows sets up your computer"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/plswait2.png"
+   image_src="winnishilecat/plswait2.png"
    caption="Please wait while Windows continues to set up your computer"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe1.png"
+   image_src="winnishilecat/oobe1.png"
    caption="User name and picture"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe2.png"
+   image_src="winnishilecat/oobe2.png"
    caption="Computer name and background"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe3.png"
+   image_src="winnishilecat/oobe3.png"
    caption="Automatic Updates"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe4.png"
+   image_src="winnishilecat/oobe4.png"
    caption="Date and time"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe5.png"
+   image_src="winnishilecat/oobe5.png"
    caption="Network"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/oobe6.png"
+   image_src="winnishilecat/oobe6.png"
    caption="Finish"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/postoobe.png"
+   image_src="winnishilecat/postoobe.png"
    caption="Hardware check"
    author="KitSixtyFour"
    %}
-</div>
+</gallery>
 
 ### OOBE after using Sysprep 
-<div class="wiki-gallery">
+<gallery>
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/sysprepoobe.png"
+   image_src="winnishilecat/sysprepoobe.png"
    caption="Regional Settings"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/sysprepoobe2.png"
+   image_src="winnishilecat/sysprepoobe2.png"
    caption="EULA"
    author="KitSixtyFour"
    %}
-</div>
+</gallery>
 
 ## Desktop
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/boot.png"
+   image_src="winnishilecat/boot.png"
    caption="Boot screen"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/firstlogon.png"
+   image_src="winnishilecat/firstlogon.png"
    caption="Logon screen"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/logon2.png"
+   image_src="winnishilecat/logon2.png"
    caption="Ditto"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/activatewindows.png"
+   image_src="winnishilecat/activatewindows.png"
    caption="Activate Windows dialog"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/personalizedsettings.png"
+   image_src="winnishilecat/personalizedsettings.png"
    caption="Personalized Settings"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/firstboot.png"
+   image_src="winnishilecat/firstboot.png"
    caption="First boot"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/desktop.png"
+   image_src="winnishilecat/desktop.png"
    caption="Desktop"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/desktop2.png"
+   image_src="winnishilecat/desktop2.png"
    caption="Ditto, background applied"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/startmenu.png"
+   image_src="winnishilecat/startmenu.png"
    caption="Start menu (All programs)"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/fileexplorer.png"
+   image_src="winnishilecat/fileexplorer.png"
    caption="Windows Explorer"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/systemprop.png"
+   image_src="winnishilecat/systemprop.png"
    caption="System Properties"
    author="AveryEclipse"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/winver.png"
+   image_src="winnishilecat/winver.png"
    caption="About Windows"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/eula.png"
+   image_src="winnishilecat/eula.png"
    caption="Microsoft Software License Terms"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/dxdiag.png"
+   image_src="winnishilecat/dxdiag.png"
    caption="DirectX Diagnostic Tool"
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/appwiz.png"
+   image_src="winnishilecat/appwiz.png"
    caption="Programs and Features"
    author="KitSixtyFour"
    %}
-</div>
+</gallery>
 
 ## Sample Pictures/Desktop Backgrounds
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/2026-02-28_19.05.31.png"
+   image_src="winnishilecat/2026-02-28_19.05.31.png"
    caption="A landscape originating from the [KitsuMC](KitsuMC) Minecraft server."
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/2026-02-28_19.56.43.png"
+   image_src="winnishilecat/2026-02-28_19.56.43.png"
    caption="Ditto, sunset."
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/2026-03-02_15.22.48.png"
+   image_src="winnishilecat/2026-03-02_15.22.48.png"
    caption="Ditto."
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/2026-03-02_18.46.27.png"
+   image_src="winnishilecat/2026-03-02_18.46.27.png"
    caption="LeCat (left) and Nishi (right) sitting on a bed."
    author="KitSixtyFour"
    %}
    {% include items/gallery.html
-   image_src="res/img/articles/winnishilecat/2026-03-02_18.18.01.png"
+   image_src="winnishilecat/2026-03-02_18.18.01.png"
    caption="A solo picture of Nishi."
    author="KitSixtyFour"
    %}
-</div>
+</gallery>
 
 
 

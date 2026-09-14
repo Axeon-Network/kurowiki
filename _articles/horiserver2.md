@@ -13,7 +13,7 @@ openedDate='2025-03-11'
 closedDate="2025-04-23"
 type='Public'
 memberCount='34'
-srvIcon="res/img/articles/horiserver2/horiserver2.png"
+srvIcon="horiserver2/horiserver2.png"
 %}
 
 
@@ -32,9 +32,9 @@ A reason for the merge was the fact most LynxPlaza members at the time were also
 
 The plans were set to take place on 21 April 2025 before they were cancelled due to the HoriServer (2) implosion.
 
-   <div class="wiki-gallery">
+   <gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/horiserver2/lyra.png" 
+        image_src="horiserver2/lyra.png" 
         alt_text="" 
         caption="A prototype logo for the Lyra server."
         style="width:10%; height:auto" %}

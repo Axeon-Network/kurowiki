@@ -11,7 +11,7 @@ version='6.0'
 build='3889'
 lab='nekori64'
 compiled='2025-10-27 17:15 UTC-6'
-image='res/img/articles/kurowiki3889/infoboxtestpage.png'
+image='kurowiki3889/infoboxtestpage.png'
 image_caption='The Infobox Test Page'
 %}
 

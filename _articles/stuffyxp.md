@@ -2,7 +2,6 @@
 title: StuffyXP
 permalink: StuffyXP
 hatnote: This article is about the deleted YouTube channel. For its creator who used to be known as StuffyXP, see <a href='KitSixtyFour'>KitSixtyFour</a>. For the archived Discord server, see <a href='StuffyXP_Hangout'>StuffyXP Hangout</a>. For the website, see <a href='StuffyXP_Website'>StuffyXP Website</a>. For a list StuffyXP videos, see <a href='List_of_StuffyXP_videos'>List of StuffyXP videos</a>.<br>This article is incomplete and will be finished in Release Candidate 2.
-isTitleItalic: true     # to enable italics in the page title without messing up the sitemap.
 dyk:
   - "...that the original handle for [StuffyXP](StuffyXP) was \"StuffyYT20\"?"
   - "...that [StuffyXP VODS](StuffyXP#stuffyxp-vods) was the shortest lived channel in the StuffyXP Network?"
@@ -17,27 +16,31 @@ dyk:
 </style>
 
 {% include infoboxes/channel.html
-pfp='res/img/articles/stuffyxp/stuffyxp2025.png'
-banner='res/img/articles/stuffyxp/stuffyxpbanner2025.png'
+pfp='stuffyxp/stuffyxp2025.png'
+banner='stuffyxp/stuffyxpbanner2025.png'
+logo='stuffyxp/wordmar.png'
 name='StuffyXP'
-formerly='Yoshi Land0842 (2020-2021)<br>Stuff Life (2021-2023)<br>Stuffy (2023-2024)'
+formerly='Yoshi Land0842 (2020 - 2021)<br>Stuff Life (2021 - 2023)<br>Stuffy (2023 - 2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='44 (including streams and private videos)'
-subs='238'
-views='12,052'
+videos='21 (including streams),<br>44 if private videos are included.'
+subs='229'
+views='9,733'
 platform='YouTube'
-creationdate='2020-03-13'
-state='Deleted'
-link='youtube.com/@StuffyXP'
-deletiondate='2025-03-14'
+creationdate='13 March 2020'
+createdISO='2020-03-13'
+state='Inactive; channel available'
+link='[youtube.com/@StuffyXP](https://youtube.com/@StuffyXP)'
+successor='[AstroNT](AstroNT)'
 %}
 
-***StuffyXP*** (commonly abbreviated as **STXP**) was a tech-focused (formerly plushie-focused) YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was closed and deleted in 16 March 2025 due to Kit's declining mental health status.
+**StuffyXP** (commonly abbreviated as **STXP**) is a tech-focused YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was succedded by [AstroNT](AstroNT) on 17 September 2025.
+
+The channel was originally closed on 16 March 2025 due to Kit's declining mental health status, deciding to "get rid of anything that caused stress". However, it was re-opened on 26 August 2026 as a side project of AstroNT's "Wave 3" initiative.
 
 {% include items/tableofcontents.html %}
 
 # Videos
-Over its lifespan, *StuffyXP* had 11 public videos.
+Over its lifespan, StuffyXP had 11 public videos.
 
 - ***[A VMware First-Timer installs Windows XP!](A_VMware_First-Timer_installs_Windows_XP!)*** (548 views - Uploaded 2024-02-13)
 - ***[Installing modern programs on Windows Vista!](Installing_modern_programs_on_Windows_Vista!)*** (742 views - Uploaded 2024-07-23)
@@ -54,9 +57,11 @@ Over its lifespan, *StuffyXP* had 11 public videos.
 
 # History
 ## 2020-2022: *Yoshi Land0842* and *Stuff Life*
-The channel was created on 13 March 2020 under the name *Yoshi Land0842*[^1] but didn't have content until April 2021 following the rebrand from *Yoshi Land0842* to *Stuff Life*, and the release of Kit's first video.
+Prior to 2020, Kit wasn't a newcomer to video creation, as they already had made three videos around 2017 and 2018 after discovering Microsoft PowerPoint's "Save as Video" feature. The latter being under-3 minute videos made with the default PowerPoint templates. Since Kit's original Google account was deleted in 2019, the videos are now lost media.
 
-{% include items/embed.html caption='A picture of [Dogui](Dogui). 20 January 2024' image_src='res/img/articles/dogui/dogui2024.jpg' %}
+Originally deemed as a "plushie-focused channel", the channel was created on 13 March 2020 under the name *Yoshi Land0842*[^1] but didn't have content until April 2021 following the rebrand from *Yoshi Land0842* to *Stuff Life*, and the release of Kit's first video.
+
+{% include items/embed.html caption='A picture of [Dogui](Dogui). 20 January 2024' image_src='dogui/dogui2024.jpg' %}
 
 The video (along with its sequel, which was uploaded the same day) consisted of a showcase of Kit's plushies, including [Dogui](Dogui) (who was used in the branding of StuffyXP from October 2023 until July 2024). The videos were edited on a mobile photo and video editor called *[InShot](https://play.google.com/store/apps/details?id=com.camerasideas.instashot)* on their Samsung Galaxy J5, which was a gift from Kit's father.
 
@@ -65,15 +70,15 @@ Other various content included other types of so-called "short movies", gameplay
 The channel's upload schedule continued normally yet causally until December 2021. The last video from that year was a teaser for upcoming videos planned for 2022, although they were never made as Kit didn't upload anything to the channel until 2023.
 
 ## 2023: The channel revival and *Stuffy*
-The channel was revived in 2023, notable uploads include a COVID-19-based video of their plushies chatting in a Zoom-like UX, with all of them ""talking"" (in reality just Kit making high-pitched sounds, imitating ambigious animal sounds) at the same time (along its sequel), and several other short films featuring Kit's plushies.
+The channel was revived in 2023, notable uploads include a COVID-19-based video of their plushies chatting in a Zoom-like UX, with all of them ""talking"" (in reality just Kit making high-pitched sounds, imitating ambigious animal sounds) at the same time (along its sequel), and several other short films featuring Kit's plushies. Several other shorts were also uploaded to the channel, including a gameplay video of the videogame "Energy".
 
 > Though I might think of them as cringe, it was child me that truly had some peak imagination, [absolute cinema](Absolute_Cinema), one might say.
 
 -- *Kit's thoughts regarding the plushie era of StuffyXP, dated 2024*
 
-{% include items/embed.html caption='The 2023 StuffyXP profile picture.' image_src='res/img/articles/stuffyxp/stuffyxp2023.jpg' %}
+{% include items/embed.html caption='The 2023 StuffyXP profile picture.' image_src='stuffyxp/stuffyxp2023.jpg' %}
 
-Additionally, 2023 also marked the start of the StuffyXP tech era (which co-existed with the plush videos), as videos featuring [TheCeleryPC](TheCeleryPC) consisting of using VirtualBox for installing operating systems like Windows XP and Windows Vista were uploaded. These videos were recorded with a camera, as Kit was unaware of screencast software at that time.<br>Other notable videos include Kit re-installing Windows 7 on TheCeleryPC (which was the first public appearance of the computer itself, as the monitor was the only component shown prior to this video).
+Additionally, 2023 also marked a small start of the StuffyXP tech era (which co-existed with the plush videos), as videos featuring [TheCeleryPC](TheCeleryPC) consisting of using VirtualBox for installing operating systems like Windows XP and Windows Vista were uploaded. These videos were recorded with a camera, as Kit was unaware of screencast software at that time.<br>Other notable videos include Kit re-installing Windows 7 on TheCeleryPC (which was the first public appearance of the computer itself, as the monitor was the only component shown prior to this video).
 
 On 3 October 2023, the *Stuff Life* channel was rebranded to *Stuffy*, introducing a new version of the Dogui branding used in the profile picture and banner. The `StuffyYT20` handle was used for the channel for a couple of months before switching to `StuffyXP` a couple of days later.
 
@@ -82,11 +87,11 @@ On 17 December 2023, Kit created their Discord account and joined a couple of te
 
 The development of *A VMware First-Timer installs Windows XP!* was deemed difficult since a week later, the original project file got corrupted, causing the video to be delayed from its original release date of 18 January, and to be remade from scratch. The video went through 3 total operating system changes within its production; it was recorded on Windows 8.1, it was edited on Windows Vista, and it was uploaded on Windows 7. Since then, *A VMware First-Timer installs Windows XP!* officially released on 13 February 2024. In the meanwhile, Kit's first Discord server, [Stuffy's Place](Stuffy's_Place), was formally launched on 3 January 2024, and the development of [the original Stuffy Website](Stuffy's_Website_(May_2024)) began.
 
-{% include items/embed.html caption='One of the sneak peeks of the PearPC video sent by Kit on Stuffy\'s Place. 17 March 2024' image_src='res/img/articles/pearpcstuffyxp/sneak1.jpg' %}
+{% include items/embed.html caption='One of the sneak peeks of the PearPC video sent by Kit on Stuffy\'s Place. 17 March 2024' image_src='pearpcstuffyxp/sneak1.jpg' %}
 
 Following the release of *A VMware First-Timer installs Windows XP!*, a new video series planned to release in March 2024 titled *[Stuffy's Tech Misadventures](Stuffy's_Tech_Misadventures)* (abbreviated as *STM*) was created on February 2024. It was inspired from Computer Clan's *Krazy Ken's Tech Misadventures* YouTube series, with the same focus of using technology in random ways. The first STM episode, allegedly titled *[Mac OS X Jaguar... on Windows XP!?](Stuffy's_Tech_Misadventures_Episode_1)*, began development on March 2024 and consisted of running Mac OS X 10.2 Jaguar on Windows XP via PearPC, a PowerPC G3 emulator for Microsoft Windows. The video was ultimately cancelled due to the original video footage becoming corrupted out-of-nowhere on mid March, with only the project file remaining. The video could theorically be re-recorded, but Kit was demotivated after the event, thus it was cancelled. It is notable that photos of the behind-the-scenes of the video had been shared by Kit during the development of the video.
 
-{% include items/embed.html caption='The thumbnail for the VMware 12 video. 3 May 2024' image_src='res/img/articles/vmware12stxp/thumb.jpg' left=true %}
+{% include items/embed.html caption='The thumbnail for the VMware 12 video. 3 May 2024' image_src='vmware12stxp/thumb.jpg' left=true %}
 
 After the cancellation of the PearPC video, Kit changed the focus of the first episode of STM to installing VMware Workstation 12.0.0 on Windows Vista, which is not officially supported (as version 10.0.7 is the last version officially supported for Windows XP and Windows Vista). This video was finished on May 2024, but was lost because the DVD that hosted a backup of the video became corrupted (that is, it asked to be formatted). Only two photos exist of the video; a sneak peek shared by Kit on April 2024, and the original thumbnail.<br>A soft-cameo of this video was included as a segment in *[Installing modern programs on Windows Vista!](Installing_modern_programs_on_Windows_Vista!)*, and was completely remade over 6 months later with the release of *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)* on the [AstroNT](AstroNT) channel.
 
@@ -102,7 +107,7 @@ October was one of the months where the StuffyXP channel went inactive, due to K
 
 On November 2024, StuffyXP (and the rest of Kit's projects) officially went on an almost month-long haitus due to the sudden death of TheCeleryPC. More specifically, the power supply unit (PSU) got fried following a power outage in Honduras on the 3rd of November. This caused the computer to incorrectly power on, as only some components managed to power on (more specifically, those reliant on AC power), but couldn't completely power on the rest of the components, resulting in the fans spinning up "like crazy" without any display output. On the 28th of November, [NishiLappy](NishiLappy) (known back-then as *Thei5Lappy*) was given to Kit, resulting in the end of the StuffyXP hiatus. Other projects, such as the [StuffyXP Website](StuffyXP_Website), continued development.
 
-{% include items/embed.html caption='*Geometry Dash on Windows Vista* taken down. 6 December 2024' image_src='res/img/articles/stuffyxp/takedown.png' %}
+{% include items/embed.html caption='*Geometry Dash on Windows Vista* taken down. 6 December 2024' image_src='stuffyxp/takedown.png' %}
 
 A couple of days later, *[Geometry Dash... on Windows Vista!?](Geometry_Dash..._on_Windows_Vista!?)* was released, marking the return of the StuffyXP channel. However, this video caused problems since it was falsely striked by YouTube for "harmful and dangeorus content" twice, in the meanwhile, the StuffyXP Extras channel was used for updates regarding the situation, however, it was appealed at the same day, and ended up reinstated a day later. On the 21st of December, *[Using Windows 11 for the first time!](Using_Windows_11_for_the_first_time!)* was released as "an early christmas gift", and was released to critical acclaim.
 
@@ -111,9 +116,18 @@ On New Year's 2025, the StuffyXP channel went through an internal refactor, that
 
 On February 2025, Kit (known back-then as "Horibyte") went through a major Discord break, causing a small haitus of the StuffyXP channel, and the eventual creation of the [HoriServer](HoriServer). However, *[VMware's Early Days... (v1.0-294)](VMware's_Early_Days..._(v1.0-294))* was released to critical acclaim on the 25th, and is considered one of the best StuffyXP videos by Kit themselves. Later that month, due to Kit's declining mental state, *VMware's Early Days* was meant to be the last StuffyXP video, and the channel was meant to close on the 13th of March, exactly at the channel's 5 year anniversary.
 
-On March 2025, Kit returned to Discord temporarily, but eventually became a full comeback (while still on a declining mental state). *[More early versions of virtualization software! (VirtualBox and Virtual PC)](More_early_versions_of_virtualization_software!_(VirtualBox_and_Virtual_PC))* was released on 5 March, and is the last StuffyXP video to be ever made. It is the sequel to *VMware's Early Days*, covering early versions Virtual PC and VirtualBox instead of VMware. The StuffyXP channel was announced to be closed and deleted on the 10th of March, and the channel was privately archived on the 14th. The channel was closed for good on the 16 March 2025, marking an end for Kit's YouTuber career.
+On March 2025, Kit returned to Discord temporarily, but eventually became a full comeback (while still on a declining mental state). *[More early versions of virtualization software! (VirtualBox and Virtual PC)](More_early_versions_of_virtualization_software!_(VirtualBox_and_Virtual_PC))* was released on 5 March, and is the last StuffyXP video to be ever made. It is the sequel to *VMware's Early Days*, covering early versions Virtual PC and VirtualBox instead of VMware. 
 
-However, over nine months later, Kit rediscovered the StuffyXP channel after looking in their archives, and felt inspired to "try this tech field again". [AstroNT](AstroNT) was announced on 20 October 2025 as an official successor to StuffyXP, and was officially launched on the 25th. Nowadays, AstroNT is managed by Kit and [Avery](AveryEclipse), and is still active to this day.
+### Closure
+Due to Kit's declining mental health status, alongside the real-life pressure of exams and other personal situations, talk regarding a future closure of StuffyXP and its sidekicks began around December 2024 and January 2025, however, it was disregarded for a while. A few months later, the StuffyXP channel was announced to be closed and deleted on 10 March 2025. The channel was eventually closed on 16 March 2025 via YouTube's "Hide my channel" feature, "in case I [Kit] go back to my career again". The channel was originally meant to close on 14 March 2025, but the ownership transfer period for Stuffy 64 did not complete until the 16th.
+
+An archive of the channel was planned to be uploaded by Kit on the same day, but it was ultimately cancelled. However, content creator [LagLife](https://www.youtube.com/@laglife) uploaded an archive of the channel titled "*[The Stuffy Archive](https://archive.org/details/StuffyArchive)*" on 19 January 2025 following the initial talk about the channel's closure. 
+
+On 1 April 2025, the channel was re-opened for the entire day as an "April Fools moment". Additionally, *The Stuffy Archive* was updated to hold the post-January 2025 StuffyXP content, alongside the branding for StuffyXP VODS.
+
+Nine months later, on the process of a data backup, Kit rediscovered a folder called "StuffyXP Archive" and decided to "get back to the field again". A successor to StuffyXP, provisionally titled "StuffyXP 2", was announced on *[StuffyXP Hangout](StuffyXP_Hangout)* on 20 October 2025 and eventually unveiled as "[AstroNT](AstroNT)" not long after.
+
+On 26 August 2026, the channel was re-opened as a side project of AstroNT's "Wave 3" initiative[^3], the latter marking a comeback of the AstroNT channel. Although not directly related to Wave 3, the channel was restored "due to boredom", even though it did not mark a comeback to the channel itself. StuffyXP and its sidekicks (except StuffyXP VODS, as it was deleted during the ownership process due to being "unnecessary") were fully restored on 30 August 2026.
 
 # Username origin
 The origin of the StuffyXP name actually comes back from [Kit's old Reddit account](https://reddit.com/u/StuffyXP). In the account creation process, Kit thought of appending a Windows version to "Stuffy", as the latter wasn't available. They originally thought of `Stuffy7`, but then changed it last minute to `StuffyXP` after realizing that it might cause confusion regarding their age.
@@ -121,8 +135,8 @@ The origin of the StuffyXP name actually comes back from [Kit's old Reddit accou
 # YouTube Channels
 ## StuffyXP Extras
 {% include infoboxes/channel.html
-pfp='res/img/articles/stuffyxp/stuffyxpextras2025.png'
-banner='res/img/articles/stuffyxp/stuffyxpextrasbanner.jpg'
+pfp='stuffyxp/stuffyxpextras2025.png'
+banner='stuffyxp/stuffyxpextrasbanner.jpg'
 name='StuffyXP Extras'
 formerly='Sttuf Blogs (2021-2023)<br>Stuffy + (2023-2024)<br>StuffyXP Plus (Mid 2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
@@ -148,8 +162,8 @@ Addionally, Kit has used the channel for backup purposes, such as when the Stuff
 
 ## StuffyXP Vlogs
 {% include infoboxes/channel.html
-pfp='res/img/articles/stuffyxp/stuffyxpvlogs2025.png'
-banner='res/img/articles/stuffyxp/stuffyxpvlogsbanner2025.png'
+pfp='stuffyxp/stuffyxpvlogs2025.png'
+banner='stuffyxp/stuffyxpvlogsbanner2025.png'
 name='StuffyXP Extras'
 formerly='Stuffy Vlogs (2023-2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
@@ -175,8 +189,8 @@ The channel was originally known as **MisAnimacionesPencil2D** (english: MyAnims
 
 ## Stuffy 64
 {% include infoboxes/channel.html
-pfp='res/img/articles/stuffyxp/stuffy642025.png'
-banner='res/img/articles/stuffyxp/stuffy64banner2025.png'
+pfp='stuffyxp/stuffy642025.png'
+banner='stuffyxp/stuffy64banner2025.png'
 name='Stuffy 64'
 formerly='Stuff Life 64 (2023-2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
@@ -220,3 +234,4 @@ Other projects have also been made throughout 2024 under the StuffyXP umbrella, 
 # References
 [^1]: It originated from Kit's Mario Kart DS online play username, the name originally was intended to be *Yoshi Island0842*, but the 14 character limit shortened the username to Yoshi Land0842.
 [^2]: The channel's statitics weren't saved when the channels shut down, these numbers are estimated from screenshots from the *StuffyXP Hangout* Discord server.
+[^3]: *KitSixtyFour*. "[this is only part of wave three.](https://www.youtube.com/post/UgkxHyqwYM4UoAOw3iCBsS9gnfhKbyRKecT9)".

@@ -37,7 +37,7 @@
 
 #toc-list {
     background-color: none;
-    width: max-content;
+    max-width: 300px;
     list-style: none;
     padding: 0;
     margin-left: 12px;
@@ -46,9 +46,12 @@
     margin-top: 10px;
 }
 
-li ul a {
-    margin-left: -9px !important;
+li ul {
+    margin-left: -10px !important;
+    
 }
+
+
 
 .toc-title {
     width: max-content;

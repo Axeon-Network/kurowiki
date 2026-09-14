@@ -9,7 +9,7 @@ hatnote: For a complete list of AveryWebsite versions, see [AveryWebsite version
 ---
 {% include infoboxes/site.html
 name='AveryWebsite'
-logo='res/img/articles/kaywebsite/wordmark.png'
+logo='kaywebsite/wordmark.png'
 formerly='ClyronWebsite (2024-2025)<br>KayWebsite (2025-2026)'
 developer='AveryEclipse'
 developerarticle='AveryEclipse'
@@ -24,7 +24,7 @@ repoLink='[AveryEclipse/averyeclipse.github.io](https://github.com/AveryEclipse/
 repoHost='GitHub'
 status='Available'
 link='https://avery.is-a.dev'
-image='res/img/articles/kaywebsite/v26.7.png'
+image='kaywebsite/v26.7.png'
 %}
 
 ***AveryWebsite*** (also known after its URL name, [avery.is-a.dev](https://avery.is-a.dev)) is [AveryEclipse](AveryEclipse)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying *[LynxWebsite](LynxWebsite)* and the *[Lynxmic Blog](Lynxmic_Blog)* under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
@@ -36,9 +36,9 @@ Plans were for the website layout to eventually evolve into a Win2K-style design
 
 Further updates were planned to improve the overall design, but they never happened and instead only small changes have been done updating the list of projects and socials as needed.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v1.png" 
+        image_src="kaywebsite/v1.png" 
         alt_text="ClyronWebsite v1.1 in August 2024" 
         caption="ClyronWebsite v1.1 in August 2024"
         style="width:50%; height:auto" %}
@@ -53,29 +53,29 @@ The development of v2.0 took more than 3 months, mainly due to Avery's lack of m
 
 v2.0 was finally finished almost a month later, on 9 February 2025, when it replaced v1.1. The final v2 release was v2.5.2 from 8 July 2025.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/earliercw2.0.png" 
+        image_src="kaywebsite/earliercw2.0.png" 
         alt_text="ClyronWebsite v2.0 UC, November 2024" 
         caption="ClyronWebsite v2.0 UC, November 2024" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/earlycw2.0.png" 
+        image_src="kaywebsite/earlycw2.0.png" 
         alt_text="ClyronWebsite v2.0 public beta, January 2025" 
         caption="ClyronWebsite v2.0 public beta, January 2025" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v2.0.png" 
+        image_src="kaywebsite/v2.0.png" 
         alt_text="ClyronWebsite v2.0, February 2025" 
         caption="ClyronWebsite v2.0, February 2025" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v2.3.png" 
+        image_src="kaywebsite/v2.3.png" 
         alt_text="ClyronWebsite v2.3, April 2025" 
         caption="ClyronWebsite v2.3, April 2025" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v2.5.2.png" 
+        image_src="kaywebsite/v2.5.2.png" 
         alt_text="ClyronWebsite v2.5.2, July 2025" 
         caption="ClyronWebsite v2.5.2, July 2025" %}
 </div>
@@ -90,19 +90,19 @@ v3.0 was finished and released on 18 July 2025, with the website now known as **
 
 v3.3 from 14 September 2025 introduced a new color scheme to go with the then-new visual branding of KayAurora along with a bunch of fixes and improvements. The final v3 release is v3.3.1 from 7 October 2025 as AveryWebsite switched to a new version numbering scheme starting with the next version.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v3.1.png" 
+        image_src="kaywebsite/v3.1.png" 
         alt_text="KayWebsite v3.1, July 2025" 
         caption="KayWebsite v3.1, July 2025" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v3.3.png" 
+        image_src="kaywebsite/v3.3.png" 
         alt_text="KayWebsite v3.3, September 2025" 
         caption="KayWebsite v3.3, September 2025" %}
 
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v3.3-retro.png" 
+        image_src="kaywebsite/v3.3-retro.png" 
         alt_text="KayWebsite v3.3 Retro Frontend" 
         caption="KayWebsite v3.3 Retro Frontend" %}
 </div>
@@ -112,15 +112,15 @@ AveryWebsite officially switched from the semantic versioning system (SemVer) to
 
 Later versions (v25.11, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2) have all mostly focused on smaller changes, bug fixes and improvements. The final release was v25.12.2 from 28 December 2025.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v25.10.png" 
+        image_src="kaywebsite/v25.10.png" 
         caption="KayWebsite v25.10, October 2025" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v25.12.2.png" 
+        image_src="kaywebsite/v25.12.2.png" 
         caption="KayWebsite v25.12.2, December 2025" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v25.12.2-retro.png" 
+        image_src="kaywebsite/v25.12.2-retro.png" 
         caption="KayWebsite v25.12.2 Retro Frontend" %}
 </div>
 
@@ -135,32 +135,32 @@ v26.5, released 14 May 2026, further expanded on the rollout of `astro-icon` ico
 
 The website has been largely overhauled again with the release of v26.6 on 29 June 2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed, with v26.7 from 20 July 2026 further polishing v26.6.x while bringing a more complete, updated website design. The current release as of 31 July 2026 is v26.7.1, which brought further enhancements on top of v26.7, primarily in the retro frontend.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.1.png" 
+        image_src="kaywebsite/v26.1.png" 
         caption="KayWebsite v26.1, January 2026" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.1-retro.png" 
+        image_src="kaywebsite/v26.1-retro.png" 
         caption="KayWebsite v26.1 Retro Frontend" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.3.png" 
+        image_src="kaywebsite/v26.3.png" 
         caption="AveryWebsite v26.3, March 2026" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.3-retro.png" 
+        image_src="kaywebsite/v26.3-retro.png" 
         caption="AveryWebsite v26.3 Retro Frontend" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.5.png" 
+        image_src="kaywebsite/v26.5.png" 
         caption="AveryWebsite v26.5, May 2026" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.5-retro.png" 
+        image_src="kaywebsite/v26.5-retro.png" 
         caption="AveryWebsite v26.5 Retro Frontend" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.6.1.png" 
+        image_src="kaywebsite/v26.6.1.png" 
         caption="AveryWebsite v26.6.1, June 2026" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.7.png" 
+        image_src="kaywebsite/v26.7.png" 
         caption="AveryWebsite v26.7, July 2026" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kaywebsite/v26.7-retro.png" 
+        image_src="kaywebsite/v26.7-retro.png" 
         caption="AveryWebsite v26.7 Retro Frontend" %}
 </div>

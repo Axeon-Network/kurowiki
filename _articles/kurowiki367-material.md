@@ -13,7 +13,7 @@ version='1.0.1'
 build='367'
 lab='material'
 compiled='2025-05-15<br>2025-05-16 (Released)'
-image='res/img/articles/kurowiki367-material/drawer.png'
+image='kurowiki367-material/drawer.png'
 image_caption='Article view with drawer open'
 %}
 
@@ -25,9 +25,9 @@ This is the first build to be compiled from the `material` branch, which was a b
 Alongside that, this build introduces a search engine (codenamed *DeltaSearch*) to the site under the name "HoriWiki Search! Beta", unlike newer builds of KuroWiki, the UI for the search box is located at the bottom of every page, but was moved to the navigation bar in [the next build](KuroWiki_build_451).
 
 # Gallery
-<div class="wiki-gallery">
+<gallery>
 {% include items/gallery.html 
-   image_src="res/img/articles/kurowiki367-material/search.png"
+   image_src="kurowiki367-material/search.png"
    caption="The search box located at the bottom of each page"
 %}
 </div>

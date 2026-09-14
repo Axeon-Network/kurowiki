@@ -14,7 +14,7 @@ version='5.2'
 build='3567'
 lab='main'
 compiled='2025-10-08 15:49 UTC-6'
-image='res/img/articles/kurowiki3567-ka/home.png'
+image='kurowiki3567-ka/home.png'
 image_caption='Home page'
 %}
 

@@ -11,7 +11,7 @@ version='6.0'
 build='4177'
 lab='kayaurora'
 compiled='2025-11-09 01:34 UTC+2'
-image='res/img/articles/kurowiki4177/home.png'
+image='kurowiki4177/home.png'
 image_caption='Home page'
 %}
 
@@ -22,11 +22,11 @@ This build finalizes the implementation of the Random Article button, which was 
 
 # Gallery
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4177/drawer.png" 
+        image_src="kurowiki4177/drawer.png" 
         caption="Home page, drawer open" %}
     {% include items/gallery.html 
-        image_src="res/img/articles/kurowiki4177/sitemap.png" 
+        image_src="kurowiki4177/sitemap.png" 
         caption="Sitemap" %}
 </div>

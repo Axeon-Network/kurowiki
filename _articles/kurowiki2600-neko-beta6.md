@@ -17,7 +17,7 @@ version='6.0'
 build='2600'
 lab='nekori64'
 compiled='2025-10-12'
-image='res/img/articles/kurowiki2600-neko-beta6/homepage.png'
+image='kurowiki2600-neko-beta6/homepage.png'
 image_caption='Home page'
 %}
 
