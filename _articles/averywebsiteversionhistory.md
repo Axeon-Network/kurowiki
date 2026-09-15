@@ -4,13 +4,21 @@ permalink: AveryWebsite_version_history
 redirect_from:
 hatnote: "Main article: [AveryWebsite](AveryWebsite)"
 ---
-This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of July 2026, from latest to earliest.
+This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of September 2026, from latest to earliest.
 
 The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 {% include items/tableofcontents.html %}
 
 # Version 26.x
+## 26.9
+Released on 11 September 2026, it was a minor update fixing more issues and updating the Projects page again.
+
+The `tzname` setting in `config.ts` was notably re-added back in this update after previously being removed with v3.2.2 in late August 2025, at the time a result of uncertainity in Avery's IRL life.
+
+## 26.8
+Released on 10 August 2026, it was a minor update fixing a CSS issue and updating the Projects page.
+
 ## 26.7.1
 Released on 31 July 2026, it primarily focused on bug fixes and improvements, primarily in the Fallback Layout.
 

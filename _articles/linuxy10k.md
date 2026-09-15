@@ -12,7 +12,7 @@ image='linuxy10k/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
 platform='YouTube'
-views='653'
+views='690'
 reldate='2026-01-19'
 link='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
 %}

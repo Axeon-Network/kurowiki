@@ -9,7 +9,7 @@ dyk:
 title='Recreating Old YouTube Thumbnails (ft. @SnowyBiFox)'
 channel='[AveryEclipse](https://youtube.com/@theaveryeclipse)'
 platform='YouTube'
-views='171'
+views='206'
 reldate='2025-02-13'
 link='[https://www.youtube.com/watch?v=Oum-DvZcY_w](https://www.youtube.com/watch?v=Oum-DvZcY_w)'
 image='kayauroraandnekoricollab/thumbnail.png'
@@ -20,7 +20,7 @@ image='kayauroraandnekoricollab/thumbnail.png'
 # Collab Structure
 The collab itself consisted of 5 total rounds, where KitSixtyFour (back then Horibyte) and AveryEclipse (back then Clyron) remade thumbnails from their respective channels. The last round has a twist where Kit made a thumbnail for the Lynxmic channel and Avery made a thumbnail for the StuffyXP channel.
 
-<gallery>
+<div class="wiki-gallery">
     {% include items/gallery.html 
         image_src="kayauroraandnekoricollab/teaser.png" 
         caption="Initial teaser from October 2024, posted on Avery's social medias"

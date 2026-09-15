@@ -89,11 +89,11 @@ Alongside Haiku on Real HW, a new channel trailer and branding was planned to re
 
 
 # Videos
-As of July 2026, there are eighteen videos uploaded to the AstroNT channel (excluding the [original channel trailer](https://youtube.com/watch?v=Bea3xfG11fs) and the [1K milestone stream](https://www.youtube.com/live/amFxXFCdGfQ)):
+As of September 2026, there are twenty videos uploaded to the AstroNT channel (excluding the [1K milestone stream](https://www.youtube.com/live/amFxXFCdGfQ) and channel trailers):
 
 - ***[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*** (uploaded 2025-11-03)
 - ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
-- ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture...)*** (uploaded 2025-11-11)
+- ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)*** (uploaded 2025-11-11)
 - ***[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*** (uploaded 2025-11-18)
 - ***[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*** (uploaded 2026-01-19)
 - ***[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*** (uploaded 2026-01-25)
@@ -103,13 +103,14 @@ As of July 2026, there are eighteen videos uploaded to the AstroNT channel (excl
 - ***[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*** (uploaded 2026-04-04)
 - ***[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*** (uploaded 2026-04-11)
 - ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)*** (uploaded 2026-04-25)
-- ***[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android?_(w/_Vectras_VM))*** (uploaded 2026-05-08)
+- ***[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android)*** (uploaded 2026-05-08)
 - ***[Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong](Windows_10_Mobile_on_an_Android_Device_but_EVERYTHING_Goes_Wrong)*** (uploaded 2026-05-23)
 - ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)*** (uploaded 2026-05-29)
 - ***[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*** (uploaded 2026-06-10)
 - ***[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*** (uploaded 2026-06-19)
-- ***[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*** (uploaded 2026-06-26)
+- ***[Modern Programs on Windows 98! (w/ Linux X11 Servers)](Modern_Programs_on_Windows_98!)*** (uploaded 2026-06-26)
 - ***[What happens if you upgrade the Windows XP Mode VM?](What_happens_if_you_upgrade_the_Windows_XP_Mode_VM?)*** (uploaded 2026-07-18)
+- ***[Installing Haiku on ""Unsupported"" Hardware](Installing_Haiku_on_""Unsupported""_Hardware)*** (uploaded 2026-09-10)
 
 
 # Gallery

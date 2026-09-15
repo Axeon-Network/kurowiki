@@ -63,22 +63,13 @@ December 2017 saw the release of the video *How to get Visual Studio Code Rich P
 ## 2018: *BriciWorld*, *Solarix* and initial growth
 In 2018, the Lynxmic channel saw its first wave of significant growth. Many videos hit the 100 view milestone for the first time, with the channel ending the year at almost 60 subscribers.
 
-In January 2018, no video has been uploaded aside from a *BW Updates* video announcing the launch of [Aqua Community](Axeon_Network) and the [BriciWorld Medium blog](Solarix's_Blog).
+In the first quarter of the year, there have mostly barely been any video uploads aside from *BW Updates* and *OS Look-Back 2018*, a series which started on 2 February and ended on 21 April.
 
-February 2018 saw the launch of the *OS Look-Back* series (under the *OS Look-Back 2018* naming), where BriciWorld would casually take a look at old Windows operating systems. The 1st episode came out on 2 February featuring Windows 95, followed by an episode on Windows 2000 to celebrate its 18th anniversary since the launch (19 February). Four other episodes came out in March (on Windows 98 and NT 4.0) and April (on Windows ME and XP), the Windows XP episode being the final one with the release date of 21 April 2018.
+By late March 2018, BW-Tech was deleted and merged back into the main BriciWorld channel due to lack of content. With that, casual tech content started being uploaded on BriciWorld, with 13 videos having been uploaded in total in April, followed by another 14 videos in May, when the channel was renamed from *BriciWorld* to *BW Tech*.
 
-On 26 March 2018, a tutorial video series was started, deemed *Discord.js bot tutorial* or *Make a Discord Bot!*. Around the same time, BW-Tech was also deleted and merged back into the main BriciWorld channel due to lack of content. With that, casual tech content started being uploaded on BriciWorld, with 13 videos having been uploaded in total in April, followed by another 14 videos in May.
+New videos significantly slowed down in June 2018 after AveryEclipse's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [TheHaswellLappy](TheHaswellLappy), which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. 
 
-On 14 May 2018, the *[Windows 98 for Daily Use](Windows_98_for_Daily_Use)* video series was officially announced, with the first episode released on 1 June 2018. Also in May, the channel was renamed from *BriciWorld* to *BW Tech*.
-
-New videos significantly slowed down in June 2018 after AveryEclipse's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [TheHaswellLappy](TheHaswellLappy), which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. Videos also began to be generally exported in 1080p instead of 720p around the same time.
-
-New videos continued to be posted on a frequent basis, even with significant periods of daily uploads lasting even 5 days. In mid August 2018, the channel was rebranded from *BW Tech* to *Solarix*, effectively retiring the *Brici* naming for good as the previous name was still a reference to BriciWorld.
-
-On 6 September 2018, season 2 of the *OS Look-Back* series (*OS Look-Back 2019*) was announced for 2019 with a "Reveal Trailer" releasing the same day.
-The new season promised coverage of more old operating systems and a "better viewing experience", in fact justified by improved editing skills since April 2018. However only one episode was released on Windows 3.1 on 13 April 2019, the other planned episodes (which included remakes of season 1 episodes) were later cancelled due to the series' general pointlessness. A 3rd season (dubbed *OS Look-Back 20*) was also planned for 2020 before being scrapped entirely as well with the "channel restart" in August 2019. Season 3 was planned to begin with a special episode with the occasion of Windows 7's EOS on 14 January 2020.
-
-Also in September 2018, new videos began to be exported in 60fps instead of 30fps as well. Tech news videos have been a major focus on the channel that month. October 2018 saw the final installment of *This Month on Solarix* (formerly *BW Updates*), a monthly series of videos recapping the most notable project-related news of the month, due to their pointlessness and low views in general.
+Video production has continued throughout the later half of 2018 with several videos per week, sometimes even for days in a row. In mid August 2018, the channel was rebranded from *BW Tech* to *Solarix*, with the previous name still referencing *BriciWorld*.
 
 ## 2019: Continued growth and early *Lynxmic*
 In early 2019, the Lynxmic channel then known as **Solarix** continued to see frequent uploads and livestreams, although the frequency rate was slowly going down by this point, with most videos this year have been uploaded in January and March 2019 (both equally having 11 videos in total).
@@ -87,16 +78,14 @@ At the same time, AveryEclipse also attempted to switch editing software, from C
 
 AveryEclipse has been getting slowly demotivated to even do anything over time, including new videos, which even the simplest ones started taking more than a day to produce. What doesn't help is that Fall 2018 has seen AveryEclipse being affected by negative experiences including criticism over at least some of the videos and at-least-slightly-traumatizing social media feuds especially at an younger age. All of these led not only to cut-offs, but also a sudden rise of standards, or at least an attempt in one.
 
-On 3 March 2019, the final episode of the *Make a Discord Bot!* series was uploaded. The series ended at a total of 7 episodes after almost a year due to "lack of interest in continuing". AveryEclipse claimed they would continue to code, but over time more and more coding projects would be discontinued (starting with [Solarix Website](Solarix_Website) in April), culminating in them quitting coding entirely in July 2019 with [Venus](Venus) Bot and other remaining code projects being discontinued.
-
-May 2019 saw many videos going unlisted/privated from the channel, as AveryEclipse wanted to do it but couldn't quite resist. At this point, subscriber and view growth have started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use) being premiered on 11 May 2019, bringing the overall total to 14 episodes after almost a year. On 1 June 2019, the first episode of [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) was uploaded.
+May 2019 saw many videos going unlisted/privated from the channel, as AveryEclipse wanted to do it but couldn't quite resist. At this point, subscriber and view growth have already started mostly stagnating, a status quo which would continue until late 2022. The month also saw the final episode of [Windows 98 for Daily Use](Windows_98_for_Daily_Use), being replaced by [Windows XP for Daily Use](Windows_98_for_Daily_Use#Windows_XP_for_Daily_Use) of which the first episode came 1 June 2019.
 
 By early August 2019, every single video and stream have been hidden from the channel (except for the latest video at the time, *Upgrading from Windows 3.1 to Windows 7*), with AveryEclipse having mostly purged/hidden most-if-not-all social media posts, and also switched Discord accounts as well. Around mid-to-late August 2019, the *Lynxmic* name was introduced fully replacing Solarix/solarixtech.
 
-Late 2019 Lynxmic videos were more rare as opposed to early 2019 Solarix videos, but there were at least slightly bigger video standards. In fact, AveryEclipse has been putting rather extreme standards for themselves as to what they post about and interact with, which resulted in negative impacts for themselves that in some form are still there to this day. For example, if just a year prior they were in over 60 Discord servers, that number has went down to a total of mere 4 Discord servers and has been the same for a long time.
+Late 2019 Lynxmic videos were more rare as opposed to early 2019 Solarix videos, but there have been upper video standards. In fact, AveryEclipse has been putting rather extreme standards for themselves as to what they post about and interact with, which resulted in negative impacts for themselves that in some form are still there to this day. For example, if just a year prior they were in over 60 Discord servers, that number has went down to a total of mere 4 Discord servers and has been the same for a long time.
 
 In late October 2019, the Lynxmic channel hit 100 subscribers for the first time, however YT Audits have then pushed the number down to just past 90 subs, then to below 80 subs by 2020.
-A *Lynx Explores* series was planned in September 2019 but cancelled. Livestreams have been under the *LynxLIVE* umbrella, with best moments being uploaded as separate *LynxLIVE Highlight* videos. At the end of every year there would be so called *LynxLIVE Special* streams.
+Livestreams have been under the *LynxLIVE* umbrella, with best moments being uploaded as separate *LynxLIVE Highlight* videos. At the end of every year there would be so called *LynxLIVE Special* streams.
 
 ## 2020-2021: The Great Decline
 Content in 2020 has been consistent year-round, with 1-3, sometimes 4 videos being uploaded every month. Videos mostly consisted of update videos, videos of AveryEclipse sharing their opinions on various things in the tech news space, installation and exploration videos or even Minecraft videos.
@@ -174,13 +163,15 @@ By May 2026, most of the Lynxmic videos (except for 32 videos, most of them from
 
 # Video Series
 ## Windows 98 for Daily Use
-***Windows 98 for Daily Use*** was one of the main video series of the Lynxmic YouTube channel. The series came to life to serve as an recorded effort of setting up a Windows 98 VM, installing programs and adjusting settings, after Avery lost the original Windows 98 VM they made in August 2017.
+***Windows 98 for Daily Use*** was one of the main video series of the Lynxmic YouTube channel. It revolves around setting up a Windows 98 VM, installing programs and adjusting settings.
 
-The series was initially announced on 14 May 2018, with the first episode going out on 1 June 2018. A total of 14 episodes have been made (including 11 normal videos and 3 streams (which counted as episodes)), the longest-running of all Lynxmic video series. The final episode came out on 11 May 2019.
+The result of Avery losing their original Windows 98 VM dating from August 2017, the series was initially announced on 14 May 2018, with the first episode going out on 1 June 2018.
 
-The average view count of episodes of this series was 20 to 100, which is also the general average view count for any Lynxmic video of 2018-19, with only one episode having hit 140 views.
+The longest-running of all Lynxmic video series, there have been a total of 14 episodes (including 11 normal videos and 3 streams (which counted as episodes)) prior to its ending with a final episode on 11 May 2019.
 
-Even after the series ending, Lynxmic/Avery had been keeping the VM used in the series to this day, and an extra episode premiered on 28 November 2024 revisiting the VM, which got 2,6K+ views.
+The average view count of episodes of this series sat between 20 and 100, the general average of any Lynxmic video of 2018-19. The most popular of them went up to 140 views.
+
+The VM itself, weighing just 2GB, continued to be stored in the archives long after the end of the series. An extra episode was released on 28 November 2024 revisiting the VM, which got 2,6K+ views.
 
 ## Windows XP for Daily Use
 ***Windows XP for Daily Use*** was one of the main video series of the Lynxmic YouTube channel. Direct successor to Windows 98 for Daily Use, the series involved setting up a Windows XP VM with apps and other personalization and settings.
@@ -190,23 +181,26 @@ The first episode went out on 1 June 2019. However the series would only last fo
 ## Discord.js Bot Tutorial
 ***Discord.js Bot Tutorial*** (also known as ***"Make a Discord Bot!***, abbreviated **MADB**) was a educational video series of the Lynxmic YouTube channel. Its main purpose was on how to code a Discord bot in Discord.js (JavaScript), from basic knowledge stuff to various bot commands of moderate difficulty, and even tips.
 
-A total of 7 episodes have been produced, with them mostly getting all-time view counts of 100-900, higher than the average Lynxmic video in 2018 with some even ending up in the chart of most popular Lynxmic videos prior to the unlisting of all videos in July-August 2019.
+A total of 7 episodes have been produced, with them mostly getting all-time view counts between 100 and 1,000, higher than the channel average of the time, with some even ending up in the chart of most popular Lynxmic videos prior to the unlisting of all videos in July-August 2019.
 
-The first episode released on 26 March 2018, and the last on 3 March 2019, after which the series was discontinued due to a "lack of interest".
+The first episode released on 26 March 2018, and the last on 3 March 2019, after which the series was discontinued due to "lack of interest in continuing".
 
 ## OS Look-Back
-***OS Look-Back*** was a video series of the Lynxmic YouTube channel, looking back at old operating systems.
+***OS Look-Back*** was a video series of the Lynxmic YouTube channel, revolving around older operating systems.
 
-It was a seasonal series, with seasons generally taking place in the first half of the year, from late Winter to around mid-to-late Spring. The first season (***OS Look-Back 2018***), began on 2 February 2018 and lasted 6 episodes, with the last one coming out on 21 April 2018.
+It was meant as a seasonal series, with seasons generally taking place in the first half of the year. The first season (***OS Look-Back 2018***), began on 2 February 2018 with an episode featuring Windows 95, followed by an episode on Windows 2000 to celebrate its 18th anniversary since the launch (19 February). Episodes covering Windows 98 and NT 4.0 then came out in March, while early April saw Avery use Windows ME for the first time. The final episode (Windows XP) came out 21 April 2018.
 
-A second season, ***OS Look-Back 2019*** was teased as early as September 2018, promising coverage of more old operating systems and a "better viewing experience". However only one episode actually premiered on Windows 3.1 on 13 April 2019 before the entire OS Look-Back series was cancelled entirely due to its pointlessness, shown by lower view counts.
+and lasted 6 episodes, with the last one coming out on 21 April 2018.
 
-<!-- todo: maybe move entire OS Look-Back history from the history section to here -->
+On 6 September 2018, the second season (*OS Look-Back 2019*) was announced for 2019 with a "Reveal Trailer" releasing the same day.
+The new season promised coverage of more old operating systems and a "better viewing experience", in fact justified by improved editing skills since April 2018. However only one episode actually premiered on Windows 3.1 on 13 April 2019, with the other planned episodes (which included remakes of season 1 episodes) being cancelled due to low view counts and overall production interest.
+
+Prior to the series cancellation in 2019, a 3rd season was also planned for 2020 as *OS Look-Back 20* with the first episode being a special episode with the occasion of Windows 7's EOS on 14 January 2020.
 
 ## This Month on Solarix
 ***This Month on Solarix*** (initially ***BW Updates*** before August 2018) was a monthly video series of the Lynxmic YouTube channel, recapping major events that happened through the month, both on the Lynxmic channel and other of Avery's projects.
 
-The first video of the series came on 20 December 2017, with the final video being on 30 October 2018, after which it was discontinued due to low viewership in favor of using social media and the Axeon Network announcements channel. 
+The first video of the series came on 20 December 2017, with the final video being on 30 October 2018, after which it was discontinued. 
 
 ## Lynx Explores
 ***Lynx Explores*** is a cancelled video series planned for 2019 exploring various operating systems. Trailers have went out on the Lynxmic Twitter and Instagram accounts, initially in picture-form in late August 2019, and then in video-form in early September 2019, with the first formal episode scheduled for late September 2019.
