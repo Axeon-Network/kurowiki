@@ -359,3 +359,19 @@ td .mdl-checkbox__box-outline, th .mdl-checkbox__box-outline {
 blockquote {
     z-index: -4 !important;
 }
+
+/* we FUCKING MOVE IT */
+/* r/puppycrashout */
+.desktop-only form .mdl-textfield #akn-searchbox, .desktop-only form .mdl-textfield label {
+    width: 120%;
+    margin-left: -58px;
+}
+
+#akn-searchbox, #akn-searchbox-mobile {
+    font-family: 'Roboto' !important;
+}
+
+.mdl-textfield.is-focused #akn-searchbox {
+    text-shadow: 0 0 4px rgb(0,0,0,0.5);
+    color: white !important;
+}

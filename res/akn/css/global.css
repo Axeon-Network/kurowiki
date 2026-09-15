@@ -34,6 +34,7 @@
     --link-active-dark: rgb(250, 190, 110);
     --title-color-dark: rgb(154,176,183);
 
+    --modal-background-dark: #252525;
     --text-color-white: white;
     --background-image-dark: url('../../img/defaults/bg.jpg');
     --scrollbar-color-dark: rgb(60,62,74) rgb(43,46,55);
@@ -46,7 +47,8 @@
     /* light mode */
     --accent-light: rgb(44,60,84);
     --title-color-light: rgb(44,60,84);
-    --text-color-black: black;   
+    --text-color-black: black;
+    --modal-background-light: #ffffff;
     --background-image-light: url('../../img/defaults/bg.jpg'); 
     --scrollbar-color-light: rgb(60,62,74) rgb(43,46,55);
     --hatnote-color-light: rgba(255,255,255,0.75);
@@ -79,6 +81,8 @@ html {
     --link-active: var(--link-active-dark);
     --supercode-border: var(--supercode-border-dark);
     --supercode-bg: var(--supercode-bg-dark);
+    --modal-background: var(--modal-background-dark);
+    --search-hover: #2a4b8d;
 }
 
 /* here we set light mode as it should be */
@@ -87,7 +91,7 @@ html.light-mode {
     --accent: var(--accent-light);
     --hatnote-color: var(--hatnote-color-light);
     --background-image: var(--background-image-light); 
-    --text-color: var(--text-color-black) !important; 
+    --text-color: var(--text-color-black); 
     --scrollbar-color: var(--scrollbar-color-light);
     --code-bg: var(--code-bg-light);
     --code-border: var(--code-border-light);
@@ -95,6 +99,8 @@ html.light-mode {
     --link-active: var(--link-active-light);
     --supercode-border: var(--supercode-border-light);
     --supercode-bg: var(--supercode-bg-light);
+    --modal-background: var(--modal-background-light);
+    --search-hover: #2a4b8d;
 }
 
 
@@ -235,4 +241,77 @@ code {
 
 code, code.hljs span  {
     font-family: 'Roboto Mono', 'Consolas', monospace !important;
+}
+
+/*  you see, this search suggestions thing has a little catch,
+    you may see it using Material Design now.
+    
+    try unloading 'materialdesignlite.css'. it will use a more raw look!
+    i did this so it automatically adapts to Cairo SelfHosted, you're welcome :3
+*/
+.akn-searchsuggestions {
+    position: absolute;
+    top: 85%;
+    left: -60px;
+    width: 340px;
+    background-color: var(--modal-background);
+    border: 1px solid var(--card-border-color) !important;
+    border-top: none;
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    max-height: 500px;
+    cursor: context-menu;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-color) !important;
+}
+
+.akn-searchsuggestions.is-visible {
+    display: flex;
+}
+
+.akn-searchsuggestions-item,
+.akn-searchsuggestions-seafor {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    cursor: default;
+    font-size: 13px;
+    line-height: 1.5em;
+    padding: 0.01em 0.25em;
+    text-shadow: none;
+    text-align: left;
+    display: block;
+}
+
+.akn-searchsuggestions-item:hover, 
+.akn-searchsuggestions-seafor:hover,
+.akn-searchsuggestions-item:focus {
+    background-color: var(--search-hover);
+    color: white !important;
+}
+
+.akn-searchsuggestions-seafor {
+    border-bottom: none;
+    background-color: var(--modal-background);
+    border-top: 1px solid var(--card-border-color);
+    text-shadow: none !important;
+    text-align: left;
+    padding: 0.01em 0.25em;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 1px;
+}
+/* stupid thing */
+.container .akn-searchsuggestions a.akn-searchsuggestions-item,
+.container .akn-searchsuggestions .akn-searchsuggestions-seafor {
+    color: var(--text-color) !important;
+}
+.container .akn-searchsuggestions a.akn-searchsuggestions-item:hover,
+.container .akn-searchsuggestions .akn-searchsuggestions-seafor:hover,
+.akn-searchsuggestions-seafor:hover span,
+.container .akn-searchsuggestions .akn-searchsuggestions-seafor:hover span {
+    color: white !important;
+    opacity: 1 !important;
 }
