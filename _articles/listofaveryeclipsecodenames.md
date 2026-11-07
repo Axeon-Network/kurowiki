@@ -39,7 +39,7 @@ The name can be understood as sort of a combination between the words "prevent" 
 ---
 
 **Rano**
-&nbsp;&nbsp;&nbsp;&nbsp;Name for an hypotethical operating system planned in 2017.
+&nbsp;&nbsp;&nbsp;&nbsp;Name for an hypotethical operating system planned in 2016-17.
 
 **Ruby**
 &nbsp;&nbsp;&nbsp;&nbsp;Name used for a project for a separate fun-oriented bot for Discord from 2018-19, later cancelled.

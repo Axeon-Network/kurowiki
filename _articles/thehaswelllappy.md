@@ -1,16 +1,19 @@
 ---
-title: TheHaswellLappy
-permalink: TheHaswellLappy
+title: Amalthea
+permalink: Amalthea
+redirect_from: TheHaswellLappy
 hatnote: "This article is incomplete and will be probably finished in Release Candidate 2."
+dyk:
+    - "...that the most popular videos on both [AstroNT](AstroNT) and [Lynxmic](Lynxmic) channels have at least been partially or fully made on [Amalthea](Amalthea)?"
 ---
 
 {% include infoboxes/computer.html
-name='TheHaswellLappy'
+name='Amalthea'
 owner='[AveryEclipse](AveryEclipse)'
 manufacturer='Lenovo'
 model='G50-70'
-image='res/img/infoboxes/noimage.png'
-image_caption='Desktop as of April 2026'
+image='amalthea/desktop-mar2026.png'
+image_caption='Desktop as of March 2026'
 introduced='27 June 2018'
 introISO='2018-06-27'
 cpu='Intel Core i5-4210U @ 1.70 GHz (*Haswell*)' 
@@ -23,16 +26,18 @@ screensize='DUMMY'
 os='Windows 8.1 Pro x64'
 %}
 
-**TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AveryEclipse](AveryEclipse)'s main PC between 2018 and 2021, and since then a secondary/testing PC.
+**Amalthea**, formerly known as **TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AveryEclipse](AveryEclipse)'s main PC between 2018 and 2021, and since then a secondary/testing PC.
 
 # Naming
 At some point since late 2025 (?), the computer began to be referred to as *TheHaswellLappy*, inspired from a computer naming scheme previously used by [KitSixtyFour](KitSixtyFour) for their computers in 2024-2026, where *The* is an obligatory prefix, *Haswell* the generation of the CPU used (Intel Core i5-4210U), and *Lappy* being a common nickname for the word *laptop*.
 
 The decision to use *TheHaswellLappy* name was primarily made to avoid confusion with Kit's Dell Latitude 3380, formerly named [Thei5Lappy](NishiLappy), although on the other hand Avery's [first PC](TheCeleryPC_(AveryEclipse)) and Kit's [eMachines ET1810-03](TheCeleryPC) are both known to share the name *TheCeleryPC*, albeit retroactively in the former's case.
 
+Since September 2026, the laptop had began to be referred to as *Amalthea*, following a newer naming system introduced by AveryEclipse at the time.
+
 # History
 ## As a main PC
-TheHaswellLappy had began to be used as Avery's main PC since 27 June 2018. The PC itself was the most powerful Avery had yet, allowing them to raise video quality from 720p to 1080p and eventually from 30fps to 60fps. Avery's entry to streaming was also possible thanks to the laptop.
+Amalthea had began to be used as Avery's main PC since 27 June 2018. The PC itself was the most powerful Avery had yet, allowing them to raise video quality from 720p to 1080p and eventually from 30fps to 60fps. Avery's entry to streaming was also possible thanks to the laptop.
 
 A blog post (since lost media) was posted on the then Medium-based Solarix Blog about how powerful the laptop was.
 
@@ -50,11 +55,13 @@ In 16 August 2021, the 128GB Kingston SSD became usable again, showing up on the
 Occasional issues continued to exist with the SSD which later fully stopped in September 2021. On the HDD, the Windows 10 19H2 install was finally wiped and replaced with Windows 7, used briefly until Avery finally got a new capable computer in early November 2021, the IdeaPad 3 15ITL6.
 
 ## As a secondary PC
-TheHaswellLappy began to be used as a secondary PC. In December 2021, the Windows 10 install on the SSD was replaced with an Windows 11 one after the former stopped booting, and a video was made about it on the Lynxmic channel.
+Amalthea began to be used as a secondary PC. In December 2021, the Windows 10 install on the SSD was replaced with an Windows 11 one after the former stopped booting, and a video was made about it on the Lynxmic channel.
 
 Several other Windows 11 installs followed until October 2025, when Avery decided to install Windows 10 LTSC 2019 on it instead. In the meantime, the HDD had finally been converted from MBR to GPT around 2023-24.
 
-In early February 2026, the Windows 10 LTSC 2019 install on the 128GB SSD was wiped in place of a Windows 8.1 Pro install, which would then be used for various AstroNT videos such as the ChromeOS Flex, PCtoVM, and most notably, the 8Store video.
+In early February 2026, the Windows 10 LTSC 2019 install on the 128GB SSD was wiped in place of a Windows 8.1 Pro install, which would then be used in various AstroNT videos such as ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)***, ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)***, ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)***, and most notably, ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))***, the most popular AstroNT video with over 40K views as of late September 2026.
+
+Between 27 March and 9 April 2026, the laptop was briefly considered "dead" due to an issue with the charging port, which was since sorted out. The laptop is currently not in use as Avery did not bring it with them to their current location.
 
 <!-- there is room for improvement but i am not bothering
 

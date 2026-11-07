@@ -362,7 +362,7 @@ blockquote {
 
 /* we FUCKING MOVE IT */
 /* r/puppycrashout */
-.desktop-only form .mdl-textfield #akn-searchbox, .desktop-only form .mdl-textfield label {
+form .mdl-textfield.desktop-only #akn-searchbox, form .mdl-textfield.desktop-only label {
     width: 120%;
     margin-left: -58px;
 }

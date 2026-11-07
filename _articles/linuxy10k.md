@@ -1,13 +1,13 @@
 ---
-title: Running Linux... on Year 10000?
+title: Running Linux in... Year 10000?
 isTitleItalic: true
-permalink: Running_Linux_on_Year_10000
+permalink: Running_Linux_in_Year_10000
 dyk:
-    - "...that [Running Linux... on Year 10000?](Running_Linux_on_Year_10000) was recorded prior to [Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong) but wasn't released two months after it?"
+    - "...that [Running Linux in... Year 10000?](Running_Linux_in_Year_10000) was recorded prior to [Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong) but wasn't released two months after it?"
 ---
 
 {% include infoboxes/video.html
-title='Running Linux... on Year 10000?'
+title='Running Linux in... Year 10000?'
 image='linuxy10k/thumbnail.png'
 channel='AstroNT'
 channelurl='AstroNT'
@@ -17,7 +17,7 @@ reldate='2026-01-19'
 link='https://www.youtube.com/watch?v=nWW3fbT7Xm0'
 %}
 
-***Running Linux... on Year 10000?*** is an [AstroNT](AstroNT) video made by [Avery](AveryEclipse).
+***Running Linux in... Year 10000?*** is an [AstroNT](AstroNT) video made by [AveryEclipse](AveryEclipse).
 
 It was initially planned as a [Lynxmic](Lynxmic) video during the video idea brainstorming of early 2025, after which a set of at least 30 video ideas have been noted in a Lynxmic video idea sheet to be used throughout 2025. The video was however cancelled with the discontinuation of active Lynxmic uploads.
 

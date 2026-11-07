@@ -20,6 +20,8 @@ repoHost='GitHub'
 status='Source code archived; website unavailable'
 link='[lynxmic.github.io](https://lynxmic.github.io)'
 image='lynxwebsite/07-2024.png'
+successor='*[AveryWebsite](AveryWebsite)*'
+predecessor='*[Solarix Website](Solarix_Website)* <small>(2017-2019)</small>'
 %}
 
 ***LynxWebsite*** (also known as ***Lynxmic Website*** or after its URL name of **lynxmic.github.io**) was [AveryEclipse](AveryEclipse)'s personal website from August 2023 to July 2024, when it merged with the [Lynxmic Blog](Lynxmic_Blog) project to form [AveryWebsite](AveryWebsite).
@@ -59,4 +61,4 @@ A "v2.0" redesign followed on 1 January 2024, where the website saw a transforma
         alt_text="LynxWebsite in July 2024" 
         caption="LynxWebsite in July 2024"
         style="width:50%;" %}
-</div>
+</gallery>

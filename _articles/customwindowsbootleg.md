@@ -11,6 +11,16 @@ dyk:
 hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 
+{% include infoboxes/video.html
+title="Making a Custom Windows Bootleg"
+channel='[AstroNT](AstroNT)'
+platform='YouTube'
+views='2,146'
+reldate='2026-04-05'
+link='https://youtu.be/oC0TOpH3Sf8'
+image='customwindowsbootleg/thumbnail.jpg'
+%}
+
 ***Making a Custom Windows Bootleg***[^1] is a YouTube video made by [KitSixtyFour](KitSixtyFour) for the [AstroNT](AstroNT) channel, focused on the making process of "*[Microsoft Windows Nishi & LeCat Edition 2026 Version 2003 R2 Home Premium](Windows_Nishi_&_LeCat_Edition_2026_Version_2003_R2_Home_Premium)*", a bootleg based on Windows Vista Service Pack 2.
 
 # Notes

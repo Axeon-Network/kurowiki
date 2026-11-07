@@ -17,14 +17,15 @@ writtenin='HTML/CSS/JS, Astro'
 type='Personal Website'
 initialVersion='v1.0'
 initialVersionReleaseDate='2024-07-23'
-currentVersion='v26.9'
-currentVersionReleaseDate='2026-09-11'
+currentVersion='v26.9.3'
+currentVersionReleaseDate='2026-09-26'
 sourceModel='Open source'
 repoLink='[AveryEclipse/averyeclipse.github.io](https://github.com/AveryEclipse/averyeclipse.github.io)'
 repoHost='GitHub'
 status='Available'
 link='https://avery.is-a.dev'
-image='kaywebsite/v26.7.png'
+image='kaywebsite/v26.9.3.png'
+predecessor='*[LynxWebsite](LynxWebsite)*<br>*[Lynxmic Blog](Lynxmic_Blog)*'
 %}
 
 ***AveryWebsite*** (also known after its URL name, [avery.is-a.dev](https://avery.is-a.dev)) is [AveryEclipse](AveryEclipse)'s personal website. It officially launched on 23 July 2024 as a complete rewrite unifying *[LynxWebsite](LynxWebsite)* and the *[Lynxmic Blog](Lynxmic_Blog)* under a single codebase using fully plain HTML+CSS, coinciding with the Clyron-Lynxmic online identity split in the same day.
@@ -36,13 +37,11 @@ Plans were for the website layout to eventually evolve into a Win2K-style design
 
 Further updates were planned to improve the overall design, but they never happened and instead only small changes have been done updating the list of projects and socials as needed.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
-        image_src="kaywebsite/v1.png" 
-        alt_text="ClyronWebsite v1.1 in August 2024" 
-        caption="ClyronWebsite v1.1 in August 2024"
-        style="width:50%; height:auto" %}
-        </div>
+        image_src="kaywebsite/v1.png"  
+        caption="ClyronWebsite v1.1 in August 2024"%}
+        </gallery>
 
 ## Version 2.x
 *This section is a stub and will be finished in Release Candidate 2.*
@@ -53,7 +52,7 @@ The development of v2.0 took more than 3 months, mainly due to Avery's lack of m
 
 v2.0 was finally finished almost a month later, on 9 February 2025, when it replaced v1.1. The final v2 release was v2.5.2 from 8 July 2025.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
         image_src="kaywebsite/earliercw2.0.png" 
         alt_text="ClyronWebsite v2.0 UC, November 2024" 
@@ -78,7 +77,7 @@ v2.0 was finally finished almost a month later, on 9 February 2025, when it repl
         image_src="kaywebsite/v2.5.2.png" 
         alt_text="ClyronWebsite v2.5.2, July 2025" 
         caption="ClyronWebsite v2.5.2, July 2025" %}
-</div>
+</gallery>
 
 ## Version 3.x
 Plans for a ClyronWebsite v3.0 trace back to May 2025, as AveryEclipse had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS and as a result regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [KitSixtyFour](KitSixtyFour)'s *[HoriWebsite](HoriWebsite)*.
@@ -90,7 +89,7 @@ v3.0 was finished and released on 18 July 2025, with the website now known as **
 
 v3.3 from 14 September 2025 introduced a new color scheme to go with the then-new visual branding of KayAurora along with a bunch of fixes and improvements. The final v3 release is v3.3.1 from 7 October 2025 as AveryWebsite switched to a new version numbering scheme starting with the next version.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
         image_src="kaywebsite/v3.1.png" 
         alt_text="KayWebsite v3.1, July 2025" 
@@ -105,14 +104,14 @@ v3.3 from 14 September 2025 introduced a new color scheme to go with the then-ne
         image_src="kaywebsite/v3.3-retro.png" 
         alt_text="KayWebsite v3.3 Retro Frontend" 
         caption="KayWebsite v3.3 Retro Frontend" %}
-</div>
+</gallery>
 
 ## Version 25.x
 AveryWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time AveryWebsite is built in production. The changelog page was also deprecated entirely in favor of the [AveryWebsite version history](AveryWebsite_version_history) KuroWiki article.
 
 Later versions (v25.11, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2) have all mostly focused on smaller changes, bug fixes and improvements. The final release was v25.12.2 from 28 December 2025.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
         image_src="kaywebsite/v25.10.png" 
         caption="KayWebsite v25.10, October 2025" %}
@@ -122,7 +121,7 @@ Later versions (v25.11, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2) have 
     {% include items/gallery.html 
         image_src="kaywebsite/v25.12.2-retro.png" 
         caption="KayWebsite v25.12.2 Retro Frontend" %}
-</div>
+</gallery>
 
 ## Version 26.x
 Per the year-month-revision versioning format introduced with v25.10, the major version number was bumped from v25 to v26 with the first AveryWebsite version release of 2026; v26.1 from 15 January.
@@ -133,9 +132,9 @@ The website has seen further major changes with v26.3, released 22 March 2026, c
 
 v26.5, released 14 May 2026, further expanded on the rollout of `astro-icon` icons by replacing Unicode emojis in page and section headings, and marked the website's transition from Astro v5 to v6. v26.5.1, released 26 May 2026, fixed a major bug with displaying blog post tags on mobile.
 
-The website has been largely overhauled again with the release of v26.6 on 29 June 2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed, with v26.7 from 20 July 2026 further polishing v26.6.x while bringing a more complete, updated website design. v26.7 was followed by three minor versions, v26.7.1, v26.8 and v26.9.
+The website has been largely overhauled again with the release of v26.6 on 29 June 2026, which involved many structural changes, tech debt cleanups, and a fresh design. v26.6.1 immediatelly followed, with v26.7 from 20 July 2026 further polishing v26.6.x while bringing a more complete, updated website design. v26.7 was followed by several minor versions, v26.7.1, v26.8, v26.9 and v26.9.x.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
         image_src="kaywebsite/v26.1.png" 
         caption="KayWebsite v26.1, January 2026" %}
@@ -155,12 +154,6 @@ The website has been largely overhauled again with the release of v26.6 on 29 Ju
         image_src="kaywebsite/v26.5-retro.png" 
         caption="AveryWebsite v26.5 Retro Frontend" %}
     {% include items/gallery.html 
-        image_src="kaywebsite/v26.6.1.png" 
-        caption="AveryWebsite v26.6.1, June 2026" %}
-    {% include items/gallery.html 
-        image_src="kaywebsite/v26.7.png" 
-        caption="AveryWebsite v26.7, July 2026" %}
-    {% include items/gallery.html 
-        image_src="kaywebsite/v26.7-retro.png" 
-        caption="AveryWebsite v26.7 Retro Frontend" %}
-</div>
+        image_src="kaywebsite/v26.9.3.png" 
+        caption="AveryWebsite v26.9.3, September 2026" %}
+</gallery>

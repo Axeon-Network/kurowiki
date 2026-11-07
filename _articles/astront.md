@@ -48,11 +48,11 @@ The channel was created a day later, but wasn't officially announced until a few
 
 {% include items/embed.html image_src='astront/misc/wave1.png' caption='The message for the so-called "Wave 1". 17 September 2025.' %}
 
-Following the release of the channel trailer, a roadmap was created detailing the first seven videos of the channel, featuring videos such as *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*, *[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))* and *[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*, which would cover the rest of 2025. This roadmap would be then dubbed "**Wave 1**".
+Following the release of the channel trailer, a roadmap was created detailing the first seven videos of the channel, featuring videos such as *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*, *[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP_Kinda)* and *[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*, which would cover the rest of 2025. This roadmap would be then dubbed "**Wave 1**".
 
-While the videos from Wave 1 wouldn't be cancelled or scrapped, it does not mean that they were untouched either. The NewShell (*The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)*) and VMware 12 on Vista (*Running VMware Workstation 12 on Windows Vista!*) videos would later be swapped as it was thought the former wouldn't be "good enough" for a first video, while the Discord on Vista (*[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*) and Android x86 (*[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture...)*) videos were swapped due to an recording incident in the former which caused it to be delayed, whearas the Android x86 video was already done, so it was released early instead. This does not mean that the original target dates were changed though.
+While the videos from Wave 1 wouldn't be cancelled or scrapped, it does not mean that they were untouched either. The NewShell (*The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)*) and VMware 12 on Vista (*Running VMware Workstation 12 on Windows Vista!*) videos would later be swapped as it was thought the former wouldn't be "good enough" for a first video, while the Discord on Vista (*[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*) and Android x86 (*[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)*) videos were swapped due to an recording incident in the former which caused it to be delayed, whearas the Android x86 video was already done, so it was released early instead. This does not mean that the original target dates were changed though.
 
-Additionally, "Replacing ProgMan", which consisted of replacing the Program Manager on Windows 3.1x with another application, was eventually merged into a larger video, titled "*[X Minutes of Useless Windows Information](X_Minutes_of_Useless_Windows_Information)*". While there were no videos on December 2025, Y10K on Linux (*[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*) and ExplorerEx (*[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))*) were moved to 2026.
+Additionally, "Replacing ProgMan", which consisted of replacing the Program Manager on Windows 3.1x with another application, was eventually merged into a larger video, titled "*[X Minutes of Useless Windows Information](X_Minutes_of_Useless_Windows_Information)*". While there were no videos on December 2025, Y10K on Linux (*[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*) and ExplorerEx (*[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP_Kinda)*) were moved to 2026.
 
 While work for VMware 12 on Vista began, Axeon Network CEO and Founder [AveryEclipse](AveryEclipse) agreed to join the AstroNT project, with their first video for the channel being NewShell. This would officially mark AstroNT as a duo project, just like Axeon Network's [KuroWiki](KuroWiki). 
 
@@ -67,7 +67,7 @@ With the channel on the rise, the ExplorerEx video (*Turning Windows 11 Into Win
 
 Initial work for "Wave 2" commenced in early March 2026 with videos such as ChromeOS Flex (*[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)*) and PCtoVM (*[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)*) on Avery's side and MaCWB (*[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*) on Kit's side having started production.
 
-The first video to be uploaded as part of "Wave 2" was Whistler Server 2003 (*[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_"Windows_Server_2003"_(on_RTM!))*) produced by Kit on 29 March 2026, which was meant to serve as an interim video while other videos were still being worked on. It became the second most popular video, and by far the most popular video made by Kit for AstroNT with 8k+ views as of July 2026.
+The first video to be uploaded as part of "Wave 2" was Whistler Server 2003 (*[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_Windows_Server_2003_(on_RTM!))*) produced by Kit on 29 March 2026, which was meant to serve as an interim video while other videos were still being worked on. It became the second most popular video, and by far the most popular video made by Kit for AstroNT with 8k+ views as of July 2026.
 
 At this point a weekly/biweekly schedule was established. A week after Whistler Server 2003, the bootleg video was released, and after that another interim video, *[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*. 2 weeks later, PCtoVM was released, also being regarded as an interim video.
 
@@ -89,17 +89,17 @@ Alongside Haiku on Real HW, a new channel trailer and branding was planned to re
 
 
 # Videos
-As of September 2026, there are twenty videos uploaded to the AstroNT channel (excluding the [1K milestone stream](https://www.youtube.com/live/amFxXFCdGfQ) and channel trailers):
+As of September 2026, there are twenty-one videos uploaded to the AstroNT channel (excluding the [1K milestone stream](https://www.youtube.com/live/amFxXFCdGfQ) and channel trailers):
 
 - ***[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*** (uploaded 2025-11-03)
-- ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95/NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
+- ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95_NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
 - ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)*** (uploaded 2025-11-11)
 - ***[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*** (uploaded 2025-11-18)
 - ***[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*** (uploaded 2026-01-19)
 - ***[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*** (uploaded 2026-01-25)
 - ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))*** (uploaded 2026-02-15)
-- ***[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))*** (uploaded 2026-02-28)
-- ***[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_"Windows_Server_2003"_(on_RTM!))*** (uploaded 2026-03-29)
+- ***[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP_Kinda)*** (uploaded 2026-02-28)
+- ***[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_Windows_Server_2003_(on_RTM!))*** (uploaded 2026-03-29)
 - ***[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*** (uploaded 2026-04-04)
 - ***[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*** (uploaded 2026-04-11)
 - ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)*** (uploaded 2026-04-25)
@@ -111,6 +111,7 @@ As of September 2026, there are twenty videos uploaded to the AstroNT channel (e
 - ***[Modern Programs on Windows 98! (w/ Linux X11 Servers)](Modern_Programs_on_Windows_98!)*** (uploaded 2026-06-26)
 - ***[What happens if you upgrade the Windows XP Mode VM?](What_happens_if_you_upgrade_the_Windows_XP_Mode_VM?)*** (uploaded 2026-07-18)
 - ***[Installing Haiku on ""Unsupported"" Hardware](Installing_Haiku_on_""Unsupported""_Hardware)*** (uploaded 2026-09-10)
+- ***[Transforming Windows 11 to Windows 1.0!? (sorta)](Transforming_Windows_11_to_Windows_1.0!?_(sorta))*** (uploaded 2026-09-17)
 
 
 # Gallery

@@ -26,7 +26,7 @@ link='[youtube.com/lynxmic](https://youtube.com/lynxmic)'
 successor='[AstroNT](AstroNT)'
 %}
 
-**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) created on 5 December 2016.
+**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AveryEclipse](AveryEclipse) created on 5 December 2016. It was Avery's main channel until 23 July 2024, when it was replaced by a new channel made to serve as Avery's personal channel also called [AveryEclipse](AveryEclipse_(channel)), nonetheless the channel continued to be active until 2025, when it was ulimately succeeded as a tech channel by [AstroNT](AstroNT).
 
 It is the first created of AveryEclipse's main channels to be completely in the English language from the start. The channel's content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only "opinion" or "tech news" videos and previously "updates" videos, discontinued in favor of just using social media and YouTube's Community Tab (now the *Posts* tab) upon rollout.
 
@@ -67,7 +67,7 @@ In the first quarter of the year, there have mostly barely been any video upload
 
 By late March 2018, BW-Tech was deleted and merged back into the main BriciWorld channel due to lack of content. With that, casual tech content started being uploaded on BriciWorld, with 13 videos having been uploaded in total in April, followed by another 14 videos in May, when the channel was renamed from *BriciWorld* to *BW Tech*.
 
-New videos significantly slowed down in June 2018 after AveryEclipse's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [TheHaswellLappy](TheHaswellLappy), which would serve as their main PC for the next 3 years. Thanks to TheHaswellLappy being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. 
+New videos significantly slowed down in June 2018 after AveryEclipse's then-main PC died. However production resumed on 27 June with the monthly *BW Updates* video after they got [Amalthea](Amalthea), which would serve as their main PC for the next 3 years. Thanks to Amalthea being much powerful, the first successful BriciWorld streams have been broadcasted on YouTube and Twitch in July 2018. 
 
 Video production has continued throughout the later half of 2018 with several videos per week, sometimes even for days in a row. In mid August 2018, the channel was rebranded from *BW Tech* to *Solarix*, with the previous name still referencing *BriciWorld*.
 
@@ -94,7 +94,7 @@ However, despite world events, the Lynxmic project just like any of AveryEclipse
 
 An official "Lynxmic Discord Server" was launched as [Lynxmic Official Server](LynxPlaza_(original)) as a spinoff from Axeon in late 2019, later renamed *LynxPlaza*, but it was merged back into Axeon in November 2020 in an attempt to have everyone in one single server.
 
-2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after AveryEclipse got [a new main laptop](Thei3Lappy) to replace [TheHaswellLappy](TheHaswellLappy), which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.
+2021 would be the worst month for the Lynxmic project, with only 12 videos uploaded that entire year, most after October after AveryEclipse got [a new main laptop](Thei3Lappy) to replace [Amalthea](Amalthea), which was starting to have issues with all videos being only exported in 30fps and CPU temperatures often exceeding 80°C, sometimes even going over 90°C during rendering.
 
 In November-December 2021, the Lynxmic channel celebrated its 5th anniversary since its creation, with whole branding changes introduced for the first time since 2019, including a new Lynxmic logotype which is still in use to this day, as well as a new font, with the background being a poly instead of a gradient.
 

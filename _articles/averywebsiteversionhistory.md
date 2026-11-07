@@ -11,13 +11,22 @@ The changelogs of all versions before and including v3.3.1 are inherited from Av
 {% include items/tableofcontents.html %}
 
 # Version 26.x
+## 26.9.3
+Released on 26 September 2026, it was a minor update to the previous version, filling out the proper model of [Ellara](Ellara) in the Devices page (HP Laptop 14s-fq0027nq instead of HP Laptop 14s-fq0xxx).
+
+## 26.9.2
+Released on 24 September 2026, it mainly brought an overhaul to the Devices page, splitting the devices in proper categories depending on usage case (daily driver, additional devices, and devices "currently not in use"). Full specs of the phones have been added as well.
+
+## 26.9.1
+Released on 16 September 2026, it was a minor update updating the Projects page once more, replacing the now-discontinued [Axeon Orchid](Orchid) project with "AnythingScreensaver".
+
 ## 26.9
-Released on 11 September 2026, it was a minor update fixing more issues and updating the Projects page again.
+Released on 11 September 2026, it was a minor update fixing more issues. It also updated Orchid's entry in the Projects page.
 
 The `tzname` setting in `config.ts` was notably re-added back in this update after previously being removed with v3.2.2 in late August 2025, at the time a result of uncertainity in Avery's IRL life.
 
 ## 26.8
-Released on 10 August 2026, it was a minor update fixing a CSS issue and updating the Projects page.
+Released on 10 August 2026, it was a minor update fixing a CSS issue and adding Orchid to the Projects page.
 
 ## 26.7.1
 Released on 31 July 2026, it primarily focused on bug fixes and improvements, primarily in the Fallback Layout.
@@ -54,7 +63,7 @@ Released on 14 May 2026, it further expanded on the rollout of `astro-icon` icon
 This is the first version to be powered by Astro v6.x.x versions. The minimum required Node.js version is now Node 22 and has been reflected as such in the deployment CI/CD, as Astro v6 dropped support for older Node versions.
 
 ## 26.4.1
-Released on 9 April 2026, just 14 hours after the previous release, it undoes a change made in v26.4 (removal of [TheHaswellLappy](TheHaswellLappy) from the Devices page, which appeared to have been working again hours after v26.4's release), finally fixes the display of webrings in the Retro Frontend, and drops support for the Modern Frontend in Opera Presto.
+Released on 9 April 2026, just 14 hours after the previous release, it undoes a change made in v26.4 (removal of [Amalthea](Amalthea) from the Devices page, which appeared to have been working again hours after v26.4's release), finally fixes the display of webrings in the Retro Frontend, and drops support for the Modern Frontend in Opera Presto.
 
 This is the final version to be powered by Astro v5.x.x versions.
 
