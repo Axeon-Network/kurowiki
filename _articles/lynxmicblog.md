@@ -22,6 +22,8 @@ repoHost='GitHub'
 status='Source code archived; website unavailable'
 link='https://lynxmic.github.io/blog'
 image='lynxmicblog/02-06-2024.png'
+successor='*[AveryWebsite](AveryWebsite)*'
+predecessor='*Medium-based Lynxmic Blog (2018-2021)*'
 %}
 
 ***Lynxmic Blog***, sometimes known as ***LynxBlog*** or previously after its URL address (**lynxmic.github.io**, prior to [LynxWebsite](LynxWebsite)'s launch) was [AveryEclipse](AveryEclipse)'s personal blog between 2021 and 2024, hosted on GitHub Pages and powered by Jekyll.

@@ -11,9 +11,9 @@ pfp='astronte/pfp.png'
 name='AstroNT Embedded'
 creator='[KitSixtyFour](KitSixtyFour) (Google Account)<br>[AveryEclipse](AveryEclipse) (YouTube channel)'
 maintainers='KitSixtyFour<br>AveryEclipse'
-videos='4'
-subs='22'
-views='52'
+videos='5'
+subs='39'
+views='545'
 platform='YouTube'
 state='Active'
 creationdate='2026-06-06'
@@ -37,19 +37,21 @@ To easily categorise the different types of content uploaded to the channel, sev
 - ***Extras*** are extra footage from videos. Unlike Rawcuts, these are usually content shot *after* the original footage.
 
 # Videos
-As of July 2026, four videos have been uploaded to the channel.
+As of September 2026, eight videos have been uploaded to the channel.
 
 - ***RAWCUTS: SuperTux [Swapping Etcs]*** (uploaded 2026-06-10)
 - ***RAWCUTS: Quadrapassel [Swapping Etcs]*** (uploaded 2026-06-10)
 - ***RAWCUTS: The CD ROM Driver [Windows NT Upgrade Saga]*** (uploaded 2026-06-28)
 - ***TRASHED: Windows Longhorn 4093 to Windows Vista Upgrade Attempt*** (uploaded 2026-07-19)
-
+- ***RAWCUTS: Kit plays Minesweeper [XP Mode Upgrade]*** (uploaded 2026-08-24)
+- ***RAWCUTS: Camtasia Studio 7 [Windows on Android]*** (uploaded 2026-09-01)
+- ***RAWCUTS: 2048 + Four-in-a-Row [8Store Video]*** (uploaded 2026-09-02)
+- ***RAWCUTS: Android 5 Easter Egg [Android x86 Video]*** (uploaded 2026-09-02)
 
 <!-- - ***TRASHED: The original version of NewShell*** (uploaded 2026-??-??) -->
-<!-- - ***EXTRAS: Kit plays Minesweeper*** (uploaded 2026-??-??) -->
 
 # Gallery
-<gallery>
+<div class="wiki-gallery">
 {% include items/gallery.html
 caption='Channel banner'
 image_src='astronte/banner.png' %}

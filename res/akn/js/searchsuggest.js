@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 item.title && item.title.toLowerCase().includes(query)
             ).slice(0, 8);
 
-            // Populate direct article links
             matches.forEach(match => {
                 const a = document.createElement('a');
                 a.href = match.url;

@@ -6,15 +6,14 @@ hatnote: "This article is a stub and will be probably finished in Release Candid
 ---
 {% include infoboxes/site.html
 name="Solarix Website"
-formerly=''
 developer='AveryEclipse'
 developerarticle='AveryEclipse'
 writtenin='HTML/CSS/JS'
 type='Personal Website'
-sourceModel='Open source (since June 2018), Closed source (before June 2018)'
-status='Source code archived (iterations 4-5), lost (iterations 1-3). Website no longer available'
-link=''
+sourceModel='Open source (since June 2018)<br>Closed source (before June 2018)'
+status='Source code archived (iterations 4-5)<br>Source code lost (iterations 1-3)<br>Website no longer available'
 image='solarixwebsite/home.png'
+successor='*[LynxWebsite](LynxWebsite)*'
 %}
 
 The ***Solarix Website*** was [AveryEclipse](AveryEclipse)'s personal website between 2017 and 2019.
@@ -67,7 +66,7 @@ One of the main new "features" was the Dark Mode, however the implementation was
 # Fourth iteration (Jul-Dec 2018)
 In July 2018, the website has seen a complete revamp. Unlike the third iteration, the website is this time more simplified, fluently incorporating the then-new BW Tech branding, with the homepage looking like just a "landing page" with buttons to social media and other stuff. The About and Devices pages also continue to be present.
 
-A short 1-minute [video](https://youtu.be/P3H8aoOx-LE) has been posted to the [Lynxmic](Lynxmic) YT channel (then known simply as "BW Tech") on 8 July 2018 promoting the "fresh, clean" new website look, followed by an update in the same video where AveryEclipse announced they began actual YouTube streams after getting [a good enough computer](TheHaswellLappy).
+A short 1-minute [video](https://youtu.be/P3H8aoOx-LE) has been posted to the [Lynxmic](Lynxmic) YT channel (then known simply as "BW Tech") on 8 July 2018 promoting the "fresh, clean" new website look, followed by an update in the same video where AveryEclipse announced they began actual YouTube streams after getting [a good enough computer](Amalthea).
 
 Also in July 2018, a custom blog built from scratch was officially said to be worked on based on the fourth iteration of the website, also including a Gallery section (which later became a standalone page on the website itself). This was however abandoned after a short while due to complications, or rather said a lack of knowledge in maintaining such a blog. A similar idea would only be done in 2021 with the [Lynxmic Blog](Lynxmic_Blog), powered by the Jekyll static site generator.
 

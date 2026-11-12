@@ -88,12 +88,12 @@
         
           <div class="mdl-layout-spacer"></div>
         
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--align-right">
             <!-- search box -->
             <div class="mdl-textfield__holder">
-              <div class="container desktop-only">
-                <form action="{{ site.baseurl }}/search" method="get">
-                  <div class="mdl-textfield mdl-js-textfield" title="Type here to begin">
+              <form action="{{ site.baseurl }}/search" method="get" autocomplete="off">
+
+                <!-- desktop search box -->
+                  <div class="mdl-textfield mdl-js-textfield desktop-only" title="Type here to begin">
                     <input class="mdl-textfield__input" type="text" id="akn-searchbox" name="q" style="border-bottom: 2px solid rgba(255,255,255,.25) !important;color: rgba(255,255,255,0.6);">
                     <label class="mdl-textfield__label"><i style="color:white; opacity: 0.5;margin-left: 1px;text-shadow: none;">Search {{ site.title }}...</i></label>
                     
@@ -104,30 +104,25 @@
                       </div>
                     </div>
                   </div>
-                </form> <!-- damn you stupid closing form tag!!! -->
-              </div>
-              </div>
-              <div class="container mobile-only">
-                <form action="{{ site.baseurl }}/search" method="get">
-                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="akn-searchbox-mobile">
-                      <i class="material-icons">search</i>
-                    </label>
+                </div>
+
+                <!-- mobile search box -->
+                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mobile-only">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="akn-searchbox-mobile"><i class="material-icons">search</i></label>
                     <div class="mdl-textfield__expandable-holder">
                       <input class="mdl-textfield__input" type="text" id="akn-searchbox-mobile" name="q" style="text-shadow: 0 0 4px black;">
                       <label class="mdl-textfield__label"></label>
-                    </div>
-                  </div>
-                  <div class="akn-searchsuggestions">
+
+                      <div class="akn-searchsuggestions">
                       <div class="akn-searchsuggestions-list"></div>
                       <div class="akn-searchsuggestions-seafor" style="display: none;">
                         <span style="opacity:0.5">Search for all pages containing</span><div id="assbreak" /><span style="font-style:italic" class="query"></span>
                       </div>
                     </div>
-                </form>
-              </div>
+                    </div>
+                  </div>
+                </form> <!-- damn you stupid closing form tag!!! -->
             </div>
-          </div>
         </div>
       </header>
   

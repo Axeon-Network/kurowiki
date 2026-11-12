@@ -12,24 +12,23 @@ redirect_from:
 name='Axeon Network'
 formerly='LynxPlaza<br>Lynxmic\'s Square<br>Lynxmic\'s Lodge<br>Lynx-Axeon<br>Axeon<br>Axeon Community<br>Aqua Community'
 owner='[AveryEclipse](AveryEclipse)'
-platform='Discord<br>Stoat<br>Fluxer<br>Twitch Desktop <small>(formerly)</small><br>Steam Chat <small>(formerly)</small>'
+platform='Discord<br>Stoat <small>(formerly)</small><br>Fluxer <small>(formerly)</small><br>Twitch Desktop <small>(formerly)</small><br>Steam Chat <small>(formerly)</small>'
 creationDate='2017-12-18'
 openedDate='2017-12-28'
 type='Public'
-memberCount='98 (as of 2026-07-04)'
+memberCount='97 (as of 2026-09-14)'
 link='[axeon-network.github.io](https://axeon-network.github.io)'
 logo='axeonnetwork/wordmark.png'
 %}
 
-The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), which had always been the 'heart' of the network from the start, other stuff include Stoat (formerly revolt.chat) and Fluxer servers of the same name, [KuroWiki](KuroWiki) (along with the [Deltari](Deltari) engine), [KitsuMC](KitsuMC) and its predecessor [MidoriMC](MidoriMC), as well as the planned [Project Orchid](Orchid), and other proposed projects over time.
+The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), it also includes the [KuroWiki](KuroWiki) project (along with the [Akane](Akane) engine).
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 
 {% include items/tableofcontents.html %}
 
 # Discord Server
-By far, the Discord Server of the same name is the flagship of the Axeon Network.
-Initially known as Aqua Community, the server was created on 18 December 2017, but wouldn't open until 10 days later, allowing AveryEclipse to come up with ideas and an overall strategy for the server.
+Initially known as Aqua Community, the Axeon Network server was created on 18 December 2017, but wouldn't open until 10 days later, allowing AveryEclipse to come up with ideas and an overall strategy for the server.
 
 its initial scope was to serve as a spiritual successor to the [BriciWorld Lounge](BriciWorld_Lounge) (BWL) server, which was slowly collapsing. Unlike predecessors, the server has been thought to be more widely promoted as more than just being “about AveryEclipse”, with a clear own strategy of “bringing people together” from the very beginning. It was aligned with then’s reality within the server’s then-surrounding community circle, where Discord servers were often commonly named after random words, to which either “Community” or “Lounge” is appended.
 
@@ -47,19 +46,19 @@ In early April 2025, AveryEclipse officially announced the sunsetting of the Lyn
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
 Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
-On 8 September 2025, the Axeon Network Discord Server re-reached 100 members.
+On 8 September 2025, the Axeon Network Discord Server re-reached 100 members. It has however kept fluctuating around that number ever since then.
 
 ## Custom server-specific Discord Bots
 Initially, there were several bots hosted specifically for the Axeon Network server, all which started operating in late 2017-early 2018:
 
-- **AxeonBot**: initially known as AquaBot, it was in fact a selfhosted instance of GAwesomeBot. In May 2018, AxeonBot switched to running a separate instance of [Venus](Venus). The bot was discontinued in August 2018 in favor of other 3rd-party bots.
+- **AxeonBot**: initially known as AquaBot, it was in fact a selfhosted instance of GAwesomeBot v4. In May 2018, AxeonBot switched to running a separate instance of [Venus](Venus). The bot was discontinued in August 2018 in favor of other 3rd-party bots.
 - **AxeonMusic**: initially known as AquaMusic, it was a selfhosted instance of JMusicBot, which the community could use to play music of their choice in VC. The bot was discontinued in July 2019 in favor of other 3rd-party bots.
 - **AxeonRadio**: initially known as AquaRadio, it was also a selfhosted instance of JMusicBot, with the difference being that it was a playlist of music curated by Axeon managers and community. The bot was discontinued in April 2018 in favor of AxeonMusic bearing the radio stuff. The bot account for AxeonRadio was later renamed to **AxeonAuth** (planned as an all-in "moderation bot") but then later abandoned entirely.
 
 # KuroWiki
 {% include items/hatnote.html content='Main article: [KuroWiki](KuroWiki)' %}
 
-**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Deltari](Deltari)* wiki engine initially started and developed by [Kit](KitSixtyFour) in May 2025.
+**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Akane](Akane)* wiki engine initially started and developed by [Kit](KitSixtyFour) in May 2025.
 Initially started with a main purpose of documenting meanings of inside jokes and other random Kit-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and AveryEclipse-related things, since becoming a project part of the Axeon Network in September 2025.
 
 As of October 2025, KuroWiki has reached Beta 6. The latest version as of 4 December 2025 is [Build 4400](KuroWiki_build_4400).
@@ -83,13 +82,13 @@ AxeonWebsite was primarily designed to promote the Axeon Network Discord Server,
 Initially on the `aquacommunity.ml` domain, it has moved to `axeoncommunity.ml` following the rebrand from Aqua Community to Axeon Community in April 2018, domain which would remain for the remainder of the website's lifetime. As previously stated, a subdomain of the same domain was planned to be used for *i.axeon* as well.
 The website has been hosted on GitHub Pages since May 2018, and initially on a different free web hosting service, from which it migrated due to persisting issues loading media under said provider.
 
-<gallery>
+<div class="wiki-gallery">
     {% include items/gallery.html 
         image_src="axeonnetwork/axeonwebsite.png" 
         alt_text="AxeonWebsite in May 2019" 
         caption="AxeonWebsite in May 2019"
         style="width:40%; height:auto" %}
-</gallery>
+        </div>
 
 A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](AveryWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
 

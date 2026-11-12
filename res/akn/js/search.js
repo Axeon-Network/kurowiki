@@ -21,7 +21,7 @@
 // SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('search-input');
+    const searchInput = document.getElementById('akn-searchbox');
     const resultsContainer = document.getElementById('results-container');
     const searchDataURL = './res/json/search.json'; // JAY! SON! PLEASE!
     let searchIndex = [];
