@@ -1,4 +1,4 @@
-<!-- SpringViewer Code Name "Trifrost": HTML Code  -->
+<!-- SpringViewer Code Name "Triton": HTML Code  -->
 <!-- Developed by KitSixtyFour/SnowyBiFox. Licensed under The MIT License -->
 <script src="{{ site.baseurl }}/res/akn/js/springviewer.js"></script>
  <div id="springviewer" class="viewer-hidde"> <!-- the typo is intentional this stupid thing broke -->
@@ -35,7 +35,7 @@
             <h2 id="viewer-caption"></h2>
         </div>
         <!-- this was fun to figure out (not) -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" id="viewer-details-button">
+        <button class="trn-button" id="viewer-details-button">
             More Details
         </button>
         <div class="mdl-card__actions mdl-card--border" id="viewer-details-sub">
@@ -53,7 +53,7 @@
     <!-- its the stupid watermark that covers the bottom details if you're in debug mode! -->
     {% if site.debug %}
     <p id="viewer-watermark" class="mdl-shadow--4dp" style="display:block;text-align:right!important;">
-        &nbsp;SpringViewer Codename "Trifrost" 3.0.{{ site.version.build }}.{{ site.version.lab }}&nbsp;
+        &nbsp;SpringViewer Code Name Triton v4.0.{{ AKN_BUILD }}&nbsp;
     </p>
     {% endif %}
 
@@ -75,7 +75,7 @@
         <!-- this idiot had me going crazy for 3 whole days -->
         <!-- while i've had insomia since like 5 months ago, this made it fucking worse man -neko64 -->
         <div class="mdl-dialog__actions mdl-card--border springviewer-border">
-              <button class="mdl-button mdl-button--accent close mdl-js-ripple-effect mdl-js-button">
+              <button class="trn-button trn-button-dialogue" id="trn-close-modal">
                 Close
             </button>
         </div>
@@ -86,6 +86,7 @@
     <script>
         const dialog = document.querySelector('dialog');
         const showModalButton = document.getElementById('viewer-details-button');
+        const closeModal = document.getElementById('trn-close-modal');
 
 
         if (! dialog.showModal) {
@@ -97,7 +98,7 @@
             dialog.showModal();
         });
 
-        dialog.querySelector('.close').addEventListener('click', function() {
+        closeModal.addEventListener('click', function() {
             dialog.close();
         });
     </script>

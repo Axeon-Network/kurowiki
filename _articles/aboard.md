@@ -38,7 +38,7 @@ The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen a
         caption="The A Board in the Axeon Network Discord server. 16 October 2025"
         style="" 
         author='Kit64' %}
-</div>
+</gallery>
 
 #### References
 

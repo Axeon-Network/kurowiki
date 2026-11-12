@@ -59,4 +59,4 @@ A "v2.0" redesign followed on 1 January 2024, where the website saw a transforma
         alt_text="LynxWebsite in July 2024" 
         caption="LynxWebsite in July 2024"
         style="width:50%;" %}
-</div>
+</gallery>

@@ -38,7 +38,7 @@ The plans were set to take place on 21 April 2025 before they were cancelled due
         alt_text="" 
         caption="A prototype logo for the Lyra server."
         style="width:10%; height:auto" %}
-        </div>
+        </gallery>
 
 Many HoriServer (2) members migrated to the LynxPlaza server immediatelly following the implosion. LynxPlaza would go through a general revamp including stricter member verification measures to prevent another similar incident, being completed by 30 April 2025 with LynxPlaza being rebranded to **Axeon Network**.
 

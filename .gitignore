@@ -1,8 +1,8 @@
 _site
-Gemfile
-Gemfile.lock
-LICENSE
+"Gemfile"
+"Gemfile.lock"
+"LICENSE"
 .jekyll-cache
 _articles
 res/img/articles
-whidbey.ini
+"whidbey.ini"

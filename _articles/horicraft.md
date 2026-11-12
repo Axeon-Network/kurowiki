@@ -27,7 +27,7 @@ In 18 May 2025, Horicraft was planned to merge with Horicraft (2) in order to ma
     alt_text="The city of Fucking, NovaLand, as it was built in Horicraft" 
     caption="The city of Fucking, NovaLand, as it was built in Horicraft. This is the spawn area"
     style="width:50%!important;height:50%!important;" %}
-    </div>
+    </gallery>
 
 # References
 [^1]: Retroactively known as **Horicraft (1)** or **the original Horicraft**, following the creation of Horicraft (2).

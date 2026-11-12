@@ -29,4 +29,4 @@ While it was shared in screenshot form, the site itself was shared as a `.7z` pa
 caption='The screenshot sent by Kit'
 author='KitSixtyFour'
 image_src='stxpwebsite240809/hangout.png' %}
-</div>
+</gallery>

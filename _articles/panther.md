@@ -14,6 +14,8 @@ The **Axeon Panther Version Master Utility**, simply reffered to as **Panther** 
 Build tags were introduced as early as [the first *KuroWiki* build](KuroWiki_build_3567_(main_wik)) but were not automatically generated with each site build until September 2025 following the release of Beta 4.
 
 # Format
+
+{% include items/embed.html image_src='panther/buildtagdemo.png' size=5 caption='Watermark/build tag guide' %}
 The Panther utility uses a custom version of the Microsoft Windows build tag format, which is `major.minor.build.delta.id.lab.timestamp`. It can be broken down to the following:
 
 - `major` is the major version.

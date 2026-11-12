@@ -87,7 +87,7 @@ Due to the Certificate of Authenticity sticker still being present in the comput
         image_src='thecelerypc/coa.jpg'
         caption='The Microsoft Certificate of Authenticity sticker (product key redacted)'
      %}
-</div>
+</gallery>
 
 # Notes
 [^1]: Also known as *eMachines ET1810 Revision 3*.

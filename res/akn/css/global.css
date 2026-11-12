@@ -129,11 +129,12 @@ a {
     text-decoration: none !important;
     color: var(--accent);
 }
-#pagecontent a:hover:not(.download-box-item a) {
+/* so ironic */
+#pagecontent a:hover:not(.download-box-item a, .mdl-button) {
     text-decoration: underline !important;
 }
 
-#pagecontent a:active {
+#pagecontent a:active:not(.download-box-item a, .mdl-button) {
     color: var(--link-active) !important;
 }
 

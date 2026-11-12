@@ -25,7 +25,7 @@ While most of the railway network is underground, some sections of HURS railway 
     {% include items/gallery.html 
         image_src="hurs/hursjell.png" 
         caption="Although mostly underground, an HURS railway may still be on ground level. The example here is from Jell, near Cairo Company NovaLand HQ." %}
-</div>
+</gallery>
 
 # Horicraft Water Transportation System
 The **Horicraft Water Transportation System** (HWTS) is a network of waterways in and around Fucking, NovaLand. It is aimed to improve passage through Fucking while reducing travel times without having to leave boat. It is an alternative to HURS.

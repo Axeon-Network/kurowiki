@@ -71,4 +71,4 @@ Kit moments can vary from a range of 'moment levels', with that being the follow
         image_src="horibyte_moments/taskmgr.png" 
         alt_text="A broken Windows 10 Task Manager window on the Performance tab." 
         caption="A broken Windows 10 Task Manager window" %}
-</div>
+</gallery>

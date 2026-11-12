@@ -84,7 +84,7 @@ The following images were taken from a build dated 10 May 2024. These are screen
     caption='Ditto'
 %}
 
-</div>
+</gallery>
 
 # See also
 - *[Stuffy's Website](Stuffy's_Website_(June_2024))*, the remake and successor to the project developed in June 2024.

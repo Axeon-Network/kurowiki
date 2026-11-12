@@ -87,7 +87,7 @@ The blog would continue to receive occasional updates in 2022 to adapt to change
         alt_text="Footer of the Lynxmic Blog on 23 November 2022. Pagination was removed, and Mastodon was added in place of Reddit" 
         caption="Footer of the Lynxmic Blog on 23 November 2022. Pagination was removed, and Mastodon was added in place of Reddit"
         style="width:50%;" %}
-</div>
+</gallery>
 
 # Second iteration (2023-April 2024)
 In December 2022, AveryEclipse began to share over Mastodon/Fediverse sneak peeks of a new "Bulma revamp" of the Lynxmic Blog, a major design overhaul which aimed at giving it a fresh, better look. It was also officially revealed that Lynxmic Blog was also available over RSS, which was only starting to get relevant again (at least in Avery's POV) - the RSS feed was always there the whole time but was left unused and undocumented.
@@ -120,7 +120,7 @@ In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsit
         alt_text="The Lynxmic Blog on 19 April 2024" 
         caption="The Lynxmic Blog on 19 April 2024"
         style="width:50%;" %}
-</div>
+</gallery>
 
 <gallery>
        {% include items/gallery.html 
@@ -133,7 +133,7 @@ In August 2023, the Lynxmic Blog moved under `/blog` as [LynxWebsite](LynxWebsit
         alt_text="Lynxmic Blog logo used from May to December 2023" 
         caption="Lynxmic Blog logo used from May to December 2023"
         style="width:50%;" %}
-</div>
+</gallery>
 
 # Third iteration (April-July 2024)
 A complete overhaul of the Lynxmic Blog was made in April 2024 using the then-newly-released v1 of the Bulma CSS framework, bringing the blog's layout in consistency with LynxWebsite, which was also updated at the same time from a scroll layout to a tabbed layout.
@@ -148,4 +148,4 @@ That said, this Lynxmic Blog iteration was rather short-lived as in July 2024, t
         alt_text="The Lynxmic Blog on 2 June 2024" 
         caption="The Lynxmic Blog on 2 June 2024"
         style="width:50%;" %}
-</div>
+</gallery>

@@ -46,13 +46,13 @@ Later on 24 December 2016, the Computerseasons Twitter Account would be created 
 
 2016 videos mostly consisted of videos made with the Adobe Flash-based YT Video Editor or RAW unedited recordings. Today, only one of the 2016 videos still exist, albeit private for privacy reasons.
 
-   <div>
+   <gallery>
         {% include figure_item.html 
         image_src="lynxmic/cs_channel_picture.png" 
         alt_text="" 
         caption="Computerseasons logo, December 2016"
         style="width:10%; height:auto" %}
-    </div>
+    </gallery>
 
 January 2017 saw the launch of the second/extras channel of Computerseasons, named **Computerseasons2** (today MoreLynxmic).
 

@@ -3,7 +3,7 @@ title: Home
 permalink: ./ # i interrupted my housepets reading time just for this
               # i'm at the november 17 2008 issue
 search_exclude: true
-hatnote: This software is still unfinished! Please report any issues you may find through <a href="https://github.com/Axeon-Network/kurowiki/issues">GitHub Issues</a> or on our <a href="/discord">Discord Server</a>
+hatnote: This program is still under development! Please report any issues you may find through <a href="https://github.com/Axeon-Network/kurowiki/issues">GitHub Issues</a> or on our <a href="/discord">Discord Server</a>
 ---
 
 <style>

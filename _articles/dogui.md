@@ -57,4 +57,4 @@ On June 2026, the photo of Dogui taken in 2024 was retaken.
     image_src='dogui/sticker2.webp'
     caption='Ditto.'
 %}
-</div>
+</gallery>

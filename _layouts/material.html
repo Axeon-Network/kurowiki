@@ -106,7 +106,7 @@
                   </div>
                 </form> <!-- damn you stupid closing form tag!!! -->
               </div>
-
+              </div>
               <div class="container mobile-only">
                 <form action="{{ site.baseurl }}/search" method="get">
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
@@ -132,12 +132,12 @@
       </header>
   
       <div class="mdl-layout__drawer">
-        {% if site.drawertitle %}
+        {% if site.use-title-in-drawer %}
           <span class="mdl-layout-title">{{ site.title }}</span>
         {% endif %}
 
-        {% if site.drawerbanner %}
-          <img src="{{ site.baseurl }}/res/img/banner.png" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+        {% if site.use-banner-in-drawer %}
+          <img src="{{ site.baseurl }}/{{ site.banner-path }}" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
         {% endif %}
     
         <nav class="mdl-navigation" style="margin-top: -3% !important;">
@@ -161,11 +161,8 @@
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random page
           </a>
           {% if site.debug %}
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/KuroWiki:PTBW">
-            <span class="material-icons">assignment_late</span>&nbsp;&nbsp;&nbsp;Rewrite Article List
-          </a>
           <a class="mdl-navigation__link" href="{{ site.baseurl }}/Debug:Akane_Sandbox">
-            <span class="material-icons">bug_report</span>&nbsp;&nbsp;&nbsp;Akane Sandbox
+            <span class="material-icons">inbox</span>&nbsp;&nbsp;&nbsp;The Akane Sandbox
           </a>
           {% endif %}
 

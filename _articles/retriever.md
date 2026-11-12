@@ -15,19 +15,19 @@ developer='[KitSixtyFour](KitSixtyFour)'
 screenshot='cometadv527/windows81.png'
 caption='[Build 527](Comet_Adventure_build_527) running under Windows 8.1'
 genre='Role-playing (RPG)'
-releasedate='<b>Prior to cancellation:</b><BR>27 January 2027 (RTM)<br>12 September 2026 (Demo)<br>15 August 2026<br>(*Interim Developer Release*)'
+releasedate='<b>Planned:</b><br><span title="Worldwide" style="cursor: help; text-decoration: dotted underline;">WW:</span> 27 January 2027 (RTM)<br><span title="Worldwide" style="cursor: help; text-decoration: dotted underline;">WW:</span> 12 September 2026 (Demo)<br><span title="Worldwide" style="cursor: help; text-decoration: dotted underline;">WW:</span> 15 August 2026<br>(*Interim Developer Release*)'
 formerly='Stuff Adventure<br>Stuffy Adventure<br>Starlight Adventure'
 codename='Project Retriever'
-writtenin='C++'
-platform='Microsoft Windows<br>GNU/Linux'
-arch='AMD64'
+writtenin='C++<br><b>Planned:</b>[^1]<br>C<br>Assembly'
+platform='Microsoft Windows NT<br>GNU/Linux<br><b>Planned:</b><br>Darwin (macOS)<br>Microsoft Windows 9x<br>Haiku<br>Nintendo Switch<br>Xbox Series X\|S<br>PlayStation 5'
+arch='x86 [^2]<br>AMD64<br><b>Planned:</b><br>DEC Alpha<br>Alpha AXP<br>MIPS<br>PowerPC<br>Intel Itanium (IA-64)<br>ARMv7<br>Aarch64 (ARMv9/ARM64)'
 currentVersion='[0.5.677.private/kitsixtyfour.260112-1152](Comet_Adventure_build_677)'
 curverDate='12 January 2026'
 curverISO='2026-01-12'
 status='Development halted; project on hiatus'
 %}
 
-***Comet Adventure***, also known by its codename of ***Project Retriever***[^1], is a planned role-playing game for PCs and consoles created by [KitSixtyFour](KitSixtyFour). While it is considered to be in a hiatus due to many reasons, the final version of the game was originally meant to release on 27 January 2027, while a *Demo Release* was meant to release on 12 September 2026.
+***Comet Adventure***, also known by its codename of ***Project Retriever***[^3], is a planned role-playing game for PCs and consoles created by [KitSixtyFour](KitSixtyFour). While it is considered to be in a hiatus due to many reasons, the final version of the game was originally meant to release on 27 January 2027, while a *Demo Release* was meant to release on 12 September 2026.
 
 {% include items/tableofcontents.html %}
 
@@ -101,4 +101,6 @@ Most notably during this phase, two sub-projects were officially written down:
 
 
 # Notes
-[^1]: For consistency, the game will be referred to as "Project Retriever" or "Retriever" due to several development changes.
+[^1]: Meant for compiling the game in the desired platforms.
+[^2]: In source code form only; all available *Project Retriever* builds were compiled for AMD64.
+[^3]: For consistency, the game will be referred to as "Project Retriever" or "Retriever" due to several development changes.

@@ -79,7 +79,7 @@ Since its formal introduction in January 2024, the A Emoji has made a significan
         image_src="a_emoji/a_fromnowhere.png" 
         caption="An A Emoji drawn on Microsoft Paint submitted by Kit."
         author='KitSixtyFour' %}
-</div>
+</gallery>
 
 # References
 [^1]: Kit has claimed that they have used the 🅰️ emoji on a separate server in that date.

@@ -59,7 +59,7 @@ The website was archived the same day and is viewable at [web.archive.org/web/20
         alt_text="" 
         caption="Stuffy's Website! Public Beta homepage"
         style="width:50%; height:auto" %}
-        </div>
+        </gallery>
 
 ## Week One Update
 

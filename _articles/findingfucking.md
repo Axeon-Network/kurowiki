@@ -54,7 +54,7 @@ This section includes logos and promotional posters of the movie.
         caption="Japanese logo."
         author='KitSixtyFour'
         style=" background-color:none!important; border:none!important;" %}
-</div>
+</gallery>
 
 # Posters
 
@@ -119,7 +119,7 @@ This section includes logos and promotional posters of the movie.
         caption="Poster #6, featuring Kit and AveryEclipse"
         author='KitSixtyFour'
         style="" %}
-</div>
+</gallery>
 
 ## Threatical release
 
@@ -149,7 +149,7 @@ This section includes logos and promotional posters of the movie.
         alt_text="Poster #2, Japanese version." 
         caption="Poster #2, Japanese version."
         style="" %}
-</div>
+</gallery>
 
 # Notes
 [^1]: Previously at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/finding%20fucking.mp4) before 1 May 2026.

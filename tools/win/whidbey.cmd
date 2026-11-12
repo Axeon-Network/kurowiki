@@ -6,17 +6,24 @@ set "WhdScript=%~f0"
 
 set "WhdVersion=5"
 set "WhdVersionNoEx=%WhdVersion%.0"
-set "WhdVersionFloat=%WhdVersionNoEx%0"
-set "WhdVersionBuild=2195"
-set "WhdVersionBuildEx=%WhdVersionBuild%.main.260829-1240"
-set "WhdVersionMode=ReleaseUniversal"
-set "WhdDevPhs="
+set "WhdVersionFloat=%WhdVersionNoEx%1"
+set "WhdVersionBuild=2202"
+set "WhdVersionBuildEx=%WhdVersionBuild%.main.260919-1444"
+set "WhdVersionMode=DeveloperInterim"
+set "WhdDevPhs=Interim Developer Release "
 set "WhdVersionComp=%WhdVersionFloat%.%WhdVersionBuildEx%"
 
 set "WhdMagicKey=AXEONWHIDBEY%WhdVersion%"
-set "WhdMagicNumber=5600"
+set "WhdMagicNumber=2F02"
 
 set "WhdConfigHeader=%WhdMagicKey%:::%WhdMagicNumber%"
+
+
+rem We set them here because um, yeah...
+set "WhdPrivateBuild=no"
+set "WhdIsDeltaEnabled=yes"
+
+if "%~1"=="" goto :show_usage
 
 if not "%~1"=="" (
     if /i "%~1"=="help"         goto :show_help
@@ -60,18 +67,13 @@ echo %CMDCMDLINE% | findstr /i "CMDCMDLINE" >nul 2>&1
 if %errorlevel% equ 0 (
     timeout /t 1 /nobreak >2>nul
     echo.
-    echo This version of Axeon Whidbey does not support Microsoft Windows PowerShell.
-    echo You need to run Whidbey within the Windows Command Processor.
+    echo This version of Whidbey doesn't support Microsoft Windows PowerShell.
+    echo To run Whidbey, you need to use the Windows Command Processor instead.
     echo.
     exit /b 1
 )
 
 setlocal enabledelayedexpansion
-
-:: Defaults before loading config
-set "WhdBuildType=chk"
-set "WhdPrivateBuild=no"
-set "WhdIsDeltaEnabled=yes"
 
 for /f "tokens=4 delims=] " %%i in ('ver') do set "rawver=%%i"
 for /f "tokens=1,2,3 delims=." %%a in ("!rawver!") do set "winver=Microsoft Windows Version %%a.%%b (Build %%c)"
@@ -91,8 +93,8 @@ if /i "%~1"=="free"    (set "WhdBuildType=fre" & shift /1 & goto parse_args)
 if /i "%~1"=="private" (set "WhdPrivateBuild=yes" & shift /1 & goto parse_args)
 if /i "%~1"=="nodelta" (set "WhdIsDeltaEnabled=no" & shift /1 & goto parse_args)
 
-echo Command '%~1' is not a valid Axeon Whidbey instruction.
-echo Type "whidbey help" or "whelp" for a list of available commands.
+echo The command you ran isn't a Whidbey command.
+echo Run "whidbey help" for a list of available commands.
 exit /b 1
 
 :args_done
@@ -117,7 +119,6 @@ if /i "!start_sync!"=="Y" (
     echo.
 )
 
-doskey whelp="%WhdScript%" help
 doskey prep="%WhdScript%" prep
 doskey bninst=bundle install
 doskey akn="%WhdScript%" akn $*
@@ -145,15 +146,15 @@ set "cfg_target=%~1"
 if "%cfg_target%"=="" set "cfg_target=whidbey.ini"
 
 if not exist "%cfg_target%" (
-    echo Whidbey cannot find the file '%cfg_target%'. Some settings might be lost.
+    echo Whidbey could not find a configuration file in this directory. Some settings might be lost or reset.
     echo.
     exit /b 1
 )
 
 findstr /C:"%WhdConfigHeader%" "%cfg_target%" >nul 2>&1
 if !errorlevel! neq 0 (
-    echo Whidbey has found the configuration file '%cfg_target%' but cannot load it as it does not match Whidbey's magic keys.
-    echo Upgrade the file, then load it again.
+    echo Whidbey has found the configuration file '%cfg_target%', but it cannot be loaded because does not match Whidbey's magic keys.
+    echo Upgrade the file by running 'whidbey upgrade %cfg_target%', then try to load it again.
     echo.
     exit /b 1
 )
@@ -177,15 +178,15 @@ for /f "usebackq tokens=*" %%L in ("%cfg_target%") do (
             if "!cur_sec!"=="[AxeonMedia]" (
                 if "!key!"=="SourcePath"  set "WhdAxeonMedia=!val!"
             )
-            if "!cur_sec!"=="[WhdEnvironment]" (
-                if "!key!"=="BuildType"      set "WhdBuildType=!val!"
-                if "!key!"=="PrivateBuild"   set "WhdPrivateBuild=!val!"
+            if "!cur_sec!"=="[BuildSettings]" (
+                if "!key!"=="BuildMode"      set "WhdBuildType=!val!"
+                if "!key!"=="IsPrivateBuildEnabled"   set "WhdPrivateBuild=!val!"
                 if "!key!"=="IsDeltaEnabled" set "WhdIsDeltaEnabled=!val!"
             )
         )
     )
 )
-echo Whidbey has loaded the configuration file '%cfg_target%' to memory.
+echo Whidbey has loaded the configuration file '%cfg_target%' successfully.
 echo.
 exit /b 0
 
@@ -204,9 +205,9 @@ if "%cfg_target%"=="" set "cfg_target=whidbey.ini"
     echo [AxeonMedia]
     echo SourcePath=!WhdAxeonMedia!
     echo.
-    echo [WhdEnvironment]
-    echo BuildType=!WhdBuildType!
-    echo PrivateBuild=!WhdPrivateBuild!
+    echo [BuildSettings]
+    echo BuildMode=!WhdBuildType!
+    echo IsPrivateBuildEnabled=!WhdPrivateBuild!
     echo IsDeltaEnabled=!WhdIsDeltaEnabled!
     echo.
 ) > "%cfg_target%"
@@ -268,7 +269,7 @@ for /f "usebackq tokens=*" %%L in ("%target_cfg%") do (
     echo IsDeltaEnabled=!upg_isdeltaenabled!
     echo.
 ) > "%target_cfg%"
-echo The configuration file %target_cfg% has been upgraded to match Whidbey's magic keys.
+echo The configuration file has been upgraded.
 exit /b 0
 
 :ensure_paths
@@ -281,13 +282,13 @@ if "!WhdSourceMedia!"=="" set "paths_ok=N"
 if "!paths_ok!"=="Y" (
     echo.
     echo Current config:
-    echo     AxeonMedia     = !WhdAxeonMedia!
-    echo     AkaneSource    = !WhdAkaneSource!
-    echo     SourceArticles = !WhdSourceArticles!
-    echo     SourceMedia    = !WhdSourceMedia!
-    echo     BuildType      = !WhdBuildType!
-    echo     PrivateBuild   = !WhdPrivateBuild!
-    echo     IsDeltaEnabled = !WhdIsDeltaEnabled!
+    echo     AxeonMedia Packet:    !WhdAxeonMedia!
+    echo     Axeon Akane Packet:   !WhdAkaneSource!
+    echo     Article Path:         !WhdSourceArticles!
+    echo     Multimedia Path:      !WhdSourceMedia!
+    echo     Build Mode:           !WhdBuildType!
+    echo     Private Build?:       !WhdPrivateBuild!
+    echo     Can Has Delta?:       !WhdIsDeltaEnabled!
     echo.
     call :prompt_input "Is this configuration correct? (Y/N): " chk_reply
     if /i "!chk_reply!"=="Y" exit /b 0
@@ -299,6 +300,9 @@ call :prompt_input "Is the current directory a valid Axeon Akane source code pac
 if /i "!is_curr!"=="Y" (set "WhdAkaneSource=%cd%") else (call :prompt_input "Where is the root of the Axeon Akane packet located?: " WhdAkaneSource)
 call :prompt_input "Inside the Akane packet, where are the articles located?: " WhdSourceArticles
 call :prompt_input "Inside the Akane packet, where are the images located?: " WhdSourceMedia
+call :prompt_input "Choose the Akane build type (chk/fre): " WhdBuildType
+call :prompt_input "Do you want to build Akane as a private build? (yes/no): " WhdPrivateBuild
+call :prompt_input "Do you want to enable build revisions? (yes/no): " WhdIsDeltaEnabled
 call :save_config
 exit /b 0
 
@@ -401,11 +405,12 @@ if /i "!subcmd!"=="new" (
     )
 ) else if /i "!subcmd!"=="save" (
     if "!WhdAxeonMedia!"=="" (
-        echo No active configuration in memory to save.
+        echo Configuration values are blank; There is no configuration to save.
+        echo If you want to, you can generate a new configuration by running 'whidbey config new'.
         endlocal & exit /b 1
     )
     call :save_config "whidbey.ini"
-    echo Configuration saved to Whidbey.INI
+    echo A new configuration file has been created successfully.
 ) else (
     echo Unknown configuration subcommand: !subcmd!
 )
@@ -431,7 +436,6 @@ exit /b 0
 
 :synch
 setlocal enabledelayedexpansion
-call :load_config "whidbey.ini"
 call :ensure_paths
 
 if not exist "!WhdAkaneSource!\" (
@@ -464,7 +468,7 @@ if exist "!WhdAkaneSource!\!WhdSourceArticles!\" (
 if !synced! gtr 0 (
     echo Axeon Akane and Axeon Media have been synched successfully.
 ) else (
-    echo No source directories were found to sync.
+    echo One or more directories are blank or do not exist; Axeon Akane and Axeon Media have not been synched successfully.
 )
 
 endlocal
@@ -516,7 +520,9 @@ echo Unloading Whidbey environment...
 doskey whelp= & doskey prep= & doskey bninst= & doskey akn=
 doskey track= & doskey commit= & doskey pull= & doskey push= & doskey whidbey=
 set "status=" & set "WhdLab=" & set "WhdBuildType=" & set "WhdAkaneSource=" & set "WhdAxeonMedia=" & set "WhdSourceArticles=" & set "WhdSourceMedia="
-title Command Prompt
+set cmdline=%cmdcmdline%
+set cmdline=%cmdline:"=%
+title %cmdline%
 echo Complete. Have a great day^! :3
 exit /b 0
 
@@ -529,8 +535,8 @@ xcopy "!WhdAkaneSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" 
 
 pushd "!WhdAkaneSource!"
 git add .
-call :prompt_input "What would you like to name the commit for Akane?: " AknCommitName
-call :prompt_input "Do you want to add description? (Y/N): " akn_desc_yn
+call :prompt_input "What do you want to name Akane's commit?: " AknCommitName
+call :prompt_input "Do you want to add a description? (Y/N): " akn_desc_yn
 if /i "!akn_desc_yn!"=="Y" (
     call :prompt_input "Description: " AknCommitDesc
     git commit -m "!AknCommitName!" -m "!AknCommitDesc!"
@@ -542,8 +548,8 @@ popd
 
 pushd "!WhdAxeonMedia!"
 git add .
-call :prompt_input "What would you like to name the commit for AxeonMedia?: " MdaCommitName
-call :prompt_input "Do you want to add description? (Y/N): " mda_desc_yn
+call :prompt_input "What do you want to name AxeonMedia's commit?: " MdaCommitName
+call :prompt_input "Do you want to add a description? (Y/N): " mda_desc_yn
 if /i "!mda_desc_yn!"=="Y" (
     call :prompt_input "Description: " MdaCommitDesc
     git commit -m "!MdaCommitName!" -m "!MdaCommitDesc!"
@@ -560,12 +566,22 @@ setlocal enabledelayedexpansion
 shift /1
 if /i "%~1"=="-nW" (
     bundle exec jekyll server -l -o --no-watch -H 127.0.0.50
-) else if /i "%~1"=="-nA" (
+) else if /i "%~1"=="-nLO" (
     bundle exec jekyll server -H 127.0.0.50
 ) else if /i "%~1"=="-nS" (
     bundle exec jekyll build
 ) else if /i "%~1"=="-cl" (
     bundle exec jekyll clean
+) else if /i "%~1"=="-nL" (
+    bundle exec jekyll server -o -H 127.0.0.50
+) else if /i "%~1"=="-nO" (
+    bundle exec jekyll server -l -H 127.0.0.50
+) else if /i "%~1"=="-nH" (
+    bundle exec jekyll server -l -o
+) else if /i "%~1"=="-nA" (
+    bundle exec jekyll server
+) else if /i "%~1"=="-?" (
+    call :stupidakninfobanner
 ) else (
     bundle exec jekyll server -l -o -H 127.0.0.50 %*
 )
@@ -580,17 +596,39 @@ if "%~3"=="" (
 )
 exit /b 0
 
+:show_usage
+echo You need to append an argument to start Whidbey correctly.
+echo.
+echo Usage:   whidbey.cmd ^<arguments^>
+echo.
+echo          checked:   Runs Akane or Cuber in debug/Checked mode
+echo             free:   Runs Akane or Cuber in retail mode
+echo          nodelta:   Disables the build delta mode, which increments
+echo                     a build's revision number, instead of the build
+echo                     number itself
+echo          private:   Enables the private build mode. Used for internal
+echo                     builds only.
+exit /b 1
+
 :show_help
 echo.
-echo Whidbey current supports 10 commands with 7 arguments.
+echo Axeon Whidbey currently supports 12 commands and 25 arguments.
 echo.
 echo  Command [Arguments]:                  Description:
 echo   bninst                                install missing gems via bundler
-echo   akn  [-nW  -nA  -nS  -cl]              run the Axeon Akane server
-echo                                         * "-nW" disables regeneration.
-echo                                         * "-nA" disables -l / -o args.
+echo   akn [-nW  -nLO  -nS  -cl  -nA         run the Axeon Akane server
+echo           -nL  -nO  -nH  -?]            * "-nW" disables regeneration.
+echo                                         * "-nLO" disables the -l/-o args.
 echo                                         * "-nS" runs Akane without a server,
 echo                                           equal to 'bundle exec jekyll build'.
+echo                                         * "-nO" disables -o/OpenUrl.
+echo                                         * "-nL" disables -l/LiveReload.
+echo                                         * "-nH" repoints the server address
+echo                                           back to '127.0.0.1'.
+echo                                         * "-nA" disables every argument.
+echo                                         * "-cl" cleans the working directory,
+echo                                           equal to 'bundle exec jekyll clean'.
+echo                                         * "-?" prints argument information.
 echo   prep                                  sync and push packet to git.
 echo   track                                 tracks any current packet changes
 echo                                         * alias of 'git add .'.
@@ -600,7 +638,7 @@ echo   push                                  pushes the local packet to the web
 echo                                         * alias of 'git push'.
 echo   commit "msg" "desc"                    commits current packet to git.
 echo   whidbey config [new  modify  save      manage a loaded whidbey config:
-echo                   upgrade  load]         * "new" makes a new config file and
+echo                     upgrade  load]       * "new" makes a new config file and
 echo                                            saves it to 'Whidbey.INI'.
 echo                                          * "modify" changes the current config.
 echo                                          * "save" saves the current config to
@@ -611,13 +649,30 @@ echo                                          * "load" loads a config file.
 echo   whidbey fetch [version  status  dir    query and fetch information:
 echo                  processor  os  date     * most of them are self-explanatory...
 echo                  aknver  delta  private    use "--noduo" for processor if you
-echo                  stick  paths  lab        want the real thing.
-echo                  config]
-echo                                          * append "please" to stick :3c
-echo   whidbey search                         search the web
+echo                  stick  paths  lab         want the real thing.
+echo                         config]          * append "please" to stick if u want
+echo                                            some fun :3c
+echo   whidbey search                         search the web (not)
 echo   whidbey about                          show the about dialogue 
-echo   whidbey stop                           unload any whidbey-related things
+echo   whidbey stop                           unload any whidbey-related things and
+echo                                          cleans the console
 echo.
+exit /b 0
+
+:stupidakninfobanner
+echo This command supports nine arguments (including the one you just ran):
+echo.
+echo Argument      Description                                Jekyll Cmd Equivalents
+echo   -nW           Disables site regeneration.                --no-watch
+echo   -nLO          Disables LiveReload and OpenURL.           N/A  (removes -l/-o)
+echo   -nS           Runs Akane without a server.               build
+echo   -cl           Cleans the Jekyll workspace.               clean
+echo   -nL           Disables LiveReload only.                  N/A  (removes -l)
+echo   -nO           Disables OpenURL only.                     N/A  (removes -o)
+echo   -nH           Disables the custom server address.        N/A  (removes -H)
+echo   -nA           Runs Akane with the default                server  (removes all args)
+echo                 Jekyll server settings.
+echo   -?            Prints this message.                       N/A (its a help command dude)
 exit /b 0
 
 :hello
@@ -712,7 +767,7 @@ set "cpu_29=Intel(R) Core(TM)A Extreme CPU I357 @ 2.60GHz"
 set "cpu_30=Intel(R) Core(TM)A Extreme CPU H467 @ 2.60GHz"
 set "cpu_31=Intel(R) Core(TM)A Extreme CPU B577 @ 2.60GHz"
 
-echo Running on an !cpu_%cpu_idx%!
+echo Running on an !cpu_%cpu_idx%!.
 endlocal
 exit /b 0
 
@@ -778,9 +833,9 @@ if /i "!target!"=="status" (
         )
 
         if not "!real_cpu!"=="" (
-            echo !real_cpu!
+            echo Running on an !real_cpu!.
         ) else (
-            echo An error has occurred. Whidbey cannot fetch your computer's processor, neither via WMIC or the Windows Registry.
+            echo An error has occurred. Whidbey cannot fetch your computer's processor via WMIC or the Windows Registry. This may be an internal Whidbey or Windows bug.
         )
     ) else (
         endlocal & goto :get_processor
@@ -810,9 +865,9 @@ if /i "!target!"=="status" (
         )
     )
 ) else if /i "!target!"=="delta" (
-    echo IsDeltaEnabled: !WhdIsDeltaEnabled!
+    echo Build revs. are enabled?: !WhdIsDeltaEnabled!
 ) else if /i "!target!"=="private" (
-    echo IsPrivateBuild: !WhdPrivateBuild!
+    echo Is this a private build?: !WhdPrivateBuild!
 ) else if /i "!target!"=="date" (
     echo !date! !time!
 ) else if /i "!target!"=="paths" (

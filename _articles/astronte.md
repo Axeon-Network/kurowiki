@@ -53,4 +53,4 @@ As of July 2026, four videos have been uploaded to the channel.
 {% include items/gallery.html
 caption='Channel banner'
 image_src='astronte/banner.png' %}
-</div>
+</gallery>

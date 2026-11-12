@@ -20,13 +20,13 @@
             {% if include.formerly %}
             <tr>
                 <th>Formerly known as</th>
-                <td>{{ include.formerly }}</td>
+                <td>{{ include.formerly | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             {% if include.codename %}
             <tr>
                 <th>Codename</th>
-                <td>{{ include.codename }}</td>
+                <td>{{ include.codename | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             <tr>
@@ -35,19 +35,19 @@
             </tr>
             <tr>
                 <th>Genre</th>
-                <td>{{ include.genre | default: "GENRE" }}</td>
+                <td>{{ include.genre | default: "GENRE" | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Written in</th>
-                <td>{{ include.writtenin }}</td>
+                <td>{{ include.writtenin | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Platform</th>
-                <td>{{ include.platform }}</td>
+                <td>{{ include.platform | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             <tr>
                 <th>Architecture</th>
-                <td>{{ include.arch }}</td>
+                <td>{{ include.arch | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% if include.curverISO %}
                 {% assign now_year = "now" | date: "%Y" | plus: 0 %}
@@ -99,7 +99,7 @@
             {% if include.status %}
             <tr>
                 <th>Status</th>
-                <td>{{ include.status }}</td>
+                <td>{{ include.status | markdownify | remove_first: '<p>' | remove: '</p>' }}</td>
             </tr>
             {% endif %}
             {% if include.link %}

@@ -16,4 +16,4 @@ The company's name is inherited from the [Avery](AveryEclipse)-drawn [Cairo](Cai
         image_src="cc/hqnovaland.png" 
         caption="Headquarters of Cairo Company NovaLand (a subsidiary of the main Cairo Company from Averia) in Jell, NovaLand"
         style="width:50%; height:auto" %}
-        </div>
+        </gallery>

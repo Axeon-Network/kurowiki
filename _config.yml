@@ -53,8 +53,9 @@ img_article_path: res/img/articles/
 # A quick description of your wiki and what is it about, visible on the homepage.
 home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (KitSixtyFour and AveryEclipse)."
 
+# DEPRECATED
 # The file name of the article to be used in the Featured Article card.
-featuredarticle: winnishilecat
+# featuredarticle: winnishilecat
 
 
 # DEPRECATED
@@ -67,7 +68,7 @@ featuredarticle: winnishilecat
 # The phase of Delta/Kuro's development track.
 devphase: Release Candidate
 # Short version, used in drawer if nedecesary
-devphase-s: Silver Release
+devphase-s: Silver
 # ID for dev builds
 idprefix: "rc1" # Release Candidate 1
 # = Extended Build Lab =
@@ -105,10 +106,10 @@ background-light:
 
 # = Drawer =
 # Specifies if the site title should be used in the drawer, like MDL does by default.
-drawertitle: false
+use-title-in-drawer: false
 # Specifies if a banner image should be used in the drawer, in place of the site title.
-# You can drop your own banner over at /res/img/banner.png!
-drawerbanner: true
+use-banner-in-drawer: true
+banner-path: "res/img/banner.png"
 
 # only ONE of these can be enabled
 # ...i mean you can use both, but that wouldnt be practical, would it?

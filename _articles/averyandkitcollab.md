@@ -30,7 +30,7 @@ The collab itself consisted of 5 total rounds, where KitSixtyFour (back then Hor
         image_src="kayauroraandnekoricollab/teaser2.png"  
         caption="Teaser from December 2024, announcing a 2025 'release date'"
         author="AveryEclipse" %}
-</div>
+</gallery>
 
 # References
 [^1]: Commonly referred to as **the Avery and Kit Collab**, **thumbnail collab** or just **the collab** by KitSixtyFour and AveryEclipse.

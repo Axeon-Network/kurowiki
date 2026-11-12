@@ -40,4 +40,4 @@ Also according to the same source, Cairo is primarily passionate about anything 
         image_src="cairo/refsheet.png" 
         caption="Reference sheet of Cairo."
         style="width:30%; height:auto" %}
-</div>
+</gallery>

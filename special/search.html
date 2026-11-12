@@ -14,17 +14,19 @@ search_exclude: true
 // Copyright 2026 Axeon Network
 // Written by SnowyBiFox
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('search-input');
+    const searchInputDesktop = document.getElementById('akn-searchbox');
+    const searchInputMobile = document.getElementById('akn-searchbox-mobile');
     const resultsContainer = document.getElementById('results-container');
     
-    if (!searchInput || !resultsContainer) return;
+    if (!searchInputDesktop || !searchInputMobile || !resultsContainer) return;
 
     const searchDataURL = './res/index.json'; 
     let searchIndex = [];
 
     const urlParams = new URLSearchParams(window.location.search);
     let currentQuery = urlParams.get('q') || '';
-    searchInput.value = currentQuery;
+    searchInputDesktop.value = currentQuery;
+    searchInputMobile.value = currentQuery;
 
     fetch(searchDataURL)
     .then(response => response.json())
@@ -179,7 +181,20 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error("Cannot build search index (", error, ")"));
 
-    searchInput.addEventListener('input', function() {
+    searchInputDesktop.addEventListener('input', function() {
+        currentQuery = this.value;
+        executeSearch(currentQuery);
+
+        const newUrl = new URL(window.location.href);
+        if (currentQuery.trim()) {
+            newUrl.searchParams.set('q', currentQuery);
+        } else {
+            newUrl.searchParams.delete('q');
+        }
+        window.history.pushState({ path: newUrl.href }, '', newUrl.href);
+    });
+
+    searchInputMobile.addEventListener('input', function() {
         currentQuery = this.value;
         executeSearch(currentQuery);
 
@@ -253,18 +268,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Sort items strictly based on relevance score weight descending
+        
         matchedItems.sort((a, b) => b.score - a.score);
 
-        // Flatten the object array structure back to normal records for printing
         const sortedResults = matchedItems.map(wrapper => wrapper.item);
 
-        displayResults(sortedResults);
+        displayResults(sortedResults, query);
     }
 
-    function displayResults(results) {
+    function displayResults(results, query) {
         if (results.length === 0) {
-            resultsContainer.innerHTML = `<p>Whoops! There wasn't a match for "${searchInput.value}". Please try another query.</p>`;
+            const safeQuery = query || '';
+            
+            resultsContainer.innerHTML = `<p>Whoops! There wasn't a match for "${safeQuery}". Please try another query.</p>`;
             return;
         }
 

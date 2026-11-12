@@ -76,11 +76,11 @@ Around 29 May 2025, the computer's charger's state had become increasingly worse
     caption="A Discord screenshot of a message by KitSixtyFour's old Discord account where they show the state of the computer in that time"
     author='KitSixtyFour'
     style="width:50%;" %}
-    </div>
+    </gallery>
 
 
 On 31 May 2025, KitSixtyFour's dad arrived at KitSixtyFour's house at 5pm CST to try to fix the charger via soldering and duck tape, the charger worked since KitSixtyFour's dad fixed the charger at a working position.
-</div>
+</gallery>
 Due to the nature of the fix, the charger wasn't 100% perfect. It continued to malfunction every now and then, with KitSixtyFour starting to make fun about this problem via the **Dad Fixes Incorporated** joke. After 2 July 2025, the issues started to relapse, and on 8 July 2025, KitSixtyFour's dad came to KitSixtyFour's house again to repair the charger once more.
 
 Interestingly enough, KitSixtyFour tried their sister's charger prior to the second fix, which has been tested to work since both computers are similar, with model numbers apart (*Latitude E6420* and *Latitude 3380* respectively). Nonetheless, KitSixtyFour kept using their original laptop charger to avoid getting into any problems. On 10 July 2025, the original charger sparked, burning KitSixtyFour's hand.

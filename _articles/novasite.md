@@ -30,7 +30,7 @@ image_src="novasite/build36.png"
 caption="NovaSite 0.2.36.custo_dev(lex).250719-0946"
 %}
 
-</div>
+</gallery>
 
 
 
@@ -64,4 +64,4 @@ caption="Green variant"
 
 %}
 
-</div>
+</gallery>

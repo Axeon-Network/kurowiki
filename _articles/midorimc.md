@@ -32,7 +32,7 @@ Both AxeonMC (hosted by [AveryEclipse](AveryEclipse)) and Horicraft (2) (hosted 
         alt_text="World spawn of AxeonMC" 
         caption="World spawn of AxeonMC"
         style="width:30%; height:auto" %}
-</div>
+</gallery>
 
 ## Merger of Horicraft and AxeonMC
 On 18 May 2025, after an agreement between KitSixtyFour (the owner of Horicraft) and AveryEclipse (the owner of AxeonMC), AxeonMC changed to a Creative server using the world of the original Horicraft, this change also gave a new name to the project: MidoriMC. This provided a semi-official, Kit-endorsed continuation of the original Horicraft.
@@ -43,13 +43,13 @@ Another Kit-AveryEclipse agreement around mid-June 2025 saw MidoriMC go through 
 New ideas to enhance the MidoriMC in-game experience have came up around July 2025. One of the proposals included adding more server-side mods in game to further distinguish the MidoriMC experience from the normal Vanilla experience. Additionally, moving MidoriMC hosting inside a container (the software of choice being Podman at this time) has also been considered to help improve stability (i.e. better crash handling) and overall uptime.
 Another idea was to [unify](Orchid) the MidoriMC in-game chat and the Axeon Network Discord and Stoat servers together under a *#global* text channel, forming an "actual network". That said, none of these ideas came to life, due to AveryEclipse's dwindling interest to continue operating MidoriMC at all.
 
-<div>
+<gallery>
     {% include items/embed.html 
         image_src="midorimc/midorimclogo.png" 
         alt_text="Logo of MidoriMC, in use from June 2025 until its closure." 
         caption="Logo of MidoriMC, in use from June 2025 until its closure."
         style="width:10%; height:auto" %}
-        </div>
+        </gallery>
 
 ## Server closure
 On 1 August 2025, AveryEclipse announced that MidoriMC would officially go offline for good, as by that point there was low player activity on the server for most of the time, and as such continuing to operate it would have been essentially pointless.

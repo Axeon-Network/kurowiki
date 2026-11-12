@@ -42,7 +42,7 @@ Further updates were planned to improve the overall design, but they never happe
         alt_text="ClyronWebsite v1.1 in August 2024" 
         caption="ClyronWebsite v1.1 in August 2024"
         style="width:50%; height:auto" %}
-        </div>
+        </gallery>
 
 ## Version 2.x
 *This section is a stub and will be finished in Release Candidate 2.*
@@ -78,7 +78,7 @@ v2.0 was finally finished almost a month later, on 9 February 2025, when it repl
         image_src="kaywebsite/v2.5.2.png" 
         alt_text="ClyronWebsite v2.5.2, July 2025" 
         caption="ClyronWebsite v2.5.2, July 2025" %}
-</div>
+</gallery>
 
 ## Version 3.x
 Plans for a ClyronWebsite v3.0 trace back to May 2025, as AveryEclipse had been considering major changes that mandated a major version number bump, such as dropping Tailwind CSS and as a result regaining full control over the CSS, in order to build a Retro Frontend, mainly inspired from [KitSixtyFour](KitSixtyFour)'s *[HoriWebsite](HoriWebsite)*.
@@ -105,7 +105,7 @@ v3.3 from 14 September 2025 introduced a new color scheme to go with the then-ne
         image_src="kaywebsite/v3.3-retro.png" 
         alt_text="KayWebsite v3.3 Retro Frontend" 
         caption="KayWebsite v3.3 Retro Frontend" %}
-</div>
+</gallery>
 
 ## Version 25.x
 AveryWebsite officially switched from the semantic versioning system (SemVer) to a date versioning system in a year-month-revision format (vYY.MM.R) on 30 October 2025, beginning with the release of v25.10 (originally planned to be released as v3.4). Additionally, the version would be automatically determined through CI/CD on GitHub every time AveryWebsite is built in production. The changelog page was also deprecated entirely in favor of the [AveryWebsite version history](AveryWebsite_version_history) KuroWiki article.
@@ -122,7 +122,7 @@ Later versions (v25.11, v25.11.1, v25.11.2, v25.12, v25.12.1 and v25.12.2) have 
     {% include items/gallery.html 
         image_src="kaywebsite/v25.12.2-retro.png" 
         caption="KayWebsite v25.12.2 Retro Frontend" %}
-</div>
+</gallery>
 
 ## Version 26.x
 Per the year-month-revision versioning format introduced with v25.10, the major version number was bumped from v25 to v26 with the first AveryWebsite version release of 2026; v26.1 from 15 January.
@@ -163,4 +163,4 @@ The website has been largely overhauled again with the release of v26.6 on 29 Ju
     {% include items/gallery.html 
         image_src="kaywebsite/v26.7-retro.png" 
         caption="AveryWebsite v26.7 Retro Frontend" %}
-</div>
+</gallery>

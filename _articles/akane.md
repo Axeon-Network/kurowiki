@@ -19,7 +19,7 @@ Akane uses the Jekyll static site generator for compatibility with [GitHub Pages
 
 <gallery>
 {% include items/gallery.html image_src='kurowiki4450/home.png' caption='A screenshot of the home page of KuroWiki' %} <!-- todo: change it to 5200 when it gets compiled -->
-</div>
+</gallery>
 
 # Akane Meta
 **Akane Meta** is the "reference implementation" of the Akane engine, initially started on 13 January 2026 with the compilation of [Deltari build 4500](Deltari_build_4500). A downstream of KuroWiki, earlier builds of Deltari Meta have been compiled under the `main` branch before it switched to its own `aknmeta` branch (formerly `dmeta_N`), which would receive Akane updates periodically.
@@ -31,5 +31,5 @@ The wiki itself mainly provides documentation and other useful information about
         image_src="deltari4584/home.png" 
         caption="Deltari Meta homepage"
         style="width:40%; height:auto" %}
-</div>
+</gallery>
 <!-- todo: change to an updated homepage -->

@@ -7,17 +7,19 @@ WHD_SCRIPT="$(realpath "${BASH_SOURCE[0]}")"
 WHD_VERSION="5"
 WHD_VERSION_NO_EX="${WHD_VERSION}.0"
 WHD_VERSION_FLOAT="${WHD_VERSION_NO_EX}0"
-WHD_VERSION_BUILD="2195"
+WHD_VERSION_BUILD="2202/NIXOLD"
 WHD_VERSION_BUILD_EX="${WHD_VERSION_BUILD}.main.260829-1240"
-WHD_VERSION_MODE="ReleaseUniversal"
+WHD_VERSION_MODE="DeveloperInterim"
 WHD_VERSION_COMP="${WHD_VERSION_FLOAT}.${WHD_VERSION_BUILD_EX}"
-WHD_DEV_PHS=""
+WHD_DEV_PHS="Interim Developer Release "
 
 WHD_MAGIC_KEY="AXEONWHIDBEY${WHD_VERSION}"
 WHD_MAGIC_NUMBER="5600"
 WHD_CONFIG_HEADER="${WHD_MAGIC_KEY}:::${WHD_MAGIC_NUMBER}"
 
 WHD_CONFIG_FILE="whidbey.ini"
+
+echo "WARNING: This is an outdated version of Whidbey, however, I cannot be bothered to update this one myself; I'm sorry for the inconvienience."
 
 # Helper to read INI configurations
 load_config() {
