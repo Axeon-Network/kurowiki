@@ -19,7 +19,7 @@ author: Axeon Network
 copyyear: "2025-2026"
 
 # The text used in embeds, like Discord.
-description: "Axeon KuroWiki Release Candidate"
+description: "Axeon KuroWiki Silver"
 
 # Self-explanatory
 url: https://axeon-network.github.io
@@ -66,7 +66,7 @@ home_desc: "This is the home page for KuroWiki. An online encyclopedia about the
 
 # == DEVELOPER & DEBUG ==
 # The phase of Delta/Kuro's development track.
-devphase: Release Candidate Developer Beta
+devphase: Silver Developer Beta
 # Short version, used in drawer if nedecesary
 devphase-s: Silver 
 # ID for dev builds
