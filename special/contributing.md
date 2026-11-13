@@ -33,7 +33,7 @@ Now that you've got the source code, create a folder named `_articles` in the ro
 # Creating your article
 Head to the `_articles` folder and make a file with the `.md` file extension, this can be easily done in a file manager, but if you wanna have a pro coder vibe, you can also do it from a terminal or your favorite text editor. Now that you got an empty file, you will need to set up the *frontmatter*
 
-The frontmatter is a small segment at the start of every article (even *before* the content!) that defines things about it, such as the title. It is needed by *[Akane](Akane)* (the engine behind KuroWiki) to build your article.<br>A good example of a frontmatter can be this:
+The frontmatter is a small segment at the start of every article (even *before* the content!) that defines things about it, such as the title. It is needed by *[Quartz](Quartz)* (the engine behind KuroWiki) to build your article.<br>A good example of a frontmatter can be this:
 
 ```yaml
 ---
@@ -103,7 +103,7 @@ Which would output something like what you currently see! A good thing about the
 ### Infoboxes
 The infobox item is usually located on the right side of the page, and includes a quick summary of what's presented in a specific article, similarily to other wikis.
 
-Currently upstream Deltari/KuroWiki supports the following types of infobox: `build`, `channel`, `character`, `site`, `video`. Below is an example template for the `build` type of infobox (for the other types and allowed variables, please look at their corresponding includes files):
+Currently upstream Quartz/KuroWiki supports the following types of infobox: `build`, `channel`, `character`, `site`, `video`. Below is an example template for the `build` type of infobox (for the other types and allowed variables, please look at their corresponding includes files):
 
 ```txt
 {% raw %}{% include infoboxes/build.html

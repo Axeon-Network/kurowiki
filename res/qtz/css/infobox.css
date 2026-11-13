@@ -1,0 +1,203 @@
+/* 
+    Axeon Quartz InfoBox Stylesheet
+    Written by KitSixtyFour/SnowyBiFox
+    Copyright 2025-2026 Axeon Network.
+
+    Despite its name, it also has stylesheets for the Article Series box, 
+    we can't be bothered to change it.
+
+    Licensed under the MIT License, which is included below:
+
+    Copyright 2025-2026 Axeon Network
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy 
+    of this software and associated documentation files (the “Software”), to deal 
+    in the Software without restriction, including without limitation the rights 
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+    of the Software, and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all copies 
+    or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+    PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+    FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.
+
+*/
+
+/* variables */
+:root {
+    /* dark mode */
+    --infobox-bg-dark: #202122;
+    --infobox-border-dark: #161616;
+    --infobox-section-dark: #161616;
+
+    /* light mode */
+    --infobox-bg-light: #f8f9fa;
+    --infobox-border-light: #a2a9b1;
+    --infobox-section-light: #efefef;
+}
+
+html {
+    --infobox-bg: var(--infobox-bg-dark);
+    --infobox-border: var(--infobox-border-dark);
+    --infobox-section: var(--infobox-section-dark);
+}
+html.light-mode {
+    --infobox-bg: var(--infobox-bg-light);
+    --infobox-border: var(--infobox-border-light);
+    --infobox-section: var(--infobox-section-light);
+}
+
+html.qtz-infobox-title,
+html.qtz-seriesbox-title {
+    text-shadow: 0px 0px 3px black;
+}
+.qtz-infobox-title.light-mode,
+.qtz-seriesbox-title.light-mode {
+    text-shadow: none !important;
+}
+
+.qtz-infobox p {
+    font-size: 13px !important;
+    margin-bottom: -2px;
+}
+
+.qtz-infobox {
+    width: 320px; 
+    float: right; 
+    clear: right;
+    margin-left: 10px;
+    margin: 0 0 1em 1em; /* top, right, bottom, left margin */
+    border: 1px solid var(--infobox-border);
+    background-color:  var(--infobox-bg);
+    color: var(--text-color);
+    font-size: 12px !important;
+    line-height: 1.0 !important;
+    box-shadow: none;
+}
+
+.qtz-infobox-title {
+    width: 322px;
+    height: auto;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: var(--text-color);
+    float: right;
+    overflow-wrap: break-word;
+}
+
+.qtz-seriesbox-title {
+    width: 322px;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    color: var(--text-color);
+    overflow-wrap: break-word;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.qtz-seriesbox-title h2 {
+    margin: 0;
+}
+
+/* img style + container */
+.qtz-infobox-logo-container,
+.qtz-infobox-img-container {
+    text-align: center;
+}
+
+.qtz-infobox-logo {
+    padding-top: 5px;
+    max-width: 90%;
+    box-shadow: none; /* just so it doesnt look weird */
+    margin: 5px;
+}
+
+.qtz-infobox-img {
+    max-width: 95%; /* wont go full width as its weird like that */
+    box-shadow: none; /* ditto with infobox-logo */
+}
+
+.qtz-infobox-img-caption {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.computer-desktop {
+    min-width: 97% !important;
+    margin-top: -8px !important;
+}
+
+/* table style */
+.qtz-infobox-data-table,
+.qtz-seriesbox-data-table {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+/* table rows */
+.qtz-infobox-data-table tr,
+.qtz-seriesbox-data-table tr {
+    border-bottom: none;
+}
+
+.qtz-infobox-data-table tr:last-child,
+.qtz-seriesbox-data-table tr:last-child {
+    border-bottom: none;
+}
+
+.qtz-infobox-img-caption-2 {
+    margin-top: -2px;
+    margin-bottom: 2px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* table headers */
+.qtz-infobox-data-table th {
+    text-align: left;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+    width: 40%;
+    vertical-align: top;
+    padding-top: -20px !important;
+}
+
+.qtz-seriesbox-data-table th {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.3em 0.6em;
+    width: 40%;
+}
+
+/* value column */
+.qtz-infobox-data-table td {
+    padding: 0.3em 0.6em;
+    word-wrap: anywhere;
+}
+
+.qtz-seriesbox-data-table td {
+    padding: 0.3em 0.6em;
+    word-wrap: break-word;
+    vertical-align: top;
+}
+
+.qtz-infobox-computer-integrated {
+    vertical-align: top;
+}
+
+.qtz-infobox-server-icon {
+    padding-top: 5px;
+    margin-bottom: -6px;
+}

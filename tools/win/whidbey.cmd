@@ -33,8 +33,8 @@ if not "%~1"=="" (
     if /i "%~1"=="show_about"   goto :show_about
     if /i "%~1"=="stop"         goto :run_stop
     if /i "%~1"=="run_stop"     goto :run_stop
-    if /i "%~1"=="akn"          goto :run_akn
-    if /i "%~1"=="run_akn"      goto :run_akn
+    if /i "%~1"=="qtz"          goto :run_qtz
+    if /i "%~1"=="run_qtz"      goto :run_qtz
     if /i "%~1"=="prep"         goto :run_prep
     if /i "%~1"=="run_prep"     goto :run_prep
     if /i "%~1"=="commit"       goto :run_commit
@@ -103,37 +103,37 @@ if "!WhdBuildType!"=="chk" (set "WhdStatus=Checked") else (set "WhdStatus=Retail
 
 set "WhdLab="
 for /f "tokens=*" %%i in ('git rev-parse --abbrev-ref HEAD 2^>nul') do set "WhdLab=%%i"
-if "!WhdLab!"=="" if defined WhdAkaneSource if exist "!WhdAkaneSource!" (
-    for /f "tokens=*" %%i in ('git -C "!WhdAkaneSource!" rev-parse --abbrev-ref HEAD 2^>nul') do set "WhdLab=%%i"
+if "!WhdLab!"=="" if defined WhdQuartzSource if exist "!WhdQuartzSource!" (
+    for /f "tokens=*" %%i in ('git -C "!WhdQuartzSource!" rev-parse --abbrev-ref HEAD 2^>nul') do set "WhdLab=%%i"
 )
 if "!WhdLab!"=="" set "WhdLab=PANTHER_%username%"
 
 title Axeon Whidbey ~ Akn !WhdStatus! from DevLab !WhdLab! inside %cd%
 
-call :prompt_input "Would you like to sync Akane with AxeonMedia? (Y/N): " start_sync
+call :prompt_input "Would you like to sync Quartz with AxeonMedia? (Y/N): " start_sync
 if /i "!start_sync!"=="Y" (
     call :ensure_paths
-    if exist "!WhdAkaneSource!\!WhdSourceMedia!\" xcopy "!WhdAkaneSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
-    if exist "!WhdAkaneSource!\!WhdSourceArticles!\" xcopy "!WhdAkaneSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
-    echo Axeon Akane and Axeon Media have been synched successfully.
+    if exist "!WhdQuartzSource!\!WhdSourceMedia!\" xcopy "!WhdQuartzSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
+    if exist "!WhdQuartzSource!\!WhdSourceArticles!\" xcopy "!WhdQuartzSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
+    echo Axeon Quartz and Axeon Media have been synched successfully.
     echo.
 )
 
 doskey prep="%WhdScript%" prep
 doskey bninst=bundle install
-doskey akn="%WhdScript%" akn $*
+doskey qtz="%WhdScript%" qtz $*
 doskey track=git add .
 doskey commit="%WhdScript%" commit $*
 doskey pull=git pull
 doskey push=git push
 doskey whidbey="%WhdScript%" $*
 
-for /f "tokens=1-7 delims=|" %%A in ("!WhdStatus!|!WhdLab!|!WhdBuildType!|!WhdAkaneSource!|!WhdAxeonMedia!|!WhdSourceArticles!|!WhdSourceMedia!") do (
+for /f "tokens=1-7 delims=|" %%A in ("!WhdStatus!|!WhdLab!|!WhdBuildType!|!WhdQuartzSource!|!WhdAxeonMedia!|!WhdSourceArticles!|!WhdSourceMedia!") do (
     endlocal
     set "WhdStatus=%%A"
     set "WhdLab=%%B"
     set "WhdBuildType=%%C"
-    set "WhdAkaneSource=%%D"
+    set "WhdQuartzSource=%%D"
     set "WhdAxeonMedia=%%E"
     set "WhdSourceArticles=%%F"
     set "WhdSourceMedia=%%G"
@@ -170,10 +170,10 @@ for /f "usebackq tokens=*" %%L in ("%cfg_target%") do (
             set "key=%%A"
             set "val=%%B"
             set "key=!key: =!"
-            if "!cur_sec!"=="[AxeonAkane]" (
+            if "!cur_sec!"=="[AxeonQuartz]" (
                 if "!key!"=="ArticlePath" set "WhdSourceArticles=!val!"
                 if "!key!"=="ImgPath"     set "WhdSourceMedia=!val!"
-                if "!key!"=="SourcePath"  set "WhdAkaneSource=!val!"
+                if "!key!"=="SourcePath"  set "WhdQuartzSource=!val!"
             )
             if "!cur_sec!"=="[AxeonMedia]" (
                 if "!key!"=="SourcePath"  set "WhdAxeonMedia=!val!"
@@ -197,10 +197,10 @@ if "%cfg_target%"=="" set "cfg_target=whidbey.ini"
     if !WhdVersionPrivate!==yes ( echo Axeon Whidbey Version !WhdVersionFloat! !WhdVersionBuildPri! Build ) else ( echo Axeon Whidbey Version !WhdVersionFloat! Build !WhdVersionBuild! )
     echo %WhdConfigHeader%
     echo.
-    echo [AxeonAkane]
+    echo [AxeonQuartz]
     echo ArticlePath=!WhdSourceArticles!
     echo ImgPath=!WhdSourceMedia!
-    echo SourcePath=!WhdAkaneSource!
+    echo SourcePath=!WhdQuartzSource!
     echo.
     echo [AxeonMedia]
     echo SourcePath=!WhdAxeonMedia!
@@ -217,7 +217,7 @@ exit /b 0
 set "target_cfg=%~1"
 set "upg_articles="
 set "upg_media="
-set "upg_akane="
+set "upg_Quartz="
 set "upg_axeon="
 set "upg_buildtype=chk"
 set "upg_privatebuild=no"
@@ -234,10 +234,10 @@ for /f "usebackq tokens=*" %%L in ("%target_cfg%") do (
             set "key=%%A"
             set "val=%%B"
             set "key=!key: =!"
-            if "!cur_sec!"=="[AxeonAkane]" (
+            if "!cur_sec!"=="[AxeonQuartz]" (
                 if "!key!"=="ArticlePath" set "upg_articles=!val!"
                 if "!key!"=="ImgPath"     set "upg_media=!val!"
-                if "!key!"=="SourcePath"  set "upg_akane=!val!"
+                if "!key!"=="SourcePath"  set "upg_Quartz=!val!"
             )
             if "!cur_sec!"=="[AxeonMedia]" (
                 if "!key!"=="SourcePath"  set "upg_axeon=!val!"
@@ -255,10 +255,10 @@ for /f "usebackq tokens=*" %%L in ("%target_cfg%") do (
     if !WhdVersionPrivate!==yes ( echo Axeon Whidbey Version !WhdVersionFloat! !WhdVersionBuildPri! Build ) else ( echo Axeon Whidbey Version !WhdVersionFloat! Build !WhdVersionBuild! )
     echo %WhdConfigHeader%
     echo.
-    echo [AxeonAkane]
+    echo [AxeonQuartz]
     echo ArticlePath=!upg_articles!
     echo ImgPath=!upg_media!
-    echo SourcePath=!upg_akane!
+    echo SourcePath=!upg_Quartz!
     echo.
     echo [AxeonMedia]
     echo SourcePath=!upg_axeon!
@@ -275,7 +275,7 @@ exit /b 0
 :ensure_paths
 set "paths_ok=Y"
 if "!WhdAxeonMedia!"=="" set "paths_ok=N"
-if "!WhdAkaneSource!"=="" set "paths_ok=N"
+if "!WhdQuartzSource!"=="" set "paths_ok=N"
 if "!WhdSourceArticles!"=="" set "paths_ok=N"
 if "!WhdSourceMedia!"=="" set "paths_ok=N"
 
@@ -283,7 +283,7 @@ if "!paths_ok!"=="Y" (
     echo.
     echo Current config:
     echo     AxeonMedia Packet:    !WhdAxeonMedia!
-    echo     Axeon Akane Packet:   !WhdAkaneSource!
+    echo     Axeon Quartz Packet:   !WhdQuartzSource!
     echo     Article Path:         !WhdSourceArticles!
     echo     Multimedia Path:      !WhdSourceMedia!
     echo     Build Mode:           !WhdBuildType!
@@ -296,12 +296,12 @@ if "!paths_ok!"=="Y" (
 
 echo.
 call :prompt_input "Where is the AxeonMedia repository located?: " WhdAxeonMedia
-call :prompt_input "Is the current directory a valid Axeon Akane source code packet? (Y/N): " is_curr
-if /i "!is_curr!"=="Y" (set "WhdAkaneSource=%cd%") else (call :prompt_input "Where is the root of the Axeon Akane packet located?: " WhdAkaneSource)
-call :prompt_input "Inside the Akane packet, where are the articles located?: " WhdSourceArticles
-call :prompt_input "Inside the Akane packet, where are the images located?: " WhdSourceMedia
-call :prompt_input "Choose the Akane build type (chk/fre): " WhdBuildType
-call :prompt_input "Do you want to build Akane as a private build? (yes/no): " WhdPrivateBuild
+call :prompt_input "Is the current directory a valid Axeon Quartz source code packet? (Y/N): " is_curr
+if /i "!is_curr!"=="Y" (set "WhdQuartzSource=%cd%") else (call :prompt_input "Where is the root of the Axeon Quartz packet located?: " WhdQuartzSource)
+call :prompt_input "Inside the Quartz packet, where are the articles located?: " WhdSourceArticles
+call :prompt_input "Inside the Quartz packet, where are the images located?: " WhdSourceMedia
+call :prompt_input "Choose the Quartz build type (chk/fre): " WhdBuildType
+call :prompt_input "Do you want to build Quartz as a private build? (yes/no): " WhdPrivateBuild
 call :prompt_input "Do you want to enable build revisions? (yes/no): " WhdIsDeltaEnabled
 call :save_config
 exit /b 0
@@ -332,7 +332,7 @@ if "!subcmd!"=="" (
 )
 
 if /i "!subcmd!"=="new" (
-    set "WhdAxeonMedia=" & set "WhdAkaneSource=" & set "WhdSourceArticles=" & set "WhdSourceMedia="
+    set "WhdAxeonMedia=" & set "WhdQuartzSource=" & set "WhdSourceArticles=" & set "WhdSourceMedia="
     set "WhdBuildType=chk" & set "WhdPrivateBuild=no" & set "WhdIsDeltaEnabled=yes"
     call :ensure_paths
     call :save_config "whidbey.ini"
@@ -347,7 +347,7 @@ if /i "!subcmd!"=="new" (
         echo !cfg_file! does not exist.
         endlocal & exit /b 1
     )
-    findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonAkane]" "!cfg_file!" >nul 2>&1
+    findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonQuartz]" "!cfg_file!" >nul 2>&1
     if !errorlevel! neq 0 (
         echo This is not a Whidbey configuration file.
         endlocal & exit /b 1
@@ -363,7 +363,7 @@ if /i "!subcmd!"=="new" (
         echo !cfg_file! does not exist.
         endlocal & exit /b 1
     )
-    findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonAkane]" "!cfg_file!" >nul 2>&1
+    findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonQuartz]" "!cfg_file!" >nul 2>&1
     if !errorlevel! neq 0 (
         echo This is not a Whidbey configuration file.
         endlocal & exit /b 1
@@ -382,7 +382,7 @@ if /i "!subcmd!"=="new" (
             echo !cfg_file! does not exist.
             endlocal & exit /b 1
         )
-        findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonAkane]" "!cfg_file!" >nul 2>&1
+        findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonQuartz]" "!cfg_file!" >nul 2>&1
         if !errorlevel! neq 0 (
             echo This is not a Whidbey configuration file.
             endlocal & exit /b 1
@@ -393,7 +393,7 @@ if /i "!subcmd!"=="new" (
         call :load_config "!cfg_file!"
     ) else (
         if exist "whidbey.ini" (
-            findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonAkane]" "whidbey.ini" >nul 2>&1
+            findstr /I /C:"AXEONWHIDBEY" /C:"[AxeonQuartz]" "whidbey.ini" >nul 2>&1
             if !errorlevel! neq 0 (
                 echo This is not a Whidbey configuration file.
                 endlocal & exit /b 1
@@ -415,9 +415,9 @@ if /i "!subcmd!"=="new" (
     echo Unknown configuration subcommand: !subcmd!
 )
 
-for /f "tokens=1-7 delims=|" %%A in ("X!WhdAkaneSource!|X!WhdAxeonMedia!|X!WhdSourceArticles!|X!WhdSourceMedia!|X!WhdBuildType!|X!WhdPrivateBuild!|X!WhdIsDeltaEnabled!") do (
+for /f "tokens=1-7 delims=|" %%A in ("X!WhdQuartzSource!|X!WhdAxeonMedia!|X!WhdSourceArticles!|X!WhdSourceMedia!|X!WhdBuildType!|X!WhdPrivateBuild!|X!WhdIsDeltaEnabled!") do (
     endlocal
-    set "WhdAkaneSource=%%A"
+    set "WhdQuartzSource=%%A"
     set "WhdAxeonMedia=%%B"
     set "WhdSourceArticles=%%C"
     set "WhdSourceMedia=%%D"
@@ -425,7 +425,7 @@ for /f "tokens=1-7 delims=|" %%A in ("X!WhdAkaneSource!|X!WhdAxeonMedia!|X!WhdSo
     set "WhdPrivateBuild=%%F"
     set "WhdIsDeltaEnabled=%%G"
 )
-set "WhdAkaneSource=%WhdAkaneSource:~1%"
+set "WhdQuartzSource=%WhdQuartzSource:~1%"
 set "WhdAxeonMedia=%WhdAxeonMedia:~1%"
 set "WhdSourceArticles=%WhdSourceArticles:~1%"
 set "WhdSourceMedia=%WhdSourceMedia:~1%"
@@ -438,8 +438,8 @@ exit /b 0
 setlocal enabledelayedexpansion
 call :ensure_paths
 
-if not exist "!WhdAkaneSource!\" (
-    echo The directory does not exist: "!WhdAkaneSource!"
+if not exist "!WhdQuartzSource!\" (
+    echo The directory does not exist: "!WhdQuartzSource!"
     endlocal & exit /b 1
 )
 if not exist "!WhdAxeonMedia!\" (
@@ -449,26 +449,26 @@ if not exist "!WhdAxeonMedia!\" (
 
 set "synced=0"
 
-if exist "!WhdAkaneSource!\!WhdSourceMedia!\" (
+if exist "!WhdQuartzSource!\!WhdSourceMedia!\" (
     if not exist "!WhdAxeonMedia!\kuro\img\" mkdir "!WhdAxeonMedia!\kuro\img\" >nul 2>&1
-    xcopy "!WhdAkaneSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
+    xcopy "!WhdQuartzSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
     set /a synced+=1
 ) else (
-    echo The directory "!WhdAkaneSource!\!WhdSourceMedia!" was not found.
+    echo The directory "!WhdQuartzSource!\!WhdSourceMedia!" was not found.
 )
 
-if exist "!WhdAkaneSource!\!WhdSourceArticles!\" (
+if exist "!WhdQuartzSource!\!WhdSourceArticles!\" (
     if not exist "!WhdAxeonMedia!\kuro\articles\" mkdir "!WhdAxeonMedia!\kuro\articles\" >nul 2>&1
-    xcopy "!WhdAkaneSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
+    xcopy "!WhdQuartzSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
     set /a synced+=1
 ) else (
-    echo The directory "!WhdAkaneSource!\!WhdSourceArticles!" was not found.
+    echo The directory "!WhdQuartzSource!\!WhdSourceArticles!" was not found.
 )
 
 if !synced! gtr 0 (
-    echo Axeon Akane and Axeon Media have been synched successfully.
+    echo Axeon Quartz and Axeon Media have been synched successfully.
 ) else (
-    echo One or more directories are blank or do not exist; Axeon Akane and Axeon Media have not been synched successfully.
+    echo One or more directories are blank or do not exist; Axeon Quartz and Axeon Media have not been synched successfully.
 )
 
 endlocal
@@ -517,9 +517,9 @@ exit /b 0
 
 :run_stop
 echo Unloading Whidbey environment...
-doskey whelp= & doskey prep= & doskey bninst= & doskey akn=
+doskey whelp= & doskey prep= & doskey bninst= & doskey qtz=
 doskey track= & doskey commit= & doskey pull= & doskey push= & doskey whidbey=
-set "status=" & set "WhdLab=" & set "WhdBuildType=" & set "WhdAkaneSource=" & set "WhdAxeonMedia=" & set "WhdSourceArticles=" & set "WhdSourceMedia="
+set "status=" & set "WhdLab=" & set "WhdBuildType=" & set "WhdQuartzSource=" & set "WhdAxeonMedia=" & set "WhdSourceArticles=" & set "WhdSourceMedia="
 set cmdline=%cmdcmdline%
 set cmdline=%cmdline:"=%
 title %cmdline%
@@ -530,14 +530,14 @@ exit /b 0
 setlocal enabledelayedexpansion
 call :load_config "whidbey.ini"
 call :ensure_paths
-xcopy "!WhdAkaneSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
-xcopy "!WhdAkaneSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
+xcopy "!WhdQuartzSource!\!WhdSourceMedia!\*" "!WhdAxeonMedia!\kuro\img\" /y /e /i /q >nul 2>&1
+xcopy "!WhdQuartzSource!\!WhdSourceArticles!\*" "!WhdAxeonMedia!\kuro\articles\" /y /e /i /q >nul 2>&1
 
-pushd "!WhdAkaneSource!"
+pushd "!WhdQuartzSource!"
 git add .
-call :prompt_input "What do you want to name Akane's commit?: " AknCommitName
-call :prompt_input "Do you want to add a description? (Y/N): " akn_desc_yn
-if /i "!akn_desc_yn!"=="Y" (
+call :prompt_input "What do you want to name Quartz's commit?: " AknCommitName
+call :prompt_input "Do you want to add a description? (Y/N): " qtz_desc_yn
+if /i "!qtz_desc_yn!"=="Y" (
     call :prompt_input "Description: " AknCommitDesc
     git commit -m "!AknCommitName!" -m "!AknCommitDesc!"
 ) else (
@@ -561,7 +561,7 @@ popd
 endlocal
 exit /b 0
 
-:run_akn
+:run_qtz
 setlocal enabledelayedexpansion
 shift /1
 if /i "%~1"=="-nW" (
@@ -581,7 +581,7 @@ if /i "%~1"=="-nW" (
 ) else if /i "%~1"=="-nA" (
     bundle exec jekyll server
 ) else if /i "%~1"=="-?" (
-    call :stupidakninfobanner
+    call :stupidqtzinfobanner
 ) else (
     bundle exec jekyll server -l -o -H 127.0.0.50 %*
 )
@@ -601,8 +601,8 @@ echo You need to append an argument to start Whidbey correctly.
 echo.
 echo Usage:   whidbey.cmd ^<arguments^>
 echo.
-echo          checked:   Runs Akane or Cuber in debug/Checked mode
-echo             free:   Runs Akane or Cuber in retail mode
+echo          checked:   Runs Quartz or Cuber in debug/Checked mode
+echo             free:   Runs Quartz or Cuber in retail mode
 echo          nodelta:   Disables the build delta mode, which increments
 echo                     a build's revision number, instead of the build
 echo                     number itself
@@ -616,10 +616,10 @@ echo Axeon Whidbey currently supports 12 commands and 25 arguments.
 echo.
 echo  Command [Arguments]:                  Description:
 echo   bninst                                install missing gems via bundler
-echo   akn [-nW  -nLO  -nS  -cl  -nA         run the Axeon Akane server
+echo   qtz [-nW  -nLO  -nS  -cl  -nA         run the Axeon Quartz server
 echo           -nL  -nO  -nH  -?]            * "-nW" disables regeneration.
 echo                                         * "-nLO" disables the -l/-o args.
-echo                                         * "-nS" runs Akane without a server,
+echo                                         * "-nS" runs Quartz without a server,
 echo                                           equal to 'bundle exec jekyll build'.
 echo                                         * "-nO" disables -o/OpenUrl.
 echo                                         * "-nL" disables -l/LiveReload.
@@ -648,7 +648,7 @@ echo                                            match Whidbey's magic keys.
 echo                                          * "load" loads a config file. 
 echo   whidbey fetch [version  status  dir    query and fetch information:
 echo                  processor  os  date     * most of them are self-explanatory...
-echo                  aknver  delta  private    use "--noduo" for processor if you
+echo                  qtzver  delta  private    use "--noduo" for processor if you
 echo                  stick  paths  lab         want the real thing.
 echo                         config]          * append "please" to stick if u want
 echo                                            some fun :3c
@@ -659,18 +659,18 @@ echo                                          cleans the console
 echo.
 exit /b 0
 
-:stupidakninfobanner
+:stupidqtzinfobanner
 echo This command supports nine arguments (including the one you just ran):
 echo.
 echo Argument      Description                                Jekyll Cmd Equivalents
 echo   -nW           Disables site regeneration.                --no-watch
 echo   -nLO          Disables LiveReload and OpenURL.           N/A  (removes -l/-o)
-echo   -nS           Runs Akane without a server.               build
+echo   -nS           Runs Quartz without a server.               build
 echo   -cl           Cleans the Jekyll workspace.               clean
 echo   -nL           Disables LiveReload only.                  N/A  (removes -l)
 echo   -nO           Disables OpenURL only.                     N/A  (removes -o)
 echo   -nH           Disables the custom server address.        N/A  (removes -H)
-echo   -nA           Runs Akane with the default                server  (removes all args)
+echo   -nA           Runs Quartz with the default                server  (removes all args)
 echo                 Jekyll server settings.
 echo   -?            Prints this message.                       N/A (its a help command dude)
 exit /b 0
@@ -843,25 +843,25 @@ if /i "!target!"=="status" (
 ) else if /i "!target!"=="os" (
     for /f "tokens=*" %%i in ('ver') do set "osver=%%i"
     echo !osver!
-) else if /i "!target!"=="aknver" (
-    if "!WhdAkaneSource!"=="" (
-        echo An error has occurred. Is the Akane source packet path set correctly?
-    ) else if not exist "!WhdAkaneSource!\_includes\misc\version.html" (
+) else if /i "!target!"=="qtzver" (
+    if "!WhdQuartzSource!"=="" (
+        echo An error has occurred. Is the Quartz source packet path set correctly?
+    ) else if not exist "!WhdQuartzSource!\_includes\misc\version.html" (
         echo An error has occurred. Cannot access the Panther header file.
     ) else (
-        set "aknver="
-        for /f "tokens=2 delims==" %%A in ('findstr /i "AKN_VERSION" "!WhdAkaneSource!\_includes\misc\version.html" 2^>nul') do (
-            set "aknver=%%A"
-            set "aknver=!aknver:"=!"
-            set "aknver=!aknver:%%=!"
-            set "aknver=!aknver:}=!"
-            set "aknver=!aknver: =!"
+        set "qtzver="
+        for /f "tokens=2 delims==" %%A in ('findstr /i "AKN_VERSION" "!WhdQuartzSource!\_includes\misc\version.html" 2^>nul') do (
+            set "qtzver=%%A"
+            set "qtzver=!qtzver:"=!"
+            set "qtzver=!qtzver:%%=!"
+            set "qtzver=!qtzver:}=!"
+            set "qtzver=!qtzver: =!"
         )
-        if not "!aknver!"=="" (
-            echo Axeon Akane Version !aknver!
+        if not "!qtzver!"=="" (
+            echo Axeon Quartz Version !qtzver!
         ) else (
             echo An error has occurred. The string AKN_VERSION could not be fetched from the Panther header file.
-            echo Is this a valid Akane packet?
+            echo Is this a valid Quartz packet?
         )
     )
 ) else if /i "!target!"=="delta" (
@@ -872,9 +872,9 @@ if /i "!target!"=="status" (
     echo !date! !time!
 ) else if /i "!target!"=="paths" (
     echo !WhdAxeonMedia!
-    echo !WhdAkaneSource!
-    echo !WhdAkaneSource!\!WhdSourceArticles!
-    echo !WhdAkaneSource!\!WhdSourceMedia!
+    echo !WhdQuartzSource!
+    echo !WhdQuartzSource!\!WhdSourceArticles!
+    echo !WhdQuartzSource!\!WhdSourceMedia!
 ) else if /i "!target!"=="config" ( 
     type whidbey.ini
 ) else if "!target!"=="" (

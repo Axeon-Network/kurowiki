@@ -1,15 +1,15 @@
-<div class="infobox-title">
-    {{ include.name | default: "Untitled InfoBox" | markdownify | remove_first: '<p>' | remove: '</p>' }}
+<div class="qtz-infobox-title">
+    {{ include.name | default: "Untitled Infobox" | markdownify | remove_first: '<p>' | remove: '</p>' }}
 </div>
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.image %}
-    <div class="infobox-img-container">
-        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="infobox-img">
-            <div class="infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }}'s Profile Picture</div>
+    <div class="qtz-infobox-img-container">
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="qtz-infobox-img">
+            <div class="qtz-infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }}'s Profile Picture</div>
     </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             <tr>
                 <th>Formerly known as</th>

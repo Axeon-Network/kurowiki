@@ -7,11 +7,11 @@
 <a href="https://axeon-network.github.io/discord"><img alt="Join the Discord Server" src="https://img.shields.io/discord/392336925853483019?labelColor=green&color=gray">
 </div>
 
-**This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it the *Deltari* engine!)\
+**This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it *Quartz*!)\
 Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *AveryEclipse*!)
 
 > [!NOTE]
-> Looking for the engine that powers KuroWiki? Head out to the [Akane](https://github.com/Axeon-Network/Akane) repository!
+> Looking for the engine that powers KuroWiki? Head out to the [Quartz](https://github.com/Axeon-Network/Quartz) repository!
 
 ## Contributing & Support
 *Remember, this is pre-release software!* If you encounter any issues or just have any suggestion, we're all ears! Just feel free to open a new issue in the [Issues](https://github.com/Axeon-Network/KuroWiki/issues) page.\

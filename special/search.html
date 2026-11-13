@@ -4,23 +4,23 @@ permalink: ./search
 search_exclude: true
 ---
 
-<noscript>AkaneSearch requires JavaScript to function correctly. Please enable JavaScript, or use the <a href="{{ site.baseurl }}/Sitemap">Sitemap</a> for navigation.</noscript>
+<noscript>Axeon Quartz Code Name "Krypton" requires JavaScript to be enabled to function correctly. Enable JavaScript or use the <a href="{{ site.baseurl }}/Sitemap">Sitemap</a> for navigation instead.</noscript>
 
-<div id="results-container">
+<div id="qtz-krypton-results">
 </div>
 
 <script>
-// AkaneSearch v.1.5a / RETAIL
+// Axeon Quartz "Krypton" v.2.0
 // Copyright 2026 Axeon Network
 // Written by SnowyBiFox
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInputDesktop = document.getElementById('akn-searchbox');
-    const searchInputMobile = document.getElementById('akn-searchbox-mobile');
-    const resultsContainer = document.getElementById('results-container');
+    const searchInputDesktop = document.getElementById('qtz-searchbox');
+    const searchInputMobile = document.getElementById('qtz-searchbox-mobile');
+    const resultsContainer = document.getElementById('qtz-krypton-results');
     
     if (!searchInputDesktop || !searchInputMobile || !resultsContainer) return;
 
-    const searchDataURL = './res/index.json'; 
+    const searchDataURL = './res/qtz/articleindex.json'; 
     let searchIndex = [];
 
     const urlParams = new URLSearchParams(window.location.search);
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const doc = parser.parseFromString(item.raw_html || '', 'text/html');
 
             // we nuke infoboxes and other stuff since they are not true article content
-            const badComponents = doc.querySelectorAll('.infobox, .infobox-title, .toc-wrapper, .seriesbox, .series-box, .silver-item, .hatnote, sup, .reference, .gallery-caption');
+            const badComponents = doc.querySelectorAll('.qtz-infobox, .qtz-infobox-title, .qtz-toc-wrapper, .qtz-seriesbox, .qtz-series-box, .silver-item, .qtz-hatnote, sup, .reference, .gallery-caption');
             badComponents.forEach(component => component.remove());
 
             // then, we split the excerpt by dots so it looks nicer
@@ -176,10 +176,21 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         });
 
+        // if the query matches a page's title or set redirect, go there instead
+        if (currentQuery) {
+            const exactMatch = searchIndex.find(item => 
+                item.title && item.title.toLowerCase().trim() === currentQuery.toLowerCase().trim()
+            );
+            if (exactMatch) {
+                window.location.href = exactMatch.url;
+                return;
+            }
+        }
+
         // execute search right away to capture queries or print welcome screen
         executeSearch(currentQuery);
     })
-    .catch(error => console.error("Cannot build search index (", error, ")"));
+    .catch(error => console.error("[Krypton] Cannot build search index (", error, ")"));
 
     searchInputDesktop.addEventListener('input', function() {
         currentQuery = this.value;
@@ -221,6 +232,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
         if (!searchIndex.length) return;
+
+        // check if the query matches a page title or redirect, then redirect
+        // to that
+        const exactMatch = searchIndex.find(item => 
+            item.title && item.title.toLowerCase().trim() === trimmedQuery
+        );
+        if (exactMatch) {
+            window.location.href = exactMatch.url;
+            return;
+        }
 
         const queryWords = trimmedQuery.split(/\s+/);
 
@@ -311,4 +332,6 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsContainer.appendChild(fragment);
     }
 });
+
+// Look around, look around, on how lucky we are to be alive. right. now.
 </script>

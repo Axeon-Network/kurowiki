@@ -18,14 +18,14 @@ Jekyll::Hooks.register :site, :after_init do |site|
     dev_phase = site.config['devphase'] || "Gold Release"
     
     # Check Whidbey environment variable first, then fall back to site config context
-    is_debug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
-    is_retail = ENV['WhdBuildType'] == 'fre' || (ENV['WhdBuildType'].nil? && site.config['retail'] == true)
+    isDebug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
+    isRetail = ENV['WhdBuildType'] == 'fre' || (ENV['WhdBuildType'].nil? && site.config['retail'] == true)
 
     type = ""
-    if is_debug
-      type = "(Debug)"
-    elsif is_retail
-      type = "(Retail)"
+    if isDebug
+      type = "Debug"
+    elsif isRetail
+      type = "Retail"
     end
 
     hedDir = File.expand_path('_includes', site.source)
@@ -48,7 +48,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
       end
     end
 
-    puts "Axeon Akane Codenamed Cairo Version #{major}.#{minor} (Build #{prevBUILD}.#{prevDELTA}: #{dev_phase}) #{type}"
+    puts "Axeon Quartz Software Code Named \"Cairo\" (#{type}) [Version #{major}.#{minor}.#{prevBUILD}.#{prevDELTA}]"
     puts "              (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
     puts ""
     puts "Axeon Panther Version Tracker Utility [Version 4.0.5200]"
@@ -58,32 +58,67 @@ Jekyll::Hooks.register :site, :after_init do |site|
   end
 end
 
-Jekyll::Hooks.register :site, :after_reset do |site|
-  header_dir = File.expand_path('_includes', site.source)
-  version_header_path = File.join(header_dir, 'misc', 'version.html')
 
-  # parse the whidbey vars
+Jekyll::Hooks.register :site, :after_reset do |site|
+  workingDir = File.expand_path('_includes', site.source)
+  verHedPath = File.join(workingDir, 'misc', 'version.html')
+
+  # Parse previous build, delta, and timestamp from existing version file safely
+  prevBUILD = 5199
+  prevDELTA = 0
+  timestpSaved = nil
+
+  if File.exist?(verHedPath)
+    existing_content = File.read(verHedPath)
+    
+    if match1 = existing_content.match(/\{\%\s+assign\s+PNT_BUILD\s+=\s+["']?([^"'\s\%]+)["']?\s+\%\}/)
+      prevBUILD = match1[1].to_i
+    end
+
+    if match2 = existing_content.match(/\{\%\s+assign\s+PNT_DELTA\s+=\s+["']?([^"'\s\%]+)["']?\s+\%\}/)
+      prevDELTA = match2[1].to_i
+    end
+
+    if match3 = existing_content.match(/\{\%\s+assign\s+PNT_TIMESTAMP\s+=\s+"([^"]+)"\s+\%\}/)
+      timestpSaved = match3[1]
+    end
+  end
+
+  # Parse Whidbey environment variables and site config
+  isDebug = ENV['WhdBuildType'] == 'chk' || (ENV['WhdBuildType'].nil? && site.config['debug'] == true)
+  isRetail = ENV['WhdBuildType'] == 'fre' || (ENV['WhdBuildType'].nil? && site.config['retail'] == true)
+
   if ENV['WhdBuildType'] == 'chk'
     site.config['debug'] = true
     site.config['retail'] = false
+    isDebug = true
+    isRetail = false
   elsif ENV['WhdBuildType'] == 'fre'
     site.config['debug'] = false
     site.config['retail'] = true
+    isDebug = false
+    isRetail = true
   end
 
+  deltaEnabled = site.config['builddelta'] == true
   if ENV['WhdIsDeltaEnabled'] == 'no'
     site.config['builddelta'] = false
+    deltaEnabled = false
   elsif ENV['WhdIsDeltaEnabled'] == 'yes'
     site.config['builddelta'] = true
+    deltaEnabled = true
   end
 
+  isBuildPrivate = site.config['privatebuild'] == true
   if ENV['WhdPrivateBuild'] == 'yes'
     site.config['privatebuild'] = true
+    isBuildPrivate = true
   elsif ENV['WhdPrivateBuild'] == 'no'
     site.config['privatebuild'] = false
+    isBuildPrivate = false
   end
 
-  # build lab
+  # Build lab detection
   lab = ''
   begin
     lab = `git rev-parse --abbrev-ref HEAD`.strip
@@ -94,55 +129,41 @@ Jekyll::Hooks.register :site, :after_reset do |site|
     lab = "#{date_stub}_#{user_stub}"
   end
 
-  # read any vars made by whidbey to set debug/retail mode
-  is_debug = site.config['debug'] == true
-  delta_enabled = site.config['builddelta'] == true
-  private_build = site.config['privatebuild'] == true
-
-  if private_build
-    current_user = ENV['USERNAME'] || ENV['USER'] || Etc.getlogin || "dummy"
-    lab = "private/#{lab}(#{current_user})"
+  if isBuildPrivate
+    userCur = ENV['USERNAME'] || ENV['USER'] || Etc.getlogin || "dummy"
+    lab = "private/#{lab}(#{userCur})"
   end
 
-  # ids
-  id_prefix = site.config['idprefix'] || "dp"
-  id_suffix = is_debug ? "chk" : "fre"
-  id = "#{id_prefix}#{id_suffix}"
+  # IDs configuration
+  idPref = site.config['idprefix'] || "dp"
+  idSuf = isDebug ? "chk" : "fre"
+  id = "#{idPref}#{idSuf}"
 
-  stored_number = 5200
-  delta_nbr = delta_enabled && is_debug ? 1 : 0
+  # Build number logic: increment if non-retail, keep fixed if retail
+  currentIncNum = isRetail ? prevBUILD : (prevBUILD + 1)
+  deltaNum = deltaEnabled && isDebug ? 1 : 0
+  deltaCur = deltaNum
 
-  current_delta = delta_nbr
-  current_incremental_number = stored_number
-
-  saved_timestamp = nil
-  if File.exist?(version_header_path)
-    existing_content = File.read(version_header_path)
-    if match = existing_content.match(/\{\%\s+assign\s+AKN_TIMESTAMP\s+=\s+"([^"]+)"\s+\%\}/)
-      saved_timestamp = match[1]
-    end
-  end
-
-  if is_debug
+  if isDebug
     timestamp = Time.now.strftime("%y%m%d-%H%M")
-    buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
-    Jekyll.logger.info "PANTHER:", "Loading Cairo #{current_incremental_number}.#{current_delta} (#{lab}.#{timestamp})"
+    buildtag = "#{major}.#{minor}.#{currentIncNum}.#{deltaCur}.#{id}.#{lab}.#{timestamp}"
+    Jekyll.logger.info "PANTHER:", "Image Info: Axeon Quartz #{currentIncNum}.#{deltaCur} (#{lab}.#{timestamp})"
   else
-    # in retail mode, just used whatever the last saved thing was
-    timestamp = saved_timestamp || "YYmmDD-HHss"
-    buildtag = "#{major}.#{minor}.#{current_incremental_number}.#{current_delta}.#{id}.#{lab}.#{timestamp}"
+    # In retail mode, keep the timestamp and build number fixed to the last saved values
+    timestamp = timestpSaved || Time.now.strftime("%y%m%d-%H%M")
+    buildtag = "#{major}.#{minor}.#{currentIncNum}.#{deltaCur}.#{id}.#{lab}.#{timestamp}"
   end
 
   header_content = <<~HTML
-    {% assign AKN_MAJOR = #{major} %}
-    {% assign AKN_MINOR = #{minor} %}
-    {% assign AKN_BUILD = #{current_incremental_number} %}
-    {% assign AKN_DELTA = #{current_delta} %}
-    {% assign AKN_ID = "#{id}" %}
-    {% assign AKN_LAB = "#{lab}" %}
-    {% assign AKN_TIMESTAMP = "#{timestamp}" %}
-    {% assign AKN_VERSION = "#{buildtag}" %}
+    {% assign PNT_MAJOR = #{major} %}
+    {% assign PNT_MINOR = #{minor} %}
+    {% assign PNT_BUILD = #{currentIncNum} %}
+    {% assign PNT_DELTA = #{deltaCur} %}
+    {% assign PNT_ID = "#{id}" %}
+    {% assign PNT_LAB = "#{lab}" %}
+    {% assign PNT_TIMESTAMP = "#{timestamp}" %}
+    {% assign PNT_VERSION = "#{buildtag}" %}
   HTML
 
-  File.write(version_header_path, header_content)
+  File.write(verHedPath, header_content)
 end

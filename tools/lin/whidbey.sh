@@ -98,10 +98,10 @@ _whd_load_config() {
                 local val="${line#*=}"
                 key=$(echo "$key" | tr -d ' ')
                 
-                if [ "$cur_sec" = "[AxeonAkane]" ]; then
+                if [ "$cur_sec" = "[AxeonQuartz]" ]; then
                     [ "$key" = "ArticlePath" ] && export SourceArticles="$val"
                     [ "$key" = "ImgPath" ] && export SourceMedia="$val"
-                    [ "$key" = "SourcePath" ] && export AkaneSource="$val"
+                    [ "$key" = "SourcePath" ] && export QuartzSource="$val"
                 elif [ "$cur_sec" = "[AxeonMedia]" ]; then
                     [ "$key" = "SourcePath" ] && export AxeonMedia="$val"
                 fi
@@ -113,10 +113,10 @@ _whd_load_config() {
 _whd_save_config() {
     cat << EOF > "whidbey.ini"
 AXEONWHIDBEY4
-[AxeonAkane]
+[AxeonQuartz]
 ArticlePath=$SourceArticles
 ImgPath=$SourceMedia
-SourcePath=$AkaneSource
+SourcePath=$QuartzSource
 
 [AxeonMedia]
 SourcePath=$AxeonMedia
@@ -126,7 +126,7 @@ EOF
 _whd_ensure_paths() {
     local paths_ok="Y"
     [ -z "$AxeonMedia" ] && paths_ok="N"
-    [ -z "$AkaneSource" ] && paths_ok="N"
+    [ -z "$QuartzSource" ] && paths_ok="N"
     [ -z "$SourceArticles" ] && paths_ok="N"
     [ -z "$SourceMedia" ] && paths_ok="N"
 
@@ -134,7 +134,7 @@ _whd_ensure_paths() {
         echo ""
         echo "Whidbey has found the following configuration saved on your computer:"
         echo "  AxeonMedia     = $AxeonMedia"
-        echo "  AkaneSource    = $AkaneSource"
+        echo "  QuartzSource    = $QuartzSource"
         echo "  SourceArticles = $SourceArticles"
         echo "  SourceMedia    = $SourceMedia"
         echo ""
@@ -148,17 +148,17 @@ _whd_ensure_paths() {
     read -p "Where is the AxeonMedia repository located (relative or absolute path)? " AxeonMedia
     export AxeonMedia
     
-    read -p "Is the current directory ($(pwd)) a valid Axeon Akane source packet? (Y/N): " is_curr
+    read -p "Is the current directory ($(pwd)) a valid Axeon Quartz source packet? (Y/N): " is_curr
     if [[ "$is_curr" =~ ^[Yy]$ ]]; then
-        export AkaneSource="$(pwd)"
+        export QuartzSource="$(pwd)"
     else
-        read -p "Where is the Axeon Akane source code located (relative or absolute path)? " AkaneSource
-        export AkaneSource
+        read -p "Where is the Axeon Quartz source code located (relative or absolute path)? " QuartzSource
+        export QuartzSource
     fi
     
-    read -p "On the Axeon Akane source code, in what path are the article files located? " SourceArticles
+    read -p "On the Axeon Quartz source code, in what path are the article files located? " SourceArticles
     export SourceArticles
-    read -p "On the Axeon Akane source code, in what path are the article images located? " SourceMedia
+    read -p "On the Axeon Quartz source code, in what path are the article images located? " SourceMedia
     export SourceMedia
 
     _whd_save_config
@@ -171,15 +171,15 @@ _whd_run_prep() {
     echo ""
     echo "Synchronizing workspace entities..."
     mkdir -p "$AxeonMedia/kuro/img/" "$AxeonMedia/kuro/articles/"
-    cp -R "$AkaneSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
-    cp -R "$AkaneSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
+    cp -R "$QuartzSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
+    cp -R "$QuartzSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
 
-    # Akane Repository Pipeline Pushes
-    pushd "$AkaneSource" > /dev/null
+    # Quartz Repository Pipeline Pushes
+    pushd "$QuartzSource" > /dev/null
     git add .
-    read -p "What would you like to name your commit for Akane? " AknCommitName
-    read -p "Would you like to add a description to your commit? (Y/N): " akn_desc_yn
-    if [[ "$akn_desc_yn" =~ ^[Yy]$ ]]; then
+    read -p "What would you like to name your commit for Quartz? " AknCommitName
+    read -p "Would you like to add a description to your commit? (Y/N): " qtz_desc_yn
+    if [[ "$qtz_desc_yn" =~ ^[Yy]$ ]]; then
         read -p "Enter the commit description: " AknCommitDesc
         git commit -m "$AknCommitName" -m "$AknCommitDesc"
     else
@@ -215,11 +215,11 @@ _whd_show_help() {
     echo ""
     echo "Commands:"
     echo "          bninst               - install missing gems via bundler"
-    echo "          akn                  - run Akane normally"
-    echo "          akn -nW              - run Akane WITHOUT regeneration"
-    echo "          akn -nA              - run Akane WITHOUT LiveReload or OpenURL"
-    echo "          akn -nS              - build the site without a server"
-    echo "          akn -cl              - clean site leftovers (such as _site)"
+    echo "          qtz                  - run Quartz normally"
+    echo "          qtz -nW              - run Quartz WITHOUT regeneration"
+    echo "          qtz -nA              - run Quartz WITHOUT LiveReload or OpenURL"
+    echo "          qtz -nS              - build the site without a server"
+    echo "          qtz -cl              - clean site leftovers (such as _site)"
     echo "          prep                 - transfer updated files and push commits to git"
     echo "          track                - track ALL files for git"
     echo "          commit \"arg\"         - commit current work."
@@ -233,14 +233,14 @@ _whd_show_help() {
 # Run config validation tasks
 _whd_load_config
 
-read -p "Would you like to sync Akane with AxeonMedia? (Y/N): " start_sync
+read -p "Would you like to sync Quartz with AxeonMedia? (Y/N): " start_sync
 if [[ "$start_sync" =~ ^[Yy]$ ]]; then
     _whd_ensure_paths
     echo ""
     echo "Copying assets..."
     mkdir -p "$AxeonMedia/kuro/img/" "$AxeonMedia/kuro/articles/"
-    cp -R "$AkaneSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
-    cp -R "$AkaneSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
+    cp -R "$QuartzSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
+    cp -R "$QuartzSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
     echo ""
 fi
 
@@ -260,7 +260,7 @@ commit() {
     fi
 }
 
-akn() {
+qtz() {
     if [ "$1" = "-nW" ]; then
         bundle exec jekyll server -l -o --no-watch -H 127.0.0.50
     elif [ "$1" = "-nA" ]; then

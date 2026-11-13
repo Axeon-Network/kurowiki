@@ -1,16 +1,16 @@
 <!-- this is probably never getting used ever again -->
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.logo %}
-    <div class="infobox-img-container">
-        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" alt="{{ include.name }} logo" class="infobox-img" style="cursor: pointer;padding-top: 15px;height: 250px;">
-            <p class="infobox-img-caption-2">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+    <div class="qtz-infobox-img-container">
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" alt="{{ include.name }} logo" class="qtz-infobox-img" style="cursor: pointer;padding-top: 15px;height: 250px;">
+            <p class="qtz-infobox-img-caption-2">{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             <p style="text-align:center;font-weight:bold;">General information</p>
             {% if include.launchedISO %}

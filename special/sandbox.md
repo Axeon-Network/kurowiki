@@ -1,7 +1,7 @@
 ---
-title: The Akane Sandbox 
-permalink: "./Debug:Akane_Sandbox"
-hatnote: "This is a debug page meant to test several Akane features prior to their public use. Test content will begin below.<br>Markdown Test! *1234567890* **Nintendo Ultra 64** [Super Mario RPG: Legend of the Seven Stars](https://www.mariowiki.com/Super_Mario_RPG:_Legend_of_the_Seven_Stars) ~~Super Mario RPG 2~~"
+title: The Quartz Sandbox 
+permalink: "./Debug:Quartz_Sandbox"
+hatnote: "This is a debug page meant to test several Quartz features prior to their public use. Test content will begin below.<br>Markdown Test! *1234567890* **Nintendo Ultra 64** [Super Mario RPG: Legend of the Seven Stars](https://www.mariowiki.com/Super_Mario_RPG:_Legend_of_the_Seven_Stars) ~~Super Mario RPG 2~~"
 ---
 
 anything meant to be tested can be seen here. *anything!*
@@ -14,7 +14,7 @@ separator so it doesnt fucking break omg
 mainarticle='[Axeon Network](Axeon_Network)'
 uncategorized='dummy'
 category1name='Projects'
-category1='[KuroWiki](KuroWiki)<br>[Deltari](Deltari)'
+category1='[KuroWiki](KuroWiki)<br>[Quartz](Quartz)'
 category2name='Websites'
 category2='[AxeonWebsite (2025)](AxeonWebsite_(2025))<br>[AxeonWebsite (original release)](AxeonWebsite_(original_release))'
 category3name='dummy'
@@ -51,7 +51,7 @@ A user interface was added to Windows NT in the first half of 1991, with network
 
 The next minor version, [Windows NT 3.5](https://betawiki.net/wiki/Windows_NT_3.5) was released in 1994 and included performance improvement as well as a new full TCP/IP stack, long filename (LFN) support on the FAT file system and other refinements. [Windows NT 3.51](https://betawiki.net/wiki/Windows_NT_3.51) was released in 1995, which ensured compatibility with the upcoming [Windows 95](https://betawiki.net/wiki/Windows_95) and added support for the PowerPC architecture, the PCMCIA interface, as well as file compression, or replaceable GINA. 
 
-# "Trifrost"
+# Codename Cleveland
 <gallery>
     {% include items/gallery.html 
         thumb="../../vid/thumb.png" 
@@ -105,7 +105,7 @@ function executeSearch(query) {
 
 ```css
 /* 
-    Kuro/ModularDelta Custom Material Design Lite Stylesheet File
+    Axeon Quartz Custom Material Design Lite Stylesheet
     Written by KitSixtyFour/SnowyBiFox
     Copyright 2025-2026 Axeon Network.
 
@@ -203,7 +203,7 @@ hr {
 ```md
 ***Project Cuber***, more commonly known as ***Cuber***, is the codename for a currently work-in-progress website developed by [KitSixtyFour](KitSixtyFour). The user interface is based on the *[Watercolor](https://betawiki.net/wiki/Watercolor)* visual style found in pre-release builds of [Windows XP](https://betawiki.net/wiki/Windows_XP), specifically the [Beta 1](https://betawiki.net/wiki/Windows_XP#Beta_1) development stage.
 
-A successor to *[HoriWebsite](HoriWebsite)* (and [its](LexSite) [cancelled](NovaSite) [successor](NekoSite) [tentatives](Nishi_Blade)), the development of *Cuber* began on 9 February 2026, and is currently still being developed to this day. Alongside *[Deltari](Deltari)*, it is one of Kit's most ambitious projects yet, and it is planned to be released alongside *CuberSH*, a public, modular version of the CSS framework used in Cuber.
+A successor to *[HoriWebsite](HoriWebsite)* (and [its](LexSite) [cancelled](NovaSite) [successor](NekoSite) [tentatives](Nishi_Blade)), the development of *Cuber* began on 9 February 2026, and is currently still being developed to this day. Alongside *[Quartz](Quartz)*, it is one of Kit's most ambitious projects yet, and it is planned to be released alongside *CuberSH*, a public, modular version of the CSS framework used in Cuber.
 
 Nevertheless, the development of *Cuber* has been slow, since it has been worked on alongside *[KuroWiki](KuroWiki)* and *[AstroNT](AstroNT)*, which is visible on the time differences between many builds.
 However, an Alpha Release has been scheduled for the second quarter of 2026.
@@ -219,9 +219,9 @@ echo.
 echo.
 echo Commands:
 echo           bni               - install missing gems via bundler
-echo           akn               - run Akane normally
-echo           akw               - run Akane WITHOUT regeneration
-echo           aks               - run Akane WITHOUT LiveReload or OpenURL
+echo           qtz               - run Quartz normally
+echo           akw               - run Quartz WITHOUT regeneration
+echo           aks               - run Quartz WITHOUT LiveReload or OpenURL
 echo           akb               - build the site without a server
 echo           acl               - clean site leftovers (such as _site)
 echo           trk               - track ALL files for git
@@ -256,14 +256,14 @@ The following segment uses the `raw` Liquid tag to escape Jekyll builds:
 
 Additionally, this is a test of `highlight`:
 {% highlight js %}
-// SpringViewer Codename "Trifrost" Version 3.00
+// Cleveland  Version 3.00
 // Written by KitSixtyFour/SnowyBiFox
 
 document.addEventListener('DOMContentLoaded', () => { 
     const header = document.querySelector('.mdl-layout__header');
     const drawer = document.querySelector('.mdl-layout__drawer'); 
     const mainBody = document.body; 
-    const viewer = document.getElementById('springviewer');
+    const viewer = document.getElementById('cleveland');
     const viewerCaption = document.getElementById('viewer-caption');
     const closeBtn = document.querySelector('.close-btn');
     const prevBtn = document.querySelector('.nav-btn.prev-btn');
@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // jekyll can convert markdown to html via markdownify, which works on the gallery items,
-    // when springviewer sees it, it uses something like [Text](URL) since it uses the raw data,
+    // when cleveland sees it, it uses something like [Text](URL) since it uses the raw data,
     // so we make a small markdown helper so it displays "correctly".
     const miniMarkdownify = (text) => {
     if (!text) return '';
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (foundBtn) {
             drawerBtn = foundBtn; 
         } else {
-            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. SpringViewer was either invoked too fast, or it is not running on this page.");
+            console.error("*** ERROR 0x0004 (CANNOT_FIND_MDLBUTTON)\nThe MDL Drawer button could not be found thus cannot be hidden. Cleveland was either invoked too fast, or it is not running on this page.");
         }
     }, 55);
 

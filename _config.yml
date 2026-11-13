@@ -1,4 +1,4 @@
-# AKANE CONFIGURATION FILE
+# AXEON QUARTZ CONFIGURATION FILE
 # Copyright (C) 2025-2026 Axeon Network. Developed by KitSixtyFour and AveryEclipse.
 
 
@@ -10,7 +10,7 @@ name: Axeon KuroWiki
 title: KuroWiki
 
 # used for debug, to be hard-coded for Kuro STBL
-productname: "Axeon Akane Code Name \"Cairo\""
+productname: "Axeon Quartz Software Code Name \"Cairo\""
 
 # The author of the wiki
 author: Axeon Network
@@ -24,7 +24,7 @@ description: "Axeon KuroWiki Release Candidate"
 # Self-explanatory
 url: https://axeon-network.github.io
 
-# The path to be used if Deltari is deployed to a sub-directory and
+# The path to be used if Quartz is deployed to a sub-directory and
 # NOT the server root. This is optional
 baseurl: /kurowiki
 
@@ -51,7 +51,7 @@ img_article_path: res/img/articles/
 
 # == HOMEPAGE ==
 # A quick description of your wiki and what is it about, visible on the homepage.
-home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (KitSixtyFour and AveryEclipse)."
+home_desc: "This is the home page for KuroWiki. An online encyclopedia about the Axeon Network and its administrators (AveryEclipse and KitSixtyFour)."
 
 # DEPRECATED
 # The file name of the article to be used in the Featured Article card.
@@ -66,9 +66,9 @@ home_desc: "This is the home page for KuroWiki. An online encyclopedia about the
 
 # == DEVELOPER & DEBUG ==
 # The phase of Delta/Kuro's development track.
-devphase: Release Candidate
+devphase: Release Candidate Developer Beta
 # Short version, used in drawer if nedecesary
-devphase-s: Silver
+devphase-s: Silver 
 # ID for dev builds
 idprefix: "rc1" # Release Candidate 1
 # = Extended Build Lab =
@@ -155,7 +155,7 @@ collections:
     output: true # the fuck you mean you actually need this
     sort_by: title
   special:
-    output: true # jekyll you can fuck my ass whenever you want, fuck you.
+    output: true
   featured:
     output: true
   news:

@@ -1,15 +1,15 @@
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.image %}
-    <div class="infobox-img-container">
-        <div class="infobox-img-caption">Fictional character</div>
-        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="infobox-img">
+    <div class="qtz-infobox-img-container">
+        <div class="qtz-infobox-img-caption">Fictional character</div>
+        	<img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}"  style="width:50%;" class="qtz-infobox-img">
     </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             <tr>
                 <th>Created by</th>
@@ -25,7 +25,7 @@
             </tr>
           </tbody>
 </table>
- <table class="infobox-data-table">
+ <table class="qtz-infobox-data-table">
 	<div style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;padding:0px;"><b>In-universe information</b></div>
 	<tbody>
        	<tr>

@@ -1,18 +1,18 @@
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
 
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.image %}
-    <div class="infobox-img-container">
-        <div class="infobox-img-caption"></div>
-        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" style="width:75%;" class="infobox-img computer-desktop">
+    <div class="qtz-infobox-img-container">
+        <div class="qtz-infobox-img-caption"></div>
+        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" style="width:75%;" class="qtz-infobox-img computer-desktop">
         {% if include.image_caption %}
-            <p class="infobox-img-caption-2">{{ include.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+            <p class="qtz-infobox-img-caption-2">{{ include.image_caption | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         {% endif %}
     </div> {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             <tr>
                 <th>Owner</th>
@@ -64,7 +64,7 @@
 
     <div style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;padding:2px;"><b>Specifications</b></div>
     
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             <tr>
                 <th>Processor</th>
@@ -77,7 +77,7 @@
 
             {% assign integrated = "" %}
             {% if include.integrated %}
-                {% assign integrated = "<sup class='delta-infobox-computer-integrated'>(Integrated)</sup>" %}
+                {% assign integrated = "<sup class='qtz-infobox-computer-integrated'>(Integrated)</sup>" %}
             {% endif %}
 
             <tr>

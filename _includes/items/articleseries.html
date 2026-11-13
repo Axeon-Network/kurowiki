@@ -1,11 +1,11 @@
-<div class="infobox mdl-shadow--4dp">
-    <div class="seriesbox-title">
+<div class="qtz-infobox mdl-shadow--4dp">
+    <div class="qtz-seriesbox-title">
         Part of a series of articles on {% if include.theprefix %}the{% endif %}
         <h2>{{ include.mainarticle | markdownify | remove_first: '<p>' | remove: '</p>' }}</h2>
         {% if include.subtitle %}{{ include.subtitle }}{% endif %}
     </div>
     {% if include.uncategorized %}
-    <table class="seriesbox-data-table">
+    <table class="qtz-seriesbox-data-table">
         <tbody style="text-align:center">
             <tr>
                 <td>{{ include.uncategorized }}</td>
@@ -15,7 +15,7 @@
     {% endif %}
 
     {% if include.category1name && if include.category1 %}
-    <table class="seriesbox-data-table">
+    <table class="qtz-seriesbox-data-table">
     <tbody style="text-align:center">
         <tr style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;">
             <td style="padding-top: 2px; padding-bottom: 2px;">
@@ -29,7 +29,7 @@
     </table>
     {% endif %}
     {% if include.category2name && if include.category2 %}
-    <table class="seriesbox-data-table">
+    <table class="qtz-seriesbox-data-table">
 	    <div style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;padding-top: 2px;  padding-bottom: 2px;">
             <b>{{ include.category2name }}</b>
         </div>
@@ -41,7 +41,7 @@
     </table>
     {% endif %}
     {% if include.category3name && if include.category3 %}
-    <table class="seriesbox-data-table">
+    <table class="qtz-seriesbox-data-table">
 	    <div style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;padding-top: 2px;  padding-bottom: 2px;">
             <b>{{ include.category3name }}</b>
         </div>
@@ -53,7 +53,7 @@
     </table>
     {% endif %}
     {% if include.category4name && if include.category4 %}
-    <table class="seriesbox-data-table">
+    <table class="qtz-seriesbox-data-table">
 	    <div style="background-color:var(--infobox-section)!important;color:var(--text-color);text-align:center;padding-top: 2px;  padding-bottom: 2px;">
             <b>{{ include.category4name }}</b>
         </div>

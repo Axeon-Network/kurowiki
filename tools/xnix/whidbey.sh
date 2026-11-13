@@ -44,10 +44,10 @@ load_config() {
                 local val="${line#*=}"
                 key="$(echo "$key" | tr -d ' ')"
                 
-                if [ "$current_sec" = "[AxeonAkane]" ]; then
+                if [ "$current_sec" = "[AxeonQuartz]" ]; then
                     [ "$key" = "ArticlePath" ] && SourceArticles="$val"
                     [ "$key" = "ImgPath" ] && SourceMedia="$val"
-                    [ "$key" = "SourcePath" ] && AkaneSource="$val"
+                    [ "$key" = "SourcePath" ] && QuartzSource="$val"
                 elif [ "$current_sec" = "[AxeonMedia]" ]; then
                     [ "$key" = "SourcePath" ] && AxeonMedia="$val"
                 elif [ "$current_sec" = "[WhdEnvironment]" ]; then
@@ -79,10 +79,10 @@ save_config() {
 $ver_line
 $WHD_CONFIG_HEADER
 
-[AxeonAkane]
+[AxeonQuartz]
 ArticlePath=$SourceArticles
 ImgPath=$SourceMedia
-SourcePath=$AkaneSource
+SourcePath=$QuartzSource
 
 [AxeonMedia]
 SourcePath=$AxeonMedia
@@ -96,7 +96,7 @@ EOF
 
 upgrade_config() {
     local target="$1"
-    local upg_articles="" upg_media="" upg_akane="" upg_axeon=""
+    local upg_articles="" upg_media="" upg_Quartz="" upg_axeon=""
     local upg_buildtype="chk" upg_priv="no" upg_delta="yes"
     local current_sec=""
 
@@ -111,10 +111,10 @@ upgrade_config() {
             local val="${line#*=}"
             key="$(echo "$key" | tr -d ' ')"
             
-            if [ "$current_sec" = "[AxeonAkane]" ]; then
+            if [ "$current_sec" = "[AxeonQuartz]" ]; then
                 [ "$key" = "ArticlePath" ] && upg_articles="$val"
                 [ "$key" = "ImgPath" ] && upg_media="$val"
-                [ "$key" = "SourcePath" ] && upg_akane="$val"
+                [ "$key" = "SourcePath" ] && upg_Quartz="$val"
             elif [ "$current_sec" = "[AxeonMedia]" ]; then
                 [ "$key" = "SourcePath" ] && upg_axeon="$val"
             elif [ "$current_sec" = "[WhdEnvironment]" ]; then
@@ -136,10 +136,10 @@ upgrade_config() {
 $ver_line
 $WHD_CONFIG_HEADER
 
-[AxeonAkane]
+[AxeonQuartz]
 ArticlePath=$upg_articles
 ImgPath=$upg_media
-SourcePath=$upg_akane
+SourcePath=$upg_Quartz
 
 [AxeonMedia]
 SourcePath=$upg_axeon
@@ -155,7 +155,7 @@ EOF
 ensure_paths() {
     local paths_ok="Y"
     [ -z "$AxeonMedia" ] && paths_ok="N"
-    [ -z "$AkaneSource" ] && paths_ok="N"
+    [ -z "$QuartzSource" ] && paths_ok="N"
     [ -z "$SourceArticles" ] && paths_ok="N"
     [ -z "$SourceMedia" ] && paths_ok="N"
 
@@ -163,7 +163,7 @@ ensure_paths() {
         echo ""
         echo "Current config:"
         echo "     AxeonMedia     = $AxeonMedia"
-        echo "     AkaneSource    = $AkaneSource"
+        echo "     QuartzSource    = $QuartzSource"
         echo "     SourceArticles = $SourceArticles"
         echo "     SourceMedia    = $SourceMedia"
         echo "     BuildType      = $WHD_BUILD_TYPE"
@@ -178,14 +178,14 @@ ensure_paths() {
 
     echo ""
     read -rp "Where is the AxeonMedia repository located?: " AxeonMedia
-    read -rp "Is the current directory a valid Axeon Akane source code packet? (Y/N): " is_curr
+    read -rp "Is the current directory a valid Axeon Quartz source code packet? (Y/N): " is_curr
     if [[ "$is_curr" =~ ^[Yy]$ ]]; then
-        AkaneSource="$(pwd)"
+        QuartzSource="$(pwd)"
     else
-        read -rp "Where is the root of the Axeon Akane packet located?: " AkaneSource
+        read -rp "Where is the root of the Axeon Quartz packet located?: " QuartzSource
     fi
-    read -rp "Inside the Akane packet, where are the articles located?: " SourceArticles
-    read -rp "Inside the Akane packet, where are the images located?: " SourceMedia
+    read -rp "Inside the Quartz packet, where are the articles located?: " SourceArticles
+    read -rp "Inside the Quartz packet, where are the images located?: " SourceMedia
     save_config
 }
 
@@ -195,10 +195,10 @@ show_help() {
     echo ""
     echo " Command [Arguments]:                 Description:"
     echo "  bninst                               install missing gems via bundler"
-    echo "  akn  [-nW  -nA  -nS  -cl]            run the Axeon Akane server"
+    echo "  qtz  [-nW  -nA  -nS  -cl]            run the Axeon Quartz server"
     echo "                                        * \"-nW\" disables regeneration."
     echo "                                        * \"-nA\" disables -l / -o args."
-    echo "                                        * \"-nS\" runs Akane without a server,"
+    echo "                                        * \"-nS\" runs Quartz without a server,"
     echo "                                          equal to 'bundle exec jekyll build'."
     echo "  prep                                 sync and push packet to git."
     echo "  track                                tracks any current packet changes"
@@ -219,7 +219,7 @@ show_help() {
     echo "                                        * \"load\" loads a config file."
     echo "  whidbey fetch [version  status  dir  query and fetch information:"
     echo "                 processor  os  date    * most of them are self-explanatory..."
-    echo "                 aknver  delta  private   use \"--noduo\" for processor if you"
+    echo "                 qtzver  delta  private   use \"--noduo\" for processor if you"
     echo "                 want the real thing."
     echo "                 stick  paths  lab        * append \"please\" to stick :3c"
     echo "                 config]                "
@@ -306,7 +306,7 @@ run_config() {
 
     case "$(echo "$subcmd" | tr '[:upper:]' '[:lower:]')" in
         new)
-            AxeonMedia="" AkaneSource="" SourceArticles="" SourceMedia=""
+            AxeonMedia="" QuartzSource="" SourceArticles="" SourceMedia=""
             WHD_BUILD_TYPE="chk" WHD_PRIVATE_BUILD="no" WHD_IS_DELTA_ENABLED="yes"
             ensure_paths
             save_config "$WHD_CONFIG_FILE"
@@ -322,7 +322,7 @@ run_config() {
                 echo "$cfg_file does not exist."
                 return 1
             fi
-            if ! grep -q -E "AXEONWHIDBEY|\[AxeonAkane\]" "$cfg_file"; then
+            if ! grep -q -E "AXEONWHIDBEY|\[AxeonQuartz\]" "$cfg_file"; then
                 echo "This is not a Whidbey configuration file."
                 return 1
             fi
@@ -338,7 +338,7 @@ run_config() {
                 echo "$cfg_file does not exist."
                 return 1
             fi
-            if ! grep -q -E "AXEONWHIDBEY|\[AxeonAkane\]" "$cfg_file"; then
+            if ! grep -q -E "AXEONWHIDBEY|\[AxeonQuartz\]" "$cfg_file"; then
                 echo "This is not a Whidbey configuration file."
                 return 1
             fi
@@ -383,29 +383,29 @@ synch() {
     load_config "$WHD_CONFIG_FILE"
     ensure_paths
 
-    [ ! -d "$AkaneSource" ] && { echo "The directory does not exist: \"$AkaneSource\""; return 1; }
+    [ ! -d "$QuartzSource" ] && { echo "The directory does not exist: \"$QuartzSource\""; return 1; }
     [ ! -d "$AxeonMedia" ] && { echo "The directory does not exist: \"$AxeonMedia\""; return 1; }
 
     local synced=0
 
-    if [ -d "$AkaneSource/$SourceMedia" ]; then
+    if [ -d "$QuartzSource/$SourceMedia" ]; then
         mkdir -p "$AxeonMedia/kuro/img/"
-        cp -rf "$AkaneSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
+        cp -rf "$QuartzSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
         ((synced++))
     else
-        echo "The directory \"$AkaneSource/$SourceMedia\" was not found."
+        echo "The directory \"$QuartzSource/$SourceMedia\" was not found."
     fi
 
-    if [ -d "$AkaneSource/$SourceArticles" ]; then
+    if [ -d "$QuartzSource/$SourceArticles" ]; then
         mkdir -p "$AxeonMedia/kuro/articles/"
-        cp -rf "$AkaneSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
+        cp -rf "$QuartzSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
         ((synced++))
     else
-        echo "The directory \"$AkaneSource/$SourceArticles\" was not found."
+        echo "The directory \"$QuartzSource/$SourceArticles\" was not found."
     fi
 
     if [ "$synced" -gt 0 ]; then
-        echo "Axeon Akane and Axeon Media have been synched successfully."
+        echo "Axeon Quartz and Axeon Media have been synched successfully."
     else
         echo "No source directories were found to sync."
     fi
@@ -414,14 +414,14 @@ synch() {
 run_prep() {
     load_config "$WHD_CONFIG_FILE"
     ensure_paths
-    cp -rf "$AkaneSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
-    cp -rf "$AkaneSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
+    cp -rf "$QuartzSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
+    cp -rf "$QuartzSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
 
-    pushd "$AkaneSource" >/dev/null || return
+    pushd "$QuartzSource" >/dev/null || return
     git add .
-    read -rp "What would you like to name the commit for Akane?: " AknCommitName
-    read -rp "Do you want to add description? (Y/N): " akn_desc_yn
-    if [[ "$akn_desc_yn" =~ ^[Yy]$ ]]; then
+    read -rp "What would you like to name the commit for Quartz?: " AknCommitName
+    read -rp "Do you want to add description? (Y/N): " qtz_desc_yn
+    if [[ "$qtz_desc_yn" =~ ^[Yy]$ ]]; then
         read -rp "Description: " AknCommitDesc
         git commit -m "$AknCommitName" -m "$AknCommitDesc"
     else
@@ -444,7 +444,7 @@ run_prep() {
     popd >/dev/null || return
 }
 
-run_akn() {
+run_qtz() {
     shift
     case "$1" in
         -nW) bundle exec jekyll server -l -o --no-watch -H 127.0.0.50 ;;
@@ -558,8 +558,8 @@ run_fetch() {
         pwd
     elif [ "$target" = "lab" ]; then
         local lab="$(git rev-parse --abbrev-ref HEAD 2>/dev/null)"
-        if [ -z "$lab" ] && [ -n "$AkaneSource" ] && [ -d "$AkaneSource" ]; then
-            lab="$(git -C "$AkaneSource" rev-parse --abbrev-ref HEAD 2>/dev/null)"
+        if [ -z "$lab" ] && [ -n "$QuartzSource" ] && [ -d "$QuartzSource" ]; then
+            lab="$(git -C "$QuartzSource" rev-parse --abbrev-ref HEAD 2>/dev/null)"
         fi
         [ -z "$lab" ] && lab="PANTHER_${USER:-$(whoami)}"
         echo "$lab"
@@ -600,18 +600,18 @@ run_fetch() {
             winver="GNU/Linux (or other) $(uname -r 2>/dev/null)"
         fi
         echo "$winver"
-    elif [ "$target" = "aknver" ]; then
-        if [ -z "$AkaneSource" ]; then
-            echo "An error has occurred. Is the Akane source packet path set correctly?"
-        elif [ ! -f "$AkaneSource/_includes/misc/version.html" ]; then
+    elif [ "$target" = "qtzver" ]; then
+        if [ -z "$QuartzSource" ]; then
+            echo "An error has occurred. Is the Quartz source packet path set correctly?"
+        elif [ ! -f "$QuartzSource/_includes/misc/version.html" ]; then
             echo "An error has occurred. Cannot access the Panther header file."
         else
-            local aknver="$(grep -i "AKN_VERSION" "$AkaneSource/_includes/misc/version.html" 2>/dev/null | cut -d'=' -f2 | tr -d '"%{} ')"
-            if [ -n "$aknver" ]; then
-                echo "Axeon Akane Version $aknver"
+            local qtzver="$(grep -i "AKN_VERSION" "$QuartzSource/_includes/misc/version.html" 2>/dev/null | cut -d'=' -f2 | tr -d '"%{} ')"
+            if [ -n "$qtzver" ]; then
+                echo "Axeon Quartz Version $qtzver"
             else
                 echo "An error has occurred. The string AKN_VERSION could not be fetched from the Panther header file."
-                echo "Is this a valid Akane packet?"
+                echo "Is this a valid Quartz packet?"
             fi
         fi
     elif [ "$target" = "delta" ]; then
@@ -622,9 +622,9 @@ run_fetch() {
         date
     elif [ "$target" = "paths" ]; then
         echo "$AxeonMedia"
-        echo "$AkaneSource"
-        echo "$AkaneSource/$SourceArticles"
-        echo "$AkaneSource/$SourceMedia"
+        echo "$QuartzSource"
+        echo "$QuartzSource/$SourceArticles"
+        echo "$QuartzSource/$SourceMedia"
     elif [ "$target" = "config" ]; then
         cat whidbey.ini 2>/dev/null || echo "Cannot read whidbey.ini"
     elif [ -z "$target" ]; then
@@ -642,13 +642,13 @@ if [ -n "$1" ]; then
         about|show_about) show_about; exit 0 ;;
         stop|run_stop)
             echo "Unloading Whidbey environment..."
-            unalias whelp prep bninst akn track commit pull push whidbey 2>/dev/null
-            unset WhdStatus WhdLab WHD_BUILD_TYPE AkaneSource AxeonMedia SourceArticles SourceMedia
+            unalias whelp prep bninst qtz track commit pull push whidbey 2>/dev/null
+            unset WhdStatus WhdLab WHD_BUILD_TYPE QuartzSource AxeonMedia SourceArticles SourceMedia
             echo -ne "\033]0;Command Prompt\007"
             echo "Complete. Have a great day! :3"
             exit 0
             ;;
-        akn|run_akn) run_akn "$@"; exit 0 ;;
+        qtz|run_qtz) run_qtz "$@"; exit 0 ;;
         prep|run_prep) run_prep; exit 0 ;;
         commit|run_commit)
             if [ -z "$3" ]; then
@@ -755,25 +755,25 @@ fi
 
 WhdLab=""
 WhdLab="$(git rev-parse --abbrev-ref HEAD 2>/dev/null)"
-if [ -z "$WhdLab" ] && [ -n "$AkaneSource" ] && [ -d "$AkaneSource" ]; then
-    WhdLab="$(git -C "$AkaneSource" rev-parse --abbrev-ref HEAD 2>/dev/null)"
+if [ -z "$WhdLab" ] && [ -n "$QuartzSource" ] && [ -d "$QuartzSource" ]; then
+    WhdLab="$(git -C "$QuartzSource" rev-parse --abbrev-ref HEAD 2>/dev/null)"
 fi
 [ -z "$WhdLab" ] && WhdLab="PANTHER_${USER:-$(whoami)}"
 
 echo -ne "\033]0;Axeon Whidbey ~ Akn $WhdStatus from DevLab $WhdLab inside $(pwd)\007"
 
-read -rp "Would you like to sync Akane with AxeonMedia? (Y/N): " start_sync
+read -rp "Would you like to sync Quartz with AxeonMedia? (Y/N): " start_sync
 if [[ "$start_sync" =~ ^[Yy]$ ]]; then
     ensure_paths
-    if [ -d "$AkaneSource/$SourceMedia" ]; then
+    if [ -d "$QuartzSource/$SourceMedia" ]; then
         mkdir -p "$AxeonMedia/kuro/img/"
-        cp -rf "$AkaneSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
+        cp -rf "$QuartzSource/$SourceMedia/"* "$AxeonMedia/kuro/img/" 2>/dev/null
     fi
-    if [ -d "$AkaneSource/$SourceArticles" ]; then
+    if [ -d "$QuartzSource/$SourceArticles" ]; then
         mkdir -p "$AxeonMedia/kuro/articles/"
-        cp -rf "$AkaneSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
+        cp -rf "$QuartzSource/$SourceArticles/"* "$AxeonMedia/kuro/articles/" 2>/dev/null
     fi
-    echo "Axeon Akane and Axeon Media have been synched successfully."
+    echo "Axeon Quartz and Axeon Media have been synched successfully."
     echo ""
 fi
 
@@ -781,7 +781,7 @@ fi
 alias whelp="\"$WHD_SCRIPT\" help"
 alias prep="\"$WHD_SCRIPT\" prep"
 alias bninst="bundle install"
-alias akn="\"$WHD_SCRIPT\" akn"
+alias qtz="\"$WHD_SCRIPT\" qtz"
 alias track="git add ."
 alias commit="\"$WHD_SCRIPT\" commit"
 alias pull="git pull"

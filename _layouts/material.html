@@ -26,7 +26,7 @@
 
     
     <!-- do i need to explain this??? -->
-    <title>{% if page.type == 'sitemap' %}Sitemap{% else %}{{ page.title | default: "I think you forgot something... ;)" }}{% endif %%} ~ {{ site.title }}</title>
+    <title>{% if page.type == 'sitemap' %}Sitemap{% else %}{{ page.title | default: "I think you forgot something... ;)" }}{% endif %%} ~ {{ site.name }}</title>
     
     <!-- its css time -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -38,13 +38,15 @@
 
 
     <link rel="stylesheet" href="{{ site.baseurl }}/res/mdl/material.min{{ accent-enabled }}.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/materialdesignlite.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/infobox.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/toc.css"> 
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/global.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/gallery.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/res/akn/css/springviewer.css"> 
-    <!-- springviewer takes alot of lines okay~ -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/materialdesignlite.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/infobox.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/toc.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/global.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/gallery.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/krypton.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/download.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/res/qtz/css/cleveland.css"> 
+    <!-- cleveland takes alot of lines okay~ -->
 
     <!-- the thing that makes most of mdl work -->
     <script defer src="{{ site.baseurl }}/res/mdl/material.min.js"></script>
@@ -53,7 +55,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.css" id="hlJS_color">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/go.min.js"></script>
-    <script src="{{ site.baseurl }}/res/akn/js/searchsuggest.js"></script>
+    <script src="{{ site.baseurl }}/res/qtz/js/searchsuggest.js"></script>
     <script>hljs.highlightAll();</script>
 
      {% if site.background-dark %}
@@ -94,13 +96,13 @@
 
                 <!-- desktop search box -->
                   <div class="mdl-textfield mdl-js-textfield desktop-only" title="Type here to begin">
-                    <input class="mdl-textfield__input" type="text" id="akn-searchbox" name="q" style="border-bottom: 2px solid rgba(255,255,255,.25) !important;color: rgba(255,255,255,0.6);">
-                    <label class="mdl-textfield__label"><i style="color:white; opacity: 0.5;margin-left: 1px;text-shadow: none;">Search {{ site.title }}...</i></label>
+                    <input class="mdl-textfield__input" type="text" id="qtz-searchbox" name="q" style="border-bottom: 2px solid rgba(255,255,255,.25) !important;color: rgba(255,255,255,0.6);">
+                    <label class="mdl-textfield__label"><i style="color:white; opacity: 0.5;margin-left: 1px;text-shadow: 0px 0px 6px rgba(0,0,0,.7);">Search {{ site.title }}...</i></label>
                     
-                    <div class="akn-searchsuggestions">
-                      <div class="akn-searchsuggestions-list"></div>
-                      <div class="akn-searchsuggestions-seafor" style="display: none;">
-                        <span style="opacity:0.5">Search for all pages containing</span><div id="assbreak" /><span style="font-style:italic" class="query"></span>
+                    <div class="qtz-krypton">
+                      <div class="qtz-krypton-list" title=""></div>
+                      <div class="qtz-krypton-seafor" title="" style="display: none;">
+                        <span style="opacity:0.5">Search for all pages containing</span><div id="kypbreak" /><span style="font-style:italic" class="query"></span>
                       </div>
                     </div>
                   </div>
@@ -108,14 +110,14 @@
 
                 <!-- mobile search box -->
                   <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mobile-only">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="akn-searchbox-mobile"><i class="material-icons">search</i></label>
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="qtz-searchbox-mobile"><i class="material-icons">search</i></label>
                     <div class="mdl-textfield__expandable-holder">
-                      <input class="mdl-textfield__input" type="text" id="akn-searchbox-mobile" name="q" style="text-shadow: 0 0 4px black;">
+                      <input class="mdl-textfield__input" type="text" id="qtz-searchbox-mobile" name="q" style="text-shadow: 0 0 4px black;">
                       <label class="mdl-textfield__label"></label>
 
-                      <div class="akn-searchsuggestions">
-                      <div class="akn-searchsuggestions-list"></div>
-                      <div class="akn-searchsuggestions-seafor" style="display: none;">
+                      <div class="qtz-krypton">
+                      <div class="qtz-krypton-list"></div>
+                      <div class="qtz-krypton-seafor" style="display: none;">
                         <span style="opacity:0.5">Search for all pages containing</span><div id="assbreak" /><span style="font-style:italic" class="query"></span>
                       </div>
                     </div>
@@ -132,7 +134,7 @@
         {% endif %}
 
         {% if site.use-banner-in-drawer %}
-          <img src="{{ site.baseurl }}/{{ site.banner-path }}" title="KuroWiki" alt="KuroWiki banner" id="drawer-banner">
+          <img src="{{ site.baseurl }}/{{ site.banner-path }}" title="KuroWiki" alt="KuroWiki banner" id="qtz-drawer-banner">
         {% endif %}
     
         <nav class="mdl-navigation" style="margin-top: -3% !important;">
@@ -156,8 +158,8 @@
             <span class="material-icons">shuffle</span>&nbsp;&nbsp;&nbsp;Random page
           </a>
           {% if site.debug %}
-          <a class="mdl-navigation__link" href="{{ site.baseurl }}/Debug:Akane_Sandbox">
-            <span class="material-icons">inbox</span>&nbsp;&nbsp;&nbsp;The Akane Sandbox
+          <a class="mdl-navigation__link" href="{{ site.baseurl }}/Debug:Quartz_Sandbox">
+            <span class="material-icons">inbox</span>&nbsp;&nbsp;&nbsp;The Quartz Sandbox
           </a>
           {% endif %}
 
@@ -176,7 +178,7 @@
             </span>
             <br>
             <span id="drawer-version-info" style="font-size: smaller; line-height: 1.0;">
-                Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %})
+                Version {{ PNT_MAJOR }}.{{ PNT_MINOR }} (Build {{ PNT_BUILD }}{% if site.builddelta %}.{{ PNT_DELTA }}{% endif %})
             </span>
           </span>
         </nav>
@@ -186,7 +188,7 @@
       <main class="mdl-layout__content">
         <div class="box mdl-shadow--8dp">
           <div class="container" style="margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px">
-              <div class="hatnote" markdown="1">
+              <div class="qtz-hatnote" markdown="1">
               {{ page.hatnote | markdownify }}
             </div>
 
@@ -205,7 +207,7 @@
 		        </div>
 
             <!-- i have to find a better way -->
-            <script src="{{ site.baseurl }}/res/akn/js/toc.js"></script>
+            <script src="{{ site.baseurl }}/res/qtz/js/toc.js"></script>
 
           </div>
         </div>
@@ -214,7 +216,7 @@
           &nbsp;<br>
         </p>
 
-        {% include misc/springviewer.html %}      
+        {% include misc/cleveland.html %}      
 	
         {% assign privatewarning = "" %}
         {% if site.privatebuild %}
@@ -222,19 +224,19 @@
         {% endif %}
 
         {% if site.debug %}
-          <p id=watermark class="mdl-shadow--4dp">
-            &nbsp;{{ privatewarning }}Debug {{ site.productname }} {{ site.devphase }} Version {{ AKN_MAJOR }}.{{ AKN_MINOR }} (Build {{ AKN_BUILD }}{% if site.builddelta %}.{{ AKN_DELTA }}{% endif %}{% if site.buildlabex %}.{{ AKN_ID }}.{{ AKN_LAB }}.{{ AKN_TIMESTAMP }}{% endif %})&nbsp;
+          <p class=watermark class="mdl-shadow--4dp">
+            &nbsp;{{ privatewarning }}Debug {{ site.productname }} {{ site.devphase }} Version {{ PNT_MAJOR }}.{{ PNT_MINOR }} (Build {{ PNT_BUILD }}{% if site.builddelta %}.{{ PNT_DELTA }}{% endif %}{% if site.buildlabex %}.{{ PNT_ID }}.{{ PNT_LAB }}.{{ PNT_TIMESTAMP }}{% endif %})&nbsp;
           </p>
         {% endif %}
       </main>
     </div>
 
     <!-- scripts! -->
-    <script src="{{ site.baseurl }}/res/akn/js/random.js"></script>
-    <script src="{{ site.baseurl }}/res/akn/js/theme.js"></script>
+    <script src="{{ site.baseurl }}/res/qtz/js/random.js"></script>
+    <script src="{{ site.baseurl }}/res/qtz/js/theme.js"></script>
 
     {% if site.debug %}
-      <script src="{{ site.baseurl }}/res/akn/js/debug.js"></script>
+      <script src="{{ site.baseurl }}/res/qtz/js/debug.js"></script>
     {% endif %}
 
     

@@ -1,0 +1,38 @@
+---
+permalink: /robots.txt
+---
+
+# Axeon Quartz Helper for Robots
+# Version 1.0
+# Written by KitBlep on 2026-11-11 19:34 -06:00
+
+# block genai
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBox
+Disallow: /
+
+User-agent PerplexityBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+‍User-agent: Claude-Web
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+# we point to the sitemap made by jekyll-sitemap
+# for search crawlers to use
+Sitemap: https://axeon-network.github.io/kurowiki/sitemap.xml

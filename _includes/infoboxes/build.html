@@ -1,34 +1,34 @@
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.buildtag | default: "Untitled InfoBox" }}
 </div>
-<div class="infobox mdl-shadow--4dp">    
+<div class="qtz-infobox mdl-shadow--4dp">    
     {% if include.image %}
-    <div class="infobox-img-container">
-        <div class="infobox-img-caption">Build of {{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</div> <!-- we strip out the p items so it works fine-->
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" alt="{{ include.image_caption }}" class="infobox-img">
+    <div class="qtz-infobox-img-container">
+        <div class="qtz-infobox-img-caption">Build of {{ include.family | markdownify | remove_first: '<p>' | remove: '</p>' }}</div> <!-- we strip out the p items so it works fine-->
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" alt="{{ include.image_caption }}" class="qtz-infobox-img">
             {% if include.image_caption %}
-            <p class="infobox-img-caption-2">{{ include.image_caption | markdownify | remove_first: '<p>' | remove: '</p>' }}</p>
+            <p class="qtz-infobox-img-caption-2">{{ include.image_caption | markdownify | remove_first: '<p>' | remove: '</p>' }}</p>
             {% endif %}
         </div>
     {% endif %}
     {% if include.image2 %}
-    <div class="infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image2 }}" alt="{{ include.image2_caption }}" class="infobox-img">
+    <div class="qtz-infobox-img-container">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image2 }}" alt="{{ include.image2_caption }}" class="qtz-infobox-img">
             {% if include.image2_caption %}
-            <p class="infobox-img-caption-2">{{ include.image2_caption }}</p>
+            <p class="qtz-infobox-img-caption-2">{{ include.image2_caption }}</p>
             {% endif %}
         </div>
     {% endif %}
     {% if include.image3 %}
-    <div class="infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image3 }}" alt="{{ include.image3_caption }}" class="infobox-img">
+    <div class="qtz-infobox-img-container">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image3 }}" alt="{{ include.image3_caption }}" class="qtz-infobox-img">
             {% if include.image3_caption %}
-            <p class="infobox-img-caption-2">{{ include.image3_caption }}</p>
+            <p class="qtz-infobox-img-caption-2">{{ include.image3_caption }}</p>
             {% endif %}
         </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             {% if include.release_name %}
             <tr>

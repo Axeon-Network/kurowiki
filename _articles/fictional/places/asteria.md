@@ -1,0 +1,9 @@
+---
+title: Asteria
+permalink: Asteria
+redirect_from: Republic_of_Asteria
+---
+
+**Asteria**, officially the **Republic of Asteria**, is a fictional country in the *[Project Retriever](Project_Retriever)* version of <span title='Known as "The Americas" in the United States because somehow "America" means the USA when its one single continent. Just because you have "America" in the name does not give you such a name, if not then things like Mexico would be the United States too since its the United Mexican States, dumbasses.' style="text-decoration: dotted underline; cursor: help;">America</span>. It is bordered to the north by [Dunkan](Dunkan), [Elexia](Elexia) to the south, the Pacific Ocean by the west and the Atlantic Ocean by the east. It was founded in November 2002 as a merger of [NovaLand](NovaLand) and [Averia](Averia) following the [2002 NovaLandese coup d'état](2002_NovaLandese_coup_d'état) and the [Averian attacks of the same year](2002_Averian_attacks). Its [constitution](Constitution_of_Asteria) came into effect in January 2003 after the result of the [2003 Asteria congress elections](2003_Asteria_congress_elections), after being drafted for the former Republic of NovaLand in December of 2002.
+
+Its capital and largest city is [Phoenix](Phoenix), originally named *Fucking* in the Republic of NovaLand, before it was changed to *Phoenix* in the 2003 constitution. Other notable cities are [Callisto](Callisto), [Aether](Aether), and [Solaris](Solaris) (formerly *Ture*, *Jell*, and *Clashire* respectively). Aether is colloquially known as the "City of Commerce" due to its high GDP and commerce treaties, while Callisto and Solaris are known for their archaeological sites and monuments.

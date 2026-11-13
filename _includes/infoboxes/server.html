@@ -1,20 +1,20 @@
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.logo %}
-    <div class="infobox-logo-container">
-        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" class="infobox-logo">
+    <div class="qtz-infobox-logo-container">
+        <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" class="qtz-infobox-logo">
     </div>
     {% endif %}
     {% if include.srvicon %}
-    <div class="infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.srvicon }}" alt="{{ include.name }} logo" class="infobox-img delta-infobox-server-icon" style="max-width: 55%;">
-         <div class="infobox-img-caption">{{ include.name }} icon</div>
+    <div class="qtz-infobox-img-container">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.srvicon }}" alt="{{ include.name }} logo" class="qtz-infobox-img qtz-infobox-server-icon" style="max-width: 55%;">
+         <div class="qtz-infobox-img-caption">{{ include.name }} icon</div>
     </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             {% if include.formerly %}
             <tr>

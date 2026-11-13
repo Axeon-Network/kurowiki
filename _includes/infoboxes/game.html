@@ -1,21 +1,21 @@
-<div class="infobox-title">
+<div class="qtz-infobox-title">
     {{ include.name | default: "Untitled InfoBox" }}
 </div>
-<div class="infobox mdl-shadow--4dp">
+<div class="qtz-infobox mdl-shadow--4dp">
     {% if include.logo %}
-    <div class="infobox-logo-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" class="infobox-logo">
+    <div class="qtz-infobox-logo-container">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.logo }}" class="qtz-infobox-logo">
     </div>
     {% endif %}
 
     {% if include.screenshot %}
-    <div class="infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.screenshot }}" class="infobox-img delta-infobox-server-icon"> <!-- i dont CARE if its the server one, it works. -->
-         <div class="infobox-img-caption">{{ include.caption | default: 'Screenshot' | remove: '<p>' | remove: '</p>' | markdownify }}</div>
+    <div class="qtz-infobox-img-container">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.screenshot }}" class="qtz-infobox-img qtz-infobox-server-icon"> <!-- i dont CARE if its the server one, it works. -->
+         <div class="qtz-infobox-img-caption">{{ include.caption | default: 'Screenshot' | remove: '<p>' | remove: '</p>' | markdownify }}</div>
     </div>
     {% endif %}
 
-    <table class="infobox-data-table">
+    <table class="qtz-infobox-data-table">
         <tbody>
             {% if include.formerly %}
             <tr>

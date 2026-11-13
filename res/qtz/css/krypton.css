@@ -1,0 +1,155 @@
+/* 
+    Axeon Quartz "Krypton" Stylesheet File
+    Written by KitSixtyFour/SnowyBiFox
+    Copyright 2025-2026 Axeon Network
+    
+    Licensed under the MIT License, which is included below:
+    Copyright 2025-2026 Axeon Network
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy 
+    of this software and associated documentation files (the “Software”), to deal 
+    in the Software without restriction, including without limitation the rights 
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+    of the Software, and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
+    The above copyright notice and this permission notice shall be included in all copies 
+    or substantial portions of the Software.
+    THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+    INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+    PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+    FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+    OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.
+*/
+
+/*  you see, this search suggestions thing has a little catch,
+    you may see it using Material Design now.
+    
+    try unloading 'materialdesignlite.css'. it will use a more raw look!
+    i did this so it automatically adapts to Cairo SelfHosted, you're welcome :3
+*/
+.qtz-krypton {
+    position: absolute;
+    background-color: var(--modal-background);
+    border-top: none;
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    max-height: 500px;
+    cursor: context-menu;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-color) !important;
+}
+
+.qtz-krypton-item {
+    border: 1px solid var(--card-border-color) !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    
+    padding-top: 1px !important;;
+    padding-bottom: 1px !important;
+}
+.qtz-krypton-item:first-child {
+    border-top: 1px solid var(--card-border-color) !important;
+    padding-top: 0px !important;
+}
+.qtz-krypton-seafor {
+    border: 1px solid var(--card-border-color) !important;
+    padding-top: 0px !important;;
+    padding-bottom: 0px !important;
+}
+
+.qtz-krypton.is-visible {
+    display: flex;
+}
+
+.qtz-krypton-item,
+.qtz-krypton-seafor {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    cursor: default;
+    font-size: 13px;
+    line-height: 1.5em;
+    padding: 0.01em 0.25em;
+    text-shadow: none;
+    text-align: left;
+    display: block;
+}
+
+
+.qtz-krypton-item:hover, 
+.qtz-krypton-seafor:hover,
+.qtz-krypton-item:focus {
+    background-color: var(--search-hover);
+    color: white !important;
+}
+
+.qtz-krypton-item:hover, 
+.qtz-krypton-seafor:hover {
+    cursor:pointer;
+}
+
+.qtz-krypton-item:hover, 
+.qtz-krypton-seafor:hover {
+    background-color: var(--search-hover);
+    border: 1px solid #325aab !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.qtz-krypton-item:active {
+    background-color: var(--search-active);
+    border: 1px solid #213c73 !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.qtz-krypton-seafor:active {
+    background-color: var(--search-active);
+    border: 1px solid #213c73 !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.qtz-krypton-item:active span, .qtz-krypton-seafor:active span {
+    opacity: 0.6 !important;
+}
+
+.qtz-krypton-seafor {
+    border-bottom: none;
+    background-color: var(--modal-background);
+    border-top: 1px solid var(--card-border-color);
+    text-shadow: none !important;
+    text-align: left;
+    padding: 0.01em 0.25em;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 1px;
+}
+/* stupid thing */
+.container .qtz-krypton a.qtz-krypton-item,
+.container .qtz-krypton .qtz-krypton-seafor {
+    color: var(--text-color) !important;
+}
+.container .qtz-krypton a.qtz-krypton-item:hover,
+.container .qtz-krypton .qtz-krypton-seafor:hover,
+.qtz-krypton-seafor:hover span,
+.container .qtz-krypton .qtz-krypton-seafor:hover span {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+/*
+Why do you write like you're running out of time?
+Why do you fight like history has its eyes on you
+
+I am not throwin' away my shot (just you wait)
+I am not throwin' away my shot (just you wait)
+I am Alexander Hamilton!
+
+Hamilton, just you wait!
+I am not throwin' away my shot!
+(Boom!)
+*/
