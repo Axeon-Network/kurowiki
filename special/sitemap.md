@@ -12,9 +12,10 @@ pagination:
 ---
 
 This page contains a directory listing of all articles in this wiki arranged in alphabetical order.<br>
-There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}are{% endif %} {% if site.articles.size > 1 %}<b>{{ site.articles.size }}</b>{% endif %}{% if site.articles.size < 1 %}no{% endif %} {% if site.articles.size < 2 %}article{% endif %}{% if site.articles.size > 1 %}articles{% endif %}{% if site.articles.size < 1 %}articles{% endif %} in total.
+There {% if site.articles.size < 2 %}is{% endif %}{% if site.articles.size > 1%}are{% endif %} {% if site.articles.size > 1 %}<b>{{ site.articles.size }}</b>{% endif %}{% if site.articles.size < 1 %}no{% endif %} {% if site.articles.size < 2 %}article{% endif %}{% if site.articles.size > 1 %}articles{% endif %}{% if site.articles.size < 1 %}articles{% endif %} {% if site.articles.size > 1 %}in total.{% endif %}{% if site.articles.size > 1 %}in this wiki.{% endif %}
 
 <!-- cant use markdown no more -->
+<!-- ??? -->
 
 {% assign paginator_posts = paginator.posts %}
 {% assign start_index = paginator.page | minus: 1 | times: paginator.per_page | plus: 1 %}

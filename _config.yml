@@ -16,7 +16,7 @@ productname: "Axeon Quartz Software Code Name \"Cairo\""
 author: Axeon Network
 
 # Copyright year(s)
-copyyear: "2025-2026"
+copyyear: "2025–2026"
 
 # The text used in embeds, like Discord.
 description: "Axeon KuroWiki Silver"
@@ -66,7 +66,7 @@ home_desc: "This is the home page for KuroWiki. An online encyclopedia about the
 
 # == DEVELOPER & DEBUG ==
 # The phase of Delta/Kuro's development track.
-devphase: Silver Developer Beta
+devphase: Developer Silver Release
 # Short version, used in drawer if nedecesary
 devphase-s: Silver 
 # ID for dev builds

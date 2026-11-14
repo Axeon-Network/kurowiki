@@ -51,7 +51,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     puts "Axeon Quartz Software Code Named \"Cairo\" (#{type}) [Version #{major}.#{minor}.#{prevBUILD}.#{prevDELTA}]"
     puts "              (C) 2025-2026 Axeon Network. All Rights Reserved.\n"
     puts ""
-    puts "Axeon Panther Version Tracker Utility [Version 4.0.5200]"
+    puts "Axeon Panther Version Tracker Utility [Version 4.0.5400]"
     puts "              (C) 2026 Axeon Network."
     puts "              Written by KitSixtyFour for the Axeon Network.\n\n"
     $axeon_banner_shown = true
