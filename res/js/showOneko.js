@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const storageKey = 'onekoEnabled';
+    const storageKey = 'IsOnekoEnabled';
     const scriptId = 'onekoTag';
     const scriptSrc = './res/js/oneko.js';
 

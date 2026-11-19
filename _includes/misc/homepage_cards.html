@@ -10,10 +10,7 @@
         <div id="feat-article-container" style="color:var(--text-color);padding:0;">
           
           {% assign current_date_slug = "now" | date: "%Y%m" %}
-          {% assign featured_page = nil %}
-          {% if site.data.featured and site.data.featured[current_date_slug] %}
-            {% assign featured_page = site.data.featured[current_date_slug] %}
-          {% endif %}
+          {% assign featured_page = site.featured | where: "slug", current_date_slug | first %}
 
           {% if featured_page %}
             <h1 style="margin-top:0;margin-bottom:0;"><a href="{{ featured_page.article_url }}">{{ featured_page.name }}</a></h1>
@@ -133,35 +130,23 @@
     </div>
   </div>
 
-  {% comment %} Recent News sits cleanly in its own wrapper block below {% endcomment %}
   <div class="recent-news qtz-card-can-has-transparency demo-card-wide mdl-card mdl-shadow--2dp">
     <div class="mdl-card__title">
       <i class="material-icons">newspaper</i><h2 class="mdl-card__title-text">&nbsp;&nbsp;Recent news</h2>
     </div>
     <div class="mdl-card__supporting-text" style="opacity:1;">
       <div style="color:var(--text-color);padding:0;">
-        {% assign news_array = "" | split: "" %}
-        {% if site.data.news %}
-          {% for pair in site.data.news %}
-            {% assign news_array = news_array | push: pair[1] %}
-          {% endfor %}
-        {% endif %}
-
-        {% if news_array.size > 0 %}
-          {% assign sorted_news = news_array | sort: "date" | reverse %}
-          {% for item in sorted_news %}
-            {% unless item.disabled == true %}
-              <details markdown="1" {% if item.default == true %}open{% endif %}>
+        {% assign news_items = site.news | sort: "date" | reverse %}
+        {% for item in news_items %}
+          {% unless item.disabled == true %}
+           <details {% if item.default == true %}open{% endif %}>
               <summary>{{ item.title }}</summary>
               {{ item.content }}
-              </details>
-            {% endunless %}
-          {% endfor %}
-        {% endif %}
-        
+            </details>
+          {% endunless %}
+        {% endfor %}
         <p style="text-align: right;">Looking for older news reports? Click <a href="{{ site.baseurl }}/Special:Legacy_News_Reports">here</a>!</p>
       </div>
     </div>
   </div>
-
 </div>

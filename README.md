@@ -8,7 +8,7 @@
 </div>
 
 **This is the source code for KuroWiki**, an online encyclopedia built from the ground up with its own engine (we call it *Quartz*!)\
-Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *AveryEclipse*!)
+Its main topic of focus centres around stuff of the Axeon Network and some of its admins (*KitSixtyFour* and *avyneko*!)
 
 > [!NOTE]
 > Looking for the engine that powers KuroWiki? Head out to the [Quartz](https://github.com/Axeon-Network/Quartz) repository!

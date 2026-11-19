@@ -239,8 +239,11 @@
       <script src="{{ site.baseurl }}/res/qtz/js/debug.js"></script>
     {% endif %}
 
+    <script>
+      window.baseUrl = "{{ site.baseurl }}";
+    </script>
     
-    <!-- showOneko.js file - it has not been decided yet if it should be part of deltari or just kuro-specific -->
+    <!-- specific to kuro -->
     <script src="{{ site.baseurl }}/res/js/showOneko.js"></script>
   </body>
 </html>

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let globalSearchIndex = [];
     
-    fetch('.../res/qtz/articleindex.json')
+    fetch(`${window.baseUrl}/res/qtz/articleindex.json`)
         .then(response => response.json())
         .then(data => { globalSearchIndex = data; })
         .catch(err => console.error("[Krypton] Cannot load search index. Search suggestions will fail to load.\n", err));
