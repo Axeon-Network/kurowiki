@@ -24,11 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     searchSetups.forEach(({ input, container, list, fallback, fallbackQuery }) => {
         if (!container) return;
-
-        // Tracks the currently highlighted index:
-        // -1 = Search input box active
-        // 0 to N-1 = Suggestion items
-        // N = "Search for all pages containing..." fallback option
         let selectedIndex = -1;
 
         function getAllNavigableElements() {
@@ -76,43 +71,53 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchedItems = [];
 
             globalSearchIndex.forEach(item => {
-                const title = (item.title || '').toLowerCase();
-                const titleAcronym = title.match(/\b(\w)/g)?.join('') || '';
-                
-                // extract only the first sentence text for searching to avoid false positives
-                const rawSnippetText = (item.snippet || '').replace(/<[^>]*>/g, ''); 
-                let firstSentence = rawSnippetText;
-                
-                for (let i = 0; i < rawSnippetText.length; i++) {
-                    if (rawSnippetText[i] === '.') {
-                        const isDecimal = (i > 0 && i < rawSnippetText.length - 1) && 
-                                          (rawSnippetText[i - 1] >= '0' && rawSnippetText[i - 1] <= '9') && 
-                                          (rawSnippetText[i + 1] >= '0' && rawSnippetText[i + 1] <= '9');
-                        
-                        if (!isDecimal) {
-                            firstSentence = rawSnippetText.substring(0, i + 1);
-                            break;
+                try {
+                    const title = (item.title || '').toLowerCase();
+                    const titleAcronym = title.match(/\b(\w)/g)?.join('') || '';
+                    const redirects = (item.redirect_from ? (Array.isArray(item.redirect_from) ? item.redirect_from : [item.redirect_from]) : []
+                        ).map(url => url.toLowerCase().replace(/^\/|\/$/g, ''));
+
+                    // extract only the first sentence text for searching to avoid false positives
+                    const rawSnippetText = (item.snippet || '').replace(/<[^>]*>/g, '');
+                    let firstSentence = rawSnippetText;
+
+                    for (let i = 0; i < rawSnippetText.length; i++) {
+                        if (rawSnippetText[i] === '.') {
+                            const isDecimal = (i > 0 && i < rawSnippetText.length - 1) &&
+                                (rawSnippetText[i - 1] >= '0' && rawSnippetText[i - 1] <= '9') &&
+                                (rawSnippetText[i + 1] >= '0' && rawSnippetText[i + 1] <= '9');
+                            if (!isDecimal) {
+                                firstSentence = rawSnippetText.substring(0, i + 1);
+                                break;
+                            }
                         }
                     }
-                }
-                const cleanSearchText = firstSentence.toLowerCase();
+                    const cleanSearchText = firstSentence.toLowerCase();
 
-                // All words must be satisfied somewhere within the title, acronym, or first sentence text
-                const isMatch = queryWords.every(word => {
-                    return title.includes(word) || cleanSearchText.includes(word) || titleAcronym.includes(word);
-                });
+                    // check if the query matches a page title or redirect
+                    // and if present, boot straight into page instead of search results
+                    const isMatch = (queryWords.every(word => {
+                        return title.includes(word) || cleanSearchText.includes(word) || titleAcronym.includes(word);
+                    })) || redirects.some(redirect => queryWords.every(word => redirect.includes(word)));
 
-                if (isMatch) {
-                    let score = 0;
-                    if (queryWords.every(word => title.includes(word))) {
-                        score = 2; 
-                    } else if (queryWords.every(word => titleAcronym.includes(word))) {
-                        score = 1;
+                    // titles of actual pages take priority over redirects, as they should :p
+                    if (isMatch) {
+                        let score = 0;
+                        if (queryWords.every(word => title.includes(word))) {
+                            score = 3; 
+                        } else if (queryWords.every(word => titleAcronym.includes(word))) {
+                            score = 2;
+                        } else if (redirects.some(redirect => queryWords.every(word => redirect.includes(word)))) {
+                            score = 1;
+                        }
+                        matchedItems.push({ item: item, score: score });
                     }
-                    matchedItems.push({ item: item, score: score });
+                } catch (err) {
+                    console.error("[Krypton] Cannot generate search results. Search suggestions will fail to load.\n", err);
                 }
             });
 
+            // actually display suggestions
             matchedItems.sort((a, b) => b.score - a.score);
             const matches = matchedItems.map(wrapper => wrapper.item).slice(0, 8);
 
@@ -176,48 +181,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
-
-        fallback.addEventListener('click', () => {
-            input.closest('form').submit();
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!input.contains(e.target) && !container.contains(e.target)) {
-                container.classList.remove('is-visible');
-            }
-        });
-        
-        input.addEventListener('focus', () => {
-            if (input.value.trim() && (list.children.length > 0 || fallback.style.display === 'none' === false)) {
-                container.classList.add('is-visible');
-            }
-        });
-
-        const form = input.closest('form');
-        if (form) {
-            form.addEventListener('submit', (e) => {
-                const firstItem = list.querySelector('.qtz-krypton-item');
-                if (firstItem) {
-                    e.preventDefault();
-                    window.location.href = firstItem.href;
-                    return;
-                }
-
-                const query = input.value.toLowerCase().trim();
-                
-                // check if query matches a page title or handle redirects if present in JSON index
-                const exactMatch = globalSearchIndex.find(item => 
-                    (item.title && item.title.toLowerCase().trim() === query) ||
-                    (item.redirect && item.redirect.toLowerCase().trim() === query)
-                );
-            
-                // boot into page if query matches title or redirect
-                if (exactMatch) {
-                    e.preventDefault();
-                    window.location.href = exactMatch.url;
-                }
-            });
-        }
     });
 });
 

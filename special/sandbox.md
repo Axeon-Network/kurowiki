@@ -23,6 +23,22 @@ theprefix=true
 %}
 
 
+# Menu
+<!-- Left aligned menu below button -->
+<button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
+  <i class="material-icons">more_vert</i>
+</button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu"
+    for="demo-menu-lower-left">
+  <li class="mdl-menu__item">Some Action</li>
+  <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">Another Action</li>
+  <li disabled class="mdl-menu__item">Disabled Action</li>
+  <li class="mdl-menu__item">Yet Another Action</li>
+</ul>
+
+
 # "Silver"/"Amber"
 {% include items/articleseries.html
 mainarticle='[Microsoft Windows NT](https://betawiki.net/wiki/Windows_NT)'

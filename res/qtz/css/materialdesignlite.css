@@ -37,6 +37,7 @@ html {
     --mdlcard-background-color-dark: #424242;
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
+    --search-hover-dark: rgba(0, 0, 0, 0.6);
     --card-border-color-dark: #555555;
 
     /* light mode */
@@ -45,6 +46,7 @@ html {
     --mdlcard-background-color-light: white;
     --drawer-color-light: rgb(246, 246, 246,0.8); /* microsoft windows ninety eiiight! :3 */
     --navhoverlink-light: rgba(230,230,230,1);
+    --search-hover-light: rgba(230,230,230,1);
     --card-border-color-light: #dfdfdf;
 
     /* button status */
@@ -59,6 +61,7 @@ html {
     --mdlcard-background-color: var(--mdlcard-background-color-dark);
     --drawer-color: var(--drawer-color-dark);
     --navhoverlink: var(--navhoverlink-dark);
+    --search-hover: var(--search-hover-dark) !important;
     --card-border-color: var(--card-border-color-dark);
 }
 
@@ -68,6 +71,7 @@ html.light-mode {
     --mdlcard-background-color: var(--mdlcard-background-color-light);
     --drawer-color: var(--drawer-color-light);
     --navhoverlink: var(--navhoverlink-light);
+    --search-hover: var(--search-hover-light) !important;
     --card-border-color: var(--card-border-color-light);
 }
 
@@ -377,3 +381,29 @@ form .mdl-textfield.desktop-only #qtz-searchbox, form .mdl-textfield.desktop-onl
 }
 
 .mdl-layout__drawer-button {text-shadow: 0px 0px 6px rgba(0,0,0,.7)}
+
+/* search suggestions (krypton) */
+.qtz-krypton {
+    background-color: var(--drawer-color) !important;
+    backdrop-filter: blur(15px);
+    color: var(--text-color) !important;
+}
+
+.qtz-krypton-item,
+.qtz-krypton-seafor {
+    padding: 8px 12px !important;
+}
+
+.qtz-krypton-seafor {
+    background-color: transparent !important;
+}
+
+.qtz-krypton-item:hover,
+.qtz-krypton-seafor:hover,
+.qtz-krypton-item:focus,
+.qtz-krypton-seafor:focus,
+.qtz-krypton-item:active,
+.qtz-krypton-seafor:active {
+   background-color: var(--search-hover) !important;
+   box-shadow: none !important;
+}

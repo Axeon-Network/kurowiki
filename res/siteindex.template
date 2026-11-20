@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /res/qtz/articleindex.json
-version: 2.0
+version: 2.1
 ---
 [
   {% assign all_items = site.articles | concat: site.posts %}
@@ -13,6 +13,7 @@ version: 2.0
       {
         "title": {{ item.title | jsonify }},
         "url": {{ item.url | absolute_url | jsonify }},
+        "redirect_from": {{ item.redirect_from | jsonify }},
         "raw_html": {{ item.content | markdownify | jsonify }},
         "isTitleItalic": {% if item.isTitleItalic %}true{% else %}false{% endif %}
       }
