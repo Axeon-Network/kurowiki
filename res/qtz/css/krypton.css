@@ -107,7 +107,6 @@
 
 .qtz-krypton-seafor {
     border-bottom: none;
-    background-color: var(--modal-background);
     border-top: 1px solid var(--card-border-color);
     text-shadow: none !important;
     text-align: left;

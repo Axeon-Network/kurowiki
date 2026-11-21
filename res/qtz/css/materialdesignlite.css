@@ -34,7 +34,7 @@ html {
     /* dark mode */
     --contentbox-background-color-dark: rgba(0,0,0,0.48);
     --search-background-color-dark: rgba(50,50,50,0.5);
-    --mdlcard-background-color-dark: #424242;
+    --box-color-dark: rgba(8, 8, 8, 0.3);
     --drawer-color-dark: rgba(0, 0, 0, 0.5);
     --navhoverlink-dark: rgba(0, 0, 0, 0.6);
     --search-hover-dark: rgba(0, 0, 0, 0.6);
@@ -43,7 +43,7 @@ html {
     /* light mode */
     --contentbox-background-color-light: rgba(248,248,248,0.73);
     --search-background-color-light: white;
-    --mdlcard-background-color-light: white;
+    --box-color-light: rgba(255, 255, 255, 0.75);
     --drawer-color-light: rgb(246, 246, 246,0.8); /* microsoft windows ninety eiiight! :3 */
     --navhoverlink-light: rgba(230,230,230,1);
     --search-hover-light: rgba(230,230,230,1);
@@ -58,7 +58,7 @@ html {
 html {
     --contentbox-background-color: var(--contentbox-background-color-dark);
     --search-background-color: var(--search-background-color-dark);
-    --mdlcard-background-color: var(--mdlcard-background-color-dark);
+    --box-color: var(--box-color-dark);
     --drawer-color: var(--drawer-color-dark);
     --navhoverlink: var(--navhoverlink-dark);
     --search-hover: var(--search-hover-dark) !important;
@@ -68,7 +68,7 @@ html {
 html.light-mode {
     --contentbox-background-color: var(--contentbox-background-color-light);
     --search-background-color: var(--search-background-color-light);
-    --mdlcard-background-color: var(--mdlcard-background-color-light);
+    --box-color: var(--box-color-light);
     --drawer-color: var(--drawer-color-light);
     --navhoverlink: var(--navhoverlink-light);
     --search-hover: var(--search-hover-light) !important;
@@ -394,10 +394,6 @@ form .mdl-textfield.desktop-only #qtz-searchbox, form .mdl-textfield.desktop-onl
     padding: 8px 12px !important;
 }
 
-.qtz-krypton-seafor {
-    background-color: transparent !important;
-}
-
 .qtz-krypton-item:hover,
 .qtz-krypton-seafor:hover,
 .qtz-krypton-item:focus,
@@ -406,4 +402,10 @@ form .mdl-textfield.desktop-only #qtz-searchbox, form .mdl-textfield.desktop-onl
 .qtz-krypton-seafor:active {
    background-color: var(--search-hover) !important;
    box-shadow: none !important;
+}
+
+.qtz-tableofcontents,
+.qtz-download-box-item {
+    background-color: var(--box-color) !important;
+    backdrop-filter: blur(15px);
 }

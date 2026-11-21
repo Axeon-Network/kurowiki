@@ -1,6 +1,6 @@
 /* 
     Axeon Quartz Download Box Stylesheet
-    Written by KitSixtyFour/SnowyBiFox
+    Written by Avyneko and KitSixtyFour/SnowyBiFox
     Copyright 2025-2026 Axeon Network
    
     Licensed under the MIT License, which is included below:
@@ -27,17 +27,17 @@ Hamilton at the Constitutional Convention!
 I was chosen for the Constitutional Convention!!
 */
 
-.qtz-download-box-item,
-.qtz-download-box-item .mdl-card {
-    width: 330px;
-    background-color: var(--mdlcard-background-color);
-    color: var(--text-color);
-    min-height: 0;
+.qtz-download-box-item {
+    padding: 16px 50px;
+    width: fit-content;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
 }
 
 .qtz-download-box-item h6 {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
     color: var(--title-color);
+    inline-size: 350px;
+    overflow-wrap: break-word;
+    margin: 0;
 }

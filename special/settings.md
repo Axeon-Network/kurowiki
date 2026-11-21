@@ -1,6 +1,6 @@
 ---
 title: Settings
-permalink: ./Special:Settings
+permalink: ./Settings
 search_exclude: true
 ---
 

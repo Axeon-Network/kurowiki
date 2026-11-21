@@ -10,19 +10,24 @@ dyk:
     caption='%iKBLULTGT2% visible in the Windows 7 Device Manager.' 
     %}
 
-**%iKBLULTGT2%** is the name for an Intel HD Graphics driver modded to work under Windows 7 and Windows 8 on [NishiLappy](NishiLappy) (Dell Latitude 3380), which uses a 7th generation Intel CPU (codenamed *Kaby Lake*), which officially delibrately does not support any version of Windows that's not Windows 10.
+**%iKBLULTGT2%** is the name of an Intel HD Graphics driver modded to work under Windows 7 and Windows 8 on [NishiLappy](NishiLappy) (Dell Latitude 3380), which uses a 7th generation Intel CPU (codenamed *Kaby Lake*), which delibrately does not officially support any version of Windows that's not Windows 10.
 
-While official Windows 7 drivers do exist for the Latitude 3380, no official integrated graphics driver has been found to work[^1], leading to this.
+While official Windows 7 drivers do exist for the Latitude 3380, no official integrated graphics driver has been found to work,[^1] leading to this mod.
 
-The name is the product of the "`iKBLULTGT2`" variable inside the `[Localizable Strings]` section of the driver's .inf file being left out, leading to the full vaiable being used as a name instead. Adding "`iKBLULTGT2 = Intel(R) HD Graphics 620`" to the aforementioned section correctly displays the device *as Intel(R) HD Graphics 620*.
-
-The fixed version of the driver is available for download and can be downloaded at [drive.google.com/file/d/1Qr2s_nLVZHMsDcgwY3aRLlj0REso_rVl/view?usp=sharing](https://drive.google.com/file/d/1Qr2s_nLVZHMsDcgwY3aRLlj0REso_rVl/view?usp=sharing).
+The name is the product of the "`iKBLULTGT2`" variable inside the `[Localizable Strings]` section of the driver's .inf file being left out, leading to the full variable being used as a name instead. Adding "`iKBLULTGT2 = Intel(R) HD Graphics 620`" to the aforementioned section correctly displays the device *as Intel(R) HD Graphics 620*.
 
 The variable's name meaning has been decoded as follows:
 - `i` = Intel
 - `KBL` = Kaby Lake
 - `ULT` = Ultra Low Power (also known as the U-series)
 - `GT2` = Graphics Technology level 2
+
+The fixed version of the driver is available for download below:
+
+{% include items/download.html
+  name="15.45.5174_en-us_win64_intel-graphics-installer_ihdg620-win7.zip"
+  src="https://drive.google.com/file/d/1Qr2s_nLVZHMsDcgwY3aRLlj0REso_rVl/view"
+%}
 
 # Notes
 [^1]: The official Dell driver pack includes a driver for the *Graphics 520* for 6th generation Intel CPUs (codenamed *Skylake*), leading to the driver not installing under NishiLappy.
