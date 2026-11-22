@@ -23,10 +23,10 @@ image='stuffywebsitefeb24/home.png'
 successor='*[Stuffy\'s Website](Stuffy\'s_Website_(June_2024))* <small>(as a rewrite)</small>'
 %}
 
-***Stuffy's Website***, also known as ***Stuffy's Website, version 0.1*** or ***LM Stuffy Website*** to differentiate it from [the remake of the same name](Stuffy's_Website_(June_2024)), was a website initially planned to serve as [KitSixtyFour](KitSixtyFour)'s personal website. Initial development can be traced back to February 2024, but most of it took place from April to May. Work was finished not long after but the website became lost media before it was even published due to a backup failure. A demo video was uploaded to [StuffyXP Extras](StuffyXP#stuffyxp-extras) in May 2024.
+***Stuffy's Website***, also known as ***Stuffy's Website, version 0.1*** or ***LM Stuffy Website*** to differentiate it from [the remake of the same name](Stuffy's_Website_(June_2024)), was a website initially planned to serve as [KitSixtyFour](KitSixtyFour)'s personal website. Initial development can be traced back to February 2024, but most of it took place in April and May. Work was finished not long after but the website became lost media before it was even published due to a backup failure. A demo video was uploaded to [StuffyXP Extras](StuffyXP#stuffyxp-extras) in May 2024.
 
 # Layout
-*Stuffy's Website* uses a basic layout with a simple text-only navigation bar on the top to various pages. The website uses the Bulma CSS framework, with some of the elements inspired from [KayAurora](KayAurora)'s *[LynxWebsite](LynxWebsite)*. Essentially speaking, the layout is similar to late 2024's *[StuffyXP Website](StuffyXP_Website)* except more barebones.
+*Stuffy's Website* uses a basic layout with a simple text-only navigation bar on the top to various pages. The website uses the Bulma CSS framework, with some elements inspired from [AvyNeko](AvyNeko)'s *[LynxWebsite](LynxWebsite)*. Essentially speaking, the layout is similar to late 2024's *[StuffyXP Website](StuffyXP_Website)* except more barebones.
 
 Additionally, this is the only project of Kit to automatically change backgrounds based on what page is viewed. A similar feature was re-introduced with StuffyXP Website, swapping favicons instead, and the layout for blogs uses a background different to the rest of the pages, Crystal instead of Red moon desert, both originating from Windows XP.
 
@@ -38,7 +38,7 @@ The website was KitSixtyFour's first webdev related project, and what they learn
 ## Becoming lost media
 In late May 2024, this website's source code (along with one *[Stuffy's Tech Misadventures](Stuffy's_Tech_Misadventures)* episode and other files) had become lost media, having been backed up on a DVD which ended up unrecognized by Windows 7's File Explorer, as Windows Vista's File Explorer (where it was backed up from) did not successfully write the files to the disc.
 
-It is notable to know that parts of the code have been sent in various Discord servers Kit was in, including their own [Stuffy's Place](Stuffy's_Place), in order to get the help building this website. Based on this code, and public screenshots/footage, the website could be theoretically reconstructed. However, at this point in development, [it was decided to be remade instead](Stuffy's_Website).
+It is notable to know that parts of the code have been sent in various Discord servers Kit was in, including their own [Stuffy's Place](Stuffy's_Place), in order to get the help building this website. As such, the website could theoretically be reconstructed based on this code, with the help of public screenshots/footage as well. Nonetheless, it was decided to [remake the website from scratch instead](Stuffy's_Website).
 
 # Gallery
 The following images were taken from a build dated 10 May 2024. These are screenshots from the video uploaded to *StuffyXP Extras*.

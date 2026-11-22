@@ -7,7 +7,16 @@ redirect_from:
 hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 
-**Axeon Quartz** (formerly Axeon Akane, Axeon Deltari, the KuroWiki Engine, LexWiki Engine, and HoriWiki Engine) is a free and open source (FOSS) encyclopedia engine built and developed by the [Axeon Network](Axeon_Network). It is primarily used in [KuroWiki](KuroWiki), but it can be used by anyone for their own personal use. Its source code is licensed under Creative Commons Share-Alike 4.0 International, and can be viewed over at [github.com/Axeon-Network/Quartz](https://github.com/Axeon-Network/Quartz).
+{% include items/articleseries.html
+mainarticle='[Axeon Network](Axeon_Network)'
+category1name='Projects'
+category1='[Quartz](Quartz) ([KuroWiki](KuroWiki)・[Quartz Meta](Quartz_Meta))・[Orchid](Orchid)・[Panther](Panther)・[Other](Axeon_Network#Other_projects)'
+category2name='Websites'
+category2='AxeonWebsite ([2025](AxeonWebsite_(2025))・[original](AxeonWebsite_(original_release)))'
+theprefix=true
+%}
+
+**Axeon Quartz**[^1] is a free and open source (FOSS) encyclopedia engine built and developed by the [Axeon Network](Axeon_Network). It is primarily used in [KuroWiki](KuroWiki), but it can be used by anyone for their own personal use. Its source code is licensed under Creative Commons Share-Alike 4.0 International, and can be viewed over at [github.com/Axeon-Network/Quartz](https://github.com/Axeon-Network/Quartz).
 
 The Quartz engine was created by [KitSixtyFour](KitSixtyFour) in May 2025 following the rejection of a request for a Miraheze-based wiki, which shorly began the development of [KuroWiki](KuroWiki) (known back-then as *HoriWiki*) and its engine.
 
@@ -35,3 +44,6 @@ The wiki itself mainly provides documentation and other useful information about
         style="width:40%; height:auto" %}
 </gallery>
 <!-- todo: change to an updated homepage -->
+
+# Notes
+[^1]: Formerly known as **Axeon Akane**, **Axeon Deltari**, the **KuroWiki Engine**, the **LexWiki Engine**, and the **HoriWiki Engine**.

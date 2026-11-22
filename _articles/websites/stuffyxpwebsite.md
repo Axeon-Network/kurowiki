@@ -16,10 +16,10 @@ initialVersionReleaseDate='16 September 2024'
 currentVersion='[2.1.2.2100.main.250212-0923](StuffyXP_Website_build_2100)'
 currentVersionReleaseDate='12 February 2025'
 sourceModel='Open source'
-repoLink='[snowybifox/stuffyxp-website](https://github.com/snowybifox/stuffyxp-website)'
+repoLink='[marshallkitblep/stuffyxp-website](https://github.com/marshallkitblep/stuffyxp-website)'
 repoHost='GitHub'
 status='Source code archived; website accessible'
-link='[snowybifox.github.io/stuffyxp-website](https://snowybifox.github.io/stuffyxp-website)'
+link='[marshallkitblep.github.io/stuffyxp-website](https://marshallkitblep.github.io/stuffyxp-website)'
 image='stxpwebsite2100/home.png'
 image_caption='Home page'
 logo='stuffyxp/wordmar.png'
@@ -35,7 +35,7 @@ Many features and overall structured were ported and/or rewritten to the website
 
 The site was succedded by the *[Horibyte Website](HoriWebsite)* (now *HoriWebsite*) in January 2025 following the StuffyXP-Horibyte identity split, where Kit's personal alias was re-branded from StuffyXP to Horibyte, splitting the channel and the person behind it. Although *HoriWebsite* was written from scratch, many features were ported to the site, like the Downloads page, social boxes and even the blog index.
 
-The site's repository was archived on 3 February 2025, while the website can still be viewed to this day at [snowybifox.github.io/stuffyxp-website](https://snowybifox.github.io/stuffyxp-website).
+The site's repository was archived on 3 February 2025, while the website can still be viewed to this day at [marshallkitblep.github.io/stuffyxp-website](https://marshallkitblep.github.io/stuffyxp-website).
 
 # List of known builds
 ## Original release

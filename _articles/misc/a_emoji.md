@@ -22,6 +22,41 @@ It is one of the earliest Kit memes, introduced in December 2023[^1], along with
 Since its formal introduction in January 2024, the A Emoji has made a significant impact in many projects, even outside the [Axeon Network](Axeon_Network). It has been featured in many [AstroNT](AstroNT) videos, [Axeon Whidbey](Whidbey), and many others. A parody of the Intel Core 2 Duo, [Intel Core A Duo](Intel_Core_A_Duo), based on this meme, was created in 28 July 2026.
 
 # Gallery
+## Featured in AstroNT
+<gallery>
+    {% include items/gallery.html 
+        image_src="a_emoji/a_8store.png" 
+        caption="An A Emoji drawn in *[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_Windows_Store_in_Windows_8.1)*."
+        author='AvyNeko' %}
+
+    {% include items/gallery.html 
+        image_src="a_emoji/a_explorerex.png" 
+        caption="An A Emoji drawn in *[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))*."
+        author='AvyNeko' %}
+
+    {% include items/gallery.html 
+        image_src="a_emoji/a_nishilecat.png" 
+        caption="An A Emoji drawn in *[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*."
+        author='KitSixtyFour' %}
+    
+    {% include items/gallery.html 
+        image_src="a_emoji/a_chromeosflex.png" 
+        caption="An A Emoji drawn on the Chrome Canvas application in *[ChromeOS Flex on an \"Uncertified\" HP Laptop](ChromeOS_Flex_on_an_\"Uncertified\"_HP_Laptop)*."
+        author='AvyNeko' %}
+    
+    {% include items/gallery.html 
+        image_src="a_emoji/a_swappingetcs.png" 
+        caption="An A Emoji drawn on GIMP in *[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*."
+        author='KitSixtyFour' %}
+    
+    {% include items/gallery.html 
+        image_src="a_emoji/a_mp98.png" 
+        caption="An A Emoji drawn on Krita in *[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*."
+        author='AvyNeko' %}
+    
+</gallery>
+
+## Others
 <gallery>
     {% include items/gallery.html 
         image_src="a_emoji/a_win1.png" 
@@ -44,37 +79,7 @@ Since its formal introduction in January 2024, the A Emoji has made a significan
         image_src="a_emoji/a_horicraft.png" 
         caption="One side of the A building from <a href='https://horibyte.is-a.dev/wiki/Horicraft/'>the original Horicraft</a>."
         author='KitSixtyFour' %}
-
-    {% include items/gallery.html 
-        image_src="a_emoji/a_8store.png" 
-        caption="An A Emoji drawn in *[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_Windows_Store_in_Windows_8.1)*."
-        author='AveryEclipse' %}
-
-    {% include items/gallery.html 
-        image_src="a_emoji/a_explorerex.png" 
-        caption="An A Emoji drawn in *[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP,_Kinda..._(ExplorerEx))*."
-        author='AveryEclipse' %}
-
-    {% include items/gallery.html 
-        image_src="a_emoji/a_nishilecat.png" 
-        caption="An A Emoji drawn in *[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*."
-        author='KitSixtyFour' %}
-    
-    {% include items/gallery.html 
-        image_src="a_emoji/a_chromeosflex.png" 
-        caption="An A Emoji drawn on the Chrome Canvas application in *[ChromeOS Flex on an \"Uncertified\" HP Laptop](ChromeOS_Flex_on_an_\"Uncertified\"_HP_Laptop)*."
-        author='AveryEclipse' %}
-    
-    {% include items/gallery.html 
-        image_src="a_emoji/a_swappingetcs.png" 
-        caption="An A Emoji drawn on GIMP in *[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*."
-        author='KitSixtyFour' %}
-    
-    {% include items/gallery.html 
-        image_src="a_emoji/a_mp98.png" 
-        caption="An A Emoji drawn on Krita in *[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*."
-        author='AveryEclipse' %}
-    
+        
     {% include items/gallery.html 
         image_src="a_emoji/a_fromnowhere.png" 
         caption="An A Emoji drawn on Microsoft Paint submitted by Kit."

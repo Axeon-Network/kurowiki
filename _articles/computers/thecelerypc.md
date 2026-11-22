@@ -6,7 +6,7 @@ redirect_from:
     - eMachines_ET1810-03
     - eMachines_ET1810_Revision_3
     - TheCeleryPC_(KitSixtyFour)
-hatnote: "This article is about Kit's main computer from 2021 to 2024. For AveryEclipse's first computer with similar specs, see [TheCeleryPC (AveryEclipse)](TheCeleryPC_(AveryEclipse))"
+hatnote: "This article is about Kit's main computer from 2021 to 2024. For AvyNeko's first computer with similar specs, see [TheCeleryPC (AvyNeko)](TheCeleryPC_(AvyNeko))"
 dyk:
     - "...that the name \"[TheCeleryPC](TheCeleryPC)\" came from its processor, as Intel Celerons are jokingly named \"Celery\" online?"
     - "...that [TheCeleryPC](TheCeleryPC) has a Windows Vista Home Basic OEM key, thus legally giving [Kit](KitSixtyFour) a Windows product key?"
@@ -47,7 +47,7 @@ Once electricity was reinstated in Honduras following an outage on 3 November 20
 
 In the [*StuffyXP Wrapped: 2024 Edition*](https://horibyte.is-a.dev/blog/2024/12/31/stuffyxp-wrapped-2024-edition.html) blog post, Kit stated that after an investigation with their dad, they eventually figured out that when power came back, it "overloaded the thing that gives DC making it no longer give DC, making some components unable to power on". Parts relying on AC (such as the fans) continued to work.
 
-StuffyXP and other of Kit's projects at the time have went on a hiatus for the following few weeks until being replaced by [Thei5Lappy](Thei5Lappy) (now known as *NishiLappy*) as Kit's main PC in late November 2024.
+StuffyXP and other of Kit's projects at the time have went on a hiatus for the following few weeks until being replaced by [Thei5Lappy](NishiLappy) (now known as *NishiLappy*) as Kit's main PC in late November 2024.
 
 ## Bottom labels
 Apparent from the computer's bottom labels (alongside the Microsoft Certificate of Authenticity sticker), the computer was used as a *game server* at some point before it was given to Kit, apparent by seeing how many years Kit's uncle had the computer (12 years or lower if the latter had it since 2009). Interestingly enough, the computer did not have any game server-related software when it was given to Kit, so it was used as a game server before 2021 or earlier.

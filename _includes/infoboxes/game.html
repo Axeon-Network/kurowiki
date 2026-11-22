@@ -10,7 +10,7 @@
 
     {% if include.screenshot %}
     <div class="qtz-infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.screenshot }}" class="qtz-infobox-img qtz-infobox-server-icon"> <!-- i dont CARE if its the server one, it works. -->
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.screenshot }}" class="qtz-infobox-img qtz-infobox-icon"> <!-- i dont CARE if its the server one, it works. -->
          <div class="qtz-infobox-img-caption">{{ include.caption | default: 'Screenshot' | remove: '<p>' | remove: '</p>' | markdownify }}</div>
     </div>
     {% endif %}

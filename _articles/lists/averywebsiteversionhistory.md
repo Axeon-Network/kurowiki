@@ -1,16 +1,22 @@
 ---
-title: AveryWebsite version history
-permalink: AveryWebsite_version_history
+title: AvySite version history
+permalink: AvySite_version_history
 redirect_from:
-hatnote: "Main article: [AveryWebsite](AveryWebsite)"
+hatnote: "Main article: [AvySite](AvySite)"
 ---
-This is a list of all released versions of *[AveryWebsite](AveryWebsite)* and their changelogs, as of September 2026, from latest to earliest.
+This is a list of all released versions of *[AvySite](AvySite)* and their changelogs, as of November 2026, from latest to earliest.
 
-The changelogs of all versions before and including v3.3.1 are inherited from AveryWebsite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
+The changelogs of all versions before and including v3.3.1 are inherited from AvySite's changelog page, which was deprecated as of November 2025. They've been all archived here for historical purposes.
 
 {% include items/tableofcontents.html %}
 
 # Version 26.x
+## 26.11
+Released on 16 November 2026, it brings fixes and enhancements in the Fallback Layout, as well as other small changes.
+
+## 26.10
+Released on 26 October 2026, the main change in this version is the replacement of all references to AveryEclipse with "avyneko", as well as other small changes.
+
 ## 26.9.3
 Released on 26 September 2026, it was a minor update to the previous version, filling out the proper model of [Ellara](Ellara) in the Devices page (HP Laptop 14s-fq0027nq instead of HP Laptop 14s-fq0xxx).
 

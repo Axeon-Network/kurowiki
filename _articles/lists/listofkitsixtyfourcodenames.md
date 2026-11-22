@@ -24,6 +24,9 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 **Atheros**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preliminary name for *[KitSixtyFour Arctic](KitSixtyFour_Arctic)*.
 
+**[Artemis](Artemis)**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An internal successor to *[HoriWebsite](HoriWebsite)*, which features a *Watercolor*-like interface, like the visual style present in [Windows Whistler build 2419](https://betawiki.net/wiki/Windows_XP_build_2419)
+
 **Atsura**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cancelled Minecraft server that would've been a merger of *[Horicraft](Horicraft)* and *[Horicraft (2)](Horicraft_(2))*.
 
@@ -37,10 +40,10 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **Cairo**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The codebase semester of Axeon Deltari Release Preview 1.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The codebase semester of Axeon Quartz Release Preview 1.
 
-**[Cuber](Cuber)**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An internal successor to *[HoriWebsite](HoriWebsite)*, which features a *Watercolor*-like interface, like the visual style present in [Windows Whistler build 2419](https://betawiki.net/wiki/Windows_XP_build_2419)
+**Cuber**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The original codename of *[Project Artemis](Artemis)*.
 
 # D
 ---

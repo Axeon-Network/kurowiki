@@ -4,7 +4,7 @@
 <div class="qtz-infobox mdl-shadow--4dp">
     {% if include.image %}
     <div class="qtz-infobox-img-container">
-            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" alt="{{ include.name }} logo" class="qtz-infobox-img">
+            <img src="{% if site.img_article_path %}{{ site.baseurl }}/{{ site.img_article_path }}{% endif %}{{ include.image }}" alt="{{ include.name }} logo" class="qtz-infobox-img qtz-infobox-icon">
          <div class="qtz-infobox-img-caption">{{ include.name | markdownify | remove_first: '<p>' | remove: '</p>' }} logo</div>
     </div>
     {% endif %}

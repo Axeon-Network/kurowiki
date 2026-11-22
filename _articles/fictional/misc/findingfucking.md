@@ -7,7 +7,7 @@ dyk:
     - "...that a sequel to *[Finding Fucking](Finding_Fucking)* was planned following the introduction of [KitsuMC](KitsuMC)?"
 ---
 
-***Finding Fucking*** is a 2025 short documentary film produced by the [Axeon Network](Axeon_Network) and created by [DHI Pictures](Dogui_Heavy_Industries_Incorporated#dhi-pictures) (in reality, created by *[Kit](KitSixtyFour)* and *[AveryEclipse](AveryEclipse)*). The movie is about finding the city of [Fucking](Fucking,_Novaland) in the [NekoCraft](NekoCraft) Minecraft server.
+***Finding Fucking*** is a 2025 short documentary film produced by the [Axeon Network](Axeon_Network) and created by [DHI Pictures](Dogui_Heavy_Industries_Incorporated#dhi-pictures) (in reality, created by *[Kit](KitSixtyFour)* and *[AvyNeko](AvyNeko)*). The movie is about finding the city of [Fucking](Phoenix) in the [NekoCraft](NekoCraft) Minecraft server.
 
 It was released on 2 October 2025 as a premiere in the Axeon Network Voice Chat. After that, it was released on the Axeon Network website as a free-to-watch video file. It is viewable at [axeon-network.github.io/media/etc/FindingFucking.mp4](https://axeon-network.github.io/media/etc/FindingFucking.mp4).[^1]
 
@@ -115,8 +115,8 @@ This section includes logos and promotional posters of the movie.
         
     {% include items/gallery.html 
         image_src="findingfucking/poster6.png" 
-        alt_text="Poster #6, featuring Kit and AveryEclipse" 
-        caption="Poster #6, featuring Kit and AveryEclipse"
+        alt_text="Poster #6, featuring Kit and AvyNeko" 
+        caption="Poster #6, featuring Kit and AvyNeko"
         author='KitSixtyFour'
         style="" %}
 </gallery>

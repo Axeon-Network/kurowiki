@@ -4,6 +4,16 @@ permalink: NovaServer
 hatnote: This article is a stub and will be finished in Release Candidate 2.
 ---
 
+{% include infoboxes/server.html
+name='NovaServer'
+owner='[KitSixtyFour](KitSixtyFour)'
+platform='Stoat'
+creationDate='2025-07-19'
+openedDate='2025-07-26'
+type='Public'
+memberCount='15'
+%}
+
 **NovaServer** is a server on the Discord alternative [Stoat](https://stoat.chat) (formerly revolt.chat). The server existed since 19 July 2025 as a spiritual successor to the original Stoat [HoriServer](HoriServer), and was publicly announced on the [Axeon Network](Axeon_Network) Discord and Stoat servers on 26 July 2025.
 
 Just like with HoriServer, it was created as a result of [Kit](KitSixtyFour) taking a break from Discord, which later evolved into a general break from the internet throughout August 2025 as their IRL situation continued worsening. During this time, NovaServer was Kit's sole means of communication with occasional check-ins every now and then until the official end of their internet break in 28 August.

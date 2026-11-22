@@ -25,23 +25,23 @@ initialVersionReleaseDate='2024-06-22'
 currentVersion='1.1'
 currentVersionReleaseDate='2024-06-27'
 sourceModel='Open source'
-repoLink='[snowybifox/stuffyxp-website](https://github.com/snowybifox/stuffyxp-website)'
+repoLink='[marshallkitblep/stuffyxp-website](https://github.com/marshallkitblep/stuffyxp-website)'
 repoHost='GitHub'
 status='Source code archived; website accessible'
-link='[snowybifox.github.io/stuffyxp-website/stuffywebsitewou](https://snowybifox.github.io/stuffyxp-website/stuffywebsitewou)'
+link='[marshallkitblep.github.io/stuffyxp-website/stuffywebsitewou](https://marshallkitblep.github.io/stuffyxp-website/stuffywebsitewou)'
 image='stuffyswebsite/home.png'
 successor='*[StuffyXP Website](StuffyXP_Website)*'
 %}
 
 ***Stuffy's Website*** (commonly known as ***StuffyWebsite WOU*** to differentiate it from its [predecessor](Stuffy's_Website_(February_2024))) was [KitSixtyFour](KitSixtyFour)'s personal website from June 2024 to August 2024. It was succeded by the *[StuffyXP Website](StuffyXP_Website)* in September 2024.
 
-The website is currently available at [snowybifox.github.io/stuffyxp-website/stuffywebsitewou](https://snowybifox.github.io/stuffyxp-website/stuffywebsitewou), previously being available at *[HoriWebsite](HoriWebsite)*'s domain, and `stuffyxp.github.io`.
+The website is currently available at [marshallkitblep.github.io/stuffyxp-website/stuffywebsitewou](https://marshallkitblep.github.io/stuffyxp-website/stuffywebsitewou), previously being available at `stuffyxp.github.io` and later at *[HoriWebsite](HoriWebsite)*'s domain.
 
 # Development
 
-Shortly after [the original *Stuffy Website*](Stuffy's_Website_(May_2024)) source code was lost, Kit restarted the development of the new website, this time with the same name, as it was a ""rewrite"".
+Shortly after [the original *Stuffy Website*](Stuffy's_Website_(May_2024)) source code was lost, Kit restarted development of the new website, this time with the same name, as it was a ""rewrite"".
 
-Kit used the same tools that they used in the previous iteration of the website, that is, the [Bulma](https://bulma.io) CSS Framework and [Jekyll](https://jekyllrb.com). Since Bulma v2.0 was recently released the time, Kit used a tabbed layout as the new interface of their website. The interface somewhat resembeled [KayAurora](KayAurora)'s [LynxWebsite](LynxWebsite).
+Kit used the same tools that they used in the previous iteration of the website, that is, the [Bulma](https://bulma.io) CSS Framework and [Jekyll](https://jekyllrb.com). Since Bulma v2.0 was recently released the time, Kit used a tabbed layout as the new interface of their website. The interface somewhat resembeled [AvyNeko](AvyNeko)'s *[LynxWebsite](LynxWebsite)*.
 
 Development of Stuffy's Website was finished on 24 June 2024.
 
@@ -51,7 +51,7 @@ A public beta release of the website was released on 22 June 2024 as a way to te
 
 These issues consisted of the website's font being italic in Chromium-based browsers, the favicon not loading in Firefox-based browsers, the 404 page not using the main page layout, a proper mobile experience being unavailable, Markdown being broken and the buttons not having a transparent background.
 
-The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/)
+The website was archived the same day and is viewable at [web.archive.org/web/20240622170614/https://stuffyxp.github.io/](https://web.archive.org/web/20240622170614/https://stuffyxp.github.io/).
 
 <gallery>
     {% include items/gallery.html 
@@ -63,7 +63,7 @@ The website was archived the same day and is viewable at [web.archive.org/web/20
 
 ## Week One Update
 
-**Stuffy's Website: Week One Update** (commongly abbreviated as **Week One Update** or **WOU**) is the first and only update to Stuffy's Website. It was released on 27 June 2024.
+**Stuffy's Website: Week One Update** (commongly abbreviated as **Week One Update** or **WOU**), also known as Version 1.1, is the first and only update to Stuffy's Website. It was released on 27 June 2024.
 
 It mainly consisted of bugfixes, favicon linking fixes and a proper mobile UI.
 

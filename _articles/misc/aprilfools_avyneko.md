@@ -1,10 +1,10 @@
 ---
-title: April Fools in the AveryEclipse universe
-permalink: April_Fools_in_the_AveryEclipse_universe
+title: April Fools in the AvyNeko universe
+permalink: April_Fools_in_the_AvyNeko_universe
 hatnote: "This article is a stub and will be probably finished in Release Candidate 2."
 ---
 
-[April Fools](https://en.wikipedia.org/wiki/April_Fools'_Day) is an annual tradition marked on the first day of April. In the [AveryEclipse](AveryEclipse) universe, the first year April Fools was celebrated was in 2018, and has continued to be observed every year to this day, except for 2020.
+[April Fools](https://en.wikipedia.org/wiki/April_Fools'_Day) is an annual tradition marked on the first day of April. In the [AvyNeko](AvyNeko) universe, the first year April Fools was celebrated was in 2018, and has continued to be observed every year to this day, except for 2020.
 
 # 2026
 In 2026, April Fools was marked by a name change of the [Axeon Network](Axeon_Network#Discord_Server) Discord Server to "Akshion Netwok" with a "distorted-looking" server icon made in Microsoft Paint. An "supah megea ultrea admon" role was created to which any non-admin could apply on request, which however did not have any special permissions like the real Admin.

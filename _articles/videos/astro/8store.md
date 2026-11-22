@@ -13,20 +13,18 @@ channel='[AstroNT](AstroNT)'
 alttitle='The Return of the Windows Store in Windows 8.1?!<br>You Can Still Install Metro Apps on Windows 8.1 in 2026!'
 codename='8Store'
 platform='YouTube'
-views='32,672'
+views='44,869'
 relISO='2026-02-15'
 reldate='15 February 2026'
 link='https://youtu.be/YdZhdkPzCoQ'
 image='8store/thumbnail.png'
 %}
 
-***The Return of the Windows Store in Windows 8.1?! (8Store)***[^1] (codenamed *8Store*) is an [AstroNT](AstroNT) video made by [AveryEclipse](AveryEclipse), primarily focused on reviewing the Windows 8.1 Store revival project app *8Store* but also around sideloading of Windows 8.1 "modern apps" (also known as Metro Apps) in general.
+***The Return of the Windows Store in Windows 8.1?! (8Store)***[^1] (codenamed *8Store*) is an [AstroNT](AstroNT) video made by [AvyNeko](AvyNeko), primarily focused on reviewing the Windows 8.1 Store revival project app *8Store* but also around sideloading of Windows 8.1 "modern apps" (also known as Metro Apps) in general.
 
-Initial plannings for this video date back to late December 2025, when Avery stumbled upon a post about 8Store on Reddit. It was then shared on and briefly discussed on the private Discord server [AstroNT Datacenter](AstroNT#AstroNT_Datacenter), as Avery considered it of "interesting nature" enough to warrant its own video.
+Initial plannings for this video date back to late December 2025, when Avery stumbled upon a post about 8Store on Reddit. It was then shared on and briefly discussed on the private Discord server [MiloNXl](MiloNXl) (then-known as "AstroNT Datacenter"), as Avery considered it of "interesting nature" enough to warrant its own video.
 
-The debut of [TheHaswellLappy](TheHaswellLappy) on the AstroNT channel, recordings for what was considered by Avery "the first AstroNT video to use real hardware instead of virtual machines" generally took place around 3-5 February 2026, with video editing done on 12-14 February 2026.
-
-As of May 2026, the video had gotten over 30,000+ views, the most popular of all AstroNT videos.
+Recordings of this video generally took place around 3-5 February 2026, with video editing done on 12-14 February 2026. As of November 2026, the video has gotten over 40,000+ views, and is currently the most popular AstroNT video.
 
 The view count has especially started to soar since 22 February 2026, when it also became the most popular video, overtaking the previous title holder, that of the first proper AstroNT video, *[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista)* by [Kit](KitSixtyFour) with 510+ views at the time.
 

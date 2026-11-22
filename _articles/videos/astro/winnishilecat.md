@@ -71,7 +71,7 @@ Similarly to other famous bootlegs (such as *[Gold Windows XP 2016](https://crus
 - A message by Avast Antivirus stating that license number is not valid will open at startup.
 
 # Name
-The bootleg's name is a mock to many Windows bootlegs' names, which commonly include the year they were made in, the theme about the bootleg, and additionally many other unrelated artifacts. The bootleg is loosely themed around Nishi and LeCat, two cats (owned by KitSixtyFour and [Avery](AveryEclipse) respectively) originating from the *[KitsuMC](KitsuMC)* Minecraft server, which warrants their inclusion.
+The bootleg's name is a mock to many Windows bootlegs' names, which commonly include the year they were made in, the theme about the bootleg, and additionally many other unrelated artifacts. The bootleg is loosely themed around Nishi and LeCat, two cats (owned by KitSixtyFour and [AvyNeko](AvyNeko) respectively) originating from the *[KitsuMC](KitsuMC)* Minecraft server, which warrants their inclusion.
 
 In the other part, "Edition 2026" is a nod to many bootlegs' name that have included their year of creation on their name, such as *[Gold Windows XP 2016](https://crustywindo.ws/Gold_Windows_XP_2016)*. "Version 2003" and "R2" are references to [Windows XP 64-Bit Edition, Version 2003](https://betawiki.net/wiki/Windows_XP_64-Bit_Edition#Version_2003) and [Windows Server 2008 R2](https://betawiki.net/wiki/Windows_Server_2008_R2) respectively, and were added just for fun.
 
@@ -123,7 +123,7 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
    {% include items/gallery.html
    image_src="winnishilecat/setupinstalling.png"
    caption="Installing Windows"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
 </gallery>
 
@@ -142,12 +142,12 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
    {% include items/gallery.html
    image_src="winnishilecat/oobe1.png"
    caption="User name and picture"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/oobe2.png"
    caption="Computer name and background"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/oobe3.png"
@@ -195,7 +195,7 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
 {% include items/gallery.html
    image_src="winnishilecat/boot.png"
    caption="Boot screen"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/firstlogon.png"
@@ -205,7 +205,7 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
    {% include items/gallery.html
    image_src="winnishilecat/logon2.png"
    caption="Ditto"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/activatewindows.png"
@@ -220,32 +220,32 @@ In the other part, "Edition 2026" is a nod to many bootlegs' name that have incl
    {% include items/gallery.html
    image_src="winnishilecat/firstboot.png"
    caption="First boot"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/desktop.png"
    caption="Desktop"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/desktop2.png"
    caption="Ditto, background applied"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/startmenu.png"
    caption="Start menu (All programs)"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/fileexplorer.png"
    caption="Windows Explorer"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/systemprop.png"
    caption="System Properties"
-   author="AveryEclipse"
+   author="AvyNeko"
    %}
    {% include items/gallery.html
    image_src="winnishilecat/winver.png"

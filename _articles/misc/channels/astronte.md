@@ -9,8 +9,8 @@ hatnote: This article is about the secondary channel, for the channel shortly kn
 logo='astronte/logo.png'
 pfp='astronte/pfp.png'
 name='AstroNT Embedded'
-creator='[KitSixtyFour](KitSixtyFour) (Google Account)<br>[AveryEclipse](AveryEclipse) (YouTube channel)'
-maintainers='KitSixtyFour<br>AveryEclipse'
+creator='[KitSixtyFour](KitSixtyFour) (Google Account)<br>[AvyNeko](AvyNeko) (YouTube channel)'
+maintainers='KitSixtyFour<br>AvyNeko'
 videos='5'
 subs='39'
 views='545'
@@ -21,14 +21,19 @@ link='[youtube.com/@AstroNTEmbedded](https://youtube.com/@AstroNTEmbedded)'
 %}
 
 
-**AstroNT Embedded**, commonly shortened to **AstroNTe**, is a YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse) created and launched on 6 June 2026. It is the sidekick channel to [AstroNT Workstation](AstroNT), serving as "an extras channel".
+**AstroNT Embedded**, commonly shortened to **AstroNTe**, is a YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AvyNeko](AvyNeko) created and launched on 6 June 2026. It is the sidekick channel to [AstroNT Workstation](AstroNT), serving as "an extras channel".
 
 The channel was created as a response to the amount of unused AstroNT material that wouldn't qualify as "a main channel release". It is named after [Windows NT Embedded 4.0](https://betawiki.net/wiki/Windows_NT_Embedded_4.0), following the gimmick of "a smaller channel [to dump stuff on]", similar to the "a smaller version of Windows NT" gimmick of Windows Embedded itself. The channel's branding follows a gray-scale version of the original AstroNT branding, alongside the "Embedded" subtitle.
 
 # Series
-{% include items/embed.html
-image_src='astronte/rawcut.png'
-caption='RawCuts wordmark' %}
+<gallery>
+    {% include items/gallery.html
+        image_src="astronte/rawcut.png"
+        caption="RawCuts wordmark" %}
+    {% include items/gallery.html
+        image_src="astronte/trashed.png"
+        caption="Trashed wordmark" %}
+</gallery>
 
 To easily categorise the different types of content uploaded to the channel, several categories or "series" were created:
 
@@ -37,7 +42,7 @@ To easily categorise the different types of content uploaded to the channel, sev
 - ***Extras*** are extra footage from videos. Unlike Rawcuts, these are usually content shot *after* the original footage.
 
 # Videos
-As of September 2026, eight videos have been uploaded to the channel.
+As of November 2026, eleven videos have been uploaded to the channel.
 
 - ***RAWCUTS: SuperTux [Swapping Etcs]*** (uploaded 2026-06-10)
 - ***RAWCUTS: Quadrapassel [Swapping Etcs]*** (uploaded 2026-06-10)
@@ -47,6 +52,9 @@ As of September 2026, eight videos have been uploaded to the channel.
 - ***RAWCUTS: Camtasia Studio 7 [Windows on Android]*** (uploaded 2026-09-01)
 - ***RAWCUTS: 2048 + Four-in-a-Row [8Store Video]*** (uploaded 2026-09-02)
 - ***RAWCUTS: Android 5 Easter Egg [Android x86 Video]*** (uploaded 2026-09-02)
+- ***TRASHED: What happens if you run macOS Boot Camp in a VM?*** (uploaded 2026-10-14)
+- ***TRASHED: The Original Version of Yr30828*** (uploaded 2026-11-12)
+- ***RAWCUTS: Avery plays Minesweeper! [Reviving 8.1 Store]*** (uploaded 2026-11-13)
 
 <!-- - ***TRASHED: The original version of NewShell*** (uploaded 2026-??-??) -->
 

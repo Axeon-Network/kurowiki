@@ -7,7 +7,7 @@ hatnote: "This article is a stub and will be probably finished in Release Candid
 {% include infoboxes/site.html
 name="LynxWebsite"
 formerly='Lynxmic Website (2023)'
-developer='[AveryEclipse](AveryEclipse)'
+developer='[AvyNeko](AvyNeko)'
 writtenin='HTML/CSS/JS, Ruby+Jekyll'
 type='Personal Website'
 initialVersion='1.0'
@@ -15,20 +15,20 @@ initialVersionReleaseDate='2023-08-26'
 currentVersion='2.1'
 currentVersionReleaseDate='2024-04-25'
 sourceModel='Open source'
-repoLink='[AveryEclipse/lynxwebsite](https://github.com/AveryEclipse/lynxwebsite)'
+repoLink=''
 repoHost='GitHub'
-status='Source code archived; website unavailable'
+status='Discontinued; website and source code unavailable'
 link='[lynxmic.github.io](https://lynxmic.github.io)'
 image='lynxwebsite/07-2024.png'
-successor='*[AveryWebsite](AveryWebsite)*'
+successor='*[AvySite](AvySite)*'
 predecessor='*[Solarix Website](Solarix_Website)* <small>(2017-2019)</small>'
 %}
 
-***LynxWebsite*** (also known as ***Lynxmic Website*** or after its URL name of **lynxmic.github.io**) was [AveryEclipse](AveryEclipse)'s personal website from August 2023 to July 2024, when it merged with the [Lynxmic Blog](Lynxmic_Blog) project to form [AveryWebsite](AveryWebsite).
+***LynxWebsite***, also known as ***Lynxmic Website*** or after its URL of `lynxmic.github.io`, was [AvyNeko](AvyNeko)'s personal website from August 2023 to July 2024, when it merged with the [Lynxmic Blog](Lynxmic_Blog) project to form [AvySite](AvySite).
 
-Developed with Jekyll using the Bulma CSS framework and hosted on GitHub Pages, it was initially meant to serve as a replacement for AveryEclipse's Linktree page, rather serving as a landing page with links to social media and other projects, and of course, the blog.
+Developed with Jekyll using the Bulma CSS framework and hosted on GitHub Pages, it was initially meant to serve as a replacement for AvyNeko's Linktree page, rather serving as a landing page with links to social media and other projects, and of course, the blog.
 
-Initial development dates back to early July 2023, before fully replacing the Lynxmic Blog as the lynxmic.github.io homepage entirely in late August 2023, with a beta available for a short period of time.
+Initial development dates back to early July 2023, before fully replacing the Lynxmic Blog as the `lynxmic.github.io` homepage entirely in late August 2023, with a beta available for a short period of time.
 A "v2.0" redesign followed on 1 January 2024, where the website saw a transformation from being just a page with links to an all-round personal website, then on 25 April 2024 followed another notable redesign where it switched from a scroll layout to a tabbed layout, with features such a Light/Dark Mode switcher added to take advantage of the features of then-recently-released Bulma v1.
 
 <gallery>

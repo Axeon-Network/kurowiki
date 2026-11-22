@@ -2,9 +2,9 @@
 title: AstroNT
 permalink: AstroNT
 redirect_from: AstroNT_Workstation
-hatnote: For the project that was also codenamed "StuffyXP 2", see [HoriWebsite](HoriWebsite). For the sidekick channel, see [AstroNT Embedded](AstroNT_Embedded). For the Discord server, see [AstroNT Datacenter](AstroNT_Datacenter).<br>This article is unfinished and will be completed in Release Candidate 2.
+hatnote: For the project that was also codenamed "StuffyXP 2", see [HoriWebsite](HoriWebsite). For the sidekick channel, see [AstroNT Embedded](AstroNT_Embedded). For the Discord server, see [AstroNT Datacenter](AstroNT_Datacenter).<br>For a complete list of AstroNT videos, see [List of AstroNT videos](List_of_AstroNT_videos).<br>This article is unfinished and will be completed in Release Candidate 2.
 dyk:
-    - "...that the [Horibyte](KitSixtyFour) star used in the [AstroNT](AstroNT) logo actually comes from the [Stuffy Website](Stuffy's_Website_(June_2024))?"
+    - "...that the star in the [AstroNT](AstroNT) logo actually comes from the [Horibyte](KitSixtyFour) branding, which itself came from the [Stuffy Website](Stuffy's_Website_(June_2024))?"
     - "...that [AstroNT](AstroNT) was once almost called AsteroidNT?"
 ---
 
@@ -14,10 +14,10 @@ banner='astront/banner.png'
 pfp='astront/logo.png'
 name='AstroNT'
 creator='[KitSixtyFour](KitSixtyFour)'
-maintainers='[KitSixtyFour](KitSixtyFour)<br>[AveryEclipse](AveryEclipse)'
-videos='20 (including streams)'
-subs='1,010'
-views='90,373'
+maintainers='[KitSixtyFour](KitSixtyFour)<br>[AvyNeko](AvyNeko)'
+videos='30 (including streams)'
+subs='1,677'
+views='241,118'
 platform='YouTube'
 state='Active'
 creationdate='17 September 2025'
@@ -26,7 +26,7 @@ link='[youtube.com/@AstroNTWorkstation](https://youtube.com/@AstroNTWorkstation)
 predecessor='[StuffyXP](StuffyXP)<br>[Lynxmic](Lynxmic)'
 %}
 
-**AstroNT**, formally **AstroNT Workstation** (known as *StuffyXP 2* prior to its public reveal) is a tech-focused YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AveryEclipse](AveryEclipse) created on 17 September 2025 and launched on 25 October 2025. It is the official successor to [StuffyXP](StuffyXP) and [Lynxmic](Lynxmic).
+**AstroNT**, formally **AstroNT Workstation** (known as *StuffyXP 2* prior to its public reveal) is a tech-focused YouTube channel ran and owned by [KitSixtyFour](KitSixtyFour) and [AvyNeko](AvyNeko) created on 17 September 2025 and launched on 25 October 2025. It is the official successor to [StuffyXP](StuffyXP) and [Lynxmic](Lynxmic).
 
 The channel was originally teased by Kit on 20 October 2025 in the *[StuffyXP Hangout](StuffyXP_Hangout)* and *[Nishi's Den](Nishi's_Den)* Discord servers. It was officially announced in the latter on the 25th, alongside the release of the [original channel trailer](https://www.youtube.com/watch?v=Bea3xfG11fs).
 
@@ -37,7 +37,7 @@ The channel was originally teased by Kit on 20 October 2025 in the *[StuffyXP Ha
 ### Backstory
 [StuffyXP](StuffyXP), a tech-focused YouTube channel previously ran by Kit, began in 2020 initially as a plushie-oriented channel in its early years. Following the creation of Kit's Discord account, it was converted into a tech YouTube channel primarily focused on Microsoft Windows (more commonly known as a <span title="A portmanteau of Windows and YouTuber" style="cursor:help;text-decoration:dotted underline;">wintuber</span>), with its first video released in February 2024. Since then, it had been one of Kit's most popular projects, reaching 238 subscribers within a year, and became one of the "underdogs" between its community circle. However, the channel was officially closed on March 2025 due to Kit's decreasing mental health status, with a decision to stop "all complex activity that might stress me [Kit] out". This also affected the so-called "StuffyXP Network"--a collection of projects released under the StuffyXP umbrella, where its projects were slowly phased out, beginning with the [StuffyXP Website](StuffyXP_Website).
 
-On the other hand, the [Lynxmic](Lynxmic) channel, created and ran by [Avery](AveryEclipse), began in late 2016 being primarily tech-focused from the start. However it did not begin to meaningfully pick up in views and subscribers until early 2023, having been struggling to grow for most of its lifetime. By late 2024, the channel reached over 1,000 subscribers, becoming one of the more significant players in the wintuber niche. However the channel began to be considered largely discontinued since April 2025, also due to Avery's low interest in the channel and overall declining mental health status.
+On the other hand, the [Lynxmic](Lynxmic) channel, created and ran by [Avery](AvyNeko), began in late 2016 being primarily tech-focused from the start. However it did not begin to meaningfully pick up in views and subscribers until early 2023, having been struggling to grow for most of its lifetime. By late 2024, the channel reached over 1,000 subscribers, becoming one of the more significant players in the wintuber niche. However regular uploads have phased out after April 2025, also due to Avery's low interest in the channel and overall declining mental health status.
 
 ### Channel creation and planning
 Fast-forward a couple of months, Kit was re-organizing their personal data to prepare for a data backup since they were going to reinstall their daily driver, and came across a folder named "StuffyXP Archive". This folder contained the entire set of StuffyXP videos, alongside their original thumbnails and a JSON file hosting channel data. Shortly after revisiting the now-archived [StuffyXP Hangout](StuffyXP_Hangout) server, Kit gained nostalgia for "the good times" as dubbed by them, and decided to "try the field once again". A StuffyXP successor, publicly reffered to as *StuffyXP 2* until a proper name would've been chosen, was revealed by Kit on September 2025.
@@ -54,7 +54,7 @@ While the videos from Wave 1 wouldn't be cancelled or scrapped, it does not mean
 
 Additionally, "Replacing ProgMan", which consisted of replacing the Program Manager on Windows 3.1x with another application, was eventually merged into a larger video, titled "*[X Minutes of Useless Windows Information](X_Minutes_of_Useless_Windows_Information)*". While there were no videos on December 2025, Y10K on Linux (*[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*) and ExplorerEx (*[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP_Kinda)*) were moved to 2026.
 
-While work for VMware 12 on Vista began, Axeon Network CEO and Founder [AveryEclipse](AveryEclipse) agreed to join the AstroNT project, with their first video for the channel being NewShell. This would officially mark AstroNT as a duo project, just like Axeon Network's [KuroWiki](KuroWiki). 
+While work for VMware 12 on Vista began, Axeon Network CEO and Founder [AvyNeko](AvyNeko) agreed to join the AstroNT project, with their first video for the channel being NewShell. This would officially mark AstroNT as a duo project, just like Axeon Network's [KuroWiki](KuroWiki). 
 
 ## January-July 2026: The rise of AstroNT, 8Store and Vectras, and "Wave 2"
 While there were no videos uploaded in December 2025, plans have been set in stone for many of the 2026 videos, including 5001 via DOS (*[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*) and 8Store (*[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))*), which became additional parts of "Wave 1".
@@ -71,7 +71,7 @@ The first video to be uploaded as part of "Wave 2" was Whistler Server 2003 (*[C
 
 At this point a weekly/biweekly schedule was established. A week after Whistler Server 2003, the bootleg video was released, and after that another interim video, *[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*. 2 weeks later, PCtoVM was released, also being regarded as an interim video.
 
-In April 2026, work started for the Vectras video (*[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android?_(w/_Vectras_VM))*) which was then released on 8 May 2026 with work eventually moving to its sequel *[Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong](Windows_10_Mobile_on_an_Android_Device_but_EVERYTHING_Goes_Wrong)* which would be released 2 weeks later. Produced by AveryEclipse, both videos have gotten over 15k views combined and came to be the 4th and 3rd most popular AstroNT videos respectively with similar view counts of over 7k. A week later, the ChromeOS Flex video (*ChromeOS Flex on an "Uncertified" HP Laptop*) was also finished and uploaded on 29 May 2026, after having remained on hold for so long due to other videos more worthwhile releasing first.
+In April 2026, work started for the Vectras video (*[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android?_(w/_Vectras_VM))*) which was then released on 8 May 2026 with work eventually moving to its sequel *[Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong](Windows_10_Mobile_on_an_Android_Device_but_EVERYTHING_Goes_Wrong)* which would be released 2 weeks later. Produced by AvyNeko, both videos have gotten over 15k views combined and came to be the 4th and 3rd most popular AstroNT videos respectively with similar view counts of over 7k. A week later, the ChromeOS Flex video (*ChromeOS Flex on an "Uncertified" HP Laptop*) was also finished and uploaded on 29 May 2026, after having remained on hold for so long due to other videos more worthwhile releasing first.
 
 June 2026 saw the release of the videos (*[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*), Microsoft Bob (*[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*) and Modern Programs on 98 (*[Modern Programs in Windows 98! (w/ Linux X11 Servers)](Modern_Programs_in_Windows_98!_(w/_Linux_X11_Servers))*).
 
@@ -87,32 +87,10 @@ Along with the video schedule, finalized on 16 August, *[AstroNT Datacenter](Ast
 
 Alongside Haiku on Real HW, a new channel trailer and branding was planned to release on the same day. The channel trailer being an updated version of the one uploaded on 25 October of 2025, while the new branding (officially being *Version 1.1*) being a much darker version of the original branding.
 
+Over the course of "Wave 3", the channel would grow expontentially, starting from just a little over 1,000 subscribers in September 2026 to over 1,600 by the end of November of the same year, surpassing [Lynxmic](Lynxmic) in both the view and subscriber counts, this being a stated goal by Avery. Initial planning for Wave 3 included the videos ***[Installing Haiku on ""Unsupported"" Hardware](Installing_Haiku_on_""Unsupported""_Hardware)***, ***[Transforming Windows 11 to Windows 1.0!? (sorta)](Transforming_Windows_11_to_Windows_1.0!?_(sorta))***, ***[Swapping macOS /Library directories!](Swapping_macOS_Library_directories!)***, ***[The Microsoft Windows Year 30828 Bug](The_Microsoft_Windows_Year_30828_Bug)***, ***[Windows 3.11... on the Modern Web?](Windows_3_11_on_the_Modern_Web)***, ***[What happens if you Cancel Suspending a VMware VM? (Linux, 26H1)](What_happens_if_you_Cancel_Suspending_a_VMware_VM)*** and Useless Windows Information, to which were later added ***[The Windows "feature" Microsoft doesn't want you to see](The_Windows_"feature"_Microsoft_doesn't_want_you_to_see)***, ***[Installing Windows 8.1 & 10 RTM on Modern Hardware](Installing_Windows_8_1_10_RTM_on_Modern_Hardware)*** and ***[Making the ACTUAL Windows 8.1 Store work again!](Making_the_ACTUAL_Windows_8_1_Store_work_again!)***, the latter being the sequel to the 8Store video.
 
 # Videos
-As of September 2026, there are twenty-one videos uploaded to the AstroNT channel (excluding the [1K milestone stream](https://www.youtube.com/live/amFxXFCdGfQ) and channel trailers):
-
-- ***[Running VMware Workstation 12 on Windows Vista!](Running_VMware_Workstation_12_on_Windows_Vista!)*** (uploaded 2025-11-03)
-- ***[The Windows 95/NT 4 Shell on Windows NT 3.51! (NewShell)](The_Windows_95_NT_4_Shell_on_Windows_NT_3.51!_(NewShell))*** (uploaded 2025-11-07)
-- ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)*** (uploaded 2025-11-11)
-- ***[Discord on Windows Vista but EVERYTHING Goes Wrong](Discord_on_Windows_Vista_but_EVERYTHING_Goes_Wrong)*** (uploaded 2025-11-18)
-- ***[Running Linux in... Year 10000?](Running_Linux_in..._Year_10000?)*** (uploaded 2026-01-19)
-- ***[Installing Windows Longhorn via MS-DOS! (Post-Reset)](Installing_Windows_Longhorn_via_MS-DOS!_(Post-Reset))*** (uploaded 2026-01-25)
-- ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))*** (uploaded 2026-02-15)
-- ***[Turning Windows 11 Into Windows XP, Kinda... (ExplorerEx)](Turning_Windows_11_Into_Windows_XP_Kinda)*** (uploaded 2026-02-28)
-- ***[Converting Windows XP to "Windows Server 2003" (on RTM!)](Converting_Windows_XP_to_Windows_Server_2003_(on_RTM!))*** (uploaded 2026-03-29)
-- ***[Making a Custom Windows Bootleg](Making_a_Custom_Windows_Bootleg)*** (uploaded 2026-04-04)
-- ***[Upgrading (directly) from Windows 7 to Windows 8.1!](Upgrading_(directly)_from_Windows_7_to_Windows_8.1!)*** (uploaded 2026-04-11)
-- ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)*** (uploaded 2026-04-25)
-- ***[Can you Daily Drive Windows on Android? (w/ Vectras VM)](Can_you_Daily_Drive_Windows_on_Android)*** (uploaded 2026-05-08)
-- ***[Windows 10 Mobile on an Android Device but EVERYTHING Goes Wrong](Windows_10_Mobile_on_an_Android_Device_but_EVERYTHING_Goes_Wrong)*** (uploaded 2026-05-23)
-- ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)*** (uploaded 2026-05-29)
-- ***[Swapping Linux /etc directories!](Swapping_Linux_/etc_directories!)*** (uploaded 2026-06-10)
-- ***[Microsoft's Failed "User-Friendly" Shell for Windows (Microsoft Bob)](Microsoft's_Failed_"User-Friendly"_Shell_for_Windows_(Microsoft_Bob))*** (uploaded 2026-06-19)
-- ***[Modern Programs on Windows 98! (w/ Linux X11 Servers)](Modern_Programs_on_Windows_98!)*** (uploaded 2026-06-26)
-- ***[What happens if you upgrade the Windows XP Mode VM?](What_happens_if_you_upgrade_the_Windows_XP_Mode_VM?)*** (uploaded 2026-07-18)
-- ***[Installing Haiku on ""Unsupported"" Hardware](Installing_Haiku_on_""Unsupported""_Hardware)*** (uploaded 2026-09-10)
-- ***[Transforming Windows 11 to Windows 1.0!? (sorta)](Transforming_Windows_11_to_Windows_1.0!?_(sorta))*** (uploaded 2026-09-17)
-
+*See [List of AstroNT videos](List_of_AstroNT_videos).*
 
 # Gallery
 ## AstroNT "Version 1.1" Branding

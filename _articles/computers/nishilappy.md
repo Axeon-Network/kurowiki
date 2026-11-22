@@ -29,7 +29,7 @@ screensize='13.3" built-in LCD'
 os='Windows 7 Enterprise E Service Pack 1'
 %}
 
-The **NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February of 2017. It is the successor to [TheCeleryPC](TheCeleryPC), and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026. It was succedded by [CometLappy](CometLappy) on 27 April 2026.
+The **NishiLappy** (formerly known as **Thei5Lappy**; model *Dell Latitude 3380*) is a laptop manufactered by Dell Inc. in February of 2017. It is the successor to [TheCeleryPC](TheCeleryPC), and was [KitSixtyFour](KitSixtyFour)'s main computer from November 2024 to April 2026 and from August 2026 to present day. It was succeeded by [CometLappy](CometLappy) on 27 April 2026 for several months, with NishiLappy serving as a secondary PC between April and August 2026.
 
 {% include items/tableofcontents.html %}
 

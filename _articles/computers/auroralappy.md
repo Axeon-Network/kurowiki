@@ -7,7 +7,7 @@ hatnote: "This article is a stub."
 
 {% include infoboxes/computer.html
 name='AuroraLappy'
-owner='[AveryEclipse](AveryEclipse)'
+owner='[AvyNeko](AvyNeko)'
 manufacturer='Lenovo'
 model='IdeaPad 1 15ALC7'
 image='averylappy/desktop-sep2026.png'
@@ -24,6 +24,6 @@ screensize='DUMMY'
 os='Arch Linux & Windows 11 25H2'
 %}
 
-**AuroraLappy** (formerly known as **AveryLappy**, **KayLappy** and **clyron-lappy**) (model *Lenovo IdeaPad 1 15ALC7*), also known as just **Aurora**, is a laptop manufactured by Lenovo. The manufacture date is 24 January 2024 according to the back side of the laptop. It has been serving as [AveryEclipse](AveryEclipse)'s main PC since 4 September 2024, the most beefy computer owned by them so far, with an AMD Ryzen 7 CPU, 12GB of DDR4 RAM, and an integrated AMD Radeon RX Vega 8 with 2GB of VRAM.
+**AuroraLappy** (formerly known as **AveryLappy**, **KayLappy** and **clyron-lappy**) (model *Lenovo IdeaPad 1 15ALC7*), also known as just **Aurora**, is a laptop manufactured by Lenovo. The manufacture date is 24 January 2024 according to the back side of the laptop. It has been serving as [AvyNeko](AvyNeko)'s main PC since 4 September 2024, the most beefy computer owned by them so far, with an AMD Ryzen 7 CPU, 12GB of DDR4 RAM, and an integrated AMD Radeon RX Vega 8 with 2GB of VRAM.
 
-From the beginning since being Avery's main PC to this day, it always had a Linux-Windows dualboot, with Linux being the main operating system for day-to-day activities. Initially, it ran Debian 12 'Bookworm' before the switch to Arch Linux was made on 22 January 2025, distro still used to this day. On the Windows side, it first had installed Windows 10 22H2 before it was later replaced by Windows 11 IoT Enterprise LTSC 2024 in June 2025 and then by Windows 10 IoT Enterprise LTSC 2021 in November 2025. Currently, the version of Windows installed is Windows 11 25H2.
+From the beginning since being Avery's main PC to this day, it always had a Linux-Windows dualboot, with Linux being the main operating system for day-to-day activities. Initially, it ran Debian 12 'Bookworm' before the switch to Arch Linux was made on 22 January 2025, distro still used to this day. On the Windows side, it first had installed Windows 10 22H2 before it was later replaced by Windows 11 IoT Enterprise LTSC 2024 in June 2025 and then by Windows 10 IoT Enterprise LTSC 2021 in November 2025. Currently, the version of Windows installed is Windows 11 26H2.

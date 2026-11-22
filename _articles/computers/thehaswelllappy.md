@@ -9,7 +9,7 @@ dyk:
 
 {% include infoboxes/computer.html
 name='Amalthea'
-owner='[AveryEclipse](AveryEclipse)'
+owner='[AvyNeko](AvyNeko)'
 manufacturer='Lenovo'
 model='G50-70'
 image='amalthea/desktop-mar2026.png'
@@ -26,14 +26,14 @@ screensize='DUMMY'
 os='Windows 8.1 Pro x64'
 %}
 
-**Amalthea**, formerly known as **TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AveryEclipse](AveryEclipse)'s main PC between 2018 and 2021, and since then a secondary/testing PC.
+**Amalthea**, formerly known as **TheHaswellLappy** (model *Lenovo G50-70*) is a laptop manufactured by Lenovo in 2014. It was [AvyNeko](AvyNeko)'s main PC between 2018 and 2021, and since then a secondary/testing PC.
 
 # Naming
 At some point since late 2025 (?), the computer began to be referred to as *TheHaswellLappy*, inspired from a computer naming scheme previously used by [KitSixtyFour](KitSixtyFour) for their computers in 2024-2026, where *The* is an obligatory prefix, *Haswell* the generation of the CPU used (Intel Core i5-4210U), and *Lappy* being a common nickname for the word *laptop*.
 
-The decision to use *TheHaswellLappy* name was primarily made to avoid confusion with Kit's Dell Latitude 3380, formerly named [Thei5Lappy](NishiLappy), although on the other hand Avery's [first PC](TheCeleryPC_(AveryEclipse)) and Kit's [eMachines ET1810-03](TheCeleryPC) are both known to share the name *TheCeleryPC*, albeit retroactively in the former's case.
+The decision to use *TheHaswellLappy* name was primarily made to avoid confusion with Kit's Dell Latitude 3380, formerly named [Thei5Lappy](NishiLappy), although on the other hand Avery's [first PC](TheCeleryPC_(AvyNeko)) and Kit's [eMachines ET1810-03](TheCeleryPC) are both known to share the name *TheCeleryPC*, albeit retroactively in the former's case.
 
-Since September 2026, the laptop had began to be referred to as *Amalthea*, following a newer naming system introduced by AveryEclipse at the time.
+Since September 2026, the laptop had began to be referred to as *Amalthea*, following a newer naming system introduced by AvyNeko at the time.
 
 # History
 ## As a main PC
@@ -59,10 +59,10 @@ Amalthea began to be used as a secondary PC. In December 2021, the Windows 10 in
 
 Several other Windows 11 installs followed until October 2025, when Avery decided to install Windows 10 LTSC 2019 on it instead. In the meantime, the HDD had finally been converted from MBR to GPT around 2023-24.
 
-In early February 2026, the Windows 10 LTSC 2019 install on the 128GB SSD was wiped in place of a Windows 8.1 Pro install, which would then be used in various AstroNT videos such as ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)***, ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)***, ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)***, and most notably, ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8.1?!_(8Store))***, the most popular AstroNT video with over 40K views as of late September 2026.
+In early February 2026, the Windows 10 LTSC 2019 install on the 128GB SSD was wiped in place of a Windows 8.1 Pro install, which would then be used in various AstroNT videos such as ***[ChromeOS Flex on an "Uncertified" HP Laptop](ChromeOS_Flex_on_an_"Uncertified"_HP_Laptop)***, ***[Converting a Windows Install to a VMware VM](Converting_a_Windows_Install_to_a_VMware_VM)***, ***[Android, But It's on the x86 Architecture...](Android,_But_It's_on_the_x86_Architecture)***, and most notably, ***[The Return of the Windows Store in Windows 8.1?! (8Store)](The_Return_of_the_Windows_Store_in_Windows_8_1)***, the most popular AstroNT video with over 40K views as of November 2026.
 
 Between 27 March and 9 April 2026, the laptop was briefly considered "dead" due to an issue with the charging port, which was since sorted out. The laptop is currently not in use as Avery did not bring it with them to their current location.
 
 <!-- there is room for improvement but i am not bothering
 
-- averyeclipse -->
+- AvyNeko -->

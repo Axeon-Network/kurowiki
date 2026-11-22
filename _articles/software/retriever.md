@@ -27,7 +27,7 @@ curverISO='2026-01-12'
 status='Development halted; project on hiatus'
 %}
 
-***Comet Adventure***, also known by its codename of ***Project Retriever***[^3], is a planned role-playing game for PCs and consoles created by [KitSixtyFour](KitSixtyFour). While it is considered to be in a hiatus due to many reasons, the final version of the game was originally meant to release on 27 January 2027, while a *Demo Release* was meant to release on 12 September 2026.
+***Comet Adventure***, also known by its codename of ***Project Retriever***,[^3] is a planned role-playing game for PCs and consoles created by [KitSixtyFour](KitSixtyFour). While it is considered to be in a hiatus due to many reasons, the final version of the game was originally meant to release on 27 January 2027, while a *Demo Release* was meant to release on 12 September 2026.
 
 {% include items/tableofcontents.html %}
 

@@ -9,12 +9,20 @@ redirect_from:
 hatnote: This article is a stub and will be finished in Release Candidate 2.
 ---
 
-The **Axeon Panther Version Master Utility**, simply reffered to as **Panther** (formerly known as *TagGen* and the *Axeon Deltari Build Tag Generator*) is a component written in Ruby present in *[Akane](Akane)* (including [subquesent](Akane_Meta) [forks](KuroWiki)) and *[Project Cuber](Cuber)* designed to automatically generate a new version number after each build. It uses a modified version of the [Microsoft Windows version number format](https://betawiki.net/wiki/Build_tag) for version numbers, commonly reffered to as *build tags*. 
+{% include items/articleseries.html
+mainarticle='[Axeon Network](Axeon_Network)'
+category1name='Projects'
+category1='[Quartz](Quartz) ([KuroWiki](KuroWiki)・[Quartz Meta](Quartz_Meta))・[Orchid](Orchid)・[Panther](Panther)・[Other](Axeon_Network#Other_projects)'
+category2name='Websites'
+category2='AxeonWebsite ([2025](AxeonWebsite_(2025))・[original](AxeonWebsite_(original_release)))'
+theprefix=true
+%}
+
+The **Axeon Panther Version Master Utility**, simply reffered to as **Panther** (formerly known as *TagGen* and the *Axeon Deltari Build Tag Generator*) is a component written in Ruby and formerly JavaScript present in [Quartz](Quartz) ([including](KuroWiki) [forks](Quartz_Meta)), [Project Artemis](Artemis) and [Orchid](Orchid) designed to automatically generate a new version number after each build. It uses a modified version of the [Microsoft Windows version number format](https://betawiki.net/wiki/Build_tag) for version numbers, commonly referred to as *build tags*. 
 
 Build tags were introduced as early as [the first *KuroWiki* build](KuroWiki_build_3567_(main_wik)) but were not automatically generated with each site build until September 2025 following the release of Beta 4.
 
 # Format
-
 {% include items/embed.html image_src='panther/buildtagdemo.png' size=5 caption='Watermark/build tag guide' %}
 The Panther utility uses a custom version of the Microsoft Windows build tag format, which is `major.minor.build.delta.id.lab.timestamp`. It can be broken down to the following:
 

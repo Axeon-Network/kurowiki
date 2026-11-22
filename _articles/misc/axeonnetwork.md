@@ -11,26 +11,26 @@ redirect_from:
 {% include infoboxes/server.html
 name='Axeon Network'
 formerly='LynxPlaza<br>Lynxmic\'s Square<br>Lynxmic\'s Lodge<br>Lynx-Axeon<br>Axeon<br>Axeon Community<br>Aqua Community'
-owner='[AveryEclipse](AveryEclipse)'
+owner='[AvyNeko](AvyNeko)'
 platform='Discord<br>Stoat <small>(formerly)</small><br>Fluxer <small>(formerly)</small><br>Twitch Desktop <small>(formerly)</small><br>Steam Chat <small>(formerly)</small>'
 creationDate='2017-12-18'
 openedDate='2017-12-28'
 type='Public'
-memberCount='97 (as of 2026-09-14)'
+memberCount='98 (as of 2026-11-22)'
 link='[axeon-network.github.io](https://axeon-network.github.io)'
 logo='axeonnetwork/wordmark.png'
 %}
 
-The **Axeon Network** (more commonly known as just **Axeon**) is a network consisting of community-oriented projects. Mainly known for the Discord Server (founded on 28 December 2017 by [AveryEclipse](AveryEclipse)), it also includes the [KuroWiki](KuroWiki) project (along with the [Akane](Akane) engine).
+The **Axeon Network** (more commonly known as just **Axeon**) is an organization and public community initially founded on 28 December 2017 by [AvyNeko](AvyNeko). Mainly known for the Discord Server, it also includes the [KuroWiki](KuroWiki) project (along with the [Quartz](Quartz) engine).
 
 Social media presence of Axeon included the official Twitter Account (posting various updates and highlights from the Discord Server), as well as an YouTube channel known as *Axeon Productions* during 2020.
 
 {% include items/tableofcontents.html %}
 
 # Discord Server
-Initially known as Aqua Community, the Axeon Network server was created on 18 December 2017, but wouldn't open until 10 days later, allowing AveryEclipse to come up with ideas and an overall strategy for the server.
+Initially known as Aqua Community, the Axeon Network server was created on 18 December 2017, but wouldn't open until 10 days later, allowing AvyNeko to come up with ideas and an overall strategy for the server.
 
-its initial scope was to serve as a spiritual successor to the [BriciWorld Lounge](BriciWorld_Lounge) (BWL) server, which was slowly collapsing. Unlike predecessors, the server has been thought to be more widely promoted as more than just being “about AveryEclipse”, with a clear own strategy of “bringing people together” from the very beginning. It was aligned with then’s reality within the server’s then-surrounding community circle, where Discord servers were often commonly named after random words, to which either “Community” or “Lounge” is appended.
+its initial scope was to serve as a spiritual successor to the [BriciWorld Lounge](BriciWorld_Lounge) (BWL) server, which was slowly collapsing. Unlike predecessors, the server has been thought to be more widely promoted as more than just being “about AvyNeko”, with a clear own strategy of “bringing people together” from the very beginning. It was aligned with then’s reality within the server’s then-surrounding community circle, where Discord servers were often commonly named after random words, to which either “Community” or “Lounge” is appended.
 
 The server was renamed to Axeon Community in April 2018, and the Axeon logo has reached its current form in June 2018. By the same month, it has went past the 100 member milestone, peaking at just over 120 members in early 2019. The server had for a while also went by “Lynx-Axeon” during early-to-mid 2021, as a result of the breakaway LynxPlaza server merging back in late 2020 after having previously spun off a year prior.
 
@@ -40,9 +40,9 @@ caption="From left to right: Aqua Community (first ever server logo, late 2017),
 style="width:50%; height:auto" %}
 
 After 2020, the server has seen a decline in activity. 2022 has seen the lowest activity in the server, with only very few occasional messages per month. The server member count had gone down to around 60 members. After a prune of inactive Discord accounts, this count has gone down to just under 30.
-In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following AveryEclipse’s personal alias rebrand from Lynxmic to Clyron.
+In late 2022, an attempt to revive the server has been made, with a major revamp ditching the “Axeon” name in favor of “Lynxmic’s Square”. The server became to be revolved around the Lynxmic project. In January 2024, the server received another major revamp. The server has seen increased activity over time thanks to the substantial growth of the Lynxmic YT channel. In August 2024, the server had been renamed once more to “LynxPlaza”, reasserting the server's primary focus as being the Lynxmic project, following AvyNeko’s personal alias rebrand from Lynxmic to Clyron.
 
-In early April 2025, AveryEclipse officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Kit](KitSixtyFour)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
+In early April 2025, AvyNeko officially announced the sunsetting of the Lynxmic project in most cases. Initial plans were for LynxPlaza to eventually merge with [Kit](KitSixtyFour)’s [HoriServer (2)](HoriServer_(2)), which would become *Lyra*. However these plans were never pursued due to [HoriServer (2)’s implosion](April_2025_HoriServer_(2)_Incident).
 On 30 April 2025, LynxPlaza has been renamed to its current name of Axeon Network, shifting away from being a Lynxmic-focused server to being its own entity again. Axeon has seen another revamp with application-based joins using Discord’s native Member Application feature (later reverted in June 2025).
 Axeon Network has since de facto became a replacement for HoriServer (2), before the launch of [Nishi's Den](Nishi's_Den) in September 2025.
 
@@ -58,10 +58,10 @@ Initially, there were several bots hosted specifically for the Axeon Network ser
 # KuroWiki
 {% include items/hatnote.html content='Main article: [KuroWiki](KuroWiki)' %}
 
-**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Akane](Akane)* wiki engine initially started and developed by [Kit](KitSixtyFour) in May 2025.
-Initially started with a main purpose of documenting meanings of inside jokes and other random Kit-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and AveryEclipse-related things, since becoming a project part of the Axeon Network in September 2025.
+**KuroWiki** (previously known as **LexWiki** and **HoriWiki**) is an open-source online encyclopedia using the custom-built *[Quartz](Quartz)* wiki engine initially developed solely by [Kit](KitSixtyFour) in May 2025.
+Initially started with a main purpose of documenting meanings of inside jokes and other random Kit-related stuff, it has since expanded to a whole wiki covering a wider range of topics, including Axeon and AvyNeko-related things, since becoming a project part of the Axeon Network in September 2025.
 
-As of October 2025, KuroWiki has reached Beta 6. The latest version as of 4 December 2025 is [Build 4400](KuroWiki_build_4400).
+As of December 2025, KuroWiki has reached the Release Candidate stage. The latest version as of January 2026 is [Build 4450](KuroWiki_build_4450), known as Beta 6.01.
 
 # MidoriMC
 {% include items/hatnote.html content='Main article: [MidoriMC](MidoriMC)' %}
@@ -73,9 +73,9 @@ Roughly a week later, on 18 May 2025, AxeonMC was renamed MidoriMC and changed f
 Over time, the server had been updated to 1.21.5, then to 1.21.6 and to 1.21.7 (also supporting 1.21.8). On 1 August 2025, it was announced that MidoriMC would go offline for good, due to lack of players most of the time and thus lack of interest to keep it online. At its peak, MidoriMC had around 5 concurrent online players, this being in late May 2025.
 
 # AxeonWebsite
-**AxeonWebsite** (previously known as **AquaWebsite**) was the official website of the Axeon Network since January 2018 until July 2019, when AveryEclipse announced they were quitting coding at the time.
+**AxeonWebsite** (previously known as **AquaWebsite**) was the official website of the Axeon Network since January 2018 until July 2019, when AvyNeko announced they were quitting coding at the time.
 
-Initially built by a former member of the Axeon Network Discord Server using the Materialize CSS framework, it was later rebuilt by AveryEclipse using MDBootstrap just a few weeks later (due to Materialize not being aesthetically pleasing), iteration which would remain for the rest of the website's lifetime.
+Initially built by a former member of the Axeon Network Discord Server using the Materialize CSS framework, it was later rebuilt by AvyNeko using MDBootstrap just a few weeks later (due to Materialize not being aesthetically pleasing), iteration which would remain for the rest of the website's lifetime.
 
 AxeonWebsite was primarily designed to promote the Axeon Network Discord Server, including an About section including a list of key features of the server that make it "stand out" from others, as well as a list of all members of the Axeon Network Discord Server's staff team. It has also served as a portal to other Axeon-related stuff over time.
 
@@ -103,7 +103,7 @@ In April 2026, a new permanent iteration of the new AxeonWebsite was rolled out.
 **i.axeon** (also known as the **Axeon Image Uploader**) was a planned online image uploading service during early 2018 primarily meant to be used with ShareX. Images uploaded to the service would be under the `i.axeoncommunity.ml` subdomain ready to link on Discord or generally other places of the Internet where attaching images is otherwise not a feature.
 
 The idea was cancelled due to its complex nature, and due to the `axeoncommunity.ml` website's switch to GitHub Pages from the free web hosting service it was previously using due to issues with images not properly displaying on the website.
-No plans exist to pick up this project back, with AveryEclipse now [generally against](https://web.archive.org/web/20230123202431/https://wetdry.world/@lynxmic/109737989404381830) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
+No plans exist to pick up this project back, with AvyNeko now [generally against](https://web.archive.org/web/20230123202431/https://wetdry.world/@lynxmic/109737989404381830) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
 
 
 # Other projects

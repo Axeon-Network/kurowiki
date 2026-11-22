@@ -9,7 +9,7 @@ redirect_from:
 {% include infoboxes/bot.html
 image='orchid/logo.png'
 name='Orchid'
-owner='[AveryEclipse](AveryEclipse)'
+owner='[AvyNeko](AvyNeko)'
 platform='Discord<br>Stoat<br>Fluxer'
 launchDate='2026-07-01 <small>(Alpha)</small>'
 discontinuedDate='2026-09-13 <small>(development stopped)</small>'
@@ -17,13 +17,24 @@ type='Utility'
 state='Cancelled'
 %}
 
-**Axeon Orchid** is a cancelled bot project developed by [AveryEclipse](AveryEclipse) under the [Axeon Network](Axeon_Network) umbrella. Over the years the project had multiple purposes, however in its final form it aimed to, per-say, serve as an in-house solution to "actually make the Axeon Network a network", by linking together the three Axeon Network servers on the Discord, Stoat and Fluxer platforms.
+{% include items/articleseries.html
+mainarticle='[Axeon Network](Axeon_Network)'
+category1name='Projects'
+category1='[Quartz](Quartz) ([KuroWiki](KuroWiki)・[Quartz Meta](Quartz_Meta))・[Orchid](Orchid)・[Panther](Panther)・[Other](Axeon_Network#Other_projects)'
+category2name='Websites'
+category2='AxeonWebsite ([2025](AxeonWebsite_(2025))・[original](AxeonWebsite_(original_release)))'
+theprefix=true
+%}
+
+**Axeon Orchid** is a cancelled bot project developed by [AvyNeko](AvyNeko) under the [Axeon Network](Axeon_Network) umbrella. Over the years the project had multiple purposes, however in its final form it aimed to, per-say, serve as an in-house solution to "actually make the Axeon Network a network", by linking together the three Axeon Network servers on the Discord, Stoat and Fluxer platforms.
 
 Development of the bot itself can be traced back to early 2021, when its codebase was initially started as a v2.0 tentative for [Venus](Venus). This codebase was shortly abandoned afterward but would only be picked up on 22 June 2026 to serve as the foundation of Orchid. Several alpha and beta releases would come throughout the following months prior to the project discontinuation on 13 September 2026.
 
 The primary selling point of Orchid would've been the cross-guild chatting feature which is ""federated"" across the three chatting platforms, allowing one to talk to someone on Discord via Stoat or Fluxer and vice-versa, to which are added various other utility features like sending an announcement to all configured servers or maintain the same community rules across the 3 platforms.
 
 Although no plans existed to make the main Orchid instance available to add directly to servers, Orchid was planned to be a FOSS (free and open source sofrware) with anyone being able to freely self-host their own Orchid instance.
+
+{% include items/tableofcontents.html %}
 
 # History
 ## Planning
@@ -32,7 +43,7 @@ Original plans for Orchid date back to 2023, when it was considered as a spiritu
 
 The bot account that was to used for Orchid at this time was first added to the then-Lynxmic's Square on 28 March 2023, only to then be kicked after a few days. The same bot account was then readded again on 25 June 2023, with a (now-deleted) announcement following 2 days later where Avery (then Lynxmic) suggested Orchid would become "an integral part of the [Lynxmic's Square] server, powering some areas of the server (and maybe - in the long-term - even port Orchid to Revolt [Stoat] to use for this server's [then-existing] counterpart [later shut down in July 2023] there)".
 
-Some actual work was actually done on the Orchid bot project in June 2023, re-using an existing [Venus](Venus) rewrite codebase dating from 2021-22 which included a database powered by `better-sqlite3`, however this only consisted of replacing references to Venus with Orchid. Just like the previous tentative, the project was abandoned again after a short time and the bot account was kicked from the server in 7 July 2023 and was later repurposed in 2025 to report the online status of the [MidoriMC](MidoriMC) (and later [KitsuMC](KitsuMC)) Minecraft servers on Discord. This Orchid code has since been deleted and considered lost media.
+Some actual work was actually done on the Orchid bot project in June 2023, re-using an existing [Venus](Venus) rewrite codebase dating from 2021-22 which included a database powered by `better-sqlite3`, however this only consisted of replacing references to Venus with Orchid. Just like the previous tentative, the project was abandoned again after a short while and the bot account was kicked from the server in 7 July 2023. The bot account would later be repurposed in 2025 to report the online status of the [MidoriMC](MidoriMC) (and later [KitsuMC](KitsuMC)) Minecraft servers on Discord. This Orchid code has since been deleted and considered lost media.
 
 The idea of an Orchid bot came back to light again sometime during February 2025 after the launch of [HoriServer](HoriServer) on Stoat (then Revolt), this time as a public multi-purpose bot (similar to Venus in idea) for said chatting platform, however the project was yet again abandoned after a short while, and the Stoat bot account for Orchid was deleted in March 2025.
 

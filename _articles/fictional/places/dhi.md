@@ -13,13 +13,13 @@ redirect_from:
   caption="Headquarters of DHI Inc. in Fucking, NovaLand"
 %}
 
-**Dogui Heavy Industries Incorporated** (officially abbreviated as **DHI Inc.**) is a fictional [NovaLandese](NovaLand) company. Its main headquarters are located in [Fucking](Fucking), the capital city of [NovaLand](NovaLand).
+**Dogui Heavy Industries Incorporated** (officially abbreviated as **DHI Inc.**) is a fictional [Asterian](Asteria) company. Its main headquarters are located in [Phoenix](Phoenix), the capital of Asteria.
 
 The company was founded in June 2024 as *Dogui Heavy Coding Industries*, with its first part of the name inheriting from [Dogui](Dogui), the name of [Kit](KitSixtyFour)'s dog plushie which at the time was the logo of [StuffyXP](StuffyXP). Its first mention was on a message on a Discord Server in which Kit was in, which had attached the [Stuffy Vlogs](Stuffy_Vlogs) background from the time.
 
 In July 2024, the company was renamed *Dogui Heavy Industries Limited*, having its own motto "*When the tables suddenly turn at the Dogui Heavy Industries Headquarters, it's when you know there's a certified Stuffy Moment*".
 
-In March 2025, Dogui Heavy Industries has changed from a Limited Company to an Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in NovaLand. It has been said that works made by DHI's employees are prone to [Kit Moments](Kit_Moments).
+In March 2025, Dogui Heavy Industries has changed from a Limited Company to an Incorporation, hence its current name. It is one of the most profitable businesses founded and ran in Asteria. It has been said that works made by DHI are prone to [Kit Moments](Kit_Moments).
 
 # Subsidiaries
 {% include items/embed.html 
@@ -28,16 +28,16 @@ In March 2025, Dogui Heavy Industries has changed from a Limited Company to an I
 %}
 
 ## DHI Turtles
-**Dogui Heavy Industries Turtle Research & Observatory Center LLC** (abbreviated as **DHI Turtles LLC**) is a subsidiary of Dogui Heavy Industries Incorporated, its main goal is to rescue, preserve and study NovaLandese turtles.
+**Dogui Heavy Industries Turtle Research & Observatory Center LLC** (abbreviated as **DHI Turtles LLC**) is a subsidiary of Dogui Heavy Industries Incorporated, its main goal is to rescue, preserve and study Asterian turtles.
 
 The subsidiary was founded in January 14 2025, originally having its headquarters in Ture, Novaland before moving to Fucking. The company has raised over 1B [NSB](NovaStarbit) within the span of 1 year.
 
 ## DHI Pictures
-**Dogui Heavy Industries Home Pictures Co., Ltd** (abbreviated as **DHI Pictures**), formerly known as **Dogui Heavy Industries Movie Studio Corporation** (abbreviated as **DHI Movies Corp**) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Ture](Ture,_NovaLand), NovaLand. The company changed from DHI Movies to DHI Pictures in October 2025 following the release of [Finding Fucking](Finding_Fucking)
+**Dogui Heavy Industries Home Pictures Co., Ltd** (abbreviated as **DHI Pictures**), formerly known as **Dogui Heavy Industries Movie Studio Corporation** (abbreviated as **DHI Movies Corp**) is a NovaLandese film-making company, subsidiary of Dogui Heavy Industries Incorporated. The company's headquarters are located in Redlock, [Callisto](Callisto), Asteria. The company changed from DHI Movies to DHI Pictures in October 2025 following the release of [Finding Fucking](Finding_Fucking)
 
 DHI Pictures has released various films related to the NovaLand country, honorable filmography are "*Ture: The Nuke of the '25*" and its prequel "*Jell: a Ture of the Past*", both recieving a box office amount of 459M [NSB](NovaStarbit) separately.
 
-An actual (short) movie was released in 2 October 2025 titled *[Finding Fucking](Finding_Fucking)*, which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/finding%20fucking.mp4](https://axeon-network.github.io/media/findingfucking.mp4)
+An actual (short) movie was released in 2 October 2025 titled *[Finding Fucking](Finding_Fucking)*, which was released by the [Axeon Network](Axeon_Network)'s Voice Chat that same day. The movie has also been released on the Axeon Network website and is viewable at [axeon-network.github.io/media/etc/FindingFucking.mp4](https://axeon-network.github.io/media/etc/FindingFucking.mp4)
 
 <!-- # [Loreside](KuroWiki%3ALoreside)
 ---

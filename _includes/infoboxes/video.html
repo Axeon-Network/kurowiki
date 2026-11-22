@@ -63,7 +63,7 @@
             {% if include.link %}
             <tr>
                 <th>Link</th>
-                <td><a href="{{ include.link | remove: '<p>' | remove: '</p>' | markdownify }}">{{ include.link | remove: '<p>' | remove: '</p>' | remove: 'https://' | remove: 'http://' | markdownify }}</a></td>
+                <td><a href="{{ include.link | remove: '<p>' | remove: '</p>' }}">{{ include.link | remove: '<p>' | remove: '</p>' | remove: 'https://' | remove: 'http://' }}</a></td>
             </tr>
             {% endif %}
             </tbody>

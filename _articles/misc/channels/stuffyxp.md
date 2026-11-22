@@ -33,7 +33,7 @@ link='[youtube.com/@StuffyXP](https://youtube.com/@StuffyXP)'
 successor='[AstroNT](AstroNT)'
 %}
 
-**StuffyXP** (commonly abbreviated as **STXP**) is a tech-focused YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was succedded by [AstroNT](AstroNT) on 17 September 2025.
+**StuffyXP** (commonly abbreviated as **STXP**) is a tech-focused YouTube channel ran and operated by [KitSixtyFour](KitSixtyFour) launched on 13 March 2020. It was succeeded by [AstroNT](AstroNT) on 17 September 2025.
 
 The channel was originally closed on 16 March 2025 due to Kit's declining mental health status, deciding to "get rid of anything that caused stress". However, it was re-opened on 26 August 2026 as a side project of AstroNT's "Wave 3" initiative.
 

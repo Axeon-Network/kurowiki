@@ -11,10 +11,10 @@ aliases:
 - aboard
 ---
 
-The **A Board** (also known as the **🅰️ Board**) is a message board channel present in the [Axeon Network](Axeon_Network#Discord_Server), [Nishi's Den](Nishi's_Den), and [HoriServer (2)](HoriServer_(2)) Discord servers, and the [NovaServer](NovaServer) Stoat server. Similar to a starboard, its main functionality is sending messages reacted with an [🅰️ emoji](A_Emoji) to said channel.
+The **A Board** (also known as the **🅰️ Board**) is a message board channel present in the [AstroNT Datacenter](AstroNT_Datacenter), [Axeon Network](Axeon_Network#Discord_Server), [Nishi's Den](Nishi's_Den), and [HoriServer (2)](HoriServer_(2)) Discord servers, and the [NovaServer](NovaServer) Stoat server. Similar to a starboard, its main functionality is sending messages reacted with an [🅰️ emoji](A_Emoji) to said channel.
 
 # History
-The concept of an A Board came before the launch of [Kit](KitSixtyFour)'s HoriServer (2), on which Kit and [Avery](AveryEclipse) eventually made one.
+The concept of an A Board came before the launch of [Kit](KitSixtyFour)'s HoriServer (2), on which Kit and [Avery](AvyNeko) eventually made one.
 
 The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen at Kit's old Mastodon account.
 
@@ -25,19 +25,19 @@ The earliest picture of the A Board dates to 12 March 2025[^1] and can be seen a
         image_src="aboard/mastodonimage.png"  
         caption="Earliest available picture of the A Board. March 2025"
         style="" 
-        author='Kit64' %}
+        author='KitSixtyFour' %}
 
     {% include items/gallery.html 
         image_src="aboard/nekocafe.png"  
         caption="The A Board in NekoCafe. 16 October 2025"
         style="" 
-        author='Kit64' %}
+        author='KitSixtyFour' %}
 
     {% include items/gallery.html 
         image_src="aboard/axeon.png"  
         caption="The A Board in the Axeon Network Discord server. 16 October 2025"
         style="" 
-        author='Kit64' %}
+        author='KitSixtyFour' %}
 </gallery>
 
 #### References

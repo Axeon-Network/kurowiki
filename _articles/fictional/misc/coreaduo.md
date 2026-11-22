@@ -28,7 +28,7 @@ Canonically, the processor family was manufactured by [Dogui Heavy Industries In
 Eight generations were developed for the Core A family until its discontinuation in 2014: *[Conroe](https://en.wikipedia.org/wiki/Conroe_(microprocessor))*, *[Penryn](https://en.wikipedia.org/wiki/Penryn_(microarchitecture))*, *[Nehalem](https://en.wikipedia.org/wiki/Nehalem_(microarchitecture))*, *[Westmere](https://en.wikipedia.org/wiki/Westmere_(microarchitecture))*, *[Sandy Bridge](https://en.wikipedia.org/wiki/Sandy_Bridge)*, *[Ivy Bridge](https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture))*, *[Haswell](https://en.wikipedia.org/wiki/Haswell_(microarchitecture))* and *[Broadwell](https://en.wikipedia.org/wiki/Broadwell_(microarchitecture))*. The processor family was succeeded by the Intel Core A2 series in 2011. A sub-family, Intel Core A Centrino, was released in May 2008 as a higher-performance alternative to Electron.
 
 # Public appearances
-As of September 2026, the parody has been featured in two [AstroNT](AstroNT) videos, *[The Year 30828 Bug](The_Year_30828_Bug)* and *[Quirky Setup Behaviour](Quirky_Setup_Behaviour)*.
+As of October 2026, the parody has been featured in one [AstroNT](AstroNT) video, *[The Microsoft Windows Year 30828 Bug](The_Microsoft_Windows_Year_30828_Bug)*.
 
 # Usage guide
 While the processor does not exist, it can be applied to any virtual machine powered by VMware Workstation by editing the VM's `.vmx` file. Follow these steps:
