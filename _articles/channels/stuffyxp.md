@@ -112,7 +112,7 @@ On November 2024, StuffyXP (and the rest of Kit's projects) officially went on a
 A couple of days later, *[Geometry Dash... on Windows Vista!?](Geometry_Dash..._on_Windows_Vista!?)* was released, marking the return of the StuffyXP channel. However, this video caused problems since it was falsely striked by YouTube for "harmful and dangeorus content" twice, in the meanwhile, the StuffyXP Extras channel was used for updates regarding the situation, however, it was appealed at the same day, and ended up reinstated a day later. On the 21st of December, *[Using Windows 11 for the first time!](Using_Windows_11_for_the_first_time!)* was released as "an early christmas gift", and was released to critical acclaim.
 
 ## 2025: The fall and closure of StuffyXP
-On New Year's 2025, the StuffyXP channel went through an internal refactor, that is, the person behind was wouldn't be known as "StuffyXP" anymore, eventually splitting the identities of the channel as a whole, after [Avery](AveryEclipse) did the same with [Lynxmic](Lynxmic) on July 2024. Alongside that, *[So i installed Arch Linux the other day...](So_i_installed_Arch_Linux_the_other_day...)* was released a couple of days later, also released to critical acclaim, similar to *Using Windows 11 for the first time!*.
+On New Year's 2025, the StuffyXP channel went through an internal refactor, that is, the person behind was wouldn't be known as "StuffyXP" anymore, eventually splitting the identities of the channel as a whole, after [Avery](AvyNeko) did the same with [Lynxmic](Lynxmic) on July 2024. Alongside that, *[So i installed Arch Linux the other day...](So_i_installed_Arch_Linux_the_other_day...)* was released a couple of days later, also released to critical acclaim, similar to *Using Windows 11 for the first time!*.
 
 On February 2025, Kit (known back-then as "Horibyte") went through a major Discord break, causing a small haitus of the StuffyXP channel, and the eventual creation of the [HoriServer](HoriServer). However, *[VMware's Early Days... (v1.0-294)](VMware's_Early_Days..._(v1.0-294))* was released to critical acclaim on the 25th, and is considered one of the best StuffyXP videos by Kit themselves. Later that month, due to Kit's declining mental state, *VMware's Early Days* was meant to be the last StuffyXP video, and the channel was meant to close on the 13th of March, exactly at the channel's 5 year anniversary.
 
@@ -129,6 +129,28 @@ Nine months later, on the process of a data backup, Kit rediscovered a folder ca
 
 On 26 August 2026, the channel was re-opened as a side project of AstroNT's "Wave 3" initiative[^3], the latter marking a comeback of the AstroNT channel. Although not directly related to Wave 3, the channel was restored "due to boredom", even though it did not mark a comeback to the channel itself. StuffyXP and its sidekicks (except StuffyXP VODS, as it was deleted during the ownership process due to being "unnecessary") were fully restored on 30 August 2026.
 
+<gallery>
+    {% include items/gallery.html 
+        image_src="stuffyxp/main-nov2026.jpg"  
+        caption="StuffyXP on 23 November 2026" 
+        author='KitSixtyFour' %}
+
+    {% include items/gallery.html 
+        image_src="stuffyxp/extras-nov2026.jpg"  
+        caption="StuffyXP Extras on 23 November 2026"
+        author='KitSixtyFour' %}
+
+    {% include items/gallery.html 
+        image_src="stuffyxp/vlogs-nov2026.jpg"  
+        caption="StuffyXP Vlogs on 23 November 2026"
+        author='KitSixtyFour' %}
+
+    {% include items/gallery.html 
+        image_src="stuffyxp/games-nov2026.jpg"  
+        caption="Stuffy 64 on 23 November 2026"
+        author='KitSixtyFour' %}
+</gallery>
+
 # Username origin
 The origin of the StuffyXP name actually comes back from [Kit's old Reddit account](https://reddit.com/u/StuffyXP). In the account creation process, Kit thought of appending a Windows version to "Stuffy", as the latter wasn't available. They originally thought of `Stuffy7`, but then changed it last minute to `StuffyXP` after realizing that it might cause confusion regarding their age.
 
@@ -140,14 +162,13 @@ banner='stuffyxp/stuffyxpextrasbanner.jpg'
 name='StuffyXP Extras'
 formerly='Sttuf Blogs (2021-2023)<br>Stuffy + (2023-2024)<br>StuffyXP Plus (Mid 2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='11'
-subs='19 (estimated)'
-views='177 (estimated)'
+videos='10'
+subs='17'
+views='1,022'
 platform='YouTube'
-state='Deleted'
+state='Inactive; channel available'
 creationdate='2021-06-26'
-link='N/A (formerly youtube.com/@StuffyXPExtras)'
-deletiondate='2025-03-14'
+link='[youtube.com/@StuffyXPExtras](https://youtube.com/@StuffyXPExtras)'
 %}
 
 {% include items/hatnote.html content="For a list of StuffyXP Extras videos, see [List of StuffyXP videos § StuffyXP Extras](List_of_StuffyXP_Videos#stuffyxp-extras)." %}
@@ -164,17 +185,16 @@ Addionally, Kit has used the channel for backup purposes, such as when the Stuff
 {% include infoboxes/channel.html
 pfp='stuffyxp/stuffyxpvlogs2025.png'
 banner='stuffyxp/stuffyxpvlogsbanner2025.png'
-name='StuffyXP Extras'
+name='StuffyXP Vlogs'
 formerly='Stuffy Vlogs (2023-2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='1'
-subs='15'
-views='15'
+videos='0'
+subs='14'
+views='0'
 platform='YouTube'
-state='Deleted'
+state='Inactive; channel available'
 creationdate='2021-07-14'
-link='N/A (formerly youtube.com/@StuffyXPVlogs)'
-deletiondate='2025-03-14'
+link='[youtube.com/@StuffyXPVlogs](https://youtube.com/@StuffyXPVlogs)'
 %}
 
 {% include items/hatnote.html content="For a list of StuffyXP Vlogs videos, see [List of StuffyXP videos § StuffyXP Vlogs](List_of_StuffyXP_Videos#stuffyxp-vlogs)." %}
@@ -194,14 +214,13 @@ banner='stuffyxp/stuffy64banner2025.png'
 name='Stuffy 64'
 formerly='Stuff Life 64 (2023-2024)'
 creator='[KitSixtyFour](KitSixtyFour)'
-videos='51'
-subs='178'
-views='40,227'
+videos='50'
+subs='167'
+views='38,242'
 platform='YouTube'
-state='Deleted'
+state='Inactive; channel available'
 creationdate='2023-08-04'
-link='N/A (formerly youtube.com/@Stuffy64_)'
-deletiondate='2025-03-14'
+link='[youtube.com/@Stuffy64&#95;](https://youtube.com/@Stuffy64_)'
 %}
 
 {% include items/hatnote.html content="For a list of Stuffy 64 videos, see [List of StuffyXP videos § Stuffy 64](List_of_StuffyXP_videos#stuffy-64)" %}
@@ -221,8 +240,7 @@ The channel's content at that time included videos like the Mario & Luigi: Bowse
 Following the introduction of [Thei5Lappy](Thei5Lappy) after TheCeleryPC's death, [Geometry Dash](https://en.wikipedia.org/wiki/Geometry_Dash) videos were also uploaded, most notably level showcases, bugs, and achievements.
 
 ## StuffyXP VODS
-
-**StuffyXP VODS** was a YouTube channel owned and operated by KitSixtyFour created in 22 December 2024. Its main purpose was to archive streams from Kit, but it never eventually uploaded anything, and the latter was deleted when the StuffyXP channels were moved to their respective separate emails.
+**StuffyXP VODS** was a YouTube channel owned and operated by KitSixtyFour created on 22 December 2024. Its main purpose was to archive streams from Kit, but it never eventually uploaded anything, and the latter was deleted when the StuffyXP channels were moved to their respective separate emails.
 
 # StuffyXP Network
 Other projects have also been made throughout 2024 under the StuffyXP umbrella, officially referred to collectively as the "*StuffyXP Network*":

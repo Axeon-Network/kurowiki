@@ -256,8 +256,21 @@ Builds from this phase up did not have build numbers.
 [7.0.4706.kayaurora.260309-0025](KuroWiki_build_4706)
 7.0.4714.kayaurora.260313-0201
 7.0.4726.rc1chk.private/kitsixtyfour(kit).260314-1002
+[7.0.5194.43.kuro_rc1_prerelease.260522-1644](KuroWiki_build_5194_43)
+7.0.5200.kuro_sl1_prerelease.260827-0911
+7.0.5200.kuro_sl1_prerelease.260829-1350
+7.0.5200.kuro_sl1_prerelease.260914-1752
+7.0.5200.kuro_sl1_prerelease.260915-1311
+7.0.5200.kuro_sl1_prerelease.261107-2231
+7.0.5200.kuro_sl1_prerelease.261111-1538
+7.0.5258.kuro_sl1_prerelease.261112-2026
+7.0.5259.kuro_sl1_prerelease.261113-2050
+7.0.5293.kuro_sl1_prerelease.261119-1404
+7.0.5406.kuro_sl1_prerelease.261120-1153
+7.0.5455.kuro_sl1_prerelease.261121-1406
+7.0.5461.kuro_sl1_prerelease.261122-2206
 
-**Deltari Meta compiles**
+**Quartz Meta compiles**
 [7.0.4500.main.260113-1820](Deltari_build_4500)
 [7.0.4580.main.260113-1134](Deltari_build_4580)
 [7.0.4584.main.260113-1146](Deltari_build_4584)
@@ -269,3 +282,4 @@ Builds from this phase up did not have build numbers.
 7.0.4715.mdelta_N.260313-0401
 7.0.4720.mdelta_N.260313-2113
 7.0.4477.private/mdelta_N.260222-2026
+[7.0.5012.mdelta_N.260410-1441](KuroWiki_build_5012)

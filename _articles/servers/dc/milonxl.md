@@ -12,7 +12,7 @@ platform='Discord'
 creationDate='16 September 2025'
 createdISO='2025-09-16'
 type='Private'
-memberCount='13 (as of 2026-11-22)'
+memberCount='13 (as of 2026-11-23)'
 srvicon='milonxl/icon.png'
 %}
 

@@ -14,7 +14,7 @@ image='kurowiki0.1/image.png'
 
 **KuroWiki build 0.1** is the second known build of [KuroWiki](KuroWiki) compiled on 4 May 2025 from the `main` branch.[^1]
 
-While this build does not have any *[HoriWebsite](HoriWebsite)* leftovers (unlike the [last build](KuroWiki_build_3567_(main_wik))), it does not include any *[Deltari](Deltari)* features nor custom layouts, causing the main page display a welcome message, alongside the footer reporting this build as `HoriWiki Engine preα-0.1`.<br>However, this build can be still called a "KuroWiki" build, but it is pretty much "a stripped down *HoriWebsite*".
+While this build does not have any *[HoriWebsite](HoriWebsite)* leftovers (unlike the [last build](KuroWiki_build_3567_(main_wik))), it does not include any *[Quartz](Quartz)* features nor custom layouts, causing the main page display a welcome message, alongside the footer reporting this build as `HoriWiki Engine preα-0.1`.<br>However, this build can be still called a "KuroWiki" build, but it is pretty much "a stripped down *HoriWebsite*".
 
 This build also introduces the `HoriWiki Engine <development sign>-<version number>` version format, where `<development sign>` is a letter associated with the development phase, such as `α` for Alpha. This would be used until [build 367](KuroWiki_build_367).
 

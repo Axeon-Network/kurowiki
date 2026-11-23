@@ -24,23 +24,16 @@ It retired the background used since [Build 3615](KuroWiki_build_3615) in place 
 # Gallery
 
 <gallery>
-
     {% include items/gallery.html 
         image_src="kurowiki3842/settings.png" 
-        alt_text="" 
         caption="Settings page"
-        style="width:50%;" %}
-
+    %}
     {% include items/gallery.html 
         image_src="kurowiki3842/article.png" 
-        alt_text="" 
         caption="Article view"
-        style="width:50%;" %}
-
-
+    %}
     {% include items/gallery.html 
-        image_src="kurowiki3842/settingslight.png" 
-        alt_text="Settings with light mode enabled" 
+        image_src="kurowiki3842/settingslight.png"  
         caption="Settings with light mode enabled"
-        style="width:50%;" %}
+    %}
 </gallery>

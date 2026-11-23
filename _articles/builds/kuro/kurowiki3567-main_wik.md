@@ -28,7 +28,7 @@ Another compile of this build, namely `2.4.3567.horiwiki-pa1.250504-1052`, was c
 
 <gallery>
     {% include items/gallery.html 
-        image_src="kurowiki3567/compile.png" 
+        image_src="kurowiki3567/compile2.png" 
         caption="Alternate compile"
         style="width:50%;" %}
 </gallery>

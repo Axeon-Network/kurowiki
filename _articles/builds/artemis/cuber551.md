@@ -1,10 +1,11 @@
 ---
 title: Cuber build 551
 permalink: Cuber_build_551
+redirect_from: Artemis_build_551
 ---
 
 {% include infoboxes/build.html
-family='[Project Cuber](Cuber)'
+family='[Project Artemis](Artemis)'
 buildtag='551'
 version='0.4'
 build='551'
@@ -12,7 +13,7 @@ image='cuber551/image.png'
 image_caption='System Properties Demo Window'
 %}
 
-**Cuber build 551** is an Alpha Escrow build of *[Project Cuber](Cuber)*. Its build date and lab are unknown to this day, but it is assumed that it was compiled on the `wh-cuber_alpha_escrow` branch, since the latter still identifies as an Escrow build of the Alpha Release.
+**Cuber build 551** is an Alpha Escrow build of *[Project Artemis](Artemis)*. Its build date and lab are unknown to this day, but it is assumed that it was compiled on the `wh-cuber_alpha_escrow` branch, since the latter still identifies as an Escrow build of the Alpha Release.
 
 Since this build has the `BuildLabExt` variable disabled, the watermark only reports the build number. Alongside that, the watermark is now behind any object, which makes items like windows stay on top of it, similar to Microsoft Windows.
 

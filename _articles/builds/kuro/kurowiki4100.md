@@ -5,6 +5,7 @@ redirect_from:
     - KuroWiki_Interim_Developer_Release_1
 aliases:
     - kurowiki 4100
+hatnote: This article is unfinished and will be completed in Release Candidate 2.
 ---
 {% include infoboxes/build.html
 release_name='Interim Developer Release 4'

@@ -1,7 +1,7 @@
 ---
 title: KuroWiki build 3567 (kayaurora)
 permalink: KuroWiki_build_3567_(kayaurora)
-hatnote: "Not to be confused with [KuroWiki build 3567 (main_wik)](KuroWiki_build_3567_(main_wik)), [KuroWiki build 367 (main)](KuroWiki_build_367_(main)) or [KuroWiki build 367 (material](KuroWiki_build_367_(material))."
+hatnote: "Not to be confused with [KuroWiki build 3567 (main_wik)](KuroWiki_build_3567_(main_wik)), [KuroWiki build 367 (main)](KuroWiki_build_367_(main)) or [KuroWiki build 367 (material)](KuroWiki_build_367_(material))."
 aliases:
     - kurowiki 3567
     - kurowiki 3567 kayaurora

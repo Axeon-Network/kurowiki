@@ -12,6 +12,7 @@ toc: true
 ---
 {% include infoboxes/channel.html
 pfp='lynxmic/logo.png'
+logo='lynxmic/wordmark.png'
 author='AvyNeko'
 name='Lynxmic'
 creator='[AvyNeko](AvyNeko)'
@@ -26,7 +27,7 @@ link='[youtube.com/lynxmic](https://youtube.com/lynxmic)'
 successor='[AstroNT](AstroNT)'
 %}
 
-**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AvyNeko](AvyNeko) created on 5 December 2016. It was Avery's main channel until 23 July 2024, when it was replaced by a new channel made to serve as Avery's personal channel also called [AvyNeko](AvyNeko_(channel)), nonetheless the channel continued to be active until 2025, when it was ulimately succeeded as a tech channel by [AstroNT](AstroNT).
+**Lynxmic** (previously known as **solarixtech**, **BriciWorld** and **Computerseasons**) is a primarily-tech-focused YouTube channel ran and owned by [AvyNeko](AvyNeko) created on 5 December 2016. It was Avery's main channel until 23 July 2024, when it was replaced by a new channel made to serve as Avery's personal channel also called [AvyNeko](AvyNeko_(channel)), nonetheless regular uploads continued until 2025, when it was ultimately succeeded as a tech channel by [AstroNT](AstroNT).
 
 It is the first created of AvyNeko's main channels to be completely in the English language from the start. The channel's content includes a wide range of really anything technology-related. Newer videos primarily deal with Virtual Machines or sometimes even actual hardware playing around with Windows, Linux or any other interesting operating system, but the entire catalog also includes phone videos, as well as mainly text-only "opinion" or "tech news" videos and previously "updates" videos, discontinued in favor of just using social media and YouTube's Community Tab (now the *Posts* tab) upon rollout.
 

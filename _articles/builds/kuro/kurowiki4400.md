@@ -4,7 +4,7 @@ permalink: KuroWiki_build_4400
 redirect_from: KuroWiki_Beta_6
 aliases:
     - kurowiki 4400
-hatnote: "This article is incomplete."
+hatnote: "This article is incomplete and will be finished in Release Candidate 2."
 ---
 {% include infoboxes/build.html
 release_name='Beta Release 6'

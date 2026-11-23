@@ -16,7 +16,7 @@ platform='Discord<br>Stoat <small>(formerly)</small><br>Fluxer <small>(formerly)
 creationDate='2017-12-18'
 openedDate='2017-12-28'
 type='Public'
-memberCount='98 (as of 2026-11-22)'
+memberCount='98 (as of 2026-11-23)'
 link='[axeon-network.github.io](https://axeon-network.github.io)'
 logo='axeonnetwork/wordmark.png'
 %}
@@ -73,6 +73,11 @@ Roughly a week later, on 18 May 2025, AxeonMC was renamed MidoriMC and changed f
 Over time, the server had been updated to 1.21.5, then to 1.21.6 and to 1.21.7 (also supporting 1.21.8). On 1 August 2025, it was announced that MidoriMC would go offline for good, due to lack of players most of the time and thus lack of interest to keep it online. At its peak, MidoriMC had around 5 concurrent online players, this being in late May 2025.
 
 # AxeonWebsite
+{% include items/embed.html 
+    image_src="axeonnetwork/axeonwebsite.png"  
+    caption="AxeonWebsite in May 2019"
+%}
+
 **AxeonWebsite** (previously known as **AquaWebsite**) was the official website of the Axeon Network since January 2018 until July 2019, when AvyNeko announced they were quitting coding at the time.
 
 Initially built by a former member of the Axeon Network Discord Server using the Materialize CSS framework, it was later rebuilt by AvyNeko using MDBootstrap just a few weeks later (due to Materialize not being aesthetically pleasing), iteration which would remain for the rest of the website's lifetime.
@@ -82,29 +87,20 @@ AxeonWebsite was primarily designed to promote the Axeon Network Discord Server,
 Initially on the `aquacommunity.ml` domain, it has moved to `axeoncommunity.ml` following the rebrand from Aqua Community to Axeon Community in April 2018, domain which would remain for the remainder of the website's lifetime. As previously stated, a subdomain of the same domain was planned to be used for *i.axeon* as well.
 The website has been hosted on GitHub Pages since May 2018, and initially on a different free web hosting service, from which it migrated due to persisting issues loading media under said provider.
 
-<div class="wiki-gallery">
-    {% include items/gallery.html 
-        image_src="axeonnetwork/axeonwebsite.png" 
-        alt_text="AxeonWebsite in May 2019" 
-        caption="AxeonWebsite in May 2019"
-        style="width:40%; height:auto" %}
-        </div>
-
-A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](http://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](AveryWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
+A newer spiritual successor to the 2018-19 AxeonWebsite (but not actually related in any way) would be [**axeon-network.github.io**](https://axeon-network.github.io), based on an in-development build of [KayWebsite v3.3](AveryWebsite). This website launched in September 2025 with a single purpose of linking to various Axeon-related things for convenience, in the context of the KuroWiki project becoming part of the Axeon Network.
 
 In April 2026, a new permanent iteration of the new AxeonWebsite was rolled out.
 
+# i.axeon
 {% include items/embed.html 
     image_src="axeonnetwork/i.axeon.png" 
     caption="Proposed logo of the i.axeon service (early 2018)."
 %}
 
-# i.axeon
 **i.axeon** (also known as the **Axeon Image Uploader**) was a planned online image uploading service during early 2018 primarily meant to be used with ShareX. Images uploaded to the service would be under the `i.axeoncommunity.ml` subdomain ready to link on Discord or generally other places of the Internet where attaching images is otherwise not a feature.
 
 The idea was cancelled due to its complex nature, and due to the `axeoncommunity.ml` website's switch to GitHub Pages from the free web hosting service it was previously using due to issues with images not properly displaying on the website.
 No plans exist to pick up this project back, with AvyNeko now [generally against](https://web.archive.org/web/20230123202431/https://wetdry.world/@lynxmic/109737989404381830) using image uploading services altogether especially for Discord due to higher risk of [link rot](http://en.wikipedia.org/wiki/Link_rot) and thus media being lost.
-
 
 # Other projects
 Throughout the lifetime of Axeon, specifically in 2018-19, a couple of other community hangout spaces also existed in the form of a Twitch Desktop server, as well as a Steam Chat group. Other projects planned in 2018 but never actually made include *AxeonAuth* (a so-called "moderation bot" which is in fact actually a custom solution for member verification on Discord), *i.axeon* (a custom ShareX Image Uploader service), or *Meme FM* (a radio bot for Discord that would play “new and old” meme songs).

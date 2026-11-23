@@ -16,7 +16,7 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **Amber**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The single-gallery item component present in *[Deltari](Deltari)*. Also see [Silver](#s)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The single-gallery item component present in *[Quartz](Quartz)*. Also see [Silver](#s)
 
 **Arctic+1**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Codename for a rewrite of [the original *Arctic*](KitSixtyFour_Arctic) with 32-bit support, as seen in *[Arctic32](Arctic32)*.
@@ -51,8 +51,8 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 **DogUI**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User interface component planned for use in *Arctic* and *Arctic32*, later scrapped. It is a direct reference to [Dogui](Dogui).
 
-**[Deltari](Deltari)**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The internal codename of the *[KuroWiki](KuroWiki)* Engine.
+**Deltari**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The internal/former codename of [Axeon Quartz](Quartz).
 
 # E
 ---
@@ -157,7 +157,7 @@ This article is a list of codenames used by [KitSixtyFour](KitSixtyFour) in thei
 ---
 
 **Zetta**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A developer version of what eventually became *[Deltari](Deltari)*.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A developer version of what eventually became *[Quartz](Quartz)*.
 
 
 # References

@@ -2,7 +2,7 @@
 title: KuroWiki build 2600 (main)
 permalink: KuroWiki_build_2600_(main)
 redirect_from: KuroWiki_Beta_5
-hatnote: Not to be confused with <a href='KuroWiki_build_2600_(nekori64)'>KuroWiki build 2600 (nekori64)</a>.
+hatnote: Not to be confused with <a href='KuroWiki_build_2600_(nekori64.250927-1322)'>KuroWiki build 2600 (nekori64.250927-1322)</a> or <a href='KuroWiki_build_2600_(nekori64.251012-1610)'>KuroWiki build 2600 (nekori64.251012-1610)</a>.
 aliases:
     - kurowiki 2600
 ---

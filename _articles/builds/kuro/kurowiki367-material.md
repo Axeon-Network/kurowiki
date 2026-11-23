@@ -20,7 +20,7 @@ image_caption='Article view with drawer open'
 **KuroWiki build 367 (material)** is a Beta 1 build of [KuroWiki](KuroWiki) compiled and released on May 16 2025 at 6:40 pm.[^1] This build shares almost the same build info as its [`main`](KuroWiki_build_367_(main)) counterpart, except for its build lab.
 
 # Changes
-This is the first build to be compiled from the `material` branch, which was a branch made by [KitSixtyFour](KitSixtyFour) to develop an experimental *[Deltari](Deltari)* layout based on the *Material Design Lite* framework by Google. This layout would end up continue to be used in KuroWiki to this day.
+This is the first build to be compiled from the `material` branch, which was a branch made by [KitSixtyFour](KitSixtyFour) to develop an experimental *[Quartz](Quartz)* layout based on the *Material Design Lite* framework by Google. This layout would end up continue to be used in KuroWiki to this day.
 
 Alongside that, this build introduces a search engine (codenamed *DeltaSearch*) to the site under the name "HoriWiki Search! Beta", unlike newer builds of KuroWiki, the UI for the search box is located at the bottom of every page, but was moved to the navigation bar in [the next build](KuroWiki_build_451).
 
@@ -33,4 +33,4 @@ Alongside that, this build introduces a search engine (codenamed *DeltaSearch*) 
 </gallery>
 
 # Notes
-[^1]: The build tag shows a compilation date of May 15 2025 at 2:22pm but it wasn't compiled and released a day later, according to [commit f2c53ac](https://github.com/snowybifox/legacy-kuro/commit/f2c53ac2b01e4e2152323d408d3d42696e759e67).
+[^1]: The build tag shows a compilation date of May 15 2025 at 2:22pm but it wasn't compiled and released a day later, according to [commit f2c53ac](https://github.com/marshallkitblep/legacy-kuro/commit/f2c53ac2b01e4e2152323d408d3d42696e759e67).

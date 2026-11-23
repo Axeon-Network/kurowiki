@@ -1,10 +1,11 @@
 ---
 title: Cuber build 64
 permalink: Cuber_build_64
+redirect_from: Artemis_build_64
 ---
 
 {% include infoboxes/build.html
-family='[Project Cuber](Cuber)'
+family='[Project Artemis](Artemis)'
 buildtag='0.1.64.26-02-10_kit.260210-1551'
 version='0.1'
 build='64'
@@ -14,7 +15,7 @@ image='cuber64/image.png'
 image_caption='Main page'
 %}
 
-**Cuber build 64** is the second known build of *[Project Cuber](Cuber)*. It was compiled on 10 February 2026 at 3:51 pm from the decoy 26-02-10_kit branch.
+**Cuber build 64** is the second known build of *[Project Artemis](Artemis)*. It was compiled on 10 February 2026 at 3:51 pm from the decoy `26-02-10_kit` branch.
 
 This build introduces many major elements of the Watercolor CSS Framework (codenamed *Wh-Sheet*) used in *Cuber*, like windows and buttons, although window buttons are yet to be correctly implemented.
 

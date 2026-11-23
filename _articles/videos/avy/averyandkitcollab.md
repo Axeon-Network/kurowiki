@@ -20,7 +20,7 @@ image='kayauroraandnekoricollab/thumbnail.png'
 # Collab Structure
 The collab itself consisted of 5 total rounds, where KitSixtyFour (back then Horibyte) and avyneko (back then Clyron) remade thumbnails from their respective channels. The last round has a twist where Kit made a thumbnail for the Lynxmic channel and Avery made a thumbnail for the StuffyXP channel.
 
-<div class="wiki-gallery">
+<gallery>
     {% include items/gallery.html 
         image_src="kayauroraandnekoricollab/teaser.png" 
         caption="Initial teaser from October 2024, posted on Avery's social medias"
