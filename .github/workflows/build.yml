@@ -28,10 +28,10 @@ jobs:
           rm -rf _articles _featured _news res/img/articles
           mkdir -p _articles _featured _news res/img/articles
 
-          cp -a media/k/articles/* _articles/
-          cp -a media/k/img/* res/img/articles/
-          cp -a media/k/featured/* _featured/
-          cp -a media/k/news/* _news/
+          cp -a media/kuro/articles/* _articles/
+          cp -a media/kuro/img/* res/img/articles/
+          cp -a media/kuro/featured/* _featured/
+          cp -a media/kuro/news/* _news/
 
           rm -rf media
 
