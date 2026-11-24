@@ -25,12 +25,15 @@ jobs:
 
       - name: Sync content
         run: |
-          rm -rf _articles res/img/articles
+          rm -rf _articles _featured _news res/img/articles
+          mkdir -p _articles _featured _news res/img/articles
 
-          mkdir -p _articles res/img/articles
+          cp -a media/k/articles/* _articles/
+          cp -a media/k/img/* res/img/articles/
+          cp -a media/k/featured/* _featured/
+          cp -a media/k/news/* _news/
 
-          rsync -av --delete media/kuro/articles/ _articles/
-          rsync -av --delete media/kuro/img/ res/img/articles/
+          rm -rf media
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -39,7 +42,7 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll build
+        run: WhdBuildType=fre bundle exec jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
